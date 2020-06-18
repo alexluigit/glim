@@ -1,0 +1,59 @@
+# Use Rime only for Chinese input ( turn off ascii_mode )
+patch:
+  # Punctuator and symbols/trigger
+  "punctuator/import_preset": alex.symbols
+  "recognizer/patterns/punct": "^/([a-z]+|[0-9])$"
+
+  # Do not translate double to normal pinyin in preedit string
+  translator/preedit_format: {}
+
+  # Ctrl-hl for selecting ,Ctrl-j/k for paging candidates
+  "key_binder/bindings":
+    # - { when: always, accept: Shift+space, toggle: ascii_mode }
+    - { when: paging, accept: Control+h, send: Left }
+    - { when: has_menu, accept: Control+j, send: Page_Down }
+    - { when: paging, accept: Control+k, send: Page_Up }
+    - { when: has_menu, accept: Control+l, send: Right }
+
+  switches:
+    # - name: ascii_mode
+    #   reset: 1
+    #   states: ["中", "En"]
+    - name: full_shape
+      states: ["full", "half"]
+    - name: zh_simp
+      reset: 1
+      states: ["漢","汉"]
+    # - name: ascii_punct
+    #   states: ["，。", "，．"]
+    - name: extended_charset
+      states: ["basic", "ext"]
+    - name: show_emoji
+      reset: 1
+      states: [ "🈚️️\uFE0E", "🈶️️\uFE0F" ]
+
+  simplifier:
+    option_name: zh_simp
+
+  engine/filters:
+    - simplifier
+    - simplifier@emoji_conversion
+    - uniquifier
+
+  emoji_conversion:
+    opencc_config: emoji.json
+    option_name: show_emoji
+    tags: abc
+
+  engine/processors:
+    # - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+
+  # Loading extented dictionary
+  "translator/dictionary": luna_pinyin.extended
