@@ -11,9 +11,9 @@ patch:
   "key_binder/bindings":
     # - { when: always, accept: Shift+space, toggle: ascii_mode }
     - { when: paging, accept: Control+h, send: Left }
-    - { when: has_menu, accept: Control+j, send: Page_Down }
-    - { when: paging, accept: Control+k, send: Page_Up }
-    - { when: has_menu, accept: Control+l, send: Right }
+    - { when: has_menu, accept: Control+n, send: Page_Down }
+    - { when: paging, accept: Control+e, send: Page_Up }
+    - { when: has_menu, accept: Control+i, send: Right }
 
   switches:
     # - name: ascii_mode
