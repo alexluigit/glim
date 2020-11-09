@@ -5,7 +5,7 @@ schema:
   schema_id: double_pinyin
   version: "0.1"
   author:
-    - 无名氏
+    - Alex Lu
   description: |
     朙月拼音＋自定义双拼方案。
   dependencies:
@@ -43,52 +43,47 @@ engine:
     - punct_translator
     - reverse_lookup_translator
     - script_translator
-
   filters:
     - simplifier
     - uniquifier
 
 speller:
-  alphabet: "bpmfdtnlgkhaqxvuirzcsywaoe;j"
-  initials: "bpmfdtnlgkhaqxvuirzcsywaoe"
+  alphabet: zyxwvutsrqponmlkjihgfedcba;
   delimiter: " '"
   algebra:
     - erase/^xx$/
     - derive/^([jqxy])u$/$1v/
-    - xform/^([aoe])(.*)$/$1$1$2/
+    - derive/^([aoe])([ioun])$/$1$1$2/
+    - xform/^([aoe])(ng)?$/$1$1$2/
     - xform/^j/A/
-    - xform/^zh/V/
-    - xform/^ch/U/
-    - xform/^sh/I/
-    - xform/iang$/L/
-    - xform/iong$/R/
-    - xform/uang$/L/
-    - xform/ang$/H/
-    - xform/ong$/R/
-    - xform/eng$/D/
-    - xform/ian$/M/
-    - xform/iao$/K/
-    - xform/ing$/;/
-    - xform/uai$/F/
+    - xform/un$/Q/
+    - xform/(.)ei$/$1W/
     - xform/uan$/P/
-    - xform/ai$/S/
-    - xform/an$/N/
-    - xform/ao$/C/
-    - xform/ou$/Z/
-    - xform/ei$/W/
-    - xform/en$/T/
-    - xform/er$/R/
-    - xform/ia$/X/
-    - xform/ie$/Y/
-    - xform/in$/B/
-    - xform/iu$/Q/
-    - xform/ua$/X/
-    - xform/ue$/G/
-    - xform/ui$/V/
-    - xform/un$/J/
+    - xform/[uv]e$/G/
+    - xform/iu$/J/
+    - xform/^sh/I/
+    - xform/^ch/U/
+    - xform/^zh/V/
     - xform/uo$/O/
-    - xform/ve$/G/
-    - xlit/ABCDEFGHIJKLMNOPQRSTUVWXYZ/abcdefghijklmnopqrstuvwxyz/
+    - xform/ie$/Y/
+    - xform/i?ong$/R/
+    - xform/in$/F/
+    - xform/ing$/;/
+    - xform/(.)ai$/$1S/
+    - xform/(.)en$/$1T/
+    - xform/(.)eng$/$1D/
+    - xform/[iu]ang$/L/
+    - xform/(.)ang$/$1H/
+    - xform/ian$/M/
+    - xform/(.)an$/$1N/
+    - xform/(.)ou$/$1Z/
+    - xform/[iu]a$/X/
+    - xform/iao$/K/
+    - xform/(.)ao$/$1C/
+    - xform/ui$/V/
+    - xform/uai$/B/
+    - xlit/QWRTYUIOPSDFGHJKLZXCVBNMA/qwrtyuiopsdfghjklzxcvbnma/
+    #- abbrev/^(.).+$/$1/
 
 translator:
   dictionary: luna_pinyin
@@ -127,8 +122,6 @@ translator:
     - "xform/(^|[ '])i/$1sh/"
     - xform/([jqxy])v/$1u/
     - xform/([nl])v/$1ü/
-
-
 
 reverse_lookup:
   dictionary: stroke
