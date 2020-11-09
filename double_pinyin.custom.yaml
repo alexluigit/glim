@@ -7,13 +7,10 @@ patch:
   # Do not translate double to normal pinyin in preedit string
   translator/preedit_format: {}
 
-  # Ctrl-hl for selecting ,Ctrl-j/k for paging candidates
+  # Ctrl-n/e for paging candidates
   "key_binder/bindings":
-    # - { when: always, accept: Shift+space, toggle: ascii_mode }
-    - { when: paging, accept: Control+h, send: Left }
     - { when: has_menu, accept: Control+n, send: Page_Down }
     - { when: paging, accept: Control+e, send: Page_Up }
-    - { when: has_menu, accept: Control+i, send: Right }
 
   switches:
     # - name: ascii_mode
@@ -34,6 +31,21 @@ patch:
 
   simplifier:
     option_name: zh_simp
+
+  engine/translators:
+    - punct_translator
+    - reverse_lookup_translator
+    - script_translator
+    - table_translator@custom_phrase
+    - table_translator
+
+  custom_phrase:
+    dictionary: ""
+    user_dict: custom_phrase
+    db_class: stabledb
+    enable_completion: false
+    enable_sentence: false
+    initial_quality: 1
 
   engine/filters:
     - simplifier
