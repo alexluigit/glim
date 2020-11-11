@@ -15,3 +15,10 @@
 # 雖然文本碼表編輯較爲方便，但不適合導入大量條目
 #
 # no comment
+
+tom87852532@gmail.com	email	1
+hellosimon1103@hotmail.com	email	1
+什么	im	1
+怎么	zm	1
+怎么了	zml	1
+为什么	wim	1
