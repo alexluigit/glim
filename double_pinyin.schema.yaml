@@ -89,22 +89,22 @@ translator:
   prism: double_pinyin
   preedit_format:
     - erase/^;([a-z]+)/
-    - xform/([bpmfdtnljqxa])k/$1iao/
-    - xform/(\w)d/$1eng/
+    - xform/([bpmfdtnljqx])k/$1iao/
     - xform/(\w)q/$1iu/
     - xform/(\w)w/$1ei/
-    - xform/([dtnlgkhaqxyvuirzcs])p/$1uan/
+    - xform/([dtnlgkhjqxyvuirzcs])p/$1uan/
     - xform/(\w)g/$1ve/
     - xform/(\w)j/$1un/
     - xform/([dtnlgkhvuirzcs])o/$1uo/
     - xform/(\w)y/$1ie/
-    - xform/([aqx])r/$1iong/
-    - xform/(\w)r/$1ong/
     - xform/(\w)s/$1ai/
+    - xform/(\w)n/$1an/
     - xform/(\w)t/$1en/
     - xform/(\w)h/$1ang/
-    - xform/(\w)n/$1an/
-    - xform/([gkhvuirzcs])f/$1uai/
+    - xform/(\w)d/$1eng/
+    - xform/([jqx])r/$1iong/
+    - xform/(\w)r/$1ong/
+    - xform/([gkhvuirzcs])b/$1uai/
     - xform/(\w);/$1ing/
     - xform/([aqxnl])l/$1iang/
     - xform/(\w)l/$1uang/
@@ -113,7 +113,7 @@ translator:
     - xform/(\w)x/$1ia/
     - xform/(\w)c/$1ao/
     - xform/([dtgkhvuirzcs])v/$1ui/
-    - xform/(\w)b/$1in/
+    - xform/(\w)f/$1in/
     - xform/(\w)m/$1ian/
     - xform/([aoe])\1(\w)/$1$2/
     - xform/(^|[ '])v/$1zh/
