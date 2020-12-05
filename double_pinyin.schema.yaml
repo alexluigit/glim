@@ -81,14 +81,14 @@ speller:
     - xform/(.)ao$/$1C/
     - xform/ui$/V/
     - xform/uai$/B/
-    - xlit/QWRTYUIOPSDFGHJKLZXCVBNMA/qwrtyuiopsdfghjklzxcvbnma/
-    #- abbrev/^(.).+$/$1/
+    - xlit/QWERTYUIOPSDFGHJKLZXCVBNMA/qwertyuiopsdfghjklzxcvbnma/
+    - abbrev/^(.).+$/$1/
 
 translator:
   dictionary: luna_pinyin
   prism: double_pinyin
   preedit_format:
-    - erase/^;([a-z]+)/
+    - erase/^;.*/
     - xform/([bpmfdtnljqx])k/$1iao/
     - xform/(\w)q/$1iu/
     - xform/(\w)w/$1ei/
