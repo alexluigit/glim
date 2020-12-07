@@ -1,8 +1,8 @@
 distribution_code_name: "fcitx-rime"
 distribution_name: Rime
-distribution_version: 5.0.0
+distribution_version: 5.0.2
 install_time: "Thu Jun 18 20:00:10 2020"
 installation_id: Alch
 rime_version: 1.6.1
 sync_dir: "/home/alex/Documents/google-cloud/RimeSync"
-update_time: "Mon Nov  9 19:57:48 2020"
+update_time: "Mon Dec  7 16:55:54 2020"
