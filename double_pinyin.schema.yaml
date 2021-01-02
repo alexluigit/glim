@@ -90,7 +90,6 @@ translator:
   preedit_format:
     - erase/^;.*/
     - xform/([bpmfdtnljqx])k/$1iao/
-    - xform/(\w)q/$1un/
     - xform/(\w)w/$1ei/
     - xform/([dtnlgkhjqxyvuirzcs])p/$1uan/
     - xform/(\w)g/$1ve/
@@ -104,6 +103,7 @@ translator:
     - xform/(\w)d/$1eng/
     - xform/([jqx])r/$1iong/
     - xform/(\w)r/$1ong/
+    - xform/(\w)q/$1un/
     - xform/([gkhvuirzcs])b/$1uai/
     - xform/(\w);/$1ing/
     - xform/([jqxnl])l/$1iang/
