@@ -67,6 +67,7 @@ speller:
     - xform/ie$/Y/
     - xform/i?ong$/R/
     - xform/in$/F/
+    - xform/uai$/B/
     - xform/ing$/;/
     - xform/(.)ai$/$1S/
     - xform/(.)en$/$1T/
@@ -80,7 +81,6 @@ speller:
     - xform/iao$/K/
     - xform/(.)ao$/$1C/
     - xform/ui$/V/
-    - xform/uai$/B/
     - xlit/QWERTYUIOPSDFGHJKLZXCVBNMA/qwertyuiopsdfghjklzxcvbnma/
     - abbrev/^(.).+$/$1/
 
@@ -102,9 +102,9 @@ translator:
     - xform/(\w)h/$1ang/
     - xform/(\w)d/$1eng/
     - xform/([jqx])r/$1iong/
-    - xform/(\w)r/$1ong/
+    - xform/([wfgluyrstdhnzcvk])r/$1ong/
     - xform/(\w)q/$1un/
-    - xform/([gkhvuirzcs])b/$1uai/
+    - xform/([gkhvui])b/$1uai/
     - xform/(\w);/$1ing/
     - xform/([jqxnl])l/$1iang/
     - xform/(\w)l/$1uang/
