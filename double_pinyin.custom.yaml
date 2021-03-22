@@ -13,11 +13,11 @@ patch:
     - { when: paging, accept: Control+e, send: Page_Up }
 
   switches:
-    - name: full_shape
-      states: ["full", "half"]
     - name: zh_simp
       reset: 1
-      states: ["漢","汉"]
+      states: ["漢", "汉"]
+    - name: full_shape
+      states: ["half", "full"]
     - name: extended_charset
       states: ["basic", "ext"]
 
