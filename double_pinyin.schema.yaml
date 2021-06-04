@@ -40,26 +40,23 @@ speller:
   delimiter: " '"
   algebra:
     - erase/^xx$/
-    - derive/^([jqxy])u$/$1v/
-    - derive/^([aoe])([ioun])$/$1$1$2/
-    - xform/^([aoe])(ng)?$/$1$1$2/
-    - xform/un$/Q/
     - xform/(.)ei$/$1W/
     - xform/uan$/P/
-    - xform/[uv]e$/G/
-    - xform/iu$/J/
-    - xform/^sh/I/
-    - xform/^ch/U/
+    - xform/[uv]e$/B/
+    - xform/un$/J/
+    - xform/^ch/I/
+    - xform/^sh/U/
     - xform/^zh/V/
     - xform/uo$/O/
     - xform/ie$/Y/
     - xform/i?ong$/R/
     - xform/in$/F/
-    - xform/uai$/B/
+    - xform/uai$/G/
+    - xform/iu$/Q/
     - xform/ing$/;/
-    - xform/(.)ai$/$1S/
+    - xform/(.)ai$/$1D/
     - xform/(.)en$/$1T/
-    - xform/(.)eng$/$1D/
+    - xform/(.)eng$/$1S/
     - xform/[iu]ang$/L/
     - xform/(.)ang$/$1H/
     - xform/ian$/M/
@@ -80,19 +77,19 @@ translator:
     - xform/([bpmfdtnljqx])k/$1iao/
     - xform/(\w)w/$1ei/
     - xform/([dtnlgkhjqxyvuirzcs])p/$1uan/
-    - xform/(\w)g/$1ve/
-    - xform/(\w)j/$1iu/
+    - xform/(\w)b/$1ve/
+    - xform/(\w)q/$1iu/
     - xform/([dtnlgkhvuirzcs])o/$1uo/
     - xform/(\w)y/$1ie/
-    - xform/(\w)s/$1ai/
+    - xform/(\w)d/$1ai/
     - xform/(\w)n/$1an/
     - xform/(\w)t/$1en/
     - xform/(\w)h/$1ang/
-    - xform/(\w)d/$1eng/
+    - xform/(\w)s/$1eng/
     - xform/([jqx])r/$1iong/
-    - xform/([wfgluyrstdhnzcvk])r/$1ong/
-    - xform/(\w)q/$1un/
-    - xform/([gkhvui])b/$1uai/
+    - xform/([wfgliyrstdhnzcvk])r/$1ong/
+    - xform/(\w)j/$1un/
+    - xform/([gkhvui])g/$1uai/
     - xform/(\w);/$1ing/
     - xform/([jqxnl])l/$1iang/
     - xform/(\w)l/$1uang/
@@ -105,8 +102,8 @@ translator:
     - xform/(\w)m/$1ian/
     - xform/([aoe])\1(\w)/$1$2/
     - xform/(^|[ '])v/$1zh/
-    - xform/(^|[ '])u/$1ch/
-    - xform/(^|[ '])i/$1sh/
+    - xform/(^|[ '])i/$1ch/
+    - xform/(^|[ '])u/$1sh/
     - xform/([jqxy])v/$1u/
     - xform/([nl])v/$1ü/
 
