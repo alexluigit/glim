@@ -7,10 +7,10 @@ patch:
   # Do not translate double to normal pinyin in preedit string
   # translator/preedit_format: {}
 
-  # Ctrl-n/e for paging candidates
+  # - and = for paging candidates
   key_binder/bindings:
-    - { when: has_menu, accept: Control+n, send: Page_Down }
-    - { when: paging, accept: Control+e, send: Page_Up }
+    - { when: has_menu, accept: =, send: Page_Down }
+    - { when: paging, accept: -, send: Page_Up }
 
   switches:
     - name: zh_simp
