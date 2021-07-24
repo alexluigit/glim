@@ -54,9 +54,9 @@ speller:
     - xform/uai$/G/
     - xform/iu$/Q/
     - xform/ing$/;/
-    - xform/(.)ai$/$1D/
+    - xform/(.)ai$/$1S/
     - xform/(.)en$/$1T/
-    - xform/(.)eng$/$1S/
+    - xform/(.)eng$/$1D/
     - xform/[iu]ang$/L/
     - xform/(.)ang$/$1H/
     - xform/ian$/M/
@@ -81,11 +81,11 @@ translator:
     - xform/(\w)q/$1iu/
     - xform/([dtnlgkhvuirzcs])o/$1uo/
     - xform/(\w)y/$1ie/
-    - xform/(\w)d/$1ai/
+    - xform/(\w)s/$1ai/
     - xform/(\w)n/$1an/
     - xform/(\w)t/$1en/
     - xform/(\w)h/$1ang/
-    - xform/(\w)s/$1eng/
+    - xform/(\w)d/$1eng/
     - xform/([jqx])r/$1iong/
     - xform/([wfgliyrstdhnzcvk])r/$1ong/
     - xform/(\w)j/$1un/
