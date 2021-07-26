@@ -2,3 +2,4 @@ build/
 luna_pinyin.userdb/
 user.yaml
 installation.yaml
+yarn.lock

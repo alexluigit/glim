@@ -1,16 +1,30 @@
 # Rime
 Rime input engine settings.
 ## Install
+
 ```sh
-cd /wherever/you/want
 git clone https://github.com/alexluigit/rime.git
-ln -s $PWD/rime ~/Library/Rime
 ```
-Then deploy using squirrel.
+
+macOs:
+```sh
+ln -s ./rime ~/Library/Rime
+```
+
+Linux (using fcitx5)
+```sh
+ln -s ./rime ~/.local/share/fcitx5/rime
+```
+
 Install the Hanamin font if you need huge unicode set.
 
-**TODO**
 ## Feature
+To enable emoji dictionary:
+
+```sh
+yarn install
+node .
+```
 
 ## License
 MIT

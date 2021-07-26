@@ -1,6 +1,6 @@
 ---
 name: gemoji
-version: "2020-12-01"
+version: "2021-08-01"
 sort: by_weight
 use_preset_vocabulary: true
 ...
