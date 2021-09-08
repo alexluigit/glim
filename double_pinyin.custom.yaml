@@ -51,6 +51,3 @@ patch:
     - selector
     - navigator
     - express_editor
-
-  # Loading extented dictionary
-  translator/dictionary: luna_pinyin.extended
