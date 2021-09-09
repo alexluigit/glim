@@ -2,7 +2,8 @@
 # encoding: utf-8
 
 schema:
-  schema_id: double_pinyin
+  schema_id: flypy_aux
+  name: 朙
   version: "0.1"
   author:
     - Alex Lu
@@ -71,7 +72,7 @@ speller:
 
 translator:
   dictionary: luna_pinyin
-  prism: double_pinyin
+  prism: flypy_aux
   preedit_format:
     - erase/^;.*/
     - xform/([bpmfdtnljqx])k/$1iao/
@@ -101,9 +102,9 @@ translator:
     - xform/(\w)f/$1in/
     - xform/(\w)m/$1ian/
     - xform/([aoe])\1(\w)/$1$2/
-    - xform/(^|[ '])v/$1zh/
-    - xform/(^|[ '])i/$1ch/
-    - xform/(^|[ '])u/$1sh/
+    - "xform/(^|[ '])v/$1zh/"
+    - "xform/(^|[ '])i/$1ch/"
+    - "xform/(^|[ '])u/$1sh/"
     - xform/([jqxy])v/$1u/
     - xform/([nl])v/$1ü/
 
