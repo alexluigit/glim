@@ -1,6 +1,6 @@
 patch:
   schema_list:
-    - { schema: flypy_aux }
+    - { schema: glime }
 
   menu/page_size: 5
 
@@ -10,3 +10,4 @@ patch:
   switcher/caption: "【设置】"
 
   switcher/option_list_separator: "/"
+
