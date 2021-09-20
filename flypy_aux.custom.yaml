@@ -1,10 +1,6 @@
-# Use Rime only for Chinese input ( turn off ascii_mode )
+## This config use rime ONLY for Chinese input
 patch:
-  # Punctuator and symbols/trigger
-  punctuator/import_preset: alex.symbols
-  recognizer/patterns/punct: "^/([a-z]+|[0-9])$"
-
-  # Do not translate double to normal pinyin in preedit string
+  ## Do not translate double to normal pinyin in preedit string
   # translator/preedit_format: {}
 
   # - and = for paging candidates
