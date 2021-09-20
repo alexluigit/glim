@@ -11,6 +11,7 @@ schema:
     朙月拼音＋自定义双拼方案。
   dependencies:
     - stroke
+    - emoji
 
 engine:
   processors:
@@ -27,11 +28,13 @@ engine:
     - matcher
     - abc_segmentor
     - punct_segmentor
+    - affix_segmentor@emoji
     - fallback_segmentor
   translators:
     - punct_translator
     - reverse_lookup_translator
     - script_translator
+    - table_translator@emoji
   filters:
     - simplifier
     - uniquifier
@@ -139,3 +142,10 @@ recognizer:
   import_preset: default
   patterns:
     reverse_lookup: "`[a-z]*'?$"
+emoji:
+  tag: emoji
+  dictionary: emoji
+  enable_completion: true
+  prefix: "ae"
+  suffix: "'"
+  tips: " Emoji"

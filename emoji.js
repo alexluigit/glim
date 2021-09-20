@@ -3,7 +3,7 @@ import {gemoji} from 'gemoji'
 
 const date = new Date().toISOString().split('T')[0];
 let tmpl=`---
-name: gemoji
+name: emoji
 version: "${date}"
 sort: by_weight
 use_preset_vocabulary: true
@@ -11,7 +11,7 @@ use_preset_vocabulary: true
 `
 for (const emoji of gemoji) {
   for (const name of emoji.names) {
-    tmpl+=`\n${emoji.emoji}\t;${name.replace(/_/g, '')}`
+    tmpl+=`\n${emoji.emoji}\t${name.replace(/_/g, '')}`
   }
 }
 
