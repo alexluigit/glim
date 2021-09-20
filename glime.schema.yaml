@@ -1,0 +1,100 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: glime
+  name: 鹤
+  version: "0.1"
+  author:
+    - Alex Lu
+  description: |
+    Glime - 快手/小鹤双形方案
+  dependencies:
+    - stroke
+    - emoji
+
+switches:
+  - name: zh_simp
+    reset: 1
+    states: ["漢", "汉"]
+  - name: full_shape
+    states: ["half", "full"]
+  - name: extended_charset
+    states: ["basic", "ext"]
+
+engine:
+  processors:
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - affix_segmentor@emoji
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - reverse_lookup_translator
+    - script_translator
+    - lua_translator@tex_translator
+    - lua_translator@func_translator
+    - table_translator@emoji
+    - table_translator@custom_phrase
+    - table_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+simplifier:
+  option_name: zh_simp
+
+custom_phrase:
+  dictionary: ""
+  user_dict: custom_phrase
+  db_class: stabledb
+  enable_completion: false
+  enable_sentence: false
+  initial_quality: 1
+
+punctuator:
+  import_preset: symbols
+  half_shape:
+    '''': { pair: [ 「, 」 ] }
+    '""': { pair: [ 「, 」 ] }
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    punct: '^/[0-9A-Za-z]+$'
+    reverse_lookup: "^ab[a-z]*'?$"
+    emoji: "^ae[a-z]*'?$"
+    tex_translator: "^al.*$"
+    func_translator: "^af.*$"
+
+reverse_lookup:
+  dictionary: stroke
+  enable_completion: true
+  prefix: "ab"
+  suffix: "'"
+  tips: 〔笔画〕
+  preedit_format:
+    - xlit/hspnz/一丨丿丶乙/
+  comment_format:
+    - xform/([nl])v/$1ü/
+
+emoji:
+  tag: emoji
+  dictionary: emoji
+  enable_completion: true
+  prefix: "ae"
+  suffix: "'"
+  tips: " Emoji"
