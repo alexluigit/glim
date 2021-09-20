@@ -13,9 +13,17 @@ schema:
     - stroke
     - emoji
 
+switches:
+  - name: zh_simp
+    reset: 1
+    states: ["漢", "汉"]
+  - name: full_shape
+    states: ["half", "full"]
+  - name: extended_charset
+    states: ["basic", "ext"]
+
 engine:
   processors:
-    - ascii_composer
     - recognizer
     - key_binder
     - speller
@@ -37,9 +45,14 @@ engine:
     - lua_translator@tex_translator
     - lua_translator@func_translator
     - table_translator@emoji
+    - table_translator@custom_phrase
+    - table_translator
   filters:
     - simplifier
     - uniquifier
+
+simplifier:
+  option_name: zh_simp
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba;
@@ -112,6 +125,15 @@ translator:
     - "xform/(^|[ '])u/$1sh/"
     - xform/([jqxy])v/$1u/
     - xform/([nl])v/$1ü/
+
+custom_phrase:
+  dictionary: ""
+  user_dict: custom_phrase
+  db_class: stabledb
+  enable_completion: false
+  enable_sentence: false
+  initial_quality: 1
+
 punctuator:
   import_preset: symbols
   half_shape:
@@ -122,11 +144,25 @@ punctuator:
     '\hira': [あ,い,う,え,お,か,き,く,け,こ,さ,し,す,せ,そ,た,ち,つ,て,と,な,に,ぬ,ね,の,は,ひ,ふ,へ,ほ,ま,み,む,め,も,や,い,ゆ,え,よ,ら,り,る,れ,ろ,わ,い,う,え,を]
     '\kana': [ア,イ,ウ,エ,オ,カ,キ,ク,ケ,コ,サ,シ,ス,セ,ソ,タ,チ,ツ,テ,ト,ナ,ニ,ヌ,ネ,ノ,ハ,ヒ,フ,ヘ,ホ,マ,ミ,ム,メ,モ,ヤ,イ,ユ,エ,ヨ,ラ,リ,ル,レ,ロ,ワ,イ,ウ,エ,ヲ]
 
+key_binder:
+  import_preset: default
+  bindings:
+    - { when: has_menu, accept: =, send: Page_Down }
+    - { when: paging, accept: -, send: Page_Up }
+    - { when: composing, accept: slash, send: ':' }
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "^ab[a-z]*'?$"
+    emoji: "^ae[a-z]*'?$"
+    tex_translator: "^al.*$"
+    func_translator: "^af.*$"
 
 reverse_lookup:
   dictionary: stroke
   enable_completion: true
-  prefix: "`"
+  prefix: "ab"
   suffix: "'"
   tips: 〔笔画〕
   preedit_format:
@@ -134,16 +170,6 @@ reverse_lookup:
   comment_format:
     - xform/([nl])v/$1ü/
 
-punctuator:
-  import_preset: default
-
-key_binder:
-  import_preset: default
-
-recognizer:
-  import_preset: default
-  patterns:
-    reverse_lookup: "`[a-z]*'?$"
 emoji:
   tag: emoji
   dictionary: emoji

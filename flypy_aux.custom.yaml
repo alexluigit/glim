@@ -3,47 +3,11 @@ patch:
   ## Do not translate double to normal pinyin in preedit string
   # translator/preedit_format: {}
 
-  # - and = for paging candidates
-  key_binder/bindings:
-    - { when: has_menu, accept: =, send: Page_Down }
-    - { when: paging, accept: -, send: Page_Up }
-
-  switches:
-    - name: zh_simp
-      reset: 1
-      states: ["漢", "汉"]
-    - name: full_shape
-      states: ["half", "full"]
-    - name: extended_charset
-      states: ["basic", "ext"]
-
-  simplifier:
-    option_name: zh_simp
-
-  engine/translators:
-    - punct_translator
-    - reverse_lookup_translator
-    - script_translator
-    - table_translator@custom_phrase
-    - table_translator
-
-  custom_phrase:
-    dictionary: ""
-    user_dict: custom_phrase
-    db_class: stabledb
-    enable_completion: false
-    enable_sentence: false
-    initial_quality: 1
-
-  engine/filters:
-    - simplifier
-    - uniquifier
-
-  engine/processors:
-    - recognizer
-    - key_binder
-    - speller
-    - punctuator
-    - selector
-    - navigator
-    - express_editor
+  key_binder/bindings/+:
+  #   - { when: has_menu, accept: =, send: Page_Down }
+  #   - { when: paging, accept: -, send: Page_Up }
+  #   - { when: composing, accept: slash, send: ':' }
+  
+  ## By default we add a suffix ':' to filter cands by glyph
+  # speller/algebra/@next: xform/://  # filter by glyph without suffix
+  # speller/algebra/@next: derive/:// # filter by glyph with/without ':'
