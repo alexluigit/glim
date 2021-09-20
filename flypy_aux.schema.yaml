@@ -3,12 +3,12 @@
 
 schema:
   schema_id: flypy_aux
-  name: 朙
+  name: 鹤
   version: "0.1"
   author:
     - Alex Lu
   description: |
-    朙月拼音＋自定义双拼方案。
+    快手/小鹤双形方案
   dependencies:
     - stroke
     - emoji
@@ -55,76 +55,84 @@ simplifier:
   option_name: zh_simp
 
 speller:
-  alphabet: zyxwvutsrqponmlkjihgfedcba;
+  alphabet: "zyxwvutsrqponmlkjihgfedcba;:"
+  initials: "zyxwvutsrqponmlkjihgfedcba"
   delimiter: " '"
   algebra:
     - erase/^xx$/
-    - xform/(.)ei$/$1W/
-    - xform/uan$/P/
-    - xform/[uv]e$/B/
-    - xform/un$/J/
+    - derive/^([aoe])(.*)$/$1$1$2/
     - xform/^ch/I/
     - xform/^sh/U/
     - xform/^zh/V/
-    - xform/uo$/O/
-    - xform/ie$/Y/
-    - xform/i?ong$/R/
-    - xform/in$/F/
-    - xform/uai$/G/
-    - xform/iu$/Q/
-    - xform/ing$/;/
-    - xform/(.)ai$/$1S/
-    - xform/(.)en$/$1T/
-    - xform/(.)eng$/$1D/
-    - xform/[iu]ang$/L/
-    - xform/(.)ang$/$1H/
-    - xform/ian$/M/
-    - xform/(.)an$/$1N/
-    - xform/(.)ou$/$1Z/
-    - xform/[iu]a$/X/
-    - xform/iao$/K/
-    - xform/(.)ao$/$1C/
-    - xform/ui$/V/
+    - xform/iang/L/
+    - xform/uang/L/
+    - xform/iong/R/
+    - xform/(\w+)ang/$1Y/
+    - xform/(\w+)eng/$1P/
+    - xform/(\w+)ong/$1R/
+    - xform/ian/M/
+    - xform/iao/K/
+    - xform/ing/;/
+    - xform/uai/G/
+    - xform/uan/D/
+    - xform/(\w+)ai/$1T/
+    - xform/(\w+)an/$1N/
+    - xform/(\w+)ao/$1C/
+    - xform/(\w+)ei/$1W/
+    - xform/(\w+)en/$1S/
+    - xform/(\w)ia/$1X/
+    - xform/(\w)ie/$1J/
+    - xform/(\w)in/$1F/
+    - xform/(\w)iu/$1Q/
+    - xform/(\w+)ou/$1Z/
+    - xform/(\w+)ua/$1X/
+    - xform/(\w)ue/$1B/
+    - xform/(\w+)ui/$1V/
+    - xform/(\w+)un/$1H/
+    - xform/(\w+)uo/$1O/
+    - xform/(\w)ve/$1B/
     - xlit/QWERTYUIOPSDFGHJKLZXCVBNMA/qwertyuiopsdfghjklzxcvbnma/
     - abbrev/^(.).+$/$1/
+    - derive/^(..:.).+$/$1/
+    - derive/^(..):..$/$1/
 
 translator:
-  dictionary: luna_pinyin
-  prism: flypy_aux
+  dictionary: flypy_aux
   preedit_format:
     - erase/^;.*/
-    - xform/([bpmfdtnljqx])k/$1iao/
-    - xform/(\w)w/$1ei/
-    - xform/([dtnlgkhjqxyvuirzcs])p/$1uan/
-    - xform/(\w)b/$1ve/
-    - xform/(\w)q/$1iu/
-    - xform/([dtnlgkhvuirzcs])o/$1uo/
-    - xform/(\w)y/$1ie/
-    - xform/(\w)s/$1ai/
-    - xform/(\w)n/$1an/
-    - xform/(\w)t/$1en/
-    - xform/(\w)h/$1ang/
-    - xform/(\w)d/$1eng/
-    - xform/([jqx])r/$1iong/
-    - xform/([wfgliyrstdhnzcvk])r/$1ong/
-    - xform/(\w)j/$1un/
-    - xform/([gkhvui])g/$1uai/
-    - xform/(\w);/$1ing/
-    - xform/([jqxnl])l/$1iang/
-    - xform/(\w)l/$1uang/
-    - xform/(\w)z/$1ou/
-    - xform/([gkhvuirzcs])x/$1ua/
-    - xform/(\w)x/$1ia/
-    - xform/(\w)c/$1ao/
-    - xform/([dtgkhvuirzcs])v/$1ui/
-    - xform/(\w)f/$1in/
-    - xform/(\w)m/$1ian/
-    - xform/([aoe])\1(\w)/$1$2/
-    - "xform/(^|[ '])v/$1zh/"
-    - "xform/(^|[ '])i/$1ch/"
-    - "xform/(^|[ '])u/$1sh/"
-    - xform/([jqxy])v/$1u/
-    - xform/([nl])v/$1ü/
+    - xform/(\w\w)(\w+)/$1:$2/
+    - xform/(?<!:)([bpmfdtnljqx])k/$1iao/
+    - xform/(?<!:)(\w)w/$1ei/
+    - xform/(?<!:)([dtnlgkhjqxyvuirzcs])d/$1uan/
+    - xform/(?<!:)(\w)b/$1ve/
+    - xform/(?<!:)(\w)q/$1iu/
+    - xform/(?<!:)([dtnlgkhvuirzcs])o/$1uo/
+    - xform/(?<!:)(\w)h/$1ie/
+    - xform/(?<!:)(\w)t/$1ai/
+    - xform/(?<!:)(\w)n/$1an/
+    - xform/(?<!:)(\w)s/$1en/
+    - xform/(?<!:)(\w)y/$1ang/
+    - xform/(?<!:)(\w)p/$1eng/
+    - xform/(?<!:)([jqx])r/$1iong/
+    - xform/(?<!:)(\w)r/$1ong/
+    - xform/(?<!:)(\w)j/$1un/
+    - xform/(?<!:)([gkhvui])g/$1uai/
+    - xform/(?<!:)(\w);/$1ing/
+    - xform/(?<!:)([bjqxnl])l/$1iang/
+    - xform/(?<!:)([gkhviu])l/$1uang/
+    - xform/(?<!:)(\w)z/$1ou/
+    - xform/(?<!:)([gkhvuirzcs])x/$1ua/
+    - xform/(?<!:)(\w)x/$1ia/
+    - xform/(?<!:)(\w)c/$1ao/
+    - xform/(?<!:)([dtgkhvuirzcs])v/$1ui/
+    - xform/(?<!:)(\w)f/$1in/
+    - xform/(?<!:)(\w)m/$1ian/
+    - xform/(?<!:)([aoe])\1(\w)/$1$2/
+    - "xform/(?<!:)(^|[ '])v/$1zh/"
+    - "xform/(?<!:)(^|[ '])i/$1ch/"
+    - "xform/(?<!:)(^|[ '])u/$1sh/"
+    - xform/(?<!:)([jqxy])v/$1u/
+    - xform/(?<!:)([nl])v/$1ü/
 
 custom_phrase:
   dictionary: ""

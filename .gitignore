@@ -1,5 +1,7 @@
 build/
-luna_pinyin.userdb/
+*.userdb/
+*.dict.yaml
+!flypy_aux.dict.yaml
 user.yaml
 installation.yaml
 yarn.lock
