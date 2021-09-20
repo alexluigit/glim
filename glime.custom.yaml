@@ -14,4 +14,4 @@ patch:
 
   ## By default we add a suffix ':' to filter cands by glyph
   # speller/algebra/@next: xform/://  # filter by glyph without suffix
-  speller/algebra/@next: derive/:// # filter by glyph with/without ':'
+  # speller/algebra/@next: derive/:// # filter by glyph with/without ':'
