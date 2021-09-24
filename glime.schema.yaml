@@ -14,13 +14,11 @@ schema:
     - emoji
 
 switches:
-  - name: zh_simp
-    reset: 1
-    states: ["漢", "汉"]
+  - name: zh_simp_s2t
+    reset: 0
+    states: [ 简, 繁 ]
   - name: full_shape
     states: ["half", "full"]
-  - name: extended_charset
-    states: ["basic", "ext"]
 
 engine:
   processors:
@@ -64,10 +62,19 @@ custom_phrase:
   initial_quality: 1
 
 punctuator:
-  import_preset: symbols
-  half_shape:
+  __include: symbols:/punctuator
+  half_shape/=:
+    ## Prevent symbols.yaml from setting ';' key
+    ',' : { commit: ， }
+    '.' : { commit: 。 }
+    '/' : [ ;, '/' ]
+    '?' : { commit: ？ }
+    ':' : { commit: ： }
     '''': { pair: [ 「, 」 ] }
-    '""': { pair: [ 「, 」 ] }
+    '"': { pair: [ 「, 」 ] }
+    '\' : [ 、, '\' ]
+    '|' : [ ·, ・, '|', ｜, '§', '¦', '‖', ︴ ]
+    '!' : { commit: ！ }
 
 key_binder:
   import_preset: default
@@ -76,15 +83,13 @@ recognizer:
   import_preset: default
   patterns:
     punct: '^/[0-9A-Za-z]+$'
-    reverse_lookup: "^ab[a-z]*'?$"
-    emoji: "^ae[a-z]*'?$"
-    tex_translator: "^al.*$"
-    func_translator: "^af.*$"
+    reverse_lookup: "^;b[a-z]*'?$"
+    emoji: "^;e[a-z]*'?$"
 
 reverse_lookup:
   dictionary: stroke
   enable_completion: true
-  prefix: "ab"
+  prefix: ";b"
   suffix: "'"
   tips: 〔笔画〕
   preedit_format:
@@ -96,6 +101,6 @@ emoji:
   tag: emoji
   dictionary: emoji
   enable_completion: true
-  prefix: "ae"
+  prefix: ";e"
   suffix: "'"
   tips: " Emoji"
