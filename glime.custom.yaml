@@ -12,6 +12,11 @@ patch:
     - { when: paging, accept: -, send: Page_Up }
     - { when: composing, accept: slash, send: ':' }
 
+  ## Show glyph code for word that are less than 2 chars
+  translator/spelling_hints: 2
+  translator/comment_format:
+    - xform/\w+:(\w+)/:$1/
+
   ## By default we add a suffix ':' to filter cands by glyph
   # speller/algebra/@next: xform/://  # filter by glyph without suffix
   # speller/algebra/@next: derive/:// # filter by glyph with/without ':'
