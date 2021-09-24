@@ -49,6 +49,11 @@ engine:
     - simplifier
     - uniquifier
 
+translator:
+  dictionary: glime
+  prism: glime
+  enable_sentence: false
+
 simplifier:
   option_name: zh_simp_s2t
   opencc_config: s2t.json
