@@ -1,0 +1,116 @@
+snip_map={['`']=' ',
+   ['6']='\\partial ',
+   ['8']='\\infty ',
+   ['=']='\\equiv ',
+   ['\\']='\\setminus ',
+   ['.']='\\cdot ',
+   ['*']='\\times ',
+   ['<']='\\langle ',
+   ['>']='\\rangle ',
+   ['H']='\\hbar ',
+   ['A']='\\forall ',
+   ['E']='\\exists ',
+   ['a']='\\alpha ',
+   ['b']='\\beta ',
+   ['c']='\\chi ',
+   ['d']='\\delta ',
+   ['e']='\\epsilon ',
+   ['f']='\\phi ',
+   ['g']='\\gamma ',
+   ['h']='\\eta ',
+   ['i']='\\iota ',
+   ['k']='\\kappa ',
+   ['l']='\\lambda ',
+   ['m']='\\mu ',
+   ['n']='\\nu ',
+   ['p']='\\pi ',
+   ['q']='\\theta ',
+   ['r']='\\rho ',
+   ['s']='\\sigma ',
+   ['t']='\\tau ',
+   ['y']='\\psi ',
+   ['u']='\\upsilon ',
+   ['w']='\\omega ',
+   ['z']='\\zeta ',
+   ['x']='\\xi ',
+   ['D']='\\Delta ',
+   ['F']='\\Phi ',
+   ['G']='\\Gamma ',
+   ['L']='\\Lambda ',
+   ['P']='\\Pi ',
+   ['Q']='\\Theta ',
+   ['S']='\\Sigma ',
+   ['U']='\\Upsilon ',
+   ['W']='\\Omega ',
+   ['X']='\\Xi ',
+   ['Y']='\\Psi ',
+
+   ['0']='\\varnothing ',
+   ['1']='^{-1}',
+   ['2']='\\sqrt ',
+   ['3']='\\sum ',
+   ['4']='\\prod ',
+   ['7']='\\nabla ',
+   ['~']='\\tilde ',
+   ['-']='\\bar ',
+   ['V']='^\\vee ',
+   ['C']='\\mathbb{C}',
+   ['T']='^\\mathrm{T}',
+   [',']='\\math',
+   ['"']='\\operatorname{',
+   ["'"]='\\text{',
+   ['/']='\\frac '}
+
+--- consider "ar`row" to avoid "rr"
+snip_map2 = {['jjj']='\\downarrow ',
+   ['jjJ']='\\Downarrow ',
+   ['jjk']='\\uparrow ',
+   ['jjK']='\\Uparrow ',
+   ['jjh']='\\leftarrow ',
+   ['jjH']='\\Leftarrow ',
+   ['jjl']='\\rightarrow ',
+   ['jjL']='\\Rightarrow ',
+   ['vve']='\\varepsilon ',
+   ['vvf']='\\varphi ',
+   ['vvk']='\\varkappa ',
+   ['vvq']='\\vartheta ',
+   ['vvr']='\\varrho ',
+   ['vvp']='\\varpi ',
+   ['jj;']='\\mapsto ',
+   ['jjw']='\\leadsto ',
+   ['jj-']='\\leftrightarrow ',
+   ['jj=']='\\Leftrightarrow ',
+   ['oo+']='\\oplus ',
+   ['vv+']='\\bigoplus ',
+   ['oox']='\\otimes ',
+   ['vvx']='\\bigotimes ',
+   ['oo.']='\\odot ',
+   ['vv.']='\\bigodot ',
+   ['ooc']='\\propto ',
+   ['ooo']='\\circ ',
+   ['vvo']='\\bigcirc ',
+   ['vv~']='\\widetilde{',
+   ['vv-']='\\widebar{',
+   -- ['oo{']='\\preceq ',
+   -- ['oo}']='\\succeq ',
+   ['oo[']='\\subseteq ',
+   ['oo]']='\\supseteq ',
+   ['oo(']='\\subset ',
+   ['oo)']='\\supset '}
+
+local function tex_translator(input, seg)
+   if (string.sub(input, 1, 2) == ";t") then
+      expr = string.sub(input, 3)
+      expr = expr:gsub('([^jvo])%1', snip_map)
+      expr = expr:gsub('(([jvo])%2.)', snip_map2)
+      expr = expr:gsub('(.)`%1', '%1%1')
+      expr = expr:gsub('`', ' ')
+      expr = '$'..expr..'$'
+      expr = string.gsub(expr, ' (%W)', '%1')
+      -- equivalent Lua expression; glad to find "%W" includes "_"
+      --- Candidate(type, start, end, text, comment)
+      yield(Candidate("math", seg.start, seg._end, expr, " "))
+   end
+end
+
+return tex_translator

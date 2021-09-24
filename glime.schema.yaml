@@ -32,27 +32,28 @@ engine:
     - navigator
     - express_editor
   segmentors:
-    - ascii_segmentor
     - matcher
     - abc_segmentor
     - punct_segmentor
+    - lua_segmentor@initialism_segmentor
     - affix_segmentor@emoji
     - fallback_segmentor
   translators:
     - punct_translator
     - reverse_lookup_translator
     - script_translator
-    - lua_translator@tex_translator
-    - lua_translator@func_translator
+    - lua_translator@date_translator
+    - lua_translator@time_translator
     - table_translator@emoji
     - table_translator@custom_phrase
-    - table_translator
   filters:
+    - lua_filter@charset_filter
     - simplifier
     - uniquifier
 
 simplifier:
-  option_name: zh_simp
+  option_name: zh_simp_s2t
+  opencc_config: s2t.json
 
 custom_phrase:
   dictionary: ""
