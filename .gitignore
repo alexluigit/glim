@@ -1,7 +1,8 @@
 build/
 *.userdb/
 *.dict.yaml
-!flypy_aux.dict.yaml
+!dict/glime_base.dict.yaml
+!glime.dict.yaml
 user.yaml
 installation.yaml
 yarn.lock
