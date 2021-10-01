@@ -5,19 +5,9 @@ sort: by_weight
 use_preset_vocabulary: true
 import_tables:
   - glime_base
-  - clover_phrase
+  - glime_fix
+  - glime_phrase
   - zhwiki
-  - THUOCL_animal
-  - THUOCL_caijing
-  - THUOCL_car
-  - THUOCL_chengyu
-  - THUOCL_diming
-  - THUOCL_food
-  - THUOCL_IT
-  - THUOCL_law
-  - THUOCL_lishimingren
-  - THUOCL_medical
-  - THUOCL_poem
-  - sogou_new
+  - THUOCL
 ...
 
