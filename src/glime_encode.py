@@ -94,6 +94,6 @@ if __name__ == "__main__":
         "--dev", help="生成带辅助码后缀的词典, 用以分析数据.", action=argparse.BooleanOptionalAction
     )
     args = parser.parse_args()
-    if not os.path.exists(dict_data_dev):
+    if args.dev and not os.path.exists(dict_data_dev):
         os.makedirs(dict_data_dev)
     exit(main(args))

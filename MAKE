@@ -64,6 +64,8 @@ gen_dicts_basic() {
   diff ./phrase-pinyin-data/large_pinyin.txt pdb.txt
   ../src/glime_dict_gen.py --minfreq=$minfreq
   ../src/glime_remove_trad_char.py
+  cp ../src/{emoji.js,package.json} .
+  yarn install; node emoji.js
   rm ./pinyin_simp.dict.yaml
   ../src/glime_encode.py
 }
