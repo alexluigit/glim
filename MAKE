@@ -1,0 +1,74 @@
+#!/bin/bash
+
+INIT_DIR=$(dirname $(readlink -f "$0"))
+
+skip_update=false
+reset_custom=false
+update_sogou=false
+minfreq=10000
+
+while getopts "m:csn" opt; do
+  case $opt in
+    m) minfreq=$OPTARG;;
+    c) reset_custom=true;;
+    s) update_sogou=true;;
+    n) skip_update=true;;
+  esac
+done
+shift $((OPTIND -1))
+
+cd $INIT_DIR; mkdir -p cache; cd cache
+
+_clone_or_pull () {
+  if [[ -d ./$1 ]]; then
+    cd ./$1; echo "Updating $1..."; git pull; cd - >/dev/null
+  else git clone --depth 1 $2
+  fi
+}
+
+_fix_phrase_dict() {
+  fix_phrase=(sed '"' "s/ \?#.*//;" "s/失张失志.*//;" "s/失张失致.*//;")
+  fix_phrase+=("s/hòu bù bā d/hòu bù bā diàn/;")
+  fix_phrase+=("s/bié wú fēn d$/bié wú fēn diàn/;")
+  fix_phrase+=("s/rì jī yuè zh/rì jū yuè zhū/;")
+  fix_phrase+=("s/léi tíng wàn j$/léi tíng zhī nù/;")
+  fix_phrase+=('"')
+  cat ./phrase-pinyin-data/large_pinyin.txt | eval ${fix_phrase[@]} > pdb.txt
+}
+
+update_dicts_basic() {
+  _clone_or_pull rime-pinyin-simp 'https://hub.fastgit.org/rime/rime-pinyin-simp'
+  _clone_or_pull rime-essay 'https://hub.fastgit.org/rime/rime-essay'
+  _clone_or_pull phrase-pinyin-data 'https://hub.fastgit.org/mozillazg/phrase-pinyin-data'
+  _clone_or_pull THUOCL 'https://hub.fastgit.org/thunlp/THUOCL'
+  _clone_or_pull fcitx5-pinyin-zhwiki 'https://hub.fastgit.org/felixonmars/fcitx5-pinyin-zhwiki'
+  zhw_latest=$(grep 'github.com' ./fcitx5-pinyin-zhwiki/recipe.yaml \
+                  | awk -F '::' '{print $2}' | sed 's/github.com/hub.fastgit.org/')
+  local zhw_ver="./zhwiki_latest.txt"
+  [[ -f $zhw_ver ]] && zhw_last=$(cat $zhw_ver) || touch $zhw_ver
+  [[ $zhw_last == $zhw_latest ]] && echo "zhwiki is up to date" || {
+    echo "Downloading latest zhwiki..."
+    echo $zhw_latest > $zhw_ver
+    wget $zhw_latest -q -O zhwiki.dict.yaml
+  }
+}
+
+gen_dicts_basic() {
+  _fix_phrase_dict
+  cp ../assets/glime_fix.dict.yaml .
+  cp ../assets/phrases_with_freq.txt .
+  cp ./rime-essay/essay.txt .
+  cp ./rime-pinyin-simp/pinyin_simp.dict.yaml .
+  cat ./THUOCL/data/*.txt > THUOCL.txt
+  ../src/thuocl2rime.py THUOCL.txt ../cache/THUOCL.dict.yaml
+  diff ./phrase-pinyin-data/large_pinyin.txt pdb.txt
+  ../src/glime_dict_gen.py --minfreq=$minfreq
+  ../src/glime_remove_trad_char.py
+  rm ./pinyin_simp.dict.yaml
+  ../src/glime_encode.py
+}
+
+$skip_update || update_dicts_basic
+gen_dicts_basic
+
+$reset_custom && cp ../config/glime_default.custom.yaml ../glime.custom.yaml || exit 0
