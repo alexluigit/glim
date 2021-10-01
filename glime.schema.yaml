@@ -32,8 +32,8 @@ engine:
     - matcher
     - abc_segmentor
     - punct_segmentor
-    - lua_segmentor@initialism_segmentor
     - affix_segmentor@emoji
+    - lua_segmentor@abbrev_segmentor
     - fallback_segmentor
   translators:
     - punct_translator
