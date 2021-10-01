@@ -1,160 +1,296 @@
 # Rime schema
 # encoding: utf-8
 
+chole:
+  speller/algebra:
+    - erase/^xx$/
+    - derive/^([ae])(.*)$/$1$1$2/
+    - xform/^ou/OR/
+    - xform/^o$/OE/
+    - xform/^b/O/
+    - xform/^j/E/
+    - xform/^ch/I/
+    - xform/^sh/U/
+    - xform/^zh/V/
+    - xform/iang/Z/
+    - xform/uang/Z/
+    - xform/iong/L/
+    - xform/(\w+)ang/$1Y/
+    - xform/(\w+)eng/$1P/
+    - xform/ong/L/
+    - xform/ian/M/
+    - xform/iao/K/
+    - xform/ing/F/
+    - xform/uai/F/
+    - xform/uan/H/
+    - xform/(\w+)ai/$1T/
+    - xform/(\w+)an/$1N/
+    - xform/(\w+)ao/$1D/
+    - xform/(\w+)ei/$1W/
+    - xform/(\w+)en/$1S/
+    - xform/(\w)ia/$1X/
+    - xform/(\w)ie/$1B/
+    - xform/(\w)in/$1C/
+    - xform/(\w)iu/$1Q/
+    - xform/(\w+)ou/$1R/
+    - xform/(\w+)ua/$1X/
+    - xform/(\w)ue/$1G/
+    - xform/(\w+)ui/$1V/
+    - xform/(\w+)un/$1J/
+    - xform/(\w+)uo/$1O/
+    - xform/(\w)ve/$1G/
+    - xlit/QWERTYUIOPSDFGHJKLZXCVBNMA/qwertyuiopsdfghjklzxcvbnma/
+
+  translator/preedit_format:
+    - erase/^;.*/
+    - "xform/(^|[ '])e([^nrwep])/$1j$2/" # E -> J
+    - "xform/(^|[ '])o([^er])/$1b$2/" # O* -> B*
+    - xform/([dtnlgkhviuzcsr])o/$1uo/ # *O -> *uo
+    - xform/([bpmdtnlgkhzcsviuw])t/$1ai/
+    - xform/([bpmfdtnlgkhxviuzcsryw])n/$1an/
+    - xform/([bpmdtnlgkhviurzcsy])d/$1ao/
+    - xform/([bpmfnlghvuzw])w/$1ei/
+    - xform/([bpmfdtnlgkhxviuzcsrw])s/$1en/
+    - xform/([dljqx])x/$1ia/
+    - xform/([bpmdtnljqx])b/$1ie/
+    - xform/([bpmnljqxy])c/$1in/
+    - xform/([mdnljqx])q/$1iu/
+    - xform/([gkhviurzcs])x/$1ua/
+    - xform/([jqxy])g/$1ue/
+    - xform/([nl])v/$1ü/
+    - xform/([dtgkhviurzcs])v/$1ui/
+    - xform/([dtlgkhviuzcsy])j/$1un/
+    - xform/([pmfdtlgkhviuzcsry])r/$1ou/
+    - xform/([nl])g/$1ve/
+    - xform/([bpmfdtnlgkhxviurzcsryw])y/$1ang/
+    - xform/([bpmfdtnlgkhxviuzcsryw])p/$1eng/
+    - xform/([bpmdtnljqx])m/$1ian/
+    - xform/([bpmfdtnljqx])k/$1iao/
+    - xform/([bpmdtnljqxy])f/$1ing/
+    - xform/([pdtnlgkhvizscry])l/$1ong/
+    - xform/([gkhvui])f/$1uai/
+    - xform/([dtnlgkhjqxviurzcsy])h/$1uan/
+    - xform/([bjqxnl])z/$1iang/
+    - xform/([gkhviu])z/$1uang/
+    - xform/([jqx])l/$1iong/
+    - "xform/(^|[ '])v/$1zh/"
+    - "xform/(^|[ '])i/$1ch/"
+    - "xform/(^|[ '])u/$1sh/"
+
+
 flypy:
-  speller:
-    alphabet: "zyxwvutsrqponmlkjihgfedcba:;"
-    initials: "zyxwvutsrqponmlkjihgfedcba;"
-    delimiter: " '"
-    algebra:
-      - erase/^xx$/
-      - derive/^([aoe])(.*)$/$1$1$2/
-      - xform/^ch/I/
-      - xform/^sh/U/
-      - xform/^zh/V/
-      - xform/iang/L/
-      - xform/uang/L/
-      - xform/iong/S/
-      - xform/(\w+)ang/$1H/
-      - xform/(\w+)eng/$1G/
-      - xform/(\w+)ong/$1S/
-      - xform/ian/M/
-      - xform/iao/N/
-      - xform/ing/K/
-      - xform/uai/K/
-      - xform/uan/R/
-      - xform/(\w+)ai/$1D/
-      - xform/(\w+)an/$1J/
-      - xform/(\w+)ao/$1C/
-      - xform/(\w+)ei/$1W/
-      - xform/(\w+)en/$1F/
-      - xform/(\w)ia/$1X/
-      - xform/(\w)ie/$1P/
-      - xform/(\w)in/$1B/
-      - xform/(\w)iu/$1Q/
-      - xform/(\w+)ou/$1Z/
-      - xform/(\w+)ua/$1X/
-      - xform/(\w)ue/$1T/
-      - xform/(\w+)ui/$1V/
-      - xform/(\w+)un/$1Y/
-      - xform/(\w+)uo/$1O/
-      - xform/(\w)ve/$1T/
-      - xlit/QWERTYUIOPSDFGHJKLZXCVBNMA/qwertyuiopsdfghjklzxcvbnma/
-      - abbrev/^(.).+$/$1/
-      - derive/^(..:.).+$/$1/
-      - derive/^(..):..$/$1/
+  speller/algebra:
+    - erase/^xx$/
+    - derive/^([aoe])(.*)$/$1$1$2/
+    - xform/^ch/I/
+    - xform/^sh/U/
+    - xform/^zh/V/
+    - xform/iang/L/
+    - xform/uang/L/
+    - xform/iong/S/
+    - xform/(\w+)ang/$1H/
+    - xform/(\w+)eng/$1G/
+    - xform/(\w+)ong/$1S/
+    - xform/ian/M/
+    - xform/iao/N/
+    - xform/ing/K/
+    - xform/uai/K/
+    - xform/uan/R/
+    - xform/(\w+)ai/$1D/
+    - xform/(\w+)an/$1J/
+    - xform/(\w+)ao/$1C/
+    - xform/(\w+)ei/$1W/
+    - xform/(\w+)en/$1F/
+    - xform/(\w)ia/$1X/
+    - xform/(\w)ie/$1P/
+    - xform/(\w)in/$1B/
+    - xform/(\w)iu/$1Q/
+    - xform/(\w+)ou/$1Z/
+    - xform/(\w+)ua/$1X/
+    - xform/(\w)ue/$1T/
+    - xform/(\w+)ui/$1V/
+    - xform/(\w+)un/$1Y/
+    - xform/(\w+)uo/$1O/
+    - xform/(\w)ve/$1T/
+    - xlit/QWERTYUIOPSDFGHJKLZXCVBNMA/qwertyuiopsdfghjklzxcvbnma/
 
   translator/preedit_format:
     - erase/^;.*/
-    - xform/(\w\w)(\w+)/$1:$2/
-    - xform/(?<!:)([bpmfdtnljqx])n/$1iao/
-    - xform/(?<!:)(\w)w/$1ei/
-    - xform/(?<!:)([dtnlgkhjqxyvuirzcs])r/$1uan/
-    - xform/(?<!:)(\w)t/$1ve/
-    - xform/(?<!:)(\w)q/$1iu/
-    - xform/(?<!:)([dtnlgkhvuirzcs])o/$1uo/
-    - xform/(?<!:)(\w)p/$1ie/
-    - xform/(?<!:)(\w)d/$1ai/
-    - xform/(?<!:)(\w)j/$1an/
-    - xform/(?<!:)(\w)f/$1en/
-    - xform/(?<!:)(\w)h/$1ang/
-    - xform/(?<!:)(\w)g/$1eng/
-    - xform/(?<!:)([jqx])s/$1iong/
-    - xform/(?<!:)(\w)s/$1ong/
-    - xform/(?<!:)(\w)y/$1un/
-    - xform/(?<!:)([gkhvui])k/$1uai/
-    - xform/(?<!:)(\w)k/$1ing/
-    - xform/(?<!:)([bjqxnl])l/$1iang/
-    - xform/(?<!:)([gkhviu])l/$1uang/
-    - xform/(?<!:)(\w)z/$1ou/
-    - xform/(?<!:)([gkhvuirzcs])x/$1ua/
-    - xform/(?<!:)(\w)x/$1ia/
-    - xform/(?<!:)(\w)c/$1ao/
-    - xform/(?<!:)([dtgkhvuirzcs])v/$1ui/
-    - xform/(?<!:)(\w)b/$1in/
-    - xform/(?<!:)(\w)m/$1ian/
-    - xform/(?<!:)([aoe])\1(\w)/$1$2/
-    - "xform/(?<!:)(^|[ '])v/$1zh/"
-    - "xform/(?<!:)(^|[ '])i/$1ch/"
-    - "xform/(?<!:)(^|[ '])u/$1sh/"
-    - xform/(?<!:)([jqxy])v/$1u/
-    - xform/(?<!:)([nl])v/$1ü/
-    
-colemak:
-  speller:
-    alphabet: "zyxwvutsrqponmlkjihgfedcba;:"
-    initials: "zyxwvutsrqponmlkjihgfedcba;"
-    delimiter: " '"
-    algebra:
-      - erase/^xx$/
-      - derive/^([aoe])(.*)$/$1$1$2/
-      - xform/^ch/I/
-      - xform/^sh/U/
-      - xform/^zh/V/
-      - xform/iang/L/
-      - xform/uang/L/
-      - xform/iong/Z/
-      - xform/ang/Y/
-      - xform/eng/P/
-      - xform/ong/Z/
-      - xform/ian/M/
-      - xform/iao/K/
-      - xform/ing/;/
-      - xform/uai/G/
-      - xform/uan/D/
-      - xform/(\w+)ai/$1T/
-      - xform/(\w+)an/$1N/
-      - xform/(\w+)ao/$1C/
-      - xform/(\w+)ei/$1W/
-      - xform/(\w+)en/$1S/
-      - xform/(\w)ia/$1X/
-      - xform/(\w)ie/$1B/
-      - xform/(\w)in/$1F/
-      - xform/(\w)iu/$1Q/
-      - xform/(\w+)ou/$1R/
-      - xform/(\w+)ua/$1X/
-      - xform/(\w)ue/$1J/
-      - xform/(\w+)ui/$1V/
-      - xform/(\w+)un/$1H/
-      - xform/(\w+)uo/$1O/
-      - xform/(\w)ve/$1J/
-      - xlit/QWERTYUIOPSDFGHJKLZXCVBNMA/qwertyuiopsdfghjklzxcvbnma/
-      - abbrev/^(.).+$/$1/
-      - derive/^(..:.).+$/$1/
-      - derive/^(..):..$/$1/
+    - xform/([bpmdtnlgkhzcsviuw])d/$1ai/
+    - xform/([bpmfdtnlgkhxviuzcsryw])j/$1an/
+    - xform/([bpmdtnlgkhviurzcsy])c/$1ao/
+    - xform/([bpmfnlghvuzw])w/$1ei/
+    - xform/([bpmfdtnlgkhxviuzcsrw])f/$1en/
+    - xform/([dljqx])x/$1ia/
+    - xform/([bpmdtnljqx])p/$1ie/
+    - xform/([bpmnljqxy])b/$1in/
+    - xform/([mdnljqx])q/$1iu/
+    - xform/([gkhviurzcs])x/$1ua/
+    - xform/([jqxy])t/$1ue/
+    - xform/([nl])v/$1ü/
+    - xform/([dtgkhviurzcs])v/$1ui/
+    - xform/([dtnlgkhviuzcsr])o/$1uo/
+    - xform/([dtlgkhviuzcsy])y/$1un/
+    - xform/([nl])t/$1ve/
+    - xform/([pmfdtlgkhviuzcsry])z/$1ou/
+    - xform/([bpmfdtnlgkhxviuzcsryw])g/$1eng/
+    - xform/([bpmfdtnlgkhxviurzcsryw])h/$1ang/
+    - xform/([bpmdtnljqx])m/$1ian/
+    - xform/([bpmfdtnljqx])n/$1iao/
+    - xform/([bpmdtnljqxy])k/$1ing/
+    - xform/([pdtnlgkhvizscry])s/$1ong/
+    - xform/([gkhvui])k/$1uai/
+    - xform/([dtnlgkhjqxviurzcsy])r/$1uan/
+    - xform/([bjqxnl])l/$1iang/
+    - xform/([gkhviu])l/$1uang/
+    - xform/([jqx])s/$1iong/
+    - "xform/(^|[ '])v/$1zh/"
+    - "xform/(^|[ '])i/$1ch/"
+    - "xform/(^|[ '])u/$1sh/"
+
+
+natural:
+  speller/algebra:
+    - erase/^xx$/
+    - derive/^([jqxy])u$/$1v/
+    - xform/^([aoe])(.*)$/$1$1$2/
+    - xform/^zh/V/
+    - xform/^ch/I/
+    - xform/^sh/U/
+    - xform/iang$/D/
+    - xform/iong$/S/
+    - xform/uang$/D/
+    - xform/ang$/H/
+    - xform/ong$/S/
+    - xform/eng$/G/
+    - xform/ian$/M/
+    - xform/iao$/C/
+    - xform/ing$/Y/
+    - xform/uai$/Y/
+    - xform/uan$/R/
+    - xform/ai$/L/
+    - xform/an$/J/
+    - xform/ao$/K/
+    - xform/ou$/B/
+    - xform/ei$/Z/
+    - xform/en$/F/
+    - xform/er$/R/
+    - xform/ia$/W/
+    - xform/ie$/X/
+    - xform/in$/N/
+    - xform/iu$/Q/
+    - xform/ua$/W/
+    - xform/ue$/T/
+    - xform/ui$/V/
+    - xform/un$/P/
+    - xform/uo$/O/
+    - xform/ve$/T/
+    - xlit/ABCDEFGHIJKLMNOPQRSTUVWXYZ/abcdefghijklmnopqrstuvwxyz/
 
   translator/preedit_format:
     - erase/^;.*/
-    - xform/(\w\w)(\w+)/$1:$2/
-    - xform/(?<!:)([bpmfdtnljqx])k/$1iao/
-    - xform/(?<!:)([bpmfnlvuzw])w/$1ei/
-    - xform/(?<!:)([dtnlgkhjqxvuirzcsy])d/$1uan/
-    - xform/(?<!:)(nl)j/$1ve/
-    - xform/(?<!:)([mdnljqx])q/$1iu/
-    - xform/(?<!:)([dtnlgkhvuizcsr])o/$1uo/
-    - xform/(?<!:)([dtnl])b/$1ie/
-    - xform/(?<!:)([bpmdtnlgkhzcsviuw])t/$1ai/
-    - xform/(?<!:)([bpmfdtnlgkhxviuzcsryw])n/$1an/
-    - xform/(?<!:)([bpmfdtnlgkhxviuzcsrw])s/$1en/
-    - xform/(?<!:)([bpmfdtnlgkhxviurzcsryw])y/$1ang/
-    - xform/(?<!:)([bpmfdtnlgkhxviuzcsryw])p/$1eng/
-    - xform/(?<!:)([jqx])z/$1iong/
-    - xform/(?<!:)([pdtnlgkhvizscry])z/$1ong/
-    - xform/(?<!:)([dtlgkhviuzcsy])h/$1un/
-    - xform/(?<!:)([gkhvui])g/$1uai/
-    - xform/(?<!:)([bpmdtnljqxy]);/$1ing/
-    - xform/(?<!:)([bjqxnl])l/$1iang/
-    - xform/(?<!:)([gkhviu])l/$1uang/
-    - xform/(?<!:)([pmfdtlgkhviuzcsry])r/$1ou/
-    - xform/(?<!:)([gkhvuirzcs])x/$1ua/
-    - xform/(?<!:)([dljqx])x/$1ia/
-    - xform/(?<!:)([bpmdtnlgkhviurzcsy])c/$1ao/
-    - xform/(?<!:)([dtgkhvuirzcs])v/$1ui/
-    - xform/(?<!:)([bpmnljqxy])f/$1in/
-    - xform/(?<!:)([bpmdtnljqx])m/$1ian/
-    - xform/(?<!:)([aoe])\1(\w)/$1$2/
-    - "xform/(?<!:)(^|[ '])v/$1zh/"
-    - "xform/(?<!:)(^|[ '])i/$1ch/"
-    - "xform/(?<!:)(^|[ '])u/$1sh/"
-    - xform/(?<!:)([jqxy])v/$1u/
-    - xform/(?<!:)([nl])v/$1ü/
+    - xform/([bpmdtnlgkhzcsviuw])l/$1ai/
+    - xform/([bpmfdtnlgkhxviuzcsryw])j/$1an/
+    - xform/([bpmdtnlgkhviurzcsy])k/$1ao/
+    - xform/([bpmfnlghvuzw])z/$1ei/
+    - xform/([bpmfdtnlgkhxviuzcsrw])f/$1en/
+    - xform/([dljqx])w/$1ia/
+    - xform/([bpmdtnljqx])x/$1ie/
+    - xform/([bpmnljqxy])n/$1in/
+    - xform/([mdnljqx])q/$1iu/
+    - xform/([gkhviurzcs])w/$1ua/
+    - xform/([jqxy])t/$1ue/
+    - xform/([nl])v/$1ü/
+    - xform/([dtgkhviurzcs])v/$1ui/
+    - xform/([dtnlgkhviuzcsr])o/$1uo/
+    - xform/([dtlgkhviuzcsy])p/$1un/
+    - xform/([nl])t/$1ve/
+    - xform/([pmfdtlgkhviuzcsry])b/$1ou/
+    - xform/([bpmfdtnlgkhxviuzcsryw])g/$1eng/
+    - xform/([bpmfdtnlgkhxviurzcsryw])h/$1ang/
+    - xform/([bpmdtnljqx])m/$1ian/
+    - xform/([bpmfdtnljqx])c/$1iao/
+    - xform/([bpmdtnljqxy])y/$1ing/
+    - xform/([pdtnlgkhvizscry])s/$1ong/
+    - xform/([gkhvui])y/$1uai/
+    - xform/([dtnlgkhjqxviurzcsy])r/$1uan/
+    - xform/([bjqxnl])d/$1iang/
+    - xform/([gkhviu])d/$1uang/
+    - xform/([jqx])s/$1iong/
+    - "xform/(^|[ '])v/$1zh/"
+    - "xform/(^|[ '])i/$1ch/"
+    - "xform/(^|[ '])u/$1sh/"
+
+
+ms:
+  speller/algebra:
+    - erase/^xx$/
+    - derive/^([jqxy])u$/$1v/
+    - xform/^([aoe].*)$/O$1/
+    - xform/^zh/V/
+    - xform/^ch/I/
+    - xform/^sh/U/
+    - xform/iang$/D/
+    - xform/iong$/S/
+    - xform/uang$/D/
+    - xform/ang$/H/
+    - xform/ong$/S/
+    - xform/eng$/G/
+    - xform/ian$/M/
+    - xform/iao$/C/
+    - xform/ing$/;/
+    - xform/uai$/Y/
+    - xform/uan$/R/
+    - xform/ai$/L/
+    - xform/an$/J/
+    - xform/ao$/K/
+    - xform/ou$/B/
+    - xform/ei$/Z/
+    - xform/en$/F/
+    - xform/er$/R/
+    - xform/ia$/W/
+    - xform/ie$/X/
+    - xform/in$/N/
+    - xform/iu$/Q/
+    - xform/ua$/W/
+    - xform/ue$/T/
+    - xform/ui$/V/
+    - xform/un$/P/
+    - xform/uo$/O/
+    - xform/ve$/V/
+    - xform/v$/Y/
+    - xlit/ABCDEFGHIJKLMNOPQRSTUVWXYZ/abcdefghijklmnopqrstuvwxyz/
+
+  translator/preedit_format:
+    - erase/^;.*/
+    - xform/([bpmdtnlgkhzcsviuw])l/$1ai/
+    - xform/([bpmfdtnlgkhxviuzcsryw])j/$1an/
+    - xform/([bpmdtnlgkhviurzcsy])k/$1ao/
+    - xform/([bpmfnlghvuzw])z/$1ei/
+    - xform/([bpmfdtnlgkhxviuzcsrw])f/$1en/
+    - xform/([dljqx])w/$1ia/
+    - xform/([bpmdtnljqx])x/$1ie/
+    - xform/([bpmnljqxy])n/$1in/
+    - xform/([mdnljqx])q/$1iu/
+    - xform/([gkhviurzcs])w/$1ua/
+    - xform/([jqxy])t/$1ue/
+    - xform/([nl])y/$1ü/
+    - xform/([dtgkhviurzcs])v/$1ui/
+    - xform/([dtnlgkhviuzcsr])o/$1uo/
+    - xform/([dtlgkhviuzcsy])p/$1un/
+    - xform/([nl])v/$1ve/
+    - xform/([pmfdtlgkhviuzcsry])b/$1ou/
+    - xform/([bpmfdtnlgkhxviuzcsryw])g/$1eng/
+    - xform/([bpmfdtnlgkhxviurzcsryw])h/$1ang/
+    - xform/([bpmdtnljqx])m/$1ian/
+    - xform/([bpmfdtnljqx])c/$1iao/
+    - xform/([bpmdtnljqxy]);/$1ing/
+    - xform/([pdtnlgkhvizscry])s/$1ong/
+    - xform/([gkhvui])y/$1uai/
+    - xform/([dtnlgkhjqxviurzcsy])r/$1uan/
+    - xform/([bjqxnl])d/$1iang/
+    - xform/([gkhviu])d/$1uang/
+    - xform/([jqx])s/$1iong/
+    - "xform/(^|[ '])v/$1zh/"
+    - "xform/(^|[ '])i/$1ch/"
+    - "xform/(^|[ '])u/$1sh/"
