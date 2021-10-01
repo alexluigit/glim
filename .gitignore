@@ -1,8 +1,10 @@
 build/
+cache/
 *.userdb/
 *.dict.yaml
-!dict/glime_base.dict.yaml
 !glime.dict.yaml
+glime.custom.yaml
 user.yaml
 installation.yaml
+custom_phrase.txt
 yarn.lock
