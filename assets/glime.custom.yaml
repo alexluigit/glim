@@ -13,19 +13,19 @@ patch:
     ## Control + I/O 左右移动光标
     - { when: composing, accept: Control+i, send: Shift+Right }
     - { when: composing, accept: Control+o, send: Shift+Left }
-    ## 减号, 等号翻页
-    - { when: has_menu, accept: =, send: Page_Down }
-    - { when: paging, accept: -, send: Page_Up }
+    ## 减号, 等号上屏 2, 3 候选
+    - { when: has_menu, accept: -, send: 2 }
+    - { when: has_menu, accept: =, send: 3 }
     ## "/" 键筛音形
     - { when: composing, accept: slash, send: ':' }
 
   ## 开启首字母缩写 (如 「cqjn」-> 「此去经年」)
-  ## Caveat:
+  speller/algebra/@next: abbrev/^(.).+$/$1/
+  ## Caveat1:
   ## 由于双拼声韵母同键，故双拼方案下此选项并不能保证生成长码词候选。
   ## 如 (以小鹤为例)「qqww」-->「秋闱」-\->「千千万万」
-  ## 如希望「qqww」得到「千千万万」而非「秋闱」，
-  ## 请输入「qqww;」(需开启此 abbrev 选项)
-  speller/algebra/@next: abbrev/^(.).+$/$1/
-  ## 如双拼方案包含 ";" 作韵母 (如微软方案), 需双击 ";" 引导缩写
+  ## 如希望「qqww」直接得到「千千万万」而非「秋闱」，请输入「qqww;」
+  ## Caveat2:
+  ## 如双拼方案包含 ";" 作韵母 (如微软方案), 需开启此选项, 双击 ";" 引导缩写
   ## (或自行定义其他键, 单引号除外)
   # punctuator/abbrev_suffix: ";;"
