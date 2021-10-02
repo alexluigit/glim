@@ -1,7 +1,3 @@
-local kRejected = 0
-local kAccepted = 1
-local kNoop = 2
-
 -- todo: tab key add ':' automaticallly
 
 local function _sanitize_input (input, ctx, saved_caret)
@@ -16,6 +12,8 @@ local function _sanitize_input (input, ctx, saved_caret)
 end
 
 local function editor(key, env)
+  local kAccepted = 1
+  local kNoop = 2
   local key_repr = key:repr() -- key representation
   local ctx = env.engine.context
   local input = ctx.input
