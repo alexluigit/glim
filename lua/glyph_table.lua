@@ -1,8107 +1,8106 @@
-return {
-    ["一"] = {["first"] = "a", ["second"] = "a"},
-    ["乙"] = {["first"] = "v", ["second"] = "v"},
-    ["二"] = {["first"] = "a", ["second"] = "a"},
-    ["十"] = {["first"] = "a", ["second"] = "l"},
-    ["丁"] = {["first"] = "a", ["second"] = "l"},
-    ["厂"] = {["first"] = "a", ["second"] = "p"},
-    ["七"] = {["first"] = "a", ["second"] = "v"},
-    ["卜"] = {["first"] = "l", ["second"] = "d"},
-    ["八"] = {["first"] = "p", ["second"] = "n"},
-    ["人"] = {["first"] = "p", ["second"] = "n"},
-    ["入"] = {["first"] = "p", ["second"] = "n"},
-    ["儿"] = {["first"] = "p", ["second"] = "v"},
-    ["匕"] = {["first"] = "p", ["second"] = "v"},
-    ["几"] = {["first"] = "p", ["second"] = "v"},
-    ["九"] = {["first"] = "p", ["second"] = "v"},
-    ["刁"] = {["first"] = "v", ["second"] = "a"},
-    ["了"] = {["first"] = "v", ["second"] = "l"},
-    ["刀"] = {["first"] = "v", ["second"] = "p"},
-    ["力"] = {["first"] = "v", ["second"] = "p"},
-    ["乃"] = {["first"] = "v", ["second"] = "p"},
-    ["又"] = {["first"] = "v", ["second"] = "n"},
-    ["三"] = {["first"] = "a", ["second"] = "e"},
-    ["干"] = {["first"] = "a", ["second"] = "u"},
-    ["于"] = {["first"] = "a", ["second"] = "l"},
-    ["亏"] = {["first"] = "e", ["second"] = "v"},
-    ["工"] = {["first"] = "a", ["second"] = "a"},
-    ["土"] = {["first"] = "u", ["second"] = "a"},
-    ["士"] = {["first"] = "u", ["second"] = "a"},
-    ["才"] = {["first"] = "a", ["second"] = "p"},
-    ["下"] = {["first"] = "a", ["second"] = "b"},
-    ["寸"] = {["first"] = "a", ["second"] = "d"},
-    ["大"] = {["first"] = "u", ["second"] = "n"},
-    ["丈"] = {["first"] = "a", ["second"] = "n"},
-    ["与"] = {["first"] = "a", ["second"] = "a"},
-    ["万"] = {["first"] = "a", ["second"] = "p"},
-    ["上"] = {["first"] = "l", ["second"] = "a"},
-    ["小"] = {["first"] = "l", ["second"] = "d"},
-    ["口"] = {["first"] = "l", ["second"] = "a"},
-    ["山"] = {["first"] = "l", ["second"] = "k"},
-    ["巾"] = {["first"] = "l", ["second"] = "l"},
-    ["千"] = {["first"] = "p", ["second"] = "u"},
-    ["乞"] = {["first"] = "p", ["second"] = "v"},
-    ["川"] = {["first"] = "p", ["second"] = "l"},
-    ["亿"] = {["first"] = "r", ["second"] = "v"},
-    ["个"] = {["first"] = "r", ["second"] = "l"},
-    ["夕"] = {["first"] = "p", ["second"] = "d"},
-    ["久"] = {["first"] = "p", ["second"] = "n"},
-    ["么"] = {["first"] = "p", ["second"] = "s"},
-    ["勺"] = {["first"] = "b", ["second"] = "d"},
-    ["凡"] = {["first"] = "j", ["second"] = "d"},
-    ["丸"] = {["first"] = "p", ["second"] = "d"},
-    ["及"] = {["first"] = "p", ["second"] = "n"},
-    ["广"] = {["first"] = "d", ["second"] = "i"},
-    ["亡"] = {["first"] = "w", ["second"] = "v"},
-    ["门"] = {["first"] = "d", ["second"] = "v"},
-    ["丫"] = {["first"] = "b", ["second"] = "l"},
-    ["义"] = {["first"] = "d", ["second"] = "x"},
-    ["之"] = {["first"] = "d", ["second"] = "n"},
-    ["尸"] = {["first"] = "v", ["second"] = "p"},
-    ["己"] = {["first"] = "v", ["second"] = "v"},
-    ["已"] = {["first"] = "v", ["second"] = "v"},
-    ["巳"] = {["first"] = "v", ["second"] = "v"},
-    ["弓"] = {["first"] = "v", ["second"] = "v"},
-    ["子"] = {["first"] = "v", ["second"] = "a"},
-    ["卫"] = {["first"] = "e", ["second"] = "a"},
-    ["也"] = {["first"] = "v", ["second"] = "v"},
-    ["女"] = {["first"] = "v", ["second"] = "a"},
-    ["刃"] = {["first"] = "d", ["second"] = "d"},
-    ["飞"] = {["first"] = "v", ["second"] = "d"},
-    ["习"] = {["first"] = "v", ["second"] = "d"},
-    ["叉"] = {["first"] = "y", ["second"] = "d"},
-    ["马"] = {["first"] = "v", ["second"] = "a"},
-    ["乡"] = {["first"] = "v", ["second"] = "p"},
-    ["丰"] = {["first"] = "a", ["second"] = "l"},
-    ["王"] = {["first"] = "a", ["second"] = "t"},
-    ["开"] = {["first"] = "a", ["second"] = "c"},
-    ["井"] = {["first"] = "a", ["second"] = "l"},
-    ["天"] = {["first"] = "a", ["second"] = "d"},
-    ["夫"] = {["first"] = "a", ["second"] = "n"},
-    ["元"] = {["first"] = "e", ["second"] = "e"},
-    ["无"] = {["first"] = "a", ["second"] = "y"},
-    ["云"] = {["first"] = "e", ["second"] = "s"},
-    ["专"] = {["first"] = "a", ["second"] = "d"},
-    ["丐"] = {["first"] = "a", ["second"] = "v"},
-    ["扎"] = {["first"] = "f", ["second"] = "v"},
-    ["艺"] = {["first"] = "c", ["second"] = "v"},
-    ["木"] = {["first"] = "u", ["second"] = "n"},
-    ["五"] = {["first"] = "a", ["second"] = "a"},
-    ["支"] = {["first"] = "u", ["second"] = "y"},
-    ["厅"] = {["first"] = "i", ["second"] = "d"},
-    ["不"] = {["first"] = "a", ["second"] = "d"},
-    ["犬"] = {["first"] = "d", ["second"] = "d"},
-    ["太"] = {["first"] = "d", ["second"] = "d"},
-    ["区"] = {["first"] = "k", ["second"] = "x"},
-    ["历"] = {["first"] = "i", ["second"] = "l"},
-    ["歹"] = {["first"] = "a", ["second"] = "x"},
-    ["友"] = {["first"] = "u", ["second"] = "y"},
-    ["尤"] = {["first"] = "y", ["second"] = "d"},
-    ["匹"] = {["first"] = "k", ["second"] = "e"},
-    ["车"] = {["first"] = "a", ["second"] = "l"},
-    ["巨"] = {["first"] = "k", ["second"] = "a"},
-    ["牙"] = {["first"] = "a", ["second"] = "p"},
-    ["屯"] = {["first"] = "a", ["second"] = "v"},
-    ["戈"] = {["first"] = "a", ["second"] = "d"},
-    ["比"] = {["first"] = "b", ["second"] = "b"},
-    ["互"] = {["first"] = "a", ["second"] = "a"},
-    ["切"] = {["first"] = "q", ["second"] = "d"},
-    ["瓦"] = {["first"] = "a", ["second"] = "d"},
-    ["止"] = {["first"] = "l", ["second"] = "a"},
-    ["少"] = {["first"] = "x", ["second"] = "p"},
-    ["曰"] = {["first"] = "k", ["second"] = "a"},
-    ["日"] = {["first"] = "k", ["second"] = "a"},
-    ["中"] = {["first"] = "l", ["second"] = "l"},
-    ["贝"] = {["first"] = "k", ["second"] = "r"},
-    ["冈"] = {["first"] = "k", ["second"] = "x"},
-    ["内"] = {["first"] = "l", ["second"] = "d"},
-    ["水"] = {["first"] = "l", ["second"] = "n"},
-    ["见"] = {["first"] = "k", ["second"] = "e"},
-    ["午"] = {["first"] = "p", ["second"] = "g"},
-    ["牛"] = {["first"] = "p", ["second"] = "l"},
-    ["手"] = {["first"] = "p", ["second"] = "l"},
-    ["气"] = {["first"] = "p", ["second"] = "v"},
-    ["毛"] = {["first"] = "p", ["second"] = "v"},
-    ["壬"] = {["first"] = "p", ["second"] = "u"},
-    ["升"] = {["first"] = "p", ["second"] = "c"},
-    ["夭"] = {["first"] = "p", ["second"] = "d"},
-    ["长"] = {["first"] = "p", ["second"] = "n"},
-    ["仁"] = {["first"] = "r", ["second"] = "e"},
-    ["什"] = {["first"] = "r", ["second"] = "u"},
-    ["片"] = {["first"] = "p", ["second"] = "v"},
-    ["仆"] = {["first"] = "r", ["second"] = "b"},
-    ["化"] = {["first"] = "r", ["second"] = "b"},
-    ["仇"] = {["first"] = "r", ["second"] = "j"},
-    ["币"] = {["first"] = "p", ["second"] = "j"},
-    ["仍"] = {["first"] = "r", ["second"] = "n"},
-    ["仅"] = {["first"] = "r", ["second"] = "y"},
-    ["斤"] = {["first"] = "p", ["second"] = "l"},
-    ["爪"] = {["first"] = "p", ["second"] = "n"},
-    ["反"] = {["first"] = "p", ["second"] = "y"},
-    ["介"] = {["first"] = "r", ["second"] = "l"},
-    ["父"] = {["first"] = "b", ["second"] = "x"},
-    ["从"] = {["first"] = "r", ["second"] = "r"},
-    ["仑"] = {["first"] = "r", ["second"] = "b"},
-    ["今"] = {["first"] = "r", ["second"] = "v"},
-    ["凶"] = {["first"] = "x", ["second"] = "k"},
-    ["分"] = {["first"] = "b", ["second"] = "d"},
-    ["乏"] = {["first"] = "p", ["second"] = "v"},
-    ["公"] = {["first"] = "b", ["second"] = "s"},
-    ["仓"] = {["first"] = "r", ["second"] = "v"},
-    ["月"] = {["first"] = "k", ["second"] = "a"},
-    ["氏"] = {["first"] = "p", ["second"] = "v"},
-    ["勿"] = {["first"] = "b", ["second"] = "p"},
-    ["欠"] = {["first"] = "d", ["second"] = "r"},
-    ["风"] = {["first"] = "j", ["second"] = "x"},
-    ["丹"] = {["first"] = "p", ["second"] = "a"},
-    ["匀"] = {["first"] = "b", ["second"] = "d"},
-    ["乌"] = {["first"] = "p", ["second"] = "a"},
-    ["勾"] = {["first"] = "b", ["second"] = "s"},
-    ["凤"] = {["first"] = "j", ["second"] = "y"},
-    ["六"] = {["first"] = "w", ["second"] = "b"},
-    ["文"] = {["first"] = "w", ["second"] = "x"},
-    ["亢"] = {["first"] = "w", ["second"] = "j"},
-    ["方"] = {["first"] = "d", ["second"] = "w"},
-    ["火"] = {["first"] = "d", ["second"] = "r"},
-    ["为"] = {["first"] = "d", ["second"] = "d"},
-    ["斗"] = {["first"] = "d", ["second"] = "u"},
-    ["忆"] = {["first"] = "x", ["second"] = "v"},
-    ["计"] = {["first"] = "y", ["second"] = "u"},
-    ["订"] = {["first"] = "y", ["second"] = "d"},
-    ["户"] = {["first"] = "d", ["second"] = "u"},
-    ["认"] = {["first"] = "y", ["second"] = "r"},
-    ["冗"] = {["first"] = "b", ["second"] = "j"},
-    ["讥"] = {["first"] = "y", ["second"] = "j"},
-    ["心"] = {["first"] = "d", ["second"] = "d"},
-    ["尺"] = {["first"] = "u", ["second"] = "n"},
-    ["引"] = {["first"] = "g", ["second"] = "l"},
-    ["丑"] = {["first"] = "v", ["second"] = "a"},
-    ["巴"] = {["first"] = "s", ["second"] = "l"},
-    ["孔"] = {["first"] = "z", ["second"] = "v"},
-    ["队"] = {["first"] = "e", ["second"] = "r"},
-    ["办"] = {["first"] = "l", ["second"] = "d"},
-    ["以"] = {["first"] = "v", ["second"] = "r"},
-    ["允"] = {["first"] = "s", ["second"] = "e"},
-    ["予"] = {["first"] = "s", ["second"] = "l"},
-    ["邓"] = {["first"] = "y", ["second"] = "e"},
-    ["劝"] = {["first"] = "y", ["second"] = "l"},
-    ["双"] = {["first"] = "y", ["second"] = "y"},
-    ["书"] = {["first"] = "v", ["second"] = "d"},
-    ["幻"] = {["first"] = "y", ["second"] = "v"},
-    ["玉"] = {["first"] = "w", ["second"] = "d"},
-    ["刊"] = {["first"] = "g", ["second"] = "d"},
-    ["未"] = {["first"] = "a", ["second"] = "n"},
-    ["末"] = {["first"] = "a", ["second"] = "n"},
-    ["示"] = {["first"] = "e", ["second"] = "x"},
-    ["击"] = {["first"] = "a", ["second"] = "k"},
-    ["打"] = {["first"] = "f", ["second"] = "d"},
-    ["巧"] = {["first"] = "g", ["second"] = "v"},
-    ["正"] = {["first"] = "a", ["second"] = "v"},
-    ["扑"] = {["first"] = "f", ["second"] = "b"},
-    ["卉"] = {["first"] = "u", ["second"] = "c"},
-    ["扒"] = {["first"] = "f", ["second"] = "b"},
-    ["功"] = {["first"] = "g", ["second"] = "l"},
-    ["扔"] = {["first"] = "f", ["second"] = "n"},
-    ["去"] = {["first"] = "t", ["second"] = "s"},
-    ["甘"] = {["first"] = "n", ["second"] = "a"},
-    ["世"] = {["first"] = "a", ["second"] = "v"},
-    ["艾"] = {["first"] = "c", ["second"] = "x"},
-    ["古"] = {["first"] = "u", ["second"] = "k"},
-    ["节"] = {["first"] = "c", ["second"] = "e"},
-    ["本"] = {["first"] = "a", ["second"] = "a"},
-    ["术"] = {["first"] = "m", ["second"] = "d"},
-    ["可"] = {["first"] = "d", ["second"] = "k"},
-    ["丙"] = {["first"] = "a", ["second"] = "n"},
-    ["左"] = {["first"] = "u", ["second"] = "g"},
-    ["厉"] = {["first"] = "i", ["second"] = "w"},
-    ["石"] = {["first"] = "a", ["second"] = "k"},
-    ["右"] = {["first"] = "u", ["second"] = "k"},
-    ["布"] = {["first"] = "u", ["second"] = "j"},
-    ["夯"] = {["first"] = "d", ["second"] = "l"},
-    ["戊"] = {["first"] = "g", ["second"] = "p"},
-    ["龙"] = {["first"] = "u", ["second"] = "d"},
-    ["平"] = {["first"] = "a", ["second"] = "u"},
-    ["灭"] = {["first"] = "a", ["second"] = "h"},
-    ["轧"] = {["first"] = "i", ["second"] = "v"},
-    ["东"] = {["first"] = "a", ["second"] = "d"},
-    ["卡"] = {["first"] = "u", ["second"] = "b"},
-    ["北"] = {["first"] = "l", ["second"] = "b"},
-    ["占"] = {["first"] = "l", ["second"] = "k"},
-    ["凸"] = {["first"] = "l", ["second"] = "a"},
-    ["卢"] = {["first"] = "l", ["second"] = "u"},
-    ["业"] = {["first"] = "l", ["second"] = "a"},
-    ["旧"] = {["first"] = "l", ["second"] = "o"},
-    ["帅"] = {["first"] = "l", ["second"] = "j"},
-    ["归"] = {["first"] = "l", ["second"] = "e"},
-    ["旦"] = {["first"] = "o", ["second"] = "a"},
-    ["目"] = {["first"] = "k", ["second"] = "a"},
-    ["且"] = {["first"] = "l", ["second"] = "a"},
-    ["叶"] = {["first"] = "k", ["second"] = "u"},
-    ["甲"] = {["first"] = "l", ["second"] = "l"},
-    ["申"] = {["first"] = "l", ["second"] = "l"},
-    ["叮"] = {["first"] = "k", ["second"] = "d"},
-    ["电"] = {["first"] = "l", ["second"] = "v"},
-    ["号"] = {["first"] = "k", ["second"] = "v"},
-    ["田"] = {["first"] = "k", ["second"] = "u"},
-    ["由"] = {["first"] = "l", ["second"] = "a"},
-    ["只"] = {["first"] = "k", ["second"] = "b"},
-    ["叭"] = {["first"] = "k", ["second"] = "b"},
-    ["史"] = {["first"] = "l", ["second"] = "n"},
-    ["央"] = {["first"] = "l", ["second"] = "g"},
-    ["兄"] = {["first"] = "k", ["second"] = "e"},
-    ["叽"] = {["first"] = "k", ["second"] = "j"},
-    ["叼"] = {["first"] = "k", ["second"] = "d"},
-    ["叫"] = {["first"] = "k", ["second"] = "l"},
-    ["叩"] = {["first"] = "k", ["second"] = "e"},
-    ["叨"] = {["first"] = "k", ["second"] = "d"},
-    ["另"] = {["first"] = "k", ["second"] = "l"},
-    ["叹"] = {["first"] = "k", ["second"] = "y"},
-    ["冉"] = {["first"] = "l", ["second"] = "a"},
-    ["皿"] = {["first"] = "l", ["second"] = "a"},
-    ["凹"] = {["first"] = "l", ["second"] = "a"},
-    ["囚"] = {["first"] = "k", ["second"] = "r"},
-    ["四"] = {["first"] = "k", ["second"] = "e"},
-    ["生"] = {["first"] = "p", ["second"] = "f"},
-    ["矢"] = {["first"] = "p", ["second"] = "t"},
-    ["失"] = {["first"] = "p", ["second"] = "f"},
-    ["乍"] = {["first"] = "p", ["second"] = "a"},
-    ["禾"] = {["first"] = "p", ["second"] = "m"},
-    ["丘"] = {["first"] = "p", ["second"] = "a"},
-    ["付"] = {["first"] = "r", ["second"] = "c"},
-    ["仗"] = {["first"] = "r", ["second"] = "v"},
-    ["代"] = {["first"] = "r", ["second"] = "y"},
-    ["仙"] = {["first"] = "r", ["second"] = "e"},
-    ["们"] = {["first"] = "r", ["second"] = "m"},
-    ["仪"] = {["first"] = "r", ["second"] = "y"},
-    ["白"] = {["first"] = "p", ["second"] = "o"},
-    ["仔"] = {["first"] = "r", ["second"] = "z"},
-    ["他"] = {["first"] = "r", ["second"] = "y"},
-    ["斥"] = {["first"] = "p", ["second"] = "d"},
-    ["瓜"] = {["first"] = "p", ["second"] = "n"},
-    ["乎"] = {["first"] = "p", ["second"] = "l"},
-    ["丛"] = {["first"] = "r", ["second"] = "a"},
-    ["令"] = {["first"] = "r", ["second"] = "s"},
-    ["用"] = {["first"] = "k", ["second"] = "l"},
-    ["甩"] = {["first"] = "k", ["second"] = "v"},
-    ["印"] = {["first"] = "p", ["second"] = "e"},
-    ["尔"] = {["first"] = "d", ["second"] = "x"},
-    ["乐"] = {["first"] = "p", ["second"] = "d"},
-    ["句"] = {["first"] = "b", ["second"] = "k"},
-    ["匆"] = {["first"] = "b", ["second"] = "d"},
-    ["册"] = {["first"] = "p", ["second"] = "a"},
-    ["卯"] = {["first"] = "p", ["second"] = "e"},
-    ["犯"] = {["first"] = "q", ["second"] = "v"},
-    ["外"] = {["first"] = "x", ["second"] = "b"},
-    ["处"] = {["first"] = "w", ["second"] = "b"},
-    ["冬"] = {["first"] = "w", ["second"] = "d"},
-    ["鸟"] = {["first"] = "w", ["second"] = "d"},
-    ["务"] = {["first"] = "w", ["second"] = "l"},
-    ["包"] = {["first"] = "b", ["second"] = "s"},
-    ["饥"] = {["first"] = "u", ["second"] = "j"},
-    ["主"] = {["first"] = "d", ["second"] = "w"},
-    ["市"] = {["first"] = "w", ["second"] = "j"},
-    ["立"] = {["first"] = "w", ["second"] = "a"},
-    ["冯"] = {["first"] = "d", ["second"] = "m"},
-    ["玄"] = {["first"] = "w", ["second"] = "y"},
-    ["闪"] = {["first"] = "m", ["second"] = "r"},
-    ["兰"] = {["first"] = "b", ["second"] = "s"},
-    ["半"] = {["first"] = "d", ["second"] = "l"},
-    ["汁"] = {["first"] = "d", ["second"] = "u"},
-    ["汇"] = {["first"] = "d", ["second"] = "k"},
-    ["头"] = {["first"] = "d", ["second"] = "d"},
-    ["汉"] = {["first"] = "d", ["second"] = "y"},
-    ["宁"] = {["first"] = "b", ["second"] = "d"},
-    ["穴"] = {["first"] = "b", ["second"] = "b"},
-    ["它"] = {["first"] = "b", ["second"] = "b"},
-    ["讨"] = {["first"] = "y", ["second"] = "c"},
-    ["写"] = {["first"] = "b", ["second"] = "y"},
-    ["让"] = {["first"] = "y", ["second"] = "u"},
-    ["礼"] = {["first"] = "p", ["second"] = "v"},
-    ["训"] = {["first"] = "y", ["second"] = "i"},
-    ["议"] = {["first"] = "y", ["second"] = "y"},
-    ["必"] = {["first"] = "d", ["second"] = "d"},
-    ["讯"] = {["first"] = "y", ["second"] = "u"},
-    ["记"] = {["first"] = "y", ["second"] = "j"},
-    ["永"] = {["first"] = "d", ["second"] = "n"},
-    ["司"] = {["first"] = "v", ["second"] = "k"},
-    ["尼"] = {["first"] = "u", ["second"] = "b"},
-    ["民"] = {["first"] = "v", ["second"] = "v"},
-    ["弗"] = {["first"] = "v", ["second"] = "l"},
-    ["弘"] = {["first"] = "g", ["second"] = "s"},
-    ["出"] = {["first"] = "v", ["second"] = "k"},
-    ["辽"] = {["first"] = "z", ["second"] = "l"},
-    ["奶"] = {["first"] = "n", ["second"] = "n"},
-    ["奴"] = {["first"] = "n", ["second"] = "y"},
-    ["召"] = {["first"] = "d", ["second"] = "k"},
-    ["加"] = {["first"] = "l", ["second"] = "k"},
-    ["皮"] = {["first"] = "v", ["second"] = "y"},
-    ["边"] = {["first"] = "z", ["second"] = "l"},
-    ["孕"] = {["first"] = "n", ["second"] = "z"},
-    ["发"] = {["first"] = "v", ["second"] = "d"},
-    ["圣"] = {["first"] = "y", ["second"] = "t"},
-    ["对"] = {["first"] = "y", ["second"] = "c"},
-    ["台"] = {["first"] = "s", ["second"] = "k"},
-    ["矛"] = {["first"] = "s", ["second"] = "p"},
-    ["纠"] = {["first"] = "s", ["second"] = "l"},
-    ["母"] = {["first"] = "v", ["second"] = "d"},
-    ["幼"] = {["first"] = "y", ["second"] = "l"},
-    ["丝"] = {["first"] = "v", ["second"] = "a"},
-    ["邦"] = {["first"] = "f", ["second"] = "e"},
-    ["式"] = {["first"] = "y", ["second"] = "g"},
-    ["迂"] = {["first"] = "z", ["second"] = "y"},
-    ["刑"] = {["first"] = "k", ["second"] = "d"},
-    ["戎"] = {["first"] = "g", ["second"] = "u"},
-    ["动"] = {["first"] = "e", ["second"] = "l"},
-    ["扛"] = {["first"] = "f", ["second"] = "g"},
-    ["寺"] = {["first"] = "t", ["second"] = "c"},
-    ["吉"] = {["first"] = "u", ["second"] = "k"},
-    ["扣"] = {["first"] = "f", ["second"] = "k"},
-    ["考"] = {["first"] = "l", ["second"] = "v"},
-    ["托"] = {["first"] = "f", ["second"] = "q"},
-    ["老"] = {["first"] = "l", ["second"] = "b"},
-    ["巩"] = {["first"] = "g", ["second"] = "f"},
-    ["圾"] = {["first"] = "t", ["second"] = "j"},
-    ["执"] = {["first"] = "f", ["second"] = "w"},
-    ["扩"] = {["first"] = "f", ["second"] = "g"},
-    ["扫"] = {["first"] = "f", ["second"] = "e"},
-    ["地"] = {["first"] = "t", ["second"] = "y"},
-    ["场"] = {["first"] = "t", ["second"] = "p"},
-    ["扬"] = {["first"] = "f", ["second"] = "p"},
-    ["耳"] = {["first"] = "a", ["second"] = "a"},
-    ["芋"] = {["first"] = "c", ["second"] = "y"},
-    ["共"] = {["first"] = "c", ["second"] = "b"},
-    ["芒"] = {["first"] = "c", ["second"] = "w"},
-    ["亚"] = {["first"] = "a", ["second"] = "y"},
-    ["芝"] = {["first"] = "c", ["second"] = "v"},
-    ["朽"] = {["first"] = "m", ["second"] = "v"},
-    ["朴"] = {["first"] = "m", ["second"] = "b"},
-    ["机"] = {["first"] = "m", ["second"] = "j"},
-    ["权"] = {["first"] = "m", ["second"] = "y"},
-    ["过"] = {["first"] = "z", ["second"] = "c"},
-    ["臣"] = {["first"] = "k", ["second"] = "l"},
-    ["吏"] = {["first"] = "a", ["second"] = "n"},
-    ["再"] = {["first"] = "a", ["second"] = "r"},
-    ["协"] = {["first"] = "u", ["second"] = "b"},
-    ["西"] = {["first"] = "a", ["second"] = "a"},
-    ["压"] = {["first"] = "i", ["second"] = "d"},
-    ["厌"] = {["first"] = "i", ["second"] = "q"},
-    ["戌"] = {["first"] = "w", ["second"] = "a"},
-    ["在"] = {["first"] = "u", ["second"] = "t"},
-    ["百"] = {["first"] = "a", ["second"] = "b"},
-    ["有"] = {["first"] = "u", ["second"] = "o"},
-    ["存"] = {["first"] = "u", ["second"] = "z"},
-    ["而"] = {["first"] = "a", ["second"] = "l"},
-    ["页"] = {["first"] = "a", ["second"] = "r"},
-    ["匠"] = {["first"] = "k", ["second"] = "j"},
-    ["夸"] = {["first"] = "d", ["second"] = "k"},
-    ["夺"] = {["first"] = "d", ["second"] = "c"},
-    ["灰"] = {["first"] = "u", ["second"] = "h"},
-    ["达"] = {["first"] = "z", ["second"] = "d"},
-    ["列"] = {["first"] = "d", ["second"] = "d"},
-    ["死"] = {["first"] = "d", ["second"] = "b"},
-    ["成"] = {["first"] = "w", ["second"] = "v"},
-    ["夹"] = {["first"] = "a", ["second"] = "n"},
-    ["夷"] = {["first"] = "a", ["second"] = "n"},
-    ["轨"] = {["first"] = "i", ["second"] = "j"},
-    ["邪"] = {["first"] = "y", ["second"] = "e"},
-    ["尧"] = {["first"] = "a", ["second"] = "w"},
-    ["划"] = {["first"] = "g", ["second"] = "d"},
-    ["迈"] = {["first"] = "z", ["second"] = "w"},
-    ["毕"] = {["first"] = "b", ["second"] = "u"},
-    ["至"] = {["first"] = "a", ["second"] = "t"},
-    ["此"] = {["first"] = "v", ["second"] = "b"},
-    ["贞"] = {["first"] = "l", ["second"] = "r"},
-    ["师"] = {["first"] = "l", ["second"] = "j"},
-    ["尘"] = {["first"] = "x", ["second"] = "t"},
-    ["尖"] = {["first"] = "x", ["second"] = "d"},
-    ["劣"] = {["first"] = "u", ["second"] = "l"},
-    ["光"] = {["first"] = "x", ["second"] = "w"},
-    ["当"] = {["first"] = "x", ["second"] = "e"},
-    ["早"] = {["first"] = "o", ["second"] = "u"},
-    ["吁"] = {["first"] = "k", ["second"] = "y"},
-    ["吐"] = {["first"] = "k", ["second"] = "t"},
-    ["吓"] = {["first"] = "k", ["second"] = "x"},
-    ["虫"] = {["first"] = "v", ["second"] = "d"},
-    ["曲"] = {["first"] = "l", ["second"] = "a"},
-    ["团"] = {["first"] = "k", ["second"] = "c"},
-    ["吕"] = {["first"] = "k", ["second"] = "k"},
-    ["同"] = {["first"] = "k", ["second"] = "k"},
-    ["吊"] = {["first"] = "k", ["second"] = "j"},
-    ["吃"] = {["first"] = "k", ["second"] = "q"},
-    ["因"] = {["first"] = "k", ["second"] = "d"},
-    ["吸"] = {["first"] = "k", ["second"] = "j"},
-    ["吗"] = {["first"] = "k", ["second"] = "m"},
-    ["吆"] = {["first"] = "k", ["second"] = "y"},
-    ["屿"] = {["first"] = "e", ["second"] = "y"},
-    ["屹"] = {["first"] = "e", ["second"] = "q"},
-    ["岁"] = {["first"] = "e", ["second"] = "x"},
-    ["帆"] = {["first"] = "j", ["second"] = "f"},
-    ["回"] = {["first"] = "k", ["second"] = "k"},
-    ["岂"] = {["first"] = "e", ["second"] = "j"},
-    ["则"] = {["first"] = "k", ["second"] = "d"},
-    ["刚"] = {["first"] = "k", ["second"] = "d"},
-    ["网"] = {["first"] = "k", ["second"] = "x"},
-    ["肉"] = {["first"] = "n", ["second"] = "r"},
-    ["年"] = {["first"] = "p", ["second"] = "l"},
-    ["朱"] = {["first"] = "p", ["second"] = "w"},
-    ["先"] = {["first"] = "n", ["second"] = "e"},
-    ["丢"] = {["first"] = "p", ["second"] = "s"},
-    ["廷"] = {["first"] = "z", ["second"] = "r"},
-    ["舌"] = {["first"] = "q", ["second"] = "k"},
-    ["竹"] = {["first"] = "p", ["second"] = "l"},
-    ["迁"] = {["first"] = "z", ["second"] = "q"},
-    ["乔"] = {["first"] = "y", ["second"] = "l"},
-    ["迄"] = {["first"] = "z", ["second"] = "q"},
-    ["伟"] = {["first"] = "r", ["second"] = "w"},
-    ["传"] = {["first"] = "r", ["second"] = "v"},
-    ["乒"] = {["first"] = "q", ["second"] = "p"},
-    ["乓"] = {["first"] = "q", ["second"] = "d"},
-    ["休"] = {["first"] = "r", ["second"] = "m"},
-    ["伍"] = {["first"] = "r", ["second"] = "w"},
-    ["伏"] = {["first"] = "r", ["second"] = "q"},
-    ["优"] = {["first"] = "r", ["second"] = "y"},
-    ["臼"] = {["first"] = "p", ["second"] = "a"},
-    ["伐"] = {["first"] = "r", ["second"] = "g"},
-    ["延"] = {["first"] = "z", ["second"] = "v"},
-    ["仲"] = {["first"] = "r", ["second"] = "v"},
-    ["件"] = {["first"] = "r", ["second"] = "n"},
-    ["任"] = {["first"] = "r", ["second"] = "r"},
-    ["伤"] = {["first"] = "r", ["second"] = "l"},
-    ["价"] = {["first"] = "r", ["second"] = "l"},
-    ["伦"] = {["first"] = "r", ["second"] = "b"},
-    ["份"] = {["first"] = "r", ["second"] = "d"},
-    ["华"] = {["first"] = "r", ["second"] = "u"},
-    ["仰"] = {["first"] = "r", ["second"] = "e"},
-    ["仿"] = {["first"] = "r", ["second"] = "f"},
-    ["伙"] = {["first"] = "r", ["second"] = "h"},
-    ["伪"] = {["first"] = "r", ["second"] = "w"},
-    ["自"] = {["first"] = "p", ["second"] = "o"},
-    ["伊"] = {["first"] = "r", ["second"] = "y"},
-    ["血"] = {["first"] = "p", ["second"] = "m"},
-    ["向"] = {["first"] = "p", ["second"] = "k"},
-    ["似"] = {["first"] = "r", ["second"] = "r"},
-    ["后"] = {["first"] = "p", ["second"] = "k"},
-    ["行"] = {["first"] = "i", ["second"] = "i"},
-    ["舟"] = {["first"] = "p", ["second"] = "d"},
-    ["全"] = {["first"] = "r", ["second"] = "w"},
-    ["会"] = {["first"] = "r", ["second"] = "s"},
-    ["杀"] = {["first"] = "x", ["second"] = "m"},
-    ["合"] = {["first"] = "r", ["second"] = "k"},
-    ["兆"] = {["first"] = "e", ["second"] = "d"},
-    ["企"] = {["first"] = "r", ["second"] = "v"},
-    ["众"] = {["first"] = "r", ["second"] = "r"},
-    ["爷"] = {["first"] = "b", ["second"] = "e"},
-    ["伞"] = {["first"] = "r", ["second"] = "u"},
-    ["创"] = {["first"] = "r", ["second"] = "d"},
-    ["肌"] = {["first"] = "o", ["second"] = "j"},
-    ["肋"] = {["first"] = "o", ["second"] = "l"},
-    ["朵"] = {["first"] = "j", ["second"] = "m"},
-    ["杂"] = {["first"] = "j", ["second"] = "m"},
-    ["危"] = {["first"] = "d", ["second"] = "v"},
-    ["旬"] = {["first"] = "b", ["second"] = "o"},
-    ["旨"] = {["first"] = "b", ["second"] = "o"},
-    ["旭"] = {["first"] = "j", ["second"] = "o"},
-    ["负"] = {["first"] = "d", ["second"] = "r"},
-    ["匈"] = {["first"] = "b", ["second"] = "k"},
-    ["名"] = {["first"] = "x", ["second"] = "k"},
-    ["各"] = {["first"] = "w", ["second"] = "k"},
-    ["多"] = {["first"] = "x", ["second"] = "x"},
-    ["争"] = {["first"] = "d", ["second"] = "l"},
-    ["色"] = {["first"] = "d", ["second"] = "b"},
-    ["壮"] = {["first"] = "d", ["second"] = "u"},
-    ["冲"] = {["first"] = "d", ["second"] = "v"},
-    ["妆"] = {["first"] = "d", ["second"] = "n"},
-    ["冰"] = {["first"] = "d", ["second"] = "u"},
-    ["庄"] = {["first"] = "g", ["second"] = "t"},
-    ["庆"] = {["first"] = "g", ["second"] = "d"},
-    ["亦"] = {["first"] = "w", ["second"] = "d"},
-    ["刘"] = {["first"] = "w", ["second"] = "d"},
-    ["齐"] = {["first"] = "w", ["second"] = "l"},
-    ["交"] = {["first"] = "w", ["second"] = "x"},
-    ["衣"] = {["first"] = "w", ["second"] = "y"},
-    ["次"] = {["first"] = "d", ["second"] = "r"},
-    ["产"] = {["first"] = "l", ["second"] = "p"},
-    ["决"] = {["first"] = "d", ["second"] = "g"},
-    ["亥"] = {["first"] = "w", ["second"] = "r"},
-    ["充"] = {["first"] = "w", ["second"] = "e"},
-    ["妄"] = {["first"] = "w", ["second"] = "n"},
-    ["闭"] = {["first"] = "m", ["second"] = "c"},
-    ["问"] = {["first"] = "m", ["second"] = "k"},
-    ["闯"] = {["first"] = "m", ["second"] = "m"},
-    ["羊"] = {["first"] = "b", ["second"] = "l"},
-    ["并"] = {["first"] = "b", ["second"] = "k"},
-    ["关"] = {["first"] = "b", ["second"] = "t"},
-    ["米"] = {["first"] = "d", ["second"] = "m"},
-    ["灯"] = {["first"] = "h", ["second"] = "d"},
-    ["州"] = {["first"] = "d", ["second"] = "l"},
-    ["汗"] = {["first"] = "d", ["second"] = "g"},
-    ["污"] = {["first"] = "d", ["second"] = "k"},
-    ["江"] = {["first"] = "d", ["second"] = "g"},
-    ["汛"] = {["first"] = "d", ["second"] = "u"},
-    ["池"] = {["first"] = "d", ["second"] = "y"},
-    ["汝"] = {["first"] = "d", ["second"] = "n"},
-    ["汤"] = {["first"] = "d", ["second"] = "p"},
-    ["忙"] = {["first"] = "x", ["second"] = "w"},
-    ["兴"] = {["first"] = "x", ["second"] = "b"},
-    ["宇"] = {["first"] = "b", ["second"] = "y"},
-    ["守"] = {["first"] = "b", ["second"] = "c"},
-    ["宅"] = {["first"] = "b", ["second"] = "q"},
-    ["字"] = {["first"] = "b", ["second"] = "z"},
-    ["安"] = {["first"] = "b", ["second"] = "n"},
-    ["讲"] = {["first"] = "y", ["second"] = "j"},
-    ["讳"] = {["first"] = "y", ["second"] = "w"},
-    ["军"] = {["first"] = "b", ["second"] = "i"},
-    ["讶"] = {["first"] = "y", ["second"] = "y"},
-    ["许"] = {["first"] = "y", ["second"] = "w"},
-    ["讹"] = {["first"] = "y", ["second"] = "b"},
-    ["论"] = {["first"] = "y", ["second"] = "b"},
-    ["讼"] = {["first"] = "y", ["second"] = "s"},
-    ["农"] = {["first"] = "d", ["second"] = "n"},
-    ["讽"] = {["first"] = "y", ["second"] = "x"},
-    ["设"] = {["first"] = "y", ["second"] = "y"},
-    ["访"] = {["first"] = "y", ["second"] = "f"},
-    ["诀"] = {["first"] = "y", ["second"] = "g"},
-    ["寻"] = {["first"] = "e", ["second"] = "c"},
-    ["那"] = {["first"] = "v", ["second"] = "e"},
-    ["迅"] = {["first"] = "z", ["second"] = "u"},
-    ["尽"] = {["first"] = "i", ["second"] = "d"},
-    ["导"] = {["first"] = "s", ["second"] = "c"},
-    ["异"] = {["first"] = "s", ["second"] = "c"},
-    ["弛"] = {["first"] = "g", ["second"] = "y"},
-    ["孙"] = {["first"] = "z", ["second"] = "x"},
-    ["阵"] = {["first"] = "e", ["second"] = "i"},
-    ["阳"] = {["first"] = "e", ["second"] = "o"},
-    ["收"] = {["first"] = "v", ["second"] = "w"},
-    ["阶"] = {["first"] = "e", ["second"] = "l"},
-    ["阴"] = {["first"] = "e", ["second"] = "o"},
-    ["防"] = {["first"] = "e", ["second"] = "f"},
-    ["奸"] = {["first"] = "n", ["second"] = "g"},
-    ["如"] = {["first"] = "n", ["second"] = "k"},
-    ["妇"] = {["first"] = "n", ["second"] = "e"},
-    ["妃"] = {["first"] = "n", ["second"] = "j"},
-    ["好"] = {["first"] = "n", ["second"] = "z"},
-    ["她"] = {["first"] = "n", ["second"] = "y"},
-    ["妈"] = {["first"] = "n", ["second"] = "m"},
-    ["戏"] = {["first"] = "y", ["second"] = "g"},
-    ["羽"] = {["first"] = "x", ["second"] = "x"},
-    ["观"] = {["first"] = "y", ["second"] = "e"},
-    ["欢"] = {["first"] = "y", ["second"] = "r"},
-    ["买"] = {["first"] = "v", ["second"] = "d"},
-    ["红"] = {["first"] = "s", ["second"] = "g"},
-    ["驮"] = {["first"] = "m", ["second"] = "d"},
-    ["纤"] = {["first"] = "s", ["second"] = "q"},
-    ["驯"] = {["first"] = "m", ["second"] = "i"},
-    ["约"] = {["first"] = "s", ["second"] = "u"},
-    ["级"] = {["first"] = "s", ["second"] = "j"},
-    ["纪"] = {["first"] = "s", ["second"] = "j"},
-    ["驰"] = {["first"] = "m", ["second"] = "y"},
-    ["纫"] = {["first"] = "s", ["second"] = "r"},
-    ["巡"] = {["first"] = "z", ["second"] = "v"},
-    ["寿"] = {["first"] = "f", ["second"] = "c"},
-    ["弄"] = {["first"] = "w", ["second"] = "c"},
-    ["麦"] = {["first"] = "f", ["second"] = "w"},
-    ["玖"] = {["first"] = "w", ["second"] = "j"},
-    ["玛"] = {["first"] = "w", ["second"] = "m"},
-    ["形"] = {["first"] = "k", ["second"] = "p"},
-    ["进"] = {["first"] = "z", ["second"] = "j"},
-    ["戒"] = {["first"] = "g", ["second"] = "c"},
-    ["吞"] = {["first"] = "t", ["second"] = "k"},
-    ["远"] = {["first"] = "z", ["second"] = "e"},
-    ["违"] = {["first"] = "z", ["second"] = "w"},
-    ["韧"] = {["first"] = "w", ["second"] = "r"},
-    ["运"] = {["first"] = "z", ["second"] = "s"},
-    ["扶"] = {["first"] = "f", ["second"] = "f"},
-    ["抚"] = {["first"] = "f", ["second"] = "w"},
-    ["坛"] = {["first"] = "t", ["second"] = "s"},
-    ["技"] = {["first"] = "f", ["second"] = "y"},
-    ["坏"] = {["first"] = "t", ["second"] = "b"},
-    ["抠"] = {["first"] = "f", ["second"] = "x"},
-    ["扰"] = {["first"] = "f", ["second"] = "y"},
-    ["扼"] = {["first"] = "f", ["second"] = "v"},
-    ["拒"] = {["first"] = "f", ["second"] = "j"},
-    ["找"] = {["first"] = "f", ["second"] = "g"},
-    ["批"] = {["first"] = "f", ["second"] = "b"},
-    ["址"] = {["first"] = "t", ["second"] = "v"},
-    ["扯"] = {["first"] = "f", ["second"] = "v"},
-    ["走"] = {["first"] = "t", ["second"] = "r"},
-    ["抄"] = {["first"] = "f", ["second"] = "u"},
-    ["贡"] = {["first"] = "g", ["second"] = "r"},
-    ["汞"] = {["first"] = "g", ["second"] = "u"},
-    ["坝"] = {["first"] = "t", ["second"] = "r"},
-    ["攻"] = {["first"] = "g", ["second"] = "w"},
-    ["赤"] = {["first"] = "t", ["second"] = "d"},
-    ["折"] = {["first"] = "f", ["second"] = "j"},
-    ["抓"] = {["first"] = "f", ["second"] = "v"},
-    ["扳"] = {["first"] = "f", ["second"] = "y"},
-    ["抡"] = {["first"] = "f", ["second"] = "b"},
-    ["扮"] = {["first"] = "f", ["second"] = "d"},
-    ["抢"] = {["first"] = "f", ["second"] = "v"},
-    ["孝"] = {["first"] = "l", ["second"] = "z"},
-    ["坎"] = {["first"] = "t", ["second"] = "r"},
-    ["均"] = {["first"] = "t", ["second"] = "d"},
-    ["抑"] = {["first"] = "f", ["second"] = "e"},
-    ["抛"] = {["first"] = "f", ["second"] = "l"},
-    ["投"] = {["first"] = "f", ["second"] = "y"},
-    ["坟"] = {["first"] = "t", ["second"] = "w"},
-    ["坑"] = {["first"] = "t", ["second"] = "j"},
-    ["抗"] = {["first"] = "f", ["second"] = "j"},
-    ["坊"] = {["first"] = "t", ["second"] = "f"},
-    ["抖"] = {["first"] = "f", ["second"] = "u"},
-    ["护"] = {["first"] = "f", ["second"] = "h"},
-    ["壳"] = {["first"] = "u", ["second"] = "j"},
-    ["志"] = {["first"] = "u", ["second"] = "x"},
-    ["块"] = {["first"] = "t", ["second"] = "g"},
-    ["扭"] = {["first"] = "f", ["second"] = "i"},
-    ["声"] = {["first"] = "u", ["second"] = "p"},
-    ["把"] = {["first"] = "f", ["second"] = "b"},
-    ["报"] = {["first"] = "f", ["second"] = "y"},
-    ["拟"] = {["first"] = "f", ["second"] = "r"},
-    ["却"] = {["first"] = "t", ["second"] = "e"},
-    ["抒"] = {["first"] = "f", ["second"] = "l"},
-    ["劫"] = {["first"] = "t", ["second"] = "l"},
-    ["芙"] = {["first"] = "c", ["second"] = "f"},
-    ["芜"] = {["first"] = "c", ["second"] = "w"},
-    ["苇"] = {["first"] = "c", ["second"] = "w"},
-    ["芽"] = {["first"] = "c", ["second"] = "y"},
-    ["花"] = {["first"] = "c", ["second"] = "b"},
-    ["芹"] = {["first"] = "c", ["second"] = "j"},
-    ["芥"] = {["first"] = "c", ["second"] = "l"},
-    ["芬"] = {["first"] = "c", ["second"] = "d"},
-    ["苍"] = {["first"] = "c", ["second"] = "v"},
-    ["芳"] = {["first"] = "c", ["second"] = "f"},
-    ["严"] = {["first"] = "y", ["second"] = "p"},
-    ["芦"] = {["first"] = "c", ["second"] = "h"},
-    ["芯"] = {["first"] = "c", ["second"] = "x"},
-    ["劳"] = {["first"] = "c", ["second"] = "l"},
-    ["克"] = {["first"] = "u", ["second"] = "e"},
-    ["芭"] = {["first"] = "c", ["second"] = "b"},
-    ["苏"] = {["first"] = "c", ["second"] = "b"},
-    ["杆"] = {["first"] = "m", ["second"] = "g"},
-    ["杠"] = {["first"] = "m", ["second"] = "g"},
-    ["杜"] = {["first"] = "m", ["second"] = "t"},
-    ["材"] = {["first"] = "m", ["second"] = "c"},
-    ["村"] = {["first"] = "m", ["second"] = "c"},
-    ["杖"] = {["first"] = "m", ["second"] = "v"},
-    ["杏"] = {["first"] = "m", ["second"] = "k"},
-    ["杉"] = {["first"] = "m", ["second"] = "p"},
-    ["巫"] = {["first"] = "g", ["second"] = "r"},
-    ["极"] = {["first"] = "m", ["second"] = "j"},
-    ["李"] = {["first"] = "m", ["second"] = "z"},
-    ["杨"] = {["first"] = "m", ["second"] = "p"},
-    ["求"] = {["first"] = "a", ["second"] = "d"},
-    ["甫"] = {["first"] = "a", ["second"] = "d"},
-    ["匣"] = {["first"] = "k", ["second"] = "j"},
-    ["更"] = {["first"] = "a", ["second"] = "n"},
-    ["束"] = {["first"] = "a", ["second"] = "n"},
-    ["吾"] = {["first"] = "w", ["second"] = "k"},
-    ["豆"] = {["first"] = "a", ["second"] = "a"},
-    ["两"] = {["first"] = "a", ["second"] = "d"},
-    ["酉"] = {["first"] = "x", ["second"] = "a"},
-    ["丽"] = {["first"] = "a", ["second"] = "d"},
-    ["医"] = {["first"] = "k", ["second"] = "u"},
-    ["辰"] = {["first"] = "i", ["second"] = "n"},
-    ["励"] = {["first"] = "i", ["second"] = "l"},
-    ["否"] = {["first"] = "b", ["second"] = "k"},
-    ["还"] = {["first"] = "z", ["second"] = "b"},
-    ["尬"] = {["first"] = "y", ["second"] = "l"},
-    ["歼"] = {["first"] = "d", ["second"] = "q"},
-    ["来"] = {["first"] = "a", ["second"] = "n"},
-    ["连"] = {["first"] = "z", ["second"] = "i"},
-    ["轩"] = {["first"] = "i", ["second"] = "g"},
-    ["步"] = {["first"] = "v", ["second"] = "p"},
-    ["卤"] = {["first"] = "l", ["second"] = "x"},
-    ["坚"] = {["first"] = "l", ["second"] = "t"},
-    ["肖"] = {["first"] = "x", ["second"] = "o"},
-    ["旱"] = {["first"] = "o", ["second"] = "g"},
-    ["盯"] = {["first"] = "o", ["second"] = "d"},
-    ["呈"] = {["first"] = "k", ["second"] = "w"},
-    ["时"] = {["first"] = "o", ["second"] = "c"},
-    ["吴"] = {["first"] = "k", ["second"] = "t"},
-    ["助"] = {["first"] = "q", ["second"] = "l"},
-    ["县"] = {["first"] = "q", ["second"] = "s"},
-    ["里"] = {["first"] = "l", ["second"] = "a"},
-    ["呆"] = {["first"] = "k", ["second"] = "m"},
-    ["吱"] = {["first"] = "k", ["second"] = "y"},
-    ["吠"] = {["first"] = "k", ["second"] = "q"},
-    ["呕"] = {["first"] = "k", ["second"] = "x"},
-    ["园"] = {["first"] = "k", ["second"] = "e"},
-    ["旷"] = {["first"] = "o", ["second"] = "g"},
-    ["围"] = {["first"] = "k", ["second"] = "w"},
-    ["呀"] = {["first"] = "k", ["second"] = "y"},
-    ["吨"] = {["first"] = "k", ["second"] = "t"},
-    ["足"] = {["first"] = "k", ["second"] = "r"},
-    ["邮"] = {["first"] = "y", ["second"] = "e"},
-    ["男"] = {["first"] = "t", ["second"] = "l"},
-    ["困"] = {["first"] = "k", ["second"] = "m"},
-    ["吵"] = {["first"] = "k", ["second"] = "u"},
-    ["串"] = {["first"] = "l", ["second"] = "l"},
-    ["员"] = {["first"] = "k", ["second"] = "r"},
-    ["呐"] = {["first"] = "k", ["second"] = "n"},
-    ["听"] = {["first"] = "k", ["second"] = "j"},
-    ["吟"] = {["first"] = "k", ["second"] = "v"},
-    ["吩"] = {["first"] = "k", ["second"] = "d"},
-    ["呛"] = {["first"] = "k", ["second"] = "v"},
-    ["吻"] = {["first"] = "k", ["second"] = "w"},
-    ["吹"] = {["first"] = "k", ["second"] = "r"},
-    ["呜"] = {["first"] = "k", ["second"] = "w"},
-    ["吭"] = {["first"] = "k", ["second"] = "j"},
-    ["吧"] = {["first"] = "k", ["second"] = "b"},
-    ["邑"] = {["first"] = "k", ["second"] = "b"},
-    ["吼"] = {["first"] = "k", ["second"] = "v"},
-    ["囤"] = {["first"] = "k", ["second"] = "t"},
-    ["别"] = {["first"] = "k", ["second"] = "d"},
-    ["吮"] = {["first"] = "k", ["second"] = "e"},
-    ["岖"] = {["first"] = "e", ["second"] = "x"},
-    ["岗"] = {["first"] = "e", ["second"] = "x"},
-    ["帐"] = {["first"] = "j", ["second"] = "i"},
-    ["财"] = {["first"] = "k", ["second"] = "c"},
-    ["针"] = {["first"] = "j", ["second"] = "u"},
-    ["钉"] = {["first"] = "j", ["second"] = "d"},
-    ["牡"] = {["first"] = "n", ["second"] = "t"},
-    ["告"] = {["first"] = "n", ["second"] = "k"},
-    ["我"] = {["first"] = "p", ["second"] = "d"},
-    ["乱"] = {["first"] = "q", ["second"] = "v"},
-    ["利"] = {["first"] = "h", ["second"] = "d"},
-    ["秃"] = {["first"] = "h", ["second"] = "j"},
-    ["秀"] = {["first"] = "h", ["second"] = "n"},
-    ["私"] = {["first"] = "h", ["second"] = "s"},
-    ["每"] = {["first"] = "p", ["second"] = "m"},
-    ["兵"] = {["first"] = "q", ["second"] = "b"},
-    ["估"] = {["first"] = "r", ["second"] = "k"},
-    ["体"] = {["first"] = "r", ["second"] = "b"},
-    ["何"] = {["first"] = "r", ["second"] = "k"},
-    ["佐"] = {["first"] = "r", ["second"] = "g"},
-    ["佑"] = {["first"] = "r", ["second"] = "k"},
-    ["但"] = {["first"] = "r", ["second"] = "a"},
-    ["伸"] = {["first"] = "r", ["second"] = "u"},
-    ["佃"] = {["first"] = "r", ["second"] = "t"},
-    ["作"] = {["first"] = "r", ["second"] = "v"},
-    ["伯"] = {["first"] = "r", ["second"] = "b"},
-    ["伶"] = {["first"] = "r", ["second"] = "s"},
-    ["佣"] = {["first"] = "r", ["second"] = "y"},
-    ["低"] = {["first"] = "r", ["second"] = "d"},
-    ["你"] = {["first"] = "r", ["second"] = "x"},
-    ["住"] = {["first"] = "r", ["second"] = "v"},
-    ["位"] = {["first"] = "r", ["second"] = "l"},
-    ["伴"] = {["first"] = "r", ["second"] = "b"},
-    ["身"] = {["first"] = "p", ["second"] = "p"},
-    ["皂"] = {["first"] = "b", ["second"] = "q"},
-    ["伺"] = {["first"] = "r", ["second"] = "k"},
-    ["佛"] = {["first"] = "r", ["second"] = "f"},
-    ["囱"] = {["first"] = "p", ["second"] = "w"},
-    ["近"] = {["first"] = "z", ["second"] = "j"},
-    ["彻"] = {["first"] = "i", ["second"] = "d"},
-    ["役"] = {["first"] = "i", ["second"] = "y"},
-    ["返"] = {["first"] = "z", ["second"] = "y"},
-    ["余"] = {["first"] = "r", ["second"] = "h"},
-    ["希"] = {["first"] = "x", ["second"] = "j"},
-    ["坐"] = {["first"] = "r", ["second"] = "t"},
-    ["谷"] = {["first"] = "b", ["second"] = "k"},
-    ["妥"] = {["first"] = "p", ["second"] = "n"},
-    ["含"] = {["first"] = "r", ["second"] = "k"},
-    ["邻"] = {["first"] = "r", ["second"] = "e"},
-    ["岔"] = {["first"] = "b", ["second"] = "e"},
-    ["肝"] = {["first"] = "o", ["second"] = "g"},
-    ["肛"] = {["first"] = "o", ["second"] = "g"},
-    ["肚"] = {["first"] = "o", ["second"] = "t"},
-    ["肘"] = {["first"] = "o", ["second"] = "c"},
-    ["肠"] = {["first"] = "o", ["second"] = "p"},
-    ["龟"] = {["first"] = "d", ["second"] = "v"},
-    ["甸"] = {["first"] = "b", ["second"] = "t"},
-    ["免"] = {["first"] = "d", ["second"] = "v"},
-    ["狂"] = {["first"] = "q", ["second"] = "w"},
-    ["犹"] = {["first"] = "q", ["second"] = "y"},
-    ["狈"] = {["first"] = "q", ["second"] = "r"},
-    ["角"] = {["first"] = "d", ["second"] = "y"},
-    ["删"] = {["first"] = "c", ["second"] = "d"},
-    ["条"] = {["first"] = "w", ["second"] = "m"},
-    ["彤"] = {["first"] = "d", ["second"] = "p"},
-    ["卵"] = {["first"] = "p", ["second"] = "d"},
-    ["灸"] = {["first"] = "j", ["second"] = "h"},
-    ["岛"] = {["first"] = "p", ["second"] = "e"},
-    ["刨"] = {["first"] = "b", ["second"] = "d"},
-    ["迎"] = {["first"] = "z", ["second"] = "e"},
-    ["饭"] = {["first"] = "u", ["second"] = "y"},
-    ["饮"] = {["first"] = "u", ["second"] = "r"},
-    ["系"] = {["first"] = "p", ["second"] = "x"},
-    ["言"] = {["first"] = "w", ["second"] = "k"},
-    ["冻"] = {["first"] = "d", ["second"] = "d"},
-    ["状"] = {["first"] = "d", ["second"] = "q"},
-    ["亩"] = {["first"] = "w", ["second"] = "t"},
-    ["况"] = {["first"] = "d", ["second"] = "e"},
-    ["床"] = {["first"] = "g", ["second"] = "m"},
-    ["库"] = {["first"] = "g", ["second"] = "i"},
-    ["庇"] = {["first"] = "g", ["second"] = "b"},
-    ["疗"] = {["first"] = "b", ["second"] = "l"},
-    ["吝"] = {["first"] = "w", ["second"] = "k"},
-    ["应"] = {["first"] = "g", ["second"] = "a"},
-    ["这"] = {["first"] = "z", ["second"] = "w"},
-    ["冷"] = {["first"] = "d", ["second"] = "s"},
-    ["庐"] = {["first"] = "g", ["second"] = "h"},
-    ["序"] = {["first"] = "g", ["second"] = "l"},
-    ["辛"] = {["first"] = "l", ["second"] = "u"},
-    ["弃"] = {["first"] = "w", ["second"] = "c"},
-    ["冶"] = {["first"] = "d", ["second"] = "k"},
-    ["忘"] = {["first"] = "w", ["second"] = "x"},
-    ["闰"] = {["first"] = "m", ["second"] = "w"},
-    ["闲"] = {["first"] = "m", ["second"] = "m"},
-    ["间"] = {["first"] = "m", ["second"] = "o"},
-    ["闷"] = {["first"] = "m", ["second"] = "x"},
-    ["判"] = {["first"] = "b", ["second"] = "d"},
-    ["兑"] = {["first"] = "b", ["second"] = "e"},
-    ["灶"] = {["first"] = "h", ["second"] = "t"},
-    ["灿"] = {["first"] = "h", ["second"] = "e"},
-    ["灼"] = {["first"] = "h", ["second"] = "u"},
-    ["弟"] = {["first"] = "b", ["second"] = "p"},
-    ["汪"] = {["first"] = "d", ["second"] = "w"},
-    ["沐"] = {["first"] = "d", ["second"] = "m"},
-    ["沛"] = {["first"] = "d", ["second"] = "l"},
-    ["汰"] = {["first"] = "d", ["second"] = "t"},
-    ["沥"] = {["first"] = "d", ["second"] = "l"},
-    ["沙"] = {["first"] = "d", ["second"] = "u"},
-    ["汽"] = {["first"] = "d", ["second"] = "q"},
-    ["沃"] = {["first"] = "d", ["second"] = "y"},
-    ["沦"] = {["first"] = "d", ["second"] = "b"},
-    ["汹"] = {["first"] = "d", ["second"] = "k"},
-    ["泛"] = {["first"] = "d", ["second"] = "f"},
-    ["沧"] = {["first"] = "d", ["second"] = "v"},
-    ["没"] = {["first"] = "d", ["second"] = "y"},
-    ["沟"] = {["first"] = "d", ["second"] = "s"},
-    ["沪"] = {["first"] = "d", ["second"] = "h"},
-    ["沈"] = {["first"] = "d", ["second"] = "v"},
-    ["沉"] = {["first"] = "d", ["second"] = "j"},
-    ["沁"] = {["first"] = "d", ["second"] = "x"},
-    ["怀"] = {["first"] = "x", ["second"] = "b"},
-    ["忧"] = {["first"] = "x", ["second"] = "y"},
-    ["忱"] = {["first"] = "x", ["second"] = "v"},
-    ["快"] = {["first"] = "x", ["second"] = "g"},
-    ["完"] = {["first"] = "b", ["second"] = "e"},
-    ["宋"] = {["first"] = "b", ["second"] = "m"},
-    ["宏"] = {["first"] = "b", ["second"] = "s"},
-    ["牢"] = {["first"] = "b", ["second"] = "n"},
-    ["究"] = {["first"] = "b", ["second"] = "j"},
-    ["穷"] = {["first"] = "b", ["second"] = "l"},
-    ["灾"] = {["first"] = "b", ["second"] = "h"},
-    ["良"] = {["first"] = "d", ["second"] = "g"},
-    ["证"] = {["first"] = "y", ["second"] = "v"},
-    ["启"] = {["first"] = "h", ["second"] = "k"},
-    ["评"] = {["first"] = "y", ["second"] = "p"},
-    ["补"] = {["first"] = "p", ["second"] = "b"},
-    ["初"] = {["first"] = "p", ["second"] = "d"},
-    ["社"] = {["first"] = "p", ["second"] = "t"},
-    ["祀"] = {["first"] = "p", ["second"] = "s"},
-    ["识"] = {["first"] = "y", ["second"] = "b"},
-    ["诈"] = {["first"] = "y", ["second"] = "v"},
-    ["诉"] = {["first"] = "y", ["second"] = "i"},
-    ["罕"] = {["first"] = "b", ["second"] = "g"},
-    ["诊"] = {["first"] = "y", ["second"] = "p"},
-    ["词"] = {["first"] = "y", ["second"] = "k"},
-    ["译"] = {["first"] = "y", ["second"] = "l"},
-    ["君"] = {["first"] = "y", ["second"] = "k"},
-    ["灵"] = {["first"] = "e", ["second"] = "h"},
-    ["即"] = {["first"] = "g", ["second"] = "e"},
-    ["层"] = {["first"] = "u", ["second"] = "s"},
-    ["屁"] = {["first"] = "u", ["second"] = "b"},
-    ["尿"] = {["first"] = "u", ["second"] = "u"},
-    ["尾"] = {["first"] = "u", ["second"] = "m"},
-    ["迟"] = {["first"] = "z", ["second"] = "i"},
-    ["局"] = {["first"] = "u", ["second"] = "k"},
-    ["改"] = {["first"] = "j", ["second"] = "w"},
-    ["张"] = {["first"] = "g", ["second"] = "i"},
-    ["忌"] = {["first"] = "j", ["second"] = "x"},
-    ["际"] = {["first"] = "e", ["second"] = "x"},
-    ["陆"] = {["first"] = "e", ["second"] = "j"},
-    ["阿"] = {["first"] = "e", ["second"] = "k"},
-    ["陈"] = {["first"] = "e", ["second"] = "d"},
-    ["阻"] = {["first"] = "e", ["second"] = "q"},
-    ["附"] = {["first"] = "e", ["second"] = "c"},
-    ["坠"] = {["first"] = "e", ["second"] = "t"},
-    ["妓"] = {["first"] = "n", ["second"] = "y"},
-    ["妙"] = {["first"] = "n", ["second"] = "u"},
-    ["妖"] = {["first"] = "n", ["second"] = "y"},
-    ["姊"] = {["first"] = "n", ["second"] = "p"},
-    ["妨"] = {["first"] = "n", ["second"] = "f"},
-    ["妒"] = {["first"] = "n", ["second"] = "h"},
-    ["努"] = {["first"] = "n", ["second"] = "l"},
-    ["忍"] = {["first"] = "r", ["second"] = "x"},
-    ["劲"] = {["first"] = "v", ["second"] = "l"},
-    ["矣"] = {["first"] = "s", ["second"] = "u"},
-    ["鸡"] = {["first"] = "y", ["second"] = "n"},
-    ["纬"] = {["first"] = "s", ["second"] = "w"},
-    ["驱"] = {["first"] = "m", ["second"] = "x"},
-    ["纯"] = {["first"] = "s", ["second"] = "t"},
-    ["纱"] = {["first"] = "s", ["second"] = "u"},
-    ["纲"] = {["first"] = "s", ["second"] = "x"},
-    ["纳"] = {["first"] = "s", ["second"] = "n"},
-    ["驳"] = {["first"] = "m", ["second"] = "x"},
-    ["纵"] = {["first"] = "s", ["second"] = "r"},
-    ["纷"] = {["first"] = "s", ["second"] = "d"},
-    ["纸"] = {["first"] = "s", ["second"] = "u"},
-    ["纹"] = {["first"] = "s", ["second"] = "w"},
-    ["纺"] = {["first"] = "s", ["second"] = "f"},
-    ["驴"] = {["first"] = "m", ["second"] = "h"},
-    ["纽"] = {["first"] = "s", ["second"] = "i"},
-    ["奉"] = {["first"] = "f", ["second"] = "l"},
-    ["玩"] = {["first"] = "w", ["second"] = "e"},
-    ["环"] = {["first"] = "w", ["second"] = "b"},
-    ["武"] = {["first"] = "a", ["second"] = "v"},
-    ["青"] = {["first"] = "f", ["second"] = "o"},
-    ["责"] = {["first"] = "f", ["second"] = "r"},
-    ["现"] = {["first"] = "w", ["second"] = "e"},
-    ["玫"] = {["first"] = "w", ["second"] = "w"},
-    ["表"] = {["first"] = "f", ["second"] = "y"},
-    ["规"] = {["first"] = "f", ["second"] = "e"},
-    ["抹"] = {["first"] = "f", ["second"] = "m"},
-    ["卦"] = {["first"] = "t", ["second"] = "b"},
-    ["坷"] = {["first"] = "t", ["second"] = "k"},
-    ["坯"] = {["first"] = "t", ["second"] = "p"},
-    ["拓"] = {["first"] = "f", ["second"] = "u"},
-    ["拢"] = {["first"] = "f", ["second"] = "l"},
-    ["拔"] = {["first"] = "f", ["second"] = "d"},
-    ["坪"] = {["first"] = "t", ["second"] = "p"},
-    ["拣"] = {["first"] = "f", ["second"] = "d"},
-    ["坦"] = {["first"] = "t", ["second"] = "a"},
-    ["担"] = {["first"] = "f", ["second"] = "a"},
-    ["坤"] = {["first"] = "t", ["second"] = "u"},
-    ["押"] = {["first"] = "f", ["second"] = "j"},
-    ["抽"] = {["first"] = "f", ["second"] = "y"},
-    ["拐"] = {["first"] = "f", ["second"] = "l"},
-    ["拖"] = {["first"] = "f", ["second"] = "y"},
-    ["者"] = {["first"] = "l", ["second"] = "o"},
-    ["拍"] = {["first"] = "f", ["second"] = "b"},
-    ["顶"] = {["first"] = "d", ["second"] = "r"},
-    ["拆"] = {["first"] = "f", ["second"] = "i"},
-    ["拎"] = {["first"] = "f", ["second"] = "s"},
-    ["拥"] = {["first"] = "f", ["second"] = "y"},
-    ["抵"] = {["first"] = "f", ["second"] = "d"},
-    ["拘"] = {["first"] = "f", ["second"] = "k"},
-    ["势"] = {["first"] = "f", ["second"] = "l"},
-    ["抱"] = {["first"] = "f", ["second"] = "s"},
-    ["拄"] = {["first"] = "f", ["second"] = "v"},
-    ["垃"] = {["first"] = "t", ["second"] = "l"},
-    ["拉"] = {["first"] = "f", ["second"] = "l"},
-    ["拦"] = {["first"] = "f", ["second"] = "s"},
-    ["幸"] = {["first"] = "t", ["second"] = "g"},
-    ["拌"] = {["first"] = "f", ["second"] = "b"},
-    ["拧"] = {["first"] = "f", ["second"] = "d"},
-    ["拂"] = {["first"] = "f", ["second"] = "f"},
-    ["拙"] = {["first"] = "f", ["second"] = "i"},
-    ["招"] = {["first"] = "f", ["second"] = "k"},
-    ["坡"] = {["first"] = "t", ["second"] = "y"},
-    ["披"] = {["first"] = "f", ["second"] = "y"},
-    ["拨"] = {["first"] = "f", ["second"] = "d"},
-    ["择"] = {["first"] = "f", ["second"] = "l"},
-    ["抬"] = {["first"] = "f", ["second"] = "k"},
-    ["拇"] = {["first"] = "f", ["second"] = "m"},
-    ["拗"] = {["first"] = "f", ["second"] = "l"},
-    ["其"] = {["first"] = "q", ["second"] = "b"},
-    ["取"] = {["first"] = "e", ["second"] = "y"},
-    ["茉"] = {["first"] = "c", ["second"] = "m"},
-    ["苦"] = {["first"] = "c", ["second"] = "k"},
-    ["昔"] = {["first"] = "c", ["second"] = "o"},
-    ["苛"] = {["first"] = "c", ["second"] = "k"},
-    ["若"] = {["first"] = "c", ["second"] = "k"},
-    ["茂"] = {["first"] = "c", ["second"] = "w"},
-    ["苹"] = {["first"] = "c", ["second"] = "p"},
-    ["苗"] = {["first"] = "c", ["second"] = "t"},
-    ["英"] = {["first"] = "c", ["second"] = "y"},
-    ["苟"] = {["first"] = "c", ["second"] = "k"},
-    ["苑"] = {["first"] = "c", ["second"] = "v"},
-    ["苞"] = {["first"] = "c", ["second"] = "s"},
-    ["范"] = {["first"] = "c", ["second"] = "v"},
-    ["直"] = {["first"] = "u", ["second"] = "q"},
-    ["茁"] = {["first"] = "c", ["second"] = "i"},
-    ["茄"] = {["first"] = "c", ["second"] = "k"},
-    ["茎"] = {["first"] = "c", ["second"] = "g"},
-    ["苔"] = {["first"] = "c", ["second"] = "k"},
-    ["茅"] = {["first"] = "c", ["second"] = "p"},
-    ["枉"] = {["first"] = "m", ["second"] = "w"},
-    ["林"] = {["first"] = "m", ["second"] = "m"},
-    ["枝"] = {["first"] = "m", ["second"] = "y"},
-    ["杯"] = {["first"] = "m", ["second"] = "b"},
-    ["枢"] = {["first"] = "m", ["second"] = "x"},
-    ["柜"] = {["first"] = "m", ["second"] = "j"},
-    ["枚"] = {["first"] = "m", ["second"] = "w"},
-    ["析"] = {["first"] = "m", ["second"] = "j"},
-    ["板"] = {["first"] = "m", ["second"] = "y"},
-    ["松"] = {["first"] = "m", ["second"] = "s"},
-    ["枪"] = {["first"] = "m", ["second"] = "v"},
-    ["枫"] = {["first"] = "m", ["second"] = "x"},
-    ["构"] = {["first"] = "m", ["second"] = "s"},
-    ["杭"] = {["first"] = "m", ["second"] = "j"},
-    ["杰"] = {["first"] = "m", ["second"] = "h"},
-    ["述"] = {["first"] = "z", ["second"] = "u"},
-    ["枕"] = {["first"] = "m", ["second"] = "v"},
-    ["丧"] = {["first"] = "u", ["second"] = "n"},
-    ["或"] = {["first"] = "g", ["second"] = "a"},
-    ["画"] = {["first"] = "a", ["second"] = "k"},
-    ["卧"] = {["first"] = "i", ["second"] = "b"},
-    ["事"] = {["first"] = "a", ["second"] = "l"},
-    ["刺"] = {["first"] = "a", ["second"] = "d"},
-    ["枣"] = {["first"] = "a", ["second"] = "d"},
-    ["雨"] = {["first"] = "a", ["second"] = "d"},
-    ["卖"] = {["first"] = "u", ["second"] = "d"},
-    ["郁"] = {["first"] = "u", ["second"] = "e"},
-    ["矾"] = {["first"] = "u", ["second"] = "f"},
-    ["矿"] = {["first"] = "u", ["second"] = "g"},
-    ["码"] = {["first"] = "u", ["second"] = "m"},
-    ["厕"] = {["first"] = "i", ["second"] = "d"},
-    ["奈"] = {["first"] = "d", ["second"] = "x"},
-    ["奔"] = {["first"] = "d", ["second"] = "c"},
-    ["奇"] = {["first"] = "d", ["second"] = "k"},
-    ["奋"] = {["first"] = "d", ["second"] = "t"},
-    ["态"] = {["first"] = "t", ["second"] = "x"},
-    ["欧"] = {["first"] = "k", ["second"] = "r"},
-    ["殴"] = {["first"] = "k", ["second"] = "y"},
-    ["垄"] = {["first"] = "l", ["second"] = "t"},
-    ["妻"] = {["first"] = "a", ["second"] = "n"},
-    ["轰"] = {["first"] = "i", ["second"] = "y"},
-    ["顷"] = {["first"] = "b", ["second"] = "r"},
-    ["转"] = {["first"] = "i", ["second"] = "v"},
-    ["斩"] = {["first"] = "i", ["second"] = "j"},
-    ["轮"] = {["first"] = "i", ["second"] = "b"},
-    ["软"] = {["first"] = "i", ["second"] = "r"},
-    ["到"] = {["first"] = "a", ["second"] = "d"},
-    ["非"] = {["first"] = "l", ["second"] = "a"},
-    ["叔"] = {["first"] = "u", ["second"] = "y"},
-    ["歧"] = {["first"] = "v", ["second"] = "y"},
-    ["肯"] = {["first"] = "v", ["second"] = "o"},
-    ["齿"] = {["first"] = "v", ["second"] = "k"},
-    ["些"] = {["first"] = "v", ["second"] = "e"},
-    ["卓"] = {["first"] = "l", ["second"] = "u"},
-    ["虎"] = {["first"] = "h", ["second"] = "j"},
-    ["虏"] = {["first"] = "h", ["second"] = "l"},
-    ["肾"] = {["first"] = "l", ["second"] = "o"},
-    ["贤"] = {["first"] = "l", ["second"] = "r"},
-    ["尚"] = {["first"] = "x", ["second"] = "k"},
-    ["旺"] = {["first"] = "o", ["second"] = "w"},
-    ["具"] = {["first"] = "q", ["second"] = "b"},
-    ["味"] = {["first"] = "k", ["second"] = "w"},
-    ["果"] = {["first"] = "l", ["second"] = "n"},
-    ["昆"] = {["first"] = "o", ["second"] = "b"},
-    ["国"] = {["first"] = "k", ["second"] = "y"},
-    ["哎"] = {["first"] = "k", ["second"] = "x"},
-    ["咕"] = {["first"] = "k", ["second"] = "k"},
-    ["昌"] = {["first"] = "o", ["second"] = "o"},
-    ["呵"] = {["first"] = "k", ["second"] = "k"},
-    ["畅"] = {["first"] = "u", ["second"] = "p"},
-    ["明"] = {["first"] = "o", ["second"] = "o"},
-    ["易"] = {["first"] = "o", ["second"] = "w"},
-    ["咙"] = {["first"] = "k", ["second"] = "l"},
-    ["昂"] = {["first"] = "o", ["second"] = "e"},
-    ["迪"] = {["first"] = "z", ["second"] = "y"},
-    ["典"] = {["first"] = "l", ["second"] = "b"},
-    ["固"] = {["first"] = "k", ["second"] = "k"},
-    ["忠"] = {["first"] = "v", ["second"] = "x"},
-    ["呻"] = {["first"] = "k", ["second"] = "u"},
-    ["咒"] = {["first"] = "k", ["second"] = "j"},
-    ["咋"] = {["first"] = "k", ["second"] = "v"},
-    ["咐"] = {["first"] = "k", ["second"] = "c"},
-    ["呼"] = {["first"] = "k", ["second"] = "h"},
-    ["鸣"] = {["first"] = "k", ["second"] = "n"},
-    ["咏"] = {["first"] = "k", ["second"] = "y"},
-    ["呢"] = {["first"] = "k", ["second"] = "b"},
-    ["咄"] = {["first"] = "k", ["second"] = "i"},
-    ["咖"] = {["first"] = "k", ["second"] = "k"},
-    ["岸"] = {["first"] = "e", ["second"] = "g"},
-    ["岩"] = {["first"] = "e", ["second"] = "u"},
-    ["帖"] = {["first"] = "j", ["second"] = "k"},
-    ["罗"] = {["first"] = "s", ["second"] = "x"},
-    ["帜"] = {["first"] = "j", ["second"] = "b"},
-    ["帕"] = {["first"] = "j", ["second"] = "b"},
-    ["岭"] = {["first"] = "e", ["second"] = "s"},
-    ["凯"] = {["first"] = "e", ["second"] = "j"},
-    ["败"] = {["first"] = "k", ["second"] = "w"},
-    ["账"] = {["first"] = "k", ["second"] = "i"},
-    ["贩"] = {["first"] = "k", ["second"] = "y"},
-    ["贬"] = {["first"] = "k", ["second"] = "f"},
-    ["购"] = {["first"] = "k", ["second"] = "s"},
-    ["贮"] = {["first"] = "k", ["second"] = "a"},
-    ["图"] = {["first"] = "k", ["second"] = "d"},
-    ["钓"] = {["first"] = "j", ["second"] = "u"},
-    ["制"] = {["first"] = "p", ["second"] = "d"},
-    ["知"] = {["first"] = "u", ["second"] = "k"},
-    ["迭"] = {["first"] = "z", ["second"] = "u"},
-    ["氛"] = {["first"] = "q", ["second"] = "d"},
-    ["垂"] = {["first"] = "p", ["second"] = "a"},
-    ["牧"] = {["first"] = "n", ["second"] = "w"},
-    ["物"] = {["first"] = "n", ["second"] = "w"},
-    ["乖"] = {["first"] = "q", ["second"] = "b"},
-    ["刮"] = {["first"] = "q", ["second"] = "d"},
-    ["秆"] = {["first"] = "h", ["second"] = "g"},
-    ["和"] = {["first"] = "h", ["second"] = "k"},
-    ["季"] = {["first"] = "h", ["second"] = "z"},
-    ["委"] = {["first"] = "h", ["second"] = "n"},
-    ["秉"] = {["first"] = "p", ["second"] = "n"},
-    ["佳"] = {["first"] = "r", ["second"] = "t"},
-    ["侍"] = {["first"] = "r", ["second"] = "c"},
-    ["岳"] = {["first"] = "q", ["second"] = "e"},
-    ["供"] = {["first"] = "r", ["second"] = "b"},
-    ["使"] = {["first"] = "r", ["second"] = "l"},
-    ["例"] = {["first"] = "r", ["second"] = "d"},
-    ["侠"] = {["first"] = "r", ["second"] = "j"},
-    ["侥"] = {["first"] = "r", ["second"] = "w"},
-    ["版"] = {["first"] = "p", ["second"] = "y"},
-    ["侄"] = {["first"] = "r", ["second"] = "t"},
-    ["侦"] = {["first"] = "r", ["second"] = "r"},
-    ["侣"] = {["first"] = "r", ["second"] = "k"},
-    ["侧"] = {["first"] = "r", ["second"] = "d"},
-    ["凭"] = {["first"] = "r", ["second"] = "j"},
-    ["侨"] = {["first"] = "r", ["second"] = "l"},
-    ["佩"] = {["first"] = "r", ["second"] = "j"},
-    ["货"] = {["first"] = "r", ["second"] = "r"},
-    ["侈"] = {["first"] = "r", ["second"] = "x"},
-    ["依"] = {["first"] = "r", ["second"] = "y"},
-    ["卑"] = {["first"] = "p", ["second"] = "u"},
-    ["的"] = {["first"] = "b", ["second"] = "u"},
-    ["迫"] = {["first"] = "z", ["second"] = "b"},
-    ["质"] = {["first"] = "p", ["second"] = "r"},
-    ["欣"] = {["first"] = "j", ["second"] = "r"},
-    ["征"] = {["first"] = "i", ["second"] = "v"},
-    ["往"] = {["first"] = "i", ["second"] = "v"},
-    ["爬"] = {["first"] = "v", ["second"] = "b"},
-    ["彼"] = {["first"] = "i", ["second"] = "y"},
-    ["径"] = {["first"] = "i", ["second"] = "g"},
-    ["所"] = {["first"] = "p", ["second"] = "j"},
-    ["舍"] = {["first"] = "r", ["second"] = "k"},
-    ["金"] = {["first"] = "r", ["second"] = "a"},
-    ["刹"] = {["first"] = "x", ["second"] = "d"},
-    ["命"] = {["first"] = "r", ["second"] = "e"},
-    ["肴"] = {["first"] = "x", ["second"] = "o"},
-    ["斧"] = {["first"] = "b", ["second"] = "j"},
-    ["爸"] = {["first"] = "b", ["second"] = "b"},
-    ["采"] = {["first"] = "p", ["second"] = "m"},
-    ["觅"] = {["first"] = "p", ["second"] = "e"},
-    ["受"] = {["first"] = "p", ["second"] = "y"},
-    ["乳"] = {["first"] = "p", ["second"] = "v"},
-    ["贪"] = {["first"] = "r", ["second"] = "r"},
-    ["念"] = {["first"] = "r", ["second"] = "x"},
-    ["贫"] = {["first"] = "b", ["second"] = "r"},
-    ["忿"] = {["first"] = "b", ["second"] = "x"},
-    ["肤"] = {["first"] = "o", ["second"] = "f"},
-    ["肺"] = {["first"] = "o", ["second"] = "l"},
-    ["肢"] = {["first"] = "o", ["second"] = "y"},
-    ["肿"] = {["first"] = "o", ["second"] = "v"},
-    ["胀"] = {["first"] = "o", ["second"] = "i"},
-    ["朋"] = {["first"] = "o", ["second"] = "o"},
-    ["股"] = {["first"] = "o", ["second"] = "y"},
-    ["肮"] = {["first"] = "o", ["second"] = "j"},
-    ["肪"] = {["first"] = "o", ["second"] = "f"},
-    ["肥"] = {["first"] = "o", ["second"] = "b"},
-    ["服"] = {["first"] = "o", ["second"] = "y"},
-    ["胁"] = {["first"] = "o", ["second"] = "b"},
-    ["周"] = {["first"] = "k", ["second"] = "k"},
-    ["昏"] = {["first"] = "u", ["second"] = "o"},
-    ["鱼"] = {["first"] = "d", ["second"] = "a"},
-    ["兔"] = {["first"] = "d", ["second"] = "d"},
-    ["狐"] = {["first"] = "q", ["second"] = "g"},
-    ["忽"] = {["first"] = "w", ["second"] = "x"},
-    ["狗"] = {["first"] = "q", ["second"] = "k"},
-    ["狞"] = {["first"] = "q", ["second"] = "d"},
-    ["备"] = {["first"] = "w", ["second"] = "t"},
-    ["饰"] = {["first"] = "u", ["second"] = "j"},
-    ["饱"] = {["first"] = "u", ["second"] = "s"},
-    ["饲"] = {["first"] = "u", ["second"] = "k"},
-    ["变"] = {["first"] = "w", ["second"] = "y"},
-    ["京"] = {["first"] = "w", ["second"] = "x"},
-    ["享"] = {["first"] = "w", ["second"] = "z"},
-    ["庞"] = {["first"] = "g", ["second"] = "l"},
-    ["店"] = {["first"] = "g", ["second"] = "k"},
-    ["夜"] = {["first"] = "w", ["second"] = "n"},
-    ["庙"] = {["first"] = "g", ["second"] = "y"},
-    ["府"] = {["first"] = "g", ["second"] = "c"},
-    ["底"] = {["first"] = "g", ["second"] = "d"},
-    ["疟"] = {["first"] = "b", ["second"] = "a"},
-    ["疙"] = {["first"] = "b", ["second"] = "q"},
-    ["疚"] = {["first"] = "b", ["second"] = "j"},
-    ["剂"] = {["first"] = "w", ["second"] = "d"},
-    ["卒"] = {["first"] = "w", ["second"] = "u"},
-    ["郊"] = {["first"] = "w", ["second"] = "e"},
-    ["庚"] = {["first"] = "g", ["second"] = "n"},
-    ["废"] = {["first"] = "g", ["second"] = "d"},
-    ["净"] = {["first"] = "d", ["second"] = "l"},
-    ["盲"] = {["first"] = "w", ["second"] = "o"},
-    ["放"] = {["first"] = "f", ["second"] = "w"},
-    ["刻"] = {["first"] = "w", ["second"] = "d"},
-    ["育"] = {["first"] = "w", ["second"] = "o"},
-    ["氓"] = {["first"] = "w", ["second"] = "m"},
-    ["闸"] = {["first"] = "m", ["second"] = "j"},
-    ["闹"] = {["first"] = "m", ["second"] = "j"},
-    ["郑"] = {["first"] = "b", ["second"] = "e"},
-    ["券"] = {["first"] = "j", ["second"] = "d"},
-    ["卷"] = {["first"] = "j", ["second"] = "v"},
-    ["单"] = {["first"] = "b", ["second"] = "l"},
-    ["炬"] = {["first"] = "h", ["second"] = "j"},
-    ["炒"] = {["first"] = "h", ["second"] = "u"},
-    ["炊"] = {["first"] = "h", ["second"] = "r"},
-    ["炕"] = {["first"] = "h", ["second"] = "j"},
-    ["炎"] = {["first"] = "h", ["second"] = "h"},
-    ["炉"] = {["first"] = "h", ["second"] = "h"},
-    ["沫"] = {["first"] = "d", ["second"] = "m"},
-    ["浅"] = {["first"] = "d", ["second"] = "j"},
-    ["法"] = {["first"] = "d", ["second"] = "s"},
-    ["泄"] = {["first"] = "d", ["second"] = "u"},
-    ["沽"] = {["first"] = "d", ["second"] = "k"},
-    ["河"] = {["first"] = "d", ["second"] = "k"},
-    ["沾"] = {["first"] = "d", ["second"] = "k"},
-    ["泪"] = {["first"] = "d", ["second"] = "o"},
-    ["沮"] = {["first"] = "d", ["second"] = "q"},
-    ["油"] = {["first"] = "d", ["second"] = "y"},
-    ["泊"] = {["first"] = "d", ["second"] = "b"},
-    ["沿"] = {["first"] = "d", ["second"] = "k"},
-    ["泡"] = {["first"] = "d", ["second"] = "s"},
-    ["注"] = {["first"] = "d", ["second"] = "v"},
-    ["泣"] = {["first"] = "d", ["second"] = "l"},
-    ["泞"] = {["first"] = "d", ["second"] = "d"},
-    ["泻"] = {["first"] = "d", ["second"] = "y"},
-    ["泌"] = {["first"] = "d", ["second"] = "b"},
-    ["泳"] = {["first"] = "d", ["second"] = "y"},
-    ["泥"] = {["first"] = "d", ["second"] = "b"},
-    ["沸"] = {["first"] = "d", ["second"] = "f"},
-    ["沼"] = {["first"] = "d", ["second"] = "k"},
-    ["波"] = {["first"] = "d", ["second"] = "y"},
-    ["泼"] = {["first"] = "d", ["second"] = "d"},
-    ["泽"] = {["first"] = "d", ["second"] = "l"},
-    ["治"] = {["first"] = "d", ["second"] = "k"},
-    ["怔"] = {["first"] = "x", ["second"] = "v"},
-    ["怯"] = {["first"] = "x", ["second"] = "s"},
-    ["怖"] = {["first"] = "x", ["second"] = "j"},
-    ["性"] = {["first"] = "x", ["second"] = "u"},
-    ["怕"] = {["first"] = "x", ["second"] = "b"},
-    ["怜"] = {["first"] = "x", ["second"] = "s"},
-    ["怪"] = {["first"] = "x", ["second"] = "t"},
-    ["怡"] = {["first"] = "x", ["second"] = "k"},
-    ["学"] = {["first"] = "x", ["second"] = "z"},
-    ["宝"] = {["first"] = "b", ["second"] = "y"},
-    ["宗"] = {["first"] = "b", ["second"] = "x"},
-    ["定"] = {["first"] = "b", ["second"] = "r"},
-    ["宠"] = {["first"] = "b", ["second"] = "l"},
-    ["宜"] = {["first"] = "b", ["second"] = "q"},
-    ["审"] = {["first"] = "b", ["second"] = "u"},
-    ["宙"] = {["first"] = "b", ["second"] = "y"},
-    ["官"] = {["first"] = "b", ["second"] = "k"},
-    ["空"] = {["first"] = "b", ["second"] = "g"},
-    ["帘"] = {["first"] = "b", ["second"] = "j"},
-    ["宛"] = {["first"] = "b", ["second"] = "v"},
-    ["实"] = {["first"] = "b", ["second"] = "d"},
-    ["试"] = {["first"] = "y", ["second"] = "g"},
-    ["郎"] = {["first"] = "d", ["second"] = "e"},
-    ["诗"] = {["first"] = "y", ["second"] = "c"},
-    ["肩"] = {["first"] = "h", ["second"] = "o"},
-    ["房"] = {["first"] = "h", ["second"] = "f"},
-    ["诚"] = {["first"] = "y", ["second"] = "i"},
-    ["衬"] = {["first"] = "p", ["second"] = "c"},
-    ["衫"] = {["first"] = "p", ["second"] = "p"},
-    ["视"] = {["first"] = "p", ["second"] = "e"},
-    ["祈"] = {["first"] = "p", ["second"] = "j"},
-    ["话"] = {["first"] = "y", ["second"] = "k"},
-    ["诞"] = {["first"] = "y", ["second"] = "z"},
-    ["诡"] = {["first"] = "y", ["second"] = "v"},
-    ["询"] = {["first"] = "y", ["second"] = "o"},
-    ["该"] = {["first"] = "y", ["second"] = "r"},
-    ["详"] = {["first"] = "y", ["second"] = "y"},
-    ["建"] = {["first"] = "z", ["second"] = "y"},
-    ["肃"] = {["first"] = "v", ["second"] = "d"},
-    ["录"] = {["first"] = "e", ["second"] = "u"},
-    ["隶"] = {["first"] = "v", ["second"] = "n"},
-    ["帚"] = {["first"] = "e", ["second"] = "j"},
-    ["屉"] = {["first"] = "u", ["second"] = "u"},
-    ["居"] = {["first"] = "u", ["second"] = "k"},
-    ["届"] = {["first"] = "u", ["second"] = "y"},
-    ["刷"] = {["first"] = "u", ["second"] = "d"},
-    ["屈"] = {["first"] = "u", ["second"] = "i"},
-    ["弧"] = {["first"] = "g", ["second"] = "g"},
-    ["弥"] = {["first"] = "g", ["second"] = "x"},
-    ["弦"] = {["first"] = "g", ["second"] = "y"},
-    ["承"] = {["first"] = "v", ["second"] = "n"},
-    ["孟"] = {["first"] = "z", ["second"] = "m"},
-    ["陋"] = {["first"] = "e", ["second"] = "v"},
-    ["陌"] = {["first"] = "e", ["second"] = "b"},
-    ["孤"] = {["first"] = "z", ["second"] = "g"},
-    ["陕"] = {["first"] = "e", ["second"] = "j"},
-    ["降"] = {["first"] = "e", ["second"] = "l"},
-    ["函"] = {["first"] = "l", ["second"] = "k"},
-    ["限"] = {["first"] = "e", ["second"] = "g"},
-    ["妹"] = {["first"] = "n", ["second"] = "w"},
-    ["姑"] = {["first"] = "n", ["second"] = "k"},
-    ["姐"] = {["first"] = "n", ["second"] = "q"},
-    ["姓"] = {["first"] = "n", ["second"] = "u"},
-    ["妮"] = {["first"] = "n", ["second"] = "b"},
-    ["始"] = {["first"] = "n", ["second"] = "k"},
-    ["姆"] = {["first"] = "n", ["second"] = "m"},
-    ["迢"] = {["first"] = "z", ["second"] = "k"},
-    ["驾"] = {["first"] = "l", ["second"] = "m"},
-    ["叁"] = {["first"] = "s", ["second"] = "s"},
-    ["参"] = {["first"] = "s", ["second"] = "p"},
-    ["艰"] = {["first"] = "y", ["second"] = "g"},
-    ["线"] = {["first"] = "s", ["second"] = "j"},
-    ["练"] = {["first"] = "s", ["second"] = "d"},
-    ["组"] = {["first"] = "s", ["second"] = "q"},
-    ["绅"] = {["first"] = "s", ["second"] = "u"},
-    ["细"] = {["first"] = "s", ["second"] = "t"},
-    ["驶"] = {["first"] = "m", ["second"] = "u"},
-    ["织"] = {["first"] = "s", ["second"] = "b"},
-    ["驹"] = {["first"] = "m", ["second"] = "k"},
-    ["终"] = {["first"] = "s", ["second"] = "d"},
-    ["驻"] = {["first"] = "m", ["second"] = "v"},
-    ["绊"] = {["first"] = "s", ["second"] = "b"},
-    ["驼"] = {["first"] = "m", ["second"] = "b"},
-    ["绍"] = {["first"] = "s", ["second"] = "k"},
-    ["绎"] = {["first"] = "s", ["second"] = "l"},
-    ["经"] = {["first"] = "s", ["second"] = "g"},
-    ["贯"] = {["first"] = "g", ["second"] = "r"},
-    ["契"] = {["first"] = "f", ["second"] = "d"},
-    ["贰"] = {["first"] = "y", ["second"] = "r"},
-    ["奏"] = {["first"] = "f", ["second"] = "t"},
-    ["春"] = {["first"] = "f", ["second"] = "o"},
-    ["帮"] = {["first"] = "f", ["second"] = "j"},
-    ["玷"] = {["first"] = "w", ["second"] = "k"},
-    ["珍"] = {["first"] = "w", ["second"] = "p"},
-    ["玲"] = {["first"] = "w", ["second"] = "s"},
-    ["珊"] = {["first"] = "w", ["second"] = "c"},
-    ["玻"] = {["first"] = "w", ["second"] = "y"},
-    ["毒"] = {["first"] = "f", ["second"] = "m"},
-    ["型"] = {["first"] = "k", ["second"] = "t"},
-    ["拭"] = {["first"] = "f", ["second"] = "g"},
-    ["挂"] = {["first"] = "f", ["second"] = "t"},
-    ["封"] = {["first"] = "t", ["second"] = "c"},
-    ["持"] = {["first"] = "f", ["second"] = "c"},
-    ["拷"] = {["first"] = "f", ["second"] = "v"},
-    ["拱"] = {["first"] = "f", ["second"] = "b"},
-    ["项"] = {["first"] = "g", ["second"] = "r"},
-    ["垮"] = {["first"] = "t", ["second"] = "k"},
-    ["挎"] = {["first"] = "f", ["second"] = "k"},
-    ["城"] = {["first"] = "t", ["second"] = "i"},
-    ["挟"] = {["first"] = "f", ["second"] = "j"},
-    ["挠"] = {["first"] = "f", ["second"] = "w"},
-    ["政"] = {["first"] = "v", ["second"] = "w"},
-    ["赴"] = {["first"] = "t", ["second"] = "b"},
-    ["赵"] = {["first"] = "t", ["second"] = "x"},
-    ["挡"] = {["first"] = "f", ["second"] = "e"},
-    ["拽"] = {["first"] = "f", ["second"] = "y"},
-    ["哉"] = {["first"] = "u", ["second"] = "k"},
-    ["挺"] = {["first"] = "f", ["second"] = "z"},
-    ["括"] = {["first"] = "f", ["second"] = "k"},
-    ["垢"] = {["first"] = "t", ["second"] = "k"},
-    ["拴"] = {["first"] = "f", ["second"] = "w"},
-    ["拾"] = {["first"] = "f", ["second"] = "k"},
-    ["挑"] = {["first"] = "f", ["second"] = "d"},
-    ["垛"] = {["first"] = "t", ["second"] = "m"},
-    ["指"] = {["first"] = "f", ["second"] = "o"},
-    ["垫"] = {["first"] = "f", ["second"] = "t"},
-    ["挣"] = {["first"] = "f", ["second"] = "l"},
-    ["挤"] = {["first"] = "f", ["second"] = "l"},
-    ["拼"] = {["first"] = "f", ["second"] = "k"},
-    ["挖"] = {["first"] = "f", ["second"] = "v"},
-    ["按"] = {["first"] = "f", ["second"] = "n"},
-    ["挥"] = {["first"] = "f", ["second"] = "i"},
-    ["挪"] = {["first"] = "f", ["second"] = "e"},
-    ["拯"] = {["first"] = "f", ["second"] = "a"},
-    ["某"] = {["first"] = "g", ["second"] = "m"},
-    ["甚"] = {["first"] = "q", ["second"] = "v"},
-    ["荆"] = {["first"] = "c", ["second"] = "d"},
-    ["茸"] = {["first"] = "c", ["second"] = "e"},
-    ["革"] = {["first"] = "n", ["second"] = "l"},
-    ["茬"] = {["first"] = "c", ["second"] = "t"},
-    ["荐"] = {["first"] = "c", ["second"] = "z"},
-    ["巷"] = {["first"] = "c", ["second"] = "s"},
-    ["带"] = {["first"] = "f", ["second"] = "j"},
-    ["草"] = {["first"] = "c", ["second"] = "u"},
-    ["茧"] = {["first"] = "c", ["second"] = "i"},
-    ["茵"] = {["first"] = "c", ["second"] = "d"},
-    ["茶"] = {["first"] = "c", ["second"] = "m"},
-    ["荒"] = {["first"] = "c", ["second"] = "v"},
-    ["茫"] = {["first"] = "c", ["second"] = "w"},
-    ["荡"] = {["first"] = "c", ["second"] = "p"},
-    ["荣"] = {["first"] = "c", ["second"] = "m"},
-    ["荤"] = {["first"] = "c", ["second"] = "i"},
-    ["荧"] = {["first"] = "c", ["second"] = "h"},
-    ["故"] = {["first"] = "u", ["second"] = "w"},
-    ["胡"] = {["first"] = "u", ["second"] = "o"},
-    ["荫"] = {["first"] = "c", ["second"] = "o"},
-    ["荔"] = {["first"] = "c", ["second"] = "l"},
-    ["南"] = {["first"] = "u", ["second"] = "g"},
-    ["药"] = {["first"] = "c", ["second"] = "u"},
-    ["标"] = {["first"] = "m", ["second"] = "x"},
-    ["栈"] = {["first"] = "m", ["second"] = "j"},
-    ["柑"] = {["first"] = "m", ["second"] = "g"},
-    ["枯"] = {["first"] = "m", ["second"] = "k"},
-    ["柄"] = {["first"] = "m", ["second"] = "b"},
-    ["栋"] = {["first"] = "m", ["second"] = "d"},
-    ["相"] = {["first"] = "m", ["second"] = "o"},
-    ["查"] = {["first"] = "m", ["second"] = "a"},
-    ["柏"] = {["first"] = "m", ["second"] = "b"},
-    ["栅"] = {["first"] = "m", ["second"] = "c"},
-    ["柳"] = {["first"] = "m", ["second"] = "e"},
-    ["柱"] = {["first"] = "m", ["second"] = "v"},
-    ["柿"] = {["first"] = "m", ["second"] = "j"},
-    ["栏"] = {["first"] = "m", ["second"] = "s"},
-    ["柠"] = {["first"] = "m", ["second"] = "d"},
-    ["树"] = {["first"] = "m", ["second"] = "c"},
-    ["勃"] = {["first"] = "u", ["second"] = "l"},
-    ["要"] = {["first"] = "x", ["second"] = "n"},
-    ["柬"] = {["first"] = "a", ["second"] = "n"},
-    ["咸"] = {["first"] = "x", ["second"] = "k"},
-    ["威"] = {["first"] = "x", ["second"] = "n"},
-    ["歪"] = {["first"] = "b", ["second"] = "v"},
-    ["研"] = {["first"] = "u", ["second"] = "k"},
-    ["砖"] = {["first"] = "u", ["second"] = "v"},
-    ["厘"] = {["first"] = "i", ["second"] = "l"},
-    ["厚"] = {["first"] = "i", ["second"] = "z"},
-    ["砌"] = {["first"] = "u", ["second"] = "d"},
-    ["砂"] = {["first"] = "u", ["second"] = "u"},
-    ["泵"] = {["first"] = "u", ["second"] = "u"},
-    ["砚"] = {["first"] = "u", ["second"] = "e"},
-    ["砍"] = {["first"] = "u", ["second"] = "r"},
-    ["面"] = {["first"] = "a", ["second"] = "a"},
-    ["耐"] = {["first"] = "e", ["second"] = "c"},
-    ["耍"] = {["first"] = "e", ["second"] = "n"},
-    ["牵"] = {["first"] = "d", ["second"] = "n"},
-    ["鸥"] = {["first"] = "k", ["second"] = "n"},
-    ["残"] = {["first"] = "d", ["second"] = "j"},
-    ["殃"] = {["first"] = "d", ["second"] = "y"},
-    ["轴"] = {["first"] = "i", ["second"] = "y"},
-    ["轻"] = {["first"] = "i", ["second"] = "g"},
-    ["鸦"] = {["first"] = "y", ["second"] = "n"},
-    ["皆"] = {["first"] = "b", ["second"] = "b"},
-    ["韭"] = {["first"] = "f", ["second"] = "a"},
-    ["背"] = {["first"] = "l", ["second"] = "o"},
-    ["战"] = {["first"] = "l", ["second"] = "g"},
-    ["点"] = {["first"] = "l", ["second"] = "h"},
-    ["虐"] = {["first"] = "h", ["second"] = "a"},
-    ["临"] = {["first"] = "l", ["second"] = "a"},
-    ["览"] = {["first"] = "l", ["second"] = "e"},
-    ["竖"] = {["first"] = "l", ["second"] = "l"},
-    ["省"] = {["first"] = "u", ["second"] = "o"},
-    ["削"] = {["first"] = "x", ["second"] = "d"},
-    ["尝"] = {["first"] = "x", ["second"] = "s"},
-    ["昧"] = {["first"] = "o", ["second"] = "w"},
-    ["盹"] = {["first"] = "o", ["second"] = "t"},
-    ["是"] = {["first"] = "o", ["second"] = "r"},
-    ["盼"] = {["first"] = "o", ["second"] = "d"},
-    ["眨"] = {["first"] = "o", ["second"] = "f"},
-    ["哇"] = {["first"] = "k", ["second"] = "t"},
-    ["哄"] = {["first"] = "k", ["second"] = "b"},
-    ["哑"] = {["first"] = "k", ["second"] = "y"},
-    ["显"] = {["first"] = "o", ["second"] = "y"},
-    ["冒"] = {["first"] = "k", ["second"] = "o"},
-    ["映"] = {["first"] = "o", ["second"] = "y"},
-    ["星"] = {["first"] = "o", ["second"] = "u"},
-    ["昨"] = {["first"] = "o", ["second"] = "v"},
-    ["咧"] = {["first"] = "k", ["second"] = "d"},
-    ["昭"] = {["first"] = "o", ["second"] = "k"},
-    ["畏"] = {["first"] = "t", ["second"] = "n"},
-    ["趴"] = {["first"] = "z", ["second"] = "b"},
-    ["胃"] = {["first"] = "t", ["second"] = "o"},
-    ["贵"] = {["first"] = "v", ["second"] = "r"},
-    ["界"] = {["first"] = "t", ["second"] = "l"},
-    ["虹"] = {["first"] = "i", ["second"] = "g"},
-    ["虾"] = {["first"] = "i", ["second"] = "x"},
-    ["蚁"] = {["first"] = "i", ["second"] = "y"},
-    ["思"] = {["first"] = "t", ["second"] = "x"},
-    ["蚂"] = {["first"] = "i", ["second"] = "m"},
-    ["虽"] = {["first"] = "k", ["second"] = "i"},
-    ["品"] = {["first"] = "k", ["second"] = "k"},
-    ["咽"] = {["first"] = "k", ["second"] = "d"},
-    ["骂"] = {["first"] = "k", ["second"] = "m"},
-    ["勋"] = {["first"] = "k", ["second"] = "l"},
-    ["哗"] = {["first"] = "k", ["second"] = "u"},
-    ["咱"] = {["first"] = "k", ["second"] = "z"},
-    ["响"] = {["first"] = "k", ["second"] = "k"},
-    ["哈"] = {["first"] = "k", ["second"] = "k"},
-    ["哆"] = {["first"] = "k", ["second"] = "x"},
-    ["咬"] = {["first"] = "k", ["second"] = "x"},
-    ["咳"] = {["first"] = "k", ["second"] = "r"},
-    ["咪"] = {["first"] = "k", ["second"] = "m"},
-    ["哪"] = {["first"] = "k", ["second"] = "e"},
-    ["哟"] = {["first"] = "k", ["second"] = "u"},
-    ["炭"] = {["first"] = "e", ["second"] = "h"},
-    ["峡"] = {["first"] = "e", ["second"] = "j"},
-    ["罚"] = {["first"] = "s", ["second"] = "d"},
-    ["贱"] = {["first"] = "k", ["second"] = "j"},
-    ["贴"] = {["first"] = "k", ["second"] = "k"},
-    ["贻"] = {["first"] = "k", ["second"] = "k"},
-    ["骨"] = {["first"] = "l", ["second"] = "o"},
-    ["幽"] = {["first"] = "e", ["second"] = "y"},
-    ["钙"] = {["first"] = "j", ["second"] = "g"},
-    ["钝"] = {["first"] = "j", ["second"] = "t"},
-    ["钞"] = {["first"] = "j", ["second"] = "u"},
-    ["钟"] = {["first"] = "j", ["second"] = "v"},
-    ["钢"] = {["first"] = "j", ["second"] = "x"},
-    ["钠"] = {["first"] = "j", ["second"] = "n"},
-    ["钥"] = {["first"] = "j", ["second"] = "o"},
-    ["钦"] = {["first"] = "j", ["second"] = "r"},
-    ["钧"] = {["first"] = "j", ["second"] = "d"},
-    ["钩"] = {["first"] = "j", ["second"] = "s"},
-    ["钮"] = {["first"] = "j", ["second"] = "i"},
-    ["卸"] = {["first"] = "w", ["second"] = "e"},
-    ["缸"] = {["first"] = "f", ["second"] = "g"},
-    ["拜"] = {["first"] = "u", ["second"] = "f"},
-    ["看"] = {["first"] = "u", ["second"] = "o"},
-    ["矩"] = {["first"] = "u", ["second"] = "j"},
-    ["毡"] = {["first"] = "m", ["second"] = "k"},
-    ["氢"] = {["first"] = "q", ["second"] = "g"},
-    ["怎"] = {["first"] = "v", ["second"] = "x"},
-    ["牲"] = {["first"] = "n", ["second"] = "u"},
-    ["选"] = {["first"] = "z", ["second"] = "e"},
-    ["适"] = {["first"] = "z", ["second"] = "k"},
-    ["秒"] = {["first"] = "h", ["second"] = "u"},
-    ["香"] = {["first"] = "h", ["second"] = "o"},
-    ["种"] = {["first"] = "h", ["second"] = "v"},
-    ["秋"] = {["first"] = "h", ["second"] = "h"},
-    ["科"] = {["first"] = "h", ["second"] = "u"},
-    ["重"] = {["first"] = "p", ["second"] = "a"},
-    ["复"] = {["first"] = "p", ["second"] = "w"},
-    ["竿"] = {["first"] = "v", ["second"] = "g"},
-    ["段"] = {["first"] = "p", ["second"] = "y"},
-    ["便"] = {["first"] = "r", ["second"] = "g"},
-    ["俩"] = {["first"] = "r", ["second"] = "l"},
-    ["贷"] = {["first"] = "r", ["second"] = "r"},
-    ["顺"] = {["first"] = "i", ["second"] = "r"},
-    ["修"] = {["first"] = "r", ["second"] = "p"},
-    ["俏"] = {["first"] = "r", ["second"] = "o"},
-    ["保"] = {["first"] = "r", ["second"] = "m"},
-    ["促"] = {["first"] = "r", ["second"] = "r"},
-    ["俄"] = {["first"] = "r", ["second"] = "w"},
-    ["俐"] = {["first"] = "r", ["second"] = "d"},
-    ["侮"] = {["first"] = "r", ["second"] = "m"},
-    ["俭"] = {["first"] = "r", ["second"] = "a"},
-    ["俗"] = {["first"] = "r", ["second"] = "k"},
-    ["俘"] = {["first"] = "r", ["second"] = "z"},
-    ["信"] = {["first"] = "r", ["second"] = "k"},
-    ["皇"] = {["first"] = "b", ["second"] = "w"},
-    ["泉"] = {["first"] = "b", ["second"] = "u"},
-    ["鬼"] = {["first"] = "p", ["second"] = "s"},
-    ["侵"] = {["first"] = "r", ["second"] = "y"},
-    ["禹"] = {["first"] = "p", ["second"] = "d"},
-    ["侯"] = {["first"] = "r", ["second"] = "u"},
-    ["追"] = {["first"] = "z", ["second"] = "k"},
-    ["俊"] = {["first"] = "r", ["second"] = "w"},
-    ["盾"] = {["first"] = "p", ["second"] = "o"},
-    ["待"] = {["first"] = "i", ["second"] = "c"},
-    ["徊"] = {["first"] = "i", ["second"] = "k"},
-    ["衍"] = {["first"] = "i", ["second"] = "i"},
-    ["律"] = {["first"] = "i", ["second"] = "y"},
-    ["很"] = {["first"] = "i", ["second"] = "g"},
-    ["须"] = {["first"] = "p", ["second"] = "r"},
-    ["叙"] = {["first"] = "r", ["second"] = "y"},
-    ["剑"] = {["first"] = "r", ["second"] = "d"},
-    ["逃"] = {["first"] = "z", ["second"] = "d"},
-    ["食"] = {["first"] = "r", ["second"] = "l"},
-    ["盆"] = {["first"] = "b", ["second"] = "m"},
-    ["胚"] = {["first"] = "o", ["second"] = "p"},
-    ["胧"] = {["first"] = "o", ["second"] = "l"},
-    ["胆"] = {["first"] = "o", ["second"] = "a"},
-    ["胜"] = {["first"] = "o", ["second"] = "u"},
-    ["胞"] = {["first"] = "o", ["second"] = "s"},
-    ["胖"] = {["first"] = "o", ["second"] = "b"},
-    ["脉"] = {["first"] = "o", ["second"] = "y"},
-    ["胎"] = {["first"] = "o", ["second"] = "k"},
-    ["勉"] = {["first"] = "d", ["second"] = "l"},
-    ["狭"] = {["first"] = "q", ["second"] = "j"},
-    ["狮"] = {["first"] = "q", ["second"] = "j"},
-    ["独"] = {["first"] = "q", ["second"] = "i"},
-    ["狰"] = {["first"] = "q", ["second"] = "l"},
-    ["狡"] = {["first"] = "q", ["second"] = "x"},
-    ["狱"] = {["first"] = "q", ["second"] = "q"},
-    ["狠"] = {["first"] = "q", ["second"] = "g"},
-    ["贸"] = {["first"] = "p", ["second"] = "r"},
-    ["怨"] = {["first"] = "x", ["second"] = "x"},
-    ["急"] = {["first"] = "d", ["second"] = "x"},
-    ["饵"] = {["first"] = "u", ["second"] = "e"},
-    ["饶"] = {["first"] = "u", ["second"] = "w"},
-    ["蚀"] = {["first"] = "u", ["second"] = "i"},
-    ["饺"] = {["first"] = "u", ["second"] = "x"},
-    ["饼"] = {["first"] = "u", ["second"] = "k"},
-    ["峦"] = {["first"] = "w", ["second"] = "e"},
-    ["弯"] = {["first"] = "w", ["second"] = "g"},
-    ["将"] = {["first"] = "d", ["second"] = "c"},
-    ["奖"] = {["first"] = "d", ["second"] = "d"},
-    ["哀"] = {["first"] = "w", ["second"] = "y"},
-    ["亭"] = {["first"] = "w", ["second"] = "d"},
-    ["亮"] = {["first"] = "w", ["second"] = "j"},
-    ["度"] = {["first"] = "g", ["second"] = "y"},
-    ["迹"] = {["first"] = "z", ["second"] = "d"},
-    ["庭"] = {["first"] = "g", ["second"] = "z"},
-    ["疮"] = {["first"] = "b", ["second"] = "v"},
-    ["疯"] = {["first"] = "b", ["second"] = "x"},
-    ["疫"] = {["first"] = "b", ["second"] = "y"},
-    ["疤"] = {["first"] = "b", ["second"] = "b"},
-    ["咨"] = {["first"] = "d", ["second"] = "k"},
-    ["姿"] = {["first"] = "d", ["second"] = "n"},
-    ["亲"] = {["first"] = "l", ["second"] = "m"},
-    ["音"] = {["first"] = "l", ["second"] = "o"},
-    ["帝"] = {["first"] = "w", ["second"] = "j"},
-    ["施"] = {["first"] = "f", ["second"] = "y"},
-    ["闺"] = {["first"] = "m", ["second"] = "t"},
-    ["闻"] = {["first"] = "m", ["second"] = "e"},
-    ["闽"] = {["first"] = "m", ["second"] = "i"},
-    ["阀"] = {["first"] = "m", ["second"] = "g"},
-    ["阁"] = {["first"] = "m", ["second"] = "k"},
-    ["差"] = {["first"] = "y", ["second"] = "g"},
-    ["养"] = {["first"] = "y", ["second"] = "l"},
-    ["美"] = {["first"] = "y", ["second"] = "d"},
-    ["姜"] = {["first"] = "y", ["second"] = "n"},
-    ["叛"] = {["first"] = "b", ["second"] = "y"},
-    ["送"] = {["first"] = "z", ["second"] = "t"},
-    ["类"] = {["first"] = "m", ["second"] = "d"},
-    ["迷"] = {["first"] = "z", ["second"] = "m"},
-    ["籽"] = {["first"] = "m", ["second"] = "z"},
-    ["娄"] = {["first"] = "m", ["second"] = "n"},
-    ["前"] = {["first"] = "b", ["second"] = "d"},
-    ["首"] = {["first"] = "b", ["second"] = "z"},
-    ["逆"] = {["first"] = "z", ["second"] = "p"},
-    ["兹"] = {["first"] = "b", ["second"] = "y"},
-    ["总"] = {["first"] = "b", ["second"] = "x"},
-    ["炼"] = {["first"] = "h", ["second"] = "d"},
-    ["炸"] = {["first"] = "h", ["second"] = "v"},
-    ["烁"] = {["first"] = "h", ["second"] = "l"},
-    ["炮"] = {["first"] = "h", ["second"] = "s"},
-    ["炫"] = {["first"] = "h", ["second"] = "y"},
-    ["烂"] = {["first"] = "h", ["second"] = "s"},
-    ["剃"] = {["first"] = "b", ["second"] = "d"},
-    ["洼"] = {["first"] = "d", ["second"] = "t"},
-    ["洁"] = {["first"] = "d", ["second"] = "k"},
-    ["洪"] = {["first"] = "d", ["second"] = "b"},
-    ["洒"] = {["first"] = "d", ["second"] = "x"},
-    ["柒"] = {["first"] = "d", ["second"] = "m"},
-    ["浇"] = {["first"] = "d", ["second"] = "w"},
-    ["浊"] = {["first"] = "d", ["second"] = "i"},
-    ["洞"] = {["first"] = "d", ["second"] = "k"},
-    ["测"] = {["first"] = "d", ["second"] = "d"},
-    ["洗"] = {["first"] = "d", ["second"] = "e"},
-    ["活"] = {["first"] = "d", ["second"] = "k"},
-    ["派"] = {["first"] = "d", ["second"] = "n"},
-    ["洽"] = {["first"] = "d", ["second"] = "k"},
-    ["染"] = {["first"] = "d", ["second"] = "m"},
-    ["洛"] = {["first"] = "d", ["second"] = "k"},
-    ["浏"] = {["first"] = "d", ["second"] = "d"},
-    ["济"] = {["first"] = "d", ["second"] = "l"},
-    ["洋"] = {["first"] = "d", ["second"] = "y"},
-    ["洲"] = {["first"] = "d", ["second"] = "v"},
-    ["浑"] = {["first"] = "d", ["second"] = "i"},
-    ["浓"] = {["first"] = "d", ["second"] = "n"},
-    ["津"] = {["first"] = "d", ["second"] = "y"},
-    ["恃"] = {["first"] = "x", ["second"] = "c"},
-    ["恒"] = {["first"] = "x", ["second"] = "a"},
-    ["恢"] = {["first"] = "x", ["second"] = "h"},
-    ["恍"] = {["first"] = "x", ["second"] = "w"},
-    ["恬"] = {["first"] = "x", ["second"] = "k"},
-    ["恤"] = {["first"] = "x", ["second"] = "x"},
-    ["恰"] = {["first"] = "x", ["second"] = "k"},
-    ["恼"] = {["first"] = "x", ["second"] = "k"},
-    ["恨"] = {["first"] = "x", ["second"] = "g"},
-    ["举"] = {["first"] = "x", ["second"] = "l"},
-    ["觉"] = {["first"] = "x", ["second"] = "e"},
-    ["宣"] = {["first"] = "b", ["second"] = "a"},
-    ["宦"] = {["first"] = "b", ["second"] = "i"},
-    ["室"] = {["first"] = "b", ["second"] = "t"},
-    ["宫"] = {["first"] = "b", ["second"] = "k"},
-    ["宪"] = {["first"] = "b", ["second"] = "e"},
-    ["突"] = {["first"] = "b", ["second"] = "q"},
-    ["穿"] = {["first"] = "b", ["second"] = "y"},
-    ["窃"] = {["first"] = "b", ["second"] = "d"},
-    ["客"] = {["first"] = "b", ["second"] = "k"},
-    ["诫"] = {["first"] = "y", ["second"] = "c"},
-    ["冠"] = {["first"] = "b", ["second"] = "c"},
-    ["诬"] = {["first"] = "y", ["second"] = "r"},
-    ["语"] = {["first"] = "y", ["second"] = "k"},
-    ["扁"] = {["first"] = "h", ["second"] = "c"},
-    ["袄"] = {["first"] = "p", ["second"] = "y"},
-    ["祖"] = {["first"] = "p", ["second"] = "q"},
-    ["神"] = {["first"] = "p", ["second"] = "u"},
-    ["祝"] = {["first"] = "p", ["second"] = "e"},
-    ["祠"] = {["first"] = "p", ["second"] = "k"},
-    ["误"] = {["first"] = "y", ["second"] = "t"},
-    ["诱"] = {["first"] = "y", ["second"] = "n"},
-    ["诲"] = {["first"] = "y", ["second"] = "m"},
-    ["说"] = {["first"] = "y", ["second"] = "e"},
-    ["诵"] = {["first"] = "y", ["second"] = "y"},
-    ["垦"] = {["first"] = "g", ["second"] = "t"},
-    ["退"] = {["first"] = "z", ["second"] = "g"},
-    ["既"] = {["first"] = "g", ["second"] = "v"},
-    ["屋"] = {["first"] = "u", ["second"] = "t"},
-    ["昼"] = {["first"] = "i", ["second"] = "a"},
-    ["屏"] = {["first"] = "u", ["second"] = "k"},
-    ["屎"] = {["first"] = "u", ["second"] = "m"},
-    ["费"] = {["first"] = "f", ["second"] = "r"},
-    ["陡"] = {["first"] = "e", ["second"] = "r"},
-    ["逊"] = {["first"] = "z", ["second"] = "x"},
-    ["眉"] = {["first"] = "v", ["second"] = "o"},
-    ["孩"] = {["first"] = "z", ["second"] = "r"},
-    ["陨"] = {["first"] = "e", ["second"] = "r"},
-    ["除"] = {["first"] = "e", ["second"] = "h"},
-    ["险"] = {["first"] = "e", ["second"] = "a"},
-    ["院"] = {["first"] = "e", ["second"] = "e"},
-    ["娃"] = {["first"] = "n", ["second"] = "t"},
-    ["姥"] = {["first"] = "n", ["second"] = "b"},
-    ["姨"] = {["first"] = "n", ["second"] = "y"},
-    ["姻"] = {["first"] = "n", ["second"] = "d"},
-    ["娇"] = {["first"] = "n", ["second"] = "l"},
-    ["姚"] = {["first"] = "n", ["second"] = "d"},
-    ["娜"] = {["first"] = "n", ["second"] = "e"},
-    ["怒"] = {["first"] = "n", ["second"] = "x"},
-    ["架"] = {["first"] = "l", ["second"] = "m"},
-    ["贺"] = {["first"] = "l", ["second"] = "r"},
-    ["盈"] = {["first"] = "n", ["second"] = "m"},
-    ["勇"] = {["first"] = "s", ["second"] = "l"},
-    ["怠"] = {["first"] = "s", ["second"] = "x"},
-    ["癸"] = {["first"] = "v", ["second"] = "t"},
-    ["蚤"] = {["first"] = "i", ["second"] = "i"},
-    ["柔"] = {["first"] = "s", ["second"] = "m"},
-    ["垒"] = {["first"] = "s", ["second"] = "t"},
-    ["绑"] = {["first"] = "s", ["second"] = "e"},
-    ["绒"] = {["first"] = "s", ["second"] = "u"},
-    ["结"] = {["first"] = "s", ["second"] = "k"},
-    ["绕"] = {["first"] = "s", ["second"] = "w"},
-    ["骄"] = {["first"] = "m", ["second"] = "l"},
-    ["绘"] = {["first"] = "s", ["second"] = "s"},
-    ["给"] = {["first"] = "s", ["second"] = "k"},
-    ["绚"] = {["first"] = "s", ["second"] = "o"},
-    ["骆"] = {["first"] = "m", ["second"] = "k"},
-    ["络"] = {["first"] = "s", ["second"] = "k"},
-    ["绝"] = {["first"] = "s", ["second"] = "b"},
-    ["绞"] = {["first"] = "s", ["second"] = "x"},
-    ["骇"] = {["first"] = "m", ["second"] = "r"},
-    ["统"] = {["first"] = "s", ["second"] = "e"},
-    ["耕"] = {["first"] = "l", ["second"] = "j"},
-    ["耘"] = {["first"] = "l", ["second"] = "s"},
-    ["耗"] = {["first"] = "l", ["second"] = "m"},
-    ["耙"] = {["first"] = "l", ["second"] = "b"},
-    ["艳"] = {["first"] = "f", ["second"] = "b"},
-    ["泰"] = {["first"] = "f", ["second"] = "u"},
-    ["秦"] = {["first"] = "f", ["second"] = "h"},
-    ["珠"] = {["first"] = "w", ["second"] = "v"},
-    ["班"] = {["first"] = "w", ["second"] = "w"},
-    ["素"] = {["first"] = "f", ["second"] = "x"},
-    ["匿"] = {["first"] = "k", ["second"] = "k"},
-    ["蚕"] = {["first"] = "t", ["second"] = "i"},
-    ["顽"] = {["first"] = "e", ["second"] = "r"},
-    ["盏"] = {["first"] = "j", ["second"] = "m"},
-    ["匪"] = {["first"] = "k", ["second"] = "f"},
-    ["捞"] = {["first"] = "f", ["second"] = "l"},
-    ["栽"] = {["first"] = "u", ["second"] = "m"},
-    ["捕"] = {["first"] = "f", ["second"] = "f"},
-    ["埂"] = {["first"] = "t", ["second"] = "g"},
-    ["捂"] = {["first"] = "f", ["second"] = "k"},
-    ["振"] = {["first"] = "f", ["second"] = "n"},
-    ["载"] = {["first"] = "u", ["second"] = "i"},
-    ["赶"] = {["first"] = "t", ["second"] = "g"},
-    ["起"] = {["first"] = "t", ["second"] = "j"},
-    ["盐"] = {["first"] = "t", ["second"] = "m"},
-    ["捎"] = {["first"] = "f", ["second"] = "o"},
-    ["捍"] = {["first"] = "f", ["second"] = "g"},
-    ["捏"] = {["first"] = "f", ["second"] = "t"},
-    ["埋"] = {["first"] = "t", ["second"] = "l"},
-    ["捉"] = {["first"] = "f", ["second"] = "r"},
-    ["捆"] = {["first"] = "f", ["second"] = "m"},
-    ["捐"] = {["first"] = "f", ["second"] = "o"},
-    ["损"] = {["first"] = "f", ["second"] = "r"},
-    ["袁"] = {["first"] = "t", ["second"] = "y"},
-    ["捌"] = {["first"] = "f", ["second"] = "d"},
-    ["都"] = {["first"] = "l", ["second"] = "e"},
-    ["哲"] = {["first"] = "f", ["second"] = "k"},
-    ["逝"] = {["first"] = "z", ["second"] = "j"},
-    ["捡"] = {["first"] = "f", ["second"] = "a"},
-    ["挫"] = {["first"] = "f", ["second"] = "t"},
-    ["换"] = {["first"] = "f", ["second"] = "d"},
-    ["挽"] = {["first"] = "f", ["second"] = "v"},
-    ["挚"] = {["first"] = "f", ["second"] = "u"},
-    ["热"] = {["first"] = "f", ["second"] = "h"},
-    ["恐"] = {["first"] = "g", ["second"] = "x"},
-    ["捣"] = {["first"] = "f", ["second"] = "e"},
-    ["壶"] = {["first"] = "u", ["second"] = "y"},
-    ["捅"] = {["first"] = "f", ["second"] = "y"},
-    ["埃"] = {["first"] = "t", ["second"] = "u"},
-    ["挨"] = {["first"] = "f", ["second"] = "u"},
-    ["耻"] = {["first"] = "e", ["second"] = "v"},
-    ["耿"] = {["first"] = "e", ["second"] = "h"},
-    ["耽"] = {["first"] = "e", ["second"] = "v"},
-    ["聂"] = {["first"] = "e", ["second"] = "y"},
-    ["恭"] = {["first"] = "c", ["second"] = "x"},
-    ["莽"] = {["first"] = "c", ["second"] = "c"},
-    ["莱"] = {["first"] = "c", ["second"] = "l"},
-    ["莲"] = {["first"] = "c", ["second"] = "z"},
-    ["莫"] = {["first"] = "c", ["second"] = "d"},
-    ["莉"] = {["first"] = "c", ["second"] = "d"},
-    ["荷"] = {["first"] = "c", ["second"] = "k"},
-    ["获"] = {["first"] = "c", ["second"] = "q"},
-    ["晋"] = {["first"] = "y", ["second"] = "o"},
-    ["恶"] = {["first"] = "y", ["second"] = "x"},
-    ["莹"] = {["first"] = "c", ["second"] = "y"},
-    ["莺"] = {["first"] = "c", ["second"] = "n"},
-    ["真"] = {["first"] = "u", ["second"] = "b"},
-    ["框"] = {["first"] = "m", ["second"] = "w"},
-    ["梆"] = {["first"] = "m", ["second"] = "e"},
-    ["桂"] = {["first"] = "m", ["second"] = "t"},
-    ["桔"] = {["first"] = "m", ["second"] = "k"},
-    ["栖"] = {["first"] = "m", ["second"] = "x"},
-    ["档"] = {["first"] = "m", ["second"] = "e"},
-    ["桐"] = {["first"] = "m", ["second"] = "k"},
-    ["株"] = {["first"] = "m", ["second"] = "v"},
-    ["桥"] = {["first"] = "m", ["second"] = "l"},
-    ["桦"] = {["first"] = "m", ["second"] = "u"},
-    ["栓"] = {["first"] = "m", ["second"] = "w"},
-    ["桃"] = {["first"] = "m", ["second"] = "d"},
-    ["格"] = {["first"] = "m", ["second"] = "k"},
-    ["桩"] = {["first"] = "m", ["second"] = "t"},
-    ["校"] = {["first"] = "m", ["second"] = "x"},
-    ["核"] = {["first"] = "m", ["second"] = "r"},
-    ["样"] = {["first"] = "m", ["second"] = "y"},
-    ["根"] = {["first"] = "m", ["second"] = "g"},
-    ["索"] = {["first"] = "u", ["second"] = "x"},
-    ["哥"] = {["first"] = "d", ["second"] = "k"},
-    ["速"] = {["first"] = "z", ["second"] = "u"},
-    ["逗"] = {["first"] = "z", ["second"] = "a"},
-    ["栗"] = {["first"] = "x", ["second"] = "m"},
-    ["贾"] = {["first"] = "x", ["second"] = "r"},
-    ["酌"] = {["first"] = "y", ["second"] = "u"},
-    ["配"] = {["first"] = "y", ["second"] = "j"},
-    ["翅"] = {["first"] = "u", ["second"] = "x"},
-    ["辱"] = {["first"] = "i", ["second"] = "c"},
-    ["唇"] = {["first"] = "i", ["second"] = "k"},
-    ["夏"] = {["first"] = "a", ["second"] = "w"},
-    ["砸"] = {["first"] = "u", ["second"] = "j"},
-    ["砰"] = {["first"] = "u", ["second"] = "p"},
-    ["砾"] = {["first"] = "u", ["second"] = "l"},
-    ["础"] = {["first"] = "u", ["second"] = "i"},
-    ["破"] = {["first"] = "u", ["second"] = "y"},
-    ["原"] = {["first"] = "i", ["second"] = "x"},
-    ["套"] = {["first"] = "d", ["second"] = "s"},
-    ["逐"] = {["first"] = "z", ["second"] = "u"},
-    ["烈"] = {["first"] = "d", ["second"] = "h"},
-    ["殊"] = {["first"] = "d", ["second"] = "v"},
-    ["殉"] = {["first"] = "d", ["second"] = "o"},
-    ["顾"] = {["first"] = "i", ["second"] = "r"},
-    ["轿"] = {["first"] = "i", ["second"] = "l"},
-    ["较"] = {["first"] = "i", ["second"] = "x"},
-    ["顿"] = {["first"] = "t", ["second"] = "r"},
-    ["毙"] = {["first"] = "b", ["second"] = "b"},
-    ["致"] = {["first"] = "a", ["second"] = "w"},
-    ["柴"] = {["first"] = "v", ["second"] = "m"},
-    ["桌"] = {["first"] = "l", ["second"] = "m"},
-    ["虑"] = {["first"] = "h", ["second"] = "x"},
-    ["监"] = {["first"] = "l", ["second"] = "m"},
-    ["紧"] = {["first"] = "l", ["second"] = "x"},
-    ["党"] = {["first"] = "x", ["second"] = "e"},
-    ["逞"] = {["first"] = "z", ["second"] = "w"},
-    ["晒"] = {["first"] = "o", ["second"] = "x"},
-    ["眠"] = {["first"] = "o", ["second"] = "m"},
-    ["晓"] = {["first"] = "o", ["second"] = "w"},
-    ["哮"] = {["first"] = "k", ["second"] = "z"},
-    ["唠"] = {["first"] = "k", ["second"] = "l"},
-    ["鸭"] = {["first"] = "j", ["second"] = "n"},
-    ["晃"] = {["first"] = "o", ["second"] = "w"},
-    ["哺"] = {["first"] = "k", ["second"] = "f"},
-    ["晌"] = {["first"] = "o", ["second"] = "k"},
-    ["剔"] = {["first"] = "o", ["second"] = "d"},
-    ["晕"] = {["first"] = "o", ["second"] = "i"},
-    ["蚌"] = {["first"] = "i", ["second"] = "f"},
-    ["畔"] = {["first"] = "t", ["second"] = "b"},
-    ["蚣"] = {["first"] = "i", ["second"] = "s"},
-    ["蚊"] = {["first"] = "i", ["second"] = "w"},
-    ["蚪"] = {["first"] = "i", ["second"] = "u"},
-    ["蚓"] = {["first"] = "i", ["second"] = "l"},
-    ["哨"] = {["first"] = "k", ["second"] = "o"},
-    ["哩"] = {["first"] = "k", ["second"] = "l"},
-    ["圃"] = {["first"] = "k", ["second"] = "f"},
-    ["哭"] = {["first"] = "k", ["second"] = "q"},
-    ["哦"] = {["first"] = "k", ["second"] = "w"},
-    ["恩"] = {["first"] = "k", ["second"] = "x"},
-    ["鸯"] = {["first"] = "y", ["second"] = "n"},
-    ["唤"] = {["first"] = "k", ["second"] = "d"},
-    ["唁"] = {["first"] = "k", ["second"] = "k"},
-    ["哼"] = {["first"] = "k", ["second"] = "l"},
-    ["唧"] = {["first"] = "k", ["second"] = "e"},
-    ["啊"] = {["first"] = "k", ["second"] = "k"},
-    ["唉"] = {["first"] = "k", ["second"] = "u"},
-    ["唆"] = {["first"] = "k", ["second"] = "w"},
-    ["罢"] = {["first"] = "s", ["second"] = "s"},
-    ["峭"] = {["first"] = "e", ["second"] = "o"},
-    ["峨"] = {["first"] = "e", ["second"] = "w"},
-    ["峰"] = {["first"] = "e", ["second"] = "f"},
-    ["圆"] = {["first"] = "k", ["second"] = "r"},
-    ["峻"] = {["first"] = "e", ["second"] = "w"},
-    ["贼"] = {["first"] = "k", ["second"] = "u"},
-    ["贿"] = {["first"] = "k", ["second"] = "o"},
-    ["赂"] = {["first"] = "k", ["second"] = "k"},
-    ["赃"] = {["first"] = "k", ["second"] = "t"},
-    ["钱"] = {["first"] = "j", ["second"] = "j"},
-    ["钳"] = {["first"] = "j", ["second"] = "g"},
-    ["钻"] = {["first"] = "j", ["second"] = "k"},
-    ["钾"] = {["first"] = "j", ["second"] = "j"},
-    ["铁"] = {["first"] = "j", ["second"] = "u"},
-    ["铃"] = {["first"] = "j", ["second"] = "s"},
-    ["铅"] = {["first"] = "j", ["second"] = "k"},
-    ["缺"] = {["first"] = "f", ["second"] = "g"},
-    ["氧"] = {["first"] = "q", ["second"] = "y"},
-    ["氨"] = {["first"] = "q", ["second"] = "n"},
-    ["特"] = {["first"] = "n", ["second"] = "c"},
-    ["牺"] = {["first"] = "n", ["second"] = "x"},
-    ["造"] = {["first"] = "z", ["second"] = "k"},
-    ["乘"] = {["first"] = "q", ["second"] = "n"},
-    ["敌"] = {["first"] = "q", ["second"] = "w"},
-    ["秤"] = {["first"] = "h", ["second"] = "p"},
-    ["租"] = {["first"] = "h", ["second"] = "q"},
-    ["积"] = {["first"] = "h", ["second"] = "b"},
-    ["秧"] = {["first"] = "h", ["second"] = "y"},
-    ["秩"] = {["first"] = "h", ["second"] = "u"},
-    ["称"] = {["first"] = "h", ["second"] = "x"},
-    ["秘"] = {["first"] = "h", ["second"] = "b"},
-    ["透"] = {["first"] = "z", ["second"] = "n"},
-    ["笔"] = {["first"] = "v", ["second"] = "m"},
-    ["笑"] = {["first"] = "v", ["second"] = "y"},
-    ["笋"] = {["first"] = "v", ["second"] = "y"},
-    ["债"] = {["first"] = "r", ["second"] = "r"},
-    ["借"] = {["first"] = "r", ["second"] = "o"},
-    ["值"] = {["first"] = "r", ["second"] = "q"},
-    ["倚"] = {["first"] = "r", ["second"] = "k"},
-    ["俺"] = {["first"] = "r", ["second"] = "d"},
-    ["倾"] = {["first"] = "r", ["second"] = "r"},
-    ["倒"] = {["first"] = "r", ["second"] = "d"},
-    ["倘"] = {["first"] = "r", ["second"] = "k"},
-    ["俱"] = {["first"] = "r", ["second"] = "b"},
-    ["倡"] = {["first"] = "r", ["second"] = "o"},
-    ["候"] = {["first"] = "r", ["second"] = "u"},
-    ["赁"] = {["first"] = "r", ["second"] = "r"},
-    ["俯"] = {["first"] = "r", ["second"] = "c"},
-    ["倍"] = {["first"] = "r", ["second"] = "k"},
-    ["倦"] = {["first"] = "r", ["second"] = "v"},
-    ["健"] = {["first"] = "r", ["second"] = "z"},
-    ["臭"] = {["first"] = "z", ["second"] = "q"},
-    ["射"] = {["first"] = "u", ["second"] = "c"},
-    ["躬"] = {["first"] = "u", ["second"] = "g"},
-    ["息"] = {["first"] = "z", ["second"] = "x"},
-    ["倔"] = {["first"] = "r", ["second"] = "i"},
-    ["徒"] = {["first"] = "i", ["second"] = "r"},
-    ["徐"] = {["first"] = "i", ["second"] = "h"},
-    ["殷"] = {["first"] = "p", ["second"] = "y"},
-    ["舰"] = {["first"] = "v", ["second"] = "e"},
-    ["舱"] = {["first"] = "v", ["second"] = "v"},
-    ["般"] = {["first"] = "v", ["second"] = "y"},
-    ["航"] = {["first"] = "v", ["second"] = "j"},
-    ["途"] = {["first"] = "z", ["second"] = "h"},
-    ["拿"] = {["first"] = "r", ["second"] = "u"},
-    ["耸"] = {["first"] = "r", ["second"] = "e"},
-    ["爹"] = {["first"] = "b", ["second"] = "x"},
-    ["舀"] = {["first"] = "p", ["second"] = "j"},
-    ["爱"] = {["first"] = "p", ["second"] = "y"},
-    ["豺"] = {["first"] = "v", ["second"] = "c"},
-    ["豹"] = {["first"] = "v", ["second"] = "u"},
-    ["颁"] = {["first"] = "b", ["second"] = "r"},
-    ["颂"] = {["first"] = "b", ["second"] = "r"},
-    ["翁"] = {["first"] = "b", ["second"] = "x"},
-    ["胰"] = {["first"] = "o", ["second"] = "y"},
-    ["脆"] = {["first"] = "o", ["second"] = "v"},
-    ["脂"] = {["first"] = "o", ["second"] = "o"},
-    ["胸"] = {["first"] = "o", ["second"] = "k"},
-    ["胳"] = {["first"] = "o", ["second"] = "k"},
-    ["脏"] = {["first"] = "o", ["second"] = "t"},
-    ["脐"] = {["first"] = "o", ["second"] = "l"},
-    ["胶"] = {["first"] = "o", ["second"] = "x"},
-    ["脑"] = {["first"] = "o", ["second"] = "k"},
-    ["脓"] = {["first"] = "o", ["second"] = "n"},
-    ["逛"] = {["first"] = "z", ["second"] = "w"},
-    ["狸"] = {["first"] = "q", ["second"] = "l"},
-    ["狼"] = {["first"] = "q", ["second"] = "l"},
-    ["卿"] = {["first"] = "p", ["second"] = "e"},
-    ["逢"] = {["first"] = "z", ["second"] = "f"},
-    ["鸵"] = {["first"] = "n", ["second"] = "b"},
-    ["留"] = {["first"] = "p", ["second"] = "t"},
-    ["鸳"] = {["first"] = "x", ["second"] = "n"},
-    ["皱"] = {["first"] = "d", ["second"] = "y"},
-    ["饿"] = {["first"] = "u", ["second"] = "w"},
-    ["馁"] = {["first"] = "u", ["second"] = "n"},
-    ["凌"] = {["first"] = "d", ["second"] = "w"},
-    ["凄"] = {["first"] = "d", ["second"] = "n"},
-    ["恋"] = {["first"] = "w", ["second"] = "x"},
-    ["桨"] = {["first"] = "d", ["second"] = "m"},
-    ["浆"] = {["first"] = "d", ["second"] = "u"},
-    ["衰"] = {["first"] = "w", ["second"] = "y"},
-    ["衷"] = {["first"] = "w", ["second"] = "y"},
-    ["高"] = {["first"] = "w", ["second"] = "k"},
-    ["郭"] = {["first"] = "w", ["second"] = "e"},
-    ["席"] = {["first"] = "g", ["second"] = "j"},
-    ["准"] = {["first"] = "d", ["second"] = "f"},
-    ["座"] = {["first"] = "g", ["second"] = "t"},
-    ["症"] = {["first"] = "b", ["second"] = "v"},
-    ["病"] = {["first"] = "b", ["second"] = "b"},
-    ["疾"] = {["first"] = "b", ["second"] = "u"},
-    ["斋"] = {["first"] = "w", ["second"] = "e"},
-    ["疹"] = {["first"] = "b", ["second"] = "p"},
-    ["疼"] = {["first"] = "b", ["second"] = "d"},
-    ["疲"] = {["first"] = "b", ["second"] = "y"},
-    ["脊"] = {["first"] = "d", ["second"] = "o"},
-    ["效"] = {["first"] = "w", ["second"] = "w"},
-    ["离"] = {["first"] = "w", ["second"] = "d"},
-    ["紊"] = {["first"] = "w", ["second"] = "x"},
-    ["唐"] = {["first"] = "g", ["second"] = "k"},
-    ["瓷"] = {["first"] = "d", ["second"] = "w"},
-    ["资"] = {["first"] = "d", ["second"] = "r"},
-    ["凉"] = {["first"] = "d", ["second"] = "x"},
-    ["站"] = {["first"] = "l", ["second"] = "k"},
-    ["剖"] = {["first"] = "l", ["second"] = "d"},
-    ["竞"] = {["first"] = "l", ["second"] = "e"},
-    ["部"] = {["first"] = "l", ["second"] = "e"},
-    ["旁"] = {["first"] = "w", ["second"] = "f"},
-    ["旅"] = {["first"] = "f", ["second"] = "n"},
-    ["畜"] = {["first"] = "w", ["second"] = "t"},
-    ["阅"] = {["first"] = "m", ["second"] = "e"},
-    ["羞"] = {["first"] = "y", ["second"] = "i"},
-    ["羔"] = {["first"] = "y", ["second"] = "h"},
-    ["瓶"] = {["first"] = "b", ["second"] = "w"},
-    ["拳"] = {["first"] = "j", ["second"] = "u"},
-    ["粉"] = {["first"] = "m", ["second"] = "d"},
-    ["料"] = {["first"] = "m", ["second"] = "u"},
-    ["益"] = {["first"] = "b", ["second"] = "m"},
-    ["兼"] = {["first"] = "b", ["second"] = "n"},
-    ["烤"] = {["first"] = "h", ["second"] = "v"},
-    ["烘"] = {["first"] = "h", ["second"] = "b"},
-    ["烦"] = {["first"] = "h", ["second"] = "r"},
-    ["烧"] = {["first"] = "h", ["second"] = "w"},
-    ["烛"] = {["first"] = "h", ["second"] = "i"},
-    ["烟"] = {["first"] = "h", ["second"] = "d"},
-    ["烙"] = {["first"] = "h", ["second"] = "k"},
-    ["递"] = {["first"] = "z", ["second"] = "p"},
-    ["涛"] = {["first"] = "d", ["second"] = "c"},
-    ["浙"] = {["first"] = "d", ["second"] = "j"},
-    ["涝"] = {["first"] = "d", ["second"] = "l"},
-    ["浦"] = {["first"] = "d", ["second"] = "f"},
-    ["酒"] = {["first"] = "d", ["second"] = "y"},
-    ["涉"] = {["first"] = "d", ["second"] = "p"},
-    ["消"] = {["first"] = "d", ["second"] = "o"},
-    ["涡"] = {["first"] = "d", ["second"] = "n"},
-    ["浩"] = {["first"] = "d", ["second"] = "k"},
-    ["海"] = {["first"] = "d", ["second"] = "m"},
-    ["涂"] = {["first"] = "d", ["second"] = "h"},
-    ["浴"] = {["first"] = "d", ["second"] = "k"},
-    ["浮"] = {["first"] = "d", ["second"] = "z"},
-    ["涣"] = {["first"] = "d", ["second"] = "d"},
-    ["涤"] = {["first"] = "d", ["second"] = "m"},
-    ["流"] = {["first"] = "d", ["second"] = "v"},
-    ["润"] = {["first"] = "d", ["second"] = "w"},
-    ["涧"] = {["first"] = "d", ["second"] = "o"},
-    ["涕"] = {["first"] = "d", ["second"] = "p"},
-    ["浪"] = {["first"] = "d", ["second"] = "l"},
-    ["浸"] = {["first"] = "d", ["second"] = "y"},
-    ["涨"] = {["first"] = "d", ["second"] = "i"},
-    ["烫"] = {["first"] = "d", ["second"] = "h"},
-    ["涩"] = {["first"] = "d", ["second"] = "v"},
-    ["涌"] = {["first"] = "d", ["second"] = "y"},
-    ["悖"] = {["first"] = "x", ["second"] = "z"},
-    ["悟"] = {["first"] = "x", ["second"] = "k"},
-    ["悄"] = {["first"] = "x", ["second"] = "o"},
-    ["悍"] = {["first"] = "x", ["second"] = "g"},
-    ["悔"] = {["first"] = "x", ["second"] = "m"},
-    ["悯"] = {["first"] = "x", ["second"] = "w"},
-    ["悦"] = {["first"] = "x", ["second"] = "e"},
-    ["害"] = {["first"] = "b", ["second"] = "k"},
-    ["宽"] = {["first"] = "b", ["second"] = "e"},
-    ["家"] = {["first"] = "b", ["second"] = "u"},
-    ["宵"] = {["first"] = "b", ["second"] = "o"},
-    ["宴"] = {["first"] = "b", ["second"] = "n"},
-    ["宾"] = {["first"] = "b", ["second"] = "b"},
-    ["窍"] = {["first"] = "b", ["second"] = "v"},
-    ["窄"] = {["first"] = "b", ["second"] = "v"},
-    ["容"] = {["first"] = "b", ["second"] = "k"},
-    ["宰"] = {["first"] = "b", ["second"] = "u"},
-    ["案"] = {["first"] = "b", ["second"] = "m"},
-    ["请"] = {["first"] = "y", ["second"] = "o"},
-    ["朗"] = {["first"] = "d", ["second"] = "o"},
-    ["诸"] = {["first"] = "y", ["second"] = "o"},
-    ["诺"] = {["first"] = "y", ["second"] = "k"},
-    ["读"] = {["first"] = "y", ["second"] = "d"},
-    ["扇"] = {["first"] = "h", ["second"] = "x"},
-    ["诽"] = {["first"] = "y", ["second"] = "f"},
-    ["袜"] = {["first"] = "p", ["second"] = "m"},
-    ["袖"] = {["first"] = "p", ["second"] = "y"},
-    ["袍"] = {["first"] = "p", ["second"] = "s"},
-    ["被"] = {["first"] = "p", ["second"] = "y"},
-    ["祥"] = {["first"] = "p", ["second"] = "y"},
-    ["课"] = {["first"] = "y", ["second"] = "g"},
-    ["冥"] = {["first"] = "b", ["second"] = "b"},
-    ["谁"] = {["first"] = "y", ["second"] = "f"},
-    ["调"] = {["first"] = "y", ["second"] = "k"},
-    ["冤"] = {["first"] = "b", ["second"] = "d"},
-    ["谅"] = {["first"] = "y", ["second"] = "x"},
-    ["谆"] = {["first"] = "y", ["second"] = "z"},
-    ["谈"] = {["first"] = "y", ["second"] = "h"},
-    ["谊"] = {["first"] = "y", ["second"] = "q"},
-    ["剥"] = {["first"] = "e", ["second"] = "d"},
-    ["恳"] = {["first"] = "g", ["second"] = "x"},
-    ["展"] = {["first"] = "u", ["second"] = "n"},
-    ["剧"] = {["first"] = "u", ["second"] = "d"},
-    ["屑"] = {["first"] = "u", ["second"] = "o"},
-    ["弱"] = {["first"] = "g", ["second"] = "d"},
-    ["陵"] = {["first"] = "e", ["second"] = "w"},
-    ["祟"] = {["first"] = "i", ["second"] = "x"},
-    ["陶"] = {["first"] = "e", ["second"] = "f"},
-    ["陷"] = {["first"] = "e", ["second"] = "j"},
-    ["陪"] = {["first"] = "e", ["second"] = "k"},
-    ["娱"] = {["first"] = "n", ["second"] = "t"},
-    ["娟"] = {["first"] = "n", ["second"] = "o"},
-    ["恕"] = {["first"] = "n", ["second"] = "x"},
-    ["娥"] = {["first"] = "n", ["second"] = "w"},
-    ["娘"] = {["first"] = "n", ["second"] = "l"},
-    ["通"] = {["first"] = "z", ["second"] = "y"},
-    ["能"] = {["first"] = "s", ["second"] = "b"},
-    ["难"] = {["first"] = "y", ["second"] = "f"},
-    ["预"] = {["first"] = "s", ["second"] = "r"},
-    ["桑"] = {["first"] = "y", ["second"] = "m"},
-    ["绢"] = {["first"] = "s", ["second"] = "o"},
-    ["绣"] = {["first"] = "s", ["second"] = "n"},
-    ["验"] = {["first"] = "m", ["second"] = "a"},
-    ["继"] = {["first"] = "s", ["second"] = "v"},
-    ["骏"] = {["first"] = "m", ["second"] = "w"},
-    ["球"] = {["first"] = "w", ["second"] = "q"},
-    ["琐"] = {["first"] = "w", ["second"] = "r"},
-    ["理"] = {["first"] = "w", ["second"] = "l"},
-    ["琉"] = {["first"] = "w", ["second"] = "v"},
-    ["琅"] = {["first"] = "w", ["second"] = "l"},
-    ["捧"] = {["first"] = "f", ["second"] = "l"},
-    ["堵"] = {["first"] = "t", ["second"] = "o"},
-    ["措"] = {["first"] = "f", ["second"] = "o"},
-    ["描"] = {["first"] = "f", ["second"] = "t"},
-    ["域"] = {["first"] = "t", ["second"] = "a"},
-    ["捺"] = {["first"] = "f", ["second"] = "x"},
-    ["掩"] = {["first"] = "f", ["second"] = "d"},
-    ["捷"] = {["first"] = "f", ["second"] = "r"},
-    ["排"] = {["first"] = "f", ["second"] = "f"},
-    ["焉"] = {["first"] = "v", ["second"] = "h"},
-    ["掉"] = {["first"] = "f", ["second"] = "u"},
-    ["捶"] = {["first"] = "f", ["second"] = "i"},
-    ["赦"] = {["first"] = "t", ["second"] = "w"},
-    ["堆"] = {["first"] = "t", ["second"] = "f"},
-    ["推"] = {["first"] = "f", ["second"] = "f"},
-    ["埠"] = {["first"] = "t", ["second"] = "u"},
-    ["掀"] = {["first"] = "f", ["second"] = "r"},
-    ["授"] = {["first"] = "f", ["second"] = "y"},
-    ["捻"] = {["first"] = "f", ["second"] = "x"},
-    ["教"] = {["first"] = "l", ["second"] = "w"},
-    ["掏"] = {["first"] = "f", ["second"] = "f"},
-    ["掐"] = {["first"] = "f", ["second"] = "j"},
-    ["掠"] = {["first"] = "f", ["second"] = "x"},
-    ["掂"] = {["first"] = "f", ["second"] = "k"},
-    ["培"] = {["first"] = "t", ["second"] = "k"},
-    ["接"] = {["first"] = "f", ["second"] = "n"},
-    ["掷"] = {["first"] = "f", ["second"] = "e"},
-    ["控"] = {["first"] = "f", ["second"] = "g"},
-    ["探"] = {["first"] = "f", ["second"] = "m"},
-    ["据"] = {["first"] = "f", ["second"] = "k"},
-    ["掘"] = {["first"] = "f", ["second"] = "i"},
-    ["掺"] = {["first"] = "f", ["second"] = "p"},
-    ["职"] = {["first"] = "e", ["second"] = "b"},
-    ["基"] = {["first"] = "q", ["second"] = "t"},
-    ["聆"] = {["first"] = "e", ["second"] = "s"},
-    ["勘"] = {["first"] = "q", ["second"] = "l"},
-    ["聊"] = {["first"] = "e", ["second"] = "e"},
-    ["娶"] = {["first"] = "e", ["second"] = "n"},
-    ["著"] = {["first"] = "c", ["second"] = "o"},
-    ["菱"] = {["first"] = "c", ["second"] = "w"},
-    ["勒"] = {["first"] = "g", ["second"] = "l"},
-    ["黄"] = {["first"] = "c", ["second"] = "b"},
-    ["菲"] = {["first"] = "c", ["second"] = "f"},
-    ["萌"] = {["first"] = "c", ["second"] = "o"},
-    ["萝"] = {["first"] = "c", ["second"] = "x"},
-    ["菌"] = {["first"] = "c", ["second"] = "h"},
-    ["萎"] = {["first"] = "c", ["second"] = "n"},
-    ["菜"] = {["first"] = "c", ["second"] = "m"},
-    ["萄"] = {["first"] = "c", ["second"] = "f"},
-    ["菊"] = {["first"] = "c", ["second"] = "m"},
-    ["菩"] = {["first"] = "c", ["second"] = "k"},
-    ["萍"] = {["first"] = "c", ["second"] = "p"},
-    ["菠"] = {["first"] = "c", ["second"] = "y"},
-    ["萤"] = {["first"] = "c", ["second"] = "i"},
-    ["营"] = {["first"] = "c", ["second"] = "k"},
-    ["乾"] = {["first"] = "u", ["second"] = "q"},
-    ["萧"] = {["first"] = "c", ["second"] = "s"},
-    ["萨"] = {["first"] = "c", ["second"] = "i"},
-    ["菇"] = {["first"] = "c", ["second"] = "k"},
-    ["械"] = {["first"] = "m", ["second"] = "c"},
-    ["彬"] = {["first"] = "m", ["second"] = "p"},
-    ["梦"] = {["first"] = "m", ["second"] = "x"},
-    ["婪"] = {["first"] = "m", ["second"] = "n"},
-    ["梗"] = {["first"] = "m", ["second"] = "g"},
-    ["梧"] = {["first"] = "m", ["second"] = "k"},
-    ["梢"] = {["first"] = "m", ["second"] = "o"},
-    ["梅"] = {["first"] = "m", ["second"] = "m"},
-    ["检"] = {["first"] = "m", ["second"] = "a"},
-    ["梳"] = {["first"] = "m", ["second"] = "v"},
-    ["梯"] = {["first"] = "m", ["second"] = "p"},
-    ["桶"] = {["first"] = "m", ["second"] = "y"},
-    ["梭"] = {["first"] = "m", ["second"] = "w"},
-    ["救"] = {["first"] = "q", ["second"] = "w"},
-    ["曹"] = {["first"] = "a", ["second"] = "o"},
-    ["副"] = {["first"] = "a", ["second"] = "d"},
-    ["票"] = {["first"] = "x", ["second"] = "x"},
-    ["酝"] = {["first"] = "y", ["second"] = "s"},
-    ["酗"] = {["first"] = "y", ["second"] = "k"},
-    ["厢"] = {["first"] = "i", ["second"] = "o"},
-    ["戚"] = {["first"] = "w", ["second"] = "x"},
-    ["硅"] = {["first"] = "u", ["second"] = "t"},
-    ["硕"] = {["first"] = "u", ["second"] = "r"},
-    ["奢"] = {["first"] = "d", ["second"] = "o"},
-    ["盔"] = {["first"] = "u", ["second"] = "m"},
-    ["爽"] = {["first"] = "d", ["second"] = "x"},
-    ["聋"] = {["first"] = "l", ["second"] = "e"},
-    ["袭"] = {["first"] = "l", ["second"] = "y"},
-    ["盛"] = {["first"] = "i", ["second"] = "m"},
-    ["匾"] = {["first"] = "k", ["second"] = "c"},
-    ["雪"] = {["first"] = "y", ["second"] = "e"},
-    ["辅"] = {["first"] = "i", ["second"] = "f"},
-    ["辆"] = {["first"] = "i", ["second"] = "l"},
-    ["颅"] = {["first"] = "l", ["second"] = "r"},
-    ["虚"] = {["first"] = "h", ["second"] = "y"},
-    ["彪"] = {["first"] = "h", ["second"] = "p"},
-    ["雀"] = {["first"] = "u", ["second"] = "f"},
-    ["堂"] = {["first"] = "x", ["second"] = "t"},
-    ["常"] = {["first"] = "x", ["second"] = "j"},
-    ["眶"] = {["first"] = "o", ["second"] = "w"},
-    ["匙"] = {["first"] = "o", ["second"] = "b"},
-    ["晨"] = {["first"] = "o", ["second"] = "n"},
-    ["睁"] = {["first"] = "o", ["second"] = "l"},
-    ["眯"] = {["first"] = "o", ["second"] = "m"},
-    ["眼"] = {["first"] = "o", ["second"] = "g"},
-    ["悬"] = {["first"] = "q", ["second"] = "x"},
-    ["野"] = {["first"] = "l", ["second"] = "l"},
-    ["啪"] = {["first"] = "k", ["second"] = "b"},
-    ["啦"] = {["first"] = "k", ["second"] = "l"},
-    ["曼"] = {["first"] = "o", ["second"] = "y"},
-    ["晦"] = {["first"] = "o", ["second"] = "m"},
-    ["晚"] = {["first"] = "o", ["second"] = "v"},
-    ["啄"] = {["first"] = "k", ["second"] = "n"},
-    ["啡"] = {["first"] = "k", ["second"] = "f"},
-    ["距"] = {["first"] = "z", ["second"] = "j"},
-    ["趾"] = {["first"] = "z", ["second"] = "v"},
-    ["啃"] = {["first"] = "k", ["second"] = "o"},
-    ["跃"] = {["first"] = "z", ["second"] = "y"},
-    ["略"] = {["first"] = "t", ["second"] = "k"},
-    ["蚯"] = {["first"] = "i", ["second"] = "q"},
-    ["蛀"] = {["first"] = "i", ["second"] = "v"},
-    ["蛇"] = {["first"] = "i", ["second"] = "b"},
-    ["唬"] = {["first"] = "k", ["second"] = "j"},
-    ["累"] = {["first"] = "t", ["second"] = "x"},
-    ["鄂"] = {["first"] = "k", ["second"] = "e"},
-    ["唱"] = {["first"] = "k", ["second"] = "o"},
-    ["患"] = {["first"] = "i", ["second"] = "x"},
-    ["啰"] = {["first"] = "k", ["second"] = "x"},
-    ["唾"] = {["first"] = "k", ["second"] = "i"},
-    ["唯"] = {["first"] = "k", ["second"] = "f"},
-    ["啤"] = {["first"] = "k", ["second"] = "u"},
-    ["啥"] = {["first"] = "k", ["second"] = "k"},
-    ["啸"] = {["first"] = "k", ["second"] = "s"},
-    ["崖"] = {["first"] = "e", ["second"] = "t"},
-    ["崎"] = {["first"] = "e", ["second"] = "k"},
-    ["崭"] = {["first"] = "e", ["second"] = "j"},
-    ["逻"] = {["first"] = "z", ["second"] = "x"},
-    ["崔"] = {["first"] = "e", ["second"] = "f"},
-    ["帷"] = {["first"] = "j", ["second"] = "f"},
-    ["崩"] = {["first"] = "e", ["second"] = "o"},
-    ["崇"] = {["first"] = "e", ["second"] = "x"},
-    ["崛"] = {["first"] = "e", ["second"] = "i"},
-    ["婴"] = {["first"] = "k", ["second"] = "n"},
-    ["圈"] = {["first"] = "k", ["second"] = "v"},
-    ["铐"] = {["first"] = "j", ["second"] = "v"},
-    ["铛"] = {["first"] = "j", ["second"] = "e"},
-    ["铝"] = {["first"] = "j", ["second"] = "k"},
-    ["铜"] = {["first"] = "j", ["second"] = "k"},
-    ["铭"] = {["first"] = "j", ["second"] = "k"},
-    ["铲"] = {["first"] = "j", ["second"] = "i"},
-    ["银"] = {["first"] = "j", ["second"] = "g"},
-    ["矫"] = {["first"] = "u", ["second"] = "l"},
-    ["甜"] = {["first"] = "q", ["second"] = "g"},
-    ["秸"] = {["first"] = "h", ["second"] = "k"},
-    ["梨"] = {["first"] = "h", ["second"] = "m"},
-    ["犁"] = {["first"] = "h", ["second"] = "n"},
-    ["秽"] = {["first"] = "h", ["second"] = "x"},
-    ["移"] = {["first"] = "h", ["second"] = "x"},
-    ["笨"] = {["first"] = "v", ["second"] = "b"},
-    ["笼"] = {["first"] = "v", ["second"] = "l"},
-    ["笛"] = {["first"] = "v", ["second"] = "y"},
-    ["笙"] = {["first"] = "v", ["second"] = "u"},
-    ["符"] = {["first"] = "v", ["second"] = "c"},
-    ["第"] = {["first"] = "v", ["second"] = "p"},
-    ["敏"] = {["first"] = "p", ["second"] = "w"},
-    ["做"] = {["first"] = "r", ["second"] = "w"},
-    ["袋"] = {["first"] = "r", ["second"] = "y"},
-    ["悠"] = {["first"] = "r", ["second"] = "x"},
-    ["偿"] = {["first"] = "r", ["second"] = "s"},
-    ["偶"] = {["first"] = "r", ["second"] = "y"},
-    ["偎"] = {["first"] = "r", ["second"] = "n"},
-    ["偷"] = {["first"] = "r", ["second"] = "d"},
-    ["您"] = {["first"] = "r", ["second"] = "x"},
-    ["售"] = {["first"] = "r", ["second"] = "k"},
-    ["停"] = {["first"] = "r", ["second"] = "d"},
-    ["偏"] = {["first"] = "r", ["second"] = "c"},
-    ["躯"] = {["first"] = "u", ["second"] = "x"},
-    ["兜"] = {["first"] = "b", ["second"] = "e"},
-    ["假"] = {["first"] = "r", ["second"] = "y"},
-    ["衅"] = {["first"] = "x", ["second"] = "b"},
-    ["徘"] = {["first"] = "i", ["second"] = "f"},
-    ["徙"] = {["first"] = "i", ["second"] = "r"},
-    ["得"] = {["first"] = "i", ["second"] = "c"},
-    ["衔"] = {["first"] = "i", ["second"] = "i"},
-    ["盘"] = {["first"] = "v", ["second"] = "m"},
-    ["舶"] = {["first"] = "v", ["second"] = "b"},
-    ["船"] = {["first"] = "v", ["second"] = "k"},
-    ["舵"] = {["first"] = "v", ["second"] = "b"},
-    ["斜"] = {["first"] = "r", ["second"] = "u"},
-    ["盒"] = {["first"] = "r", ["second"] = "m"},
-    ["鸽"] = {["first"] = "r", ["second"] = "n"},
-    ["敛"] = {["first"] = "r", ["second"] = "w"},
-    ["悉"] = {["first"] = "p", ["second"] = "x"},
-    ["欲"] = {["first"] = "b", ["second"] = "r"},
-    ["彩"] = {["first"] = "p", ["second"] = "p"},
-    ["领"] = {["first"] = "r", ["second"] = "r"},
-    ["脚"] = {["first"] = "o", ["second"] = "e"},
-    ["脖"] = {["first"] = "o", ["second"] = "z"},
-    ["脯"] = {["first"] = "o", ["second"] = "f"},
-    ["豚"] = {["first"] = "o", ["second"] = "u"},
-    ["脸"] = {["first"] = "o", ["second"] = "a"},
-    ["脱"] = {["first"] = "o", ["second"] = "e"},
-    ["象"] = {["first"] = "d", ["second"] = "n"},
-    ["够"] = {["first"] = "b", ["second"] = "x"},
-    ["逸"] = {["first"] = "z", ["second"] = "d"},
-    ["猜"] = {["first"] = "q", ["second"] = "o"},
-    ["猪"] = {["first"] = "q", ["second"] = "o"},
-    ["猎"] = {["first"] = "q", ["second"] = "o"},
-    ["猫"] = {["first"] = "q", ["second"] = "t"},
-    ["凰"] = {["first"] = "j", ["second"] = "w"},
-    ["猖"] = {["first"] = "q", ["second"] = "o"},
-    ["猛"] = {["first"] = "q", ["second"] = "m"},
-    ["祭"] = {["first"] = "p", ["second"] = "x"},
-    ["馅"] = {["first"] = "u", ["second"] = "j"},
-    ["馆"] = {["first"] = "u", ["second"] = "k"},
-    ["凑"] = {["first"] = "d", ["second"] = "t"},
-    ["减"] = {["first"] = "d", ["second"] = "k"},
-    ["毫"] = {["first"] = "w", ["second"] = "m"},
-    ["烹"] = {["first"] = "w", ["second"] = "h"},
-    ["庶"] = {["first"] = "g", ["second"] = "h"},
-    ["麻"] = {["first"] = "g", ["second"] = "m"},
-    ["庵"] = {["first"] = "g", ["second"] = "d"},
-    ["痊"] = {["first"] = "b", ["second"] = "w"},
-    ["痒"] = {["first"] = "b", ["second"] = "y"},
-    ["痕"] = {["first"] = "b", ["second"] = "g"},
-    ["廊"] = {["first"] = "g", ["second"] = "e"},
-    ["康"] = {["first"] = "g", ["second"] = "n"},
-    ["庸"] = {["first"] = "g", ["second"] = "l"},
-    ["鹿"] = {["first"] = "g", ["second"] = "b"},
-    ["盗"] = {["first"] = "d", ["second"] = "m"},
-    ["章"] = {["first"] = "l", ["second"] = "u"},
-    ["竟"] = {["first"] = "l", ["second"] = "e"},
-    ["商"] = {["first"] = "w", ["second"] = "k"},
-    ["族"] = {["first"] = "f", ["second"] = "u"},
-    ["旋"] = {["first"] = "f", ["second"] = "r"},
-    ["望"] = {["first"] = "w", ["second"] = "w"},
-    ["率"] = {["first"] = "w", ["second"] = "u"},
-    ["阎"] = {["first"] = "m", ["second"] = "j"},
-    ["阐"] = {["first"] = "m", ["second"] = "l"},
-    ["着"] = {["first"] = "y", ["second"] = "o"},
-    ["羚"] = {["first"] = "y", ["second"] = "s"},
-    ["盖"] = {["first"] = "y", ["second"] = "m"},
-    ["眷"] = {["first"] = "j", ["second"] = "o"},
-    ["粘"] = {["first"] = "m", ["second"] = "k"},
-    ["粗"] = {["first"] = "m", ["second"] = "q"},
-    ["粒"] = {["first"] = "m", ["second"] = "l"},
-    ["断"] = {["first"] = "m", ["second"] = "j"},
-    ["剪"] = {["first"] = "b", ["second"] = "d"},
-    ["兽"] = {["first"] = "b", ["second"] = "k"},
-    ["焊"] = {["first"] = "h", ["second"] = "g"},
-    ["焕"] = {["first"] = "h", ["second"] = "d"},
-    ["清"] = {["first"] = "d", ["second"] = "o"},
-    ["添"] = {["first"] = "d", ["second"] = "x"},
-    ["鸿"] = {["first"] = "d", ["second"] = "n"},
-    ["淋"] = {["first"] = "d", ["second"] = "m"},
-    ["涯"] = {["first"] = "d", ["second"] = "t"},
-    ["淹"] = {["first"] = "d", ["second"] = "d"},
-    ["渠"] = {["first"] = "d", ["second"] = "m"},
-    ["渐"] = {["first"] = "d", ["second"] = "j"},
-    ["淑"] = {["first"] = "d", ["second"] = "y"},
-    ["淌"] = {["first"] = "d", ["second"] = "k"},
-    ["混"] = {["first"] = "d", ["second"] = "b"},
-    ["淮"] = {["first"] = "d", ["second"] = "f"},
-    ["淆"] = {["first"] = "d", ["second"] = "o"},
-    ["渊"] = {["first"] = "d", ["second"] = "l"},
-    ["淫"] = {["first"] = "d", ["second"] = "r"},
-    ["渔"] = {["first"] = "d", ["second"] = "a"},
-    ["淘"] = {["first"] = "d", ["second"] = "f"},
-    ["淳"] = {["first"] = "d", ["second"] = "z"},
-    ["液"] = {["first"] = "d", ["second"] = "n"},
-    ["淤"] = {["first"] = "d", ["second"] = "d"},
-    ["淡"] = {["first"] = "d", ["second"] = "h"},
-    ["淀"] = {["first"] = "d", ["second"] = "r"},
-    ["深"] = {["first"] = "d", ["second"] = "m"},
-    ["涮"] = {["first"] = "d", ["second"] = "d"},
-    ["涵"] = {["first"] = "d", ["second"] = "k"},
-    ["婆"] = {["first"] = "d", ["second"] = "n"},
-    ["梁"] = {["first"] = "d", ["second"] = "m"},
-    ["渗"] = {["first"] = "d", ["second"] = "p"},
-    ["情"] = {["first"] = "x", ["second"] = "o"},
-    ["惜"] = {["first"] = "x", ["second"] = "o"},
-    ["惭"] = {["first"] = "x", ["second"] = "j"},
-    ["悼"] = {["first"] = "x", ["second"] = "u"},
-    ["惧"] = {["first"] = "x", ["second"] = "b"},
-    ["惕"] = {["first"] = "x", ["second"] = "w"},
-    ["惟"] = {["first"] = "x", ["second"] = "f"},
-    ["惊"] = {["first"] = "x", ["second"] = "x"},
-    ["惦"] = {["first"] = "x", ["second"] = "k"},
-    ["悴"] = {["first"] = "x", ["second"] = "u"},
-    ["惋"] = {["first"] = "x", ["second"] = "v"},
-    ["惨"] = {["first"] = "x", ["second"] = "p"},
-    ["惯"] = {["first"] = "x", ["second"] = "r"},
-    ["寇"] = {["first"] = "b", ["second"] = "y"},
-    ["寅"] = {["first"] = "b", ["second"] = "b"},
-    ["寄"] = {["first"] = "b", ["second"] = "k"},
-    ["寂"] = {["first"] = "b", ["second"] = "y"},
-    ["宿"] = {["first"] = "b", ["second"] = "b"},
-    ["窒"] = {["first"] = "b", ["second"] = "t"},
-    ["窑"] = {["first"] = "b", ["second"] = "f"},
-    ["密"] = {["first"] = "b", ["second"] = "e"},
-    ["谋"] = {["first"] = "y", ["second"] = "m"},
-    ["谍"] = {["first"] = "y", ["second"] = "m"},
-    ["谎"] = {["first"] = "y", ["second"] = "v"},
-    ["谐"] = {["first"] = "y", ["second"] = "b"},
-    ["袱"] = {["first"] = "p", ["second"] = "q"},
-    ["祷"] = {["first"] = "p", ["second"] = "c"},
-    ["祸"] = {["first"] = "p", ["second"] = "n"},
-    ["谓"] = {["first"] = "y", ["second"] = "o"},
-    ["谚"] = {["first"] = "y", ["second"] = "p"},
-    ["谜"] = {["first"] = "y", ["second"] = "z"},
-    ["逮"] = {["first"] = "z", ["second"] = "n"},
-    ["敢"] = {["first"] = "v", ["second"] = "w"},
-    ["尉"] = {["first"] = "u", ["second"] = "c"},
-    ["屠"] = {["first"] = "u", ["second"] = "o"},
-    ["弹"] = {["first"] = "g", ["second"] = "l"},
-    ["隋"] = {["first"] = "e", ["second"] = "o"},
-    ["堕"] = {["first"] = "e", ["second"] = "t"},
-    ["随"] = {["first"] = "e", ["second"] = "z"},
-    ["蛋"] = {["first"] = "v", ["second"] = "i"},
-    ["隅"] = {["first"] = "e", ["second"] = "y"},
-    ["隆"] = {["first"] = "e", ["second"] = "u"},
-    ["隐"] = {["first"] = "e", ["second"] = "x"},
-    ["婚"] = {["first"] = "n", ["second"] = "o"},
-    ["婶"] = {["first"] = "n", ["second"] = "u"},
-    ["婉"] = {["first"] = "n", ["second"] = "v"},
-    ["颇"] = {["first"] = "v", ["second"] = "r"},
-    ["颈"] = {["first"] = "v", ["second"] = "r"},
-    ["绩"] = {["first"] = "s", ["second"] = "r"},
-    ["绪"] = {["first"] = "s", ["second"] = "o"},
-    ["续"] = {["first"] = "s", ["second"] = "d"},
-    ["骑"] = {["first"] = "m", ["second"] = "k"},
-    ["绰"] = {["first"] = "s", ["second"] = "u"},
-    ["绳"] = {["first"] = "s", ["second"] = "d"},
-    ["维"] = {["first"] = "s", ["second"] = "f"},
-    ["绵"] = {["first"] = "s", ["second"] = "j"},
-    ["绷"] = {["first"] = "s", ["second"] = "o"},
-    ["绸"] = {["first"] = "s", ["second"] = "k"},
-    ["综"] = {["first"] = "s", ["second"] = "x"},
-    ["绽"] = {["first"] = "s", ["second"] = "r"},
-    ["绿"] = {["first"] = "s", ["second"] = "u"},
-    ["缀"] = {["first"] = "s", ["second"] = "y"},
-    ["巢"] = {["first"] = "v", ["second"] = "g"},
-    ["琴"] = {["first"] = "w", ["second"] = "v"},
-    ["琳"] = {["first"] = "w", ["second"] = "m"},
-    ["琢"] = {["first"] = "w", ["second"] = "n"},
-    ["琼"] = {["first"] = "w", ["second"] = "x"},
-    ["斑"] = {["first"] = "w", ["second"] = "w"},
-    ["替"] = {["first"] = "f", ["second"] = "o"},
-    ["揍"] = {["first"] = "f", ["second"] = "t"},
-    ["款"] = {["first"] = "u", ["second"] = "r"},
-    ["堪"] = {["first"] = "t", ["second"] = "v"},
-    ["塔"] = {["first"] = "t", ["second"] = "k"},
-    ["搭"] = {["first"] = "f", ["second"] = "k"},
-    ["堰"] = {["first"] = "t", ["second"] = "n"},
-    ["揩"] = {["first"] = "f", ["second"] = "b"},
-    ["越"] = {["first"] = "t", ["second"] = "v"},
-    ["趁"] = {["first"] = "t", ["second"] = "p"},
-    ["趋"] = {["first"] = "t", ["second"] = "e"},
-    ["超"] = {["first"] = "t", ["second"] = "k"},
-    ["揽"] = {["first"] = "f", ["second"] = "e"},
-    ["堤"] = {["first"] = "t", ["second"] = "r"},
-    ["提"] = {["first"] = "f", ["second"] = "r"},
-    ["博"] = {["first"] = "u", ["second"] = "c"},
-    ["揭"] = {["first"] = "f", ["second"] = "v"},
-    ["喜"] = {["first"] = "u", ["second"] = "k"},
-    ["彭"] = {["first"] = "u", ["second"] = "p"},
-    ["揣"] = {["first"] = "f", ["second"] = "e"},
-    ["插"] = {["first"] = "f", ["second"] = "j"},
-    ["揪"] = {["first"] = "f", ["second"] = "h"},
-    ["搜"] = {["first"] = "f", ["second"] = "y"},
-    ["煮"] = {["first"] = "l", ["second"] = "h"},
-    ["援"] = {["first"] = "f", ["second"] = "y"},
-    ["搀"] = {["first"] = "f", ["second"] = "d"},
-    ["裁"] = {["first"] = "u", ["second"] = "y"},
-    ["搁"] = {["first"] = "f", ["second"] = "k"},
-    ["搓"] = {["first"] = "f", ["second"] = "g"},
-    ["搂"] = {["first"] = "f", ["second"] = "n"},
-    ["搅"] = {["first"] = "f", ["second"] = "e"},
-    ["壹"] = {["first"] = "u", ["second"] = "a"},
-    ["握"] = {["first"] = "f", ["second"] = "t"},
-    ["搔"] = {["first"] = "f", ["second"] = "i"},
-    ["揉"] = {["first"] = "f", ["second"] = "m"},
-    ["斯"] = {["first"] = "q", ["second"] = "j"},
-    ["期"] = {["first"] = "q", ["second"] = "o"},
-    ["欺"] = {["first"] = "q", ["second"] = "r"},
-    ["联"] = {["first"] = "e", ["second"] = "t"},
-    ["葫"] = {["first"] = "c", ["second"] = "o"},
-    ["散"] = {["first"] = "c", ["second"] = "w"},
-    ["惹"] = {["first"] = "c", ["second"] = "x"},
-    ["葬"] = {["first"] = "c", ["second"] = "c"},
-    ["募"] = {["first"] = "c", ["second"] = "l"},
-    ["葛"] = {["first"] = "c", ["second"] = "v"},
-    ["董"] = {["first"] = "c", ["second"] = "v"},
-    ["葡"] = {["first"] = "c", ["second"] = "f"},
-    ["敬"] = {["first"] = "c", ["second"] = "w"},
-    ["葱"] = {["first"] = "c", ["second"] = "x"},
-    ["蒋"] = {["first"] = "c", ["second"] = "c"},
-    ["蒂"] = {["first"] = "c", ["second"] = "j"},
-    ["落"] = {["first"] = "c", ["second"] = "k"},
-    ["韩"] = {["first"] = "u", ["second"] = "w"},
-    ["朝"] = {["first"] = "u", ["second"] = "o"},
-    ["辜"] = {["first"] = "u", ["second"] = "u"},
-    ["葵"] = {["first"] = "c", ["second"] = "t"},
-    ["棒"] = {["first"] = "m", ["second"] = "l"},
-    ["棱"] = {["first"] = "m", ["second"] = "w"},
-    ["棋"] = {["first"] = "m", ["second"] = "b"},
-    ["椰"] = {["first"] = "m", ["second"] = "e"},
-    ["植"] = {["first"] = "m", ["second"] = "q"},
-    ["森"] = {["first"] = "m", ["second"] = "m"},
-    ["焚"] = {["first"] = "m", ["second"] = "h"},
-    ["椅"] = {["first"] = "m", ["second"] = "k"},
-    ["椒"] = {["first"] = "m", ["second"] = "y"},
-    ["棵"] = {["first"] = "m", ["second"] = "g"},
-    ["棍"] = {["first"] = "m", ["second"] = "b"},
-    ["椎"] = {["first"] = "m", ["second"] = "f"},
-    ["棉"] = {["first"] = "m", ["second"] = "j"},
-    ["棚"] = {["first"] = "m", ["second"] = "o"},
-    ["棕"] = {["first"] = "m", ["second"] = "x"},
-    ["棺"] = {["first"] = "m", ["second"] = "k"},
-    ["榔"] = {["first"] = "m", ["second"] = "e"},
-    ["椭"] = {["first"] = "m", ["second"] = "o"},
-    ["惠"] = {["first"] = "a", ["second"] = "x"},
-    ["惑"] = {["first"] = "g", ["second"] = "x"},
-    ["逼"] = {["first"] = "z", ["second"] = "t"},
-    ["粟"] = {["first"] = "x", ["second"] = "m"},
-    ["棘"] = {["first"] = "a", ["second"] = "n"},
-    ["酣"] = {["first"] = "y", ["second"] = "g"},
-    ["酥"] = {["first"] = "y", ["second"] = "h"},
-    ["厨"] = {["first"] = "i", ["second"] = "c"},
-    ["厦"] = {["first"] = "i", ["second"] = "w"},
-    ["硬"] = {["first"] = "u", ["second"] = "g"},
-    ["硝"] = {["first"] = "u", ["second"] = "o"},
-    ["确"] = {["first"] = "u", ["second"] = "y"},
-    ["硫"] = {["first"] = "u", ["second"] = "v"},
-    ["雁"] = {["first"] = "i", ["second"] = "f"},
-    ["殖"] = {["first"] = "d", ["second"] = "q"},
-    ["裂"] = {["first"] = "d", ["second"] = "y"},
-    ["雄"] = {["first"] = "u", ["second"] = "f"},
-    ["颊"] = {["first"] = "j", ["second"] = "r"},
-    ["雳"] = {["first"] = "y", ["second"] = "l"},
-    ["暂"] = {["first"] = "i", ["second"] = "o"},
-    ["雅"] = {["first"] = "y", ["second"] = "f"},
-    ["翘"] = {["first"] = "a", ["second"] = "x"},
-    ["辈"] = {["first"] = "f", ["second"] = "i"},
-    ["悲"] = {["first"] = "f", ["second"] = "x"},
-    ["紫"] = {["first"] = "v", ["second"] = "x"},
-    ["凿"] = {["first"] = "y", ["second"] = "k"},
-    ["辉"] = {["first"] = "x", ["second"] = "i"},
-    ["敞"] = {["first"] = "x", ["second"] = "w"},
-    ["棠"] = {["first"] = "x", ["second"] = "m"},
-    ["赏"] = {["first"] = "x", ["second"] = "r"},
-    ["掌"] = {["first"] = "x", ["second"] = "u"},
-    ["晴"] = {["first"] = "o", ["second"] = "o"},
-    ["睐"] = {["first"] = "o", ["second"] = "l"},
-    ["暑"] = {["first"] = "o", ["second"] = "o"},
-    ["最"] = {["first"] = "o", ["second"] = "y"},
-    ["晰"] = {["first"] = "o", ["second"] = "j"},
-    ["量"] = {["first"] = "o", ["second"] = "l"},
-    ["鼎"] = {["first"] = "o", ["second"] = "v"},
-    ["喷"] = {["first"] = "k", ["second"] = "r"},
-    ["喳"] = {["first"] = "k", ["second"] = "a"},
-    ["晶"] = {["first"] = "o", ["second"] = "o"},
-    ["喇"] = {["first"] = "k", ["second"] = "d"},
-    ["遇"] = {["first"] = "z", ["second"] = "y"},
-    ["喊"] = {["first"] = "k", ["second"] = "k"},
-    ["遏"] = {["first"] = "z", ["second"] = "v"},
-    ["晾"] = {["first"] = "o", ["second"] = "x"},
-    ["景"] = {["first"] = "o", ["second"] = "x"},
-    ["畴"] = {["first"] = "t", ["second"] = "c"},
-    ["践"] = {["first"] = "z", ["second"] = "j"},
-    ["跋"] = {["first"] = "z", ["second"] = "d"},
-    ["跌"] = {["first"] = "z", ["second"] = "u"},
-    ["跑"] = {["first"] = "z", ["second"] = "s"},
-    ["跛"] = {["first"] = "z", ["second"] = "y"},
-    ["遗"] = {["first"] = "z", ["second"] = "r"},
-    ["蛙"] = {["first"] = "i", ["second"] = "t"},
-    ["蛛"] = {["first"] = "i", ["second"] = "v"},
-    ["蜓"] = {["first"] = "i", ["second"] = "z"},
-    ["蜒"] = {["first"] = "i", ["second"] = "z"},
-    ["蛤"] = {["first"] = "i", ["second"] = "k"},
-    ["喝"] = {["first"] = "k", ["second"] = "v"},
-    ["鹃"] = {["first"] = "k", ["second"] = "n"},
-    ["喂"] = {["first"] = "k", ["second"] = "n"},
-    ["喘"] = {["first"] = "k", ["second"] = "e"},
-    ["喉"] = {["first"] = "k", ["second"] = "u"},
-    ["喻"] = {["first"] = "k", ["second"] = "d"},
-    ["啼"] = {["first"] = "k", ["second"] = "j"},
-    ["喧"] = {["first"] = "k", ["second"] = "a"},
-    ["嵌"] = {["first"] = "e", ["second"] = "r"},
-    ["幅"] = {["first"] = "j", ["second"] = "t"},
-    ["帽"] = {["first"] = "j", ["second"] = "o"},
-    ["赋"] = {["first"] = "k", ["second"] = "v"},
-    ["赌"] = {["first"] = "k", ["second"] = "o"},
-    ["赎"] = {["first"] = "k", ["second"] = "d"},
-    ["赐"] = {["first"] = "k", ["second"] = "w"},
-    ["赔"] = {["first"] = "k", ["second"] = "k"},
-    ["黑"] = {["first"] = "l", ["second"] = "h"},
-    ["铸"] = {["first"] = "j", ["second"] = "c"},
-    ["铺"] = {["first"] = "j", ["second"] = "f"},
-    ["链"] = {["first"] = "j", ["second"] = "z"},
-    ["销"] = {["first"] = "j", ["second"] = "o"},
-    ["锁"] = {["first"] = "j", ["second"] = "r"},
-    ["锄"] = {["first"] = "j", ["second"] = "l"},
-    ["锅"] = {["first"] = "j", ["second"] = "n"},
-    ["锈"] = {["first"] = "j", ["second"] = "n"},
-    ["锋"] = {["first"] = "j", ["second"] = "f"},
-    ["锌"] = {["first"] = "j", ["second"] = "u"},
-    ["锐"] = {["first"] = "j", ["second"] = "e"},
-    ["甥"] = {["first"] = "u", ["second"] = "l"},
-    ["掰"] = {["first"] = "u", ["second"] = "u"},
-    ["短"] = {["first"] = "u", ["second"] = "a"},
-    ["智"] = {["first"] = "u", ["second"] = "o"},
-    ["氮"] = {["first"] = "q", ["second"] = "h"},
-    ["毯"] = {["first"] = "m", ["second"] = "h"},
-    ["氯"] = {["first"] = "q", ["second"] = "u"},
-    ["鹅"] = {["first"] = "w", ["second"] = "n"},
-    ["剩"] = {["first"] = "q", ["second"] = "d"},
-    ["稍"] = {["first"] = "h", ["second"] = "o"},
-    ["程"] = {["first"] = "h", ["second"] = "w"},
-    ["稀"] = {["first"] = "h", ["second"] = "j"},
-    ["税"] = {["first"] = "h", ["second"] = "e"},
-    ["筐"] = {["first"] = "v", ["second"] = "w"},
-    ["等"] = {["first"] = "v", ["second"] = "c"},
-    ["筑"] = {["first"] = "v", ["second"] = "f"},
-    ["策"] = {["first"] = "v", ["second"] = "n"},
-    ["筛"] = {["first"] = "v", ["second"] = "j"},
-    ["筒"] = {["first"] = "v", ["second"] = "k"},
-    ["筏"] = {["first"] = "v", ["second"] = "g"},
-    ["答"] = {["first"] = "v", ["second"] = "k"},
-    ["筋"] = {["first"] = "v", ["second"] = "l"},
-    ["筝"] = {["first"] = "v", ["second"] = "l"},
-    ["傲"] = {["first"] = "r", ["second"] = "w"},
-    ["傅"] = {["first"] = "r", ["second"] = "c"},
-    ["牌"] = {["first"] = "p", ["second"] = "u"},
-    ["堡"] = {["first"] = "r", ["second"] = "t"},
-    ["集"] = {["first"] = "r", ["second"] = "m"},
-    ["焦"] = {["first"] = "r", ["second"] = "h"},
-    ["傍"] = {["first"] = "r", ["second"] = "f"},
-    ["储"] = {["first"] = "r", ["second"] = "o"},
-    ["皓"] = {["first"] = "b", ["second"] = "k"},
-    ["皖"] = {["first"] = "b", ["second"] = "e"},
-    ["粤"] = {["first"] = "p", ["second"] = "v"},
-    ["奥"] = {["first"] = "p", ["second"] = "d"},
-    ["街"] = {["first"] = "i", ["second"] = "i"},
-    ["惩"] = {["first"] = "i", ["second"] = "x"},
-    ["御"] = {["first"] = "i", ["second"] = "e"},
-    ["循"] = {["first"] = "i", ["second"] = "o"},
-    ["艇"] = {["first"] = "v", ["second"] = "z"},
-    ["舒"] = {["first"] = "r", ["second"] = "l"},
-    ["逾"] = {["first"] = "z", ["second"] = "d"},
-    ["番"] = {["first"] = "p", ["second"] = "t"},
-    ["释"] = {["first"] = "p", ["second"] = "l"},
-    ["禽"] = {["first"] = "r", ["second"] = "d"},
-    ["腊"] = {["first"] = "o", ["second"] = "o"},
-    ["脾"] = {["first"] = "o", ["second"] = "u"},
-    ["腋"] = {["first"] = "o", ["second"] = "n"},
-    ["腔"] = {["first"] = "o", ["second"] = "g"},
-    ["腕"] = {["first"] = "o", ["second"] = "v"},
-    ["鲁"] = {["first"] = "a", ["second"] = "o"},
-    ["猩"] = {["first"] = "q", ["second"] = "u"},
-    ["猬"] = {["first"] = "q", ["second"] = "o"},
-    ["猾"] = {["first"] = "q", ["second"] = "g"},
-    ["猴"] = {["first"] = "q", ["second"] = "u"},
-    ["惫"] = {["first"] = "w", ["second"] = "x"},
-    ["然"] = {["first"] = "p", ["second"] = "h"},
-    ["馈"] = {["first"] = "u", ["second"] = "r"},
-    ["馋"] = {["first"] = "u", ["second"] = "d"},
-    ["装"] = {["first"] = "d", ["second"] = "y"},
-    ["蛮"] = {["first"] = "w", ["second"] = "i"},
-    ["就"] = {["first"] = "w", ["second"] = "y"},
-    ["敦"] = {["first"] = "w", ["second"] = "w"},
-    ["斌"] = {["first"] = "w", ["second"] = "v"},
-    ["痘"] = {["first"] = "b", ["second"] = "a"},
-    ["痢"] = {["first"] = "b", ["second"] = "d"},
-    ["痪"] = {["first"] = "b", ["second"] = "d"},
-    ["痛"] = {["first"] = "b", ["second"] = "y"},
-    ["童"] = {["first"] = "l", ["second"] = "l"},
-    ["竣"] = {["first"] = "l", ["second"] = "w"},
-    ["阔"] = {["first"] = "m", ["second"] = "k"},
-    ["善"] = {["first"] = "y", ["second"] = "k"},
-    ["翔"] = {["first"] = "y", ["second"] = "x"},
-    ["羡"] = {["first"] = "y", ["second"] = "r"},
-    ["普"] = {["first"] = "b", ["second"] = "o"},
-    ["粪"] = {["first"] = "m", ["second"] = "b"},
-    ["尊"] = {["first"] = "b", ["second"] = "c"},
-    ["奠"] = {["first"] = "b", ["second"] = "d"},
-    ["道"] = {["first"] = "z", ["second"] = "z"},
-    ["遂"] = {["first"] = "z", ["second"] = "u"},
-    ["曾"] = {["first"] = "b", ["second"] = "o"},
-    ["焰"] = {["first"] = "h", ["second"] = "j"},
-    ["港"] = {["first"] = "d", ["second"] = "s"},
-    ["滞"] = {["first"] = "d", ["second"] = "j"},
-    ["湖"] = {["first"] = "d", ["second"] = "o"},
-    ["湘"] = {["first"] = "d", ["second"] = "o"},
-    ["渣"] = {["first"] = "d", ["second"] = "a"},
-    ["渤"] = {["first"] = "d", ["second"] = "l"},
-    ["渺"] = {["first"] = "d", ["second"] = "u"},
-    ["湿"] = {["first"] = "d", ["second"] = "y"},
-    ["温"] = {["first"] = "d", ["second"] = "m"},
-    ["渴"] = {["first"] = "d", ["second"] = "v"},
-    ["溃"] = {["first"] = "d", ["second"] = "r"},
-    ["溅"] = {["first"] = "d", ["second"] = "j"},
-    ["滑"] = {["first"] = "d", ["second"] = "g"},
-    ["湃"] = {["first"] = "d", ["second"] = "f"},
-    ["渝"] = {["first"] = "d", ["second"] = "d"},
-    ["湾"] = {["first"] = "d", ["second"] = "g"},
-    ["渡"] = {["first"] = "d", ["second"] = "y"},
-    ["游"] = {["first"] = "d", ["second"] = "z"},
-    ["滋"] = {["first"] = "d", ["second"] = "y"},
-    ["渲"] = {["first"] = "d", ["second"] = "a"},
-    ["溉"] = {["first"] = "d", ["second"] = "v"},
-    ["愤"] = {["first"] = "x", ["second"] = "r"},
-    ["慌"] = {["first"] = "x", ["second"] = "v"},
-    ["惰"] = {["first"] = "x", ["second"] = "o"},
-    ["愕"] = {["first"] = "x", ["second"] = "k"},
-    ["愣"] = {["first"] = "x", ["second"] = "f"},
-    ["惶"] = {["first"] = "x", ["second"] = "w"},
-    ["愧"] = {["first"] = "x", ["second"] = "g"},
-    ["愉"] = {["first"] = "x", ["second"] = "d"},
-    ["慨"] = {["first"] = "x", ["second"] = "v"},
-    ["割"] = {["first"] = "b", ["second"] = "d"},
-    ["寒"] = {["first"] = "b", ["second"] = "d"},
-    ["富"] = {["first"] = "b", ["second"] = "t"},
-    ["寓"] = {["first"] = "b", ["second"] = "y"},
-    ["窜"] = {["first"] = "b", ["second"] = "i"},
-    ["窝"] = {["first"] = "b", ["second"] = "n"},
-    ["窖"] = {["first"] = "b", ["second"] = "k"},
-    ["窗"] = {["first"] = "b", ["second"] = "w"},
-    ["窘"] = {["first"] = "b", ["second"] = "k"},
-    ["遍"] = {["first"] = "z", ["second"] = "c"},
-    ["雇"] = {["first"] = "h", ["second"] = "f"},
-    ["裕"] = {["first"] = "p", ["second"] = "k"},
-    ["裤"] = {["first"] = "p", ["second"] = "i"},
-    ["裙"] = {["first"] = "p", ["second"] = "k"},
-    ["禅"] = {["first"] = "p", ["second"] = "l"},
-    ["禄"] = {["first"] = "p", ["second"] = "u"},
-    ["谢"] = {["first"] = "y", ["second"] = "c"},
-    ["谣"] = {["first"] = "y", ["second"] = "f"},
-    ["谤"] = {["first"] = "y", ["second"] = "f"},
-    ["谦"] = {["first"] = "y", ["second"] = "n"},
-    ["犀"] = {["first"] = "u", ["second"] = "n"},
-    ["属"] = {["first"] = "u", ["second"] = "y"},
-    ["屡"] = {["first"] = "u", ["second"] = "n"},
-    ["强"] = {["first"] = "g", ["second"] = "i"},
-    ["粥"] = {["first"] = "g", ["second"] = "g"},
-    ["疏"] = {["first"] = "v", ["second"] = "v"},
-    ["隔"] = {["first"] = "e", ["second"] = "l"},
-    ["隙"] = {["first"] = "e", ["second"] = "x"},
-    ["隘"] = {["first"] = "e", ["second"] = "m"},
-    ["媒"] = {["first"] = "n", ["second"] = "m"},
-    ["絮"] = {["first"] = "n", ["second"] = "x"},
-    ["嫂"] = {["first"] = "n", ["second"] = "y"},
-    ["媚"] = {["first"] = "n", ["second"] = "o"},
-    ["婿"] = {["first"] = "n", ["second"] = "o"},
-    ["登"] = {["first"] = "v", ["second"] = "a"},
-    ["缅"] = {["first"] = "s", ["second"] = "m"},
-    ["缆"] = {["first"] = "s", ["second"] = "e"},
-    ["缉"] = {["first"] = "s", ["second"] = "e"},
-    ["缎"] = {["first"] = "s", ["second"] = "y"},
-    ["缓"] = {["first"] = "s", ["second"] = "y"},
-    ["缔"] = {["first"] = "s", ["second"] = "j"},
-    ["缕"] = {["first"] = "s", ["second"] = "n"},
-    ["骗"] = {["first"] = "m", ["second"] = "c"},
-    ["编"] = {["first"] = "s", ["second"] = "c"},
-    ["骚"] = {["first"] = "m", ["second"] = "i"},
-    ["缘"] = {["first"] = "s", ["second"] = "u"},
-    ["瑟"] = {["first"] = "w", ["second"] = "b"},
-    ["鹉"] = {["first"] = "a", ["second"] = "n"},
-    ["瑞"] = {["first"] = "w", ["second"] = "e"},
-    ["瑰"] = {["first"] = "w", ["second"] = "g"},
-    ["瑙"] = {["first"] = "w", ["second"] = "x"},
-    ["魂"] = {["first"] = "e", ["second"] = "g"},
-    ["肆"] = {["first"] = "a", ["second"] = "y"},
-    ["摄"] = {["first"] = "f", ["second"] = "y"},
-    ["摸"] = {["first"] = "f", ["second"] = "d"},
-    ["填"] = {["first"] = "t", ["second"] = "b"},
-    ["搏"] = {["first"] = "f", ["second"] = "c"},
-    ["塌"] = {["first"] = "t", ["second"] = "x"},
-    ["鼓"] = {["first"] = "u", ["second"] = "y"},
-    ["摆"] = {["first"] = "f", ["second"] = "s"},
-    ["携"] = {["first"] = "f", ["second"] = "n"},
-    ["搬"] = {["first"] = "f", ["second"] = "y"},
-    ["摇"] = {["first"] = "f", ["second"] = "f"},
-    ["搞"] = {["first"] = "f", ["second"] = "k"},
-    ["塘"] = {["first"] = "t", ["second"] = "k"},
-    ["摊"] = {["first"] = "f", ["second"] = "f"},
-    ["聘"] = {["first"] = "e", ["second"] = "v"},
-    ["斟"] = {["first"] = "q", ["second"] = "u"},
-    ["蒜"] = {["first"] = "c", ["second"] = "x"},
-    ["勤"] = {["first"] = "n", ["second"] = "l"},
-    ["靴"] = {["first"] = "g", ["second"] = "b"},
-    ["靶"] = {["first"] = "g", ["second"] = "b"},
-    ["鹊"] = {["first"] = "c", ["second"] = "n"},
-    ["蓝"] = {["first"] = "c", ["second"] = "m"},
-    ["墓"] = {["first"] = "c", ["second"] = "t"},
-    ["幕"] = {["first"] = "c", ["second"] = "j"},
-    ["蓬"] = {["first"] = "c", ["second"] = "z"},
-    ["蓄"] = {["first"] = "c", ["second"] = "t"},
-    ["蒲"] = {["first"] = "c", ["second"] = "f"},
-    ["蓉"] = {["first"] = "c", ["second"] = "k"},
-    ["蒙"] = {["first"] = "c", ["second"] = "n"},
-    ["蒸"] = {["first"] = "c", ["second"] = "h"},
-    ["献"] = {["first"] = "u", ["second"] = "q"},
-    ["椿"] = {["first"] = "m", ["second"] = "o"},
-    ["禁"] = {["first"] = "m", ["second"] = "x"},
-    ["楚"] = {["first"] = "m", ["second"] = "r"},
-    ["楷"] = {["first"] = "m", ["second"] = "b"},
-    ["榄"] = {["first"] = "m", ["second"] = "e"},
-    ["想"] = {["first"] = "m", ["second"] = "x"},
-    ["槐"] = {["first"] = "m", ["second"] = "g"},
-    ["榆"] = {["first"] = "m", ["second"] = "d"},
-    ["楼"] = {["first"] = "m", ["second"] = "n"},
-    ["概"] = {["first"] = "m", ["second"] = "v"},
-    ["赖"] = {["first"] = "u", ["second"] = "r"},
-    ["酪"] = {["first"] = "y", ["second"] = "k"},
-    ["酬"] = {["first"] = "y", ["second"] = "v"},
-    ["感"] = {["first"] = "x", ["second"] = "x"},
-    ["碍"] = {["first"] = "u", ["second"] = "c"},
-    ["碘"] = {["first"] = "u", ["second"] = "b"},
-    ["碑"] = {["first"] = "u", ["second"] = "u"},
-    ["碎"] = {["first"] = "u", ["second"] = "u"},
-    ["碰"] = {["first"] = "u", ["second"] = "y"},
-    ["碗"] = {["first"] = "u", ["second"] = "v"},
-    ["碌"] = {["first"] = "u", ["second"] = "u"},
-    ["尴"] = {["first"] = "y", ["second"] = "m"},
-    ["雷"] = {["first"] = "y", ["second"] = "t"},
-    ["零"] = {["first"] = "y", ["second"] = "s"},
-    ["雾"] = {["first"] = "y", ["second"] = "l"},
-    ["雹"] = {["first"] = "y", ["second"] = "s"},
-    ["辐"] = {["first"] = "i", ["second"] = "t"},
-    ["辑"] = {["first"] = "i", ["second"] = "e"},
-    ["输"] = {["first"] = "i", ["second"] = "d"},
-    ["督"] = {["first"] = "u", ["second"] = "o"},
-    ["频"] = {["first"] = "v", ["second"] = "r"},
-    ["龄"] = {["first"] = "v", ["second"] = "s"},
-    ["鉴"] = {["first"] = "l", ["second"] = "j"},
-    ["睛"] = {["first"] = "o", ["second"] = "o"},
-    ["睹"] = {["first"] = "o", ["second"] = "o"},
-    ["睦"] = {["first"] = "o", ["second"] = "t"},
-    ["瞄"] = {["first"] = "o", ["second"] = "t"},
-    ["睫"] = {["first"] = "o", ["second"] = "r"},
-    ["睡"] = {["first"] = "o", ["second"] = "i"},
-    ["睬"] = {["first"] = "o", ["second"] = "m"},
-    ["嗜"] = {["first"] = "k", ["second"] = "o"},
-    ["鄙"] = {["first"] = "k", ["second"] = "e"},
-    ["嗦"] = {["first"] = "k", ["second"] = "x"},
-    ["愚"] = {["first"] = "y", ["second"] = "x"},
-    ["暖"] = {["first"] = "o", ["second"] = "y"},
-    ["盟"] = {["first"] = "o", ["second"] = "m"},
-    ["歇"] = {["first"] = "o", ["second"] = "r"},
-    ["暗"] = {["first"] = "o", ["second"] = "o"},
-    ["暇"] = {["first"] = "o", ["second"] = "y"},
-    ["照"] = {["first"] = "o", ["second"] = "h"},
-    ["畸"] = {["first"] = "t", ["second"] = "k"},
-    ["跨"] = {["first"] = "z", ["second"] = "k"},
-    ["跷"] = {["first"] = "z", ["second"] = "w"},
-    ["跳"] = {["first"] = "z", ["second"] = "d"},
-    ["跺"] = {["first"] = "z", ["second"] = "m"},
-    ["跪"] = {["first"] = "z", ["second"] = "v"},
-    ["路"] = {["first"] = "z", ["second"] = "k"},
-    ["跤"] = {["first"] = "z", ["second"] = "x"},
-    ["跟"] = {["first"] = "z", ["second"] = "g"},
-    ["遣"] = {["first"] = "z", ["second"] = "k"},
-    ["蜈"] = {["first"] = "i", ["second"] = "t"},
-    ["蜗"] = {["first"] = "i", ["second"] = "n"},
-    ["蛾"] = {["first"] = "i", ["second"] = "w"},
-    ["蜂"] = {["first"] = "i", ["second"] = "f"},
-    ["蜕"] = {["first"] = "i", ["second"] = "e"},
-    ["嗅"] = {["first"] = "k", ["second"] = "q"},
-    ["嗡"] = {["first"] = "k", ["second"] = "x"},
-    ["嗓"] = {["first"] = "k", ["second"] = "m"},
-    ["署"] = {["first"] = "s", ["second"] = "o"},
-    ["置"] = {["first"] = "s", ["second"] = "q"},
-    ["罪"] = {["first"] = "s", ["second"] = "f"},
-    ["罩"] = {["first"] = "s", ["second"] = "u"},
-    ["蜀"] = {["first"] = "s", ["second"] = "i"},
-    ["幌"] = {["first"] = "j", ["second"] = "w"},
-    ["错"] = {["first"] = "j", ["second"] = "o"},
-    ["锚"] = {["first"] = "j", ["second"] = "t"},
-    ["锡"] = {["first"] = "j", ["second"] = "w"},
-    ["锣"] = {["first"] = "j", ["second"] = "x"},
-    ["锤"] = {["first"] = "j", ["second"] = "i"},
-    ["锥"] = {["first"] = "j", ["second"] = "f"},
-    ["锦"] = {["first"] = "j", ["second"] = "j"},
-    ["键"] = {["first"] = "j", ["second"] = "z"},
-    ["锯"] = {["first"] = "j", ["second"] = "k"},
-    ["锰"] = {["first"] = "j", ["second"] = "m"},
-    ["矮"] = {["first"] = "u", ["second"] = "n"},
-    ["辞"] = {["first"] = "q", ["second"] = "u"},
-    ["稚"] = {["first"] = "h", ["second"] = "f"},
-    ["稠"] = {["first"] = "h", ["second"] = "k"},
-    ["颓"] = {["first"] = "h", ["second"] = "r"},
-    ["愁"] = {["first"] = "h", ["second"] = "x"},
-    ["筹"] = {["first"] = "v", ["second"] = "c"},
-    ["签"] = {["first"] = "v", ["second"] = "a"},
-    ["简"] = {["first"] = "v", ["second"] = "o"},
-    ["筷"] = {["first"] = "v", ["second"] = "g"},
-    ["毁"] = {["first"] = "j", ["second"] = "y"},
-    ["舅"] = {["first"] = "j", ["second"] = "l"},
-    ["鼠"] = {["first"] = "j", ["second"] = "v"},
-    ["催"] = {["first"] = "r", ["second"] = "f"},
-    ["傻"] = {["first"] = "r", ["second"] = "w"},
-    ["像"] = {["first"] = "r", ["second"] = "n"},
-    ["躲"] = {["first"] = "u", ["second"] = "m"},
-    ["魁"] = {["first"] = "g", ["second"] = "u"},
-    ["衙"] = {["first"] = "i", ["second"] = "i"},
-    ["微"] = {["first"] = "i", ["second"] = "w"},
-    ["愈"] = {["first"] = "r", ["second"] = "x"},
-    ["遥"] = {["first"] = "z", ["second"] = "f"},
-    ["腻"] = {["first"] = "o", ["second"] = "r"},
-    ["腰"] = {["first"] = "o", ["second"] = "n"},
-    ["腥"] = {["first"] = "o", ["second"] = "u"},
-    ["腮"] = {["first"] = "o", ["second"] = "x"},
-    ["腹"] = {["first"] = "o", ["second"] = "w"},
-    ["腺"] = {["first"] = "o", ["second"] = "u"},
-    ["鹏"] = {["first"] = "o", ["second"] = "n"},
-    ["腾"] = {["first"] = "o", ["second"] = "m"},
-    ["腿"] = {["first"] = "o", ["second"] = "z"},
-    ["鲍"] = {["first"] = "a", ["second"] = "s"},
-    ["猿"] = {["first"] = "q", ["second"] = "y"},
-    ["颖"] = {["first"] = "b", ["second"] = "r"},
-    ["触"] = {["first"] = "d", ["second"] = "i"},
-    ["解"] = {["first"] = "d", ["second"] = "n"},
-    ["煞"] = {["first"] = "d", ["second"] = "h"},
-    ["雏"] = {["first"] = "d", ["second"] = "f"},
-    ["馍"] = {["first"] = "u", ["second"] = "d"},
-    ["馏"] = {["first"] = "u", ["second"] = "t"},
-    ["酱"] = {["first"] = "d", ["second"] = "y"},
-    ["禀"] = {["first"] = "w", ["second"] = "x"},
-    ["痹"] = {["first"] = "b", ["second"] = "l"},
-    ["廓"] = {["first"] = "g", ["second"] = "e"},
-    ["痴"] = {["first"] = "b", ["second"] = "k"},
-    ["痰"] = {["first"] = "b", ["second"] = "h"},
-    ["廉"] = {["first"] = "g", ["second"] = "n"},
-    ["靖"] = {["first"] = "l", ["second"] = "o"},
-    ["新"] = {["first"] = "l", ["second"] = "j"},
-    ["韵"] = {["first"] = "l", ["second"] = "d"},
-    ["意"] = {["first"] = "l", ["second"] = "x"},
-    ["誊"] = {["first"] = "j", ["second"] = "k"},
-    ["粮"] = {["first"] = "m", ["second"] = "l"},
-    ["数"] = {["first"] = "m", ["second"] = "w"},
-    ["煎"] = {["first"] = "b", ["second"] = "h"},
-    ["塑"] = {["first"] = "b", ["second"] = "t"},
-    ["慈"] = {["first"] = "b", ["second"] = "x"},
-    ["煤"] = {["first"] = "h", ["second"] = "m"},
-    ["煌"] = {["first"] = "h", ["second"] = "w"},
-    ["满"] = {["first"] = "d", ["second"] = "l"},
-    ["漠"] = {["first"] = "d", ["second"] = "d"},
-    ["滇"] = {["first"] = "d", ["second"] = "b"},
-    ["源"] = {["first"] = "d", ["second"] = "x"},
-    ["滤"] = {["first"] = "d", ["second"] = "x"},
-    ["滥"] = {["first"] = "d", ["second"] = "m"},
-    ["滔"] = {["first"] = "d", ["second"] = "j"},
-    ["溪"] = {["first"] = "d", ["second"] = "d"},
-    ["溜"] = {["first"] = "d", ["second"] = "t"},
-    ["漓"] = {["first"] = "d", ["second"] = "d"},
-    ["滚"] = {["first"] = "d", ["second"] = "y"},
-    ["溢"] = {["first"] = "d", ["second"] = "m"},
-    ["溯"] = {["first"] = "d", ["second"] = "o"},
-    ["滨"] = {["first"] = "d", ["second"] = "b"},
-    ["溶"] = {["first"] = "d", ["second"] = "k"},
-    ["溺"] = {["first"] = "d", ["second"] = "d"},
-    ["粱"] = {["first"] = "d", ["second"] = "m"},
-    ["滩"] = {["first"] = "d", ["second"] = "f"},
-    ["慎"] = {["first"] = "x", ["second"] = "b"},
-    ["誉"] = {["first"] = "x", ["second"] = "k"},
-    ["塞"] = {["first"] = "b", ["second"] = "t"},
-    ["寞"] = {["first"] = "b", ["second"] = "d"},
-    ["窥"] = {["first"] = "b", ["second"] = "e"},
-    ["窟"] = {["first"] = "b", ["second"] = "i"},
-    ["寝"] = {["first"] = "b", ["second"] = "y"},
-    ["谨"] = {["first"] = "y", ["second"] = "a"},
-    ["褂"] = {["first"] = "p", ["second"] = "b"},
-    ["裸"] = {["first"] = "p", ["second"] = "g"},
-    ["福"] = {["first"] = "p", ["second"] = "t"},
-    ["谬"] = {["first"] = "y", ["second"] = "p"},
-    ["群"] = {["first"] = "y", ["second"] = "y"},
-    ["殿"] = {["first"] = "u", ["second"] = "y"},
-    ["辟"] = {["first"] = "u", ["second"] = "u"},
-    ["障"] = {["first"] = "e", ["second"] = "u"},
-    ["媳"] = {["first"] = "n", ["second"] = "x"},
-    ["嫉"] = {["first"] = "n", ["second"] = "u"},
-    ["嫌"] = {["first"] = "n", ["second"] = "n"},
-    ["嫁"] = {["first"] = "n", ["second"] = "u"},
-    ["叠"] = {["first"] = "y", ["second"] = "q"},
-    ["缚"] = {["first"] = "s", ["second"] = "c"},
-    ["缝"] = {["first"] = "s", ["second"] = "z"},
-    ["缠"] = {["first"] = "s", ["second"] = "l"},
-    ["缤"] = {["first"] = "s", ["second"] = "b"},
-    ["剿"] = {["first"] = "v", ["second"] = "d"},
-    ["静"] = {["first"] = "f", ["second"] = "l"},
-    ["碧"] = {["first"] = "w", ["second"] = "u"},
-    ["璃"] = {["first"] = "w", ["second"] = "d"},
-    ["赘"] = {["first"] = "f", ["second"] = "r"},
-    ["熬"] = {["first"] = "f", ["second"] = "h"},
-    ["墙"] = {["first"] = "t", ["second"] = "k"},
-    ["墟"] = {["first"] = "t", ["second"] = "y"},
-    ["嘉"] = {["first"] = "u", ["second"] = "k"},
-    ["摧"] = {["first"] = "f", ["second"] = "f"},
-    ["赫"] = {["first"] = "t", ["second"] = "d"},
-    ["截"] = {["first"] = "u", ["second"] = "f"},
-    ["誓"] = {["first"] = "f", ["second"] = "k"},
-    ["境"] = {["first"] = "t", ["second"] = "e"},
-    ["摘"] = {["first"] = "f", ["second"] = "k"},
-    ["摔"] = {["first"] = "f", ["second"] = "u"},
-    ["撇"] = {["first"] = "f", ["second"] = "w"},
-    ["聚"] = {["first"] = "e", ["second"] = "n"},
-    ["慕"] = {["first"] = "c", ["second"] = "x"},
-    ["暮"] = {["first"] = "c", ["second"] = "o"},
-    ["摹"] = {["first"] = "c", ["second"] = "u"},
-    ["蔓"] = {["first"] = "c", ["second"] = "y"},
-    ["蔑"] = {["first"] = "c", ["second"] = "u"},
-    ["蔡"] = {["first"] = "c", ["second"] = "x"},
-    ["蔗"] = {["first"] = "c", ["second"] = "h"},
-    ["蔽"] = {["first"] = "c", ["second"] = "w"},
-    ["蔼"] = {["first"] = "c", ["second"] = "v"},
-    ["熙"] = {["first"] = "k", ["second"] = "h"},
-    ["蔚"] = {["first"] = "c", ["second"] = "c"},
-    ["兢"] = {["first"] = "u", ["second"] = "e"},
-    ["模"] = {["first"] = "m", ["second"] = "d"},
-    ["槛"] = {["first"] = "m", ["second"] = "m"},
-    ["榴"] = {["first"] = "m", ["second"] = "t"},
-    ["榜"] = {["first"] = "m", ["second"] = "f"},
-    ["榨"] = {["first"] = "m", ["second"] = "v"},
-    ["榕"] = {["first"] = "m", ["second"] = "k"},
-    ["歌"] = {["first"] = "d", ["second"] = "r"},
-    ["遭"] = {["first"] = "z", ["second"] = "o"},
-    ["酵"] = {["first"] = "y", ["second"] = "z"},
-    ["酷"] = {["first"] = "y", ["second"] = "k"},
-    ["酿"] = {["first"] = "y", ["second"] = "l"},
-    ["酸"] = {["first"] = "y", ["second"] = "w"},
-    ["碟"] = {["first"] = "u", ["second"] = "m"},
-    ["碱"] = {["first"] = "u", ["second"] = "k"},
-    ["碳"] = {["first"] = "u", ["second"] = "h"},
-    ["磁"] = {["first"] = "u", ["second"] = "y"},
-    ["愿"] = {["first"] = "i", ["second"] = "x"},
-    ["需"] = {["first"] = "y", ["second"] = "e"},
-    ["辖"] = {["first"] = "i", ["second"] = "k"},
-    ["辗"] = {["first"] = "i", ["second"] = "n"},
-    ["雌"] = {["first"] = "v", ["second"] = "f"},
-    ["裳"] = {["first"] = "x", ["second"] = "y"},
-    ["颗"] = {["first"] = "g", ["second"] = "r"},
-    ["瞅"] = {["first"] = "o", ["second"] = "h"},
-    ["墅"] = {["first"] = "l", ["second"] = "t"},
-    ["嗽"] = {["first"] = "k", ["second"] = "r"},
-    ["踊"] = {["first"] = "z", ["second"] = "y"},
-    ["蜻"] = {["first"] = "i", ["second"] = "o"},
-    ["蜡"] = {["first"] = "i", ["second"] = "o"},
-    ["蝇"] = {["first"] = "i", ["second"] = "d"},
-    ["蜘"] = {["first"] = "i", ["second"] = "k"},
-    ["蝉"] = {["first"] = "i", ["second"] = "l"},
-    ["嘛"] = {["first"] = "k", ["second"] = "m"},
-    ["嘀"] = {["first"] = "k", ["second"] = "k"},
-    ["赚"] = {["first"] = "k", ["second"] = "n"},
-    ["锹"] = {["first"] = "j", ["second"] = "h"},
-    ["锻"] = {["first"] = "j", ["second"] = "y"},
-    ["镀"] = {["first"] = "j", ["second"] = "y"},
-    ["舞"] = {["first"] = "p", ["second"] = "l"},
-    ["舔"] = {["first"] = "q", ["second"] = "x"},
-    ["稳"] = {["first"] = "h", ["second"] = "x"},
-    ["熏"] = {["first"] = "p", ["second"] = "h"},
-    ["箕"] = {["first"] = "v", ["second"] = "b"},
-    ["算"] = {["first"] = "v", ["second"] = "c"},
-    ["箩"] = {["first"] = "v", ["second"] = "x"},
-    ["管"] = {["first"] = "v", ["second"] = "k"},
-    ["箫"] = {["first"] = "v", ["second"] = "s"},
-    ["舆"] = {["first"] = "p", ["second"] = "b"},
-    ["僚"] = {["first"] = "r", ["second"] = "x"},
-    ["僧"] = {["first"] = "r", ["second"] = "o"},
-    ["鼻"] = {["first"] = "z", ["second"] = "l"},
-    ["魄"] = {["first"] = "b", ["second"] = "g"},
-    ["魅"] = {["first"] = "g", ["second"] = "w"},
-    ["貌"] = {["first"] = "v", ["second"] = "e"},
-    ["膜"] = {["first"] = "o", ["second"] = "d"},
-    ["膊"] = {["first"] = "o", ["second"] = "c"},
-    ["膀"] = {["first"] = "o", ["second"] = "f"},
-    ["鲜"] = {["first"] = "a", ["second"] = "y"},
-    ["疑"] = {["first"] = "b", ["second"] = "r"},
-    ["孵"] = {["first"] = "l", ["second"] = "z"},
-    ["馒"] = {["first"] = "u", ["second"] = "y"},
-    ["裹"] = {["first"] = "w", ["second"] = "y"},
-    ["敲"] = {["first"] = "w", ["second"] = "y"},
-    ["豪"] = {["first"] = "w", ["second"] = "u"},
-    ["膏"] = {["first"] = "w", ["second"] = "o"},
-    ["遮"] = {["first"] = "z", ["second"] = "h"},
-    ["腐"] = {["first"] = "g", ["second"] = "r"},
-    ["瘩"] = {["first"] = "b", ["second"] = "k"},
-    ["瘟"] = {["first"] = "b", ["second"] = "m"},
-    ["瘦"] = {["first"] = "b", ["second"] = "y"},
-    ["辣"] = {["first"] = "l", ["second"] = "u"},
-    ["彰"] = {["first"] = "l", ["second"] = "p"},
-    ["竭"] = {["first"] = "l", ["second"] = "v"},
-    ["端"] = {["first"] = "l", ["second"] = "e"},
-    ["旗"] = {["first"] = "f", ["second"] = "b"},
-    ["精"] = {["first"] = "m", ["second"] = "o"},
-    ["粹"] = {["first"] = "m", ["second"] = "u"},
-    ["歉"] = {["first"] = "b", ["second"] = "r"},
-    ["弊"] = {["first"] = "d", ["second"] = "c"},
-    ["熄"] = {["first"] = "h", ["second"] = "x"},
-    ["熔"] = {["first"] = "h", ["second"] = "k"},
-    ["煽"] = {["first"] = "h", ["second"] = "x"},
-    ["潇"] = {["first"] = "d", ["second"] = "s"},
-    ["漆"] = {["first"] = "d", ["second"] = "u"},
-    ["漱"] = {["first"] = "d", ["second"] = "r"},
-    ["漂"] = {["first"] = "d", ["second"] = "x"},
-    ["漫"] = {["first"] = "d", ["second"] = "y"},
-    ["滴"] = {["first"] = "d", ["second"] = "k"},
-    ["漾"] = {["first"] = "d", ["second"] = "y"},
-    ["演"] = {["first"] = "d", ["second"] = "b"},
-    ["漏"] = {["first"] = "d", ["second"] = "y"},
-    ["慢"] = {["first"] = "x", ["second"] = "y"},
-    ["慷"] = {["first"] = "x", ["second"] = "n"},
-    ["寨"] = {["first"] = "b", ["second"] = "m"},
-    ["赛"] = {["first"] = "b", ["second"] = "r"},
-    ["寡"] = {["first"] = "b", ["second"] = "d"},
-    ["察"] = {["first"] = "b", ["second"] = "x"},
-    ["蜜"] = {["first"] = "b", ["second"] = "i"},
-    ["寥"] = {["first"] = "b", ["second"] = "p"},
-    ["谭"] = {["first"] = "y", ["second"] = "u"},
-    ["肇"] = {["first"] = "h", ["second"] = "y"},
-    ["褐"] = {["first"] = "p", ["second"] = "v"},
-    ["褪"] = {["first"] = "p", ["second"] = "z"},
-    ["谱"] = {["first"] = "y", ["second"] = "o"},
-    ["隧"] = {["first"] = "e", ["second"] = "z"},
-    ["嫩"] = {["first"] = "n", ["second"] = "w"},
-    ["翠"] = {["first"] = "x", ["second"] = "u"},
-    ["熊"] = {["first"] = "s", ["second"] = "h"},
-    ["凳"] = {["first"] = "v", ["second"] = "j"},
-    ["骡"] = {["first"] = "m", ["second"] = "x"},
-    ["缩"] = {["first"] = "s", ["second"] = "b"},
-    ["慧"] = {["first"] = "f", ["second"] = "x"},
-    ["撵"] = {["first"] = "f", ["second"] = "i"},
-    ["撕"] = {["first"] = "f", ["second"] = "j"},
-    ["撒"] = {["first"] = "f", ["second"] = "w"},
-    ["撩"] = {["first"] = "f", ["second"] = "x"},
-    ["趣"] = {["first"] = "t", ["second"] = "y"},
-    ["趟"] = {["first"] = "t", ["second"] = "k"},
-    ["撑"] = {["first"] = "f", ["second"] = "u"},
-    ["撮"] = {["first"] = "f", ["second"] = "y"},
-    ["撬"] = {["first"] = "f", ["second"] = "m"},
-    ["播"] = {["first"] = "f", ["second"] = "t"},
-    ["擒"] = {["first"] = "f", ["second"] = "d"},
-    ["墩"] = {["first"] = "t", ["second"] = "w"},
-    ["撞"] = {["first"] = "f", ["second"] = "l"},
-    ["撤"] = {["first"] = "f", ["second"] = "w"},
-    ["增"] = {["first"] = "t", ["second"] = "o"},
-    ["撰"] = {["first"] = "f", ["second"] = "b"},
-    ["聪"] = {["first"] = "e", ["second"] = "x"},
-    ["鞋"] = {["first"] = "g", ["second"] = "t"},
-    ["鞍"] = {["first"] = "g", ["second"] = "n"},
-    ["蕉"] = {["first"] = "c", ["second"] = "h"},
-    ["蕊"] = {["first"] = "c", ["second"] = "x"},
-    ["蔬"] = {["first"] = "c", ["second"] = "v"},
-    ["蕴"] = {["first"] = "c", ["second"] = "m"},
-    ["横"] = {["first"] = "m", ["second"] = "b"},
-    ["槽"] = {["first"] = "m", ["second"] = "o"},
-    ["樱"] = {["first"] = "m", ["second"] = "n"},
-    ["橡"] = {["first"] = "m", ["second"] = "n"},
-    ["樟"] = {["first"] = "m", ["second"] = "u"},
-    ["橄"] = {["first"] = "m", ["second"] = "w"},
-    ["敷"] = {["first"] = "f", ["second"] = "w"},
-    ["豌"] = {["first"] = "a", ["second"] = "v"},
-    ["飘"] = {["first"] = "x", ["second"] = "x"},
-    ["醋"] = {["first"] = "y", ["second"] = "o"},
-    ["醇"] = {["first"] = "y", ["second"] = "z"},
-    ["醉"] = {["first"] = "y", ["second"] = "u"},
-    ["磕"] = {["first"] = "u", ["second"] = "m"},
-    ["磊"] = {["first"] = "u", ["second"] = "u"},
-    ["磅"] = {["first"] = "u", ["second"] = "f"},
-    ["碾"] = {["first"] = "u", ["second"] = "n"},
-    ["震"] = {["first"] = "y", ["second"] = "n"},
-    ["霄"] = {["first"] = "y", ["second"] = "o"},
-    ["霉"] = {["first"] = "y", ["second"] = "m"},
-    ["瞒"] = {["first"] = "o", ["second"] = "l"},
-    ["题"] = {["first"] = "o", ["second"] = "r"},
-    ["暴"] = {["first"] = "o", ["second"] = "u"},
-    ["瞎"] = {["first"] = "o", ["second"] = "k"},
-    ["嘻"] = {["first"] = "k", ["second"] = "k"},
-    ["嘶"] = {["first"] = "k", ["second"] = "j"},
-    ["嘲"] = {["first"] = "k", ["second"] = "o"},
-    ["嘹"] = {["first"] = "k", ["second"] = "x"},
-    ["影"] = {["first"] = "o", ["second"] = "p"},
-    ["踢"] = {["first"] = "z", ["second"] = "w"},
-    ["踏"] = {["first"] = "z", ["second"] = "o"},
-    ["踩"] = {["first"] = "z", ["second"] = "m"},
-    ["踪"] = {["first"] = "z", ["second"] = "x"},
-    ["蝶"] = {["first"] = "i", ["second"] = "m"},
-    ["蝴"] = {["first"] = "i", ["second"] = "o"},
-    ["蝠"] = {["first"] = "i", ["second"] = "t"},
-    ["蝎"] = {["first"] = "i", ["second"] = "v"},
-    ["蝌"] = {["first"] = "i", ["second"] = "u"},
-    ["蝗"] = {["first"] = "i", ["second"] = "w"},
-    ["蝙"] = {["first"] = "i", ["second"] = "c"},
-    ["嘿"] = {["first"] = "k", ["second"] = "h"},
-    ["嘱"] = {["first"] = "k", ["second"] = "y"},
-    ["幢"] = {["first"] = "j", ["second"] = "l"},
-    ["墨"] = {["first"] = "h", ["second"] = "t"},
-    ["镇"] = {["first"] = "j", ["second"] = "b"},
-    ["镐"] = {["first"] = "j", ["second"] = "k"},
-    ["镑"] = {["first"] = "j", ["second"] = "f"},
-    ["靠"] = {["first"] = "n", ["second"] = "f"},
-    ["稽"] = {["first"] = "h", ["second"] = "o"},
-    ["稻"] = {["first"] = "h", ["second"] = "j"},
-    ["黎"] = {["first"] = "h", ["second"] = "u"},
-    ["稿"] = {["first"] = "h", ["second"] = "k"},
-    ["稼"] = {["first"] = "h", ["second"] = "u"},
-    ["箱"] = {["first"] = "v", ["second"] = "o"},
-    ["篓"] = {["first"] = "v", ["second"] = "n"},
-    ["箭"] = {["first"] = "v", ["second"] = "d"},
-    ["篇"] = {["first"] = "v", ["second"] = "c"},
-    ["僵"] = {["first"] = "r", ["second"] = "a"},
-    ["躺"] = {["first"] = "u", ["second"] = "k"},
-    ["僻"] = {["first"] = "r", ["second"] = "u"},
-    ["德"] = {["first"] = "i", ["second"] = "x"},
-    ["艘"] = {["first"] = "v", ["second"] = "y"},
-    ["膝"] = {["first"] = "o", ["second"] = "u"},
-    ["膛"] = {["first"] = "o", ["second"] = "t"},
-    ["鲤"] = {["first"] = "a", ["second"] = "l"},
-    ["鲫"] = {["first"] = "a", ["second"] = "e"},
-    ["熟"] = {["first"] = "w", ["second"] = "h"},
-    ["摩"] = {["first"] = "g", ["second"] = "u"},
-    ["褒"] = {["first"] = "w", ["second"] = "y"},
-    ["瘪"] = {["first"] = "b", ["second"] = "b"},
-    ["瘤"] = {["first"] = "b", ["second"] = "t"},
-    ["瘫"] = {["first"] = "b", ["second"] = "f"},
-    ["凛"] = {["first"] = "d", ["second"] = "x"},
-    ["颜"] = {["first"] = "i", ["second"] = "r"},
-    ["毅"] = {["first"] = "l", ["second"] = "y"},
-    ["糊"] = {["first"] = "m", ["second"] = "o"},
-    ["遵"] = {["first"] = "z", ["second"] = "c"},
-    ["憋"] = {["first"] = "d", ["second"] = "x"},
-    ["潜"] = {["first"] = "d", ["second"] = "o"},
-    ["澎"] = {["first"] = "d", ["second"] = "p"},
-    ["潮"] = {["first"] = "d", ["second"] = "o"},
-    ["潭"] = {["first"] = "d", ["second"] = "u"},
-    ["鲨"] = {["first"] = "d", ["second"] = "a"},
-    ["澳"] = {["first"] = "d", ["second"] = "d"},
-    ["潘"] = {["first"] = "d", ["second"] = "t"},
-    ["澈"] = {["first"] = "d", ["second"] = "w"},
-    ["澜"] = {["first"] = "d", ["second"] = "j"},
-    ["澄"] = {["first"] = "d", ["second"] = "a"},
-    ["懂"] = {["first"] = "x", ["second"] = "v"},
-    ["憔"] = {["first"] = "x", ["second"] = "h"},
-    ["懊"] = {["first"] = "x", ["second"] = "d"},
-    ["憎"] = {["first"] = "x", ["second"] = "o"},
-    ["额"] = {["first"] = "b", ["second"] = "r"},
-    ["翩"] = {["first"] = "h", ["second"] = "x"},
-    ["褥"] = {["first"] = "p", ["second"] = "c"},
-    ["谴"] = {["first"] = "y", ["second"] = "z"},
-    ["鹤"] = {["first"] = "d", ["second"] = "n"},
-    ["憨"] = {["first"] = "v", ["second"] = "x"},
-    ["慰"] = {["first"] = "u", ["second"] = "x"},
-    ["劈"] = {["first"] = "u", ["second"] = "d"},
-    ["履"] = {["first"] = "u", ["second"] = "w"},
-    ["豫"] = {["first"] = "s", ["second"] = "n"},
-    ["缭"] = {["first"] = "s", ["second"] = "x"},
-    ["撼"] = {["first"] = "f", ["second"] = "x"},
-    ["擂"] = {["first"] = "f", ["second"] = "t"},
-    ["操"] = {["first"] = "f", ["second"] = "m"},
-    ["擅"] = {["first"] = "f", ["second"] = "a"},
-    ["燕"] = {["first"] = "n", ["second"] = "h"},
-    ["蕾"] = {["first"] = "c", ["second"] = "t"},
-    ["薯"] = {["first"] = "c", ["second"] = "o"},
-    ["薛"] = {["first"] = "c", ["second"] = "u"},
-    ["薇"] = {["first"] = "c", ["second"] = "w"},
-    ["擎"] = {["first"] = "c", ["second"] = "u"},
-    ["薪"] = {["first"] = "c", ["second"] = "j"},
-    ["薄"] = {["first"] = "c", ["second"] = "c"},
-    ["颠"] = {["first"] = "u", ["second"] = "r"},
-    ["翰"] = {["first"] = "u", ["second"] = "x"},
-    ["噩"] = {["first"] = "w", ["second"] = "k"},
-    ["橱"] = {["first"] = "m", ["second"] = "c"},
-    ["橙"] = {["first"] = "m", ["second"] = "a"},
-    ["橘"] = {["first"] = "m", ["second"] = "k"},
-    ["整"] = {["first"] = "u", ["second"] = "v"},
-    ["融"] = {["first"] = "a", ["second"] = "i"},
-    ["瓢"] = {["first"] = "x", ["second"] = "g"},
-    ["醒"] = {["first"] = "y", ["second"] = "u"},
-    ["霍"] = {["first"] = "y", ["second"] = "f"},
-    ["霎"] = {["first"] = "y", ["second"] = "n"},
-    ["辙"] = {["first"] = "i", ["second"] = "w"},
-    ["冀"] = {["first"] = "l", ["second"] = "b"},
-    ["餐"] = {["first"] = "l", ["second"] = "l"},
-    ["嘴"] = {["first"] = "k", ["second"] = "y"},
-    ["踱"] = {["first"] = "z", ["second"] = "y"},
-    ["蹄"] = {["first"] = "z", ["second"] = "j"},
-    ["蹂"] = {["first"] = "z", ["second"] = "m"},
-    ["蟆"] = {["first"] = "i", ["second"] = "d"},
-    ["螃"] = {["first"] = "i", ["second"] = "f"},
-    ["器"] = {["first"] = "k", ["second"] = "k"},
-    ["噪"] = {["first"] = "k", ["second"] = "m"},
-    ["鹦"] = {["first"] = "k", ["second"] = "n"},
-    ["赠"] = {["first"] = "k", ["second"] = "o"},
-    ["默"] = {["first"] = "h", ["second"] = "q"},
-    ["黔"] = {["first"] = "h", ["second"] = "v"},
-    ["镜"] = {["first"] = "j", ["second"] = "e"},
-    ["赞"] = {["first"] = "n", ["second"] = "r"},
-    ["穆"] = {["first"] = "h", ["second"] = "p"},
-    ["篮"] = {["first"] = "v", ["second"] = "m"},
-    ["篡"] = {["first"] = "v", ["second"] = "s"},
-    ["篷"] = {["first"] = "v", ["second"] = "z"},
-    ["篱"] = {["first"] = "v", ["second"] = "d"},
-    ["儒"] = {["first"] = "r", ["second"] = "e"},
-    ["邀"] = {["first"] = "z", ["second"] = "w"},
-    ["衡"] = {["first"] = "i", ["second"] = "i"},
-    ["膨"] = {["first"] = "o", ["second"] = "p"},
-    ["雕"] = {["first"] = "k", ["second"] = "f"},
-    ["鲸"] = {["first"] = "a", ["second"] = "x"},
-    ["磨"] = {["first"] = "g", ["second"] = "u"},
-    ["瘾"] = {["first"] = "b", ["second"] = "x"},
-    ["瘸"] = {["first"] = "b", ["second"] = "r"},
-    ["凝"] = {["first"] = "d", ["second"] = "r"},
-    ["辨"] = {["first"] = "l", ["second"] = "u"},
-    ["辩"] = {["first"] = "l", ["second"] = "u"},
-    ["糙"] = {["first"] = "m", ["second"] = "z"},
-    ["糖"] = {["first"] = "m", ["second"] = "k"},
-    ["糕"] = {["first"] = "m", ["second"] = "h"},
-    ["燃"] = {["first"] = "h", ["second"] = "h"},
-    ["濒"] = {["first"] = "d", ["second"] = "r"},
-    ["澡"] = {["first"] = "d", ["second"] = "m"},
-    ["激"] = {["first"] = "d", ["second"] = "w"},
-    ["懒"] = {["first"] = "x", ["second"] = "r"},
-    ["憾"] = {["first"] = "x", ["second"] = "x"},
-    ["懈"] = {["first"] = "x", ["second"] = "n"},
-    ["窿"] = {["first"] = "b", ["second"] = "u"},
-    ["壁"] = {["first"] = "u", ["second"] = "t"},
-    ["避"] = {["first"] = "z", ["second"] = "u"},
-    ["缰"] = {["first"] = "s", ["second"] = "a"},
-    ["缴"] = {["first"] = "s", ["second"] = "w"},
-    ["戴"] = {["first"] = "u", ["second"] = "b"},
-    ["擦"] = {["first"] = "f", ["second"] = "x"},
-    ["藉"] = {["first"] = "c", ["second"] = "o"},
-    ["鞠"] = {["first"] = "g", ["second"] = "m"},
-    ["藏"] = {["first"] = "c", ["second"] = "i"},
-    ["藐"] = {["first"] = "c", ["second"] = "e"},
-    ["檬"] = {["first"] = "m", ["second"] = "n"},
-    ["檐"] = {["first"] = "m", ["second"] = "k"},
-    ["檀"] = {["first"] = "m", ["second"] = "a"},
-    ["礁"] = {["first"] = "u", ["second"] = "h"},
-    ["磷"] = {["first"] = "u", ["second"] = "l"},
-    ["霜"] = {["first"] = "y", ["second"] = "o"},
-    ["霞"] = {["first"] = "y", ["second"] = "y"},
-    ["瞭"] = {["first"] = "o", ["second"] = "x"},
-    ["瞧"] = {["first"] = "o", ["second"] = "h"},
-    ["瞬"] = {["first"] = "o", ["second"] = "l"},
-    ["瞳"] = {["first"] = "o", ["second"] = "l"},
-    ["瞩"] = {["first"] = "o", ["second"] = "y"},
-    ["瞪"] = {["first"] = "o", ["second"] = "a"},
-    ["曙"] = {["first"] = "o", ["second"] = "o"},
-    ["蹋"] = {["first"] = "z", ["second"] = "x"},
-    ["蹈"] = {["first"] = "z", ["second"] = "j"},
-    ["螺"] = {["first"] = "i", ["second"] = "x"},
-    ["蟋"] = {["first"] = "i", ["second"] = "x"},
-    ["蟀"] = {["first"] = "i", ["second"] = "u"},
-    ["嚎"] = {["first"] = "k", ["second"] = "u"},
-    ["赡"] = {["first"] = "k", ["second"] = "k"},
-    ["穗"] = {["first"] = "h", ["second"] = "x"},
-    ["魏"] = {["first"] = "h", ["second"] = "g"},
-    ["簧"] = {["first"] = "v", ["second"] = "b"},
-    ["簇"] = {["first"] = "v", ["second"] = "u"},
-    ["繁"] = {["first"] = "p", ["second"] = "x"},
-    ["徽"] = {["first"] = "i", ["second"] = "w"},
-    ["爵"] = {["first"] = "p", ["second"] = "c"},
-    ["朦"] = {["first"] = "o", ["second"] = "n"},
-    ["臊"] = {["first"] = "o", ["second"] = "m"},
-    ["鳄"] = {["first"] = "a", ["second"] = "k"},
-    ["癌"] = {["first"] = "b", ["second"] = "e"},
-    ["辫"] = {["first"] = "l", ["second"] = "u"},
-    ["赢"] = {["first"] = "w", ["second"] = "f"},
-    ["糟"] = {["first"] = "m", ["second"] = "o"},
-    ["糠"] = {["first"] = "m", ["second"] = "n"},
-    ["燥"] = {["first"] = "h", ["second"] = "m"},
-    ["懦"] = {["first"] = "x", ["second"] = "e"},
-    ["豁"] = {["first"] = "b", ["second"] = "k"},
-    ["臀"] = {["first"] = "u", ["second"] = "o"},
-    ["臂"] = {["first"] = "u", ["second"] = "o"},
-    ["翼"] = {["first"] = "x", ["second"] = "b"},
-    ["骤"] = {["first"] = "m", ["second"] = "n"},
-    ["藕"] = {["first"] = "c", ["second"] = "y"},
-    ["鞭"] = {["first"] = "g", ["second"] = "g"},
-    ["藤"] = {["first"] = "c", ["second"] = "u"},
-    ["覆"] = {["first"] = "x", ["second"] = "w"},
-    ["瞻"] = {["first"] = "o", ["second"] = "k"},
-    ["蹦"] = {["first"] = "z", ["second"] = "o"},
-    ["嚣"] = {["first"] = "k", ["second"] = "k"},
-    ["镰"] = {["first"] = "j", ["second"] = "n"},
-    ["翻"] = {["first"] = "p", ["second"] = "x"},
-    ["鳍"] = {["first"] = "a", ["second"] = "o"},
-    ["鹰"] = {["first"] = "g", ["second"] = "n"},
-    ["瀑"] = {["first"] = "d", ["second"] = "u"},
-    ["襟"] = {["first"] = "p", ["second"] = "x"},
-    ["璧"] = {["first"] = "u", ["second"] = "y"},
-    ["戳"] = {["first"] = "x", ["second"] = "g"},
-    ["孽"] = {["first"] = "c", ["second"] = "z"},
-    ["警"] = {["first"] = "c", ["second"] = "k"},
-    ["蘑"] = {["first"] = "c", ["second"] = "u"},
-    ["藻"] = {["first"] = "c", ["second"] = "m"},
-    ["攀"] = {["first"] = "m", ["second"] = "u"},
-    ["曝"] = {["first"] = "o", ["second"] = "u"},
-    ["蹲"] = {["first"] = "z", ["second"] = "c"},
-    ["蹭"] = {["first"] = "z", ["second"] = "o"},
-    ["蹬"] = {["first"] = "z", ["second"] = "a"},
-    ["巅"] = {["first"] = "e", ["second"] = "r"},
-    ["簸"] = {["first"] = "v", ["second"] = "y"},
-    ["簿"] = {["first"] = "v", ["second"] = "c"},
-    ["蟹"] = {["first"] = "d", ["second"] = "i"},
-    ["颤"] = {["first"] = "w", ["second"] = "r"},
-    ["靡"] = {["first"] = "g", ["second"] = "f"},
-    ["癣"] = {["first"] = "b", ["second"] = "y"},
-    ["瓣"] = {["first"] = "l", ["second"] = "u"},
-    ["羹"] = {["first"] = "y", ["second"] = "d"},
-    ["鳖"] = {["first"] = "d", ["second"] = "a"},
-    ["爆"] = {["first"] = "h", ["second"] = "u"},
-    ["疆"] = {["first"] = "g", ["second"] = "a"},
-    ["鬓"] = {["first"] = "a", ["second"] = "b"},
-    ["壤"] = {["first"] = "t", ["second"] = "y"},
-    ["馨"] = {["first"] = "u", ["second"] = "o"},
-    ["耀"] = {["first"] = "x", ["second"] = "f"},
-    ["躁"] = {["first"] = "z", ["second"] = "m"},
-    ["蠕"] = {["first"] = "i", ["second"] = "e"},
-    ["嚼"] = {["first"] = "k", ["second"] = "c"},
-    ["嚷"] = {["first"] = "k", ["second"] = "y"},
-    ["巍"] = {["first"] = "e", ["second"] = "g"},
-    ["籍"] = {["first"] = "v", ["second"] = "o"},
-    ["鳞"] = {["first"] = "a", ["second"] = "l"},
-    ["魔"] = {["first"] = "g", ["second"] = "g"},
-    ["糯"] = {["first"] = "m", ["second"] = "e"},
-    ["灌"] = {["first"] = "d", ["second"] = "f"},
-    ["譬"] = {["first"] = "u", ["second"] = "k"},
-    ["蠢"] = {["first"] = "f", ["second"] = "i"},
-    ["霸"] = {["first"] = "y", ["second"] = "o"},
-    ["露"] = {["first"] = "y", ["second"] = "k"},
-    ["霹"] = {["first"] = "y", ["second"] = "u"},
-    ["躏"] = {["first"] = "z", ["second"] = "f"},
-    ["黯"] = {["first"] = "h", ["second"] = "o"},
-    ["髓"] = {["first"] = "g", ["second"] = "z"},
-    ["赣"] = {["first"] = "l", ["second"] = "r"},
-    ["囊"] = {["first"] = "a", ["second"] = "y"},
-    ["镶"] = {["first"] = "j", ["second"] = "y"},
-    ["瓤"] = {["first"] = "w", ["second"] = "g"},
-    ["罐"] = {["first"] = "f", ["second"] = "f"},
-    ["矗"] = {["first"] = "u", ["second"] = "q"},
-    ["乂"] = {["first"] = "p", ["second"] = "n"},
-    ["乜"] = {["first"] = "v", ["second"] = "v"},
-    ["兀"] = {["first"] = "a", ["second"] = "e"},
-    ["弋"] = {["first"] = "a", ["second"] = "d"},
-    ["孑"] = {["first"] = "v", ["second"] = "a"},
-    ["孓"] = {["first"] = "v", ["second"] = "n"},
-    ["幺"] = {["first"] = "v", ["second"] = "s"},
-    ["亓"] = {["first"] = "e", ["second"] = "l"},
-    ["韦"] = {["first"] = "a", ["second"] = "l"},
-    ["廿"] = {["first"] = "c", ["second"] = "a"},
-    ["丏"] = {["first"] = "a", ["second"] = "v"},
-    ["卅"] = {["first"] = "a", ["second"] = "l"},
-    ["仄"] = {["first"] = "i", ["second"] = "r"},
-    ["厄"] = {["first"] = "i", ["second"] = "v"},
-    ["仃"] = {["first"] = "r", ["second"] = "d"},
-    ["仉"] = {["first"] = "r", ["second"] = "j"},
-    ["仂"] = {["first"] = "r", ["second"] = "l"},
-    ["兮"] = {["first"] = "b", ["second"] = "v"},
-    ["刈"] = {["first"] = "x", ["second"] = "d"},
-    ["爻"] = {["first"] = "x", ["second"] = "x"},
-    ["卞"] = {["first"] = "d", ["second"] = "x"},
-    ["闩"] = {["first"] = "m", ["second"] = "a"},
-    ["讣"] = {["first"] = "y", ["second"] = "b"},
-    ["尹"] = {["first"] = "v", ["second"] = "p"},
-    ["夬"] = {["first"] = "v", ["second"] = "n"},
-    ["爿"] = {["first"] = "v", ["second"] = "p"},
-    ["毋"] = {["first"] = "v", ["second"] = "a"},
-    ["邗"] = {["first"] = "g", ["second"] = "e"},
-    ["邛"] = {["first"] = "g", ["second"] = "e"},
-    ["艽"] = {["first"] = "c", ["second"] = "j"},
-    ["艿"] = {["first"] = "c", ["second"] = "n"},
-    ["札"] = {["first"] = "m", ["second"] = "v"},
-    ["叵"] = {["first"] = "k", ["second"] = "k"},
-    ["匝"] = {["first"] = "k", ["second"] = "j"},
-    ["丕"] = {["first"] = "b", ["second"] = "a"},
-    ["匜"] = {["first"] = "k", ["second"] = "y"},
-    ["劢"] = {["first"] = "w", ["second"] = "l"},
-    ["卟"] = {["first"] = "k", ["second"] = "b"},
-    ["叱"] = {["first"] = "k", ["second"] = "b"},
-    ["叻"] = {["first"] = "k", ["second"] = "l"},
-    ["仨"] = {["first"] = "r", ["second"] = "s"},
-    ["仕"] = {["first"] = "r", ["second"] = "u"},
-    ["仟"] = {["first"] = "r", ["second"] = "q"},
-    ["仡"] = {["first"] = "r", ["second"] = "q"},
-    ["仫"] = {["first"] = "r", ["second"] = "m"},
-    ["仞"] = {["first"] = "r", ["second"] = "r"},
-    ["卮"] = {["first"] = "p", ["second"] = "v"},
-    ["氐"] = {["first"] = "u", ["second"] = "d"},
-    ["犰"] = {["first"] = "q", ["second"] = "j"},
-    ["刍"] = {["first"] = "d", ["second"] = "e"},
-    ["邝"] = {["first"] = "g", ["second"] = "e"},
-    ["邙"] = {["first"] = "w", ["second"] = "e"},
-    ["汀"] = {["first"] = "d", ["second"] = "d"},
-    ["讦"] = {["first"] = "y", ["second"] = "g"},
-    ["讧"] = {["first"] = "y", ["second"] = "g"},
-    ["讪"] = {["first"] = "y", ["second"] = "e"},
-    ["讫"] = {["first"] = "y", ["second"] = "q"},
-    ["尻"] = {["first"] = "u", ["second"] = "j"},
-    ["阡"] = {["first"] = "e", ["second"] = "q"},
-    ["尕"] = {["first"] = "n", ["second"] = "x"},
-    ["弁"] = {["first"] = "s", ["second"] = "c"},
-    ["驭"] = {["first"] = "m", ["second"] = "y"},
-    ["匡"] = {["first"] = "k", ["second"] = "w"},
-    ["耒"] = {["first"] = "f", ["second"] = "n"},
-    ["玎"] = {["first"] = "w", ["second"] = "d"},
-    ["玑"] = {["first"] = "w", ["second"] = "j"},
-    ["邢"] = {["first"] = "k", ["second"] = "e"},
-    ["圩"] = {["first"] = "t", ["second"] = "y"},
-    ["圬"] = {["first"] = "t", ["second"] = "k"},
-    ["圭"] = {["first"] = "t", ["second"] = "t"},
-    ["扦"] = {["first"] = "f", ["second"] = "q"},
-    ["圪"] = {["first"] = "t", ["second"] = "q"},
-    ["圳"] = {["first"] = "t", ["second"] = "i"},
-    ["圹"] = {["first"] = "t", ["second"] = "g"},
-    ["扪"] = {["first"] = "f", ["second"] = "m"},
-    ["圮"] = {["first"] = "t", ["second"] = "j"},
-    ["圯"] = {["first"] = "t", ["second"] = "s"},
-    ["芊"] = {["first"] = "c", ["second"] = "q"},
-    ["芍"] = {["first"] = "c", ["second"] = "u"},
-    ["芄"] = {["first"] = "c", ["second"] = "w"},
-    ["芨"] = {["first"] = "c", ["second"] = "j"},
-    ["芑"] = {["first"] = "c", ["second"] = "j"},
-    ["芎"] = {["first"] = "c", ["second"] = "g"},
-    ["芗"] = {["first"] = "c", ["second"] = "x"},
-    ["亘"] = {["first"] = "a", ["second"] = "a"},
-    ["厍"] = {["first"] = "i", ["second"] = "i"},
-    ["夼"] = {["first"] = "d", ["second"] = "i"},
-    ["戍"] = {["first"] = "w", ["second"] = "d"},
-    ["尥"] = {["first"] = "y", ["second"] = "u"},
-    ["乩"] = {["first"] = "l", ["second"] = "v"},
-    ["旯"] = {["first"] = "o", ["second"] = "j"},
-    ["曳"] = {["first"] = "l", ["second"] = "p"},
-    ["岌"] = {["first"] = "e", ["second"] = "j"},
-    ["屺"] = {["first"] = "e", ["second"] = "j"},
-    ["凼"] = {["first"] = "u", ["second"] = "k"},
-    ["囡"] = {["first"] = "k", ["second"] = "n"},
-    ["钇"] = {["first"] = "j", ["second"] = "v"},
-    ["缶"] = {["first"] = "w", ["second"] = "k"},
-    ["氘"] = {["first"] = "q", ["second"] = "l"},
-    ["氖"] = {["first"] = "q", ["second"] = "n"},
-    ["牝"] = {["first"] = "n", ["second"] = "b"},
-    ["伎"] = {["first"] = "r", ["second"] = "y"},
-    ["伛"] = {["first"] = "r", ["second"] = "x"},
-    ["伢"] = {["first"] = "r", ["second"] = "y"},
-    ["佤"] = {["first"] = "r", ["second"] = "w"},
-    ["仵"] = {["first"] = "r", ["second"] = "w"},
-    ["伥"] = {["first"] = "r", ["second"] = "i"},
-    ["伧"] = {["first"] = "r", ["second"] = "v"},
-    ["伉"] = {["first"] = "r", ["second"] = "j"},
-    ["伫"] = {["first"] = "r", ["second"] = "a"},
-    ["囟"] = {["first"] = "p", ["second"] = "x"},
-    ["汆"] = {["first"] = "r", ["second"] = "u"},
-    ["刖"] = {["first"] = "o", ["second"] = "d"},
-    ["夙"] = {["first"] = "j", ["second"] = "d"},
-    ["旮"] = {["first"] = "j", ["second"] = "o"},
-    ["刎"] = {["first"] = "w", ["second"] = "d"},
-    ["犷"] = {["first"] = "q", ["second"] = "g"},
-    ["犸"] = {["first"] = "q", ["second"] = "m"},
-    ["舛"] = {["first"] = "x", ["second"] = "l"},
-    ["凫"] = {["first"] = "p", ["second"] = "j"},
-    ["邬"] = {["first"] = "w", ["second"] = "e"},
-    ["饧"] = {["first"] = "u", ["second"] = "p"},
-    ["汕"] = {["first"] = "d", ["second"] = "e"},
-    ["汔"] = {["first"] = "d", ["second"] = "q"},
-    ["汐"] = {["first"] = "d", ["second"] = "x"},
-    ["汲"] = {["first"] = "d", ["second"] = "j"},
-    ["汜"] = {["first"] = "d", ["second"] = "s"},
-    ["汊"] = {["first"] = "d", ["second"] = "i"},
-    ["忖"] = {["first"] = "x", ["second"] = "c"},
-    ["忏"] = {["first"] = "x", ["second"] = "q"},
-    ["讴"] = {["first"] = "y", ["second"] = "x"},
-    ["讵"] = {["first"] = "y", ["second"] = "j"},
-    ["祁"] = {["first"] = "p", ["second"] = "e"},
-    ["讷"] = {["first"] = "y", ["second"] = "n"},
-    ["聿"] = {["first"] = "v", ["second"] = "l"},
-    ["艮"] = {["first"] = "e", ["second"] = "n"},
-    ["厾"] = {["first"] = "v", ["second"] = "s"},
-    ["阱"] = {["first"] = "e", ["second"] = "j"},
-    ["阮"] = {["first"] = "e", ["second"] = "e"},
-    ["阪"] = {["first"] = "e", ["second"] = "y"},
-    ["丞"] = {["first"] = "l", ["second"] = "a"},
-    ["妁"] = {["first"] = "n", ["second"] = "u"},
-    ["牟"] = {["first"] = "s", ["second"] = "n"},
-    ["纡"] = {["first"] = "s", ["second"] = "y"},
-    ["纣"] = {["first"] = "s", ["second"] = "c"},
-    ["纥"] = {["first"] = "s", ["second"] = "q"},
-    ["纨"] = {["first"] = "s", ["second"] = "w"},
-    ["玕"] = {["first"] = "w", ["second"] = "g"},
-    ["玙"] = {["first"] = "w", ["second"] = "y"},
-    ["抟"] = {["first"] = "f", ["second"] = "v"},
-    ["抔"] = {["first"] = "f", ["second"] = "b"},
-    ["圻"] = {["first"] = "t", ["second"] = "j"},
-    ["坂"] = {["first"] = "t", ["second"] = "y"},
-    ["坍"] = {["first"] = "t", ["second"] = "d"},
-    ["坞"] = {["first"] = "t", ["second"] = "w"},
-    ["抃"] = {["first"] = "f", ["second"] = "b"},
-    ["抉"] = {["first"] = "f", ["second"] = "g"},
-    ["㧐"] = {["first"] = "f", ["second"] = "y"},
-    ["芫"] = {["first"] = "c", ["second"] = "e"},
-    ["邯"] = {["first"] = "g", ["second"] = "e"},
-    ["芸"] = {["first"] = "c", ["second"] = "s"},
-    ["芾"] = {["first"] = "c", ["second"] = "l"},
-    ["苈"] = {["first"] = "c", ["second"] = "l"},
-    ["苣"] = {["first"] = "c", ["second"] = "j"},
-    ["芷"] = {["first"] = "c", ["second"] = "v"},
-    ["芮"] = {["first"] = "c", ["second"] = "n"},
-    ["苋"] = {["first"] = "c", ["second"] = "e"},
-    ["芼"] = {["first"] = "c", ["second"] = "m"},
-    ["苌"] = {["first"] = "c", ["second"] = "i"},
-    ["苁"] = {["first"] = "c", ["second"] = "r"},
-    ["芩"] = {["first"] = "c", ["second"] = "v"},
-    ["芪"] = {["first"] = "c", ["second"] = "u"},
-    ["芡"] = {["first"] = "c", ["second"] = "r"},
-    ["芟"] = {["first"] = "c", ["second"] = "y"},
-    ["苄"] = {["first"] = "c", ["second"] = "b"},
-    ["苎"] = {["first"] = "c", ["second"] = "a"},
-    ["苡"] = {["first"] = "c", ["second"] = "r"},
-    ["杌"] = {["first"] = "m", ["second"] = "w"},
-    ["杓"] = {["first"] = "m", ["second"] = "u"},
-    ["杞"] = {["first"] = "m", ["second"] = "j"},
-    ["杈"] = {["first"] = "m", ["second"] = "i"},
-    ["忑"] = {["first"] = "x", ["second"] = "x"},
-    ["孛"] = {["first"] = "u", ["second"] = "z"},
-    ["邴"] = {["first"] = "b", ["second"] = "e"},
-    ["邳"] = {["first"] = "p", ["second"] = "e"},
-    ["矶"] = {["first"] = "u", ["second"] = "j"},
-    ["奁"] = {["first"] = "d", ["second"] = "x"},
-    ["豕"] = {["first"] = "a", ["second"] = "n"},
-    ["忒"] = {["first"] = "y", ["second"] = "x"},
-    ["欤"] = {["first"] = "y", ["second"] = "r"},
-    ["轫"] = {["first"] = "i", ["second"] = "r"},
-    ["迓"] = {["first"] = "z", ["second"] = "y"},
-    ["邶"] = {["first"] = "l", ["second"] = "e"},
-    ["忐"] = {["first"] = "u", ["second"] = "x"},
-    ["卣"] = {["first"] = "l", ["second"] = "a"},
-    ["邺"] = {["first"] = "y", ["second"] = "e"},
-    ["旰"] = {["first"] = "o", ["second"] = "g"},
-    ["呋"] = {["first"] = "k", ["second"] = "f"},
-    ["呒"] = {["first"] = "k", ["second"] = "w"},
-    ["呓"] = {["first"] = "k", ["second"] = "v"},
-    ["呔"] = {["first"] = "k", ["second"] = "t"},
-    ["呖"] = {["first"] = "k", ["second"] = "l"},
-    ["呃"] = {["first"] = "k", ["second"] = "v"},
-    ["旸"] = {["first"] = "o", ["second"] = "p"},
-    ["吡"] = {["first"] = "k", ["second"] = "b"},
-    ["町"] = {["first"] = "t", ["second"] = "d"},
-    ["虬"] = {["first"] = "i", ["second"] = "v"},
-    ["呗"] = {["first"] = "k", ["second"] = "r"},
-    ["吽"] = {["first"] = "k", ["second"] = "n"},
-    ["吣"] = {["first"] = "k", ["second"] = "x"},
-    ["吲"] = {["first"] = "k", ["second"] = "l"},
-    ["帏"] = {["first"] = "j", ["second"] = "w"},
-    ["岐"] = {["first"] = "e", ["second"] = "y"},
-    ["岈"] = {["first"] = "e", ["second"] = "y"},
-    ["岘"] = {["first"] = "e", ["second"] = "e"},
-    ["岑"] = {["first"] = "e", ["second"] = "v"},
-    ["岚"] = {["first"] = "e", ["second"] = "x"},
-    ["兕"] = {["first"] = "a", ["second"] = "e"},
-    ["囵"] = {["first"] = "k", ["second"] = "b"},
-    ["囫"] = {["first"] = "k", ["second"] = "w"},
-    ["钊"] = {["first"] = "j", ["second"] = "d"},
-    ["钋"] = {["first"] = "j", ["second"] = "b"},
-    ["钌"] = {["first"] = "j", ["second"] = "l"},
-    ["迕"] = {["first"] = "z", ["second"] = "w"},
-    ["氙"] = {["first"] = "q", ["second"] = "e"},
-    ["氚"] = {["first"] = "q", ["second"] = "i"},
-    ["牤"] = {["first"] = "n", ["second"] = "w"},
-    ["佞"] = {["first"] = "r", ["second"] = "n"},
-    ["邱"] = {["first"] = "q", ["second"] = "e"},
-    ["攸"] = {["first"] = "r", ["second"] = "w"},
-    ["佚"] = {["first"] = "r", ["second"] = "u"},
-    ["佝"] = {["first"] = "r", ["second"] = "k"},
-    ["佟"] = {["first"] = "r", ["second"] = "d"},
-    ["佗"] = {["first"] = "r", ["second"] = "b"},
-    ["伽"] = {["first"] = "r", ["second"] = "k"},
-    ["彷"] = {["first"] = "i", ["second"] = "f"},
-    ["佘"] = {["first"] = "r", ["second"] = "x"},
-    ["佥"] = {["first"] = "r", ["second"] = "a"},
-    ["孚"] = {["first"] = "p", ["second"] = "z"},
-    ["豸"] = {["first"] = "p", ["second"] = "p"},
-    ["坌"] = {["first"] = "b", ["second"] = "t"},
-    ["肟"] = {["first"] = "o", ["second"] = "k"},
-    ["邸"] = {["first"] = "d", ["second"] = "e"},
-    ["奂"] = {["first"] = "d", ["second"] = "d"},
-    ["劬"] = {["first"] = "b", ["second"] = "l"},
-    ["狄"] = {["first"] = "q", ["second"] = "h"},
-    ["狁"] = {["first"] = "q", ["second"] = "e"},
-    ["鸠"] = {["first"] = "j", ["second"] = "n"},
-    ["邹"] = {["first"] = "d", ["second"] = "e"},
-    ["饨"] = {["first"] = "u", ["second"] = "t"},
-    ["饩"] = {["first"] = "u", ["second"] = "q"},
-    ["饪"] = {["first"] = "u", ["second"] = "r"},
-    ["饫"] = {["first"] = "u", ["second"] = "y"},
-    ["饬"] = {["first"] = "u", ["second"] = "l"},
-    ["亨"] = {["first"] = "w", ["second"] = "l"},
-    ["庑"] = {["first"] = "g", ["second"] = "w"},
-    ["庋"] = {["first"] = "g", ["second"] = "y"},
-    ["疔"] = {["first"] = "b", ["second"] = "d"},
-    ["疖"] = {["first"] = "b", ["second"] = "e"},
-    ["肓"] = {["first"] = "w", ["second"] = "o"},
-    ["闱"] = {["first"] = "m", ["second"] = "w"},
-    ["闳"] = {["first"] = "m", ["second"] = "s"},
-    ["闵"] = {["first"] = "m", ["second"] = "w"},
-    ["羌"] = {["first"] = "y", ["second"] = "v"},
-    ["炀"] = {["first"] = "h", ["second"] = "p"},
-    ["沣"] = {["first"] = "d", ["second"] = "f"},
-    ["沅"] = {["first"] = "d", ["second"] = "e"},
-    ["沔"] = {["first"] = "d", ["second"] = "m"},
-    ["沤"] = {["first"] = "d", ["second"] = "x"},
-    ["沌"] = {["first"] = "d", ["second"] = "t"},
-    ["沏"] = {["first"] = "d", ["second"] = "d"},
-    ["沚"] = {["first"] = "d", ["second"] = "v"},
-    ["汩"] = {["first"] = "d", ["second"] = "o"},
-    ["汨"] = {["first"] = "d", ["second"] = "o"},
-    ["沂"] = {["first"] = "d", ["second"] = "j"},
-    ["汾"] = {["first"] = "d", ["second"] = "d"},
-    ["沨"] = {["first"] = "d", ["second"] = "x"},
-    ["汴"] = {["first"] = "d", ["second"] = "b"},
-    ["汶"] = {["first"] = "d", ["second"] = "w"},
-    ["沆"] = {["first"] = "d", ["second"] = "j"},
-    ["沩"] = {["first"] = "d", ["second"] = "w"},
-    ["泐"] = {["first"] = "d", ["second"] = "l"},
-    ["怃"] = {["first"] = "x", ["second"] = "w"},
-    ["怄"] = {["first"] = "x", ["second"] = "x"},
-    ["忡"] = {["first"] = "x", ["second"] = "v"},
-    ["忤"] = {["first"] = "x", ["second"] = "w"},
-    ["忾"] = {["first"] = "x", ["second"] = "q"},
-    ["怅"] = {["first"] = "x", ["second"] = "i"},
-    ["忻"] = {["first"] = "x", ["second"] = "j"},
-    ["忪"] = {["first"] = "x", ["second"] = "s"},
-    ["怆"] = {["first"] = "x", ["second"] = "v"},
-    ["忭"] = {["first"] = "x", ["second"] = "b"},
-    ["忸"] = {["first"] = "x", ["second"] = "i"},
-    ["诂"] = {["first"] = "y", ["second"] = "k"},
-    ["诃"] = {["first"] = "y", ["second"] = "k"},
-    ["诅"] = {["first"] = "y", ["second"] = "q"},
-    ["诋"] = {["first"] = "y", ["second"] = "d"},
-    ["诌"] = {["first"] = "y", ["second"] = "e"},
-    ["诏"] = {["first"] = "y", ["second"] = "k"},
-    ["诒"] = {["first"] = "y", ["second"] = "k"},
-    ["孜"] = {["first"] = "z", ["second"] = "w"},
-    ["陇"] = {["first"] = "e", ["second"] = "l"},
-    ["陀"] = {["first"] = "e", ["second"] = "b"},
-    ["陂"] = {["first"] = "e", ["second"] = "y"},
-    ["陉"] = {["first"] = "e", ["second"] = "g"},
-    ["妍"] = {["first"] = "n", ["second"] = "k"},
-    ["妩"] = {["first"] = "n", ["second"] = "w"},
-    ["妪"] = {["first"] = "n", ["second"] = "x"},
-    ["妣"] = {["first"] = "n", ["second"] = "b"},
-    ["妊"] = {["first"] = "n", ["second"] = "r"},
-    ["妗"] = {["first"] = "n", ["second"] = "v"},
-    ["妫"] = {["first"] = "n", ["second"] = "w"},
-    ["妞"] = {["first"] = "n", ["second"] = "i"},
-    ["姒"] = {["first"] = "n", ["second"] = "r"},
-    ["妤"] = {["first"] = "n", ["second"] = "l"},
-    ["邵"] = {["first"] = "d", ["second"] = "e"},
-    ["劭"] = {["first"] = "d", ["second"] = "l"},
-    ["刭"] = {["first"] = "v", ["second"] = "d"},
-    ["甬"] = {["first"] = "s", ["second"] = "y"},
-    ["邰"] = {["first"] = "s", ["second"] = "e"},
-    ["纭"] = {["first"] = "s", ["second"] = "s"},
-    ["纰"] = {["first"] = "s", ["second"] = "b"},
-    ["纴"] = {["first"] = "s", ["second"] = "r"},
-    ["纶"] = {["first"] = "s", ["second"] = "b"},
-    ["纾"] = {["first"] = "s", ["second"] = "l"},
-    ["玮"] = {["first"] = "w", ["second"] = "w"},
-    ["玡"] = {["first"] = "w", ["second"] = "y"},
-    ["玭"] = {["first"] = "w", ["second"] = "b"},
-    ["玠"] = {["first"] = "w", ["second"] = "l"},
-    ["玢"] = {["first"] = "w", ["second"] = "d"},
-    ["玥"] = {["first"] = "w", ["second"] = "o"},
-    ["玦"] = {["first"] = "w", ["second"] = "g"},
-    ["盂"] = {["first"] = "y", ["second"] = "m"},
-    ["忝"] = {["first"] = "t", ["second"] = "x"},
-    ["匦"] = {["first"] = "k", ["second"] = "j"},
-    ["坩"] = {["first"] = "t", ["second"] = "g"},
-    ["抨"] = {["first"] = "f", ["second"] = "p"},
-    ["拤"] = {["first"] = "f", ["second"] = "b"},
-    ["坫"] = {["first"] = "t", ["second"] = "k"},
-    ["拈"] = {["first"] = "f", ["second"] = "k"},
-    ["垆"] = {["first"] = "t", ["second"] = "u"},
-    ["抻"] = {["first"] = "f", ["second"] = "u"},
-    ["劼"] = {["first"] = "u", ["second"] = "l"},
-    ["拃"] = {["first"] = "f", ["second"] = "v"},
-    ["拊"] = {["first"] = "f", ["second"] = "c"},
-    ["坼"] = {["first"] = "t", ["second"] = "i"},
-    ["坻"] = {["first"] = "t", ["second"] = "d"},
-    ["㧟"] = {["first"] = "f", ["second"] = "k"},
-    ["坨"] = {["first"] = "t", ["second"] = "b"},
-    ["坭"] = {["first"] = "t", ["second"] = "b"},
-    ["抿"] = {["first"] = "f", ["second"] = "m"},
-    ["坳"] = {["first"] = "t", ["second"] = "l"},
-    ["耶"] = {["first"] = "e", ["second"] = "e"},
-    ["苷"] = {["first"] = "c", ["second"] = "g"},
-    ["苯"] = {["first"] = "c", ["second"] = "b"},
-    ["苤"] = {["first"] = "c", ["second"] = "p"},
-    ["茏"] = {["first"] = "c", ["second"] = "l"},
-    ["苫"] = {["first"] = "c", ["second"] = "k"},
-    ["苜"] = {["first"] = "c", ["second"] = "o"},
-    ["苴"] = {["first"] = "c", ["second"] = "q"},
-    ["苒"] = {["first"] = "c", ["second"] = "r"},
-    ["苘"] = {["first"] = "c", ["second"] = "k"},
-    ["茌"] = {["first"] = "c", ["second"] = "u"},
-    ["苻"] = {["first"] = "c", ["second"] = "c"},
-    ["苓"] = {["first"] = "c", ["second"] = "s"},
-    ["茚"] = {["first"] = "c", ["second"] = "e"},
-    ["茆"] = {["first"] = "c", ["second"] = "e"},
-    ["茑"] = {["first"] = "c", ["second"] = "n"},
-    ["茓"] = {["first"] = "c", ["second"] = "b"},
-    ["茔"] = {["first"] = "c", ["second"] = "t"},
-    ["茕"] = {["first"] = "c", ["second"] = "u"},
-    ["茀"] = {["first"] = "c", ["second"] = "f"},
-    ["苕"] = {["first"] = "c", ["second"] = "k"},
-    ["枥"] = {["first"] = "m", ["second"] = "l"},
-    ["枇"] = {["first"] = "m", ["second"] = "b"},
-    ["杪"] = {["first"] = "m", ["second"] = "u"},
-    ["杳"] = {["first"] = "m", ["second"] = "o"},
-    ["枧"] = {["first"] = "m", ["second"] = "e"},
-    ["杵"] = {["first"] = "m", ["second"] = "w"},
-    ["枨"] = {["first"] = "m", ["second"] = "i"},
-    ["枞"] = {["first"] = "m", ["second"] = "r"},
-    ["枋"] = {["first"] = "m", ["second"] = "f"},
-    ["杻"] = {["first"] = "m", ["second"] = "i"},
-    ["杷"] = {["first"] = "m", ["second"] = "b"},
-    ["杼"] = {["first"] = "m", ["second"] = "l"},
-    ["矸"] = {["first"] = "u", ["second"] = "g"},
-    ["砀"] = {["first"] = "u", ["second"] = "p"},
-    ["刳"] = {["first"] = "d", ["second"] = "d"},
-    ["奄"] = {["first"] = "d", ["second"] = "d"},
-    ["瓯"] = {["first"] = "k", ["second"] = "w"},
-    ["殁"] = {["first"] = "d", ["second"] = "y"},
-    ["郏"] = {["first"] = "j", ["second"] = "e"},
-    ["轭"] = {["first"] = "i", ["second"] = "v"},
-    ["郅"] = {["first"] = "a", ["second"] = "e"},
-    ["鸢"] = {["first"] = "y", ["second"] = "n"},
-    ["盱"] = {["first"] = "o", ["second"] = "y"},
-    ["昊"] = {["first"] = "o", ["second"] = "t"},
-    ["昙"] = {["first"] = "o", ["second"] = "s"},
-    ["杲"] = {["first"] = "o", ["second"] = "m"},
-    ["昃"] = {["first"] = "o", ["second"] = "r"},
-    ["咂"] = {["first"] = "k", ["second"] = "j"},
-    ["呸"] = {["first"] = "k", ["second"] = "p"},
-    ["昕"] = {["first"] = "o", ["second"] = "j"},
-    ["昀"] = {["first"] = "o", ["second"] = "d"},
-    ["旻"] = {["first"] = "o", ["second"] = "w"},
-    ["昉"] = {["first"] = "o", ["second"] = "f"},
-    ["炅"] = {["first"] = "o", ["second"] = "h"},
-    ["咔"] = {["first"] = "k", ["second"] = "b"},
-    ["畀"] = {["first"] = "t", ["second"] = "l"},
-    ["虮"] = {["first"] = "i", ["second"] = "j"},
-    ["咀"] = {["first"] = "k", ["second"] = "q"},
-    ["呷"] = {["first"] = "k", ["second"] = "j"},
-    ["黾"] = {["first"] = "k", ["second"] = "d"},
-    ["呱"] = {["first"] = "k", ["second"] = "g"},
-    ["呤"] = {["first"] = "k", ["second"] = "s"},
-    ["咚"] = {["first"] = "k", ["second"] = "d"},
-    ["咆"] = {["first"] = "k", ["second"] = "s"},
-    ["咛"] = {["first"] = "k", ["second"] = "d"},
-    ["呶"] = {["first"] = "k", ["second"] = "y"},
-    ["呣"] = {["first"] = "k", ["second"] = "m"},
-    ["呦"] = {["first"] = "k", ["second"] = "l"},
-    ["咝"] = {["first"] = "k", ["second"] = "s"},
-    ["岢"] = {["first"] = "e", ["second"] = "k"},
-    ["岿"] = {["first"] = "e", ["second"] = "e"},
-    ["岬"] = {["first"] = "e", ["second"] = "j"},
-    ["岫"] = {["first"] = "e", ["second"] = "y"},
-    ["帙"] = {["first"] = "j", ["second"] = "u"},
-    ["岣"] = {["first"] = "e", ["second"] = "k"},
-    ["峁"] = {["first"] = "e", ["second"] = "e"},
-    ["刿"] = {["first"] = "e", ["second"] = "d"},
-    ["迥"] = {["first"] = "z", ["second"] = "k"},
-    ["岷"] = {["first"] = "e", ["second"] = "m"},
-    ["剀"] = {["first"] = "e", ["second"] = "d"},
-    ["帔"] = {["first"] = "j", ["second"] = "y"},
-    ["峄"] = {["first"] = "e", ["second"] = "l"},
-    ["沓"] = {["first"] = "u", ["second"] = "o"},
-    ["囹"] = {["first"] = "k", ["second"] = "s"},
-    ["罔"] = {["first"] = "k", ["second"] = "w"},
-    ["钍"] = {["first"] = "j", ["second"] = "t"},
-    ["钎"] = {["first"] = "j", ["second"] = "q"},
-    ["钏"] = {["first"] = "j", ["second"] = "i"},
-    ["钒"] = {["first"] = "j", ["second"] = "f"},
-    ["钕"] = {["first"] = "j", ["second"] = "n"},
-    ["钗"] = {["first"] = "j", ["second"] = "i"},
-    ["邾"] = {["first"] = "v", ["second"] = "e"},
-    ["迮"] = {["first"] = "z", ["second"] = "v"},
-    ["牦"] = {["first"] = "n", ["second"] = "m"},
-    ["竺"] = {["first"] = "v", ["second"] = "e"},
-    ["迤"] = {["first"] = "z", ["second"] = "y"},
-    ["佶"] = {["first"] = "r", ["second"] = "k"},
-    ["佬"] = {["first"] = "r", ["second"] = "b"},
-    ["佰"] = {["first"] = "r", ["second"] = "b"},
-    ["侑"] = {["first"] = "r", ["second"] = "o"},
-    ["侉"] = {["first"] = "r", ["second"] = "k"},
-    ["臾"] = {["first"] = "p", ["second"] = "n"},
-    ["岱"] = {["first"] = "r", ["second"] = "e"},
-    ["侗"] = {["first"] = "r", ["second"] = "k"},
-    ["侃"] = {["first"] = "r", ["second"] = "v"},
-    ["侏"] = {["first"] = "r", ["second"] = "v"},
-    ["侩"] = {["first"] = "r", ["second"] = "s"},
-    ["佻"] = {["first"] = "r", ["second"] = "d"},
-    ["佾"] = {["first"] = "r", ["second"] = "o"},
-    ["侪"] = {["first"] = "r", ["second"] = "l"},
-    ["佼"] = {["first"] = "r", ["second"] = "x"},
-    ["佯"] = {["first"] = "r", ["second"] = "y"},
-    ["侬"] = {["first"] = "r", ["second"] = "n"},
-    ["帛"] = {["first"] = "b", ["second"] = "j"},
-    ["阜"] = {["first"] = "p", ["second"] = "u"},
-    ["侔"] = {["first"] = "r", ["second"] = "n"},
-    ["徂"] = {["first"] = "i", ["second"] = "q"},
-    ["刽"] = {["first"] = "r", ["second"] = "d"},
-    ["郄"] = {["first"] = "x", ["second"] = "e"},
-    ["怂"] = {["first"] = "r", ["second"] = "x"},
-    ["籴"] = {["first"] = "r", ["second"] = "m"},
-    ["瓮"] = {["first"] = "b", ["second"] = "w"},
-    ["戗"] = {["first"] = "r", ["second"] = "g"},
-    ["肼"] = {["first"] = "o", ["second"] = "j"},
-    ["䏝"] = {["first"] = "o", ["second"] = "v"},
-    ["肽"] = {["first"] = "o", ["second"] = "t"},
-    ["肱"] = {["first"] = "o", ["second"] = "s"},
-    ["肫"] = {["first"] = "o", ["second"] = "t"},
-    ["剁"] = {["first"] = "j", ["second"] = "d"},
-    ["迩"] = {["first"] = "z", ["second"] = "x"},
-    ["郇"] = {["first"] = "b", ["second"] = "e"},
-    ["狙"] = {["first"] = "q", ["second"] = "q"},
-    ["狎"] = {["first"] = "q", ["second"] = "j"},
-    ["狍"] = {["first"] = "q", ["second"] = "s"},
-    ["狒"] = {["first"] = "q", ["second"] = "f"},
-    ["咎"] = {["first"] = "w", ["second"] = "k"},
-    ["炙"] = {["first"] = "p", ["second"] = "h"},
-    ["枭"] = {["first"] = "p", ["second"] = "m"},
-    ["饯"] = {["first"] = "u", ["second"] = "j"},
-    ["饴"] = {["first"] = "u", ["second"] = "k"},
-    ["冽"] = {["first"] = "d", ["second"] = "d"},
-    ["冼"] = {["first"] = "d", ["second"] = "e"},
-    ["庖"] = {["first"] = "g", ["second"] = "s"},
-    ["疠"] = {["first"] = "b", ["second"] = "w"},
-    ["疝"] = {["first"] = "b", ["second"] = "e"},
-    ["疡"] = {["first"] = "b", ["second"] = "p"},
-    ["兖"] = {["first"] = "w", ["second"] = "e"},
-    ["妾"] = {["first"] = "l", ["second"] = "n"},
-    ["劾"] = {["first"] = "w", ["second"] = "l"},
-    ["炜"] = {["first"] = "h", ["second"] = "w"},
-    ["𬉼"] = {["first"] = "h", ["second"] = "x"},
-    ["炖"] = {["first"] = "h", ["second"] = "t"},
-    ["炘"] = {["first"] = "h", ["second"] = "j"},
-    ["炝"] = {["first"] = "h", ["second"] = "v"},
-    ["炔"] = {["first"] = "h", ["second"] = "g"},
-    ["泔"] = {["first"] = "d", ["second"] = "g"},
-    ["沭"] = {["first"] = "d", ["second"] = "u"},
-    ["泷"] = {["first"] = "d", ["second"] = "l"},
-    ["泸"] = {["first"] = "d", ["second"] = "u"},
-    ["泱"] = {["first"] = "d", ["second"] = "y"},
-    ["泅"] = {["first"] = "d", ["second"] = "r"},
-    ["泗"] = {["first"] = "d", ["second"] = "e"},
-    ["泠"] = {["first"] = "d", ["second"] = "s"},
-    ["泺"] = {["first"] = "d", ["second"] = "l"},
-    ["泖"] = {["first"] = "d", ["second"] = "e"},
-    ["泫"] = {["first"] = "d", ["second"] = "y"},
-    ["泮"] = {["first"] = "d", ["second"] = "b"},
-    ["沱"] = {["first"] = "d", ["second"] = "b"},
-    ["泯"] = {["first"] = "d", ["second"] = "m"},
-    ["泓"] = {["first"] = "d", ["second"] = "s"},
-    ["泾"] = {["first"] = "d", ["second"] = "g"},
-    ["怙"] = {["first"] = "x", ["second"] = "k"},
-    ["怵"] = {["first"] = "x", ["second"] = "u"},
-    ["怦"] = {["first"] = "x", ["second"] = "p"},
-    ["怛"] = {["first"] = "x", ["second"] = "a"},
-    ["怏"] = {["first"] = "x", ["second"] = "y"},
-    ["怍"] = {["first"] = "x", ["second"] = "v"},
-    ["㤘"] = {["first"] = "x", ["second"] = "e"},
-    ["怩"] = {["first"] = "x", ["second"] = "b"},
-    ["怫"] = {["first"] = "x", ["second"] = "f"},
-    ["怿"] = {["first"] = "x", ["second"] = "l"},
-    ["宕"] = {["first"] = "b", ["second"] = "u"},
-    ["穹"] = {["first"] = "b", ["second"] = "g"},
-    ["宓"] = {["first"] = "b", ["second"] = "b"},
-    ["诓"] = {["first"] = "y", ["second"] = "w"},
-    ["诔"] = {["first"] = "y", ["second"] = "l"},
-    ["诖"] = {["first"] = "y", ["second"] = "t"},
-    ["诘"] = {["first"] = "y", ["second"] = "k"},
-    ["戾"] = {["first"] = "h", ["second"] = "q"},
-    ["诙"] = {["first"] = "y", ["second"] = "h"},
-    ["戽"] = {["first"] = "h", ["second"] = "u"},
-    ["郓"] = {["first"] = "b", ["second"] = "e"},
-    ["衩"] = {["first"] = "p", ["second"] = "i"},
-    ["祆"] = {["first"] = "p", ["second"] = "t"},
-    ["祎"] = {["first"] = "p", ["second"] = "w"},
-    ["祉"] = {["first"] = "p", ["second"] = "v"},
-    ["祇"] = {["first"] = "p", ["second"] = "u"},
-    ["诛"] = {["first"] = "y", ["second"] = "v"},
-    ["诜"] = {["first"] = "y", ["second"] = "e"},
-    ["诟"] = {["first"] = "y", ["second"] = "k"},
-    ["诠"] = {["first"] = "y", ["second"] = "w"},
-    ["诣"] = {["first"] = "y", ["second"] = "o"},
-    ["诤"] = {["first"] = "y", ["second"] = "l"},
-    ["诧"] = {["first"] = "y", ["second"] = "q"},
-    ["诨"] = {["first"] = "y", ["second"] = "i"},
-    ["诩"] = {["first"] = "y", ["second"] = "x"},
-    ["戕"] = {["first"] = "p", ["second"] = "g"},
-    ["孢"] = {["first"] = "z", ["second"] = "s"},
-    ["亟"] = {["first"] = "l", ["second"] = "a"},
-    ["陔"] = {["first"] = "e", ["second"] = "r"},
-    ["妲"] = {["first"] = "n", ["second"] = "a"},
-    ["妯"] = {["first"] = "n", ["second"] = "y"},
-    ["姗"] = {["first"] = "n", ["second"] = "c"},
-    ["帑"] = {["first"] = "n", ["second"] = "j"},
-    ["弩"] = {["first"] = "n", ["second"] = "g"},
-    ["孥"] = {["first"] = "n", ["second"] = "z"},
-    ["驽"] = {["first"] = "n", ["second"] = "m"},
-    ["虱"] = {["first"] = "v", ["second"] = "i"},
-    ["迦"] = {["first"] = "z", ["second"] = "k"},
-    ["迨"] = {["first"] = "z", ["second"] = "k"},
-    ["绀"] = {["first"] = "s", ["second"] = "g"},
-    ["绁"] = {["first"] = "s", ["second"] = "u"},
-    ["绂"] = {["first"] = "s", ["second"] = "d"},
-    ["驷"] = {["first"] = "m", ["second"] = "e"},
-    ["驸"] = {["first"] = "m", ["second"] = "c"},
-    ["绉"] = {["first"] = "s", ["second"] = "e"},
-    ["绌"] = {["first"] = "s", ["second"] = "i"},
-    ["驿"] = {["first"] = "m", ["second"] = "l"},
-    ["骀"] = {["first"] = "m", ["second"] = "k"},
-    ["甾"] = {["first"] = "v", ["second"] = "t"},
-    ["珏"] = {["first"] = "w", ["second"] = "y"},
-    ["珐"] = {["first"] = "w", ["second"] = "s"},
-    ["珂"] = {["first"] = "w", ["second"] = "k"},
-    ["珑"] = {["first"] = "w", ["second"] = "l"},
-    ["玳"] = {["first"] = "w", ["second"] = "y"},
-    ["珀"] = {["first"] = "w", ["second"] = "b"},
-    ["顸"] = {["first"] = "g", ["second"] = "r"},
-    ["珉"] = {["first"] = "w", ["second"] = "m"},
-    ["珈"] = {["first"] = "w", ["second"] = "k"},
-    ["拮"] = {["first"] = "f", ["second"] = "k"},
-    ["垭"] = {["first"] = "t", ["second"] = "y"},
-    ["挝"] = {["first"] = "f", ["second"] = "z"},
-    ["垣"] = {["first"] = "t", ["second"] = "a"},
-    ["挞"] = {["first"] = "f", ["second"] = "z"},
-    ["垤"] = {["first"] = "t", ["second"] = "t"},
-    ["赳"] = {["first"] = "t", ["second"] = "l"},
-    ["贲"] = {["first"] = "u", ["second"] = "r"},
-    ["垱"] = {["first"] = "t", ["second"] = "e"},
-    ["垌"] = {["first"] = "t", ["second"] = "k"},
-    ["郝"] = {["first"] = "t", ["second"] = "e"},
-    ["垧"] = {["first"] = "t", ["second"] = "k"},
-    ["垓"] = {["first"] = "t", ["second"] = "r"},
-    ["挦"] = {["first"] = "f", ["second"] = "c"},
-    ["垠"] = {["first"] = "t", ["second"] = "g"},
-    ["茜"] = {["first"] = "c", ["second"] = "x"},
-    ["荚"] = {["first"] = "c", ["second"] = "j"},
-    ["荑"] = {["first"] = "c", ["second"] = "y"},
-    ["贳"] = {["first"] = "u", ["second"] = "r"},
-    ["荜"] = {["first"] = "c", ["second"] = "u"},
-    ["莒"] = {["first"] = "c", ["second"] = "k"},
-    ["茼"] = {["first"] = "c", ["second"] = "k"},
-    ["茴"] = {["first"] = "c", ["second"] = "k"},
-    ["茱"] = {["first"] = "c", ["second"] = "v"},
-    ["莛"] = {["first"] = "c", ["second"] = "z"},
-    ["荞"] = {["first"] = "c", ["second"] = "l"},
-    ["茯"] = {["first"] = "c", ["second"] = "q"},
-    ["荏"] = {["first"] = "c", ["second"] = "r"},
-    ["荇"] = {["first"] = "c", ["second"] = "i"},
-    ["荃"] = {["first"] = "c", ["second"] = "w"},
-    ["荟"] = {["first"] = "c", ["second"] = "s"},
-    ["荀"] = {["first"] = "c", ["second"] = "o"},
-    ["茗"] = {["first"] = "c", ["second"] = "k"},
-    ["荠"] = {["first"] = "c", ["second"] = "l"},
-    ["茭"] = {["first"] = "c", ["second"] = "x"},
-    ["茨"] = {["first"] = "c", ["second"] = "r"},
-    ["垩"] = {["first"] = "y", ["second"] = "t"},
-    ["荥"] = {["first"] = "c", ["second"] = "u"},
-    ["荦"] = {["first"] = "c", ["second"] = "n"},
-    ["荨"] = {["first"] = "c", ["second"] = "c"},
-    ["荩"] = {["first"] = "c", ["second"] = "d"},
-    ["剋"] = {["first"] = "u", ["second"] = "d"},
-    ["荪"] = {["first"] = "c", ["second"] = "x"},
-    ["茹"] = {["first"] = "c", ["second"] = "k"},
-    ["荬"] = {["first"] = "c", ["second"] = "d"},
-    ["荮"] = {["first"] = "c", ["second"] = "c"},
-    ["柰"] = {["first"] = "m", ["second"] = "x"},
-    ["栉"] = {["first"] = "m", ["second"] = "e"},
-    ["柯"] = {["first"] = "m", ["second"] = "k"},
-    ["柘"] = {["first"] = "m", ["second"] = "u"},
-    ["栊"] = {["first"] = "m", ["second"] = "l"},
-    ["柩"] = {["first"] = "m", ["second"] = "j"},
-    ["枰"] = {["first"] = "m", ["second"] = "p"},
-    ["栌"] = {["first"] = "m", ["second"] = "u"},
-    ["柙"] = {["first"] = "m", ["second"] = "j"},
-    ["枵"] = {["first"] = "m", ["second"] = "v"},
-    ["柚"] = {["first"] = "m", ["second"] = "y"},
-    ["枳"] = {["first"] = "m", ["second"] = "b"},
-    ["柞"] = {["first"] = "m", ["second"] = "v"},
-    ["柝"] = {["first"] = "m", ["second"] = "i"},
-    ["栀"] = {["first"] = "m", ["second"] = "v"},
-    ["柢"] = {["first"] = "m", ["second"] = "d"},
-    ["栎"] = {["first"] = "m", ["second"] = "l"},
-    ["枸"] = {["first"] = "m", ["second"] = "k"},
-    ["柈"] = {["first"] = "m", ["second"] = "b"},
-    ["柁"] = {["first"] = "m", ["second"] = "b"},
-    ["枷"] = {["first"] = "m", ["second"] = "k"},
-    ["柽"] = {["first"] = "m", ["second"] = "t"},
-    ["剌"] = {["first"] = "u", ["second"] = "d"},
-    ["酊"] = {["first"] = "y", ["second"] = "d"},
-    ["郦"] = {["first"] = "l", ["second"] = "e"},
-    ["甭"] = {["first"] = "b", ["second"] = "y"},
-    ["砗"] = {["first"] = "u", ["second"] = "i"},
-    ["砘"] = {["first"] = "u", ["second"] = "t"},
-    ["砒"] = {["first"] = "u", ["second"] = "b"},
-    ["斫"] = {["first"] = "u", ["second"] = "j"},
-    ["砭"] = {["first"] = "u", ["second"] = "f"},
-    ["砜"] = {["first"] = "u", ["second"] = "x"},
-    ["奎"] = {["first"] = "d", ["second"] = "t"},
-    ["耷"] = {["first"] = "d", ["second"] = "e"},
-    ["虺"] = {["first"] = "w", ["second"] = "i"},
-    ["殂"] = {["first"] = "d", ["second"] = "q"},
-    ["殇"] = {["first"] = "d", ["second"] = "p"},
-    ["殄"] = {["first"] = "d", ["second"] = "p"},
-    ["殆"] = {["first"] = "d", ["second"] = "k"},
-    ["轱"] = {["first"] = "i", ["second"] = "k"},
-    ["轲"] = {["first"] = "i", ["second"] = "k"},
-    ["轳"] = {["first"] = "i", ["second"] = "u"},
-    ["轶"] = {["first"] = "i", ["second"] = "u"},
-    ["轸"] = {["first"] = "i", ["second"] = "p"},
-    ["虿"] = {["first"] = "w", ["second"] = "i"},
-    ["毖"] = {["first"] = "b", ["second"] = "b"},
-    ["觇"] = {["first"] = "l", ["second"] = "e"},
-    ["尜"] = {["first"] = "x", ["second"] = "x"},
-    ["哐"] = {["first"] = "k", ["second"] = "w"},
-    ["眄"] = {["first"] = "o", ["second"] = "m"},
-    ["眍"] = {["first"] = "o", ["second"] = "x"},
-    ["𠳐"] = {["first"] = "k", ["second"] = "e"},
-    ["郢"] = {["first"] = "k", ["second"] = "e"},
-    ["眇"] = {["first"] = "o", ["second"] = "u"},
-    ["眊"] = {["first"] = "o", ["second"] = "m"},
-    ["眈"] = {["first"] = "o", ["second"] = "v"},
-    ["禺"] = {["first"] = "l", ["second"] = "d"},
-    ["哂"] = {["first"] = "k", ["second"] = "x"},
-    ["咴"] = {["first"] = "k", ["second"] = "h"},
-    ["曷"] = {["first"] = "o", ["second"] = "v"},
-    ["昴"] = {["first"] = "o", ["second"] = "e"},
-    ["昱"] = {["first"] = "o", ["second"] = "l"},
-    ["昵"] = {["first"] = "o", ["second"] = "b"},
-    ["咦"] = {["first"] = "k", ["second"] = "y"},
-    ["哓"] = {["first"] = "k", ["second"] = "w"},
-    ["哔"] = {["first"] = "k", ["second"] = "u"},
-    ["畎"] = {["first"] = "t", ["second"] = "q"},
-    ["毗"] = {["first"] = "t", ["second"] = "b"},
-    ["呲"] = {["first"] = "k", ["second"] = "b"},
-    ["胄"] = {["first"] = "y", ["second"] = "o"},
-    ["畋"] = {["first"] = "t", ["second"] = "w"},
-    ["畈"] = {["first"] = "t", ["second"] = "y"},
-    ["虼"] = {["first"] = "i", ["second"] = "q"},
-    ["虻"] = {["first"] = "i", ["second"] = "w"},
-    ["盅"] = {["first"] = "v", ["second"] = "m"},
-    ["咣"] = {["first"] = "k", ["second"] = "w"},
-    ["哕"] = {["first"] = "k", ["second"] = "x"},
-    ["剐"] = {["first"] = "k", ["second"] = "d"},
-    ["郧"] = {["first"] = "k", ["second"] = "e"},
-    ["咻"] = {["first"] = "k", ["second"] = "m"},
-    ["囿"] = {["first"] = "k", ["second"] = "o"},
-    ["咿"] = {["first"] = "k", ["second"] = "y"},
-    ["哌"] = {["first"] = "k", ["second"] = "n"},
-    ["哙"] = {["first"] = "k", ["second"] = "s"},
-    ["哚"] = {["first"] = "k", ["second"] = "m"},
-    ["咯"] = {["first"] = "k", ["second"] = "k"},
-    ["咩"] = {["first"] = "k", ["second"] = "y"},
-    ["咤"] = {["first"] = "k", ["second"] = "q"},
-    ["哝"] = {["first"] = "k", ["second"] = "n"},
-    ["哏"] = {["first"] = "k", ["second"] = "g"},
-    ["哞"] = {["first"] = "k", ["second"] = "n"},
-    ["峙"] = {["first"] = "e", ["second"] = "c"},
-    ["峣"] = {["first"] = "e", ["second"] = "w"},
-    ["罘"] = {["first"] = "s", ["second"] = "b"},
-    ["帧"] = {["first"] = "j", ["second"] = "r"},
-    ["峒"] = {["first"] = "e", ["second"] = "k"},
-    ["峤"] = {["first"] = "e", ["second"] = "l"},
-    ["峋"] = {["first"] = "e", ["second"] = "o"},
-    ["峥"] = {["first"] = "e", ["second"] = "l"},
-    ["贶"] = {["first"] = "k", ["second"] = "e"},
-    ["钚"] = {["first"] = "j", ["second"] = "b"},
-    ["钛"] = {["first"] = "j", ["second"] = "t"},
-    ["钡"] = {["first"] = "j", ["second"] = "r"},
-    ["钣"] = {["first"] = "j", ["second"] = "y"},
-    ["钤"] = {["first"] = "j", ["second"] = "v"},
-    ["钨"] = {["first"] = "j", ["second"] = "w"},
-    ["钫"] = {["first"] = "j", ["second"] = "f"},
-    ["钯"] = {["first"] = "j", ["second"] = "b"},
-    ["氡"] = {["first"] = "q", ["second"] = "d"},
-    ["氟"] = {["first"] = "q", ["second"] = "f"},
-    ["牯"] = {["first"] = "n", ["second"] = "k"},
-    ["郜"] = {["first"] = "n", ["second"] = "e"},
-    ["秕"] = {["first"] = "h", ["second"] = "b"},
-    ["秭"] = {["first"] = "h", ["second"] = "p"},
-    ["竽"] = {["first"] = "v", ["second"] = "y"},
-    ["笈"] = {["first"] = "v", ["second"] = "j"},
-    ["笃"] = {["first"] = "v", ["second"] = "m"},
-    ["俦"] = {["first"] = "r", ["second"] = "c"},
-    ["俨"] = {["first"] = "r", ["second"] = "y"},
-    ["俅"] = {["first"] = "r", ["second"] = "q"},
-    ["俪"] = {["first"] = "r", ["second"] = "l"},
-    ["叟"] = {["first"] = "p", ["second"] = "y"},
-    ["垡"] = {["first"] = "r", ["second"] = "t"},
-    ["牮"] = {["first"] = "r", ["second"] = "n"},
-    ["俣"] = {["first"] = "r", ["second"] = "t"},
-    ["俚"] = {["first"] = "r", ["second"] = "l"},
-    ["皈"] = {["first"] = "b", ["second"] = "y"},
-    ["俑"] = {["first"] = "r", ["second"] = "y"},
-    ["俟"] = {["first"] = "r", ["second"] = "u"},
-    ["逅"] = {["first"] = "z", ["second"] = "k"},
-    ["徇"] = {["first"] = "i", ["second"] = "o"},
-    ["徉"] = {["first"] = "i", ["second"] = "y"},
-    ["舢"] = {["first"] = "v", ["second"] = "e"},
-    ["俞"] = {["first"] = "r", ["second"] = "d"},
-    ["郗"] = {["first"] = "x", ["second"] = "e"},
-    ["俎"] = {["first"] = "r", ["second"] = "q"},
-    ["郤"] = {["first"] = "b", ["second"] = "e"},
-    ["爰"] = {["first"] = "p", ["second"] = "y"},
-    ["郛"] = {["first"] = "p", ["second"] = "e"},
-    ["瓴"] = {["first"] = "r", ["second"] = "w"},
-    ["胨"] = {["first"] = "o", ["second"] = "d"},
-    ["胪"] = {["first"] = "o", ["second"] = "u"},
-    ["胛"] = {["first"] = "o", ["second"] = "j"},
-    ["胂"] = {["first"] = "o", ["second"] = "u"},
-    ["胙"] = {["first"] = "o", ["second"] = "v"},
-    ["胍"] = {["first"] = "o", ["second"] = "g"},
-    ["胗"] = {["first"] = "o", ["second"] = "p"},
-    ["胝"] = {["first"] = "o", ["second"] = "d"},
-    ["朐"] = {["first"] = "o", ["second"] = "k"},
-    ["胫"] = {["first"] = "o", ["second"] = "g"},
-    ["鸨"] = {["first"] = "b", ["second"] = "n"},
-    ["匍"] = {["first"] = "b", ["second"] = "f"},
-    ["狨"] = {["first"] = "q", ["second"] = "u"},
-    ["狯"] = {["first"] = "q", ["second"] = "s"},
-    ["飑"] = {["first"] = "j", ["second"] = "s"},
-    ["狩"] = {["first"] = "q", ["second"] = "c"},
-    ["狲"] = {["first"] = "q", ["second"] = "x"},
-    ["訇"] = {["first"] = "b", ["second"] = "k"},
-    ["逄"] = {["first"] = "z", ["second"] = "l"},
-    ["昝"] = {["first"] = "w", ["second"] = "o"},
-    ["饷"] = {["first"] = "u", ["second"] = "k"},
-    ["饸"] = {["first"] = "u", ["second"] = "k"},
-    ["饹"] = {["first"] = "u", ["second"] = "k"},
-    ["胤"] = {["first"] = "p", ["second"] = "v"},
-    ["孪"] = {["first"] = "w", ["second"] = "z"},
-    ["娈"] = {["first"] = "w", ["second"] = "n"},
-    ["弈"] = {["first"] = "w", ["second"] = "c"},
-    ["奕"] = {["first"] = "w", ["second"] = "d"},
-    ["庥"] = {["first"] = "g", ["second"] = "m"},
-    ["疬"] = {["first"] = "b", ["second"] = "l"},
-    ["疣"] = {["first"] = "b", ["second"] = "y"},
-    ["疥"] = {["first"] = "b", ["second"] = "l"},
-    ["疭"] = {["first"] = "b", ["second"] = "r"},
-    ["庠"] = {["first"] = "g", ["second"] = "y"},
-    ["竑"] = {["first"] = "l", ["second"] = "s"},
-    ["彦"] = {["first"] = "i", ["second"] = "p"},
-    ["飒"] = {["first"] = "l", ["second"] = "x"},
-    ["闼"] = {["first"] = "m", ["second"] = "z"},
-    ["闾"] = {["first"] = "m", ["second"] = "k"},
-    ["闿"] = {["first"] = "m", ["second"] = "j"},
-    ["阂"] = {["first"] = "m", ["second"] = "r"},
-    ["羑"] = {["first"] = "y", ["second"] = "j"},
-    ["迸"] = {["first"] = "z", ["second"] = "k"},
-    ["籼"] = {["first"] = "m", ["second"] = "e"},
-    ["酋"] = {["first"] = "b", ["second"] = "y"},
-    ["炳"] = {["first"] = "h", ["second"] = "b"},
-    ["炻"] = {["first"] = "h", ["second"] = "u"},
-    ["炽"] = {["first"] = "h", ["second"] = "b"},
-    ["炯"] = {["first"] = "h", ["second"] = "k"},
-    ["烀"] = {["first"] = "h", ["second"] = "h"},
-    ["炷"] = {["first"] = "h", ["second"] = "v"},
-    ["烃"] = {["first"] = "h", ["second"] = "g"},
-    ["洱"] = {["first"] = "d", ["second"] = "e"},
-    ["洹"] = {["first"] = "d", ["second"] = "a"},
-    ["洧"] = {["first"] = "d", ["second"] = "o"},
-    ["洌"] = {["first"] = "d", ["second"] = "d"},
-    ["浃"] = {["first"] = "d", ["second"] = "j"},
-    ["洇"] = {["first"] = "d", ["second"] = "d"},
-    ["洄"] = {["first"] = "d", ["second"] = "k"},
-    ["洙"] = {["first"] = "d", ["second"] = "v"},
-    ["涎"] = {["first"] = "d", ["second"] = "z"},
-    ["洎"] = {["first"] = "d", ["second"] = "z"},
-    ["洫"] = {["first"] = "d", ["second"] = "x"},
-    ["浍"] = {["first"] = "d", ["second"] = "s"},
-    ["洮"] = {["first"] = "d", ["second"] = "d"},
-    ["洵"] = {["first"] = "d", ["second"] = "o"},
-    ["浒"] = {["first"] = "d", ["second"] = "w"},
-    ["浔"] = {["first"] = "d", ["second"] = "c"},
-    ["浕"] = {["first"] = "d", ["second"] = "d"},
-    ["洳"] = {["first"] = "d", ["second"] = "k"},
-    ["恸"] = {["first"] = "x", ["second"] = "l"},
-    ["恓"] = {["first"] = "x", ["second"] = "x"},
-    ["恹"] = {["first"] = "x", ["second"] = "q"},
-    ["恫"] = {["first"] = "x", ["second"] = "k"},
-    ["恺"] = {["first"] = "x", ["second"] = "j"},
-    ["恻"] = {["first"] = "x", ["second"] = "d"},
-    ["恂"] = {["first"] = "x", ["second"] = "o"},
-    ["恪"] = {["first"] = "x", ["second"] = "k"},
-    ["恽"] = {["first"] = "x", ["second"] = "i"},
-    ["宥"] = {["first"] = "b", ["second"] = "o"},
-    ["扃"] = {["first"] = "h", ["second"] = "k"},
-    ["衲"] = {["first"] = "p", ["second"] = "n"},
-    ["衽"] = {["first"] = "p", ["second"] = "r"},
-    ["衿"] = {["first"] = "p", ["second"] = "v"},
-    ["袂"] = {["first"] = "p", ["second"] = "g"},
-    ["祛"] = {["first"] = "p", ["second"] = "s"},
-    ["祜"] = {["first"] = "p", ["second"] = "k"},
-    ["祓"] = {["first"] = "p", ["second"] = "d"},
-    ["祚"] = {["first"] = "p", ["second"] = "v"},
-    ["诮"] = {["first"] = "y", ["second"] = "o"},
-    ["祗"] = {["first"] = "p", ["second"] = "d"},
-    ["祢"] = {["first"] = "p", ["second"] = "x"},
-    ["诰"] = {["first"] = "y", ["second"] = "k"},
-    ["诳"] = {["first"] = "y", ["second"] = "w"},
-    ["鸩"] = {["first"] = "d", ["second"] = "n"},
-    ["昶"] = {["first"] = "y", ["second"] = "o"},
-    ["郡"] = {["first"] = "y", ["second"] = "e"},
-    ["咫"] = {["first"] = "i", ["second"] = "b"},
-    ["弭"] = {["first"] = "g", ["second"] = "e"},
-    ["牁"] = {["first"] = "p", ["second"] = "k"},
-    ["胥"] = {["first"] = "v", ["second"] = "o"},
-    ["陛"] = {["first"] = "e", ["second"] = "t"},
-    ["陟"] = {["first"] = "e", ["second"] = "p"},
-    ["娅"] = {["first"] = "n", ["second"] = "y"},
-    ["姮"] = {["first"] = "n", ["second"] = "a"},
-    ["娆"] = {["first"] = "n", ["second"] = "w"},
-    ["姝"] = {["first"] = "n", ["second"] = "v"},
-    ["姣"] = {["first"] = "n", ["second"] = "x"},
-    ["姘"] = {["first"] = "n", ["second"] = "k"},
-    ["姹"] = {["first"] = "n", ["second"] = "q"},
-    ["怼"] = {["first"] = "y", ["second"] = "x"},
-    ["羿"] = {["first"] = "x", ["second"] = "c"},
-    ["炱"] = {["first"] = "s", ["second"] = "h"},
-    ["矜"] = {["first"] = "s", ["second"] = "v"},
-    ["绔"] = {["first"] = "s", ["second"] = "k"},
-    ["骁"] = {["first"] = "m", ["second"] = "w"},
-    ["骅"] = {["first"] = "m", ["second"] = "u"},
-    ["绗"] = {["first"] = "s", ["second"] = "i"},
-    ["绛"] = {["first"] = "s", ["second"] = "l"},
-    ["骈"] = {["first"] = "m", ["second"] = "k"},
-    ["耖"] = {["first"] = "l", ["second"] = "u"},
-    ["挈"] = {["first"] = "f", ["second"] = "u"},
-    ["珥"] = {["first"] = "w", ["second"] = "e"},
-    ["珙"] = {["first"] = "w", ["second"] = "b"},
-    ["顼"] = {["first"] = "w", ["second"] = "r"},
-    ["珰"] = {["first"] = "w", ["second"] = "e"},
-    ["珩"] = {["first"] = "w", ["second"] = "i"},
-    ["珧"] = {["first"] = "w", ["second"] = "d"},
-    ["珣"] = {["first"] = "w", ["second"] = "o"},
-    ["珞"] = {["first"] = "w", ["second"] = "k"},
-    ["琤"] = {["first"] = "w", ["second"] = "l"},
-    ["珲"] = {["first"] = "w", ["second"] = "i"},
-    ["敖"] = {["first"] = "f", ["second"] = "w"},
-    ["恚"] = {["first"] = "t", ["second"] = "x"},
-    ["埔"] = {["first"] = "t", ["second"] = "f"},
-    ["埕"] = {["first"] = "t", ["second"] = "w"},
-    ["埘"] = {["first"] = "t", ["second"] = "c"},
-    ["埙"] = {["first"] = "t", ["second"] = "r"},
-    ["埚"] = {["first"] = "t", ["second"] = "n"},
-    ["挹"] = {["first"] = "f", ["second"] = "b"},
-    ["耆"] = {["first"] = "l", ["second"] = "o"},
-    ["耄"] = {["first"] = "l", ["second"] = "m"},
-    ["埒"] = {["first"] = "t", ["second"] = "c"},
-    ["捋"] = {["first"] = "f", ["second"] = "c"},
-    ["贽"] = {["first"] = "f", ["second"] = "r"},
-    ["垸"] = {["first"] = "t", ["second"] = "e"},
-    ["捃"] = {["first"] = "f", ["second"] = "k"},
-    ["盍"] = {["first"] = "t", ["second"] = "m"},
-    ["荸"] = {["first"] = "c", ["second"] = "z"},
-    ["莆"] = {["first"] = "c", ["second"] = "f"},
-    ["莳"] = {["first"] = "c", ["second"] = "c"},
-    ["莴"] = {["first"] = "c", ["second"] = "n"},
-    ["莪"] = {["first"] = "c", ["second"] = "w"},
-    ["莠"] = {["first"] = "c", ["second"] = "n"},
-    ["莓"] = {["first"] = "c", ["second"] = "m"},
-    ["莜"] = {["first"] = "c", ["second"] = "w"},
-    ["莅"] = {["first"] = "c", ["second"] = "l"},
-    ["荼"] = {["first"] = "c", ["second"] = "h"},
-    ["莩"] = {["first"] = "c", ["second"] = "z"},
-    ["荽"] = {["first"] = "c", ["second"] = "n"},
-    ["莸"] = {["first"] = "c", ["second"] = "y"},
-    ["荻"] = {["first"] = "c", ["second"] = "h"},
-    ["莘"] = {["first"] = "c", ["second"] = "u"},
-    ["莎"] = {["first"] = "c", ["second"] = "u"},
-    ["莞"] = {["first"] = "c", ["second"] = "e"},
-    ["莨"] = {["first"] = "c", ["second"] = "l"},
-    ["鸪"] = {["first"] = "u", ["second"] = "n"},
-    ["莼"] = {["first"] = "c", ["second"] = "t"},
-    ["栲"] = {["first"] = "m", ["second"] = "v"},
-    ["栳"] = {["first"] = "m", ["second"] = "b"},
-    ["郴"] = {["first"] = "m", ["second"] = "e"},
-    ["桓"] = {["first"] = "m", ["second"] = "a"},
-    ["桡"] = {["first"] = "m", ["second"] = "w"},
-    ["桎"] = {["first"] = "m", ["second"] = "t"},
-    ["桢"] = {["first"] = "m", ["second"] = "r"},
-    ["桤"] = {["first"] = "m", ["second"] = "j"},
-    ["梃"] = {["first"] = "m", ["second"] = "z"},
-    ["栝"] = {["first"] = "m", ["second"] = "k"},
-    ["桕"] = {["first"] = "m", ["second"] = "j"},
-    ["桁"] = {["first"] = "m", ["second"] = "i"},
-    ["桧"] = {["first"] = "m", ["second"] = "s"},
-    ["桅"] = {["first"] = "m", ["second"] = "v"},
-    ["栟"] = {["first"] = "m", ["second"] = "k"},
-    ["桉"] = {["first"] = "m", ["second"] = "n"},
-    ["栩"] = {["first"] = "m", ["second"] = "x"},
-    ["逑"] = {["first"] = "z", ["second"] = "q"},
-    ["逋"] = {["first"] = "z", ["second"] = "f"},
-    ["彧"] = {["first"] = "a", ["second"] = "d"},
-    ["鬲"] = {["first"] = "a", ["second"] = "l"},
-    ["豇"] = {["first"] = "a", ["second"] = "g"},
-    ["酐"] = {["first"] = "y", ["second"] = "g"},
-    ["逦"] = {["first"] = "z", ["second"] = "l"},
-    ["厝"] = {["first"] = "i", ["second"] = "o"},
-    ["孬"] = {["first"] = "b", ["second"] = "z"},
-    ["砝"] = {["first"] = "u", ["second"] = "s"},
-    ["砹"] = {["first"] = "u", ["second"] = "x"},
-    ["砺"] = {["first"] = "u", ["second"] = "w"},
-    ["砧"] = {["first"] = "u", ["second"] = "k"},
-    ["砷"] = {["first"] = "u", ["second"] = "u"},
-    ["砟"] = {["first"] = "u", ["second"] = "v"},
-    ["砼"] = {["first"] = "u", ["second"] = "g"},
-    ["砥"] = {["first"] = "u", ["second"] = "d"},
-    ["砣"] = {["first"] = "u", ["second"] = "b"},
-    ["剞"] = {["first"] = "d", ["second"] = "d"},
-    ["砻"] = {["first"] = "l", ["second"] = "u"},
-    ["轼"] = {["first"] = "i", ["second"] = "g"},
-    ["轾"] = {["first"] = "i", ["second"] = "t"},
-    ["辂"] = {["first"] = "i", ["second"] = "k"},
-    ["鸫"] = {["first"] = "d", ["second"] = "n"},
-    ["趸"] = {["first"] = "w", ["second"] = "r"},
-    ["龀"] = {["first"] = "v", ["second"] = "b"},
-    ["鸬"] = {["first"] = "l", ["second"] = "n"},
-    ["虔"] = {["first"] = "h", ["second"] = "w"},
-    ["逍"] = {["first"] = "z", ["second"] = "o"},
-    ["眬"] = {["first"] = "o", ["second"] = "l"},
-    ["唛"] = {["first"] = "k", ["second"] = "w"},
-    ["晟"] = {["first"] = "o", ["second"] = "i"},
-    ["眩"] = {["first"] = "o", ["second"] = "y"},
-    ["眙"] = {["first"] = "o", ["second"] = "k"},
-    ["哧"] = {["first"] = "k", ["second"] = "d"},
-    ["哽"] = {["first"] = "k", ["second"] = "g"},
-    ["唔"] = {["first"] = "k", ["second"] = "k"},
-    ["晁"] = {["first"] = "o", ["second"] = "d"},
-    ["晏"] = {["first"] = "o", ["second"] = "n"},
-    ["鸮"] = {["first"] = "k", ["second"] = "n"},
-    ["趵"] = {["first"] = "z", ["second"] = "u"},
-    ["趿"] = {["first"] = "z", ["second"] = "j"},
-    ["畛"] = {["first"] = "t", ["second"] = "p"},
-    ["蚨"] = {["first"] = "i", ["second"] = "f"},
-    ["蚜"] = {["first"] = "i", ["second"] = "y"},
-    ["蚍"] = {["first"] = "i", ["second"] = "b"},
-    ["蚋"] = {["first"] = "i", ["second"] = "n"},
-    ["蚬"] = {["first"] = "i", ["second"] = "e"},
-    ["蚝"] = {["first"] = "i", ["second"] = "m"},
-    ["蚧"] = {["first"] = "i", ["second"] = "l"},
-    ["唢"] = {["first"] = "k", ["second"] = "r"},
-    ["圄"] = {["first"] = "k", ["second"] = "k"},
-    ["唣"] = {["first"] = "k", ["second"] = "q"},
-    ["唏"] = {["first"] = "k", ["second"] = "j"},
-    ["盎"] = {["first"] = "y", ["second"] = "m"},
-    ["唑"] = {["first"] = "k", ["second"] = "t"},
-    ["崂"] = {["first"] = "e", ["second"] = "l"},
-    ["崃"] = {["first"] = "e", ["second"] = "l"},
-    ["罡"] = {["first"] = "s", ["second"] = "v"},
-    ["罟"] = {["first"] = "s", ["second"] = "k"},
-    ["峪"] = {["first"] = "e", ["second"] = "k"},
-    ["觊"] = {["first"] = "e", ["second"] = "e"},
-    ["赅"] = {["first"] = "k", ["second"] = "r"},
-    ["钰"] = {["first"] = "j", ["second"] = "y"},
-    ["钲"] = {["first"] = "j", ["second"] = "v"},
-    ["钴"] = {["first"] = "j", ["second"] = "k"},
-    ["钵"] = {["first"] = "j", ["second"] = "b"},
-    ["钹"] = {["first"] = "j", ["second"] = "d"},
-    ["钺"] = {["first"] = "j", ["second"] = "v"},
-    ["钽"] = {["first"] = "j", ["second"] = "a"},
-    ["钼"] = {["first"] = "j", ["second"] = "o"},
-    ["钿"] = {["first"] = "j", ["second"] = "t"},
-    ["铀"] = {["first"] = "j", ["second"] = "y"},
-    ["铂"] = {["first"] = "j", ["second"] = "b"},
-    ["铄"] = {["first"] = "j", ["second"] = "l"},
-    ["铆"] = {["first"] = "j", ["second"] = "e"},
-    ["铈"] = {["first"] = "j", ["second"] = "j"},
-    ["铉"] = {["first"] = "j", ["second"] = "y"},
-    ["铊"] = {["first"] = "j", ["second"] = "b"},
-    ["铋"] = {["first"] = "j", ["second"] = "b"},
-    ["铌"] = {["first"] = "j", ["second"] = "b"},
-    ["铍"] = {["first"] = "j", ["second"] = "y"},
-    ["䥽"] = {["first"] = "j", ["second"] = "d"},
-    ["铎"] = {["first"] = "j", ["second"] = "l"},
-    ["氩"] = {["first"] = "q", ["second"] = "y"},
-    ["氤"] = {["first"] = "q", ["second"] = "d"},
-    ["氦"] = {["first"] = "q", ["second"] = "r"},
-    ["毪"] = {["first"] = "m", ["second"] = "n"},
-    ["舐"] = {["first"] = "q", ["second"] = "u"},
-    ["秣"] = {["first"] = "h", ["second"] = "m"},
-    ["秫"] = {["first"] = "h", ["second"] = "u"},
-    ["盉"] = {["first"] = "h", ["second"] = "m"},
-    ["笄"] = {["first"] = "v", ["second"] = "k"},
-    ["笕"] = {["first"] = "v", ["second"] = "e"},
-    ["笊"] = {["first"] = "v", ["second"] = "v"},
-    ["笏"] = {["first"] = "v", ["second"] = "w"},
-    ["笆"] = {["first"] = "v", ["second"] = "b"},
-    ["俸"] = {["first"] = "r", ["second"] = "l"},
-    ["倩"] = {["first"] = "r", ["second"] = "o"},
-    ["俵"] = {["first"] = "r", ["second"] = "y"},
-    ["偌"] = {["first"] = "r", ["second"] = "k"},
-    ["俳"] = {["first"] = "r", ["second"] = "f"},
-    ["俶"] = {["first"] = "r", ["second"] = "y"},
-    ["倬"] = {["first"] = "r", ["second"] = "u"},
-    ["倏"] = {["first"] = "r", ["second"] = "q"},
-    ["恁"] = {["first"] = "r", ["second"] = "x"},
-    ["倭"] = {["first"] = "r", ["second"] = "n"},
-    ["倪"] = {["first"] = "r", ["second"] = "e"},
-    ["俾"] = {["first"] = "r", ["second"] = "u"},
-    ["倜"] = {["first"] = "r", ["second"] = "k"},
-    ["隼"] = {["first"] = "r", ["second"] = "u"},
-    ["隽"] = {["first"] = "r", ["second"] = "n"},
-    ["倌"] = {["first"] = "r", ["second"] = "k"},
-    ["倥"] = {["first"] = "r", ["second"] = "g"},
-    ["臬"] = {["first"] = "z", ["second"] = "m"},
-    ["皋"] = {["first"] = "b", ["second"] = "u"},
-    ["郫"] = {["first"] = "p", ["second"] = "e"},
-    ["倨"] = {["first"] = "r", ["second"] = "k"},
-    ["衄"] = {["first"] = "x", ["second"] = "i"},
-    ["颀"] = {["first"] = "j", ["second"] = "r"},
-    ["徕"] = {["first"] = "i", ["second"] = "l"},
-    ["舫"] = {["first"] = "v", ["second"] = "f"},
-    ["釜"] = {["first"] = "b", ["second"] = "a"},
-    ["奚"] = {["first"] = "p", ["second"] = "d"},
-    ["衾"] = {["first"] = "r", ["second"] = "y"},
-    ["胯"] = {["first"] = "o", ["second"] = "k"},
-    ["胱"] = {["first"] = "o", ["second"] = "w"},
-    ["胴"] = {["first"] = "o", ["second"] = "k"},
-    ["胭"] = {["first"] = "o", ["second"] = "d"},
-    ["脍"] = {["first"] = "o", ["second"] = "s"},
-    ["胼"] = {["first"] = "o", ["second"] = "k"},
-    ["朕"] = {["first"] = "o", ["second"] = "t"},
-    ["脒"] = {["first"] = "o", ["second"] = "m"},
-    ["胺"] = {["first"] = "o", ["second"] = "n"},
-    ["鸱"] = {["first"] = "d", ["second"] = "n"},
-    ["玺"] = {["first"] = "d", ["second"] = "y"},
-    ["鸲"] = {["first"] = "b", ["second"] = "n"},
-    ["狷"] = {["first"] = "q", ["second"] = "o"},
-    ["猁"] = {["first"] = "q", ["second"] = "d"},
-    ["狳"] = {["first"] = "q", ["second"] = "h"},
-    ["猃"] = {["first"] = "q", ["second"] = "a"},
-    ["狺"] = {["first"] = "q", ["second"] = "k"},
-    ["逖"] = {["first"] = "z", ["second"] = "h"},
-    ["桀"] = {["first"] = "x", ["second"] = "m"},
-    ["袅"] = {["first"] = "p", ["second"] = "y"},
-    ["饽"] = {["first"] = "u", ["second"] = "z"},
-    ["凇"] = {["first"] = "d", ["second"] = "s"},
-    ["栾"] = {["first"] = "w", ["second"] = "m"},
-    ["挛"] = {["first"] = "w", ["second"] = "u"},
-    ["亳"] = {["first"] = "w", ["second"] = "q"},
-    ["疳"] = {["first"] = "b", ["second"] = "g"},
-    ["疴"] = {["first"] = "b", ["second"] = "k"},
-    ["疸"] = {["first"] = "b", ["second"] = "a"},
-    ["疽"] = {["first"] = "b", ["second"] = "q"},
-    ["痈"] = {["first"] = "b", ["second"] = "y"},
-    ["疱"] = {["first"] = "b", ["second"] = "s"},
-    ["痂"] = {["first"] = "b", ["second"] = "k"},
-    ["痉"] = {["first"] = "b", ["second"] = "g"},
-    ["衮"] = {["first"] = "w", ["second"] = "y"},
-    ["凋"] = {["first"] = "d", ["second"] = "k"},
-    ["颃"] = {["first"] = "w", ["second"] = "r"},
-    ["恣"] = {["first"] = "d", ["second"] = "x"},
-    ["旆"] = {["first"] = "f", ["second"] = "l"},
-    ["旄"] = {["first"] = "f", ["second"] = "m"},
-    ["旃"] = {["first"] = "f", ["second"] = "d"},
-    ["阃"] = {["first"] = "m", ["second"] = "m"},
-    ["阄"] = {["first"] = "m", ["second"] = "v"},
-    ["訚"] = {["first"] = "m", ["second"] = "k"},
-    ["阆"] = {["first"] = "m", ["second"] = "l"},
-    ["恙"] = {["first"] = "y", ["second"] = "x"},
-    ["粑"] = {["first"] = "m", ["second"] = "b"},
-    ["朔"] = {["first"] = "b", ["second"] = "o"},
-    ["郸"] = {["first"] = "b", ["second"] = "e"},
-    ["烜"] = {["first"] = "h", ["second"] = "a"},
-    ["烨"] = {["first"] = "h", ["second"] = "u"},
-    ["烩"] = {["first"] = "h", ["second"] = "s"},
-    ["烊"] = {["first"] = "h", ["second"] = "y"},
-    ["剡"] = {["first"] = "h", ["second"] = "d"},
-    ["郯"] = {["first"] = "h", ["second"] = "e"},
-    ["烬"] = {["first"] = "h", ["second"] = "d"},
-    ["涑"] = {["first"] = "d", ["second"] = "u"},
-    ["浯"] = {["first"] = "d", ["second"] = "k"},
-    ["涞"] = {["first"] = "d", ["second"] = "l"},
-    ["涟"] = {["first"] = "d", ["second"] = "z"},
-    ["娑"] = {["first"] = "d", ["second"] = "n"},
-    ["涅"] = {["first"] = "d", ["second"] = "t"},
-    ["涠"] = {["first"] = "d", ["second"] = "w"},
-    ["浞"] = {["first"] = "d", ["second"] = "r"},
-    ["涓"] = {["first"] = "d", ["second"] = "o"},
-    ["浥"] = {["first"] = "d", ["second"] = "b"},
-    ["涔"] = {["first"] = "d", ["second"] = "v"},
-    ["浜"] = {["first"] = "d", ["second"] = "b"},
-    ["浠"] = {["first"] = "d", ["second"] = "j"},
-    ["浣"] = {["first"] = "d", ["second"] = "e"},
-    ["浚"] = {["first"] = "d", ["second"] = "w"},
-    ["悚"] = {["first"] = "x", ["second"] = "u"},
-    ["悭"] = {["first"] = "x", ["second"] = "t"},
-    ["悝"] = {["first"] = "x", ["second"] = "l"},
-    ["悒"] = {["first"] = "x", ["second"] = "b"},
-    ["悌"] = {["first"] = "x", ["second"] = "p"},
-    ["悛"] = {["first"] = "x", ["second"] = "w"},
-    ["宸"] = {["first"] = "b", ["second"] = "n"},
-    ["窈"] = {["first"] = "b", ["second"] = "l"},
-    ["剜"] = {["first"] = "b", ["second"] = "d"},
-    ["诹"] = {["first"] = "y", ["second"] = "y"},
-    ["冢"] = {["first"] = "b", ["second"] = "n"},
-    ["诼"] = {["first"] = "y", ["second"] = "n"},
-    ["袒"] = {["first"] = "p", ["second"] = "a"},
-    ["袢"] = {["first"] = "p", ["second"] = "b"},
-    ["祯"] = {["first"] = "p", ["second"] = "r"},
-    ["诿"] = {["first"] = "y", ["second"] = "n"},
-    ["谀"] = {["first"] = "y", ["second"] = "y"},
-    ["谂"] = {["first"] = "y", ["second"] = "x"},
-    ["谄"] = {["first"] = "y", ["second"] = "j"},
-    ["谇"] = {["first"] = "y", ["second"] = "u"},
-    ["屐"] = {["first"] = "u", ["second"] = "y"},
-    ["屙"] = {["first"] = "u", ["second"] = "k"},
-    ["陬"] = {["first"] = "e", ["second"] = "y"},
-    ["勐"] = {["first"] = "z", ["second"] = "l"},
-    ["奘"] = {["first"] = "p", ["second"] = "d"},
-    ["牂"] = {["first"] = "p", ["second"] = "y"},
-    ["蚩"] = {["first"] = "v", ["second"] = "i"},
-    ["陲"] = {["first"] = "e", ["second"] = "i"},
-    ["姬"] = {["first"] = "n", ["second"] = "l"},
-    ["娠"] = {["first"] = "n", ["second"] = "n"},
-    ["娌"] = {["first"] = "n", ["second"] = "l"},
-    ["娉"] = {["first"] = "n", ["second"] = "v"},
-    ["娲"] = {["first"] = "n", ["second"] = "n"},
-    ["娩"] = {["first"] = "n", ["second"] = "v"},
-    ["娴"] = {["first"] = "n", ["second"] = "m"},
-    ["娣"] = {["first"] = "n", ["second"] = "p"},
-    ["娓"] = {["first"] = "n", ["second"] = "m"},
-    ["婀"] = {["first"] = "n", ["second"] = "k"},
-    ["畚"] = {["first"] = "s", ["second"] = "t"},
-    ["逡"] = {["first"] = "z", ["second"] = "w"},
-    ["绠"] = {["first"] = "s", ["second"] = "g"},
-    ["骊"] = {["first"] = "m", ["second"] = "l"},
-    ["绡"] = {["first"] = "s", ["second"] = "o"},
-    ["骋"] = {["first"] = "m", ["second"] = "v"},
-    ["绥"] = {["first"] = "s", ["second"] = "n"},
-    ["绦"] = {["first"] = "s", ["second"] = "m"},
-    ["绨"] = {["first"] = "s", ["second"] = "p"},
-    ["骎"] = {["first"] = "m", ["second"] = "y"},
-    ["邕"] = {["first"] = "v", ["second"] = "b"},
-    ["鸶"] = {["first"] = "s", ["second"] = "n"},
-    ["彗"] = {["first"] = "f", ["second"] = "e"},
-    ["耜"] = {["first"] = "l", ["second"] = "k"},
-    ["焘"] = {["first"] = "f", ["second"] = "h"},
-    ["舂"] = {["first"] = "f", ["second"] = "j"},
-    ["琏"] = {["first"] = "w", ["second"] = "z"},
-    ["琇"] = {["first"] = "w", ["second"] = "n"},
-    ["麸"] = {["first"] = "f", ["second"] = "f"},
-    ["揶"] = {["first"] = "f", ["second"] = "e"},
-    ["埴"] = {["first"] = "t", ["second"] = "q"},
-    ["埯"] = {["first"] = "t", ["second"] = "d"},
-    ["捯"] = {["first"] = "f", ["second"] = "d"},
-    ["掳"] = {["first"] = "f", ["second"] = "l"},
-    ["掴"] = {["first"] = "f", ["second"] = "y"},
-    ["埸"] = {["first"] = "t", ["second"] = "w"},
-    ["埵"] = {["first"] = "t", ["second"] = "i"},
-    ["赧"] = {["first"] = "t", ["second"] = "y"},
-    ["埤"] = {["first"] = "t", ["second"] = "u"},
-    ["捭"] = {["first"] = "f", ["second"] = "u"},
-    ["逵"] = {["first"] = "z", ["second"] = "t"},
-    ["埝"] = {["first"] = "t", ["second"] = "x"},
-    ["堋"] = {["first"] = "t", ["second"] = "o"},
-    ["堍"] = {["first"] = "t", ["second"] = "d"},
-    ["掬"] = {["first"] = "f", ["second"] = "m"},
-    ["鸷"] = {["first"] = "f", ["second"] = "n"},
-    ["掖"] = {["first"] = "f", ["second"] = "n"},
-    ["捽"] = {["first"] = "f", ["second"] = "u"},
-    ["掊"] = {["first"] = "f", ["second"] = "k"},
-    ["堉"] = {["first"] = "t", ["second"] = "o"},
-    ["掸"] = {["first"] = "f", ["second"] = "l"},
-    ["捩"] = {["first"] = "f", ["second"] = "q"},
-    ["掮"] = {["first"] = "f", ["second"] = "o"},
-    ["悫"] = {["first"] = "u", ["second"] = "x"},
-    ["埭"] = {["first"] = "t", ["second"] = "n"},
-    ["埽"] = {["first"] = "t", ["second"] = "j"},
-    ["掇"] = {["first"] = "f", ["second"] = "y"},
-    ["掼"] = {["first"] = "f", ["second"] = "r"},
-    ["聃"] = {["first"] = "e", ["second"] = "r"},
-    ["菁"] = {["first"] = "c", ["second"] = "o"},
-    ["萁"] = {["first"] = "c", ["second"] = "b"},
-    ["菘"] = {["first"] = "c", ["second"] = "s"},
-    ["堇"] = {["first"] = "n", ["second"] = "a"},
-    ["萘"] = {["first"] = "c", ["second"] = "x"},
-    ["萋"] = {["first"] = "c", ["second"] = "n"},
-    ["菽"] = {["first"] = "c", ["second"] = "y"},
-    ["菖"] = {["first"] = "c", ["second"] = "o"},
-    ["萜"] = {["first"] = "c", ["second"] = "k"},
-    ["萸"] = {["first"] = "c", ["second"] = "y"},
-    ["萑"] = {["first"] = "c", ["second"] = "f"},
-    ["棻"] = {["first"] = "c", ["second"] = "m"},
-    ["菔"] = {["first"] = "c", ["second"] = "y"},
-    ["菟"] = {["first"] = "c", ["second"] = "d"},
-    ["萏"] = {["first"] = "c", ["second"] = "j"},
-    ["萃"] = {["first"] = "c", ["second"] = "u"},
-    ["菏"] = {["first"] = "c", ["second"] = "k"},
-    ["菹"] = {["first"] = "c", ["second"] = "q"},
-    ["菪"] = {["first"] = "c", ["second"] = "u"},
-    ["菅"] = {["first"] = "c", ["second"] = "k"},
-    ["菀"] = {["first"] = "c", ["second"] = "v"},
-    ["萦"] = {["first"] = "c", ["second"] = "x"},
-    ["菰"] = {["first"] = "c", ["second"] = "g"},
-    ["菡"] = {["first"] = "c", ["second"] = "k"},
-    ["梵"] = {["first"] = "m", ["second"] = "f"},
-    ["梿"] = {["first"] = "m", ["second"] = "z"},
-    ["梏"] = {["first"] = "m", ["second"] = "k"},
-    ["觋"] = {["first"] = "g", ["second"] = "e"},
-    ["桴"] = {["first"] = "m", ["second"] = "z"},
-    ["桷"] = {["first"] = "m", ["second"] = "y"},
-    ["梓"] = {["first"] = "m", ["second"] = "u"},
-    ["棁"] = {["first"] = "m", ["second"] = "e"},
-    ["桫"] = {["first"] = "m", ["second"] = "u"},
-    ["棂"] = {["first"] = "m", ["second"] = "h"},
-    ["啬"] = {["first"] = "u", ["second"] = "k"},
-    ["郾"] = {["first"] = "k", ["second"] = "e"},
-    ["匮"] = {["first"] = "k", ["second"] = "r"},
-    ["敕"] = {["first"] = "u", ["second"] = "w"},
-    ["豉"] = {["first"] = "a", ["second"] = "y"},
-    ["鄄"] = {["first"] = "x", ["second"] = "e"},
-    ["酞"] = {["first"] = "y", ["second"] = "t"},
-    ["酚"] = {["first"] = "y", ["second"] = "d"},
-    ["戛"] = {["first"] = "a", ["second"] = "g"},
-    ["硎"] = {["first"] = "u", ["second"] = "d"},
-    ["硭"] = {["first"] = "u", ["second"] = "w"},
-    ["硒"] = {["first"] = "u", ["second"] = "x"},
-    ["硖"] = {["first"] = "u", ["second"] = "j"},
-    ["硗"] = {["first"] = "u", ["second"] = "w"},
-    ["硐"] = {["first"] = "u", ["second"] = "k"},
-    ["硇"] = {["first"] = "u", ["second"] = "x"},
-    ["硌"] = {["first"] = "u", ["second"] = "k"},
-    ["鸸"] = {["first"] = "e", ["second"] = "n"},
-    ["瓠"] = {["first"] = "d", ["second"] = "g"},
-    ["匏"] = {["first"] = "d", ["second"] = "s"},
-    ["厩"] = {["first"] = "i", ["second"] = "v"},
-    ["龚"] = {["first"] = "l", ["second"] = "b"},
-    ["殒"] = {["first"] = "d", ["second"] = "r"},
-    ["殓"] = {["first"] = "d", ["second"] = "a"},
-    ["殍"] = {["first"] = "d", ["second"] = "z"},
-    ["赉"] = {["first"] = "l", ["second"] = "r"},
-    ["雩"] = {["first"] = "y", ["second"] = "k"},
-    ["辄"] = {["first"] = "i", ["second"] = "v"},
-    ["堑"] = {["first"] = "i", ["second"] = "t"},
-    ["眭"] = {["first"] = "o", ["second"] = "t"},
-    ["眦"] = {["first"] = "o", ["second"] = "b"},
-    ["啧"] = {["first"] = "k", ["second"] = "r"},
-    ["晡"] = {["first"] = "o", ["second"] = "f"},
-    ["晤"] = {["first"] = "o", ["second"] = "k"},
-    ["眺"] = {["first"] = "o", ["second"] = "d"},
-    ["眵"] = {["first"] = "o", ["second"] = "x"},
-    ["眸"] = {["first"] = "o", ["second"] = "n"},
-    ["圊"] = {["first"] = "k", ["second"] = "o"},
-    ["喏"] = {["first"] = "k", ["second"] = "k"},
-    ["喵"] = {["first"] = "k", ["second"] = "t"},
-    ["啉"] = {["first"] = "k", ["second"] = "m"},
-    ["勖"] = {["first"] = "k", ["second"] = "l"},
-    ["晞"] = {["first"] = "o", ["second"] = "j"},
-    ["唵"] = {["first"] = "k", ["second"] = "d"},
-    ["晗"] = {["first"] = "o", ["second"] = "k"},
-    ["冕"] = {["first"] = "k", ["second"] = "v"},
-    ["啭"] = {["first"] = "k", ["second"] = "v"},
-    ["畦"] = {["first"] = "t", ["second"] = "t"},
-    ["趺"] = {["first"] = "z", ["second"] = "f"},
-    ["啮"] = {["first"] = "k", ["second"] = "k"},
-    ["跄"] = {["first"] = "z", ["second"] = "v"},
-    ["蚶"] = {["first"] = "i", ["second"] = "g"},
-    ["蛄"] = {["first"] = "i", ["second"] = "k"},
-    ["蛎"] = {["first"] = "i", ["second"] = "w"},
-    ["蛆"] = {["first"] = "i", ["second"] = "q"},
-    ["蚰"] = {["first"] = "i", ["second"] = "y"},
-    ["蛊"] = {["first"] = "i", ["second"] = "m"},
-    ["圉"] = {["first"] = "k", ["second"] = "g"},
-    ["蚱"] = {["first"] = "i", ["second"] = "v"},
-    ["蛉"] = {["first"] = "i", ["second"] = "s"},
-    ["蛏"] = {["first"] = "i", ["second"] = "t"},
-    ["蚴"] = {["first"] = "i", ["second"] = "l"},
-    ["啁"] = {["first"] = "k", ["second"] = "k"},
-    ["啕"] = {["first"] = "k", ["second"] = "f"},
-    ["唿"] = {["first"] = "k", ["second"] = "x"},
-    ["啐"] = {["first"] = "k", ["second"] = "u"},
-    ["唼"] = {["first"] = "k", ["second"] = "n"},
-    ["唷"] = {["first"] = "k", ["second"] = "o"},
-    ["啖"] = {["first"] = "k", ["second"] = "h"},
-    ["啵"] = {["first"] = "k", ["second"] = "y"},
-    ["啶"] = {["first"] = "k", ["second"] = "r"},
-    ["啷"] = {["first"] = "k", ["second"] = "e"},
-    ["唳"] = {["first"] = "k", ["second"] = "q"},
-    ["唰"] = {["first"] = "k", ["second"] = "d"},
-    ["啜"] = {["first"] = "k", ["second"] = "y"},
-    ["帻"] = {["first"] = "j", ["second"] = "r"},
-    ["崚"] = {["first"] = "e", ["second"] = "w"},
-    ["崦"] = {["first"] = "e", ["second"] = "d"},
-    ["帼"] = {["first"] = "j", ["second"] = "y"},
-    ["崮"] = {["first"] = "e", ["second"] = "k"},
-    ["崤"] = {["first"] = "e", ["second"] = "o"},
-    ["崆"] = {["first"] = "e", ["second"] = "g"},
-    ["赇"] = {["first"] = "k", ["second"] = "q"},
-    ["赈"] = {["first"] = "k", ["second"] = "n"},
-    ["赊"] = {["first"] = "k", ["second"] = "x"},
-    ["铑"] = {["first"] = "j", ["second"] = "b"},
-    ["铒"] = {["first"] = "j", ["second"] = "e"},
-    ["铗"] = {["first"] = "j", ["second"] = "j"},
-    ["铙"] = {["first"] = "j", ["second"] = "w"},
-    ["铟"] = {["first"] = "j", ["second"] = "d"},
-    ["铠"] = {["first"] = "j", ["second"] = "j"},
-    ["铡"] = {["first"] = "j", ["second"] = "d"},
-    ["铢"] = {["first"] = "j", ["second"] = "v"},
-    ["铣"] = {["first"] = "j", ["second"] = "e"},
-    ["铤"] = {["first"] = "j", ["second"] = "z"},
-    ["铧"] = {["first"] = "j", ["second"] = "u"},
-    ["铨"] = {["first"] = "j", ["second"] = "w"},
-    ["铩"] = {["first"] = "j", ["second"] = "m"},
-    ["铪"] = {["first"] = "j", ["second"] = "k"},
-    ["铫"] = {["first"] = "j", ["second"] = "d"},
-    ["铬"] = {["first"] = "j", ["second"] = "k"},
-    ["铮"] = {["first"] = "j", ["second"] = "l"},
-    ["铯"] = {["first"] = "j", ["second"] = "b"},
-    ["铰"] = {["first"] = "j", ["second"] = "x"},
-    ["铱"] = {["first"] = "j", ["second"] = "y"},
-    ["铳"] = {["first"] = "j", ["second"] = "e"},
-    ["铵"] = {["first"] = "j", ["second"] = "n"},
-    ["铷"] = {["first"] = "j", ["second"] = "k"},
-    ["氪"] = {["first"] = "q", ["second"] = "e"},
-    ["牾"] = {["first"] = "n", ["second"] = "k"},
-    ["鸹"] = {["first"] = "q", ["second"] = "n"},
-    ["秾"] = {["first"] = "h", ["second"] = "n"},
-    ["逶"] = {["first"] = "z", ["second"] = "n"},
-    ["笺"] = {["first"] = "v", ["second"] = "j"},
-    ["筇"] = {["first"] = "v", ["second"] = "e"},
-    ["笸"] = {["first"] = "v", ["second"] = "k"},
-    ["笪"] = {["first"] = "v", ["second"] = "a"},
-    ["笮"] = {["first"] = "v", ["second"] = "v"},
-    ["笠"] = {["first"] = "v", ["second"] = "l"},
-    ["笥"] = {["first"] = "v", ["second"] = "k"},
-    ["笤"] = {["first"] = "v", ["second"] = "k"},
-    ["笳"] = {["first"] = "v", ["second"] = "k"},
-    ["笾"] = {["first"] = "v", ["second"] = "z"},
-    ["笞"] = {["first"] = "v", ["second"] = "k"},
-    ["偾"] = {["first"] = "r", ["second"] = "r"},
-    ["偃"] = {["first"] = "r", ["second"] = "n"},
-    ["偕"] = {["first"] = "r", ["second"] = "b"},
-    ["偈"] = {["first"] = "r", ["second"] = "v"},
-    ["傀"] = {["first"] = "r", ["second"] = "g"},
-    ["偬"] = {["first"] = "r", ["second"] = "x"},
-    ["偻"] = {["first"] = "r", ["second"] = "n"},
-    ["皑"] = {["first"] = "b", ["second"] = "j"},
-    ["皎"] = {["first"] = "b", ["second"] = "x"},
-    ["鸻"] = {["first"] = "i", ["second"] = "n"},
-    ["徜"] = {["first"] = "i", ["second"] = "k"},
-    ["舸"] = {["first"] = "v", ["second"] = "k"},
-    ["舻"] = {["first"] = "v", ["second"] = "u"},
-    ["舴"] = {["first"] = "v", ["second"] = "v"},
-    ["舷"] = {["first"] = "v", ["second"] = "y"},
-    ["龛"] = {["first"] = "r", ["second"] = "l"},
-    ["翎"] = {["first"] = "r", ["second"] = "x"},
-    ["脬"] = {["first"] = "o", ["second"] = "z"},
-    ["脘"] = {["first"] = "o", ["second"] = "e"},
-    ["脲"] = {["first"] = "o", ["second"] = "u"},
-    ["匐"] = {["first"] = "b", ["second"] = "t"},
-    ["猗"] = {["first"] = "q", ["second"] = "k"},
-    ["猡"] = {["first"] = "q", ["second"] = "x"},
-    ["猞"] = {["first"] = "q", ["second"] = "k"},
-    ["猝"] = {["first"] = "q", ["second"] = "u"},
-    ["斛"] = {["first"] = "d", ["second"] = "u"},
-    ["猕"] = {["first"] = "q", ["second"] = "x"},
-    ["馗"] = {["first"] = "j", ["second"] = "z"},
-    ["馃"] = {["first"] = "u", ["second"] = "g"},
-    ["馄"] = {["first"] = "u", ["second"] = "b"},
-    ["鸾"] = {["first"] = "w", ["second"] = "n"},
-    ["孰"] = {["first"] = "w", ["second"] = "w"},
-    ["庹"] = {["first"] = "g", ["second"] = "i"},
-    ["庾"] = {["first"] = "g", ["second"] = "y"},
-    ["痔"] = {["first"] = "b", ["second"] = "c"},
-    ["痍"] = {["first"] = "b", ["second"] = "y"},
-    ["疵"] = {["first"] = "b", ["second"] = "b"},
-    ["翊"] = {["first"] = "l", ["second"] = "x"},
-    ["旌"] = {["first"] = "f", ["second"] = "u"},
-    ["旎"] = {["first"] = "f", ["second"] = "b"},
-    ["袤"] = {["first"] = "w", ["second"] = "y"},
-    ["阇"] = {["first"] = "m", ["second"] = "o"},
-    ["阈"] = {["first"] = "m", ["second"] = "a"},
-    ["阉"] = {["first"] = "m", ["second"] = "d"},
-    ["阊"] = {["first"] = "m", ["second"] = "o"},
-    ["阋"] = {["first"] = "m", ["second"] = "e"},
-    ["阍"] = {["first"] = "m", ["second"] = "o"},
-    ["阏"] = {["first"] = "m", ["second"] = "d"},
-    ["羟"] = {["first"] = "y", ["second"] = "g"},
-    ["粝"] = {["first"] = "m", ["second"] = "w"},
-    ["粕"] = {["first"] = "m", ["second"] = "b"},
-    ["敝"] = {["first"] = "d", ["second"] = "w"},
-    ["焐"] = {["first"] = "h", ["second"] = "k"},
-    ["烯"] = {["first"] = "h", ["second"] = "j"},
-    ["焓"] = {["first"] = "h", ["second"] = "k"},
-    ["烽"] = {["first"] = "h", ["second"] = "f"},
-    ["焖"] = {["first"] = "h", ["second"] = "x"},
-    ["烷"] = {["first"] = "h", ["second"] = "e"},
-    ["焗"] = {["first"] = "h", ["second"] = "k"},
-    ["渍"] = {["first"] = "d", ["second"] = "r"},
-    ["渚"] = {["first"] = "d", ["second"] = "o"},
-    ["淇"] = {["first"] = "d", ["second"] = "b"},
-    ["淅"] = {["first"] = "d", ["second"] = "j"},
-    ["淞"] = {["first"] = "d", ["second"] = "s"},
-    ["渎"] = {["first"] = "d", ["second"] = "d"},
-    ["涿"] = {["first"] = "d", ["second"] = "n"},
-    ["淖"] = {["first"] = "d", ["second"] = "u"},
-    ["挲"] = {["first"] = "d", ["second"] = "u"},
-    ["淠"] = {["first"] = "d", ["second"] = "l"},
-    ["涸"] = {["first"] = "d", ["second"] = "k"},
-    ["渑"] = {["first"] = "d", ["second"] = "d"},
-    ["淦"] = {["first"] = "d", ["second"] = "j"},
-    ["淝"] = {["first"] = "d", ["second"] = "b"},
-    ["淬"] = {["first"] = "d", ["second"] = "u"},
-    ["涪"] = {["first"] = "d", ["second"] = "k"},
-    ["淙"] = {["first"] = "d", ["second"] = "x"},
-    ["涫"] = {["first"] = "d", ["second"] = "k"},
-    ["渌"] = {["first"] = "d", ["second"] = "u"},
-    ["淄"] = {["first"] = "d", ["second"] = "t"},
-    ["惬"] = {["first"] = "x", ["second"] = "j"},
-    ["悻"] = {["first"] = "x", ["second"] = "g"},
-    ["悱"] = {["first"] = "x", ["second"] = "f"},
-    ["惝"] = {["first"] = "x", ["second"] = "k"},
-    ["惘"] = {["first"] = "x", ["second"] = "w"},
-    ["悸"] = {["first"] = "x", ["second"] = "z"},
-    ["惆"] = {["first"] = "x", ["second"] = "k"},
-    ["惚"] = {["first"] = "x", ["second"] = "x"},
-    ["惇"] = {["first"] = "x", ["second"] = "z"},
-    ["惮"] = {["first"] = "x", ["second"] = "l"},
-    ["窕"] = {["first"] = "b", ["second"] = "d"},
-    ["谌"] = {["first"] = "y", ["second"] = "v"},
-    ["谏"] = {["first"] = "y", ["second"] = "j"},
-    ["扈"] = {["first"] = "h", ["second"] = "b"},
-    ["皲"] = {["first"] = "b", ["second"] = "y"},
-    ["谑"] = {["first"] = "y", ["second"] = "a"},
-    ["裆"] = {["first"] = "p", ["second"] = "e"},
-    ["袷"] = {["first"] = "p", ["second"] = "k"},
-    ["裉"] = {["first"] = "p", ["second"] = "g"},
-    ["谒"] = {["first"] = "y", ["second"] = "v"},
-    ["谔"] = {["first"] = "y", ["second"] = "k"},
-    ["谕"] = {["first"] = "y", ["second"] = "d"},
-    ["谖"] = {["first"] = "y", ["second"] = "y"},
-    ["谗"] = {["first"] = "y", ["second"] = "d"},
-    ["谙"] = {["first"] = "y", ["second"] = "o"},
-    ["谛"] = {["first"] = "y", ["second"] = "j"},
-    ["谝"] = {["first"] = "y", ["second"] = "c"},
-    ["逯"] = {["first"] = "z", ["second"] = "u"},
-    ["郿"] = {["first"] = "v", ["second"] = "e"},
-    ["隈"] = {["first"] = "e", ["second"] = "n"},
-    ["粜"] = {["first"] = "i", ["second"] = "m"},
-    ["隍"] = {["first"] = "e", ["second"] = "w"},
-    ["隗"] = {["first"] = "e", ["second"] = "g"},
-    ["婧"] = {["first"] = "n", ["second"] = "o"},
-    ["婊"] = {["first"] = "n", ["second"] = "y"},
-    ["婕"] = {["first"] = "n", ["second"] = "r"},
-    ["娼"] = {["first"] = "n", ["second"] = "o"},
-    ["婢"] = {["first"] = "n", ["second"] = "u"},
-    ["婵"] = {["first"] = "n", ["second"] = "l"},
-    ["胬"] = {["first"] = "n", ["second"] = "r"},
-    ["袈"] = {["first"] = "l", ["second"] = "y"},
-    ["翌"] = {["first"] = "x", ["second"] = "l"},
-    ["恿"] = {["first"] = "s", ["second"] = "x"},
-    ["欸"] = {["first"] = "s", ["second"] = "r"},
-    ["绫"] = {["first"] = "s", ["second"] = "w"},
-    ["骐"] = {["first"] = "m", ["second"] = "b"},
-    ["绮"] = {["first"] = "s", ["second"] = "k"},
-    ["绯"] = {["first"] = "s", ["second"] = "f"},
-    ["绱"] = {["first"] = "s", ["second"] = "k"},
-    ["骒"] = {["first"] = "m", ["second"] = "g"},
-    ["绲"] = {["first"] = "s", ["second"] = "b"},
-    ["骓"] = {["first"] = "m", ["second"] = "f"},
-    ["绶"] = {["first"] = "s", ["second"] = "y"},
-    ["绺"] = {["first"] = "s", ["second"] = "k"},
-    ["绻"] = {["first"] = "s", ["second"] = "v"},
-    ["绾"] = {["first"] = "s", ["second"] = "k"},
-    ["骖"] = {["first"] = "m", ["second"] = "p"},
-    ["缁"] = {["first"] = "s", ["second"] = "t"},
-    ["耠"] = {["first"] = "l", ["second"] = "k"},
-    ["琫"] = {["first"] = "w", ["second"] = "l"},
-    ["琵"] = {["first"] = "w", ["second"] = "b"},
-    ["琶"] = {["first"] = "w", ["second"] = "b"},
-    ["琪"] = {["first"] = "w", ["second"] = "b"},
-    ["瑛"] = {["first"] = "w", ["second"] = "y"},
-    ["琦"] = {["first"] = "w", ["second"] = "k"},
-    ["琥"] = {["first"] = "w", ["second"] = "j"},
-    ["琨"] = {["first"] = "w", ["second"] = "b"},
-    ["靓"] = {["first"] = "f", ["second"] = "e"},
-    ["琰"] = {["first"] = "w", ["second"] = "h"},
-    ["琮"] = {["first"] = "w", ["second"] = "x"},
-    ["琯"] = {["first"] = "w", ["second"] = "k"},
-    ["琬"] = {["first"] = "w", ["second"] = "v"},
-    ["琛"] = {["first"] = "w", ["second"] = "m"},
-    ["琚"] = {["first"] = "w", ["second"] = "k"},
-    ["辇"] = {["first"] = "f", ["second"] = "i"},
-    ["鼋"] = {["first"] = "e", ["second"] = "d"},
-    ["揳"] = {["first"] = "f", ["second"] = "d"},
-    ["堞"] = {["first"] = "t", ["second"] = "m"},
-    ["搽"] = {["first"] = "f", ["second"] = "m"},
-    ["揸"] = {["first"] = "f", ["second"] = "a"},
-    ["揠"] = {["first"] = "f", ["second"] = "n"},
-    ["堙"] = {["first"] = "t", ["second"] = "t"},
-    ["趄"] = {["first"] = "t", ["second"] = "q"},
-    ["揖"] = {["first"] = "f", ["second"] = "e"},
-    ["颉"] = {["first"] = "u", ["second"] = "r"},
-    ["塄"] = {["first"] = "t", ["second"] = "f"},
-    ["揿"] = {["first"] = "f", ["second"] = "r"},
-    ["耋"] = {["first"] = "l", ["second"] = "t"},
-    ["揄"] = {["first"] = "f", ["second"] = "d"},
-    ["蛩"] = {["first"] = "g", ["second"] = "i"},
-    ["蛰"] = {["first"] = "f", ["second"] = "i"},
-    ["塆"] = {["first"] = "t", ["second"] = "g"},
-    ["摒"] = {["first"] = "f", ["second"] = "k"},
-    ["揆"] = {["first"] = "f", ["second"] = "t"},
-    ["掾"] = {["first"] = "f", ["second"] = "u"},
-    ["聒"] = {["first"] = "e", ["second"] = "k"},
-    ["葑"] = {["first"] = "c", ["second"] = "c"},
-    ["葚"] = {["first"] = "c", ["second"] = "v"},
-    ["靰"] = {["first"] = "g", ["second"] = "w"},
-    ["靸"] = {["first"] = "g", ["second"] = "j"},
-    ["葳"] = {["first"] = "c", ["second"] = "n"},
-    ["葺"] = {["first"] = "c", ["second"] = "e"},
-    ["葸"] = {["first"] = "c", ["second"] = "x"},
-    ["萼"] = {["first"] = "c", ["second"] = "k"},
-    ["葆"] = {["first"] = "c", ["second"] = "m"},
-    ["葩"] = {["first"] = "c", ["second"] = "b"},
-    ["葶"] = {["first"] = "c", ["second"] = "d"},
-    ["蒌"] = {["first"] = "c", ["second"] = "n"},
-    ["萱"] = {["first"] = "c", ["second"] = "a"},
-    ["戟"] = {["first"] = "u", ["second"] = "g"},
-    ["葭"] = {["first"] = "c", ["second"] = "y"},
-    ["楮"] = {["first"] = "m", ["second"] = "o"},
-    ["棼"] = {["first"] = "m", ["second"] = "d"},
-    ["椟"] = {["first"] = "m", ["second"] = "d"},
-    ["棹"] = {["first"] = "m", ["second"] = "u"},
-    ["椤"] = {["first"] = "m", ["second"] = "x"},
-    ["棰"] = {["first"] = "m", ["second"] = "i"},
-    ["赍"] = {["first"] = "u", ["second"] = "r"},
-    ["椋"] = {["first"] = "m", ["second"] = "x"},
-    ["椁"] = {["first"] = "m", ["second"] = "z"},
-    ["椪"] = {["first"] = "m", ["second"] = "y"},
-    ["棣"] = {["first"] = "m", ["second"] = "n"},
-    ["椐"] = {["first"] = "m", ["second"] = "k"},
-    ["鹁"] = {["first"] = "u", ["second"] = "n"},
-    ["覃"] = {["first"] = "x", ["second"] = "u"},
-    ["酤"] = {["first"] = "y", ["second"] = "k"},
-    ["酢"] = {["first"] = "y", ["second"] = "v"},
-    ["酡"] = {["first"] = "y", ["second"] = "b"},
-    ["鹂"] = {["first"] = "l", ["second"] = "n"},
-    ["厥"] = {["first"] = "i", ["second"] = "r"},
-    ["殚"] = {["first"] = "d", ["second"] = "l"},
-    ["殛"] = {["first"] = "d", ["second"] = "a"},
-    ["雯"] = {["first"] = "y", ["second"] = "w"},
-    ["雱"] = {["first"] = "y", ["second"] = "f"},
-    ["辊"] = {["first"] = "i", ["second"] = "b"},
-    ["辋"] = {["first"] = "i", ["second"] = "w"},
-    ["椠"] = {["first"] = "i", ["second"] = "m"},
-    ["辍"] = {["first"] = "i", ["second"] = "y"},
-    ["辎"] = {["first"] = "i", ["second"] = "t"},
-    ["斐"] = {["first"] = "f", ["second"] = "w"},
-    ["睄"] = {["first"] = "o", ["second"] = "o"},
-    ["睑"] = {["first"] = "o", ["second"] = "a"},
-    ["睇"] = {["first"] = "o", ["second"] = "p"},
-    ["睃"] = {["first"] = "o", ["second"] = "w"},
-    ["戢"] = {["first"] = "k", ["second"] = "a"},
-    ["喋"] = {["first"] = "k", ["second"] = "m"},
-    ["嗒"] = {["first"] = "k", ["second"] = "k"},
-    ["喃"] = {["first"] = "k", ["second"] = "g"},
-    ["喱"] = {["first"] = "k", ["second"] = "l"},
-    ["喹"] = {["first"] = "k", ["second"] = "t"},
-    ["晷"] = {["first"] = "o", ["second"] = "k"},
-    ["喈"] = {["first"] = "k", ["second"] = "b"},
-    ["跖"] = {["first"] = "z", ["second"] = "u"},
-    ["跗"] = {["first"] = "z", ["second"] = "c"},
-    ["跞"] = {["first"] = "z", ["second"] = "l"},
-    ["跚"] = {["first"] = "z", ["second"] = "c"},
-    ["跎"] = {["first"] = "z", ["second"] = "b"},
-    ["跏"] = {["first"] = "z", ["second"] = "k"},
-    ["跆"] = {["first"] = "z", ["second"] = "k"},
-    ["蛱"] = {["first"] = "i", ["second"] = "j"},
-    ["蛲"] = {["first"] = "i", ["second"] = "w"},
-    ["蛭"] = {["first"] = "i", ["second"] = "t"},
-    ["蛳"] = {["first"] = "i", ["second"] = "j"},
-    ["蛐"] = {["first"] = "i", ["second"] = "q"},
-    ["蛔"] = {["first"] = "i", ["second"] = "k"},
-    ["蛞"] = {["first"] = "i", ["second"] = "k"},
-    ["蛴"] = {["first"] = "i", ["second"] = "l"},
-    ["蛟"] = {["first"] = "i", ["second"] = "x"},
-    ["蛘"] = {["first"] = "i", ["second"] = "y"},
-    ["喁"] = {["first"] = "k", ["second"] = "y"},
-    ["喟"] = {["first"] = "k", ["second"] = "o"},
-    ["啾"] = {["first"] = "k", ["second"] = "h"},
-    ["嗖"] = {["first"] = "k", ["second"] = "y"},
-    ["喑"] = {["first"] = "k", ["second"] = "o"},
-    ["嗟"] = {["first"] = "k", ["second"] = "g"},
-    ["喽"] = {["first"] = "k", ["second"] = "n"},
-    ["嗞"] = {["first"] = "k", ["second"] = "y"},
-    ["喀"] = {["first"] = "k", ["second"] = "k"},
-    ["喔"] = {["first"] = "k", ["second"] = "t"},
-    ["喙"] = {["first"] = "k", ["second"] = "u"},
-    ["嵘"] = {["first"] = "e", ["second"] = "m"},
-    ["嵖"] = {["first"] = "e", ["second"] = "a"},
-    ["崴"] = {["first"] = "e", ["second"] = "n"},
-    ["遄"] = {["first"] = "z", ["second"] = "e"},
-    ["詈"] = {["first"] = "s", ["second"] = "k"},
-    ["嵎"] = {["first"] = "e", ["second"] = "y"},
-    ["崽"] = {["first"] = "e", ["second"] = "x"},
-    ["嵬"] = {["first"] = "e", ["second"] = "g"},
-    ["嵛"] = {["first"] = "e", ["second"] = "d"},
-    ["嵯"] = {["first"] = "e", ["second"] = "g"},
-    ["嵝"] = {["first"] = "e", ["second"] = "n"},
-    ["嵫"] = {["first"] = "e", ["second"] = "y"},
-    ["幄"] = {["first"] = "j", ["second"] = "t"},
-    ["嵋"] = {["first"] = "e", ["second"] = "o"},
-    ["赕"] = {["first"] = "k", ["second"] = "h"},
-    ["铻"] = {["first"] = "j", ["second"] = "k"},
-    ["铼"] = {["first"] = "j", ["second"] = "l"},
-    ["铿"] = {["first"] = "j", ["second"] = "t"},
-    ["锃"] = {["first"] = "j", ["second"] = "w"},
-    ["锂"] = {["first"] = "j", ["second"] = "l"},
-    ["锆"] = {["first"] = "j", ["second"] = "k"},
-    ["锇"] = {["first"] = "j", ["second"] = "w"},
-    ["锉"] = {["first"] = "j", ["second"] = "t"},
-    ["锏"] = {["first"] = "j", ["second"] = "o"},
-    ["锑"] = {["first"] = "j", ["second"] = "p"},
-    ["锒"] = {["first"] = "j", ["second"] = "l"},
-    ["锔"] = {["first"] = "j", ["second"] = "k"},
-    ["锕"] = {["first"] = "j", ["second"] = "k"},
-    ["掣"] = {["first"] = "p", ["second"] = "u"},
-    ["矬"] = {["first"] = "u", ["second"] = "t"},
-    ["氰"] = {["first"] = "q", ["second"] = "o"},
-    ["毳"] = {["first"] = "m", ["second"] = "m"},
-    ["毽"] = {["first"] = "m", ["second"] = "z"},
-    ["犊"] = {["first"] = "n", ["second"] = "d"},
-    ["犄"] = {["first"] = "n", ["second"] = "k"},
-    ["犋"] = {["first"] = "n", ["second"] = "b"},
-    ["鹄"] = {["first"] = "n", ["second"] = "n"},
-    ["犍"] = {["first"] = "n", ["second"] = "z"},
-    ["嵇"] = {["first"] = "h", ["second"] = "e"},
-    ["黍"] = {["first"] = "h", ["second"] = "u"},
-    ["稃"] = {["first"] = "h", ["second"] = "z"},
-    ["稂"] = {["first"] = "h", ["second"] = "l"},
-    ["筚"] = {["first"] = "v", ["second"] = "u"},
-    ["筵"] = {["first"] = "v", ["second"] = "z"},
-    ["筌"] = {["first"] = "v", ["second"] = "w"},
-    ["傣"] = {["first"] = "r", ["second"] = "u"},
-    ["傈"] = {["first"] = "r", ["second"] = "m"},
-    ["舄"] = {["first"] = "j", ["second"] = "h"},
-    ["牍"] = {["first"] = "p", ["second"] = "d"},
-    ["傥"] = {["first"] = "r", ["second"] = "e"},
-    ["傧"] = {["first"] = "r", ["second"] = "b"},
-    ["遑"] = {["first"] = "z", ["second"] = "w"},
-    ["傩"] = {["first"] = "r", ["second"] = "f"},
-    ["遁"] = {["first"] = "z", ["second"] = "o"},
-    ["徨"] = {["first"] = "i", ["second"] = "w"},
-    ["媭"] = {["first"] = "p", ["second"] = "n"},
-    ["畲"] = {["first"] = "r", ["second"] = "t"},
-    ["弑"] = {["first"] = "x", ["second"] = "g"},
-    ["颌"] = {["first"] = "r", ["second"] = "r"},
-    ["翕"] = {["first"] = "r", ["second"] = "x"},
-    ["釉"] = {["first"] = "p", ["second"] = "y"},
-    ["鹆"] = {["first"] = "b", ["second"] = "n"},
-    ["舜"] = {["first"] = "p", ["second"] = "l"},
-    ["貂"] = {["first"] = "v", ["second"] = "k"},
-    ["腈"] = {["first"] = "o", ["second"] = "o"},
-    ["腌"] = {["first"] = "o", ["second"] = "d"},
-    ["腓"] = {["first"] = "o", ["second"] = "f"},
-    ["腆"] = {["first"] = "o", ["second"] = "b"},
-    ["腴"] = {["first"] = "o", ["second"] = "y"},
-    ["腑"] = {["first"] = "o", ["second"] = "c"},
-    ["腚"] = {["first"] = "o", ["second"] = "r"},
-    ["腱"] = {["first"] = "o", ["second"] = "z"},
-    ["鱿"] = {["first"] = "a", ["second"] = "y"},
-    ["鲀"] = {["first"] = "a", ["second"] = "t"},
-    ["鲂"] = {["first"] = "a", ["second"] = "f"},
-    ["颍"] = {["first"] = "b", ["second"] = "r"},
-    ["猢"] = {["first"] = "q", ["second"] = "o"},
-    ["猹"] = {["first"] = "q", ["second"] = "a"},
-    ["猥"] = {["first"] = "q", ["second"] = "n"},
-    ["飓"] = {["first"] = "j", ["second"] = "b"},
-    ["觞"] = {["first"] = "d", ["second"] = "p"},
-    ["觚"] = {["first"] = "d", ["second"] = "g"},
-    ["猱"] = {["first"] = "q", ["second"] = "m"},
-    ["颎"] = {["first"] = "b", ["second"] = "r"},
-    ["飧"] = {["first"] = "x", ["second"] = "l"},
-    ["馇"] = {["first"] = "u", ["second"] = "a"},
-    ["馊"] = {["first"] = "u", ["second"] = "y"},
-    ["亵"] = {["first"] = "w", ["second"] = "y"},
-    ["脔"] = {["first"] = "w", ["second"] = "r"},
-    ["裒"] = {["first"] = "w", ["second"] = "y"},
-    ["痣"] = {["first"] = "b", ["second"] = "x"},
-    ["痨"] = {["first"] = "b", ["second"] = "l"},
-    ["痦"] = {["first"] = "b", ["second"] = "k"},
-    ["痞"] = {["first"] = "b", ["second"] = "k"},
-    ["痤"] = {["first"] = "b", ["second"] = "t"},
-    ["痫"] = {["first"] = "b", ["second"] = "m"},
-    ["痧"] = {["first"] = "b", ["second"] = "u"},
-    ["赓"] = {["first"] = "g", ["second"] = "r"},
-    ["竦"] = {["first"] = "l", ["second"] = "u"},
-    ["瓿"] = {["first"] = "l", ["second"] = "w"},
-    ["啻"] = {["first"] = "w", ["second"] = "k"},
-    ["颏"] = {["first"] = "w", ["second"] = "r"},
-    ["鹇"] = {["first"] = "m", ["second"] = "n"},
-    ["阑"] = {["first"] = "m", ["second"] = "j"},
-    ["阒"] = {["first"] = "m", ["second"] = "q"},
-    ["阕"] = {["first"] = "m", ["second"] = "t"},
-    ["粞"] = {["first"] = "m", ["second"] = "x"},
-    ["遒"] = {["first"] = "z", ["second"] = "y"},
-    ["孳"] = {["first"] = "b", ["second"] = "z"},
-    ["焯"] = {["first"] = "h", ["second"] = "u"},
-    ["焜"] = {["first"] = "h", ["second"] = "b"},
-    ["焙"] = {["first"] = "h", ["second"] = "k"},
-    ["焱"] = {["first"] = "h", ["second"] = "h"},
-    ["鹈"] = {["first"] = "b", ["second"] = "n"},
-    ["湛"] = {["first"] = "d", ["second"] = "v"},
-    ["渫"] = {["first"] = "d", ["second"] = "m"},
-    ["湮"] = {["first"] = "d", ["second"] = "t"},
-    ["湎"] = {["first"] = "d", ["second"] = "m"},
-    ["湜"] = {["first"] = "d", ["second"] = "r"},
-    ["渭"] = {["first"] = "d", ["second"] = "o"},
-    ["湍"] = {["first"] = "d", ["second"] = "e"},
-    ["湫"] = {["first"] = "d", ["second"] = "h"},
-    ["溲"] = {["first"] = "d", ["second"] = "y"},
-    ["湟"] = {["first"] = "d", ["second"] = "w"},
-    ["溆"] = {["first"] = "d", ["second"] = "y"},
-    ["湲"] = {["first"] = "d", ["second"] = "y"},
-    ["湔"] = {["first"] = "d", ["second"] = "d"},
-    ["湉"] = {["first"] = "d", ["second"] = "k"},
-    ["渥"] = {["first"] = "d", ["second"] = "t"},
-    ["湄"] = {["first"] = "d", ["second"] = "o"},
-    ["滁"] = {["first"] = "d", ["second"] = "h"},
-    ["愠"] = {["first"] = "x", ["second"] = "m"},
-    ["惺"] = {["first"] = "x", ["second"] = "u"},
-    ["愦"] = {["first"] = "x", ["second"] = "r"},
-    ["惴"] = {["first"] = "x", ["second"] = "e"},
-    ["愀"] = {["first"] = "x", ["second"] = "h"},
-    ["愎"] = {["first"] = "x", ["second"] = "w"},
-    ["愔"] = {["first"] = "x", ["second"] = "o"},
-    ["喾"] = {["first"] = "x", ["second"] = "k"},
-    ["寐"] = {["first"] = "b", ["second"] = "w"},
-    ["谟"] = {["first"] = "y", ["second"] = "d"},
-    ["扉"] = {["first"] = "h", ["second"] = "f"},
-    ["裢"] = {["first"] = "p", ["second"] = "z"},
-    ["裎"] = {["first"] = "p", ["second"] = "w"},
-    ["裥"] = {["first"] = "p", ["second"] = "o"},
-    ["祾"] = {["first"] = "p", ["second"] = "w"},
-    ["祺"] = {["first"] = "p", ["second"] = "b"},
-    ["谠"] = {["first"] = "y", ["second"] = "e"},
-    ["幂"] = {["first"] = "b", ["second"] = "j"},
-    ["谡"] = {["first"] = "y", ["second"] = "w"},
-    ["谥"] = {["first"] = "y", ["second"] = "m"},
-    ["谧"] = {["first"] = "y", ["second"] = "m"},
-    ["遐"] = {["first"] = "z", ["second"] = "y"},
-    ["孱"] = {["first"] = "u", ["second"] = "z"},
-    ["弼"] = {["first"] = "g", ["second"] = "g"},
-    ["巽"] = {["first"] = "s", ["second"] = "b"},
-    ["骘"] = {["first"] = "e", ["second"] = "m"},
-    ["媪"] = {["first"] = "n", ["second"] = "m"},
-    ["媛"] = {["first"] = "n", ["second"] = "y"},
-    ["婷"] = {["first"] = "n", ["second"] = "d"},
-    ["巯"] = {["first"] = "v", ["second"] = "v"},
-    ["翚"] = {["first"] = "x", ["second"] = "i"},
-    ["皴"] = {["first"] = "s", ["second"] = "y"},
-    ["婺"] = {["first"] = "s", ["second"] = "n"},
-    ["骛"] = {["first"] = "s", ["second"] = "m"},
-    ["缂"] = {["first"] = "s", ["second"] = "g"},
-    ["缃"] = {["first"] = "s", ["second"] = "o"},
-    ["缄"] = {["first"] = "s", ["second"] = "k"},
-    ["彘"] = {["first"] = "v", ["second"] = "b"},
-    ["缇"] = {["first"] = "s", ["second"] = "r"},
-    ["缈"] = {["first"] = "s", ["second"] = "u"},
-    ["缌"] = {["first"] = "s", ["second"] = "x"},
-    ["缑"] = {["first"] = "s", ["second"] = "u"},
-    ["缒"] = {["first"] = "s", ["second"] = "z"},
-    ["缗"] = {["first"] = "s", ["second"] = "o"},
-    ["飨"] = {["first"] = "x", ["second"] = "l"},
-    ["耢"] = {["first"] = "l", ["second"] = "l"},
-    ["瑚"] = {["first"] = "w", ["second"] = "o"},
-    ["瑁"] = {["first"] = "w", ["second"] = "o"},
-    ["瑜"] = {["first"] = "w", ["second"] = "d"},
-    ["瑗"] = {["first"] = "w", ["second"] = "y"},
-    ["瑄"] = {["first"] = "w", ["second"] = "a"},
-    ["瑕"] = {["first"] = "w", ["second"] = "y"},
-    ["遨"] = {["first"] = "z", ["second"] = "w"},
-    ["骜"] = {["first"] = "f", ["second"] = "m"},
-    ["韫"] = {["first"] = "w", ["second"] = "m"},
-    ["髡"] = {["first"] = "a", ["second"] = "w"},
-    ["塬"] = {["first"] = "t", ["second"] = "x"},
-    ["鄢"] = {["first"] = "v", ["second"] = "e"},
-    ["趔"] = {["first"] = "t", ["second"] = "d"},
-    ["趑"] = {["first"] = "t", ["second"] = "r"},
-    ["摅"] = {["first"] = "f", ["second"] = "x"},
-    ["摁"] = {["first"] = "f", ["second"] = "x"},
-    ["蜇"] = {["first"] = "f", ["second"] = "i"},
-    ["搋"] = {["first"] = "f", ["second"] = "j"},
-    ["搪"] = {["first"] = "f", ["second"] = "k"},
-    ["搐"] = {["first"] = "f", ["second"] = "t"},
-    ["搛"] = {["first"] = "f", ["second"] = "n"},
-    ["搠"] = {["first"] = "f", ["second"] = "o"},
-    ["摈"] = {["first"] = "f", ["second"] = "b"},
-    ["彀"] = {["first"] = "u", ["second"] = "y"},
-    ["毂"] = {["first"] = "u", ["second"] = "y"},
-    ["搦"] = {["first"] = "f", ["second"] = "d"},
-    ["搡"] = {["first"] = "f", ["second"] = "m"},
-    ["蓁"] = {["first"] = "c", ["second"] = "h"},
-    ["戡"] = {["first"] = "q", ["second"] = "g"},
-    ["蓍"] = {["first"] = "c", ["second"] = "o"},
-    ["鄞"] = {["first"] = "n", ["second"] = "e"},
-    ["靳"] = {["first"] = "g", ["second"] = "j"},
-    ["蓐"] = {["first"] = "c", ["second"] = "c"},
-    ["蓦"] = {["first"] = "c", ["second"] = "m"},
-    ["鹋"] = {["first"] = "c", ["second"] = "n"},
-    ["蒽"] = {["first"] = "c", ["second"] = "x"},
-    ["蓓"] = {["first"] = "c", ["second"] = "k"},
-    ["蓖"] = {["first"] = "c", ["second"] = "b"},
-    ["蓊"] = {["first"] = "c", ["second"] = "x"},
-    ["蒯"] = {["first"] = "c", ["second"] = "d"},
-    ["蓟"] = {["first"] = "c", ["second"] = "d"},
-    ["蓑"] = {["first"] = "c", ["second"] = "y"},
-    ["蒿"] = {["first"] = "c", ["second"] = "k"},
-    ["蒺"] = {["first"] = "c", ["second"] = "u"},
-    ["蓠"] = {["first"] = "c", ["second"] = "d"},
-    ["蒟"] = {["first"] = "c", ["second"] = "k"},
-    ["蒡"] = {["first"] = "c", ["second"] = "f"},
-    ["蒹"] = {["first"] = "c", ["second"] = "n"},
-    ["蒴"] = {["first"] = "c", ["second"] = "o"},
-    ["蒗"] = {["first"] = "c", ["second"] = "l"},
-    ["蓥"] = {["first"] = "c", ["second"] = "j"},
-    ["颐"] = {["first"] = "k", ["second"] = "r"},
-    ["楔"] = {["first"] = "m", ["second"] = "d"},
-    ["楠"] = {["first"] = "m", ["second"] = "g"},
-    ["楂"] = {["first"] = "m", ["second"] = "a"},
-    ["楝"] = {["first"] = "m", ["second"] = "j"},
-    ["楫"] = {["first"] = "m", ["second"] = "e"},
-    ["楸"] = {["first"] = "m", ["second"] = "h"},
-    ["椴"] = {["first"] = "m", ["second"] = "y"},
-    ["槌"] = {["first"] = "m", ["second"] = "z"},
-    ["楯"] = {["first"] = "m", ["second"] = "o"},
-    ["皙"] = {["first"] = "m", ["second"] = "b"},
-    ["榈"] = {["first"] = "m", ["second"] = "k"},
-    ["槎"] = {["first"] = "m", ["second"] = "g"},
-    ["榉"] = {["first"] = "m", ["second"] = "l"},
-    ["楦"] = {["first"] = "m", ["second"] = "a"},
-    ["楣"] = {["first"] = "m", ["second"] = "o"},
-    ["楹"] = {["first"] = "m", ["second"] = "m"},
-    ["椽"] = {["first"] = "m", ["second"] = "u"},
-    ["裘"] = {["first"] = "q", ["second"] = "y"},
-    ["剽"] = {["first"] = "x", ["second"] = "d"},
-    ["甄"] = {["first"] = "x", ["second"] = "w"},
-    ["酮"] = {["first"] = "y", ["second"] = "k"},
-    ["酰"] = {["first"] = "y", ["second"] = "e"},
-    ["酯"] = {["first"] = "y", ["second"] = "o"},
-    ["酩"] = {["first"] = "y", ["second"] = "k"},
-    ["蜃"] = {["first"] = "i", ["second"] = "i"},
-    ["碛"] = {["first"] = "u", ["second"] = "r"},
-    ["碓"] = {["first"] = "u", ["second"] = "f"},
-    ["硼"] = {["first"] = "u", ["second"] = "o"},
-    ["碉"] = {["first"] = "u", ["second"] = "k"},
-    ["碚"] = {["first"] = "u", ["second"] = "k"},
-    ["碇"] = {["first"] = "u", ["second"] = "r"},
-    ["碜"] = {["first"] = "u", ["second"] = "p"},
-    ["鹌"] = {["first"] = "d", ["second"] = "n"},
-    ["辏"] = {["first"] = "i", ["second"] = "t"},
-    ["龃"] = {["first"] = "v", ["second"] = "q"},
-    ["龅"] = {["first"] = "v", ["second"] = "s"},
-    ["訾"] = {["first"] = "v", ["second"] = "k"},
-    ["粲"] = {["first"] = "l", ["second"] = "m"},
-    ["虞"] = {["first"] = "h", ["second"] = "t"},
-    ["睚"] = {["first"] = "o", ["second"] = "t"},
-    ["嗪"] = {["first"] = "k", ["second"] = "h"},
-    ["韪"] = {["first"] = "o", ["second"] = "w"},
-    ["嗷"] = {["first"] = "k", ["second"] = "w"},
-    ["嗉"] = {["first"] = "k", ["second"] = "x"},
-    ["睨"] = {["first"] = "o", ["second"] = "e"},
-    ["睢"] = {["first"] = "o", ["second"] = "f"},
-    ["雎"] = {["first"] = "q", ["second"] = "f"},
-    ["睥"] = {["first"] = "o", ["second"] = "u"},
-    ["嘟"] = {["first"] = "k", ["second"] = "e"},
-    ["嗑"] = {["first"] = "k", ["second"] = "m"},
-    ["嗫"] = {["first"] = "k", ["second"] = "y"},
-    ["嗬"] = {["first"] = "k", ["second"] = "k"},
-    ["嗔"] = {["first"] = "k", ["second"] = "b"},
-    ["嗝"] = {["first"] = "k", ["second"] = "l"},
-    ["戥"] = {["first"] = "o", ["second"] = "g"},
-    ["嗄"] = {["first"] = "k", ["second"] = "w"},
-    ["煦"] = {["first"] = "o", ["second"] = "h"},
-    ["暄"] = {["first"] = "o", ["second"] = "a"},
-    ["遢"] = {["first"] = "z", ["second"] = "x"},
-    ["暌"] = {["first"] = "o", ["second"] = "t"},
-    ["跬"] = {["first"] = "z", ["second"] = "t"},
-    ["跶"] = {["first"] = "z", ["second"] = "z"},
-    ["跸"] = {["first"] = "z", ["second"] = "u"},
-    ["跐"] = {["first"] = "z", ["second"] = "b"},
-    ["跣"] = {["first"] = "z", ["second"] = "e"},
-    ["跹"] = {["first"] = "z", ["second"] = "z"},
-    ["跻"] = {["first"] = "z", ["second"] = "l"},
-    ["蛸"] = {["first"] = "i", ["second"] = "o"},
-    ["蜊"] = {["first"] = "i", ["second"] = "d"},
-    ["蜍"] = {["first"] = "i", ["second"] = "h"},
-    ["蜉"] = {["first"] = "i", ["second"] = "z"},
-    ["蜣"] = {["first"] = "i", ["second"] = "q"},
-    ["畹"] = {["first"] = "t", ["second"] = "v"},
-    ["蛹"] = {["first"] = "i", ["second"] = "y"},
-    ["嗣"] = {["first"] = "k", ["second"] = "k"},
-    ["嗯"] = {["first"] = "k", ["second"] = "x"},
-    ["嗥"] = {["first"] = "k", ["second"] = "u"},
-    ["嗲"] = {["first"] = "k", ["second"] = "x"},
-    ["嗳"] = {["first"] = "k", ["second"] = "y"},
-    ["嗌"] = {["first"] = "k", ["second"] = "m"},
-    ["嗍"] = {["first"] = "k", ["second"] = "o"},
-    ["嗨"] = {["first"] = "k", ["second"] = "m"},
-    ["嗐"] = {["first"] = "k", ["second"] = "k"},
-    ["嗤"] = {["first"] = "k", ["second"] = "i"},
-    ["嗵"] = {["first"] = "k", ["second"] = "z"},
-    ["罨"] = {["first"] = "s", ["second"] = "d"},
-    ["嵊"] = {["first"] = "e", ["second"] = "n"},
-    ["嵩"] = {["first"] = "e", ["second"] = "k"},
-    ["嵴"] = {["first"] = "e", ["second"] = "o"},
-    ["骰"] = {["first"] = "g", ["second"] = "y"},
-    ["锗"] = {["first"] = "j", ["second"] = "o"},
-    ["锛"] = {["first"] = "j", ["second"] = "c"},
-    ["锜"] = {["first"] = "j", ["second"] = "k"},
-    ["锝"] = {["first"] = "j", ["second"] = "c"},
-    ["锞"] = {["first"] = "j", ["second"] = "g"},
-    ["锟"] = {["first"] = "j", ["second"] = "b"},
-    ["锢"] = {["first"] = "j", ["second"] = "k"},
-    ["锨"] = {["first"] = "j", ["second"] = "r"},
-    ["锩"] = {["first"] = "j", ["second"] = "v"},
-    ["锭"] = {["first"] = "j", ["second"] = "r"},
-    ["锱"] = {["first"] = "j", ["second"] = "t"},
-    ["雉"] = {["first"] = "u", ["second"] = "f"},
-    ["氲"] = {["first"] = "q", ["second"] = "m"},
-    ["犏"] = {["first"] = "n", ["second"] = "c"},
-    ["歃"] = {["first"] = "q", ["second"] = "r"},
-    ["稞"] = {["first"] = "h", ["second"] = "g"},
-    ["稗"] = {["first"] = "h", ["second"] = "u"},
-    ["稔"] = {["first"] = "h", ["second"] = "x"},
-    ["筠"] = {["first"] = "v", ["second"] = "d"},
-    ["筢"] = {["first"] = "v", ["second"] = "b"},
-    ["筮"] = {["first"] = "v", ["second"] = "r"},
-    ["筲"] = {["first"] = "v", ["second"] = "o"},
-    ["筱"] = {["first"] = "v", ["second"] = "w"},
-    ["牒"] = {["first"] = "p", ["second"] = "m"},
-    ["煲"] = {["first"] = "r", ["second"] = "h"},
-    ["敫"] = {["first"] = "b", ["second"] = "w"},
-    ["徭"] = {["first"] = "i", ["second"] = "f"},
-    ["愆"] = {["first"] = "i", ["second"] = "x"},
-    ["艄"] = {["first"] = "v", ["second"] = "o"},
-    ["觎"] = {["first"] = "r", ["second"] = "e"},
-    ["毹"] = {["first"] = "r", ["second"] = "m"},
-    ["貊"] = {["first"] = "v", ["second"] = "b"},
-    ["貅"] = {["first"] = "v", ["second"] = "m"},
-    ["貉"] = {["first"] = "v", ["second"] = "k"},
-    ["颔"] = {["first"] = "r", ["second"] = "r"},
-    ["腠"] = {["first"] = "o", ["second"] = "t"},
-    ["腩"] = {["first"] = "o", ["second"] = "g"},
-    ["腼"] = {["first"] = "o", ["second"] = "m"},
-    ["腭"] = {["first"] = "o", ["second"] = "k"},
-    ["腧"] = {["first"] = "o", ["second"] = "d"},
-    ["塍"] = {["first"] = "o", ["second"] = "t"},
-    ["媵"] = {["first"] = "o", ["second"] = "n"},
-    ["詹"] = {["first"] = "d", ["second"] = "k"},
-    ["鲅"] = {["first"] = "a", ["second"] = "d"},
-    ["鲆"] = {["first"] = "a", ["second"] = "p"},
-    ["鲇"] = {["first"] = "a", ["second"] = "k"},
-    ["鲈"] = {["first"] = "a", ["second"] = "u"},
-    ["稣"] = {["first"] = "a", ["second"] = "h"},
-    ["鲋"] = {["first"] = "a", ["second"] = "c"},
-    ["鲐"] = {["first"] = "a", ["second"] = "k"},
-    ["肄"] = {["first"] = "b", ["second"] = "y"},
-    ["鹐"] = {["first"] = "d", ["second"] = "n"},
-    ["飕"] = {["first"] = "j", ["second"] = "y"},
-    ["觥"] = {["first"] = "d", ["second"] = "w"},
-    ["遛"] = {["first"] = "z", ["second"] = "t"},
-    ["馐"] = {["first"] = "u", ["second"] = "i"},
-    ["鹑"] = {["first"] = "w", ["second"] = "n"},
-    ["亶"] = {["first"] = "w", ["second"] = "a"},
-    ["瘃"] = {["first"] = "b", ["second"] = "n"},
-    ["痱"] = {["first"] = "b", ["second"] = "f"},
-    ["痼"] = {["first"] = "b", ["second"] = "k"},
-    ["痿"] = {["first"] = "b", ["second"] = "n"},
-    ["瘐"] = {["first"] = "b", ["second"] = "y"},
-    ["瘁"] = {["first"] = "b", ["second"] = "u"},
-    ["瘆"] = {["first"] = "b", ["second"] = "p"},
-    ["麂"] = {["first"] = "g", ["second"] = "j"},
-    ["裔"] = {["first"] = "w", ["second"] = "k"},
-    ["歆"] = {["first"] = "l", ["second"] = "r"},
-    ["旒"] = {["first"] = "f", ["second"] = "v"},
-    ["雍"] = {["first"] = "w", ["second"] = "f"},
-    ["阖"] = {["first"] = "m", ["second"] = "m"},
-    ["阗"] = {["first"] = "m", ["second"] = "b"},
-    ["阙"] = {["first"] = "m", ["second"] = "r"},
-    ["羧"] = {["first"] = "y", ["second"] = "w"},
-    ["豢"] = {["first"] = "j", ["second"] = "u"},
-    ["粳"] = {["first"] = "m", ["second"] = "g"},
-    ["猷"] = {["first"] = "b", ["second"] = "q"},
-    ["煳"] = {["first"] = "h", ["second"] = "o"},
-    ["煜"] = {["first"] = "h", ["second"] = "l"},
-    ["煨"] = {["first"] = "h", ["second"] = "n"},
-    ["煅"] = {["first"] = "h", ["second"] = "y"},
-    ["煊"] = {["first"] = "h", ["second"] = "a"},
-    ["煸"] = {["first"] = "h", ["second"] = "c"},
-    ["煺"] = {["first"] = "h", ["second"] = "z"},
-    ["滟"] = {["first"] = "d", ["second"] = "b"},
-    ["溱"] = {["first"] = "d", ["second"] = "h"},
-    ["溘"] = {["first"] = "d", ["second"] = "m"},
-    ["漭"] = {["first"] = "d", ["second"] = "c"},
-    ["滢"] = {["first"] = "d", ["second"] = "y"},
-    ["溥"] = {["first"] = "d", ["second"] = "c"},
-    ["溧"] = {["first"] = "d", ["second"] = "m"},
-    ["溽"] = {["first"] = "d", ["second"] = "c"},
-    ["裟"] = {["first"] = "d", ["second"] = "y"},
-    ["溻"] = {["first"] = "d", ["second"] = "x"},
-    ["溷"] = {["first"] = "d", ["second"] = "u"},
-    ["滗"] = {["first"] = "d", ["second"] = "m"},
-    ["滫"] = {["first"] = "d", ["second"] = "o"},
-    ["溴"] = {["first"] = "d", ["second"] = "q"},
-    ["滏"] = {["first"] = "d", ["second"] = "a"},
-    ["滃"] = {["first"] = "d", ["second"] = "x"},
-    ["滦"] = {["first"] = "d", ["second"] = "m"},
-    ["溏"] = {["first"] = "d", ["second"] = "k"},
-    ["滂"] = {["first"] = "d", ["second"] = "f"},
-    ["滓"] = {["first"] = "d", ["second"] = "u"},
-    ["溟"] = {["first"] = "d", ["second"] = "b"},
-    ["滪"] = {["first"] = "d", ["second"] = "r"},
-    ["愫"] = {["first"] = "x", ["second"] = "x"},
-    ["慑"] = {["first"] = "x", ["second"] = "y"},
-    ["慊"] = {["first"] = "x", ["second"] = "n"},
-    ["鲎"] = {["first"] = "x", ["second"] = "a"},
-    ["骞"] = {["first"] = "b", ["second"] = "m"},
-    ["窦"] = {["first"] = "b", ["second"] = "d"},
-    ["窠"] = {["first"] = "b", ["second"] = "g"},
-    ["窣"] = {["first"] = "b", ["second"] = "u"},
-    ["裱"] = {["first"] = "p", ["second"] = "y"},
-    ["褚"] = {["first"] = "p", ["second"] = "o"},
-    ["裨"] = {["first"] = "p", ["second"] = "u"},
-    ["裾"] = {["first"] = "p", ["second"] = "k"},
-    ["裰"] = {["first"] = "p", ["second"] = "y"},
-    ["禊"] = {["first"] = "p", ["second"] = "d"},
-    ["谩"] = {["first"] = "y", ["second"] = "y"},
-    ["谪"] = {["first"] = "y", ["second"] = "k"},
-    ["媾"] = {["first"] = "n", ["second"] = "r"},
-    ["嫫"] = {["first"] = "n", ["second"] = "d"},
-    ["媲"] = {["first"] = "n", ["second"] = "b"},
-    ["嫒"] = {["first"] = "n", ["second"] = "y"},
-    ["嫔"] = {["first"] = "n", ["second"] = "b"},
-    ["媸"] = {["first"] = "n", ["second"] = "i"},
-    ["缙"] = {["first"] = "s", ["second"] = "o"},
-    ["缜"] = {["first"] = "s", ["second"] = "b"},
-    ["缛"] = {["first"] = "s", ["second"] = "c"},
-    ["辔"] = {["first"] = "s", ["second"] = "k"},
-    ["骝"] = {["first"] = "m", ["second"] = "t"},
-    ["缟"] = {["first"] = "s", ["second"] = "k"},
-    ["缡"] = {["first"] = "s", ["second"] = "d"},
-    ["缢"] = {["first"] = "s", ["second"] = "m"},
-    ["缣"] = {["first"] = "s", ["second"] = "n"},
-    ["骟"] = {["first"] = "m", ["second"] = "x"},
-    ["耥"] = {["first"] = "l", ["second"] = "k"},
-    ["璈"] = {["first"] = "w", ["second"] = "w"},
-    ["瑶"] = {["first"] = "w", ["second"] = "f"},
-    ["瑭"] = {["first"] = "w", ["second"] = "k"},
-    ["獒"] = {["first"] = "f", ["second"] = "q"},
-    ["觏"] = {["first"] = "a", ["second"] = "e"},
-    ["慝"] = {["first"] = "k", ["second"] = "x"},
-    ["嫠"] = {["first"] = "w", ["second"] = "n"},
-    ["韬"] = {["first"] = "w", ["second"] = "j"},
-    ["叆"] = {["first"] = "e", ["second"] = "y"},
-    ["髦"] = {["first"] = "a", ["second"] = "m"},
-    ["摽"] = {["first"] = "f", ["second"] = "x"},
-    ["墁"] = {["first"] = "t", ["second"] = "y"},
-    ["撂"] = {["first"] = "f", ["second"] = "k"},
-    ["摞"] = {["first"] = "f", ["second"] = "x"},
-    ["撄"] = {["first"] = "f", ["second"] = "n"},
-    ["翥"] = {["first"] = "l", ["second"] = "x"},
-    ["踅"] = {["first"] = "f", ["second"] = "r"},
-    ["摭"] = {["first"] = "f", ["second"] = "h"},
-    ["墉"] = {["first"] = "t", ["second"] = "l"},
-    ["墒"] = {["first"] = "t", ["second"] = "k"},
-    ["榖"] = {["first"] = "u", ["second"] = "y"},
-    ["綦"] = {["first"] = "q", ["second"] = "x"},
-    ["蔫"] = {["first"] = "c", ["second"] = "h"},
-    ["蔷"] = {["first"] = "c", ["second"] = "k"},
-    ["靺"] = {["first"] = "g", ["second"] = "m"},
-    ["靼"] = {["first"] = "g", ["second"] = "a"},
-    ["鞅"] = {["first"] = "g", ["second"] = "y"},
-    ["靿"] = {["first"] = "g", ["second"] = "l"},
-    ["甍"] = {["first"] = "c", ["second"] = "w"},
-    ["蔸"] = {["first"] = "c", ["second"] = "e"},
-    ["蔟"] = {["first"] = "c", ["second"] = "u"},
-    ["蔺"] = {["first"] = "c", ["second"] = "f"},
-    ["戬"] = {["first"] = "y", ["second"] = "g"},
-    ["蕖"] = {["first"] = "c", ["second"] = "m"},
-    ["蔻"] = {["first"] = "c", ["second"] = "y"},
-    ["蓿"] = {["first"] = "c", ["second"] = "b"},
-    ["斡"] = {["first"] = "u", ["second"] = "u"},
-    ["鹕"] = {["first"] = "u", ["second"] = "n"},
-    ["蓼"] = {["first"] = "c", ["second"] = "p"},
-    ["榛"] = {["first"] = "m", ["second"] = "h"},
-    ["榧"] = {["first"] = "m", ["second"] = "f"},
-    ["榻"] = {["first"] = "m", ["second"] = "x"},
-    ["榫"] = {["first"] = "m", ["second"] = "u"},
-    ["榭"] = {["first"] = "m", ["second"] = "c"},
-    ["槔"] = {["first"] = "m", ["second"] = "u"},
-    ["榱"] = {["first"] = "m", ["second"] = "y"},
-    ["槁"] = {["first"] = "m", ["second"] = "k"},
-    ["槟"] = {["first"] = "m", ["second"] = "b"},
-    ["槠"] = {["first"] = "m", ["second"] = "o"},
-    ["榷"] = {["first"] = "m", ["second"] = "f"},
-    ["僰"] = {["first"] = "a", ["second"] = "r"},
-    ["酽"] = {["first"] = "y", ["second"] = "y"},
-    ["酶"] = {["first"] = "y", ["second"] = "m"},
-    ["酹"] = {["first"] = "y", ["second"] = "c"},
-    ["厮"] = {["first"] = "i", ["second"] = "j"},
-    ["碡"] = {["first"] = "u", ["second"] = "m"},
-    ["碴"] = {["first"] = "u", ["second"] = "a"},
-    ["碣"] = {["first"] = "u", ["second"] = "v"},
-    ["碲"] = {["first"] = "u", ["second"] = "j"},
-    ["磋"] = {["first"] = "u", ["second"] = "g"},
-    ["臧"] = {["first"] = "w", ["second"] = "i"},
-    ["豨"] = {["first"] = "u", ["second"] = "j"},
-    ["殡"] = {["first"] = "d", ["second"] = "b"},
-    ["霆"] = {["first"] = "y", ["second"] = "z"},
-    ["霁"] = {["first"] = "y", ["second"] = "l"},
-    ["辕"] = {["first"] = "i", ["second"] = "y"},
-    ["蜚"] = {["first"] = "f", ["second"] = "i"},
-    ["裴"] = {["first"] = "f", ["second"] = "y"},
-    ["翡"] = {["first"] = "f", ["second"] = "x"},
-    ["龇"] = {["first"] = "v", ["second"] = "b"},
-    ["龈"] = {["first"] = "v", ["second"] = "g"},
-    ["睿"] = {["first"] = "l", ["second"] = "o"},
-    ["䁖"] = {["first"] = "o", ["second"] = "n"},
-    ["睽"] = {["first"] = "o", ["second"] = "t"},
-    ["嘞"] = {["first"] = "k", ["second"] = "l"},
-    ["嘈"] = {["first"] = "k", ["second"] = "o"},
-    ["嘌"] = {["first"] = "k", ["second"] = "x"},
-    ["嘁"] = {["first"] = "k", ["second"] = "x"},
-    ["嘎"] = {["first"] = "k", ["second"] = "g"},
-    ["暧"] = {["first"] = "o", ["second"] = "y"},
-    ["暝"] = {["first"] = "o", ["second"] = "b"},
-    ["踌"] = {["first"] = "z", ["second"] = "c"},
-    ["踉"] = {["first"] = "z", ["second"] = "l"},
-    ["蜞"] = {["first"] = "i", ["second"] = "b"},
-    ["蜥"] = {["first"] = "i", ["second"] = "j"},
-    ["蜮"] = {["first"] = "i", ["second"] = "a"},
-    ["蝈"] = {["first"] = "i", ["second"] = "y"},
-    ["蜴"] = {["first"] = "i", ["second"] = "w"},
-    ["蜱"] = {["first"] = "i", ["second"] = "u"},
-    ["蜩"] = {["first"] = "i", ["second"] = "k"},
-    ["蜷"] = {["first"] = "i", ["second"] = "v"},
-    ["蜿"] = {["first"] = "i", ["second"] = "v"},
-    ["螂"] = {["first"] = "i", ["second"] = "e"},
-    ["蜢"] = {["first"] = "i", ["second"] = "m"},
-    ["嘘"] = {["first"] = "k", ["second"] = "y"},
-    ["嘡"] = {["first"] = "k", ["second"] = "t"},
-    ["鹗"] = {["first"] = "k", ["second"] = "n"},
-    ["嘣"] = {["first"] = "k", ["second"] = "o"},
-    ["嘤"] = {["first"] = "k", ["second"] = "n"},
-    ["嘚"] = {["first"] = "k", ["second"] = "c"},
-    ["嗾"] = {["first"] = "k", ["second"] = "u"},
-    ["嘧"] = {["first"] = "k", ["second"] = "e"},
-    ["罴"] = {["first"] = "s", ["second"] = "h"},
-    ["罱"] = {["first"] = "s", ["second"] = "g"},
-    ["幔"] = {["first"] = "j", ["second"] = "y"},
-    ["嶂"] = {["first"] = "e", ["second"] = "u"},
-    ["幛"] = {["first"] = "j", ["second"] = "u"},
-    ["赙"] = {["first"] = "k", ["second"] = "c"},
-    ["罂"] = {["first"] = "k", ["second"] = "f"},
-    ["骷"] = {["first"] = "g", ["second"] = "k"},
-    ["骶"] = {["first"] = "g", ["second"] = "d"},
-    ["鹘"] = {["first"] = "g", ["second"] = "n"},
-    ["锲"] = {["first"] = "j", ["second"] = "d"},
-    ["锴"] = {["first"] = "j", ["second"] = "b"},
-    ["锶"] = {["first"] = "j", ["second"] = "x"},
-    ["锷"] = {["first"] = "j", ["second"] = "k"},
-    ["锸"] = {["first"] = "j", ["second"] = "j"},
-    ["锵"] = {["first"] = "j", ["second"] = "c"},
-    ["镁"] = {["first"] = "j", ["second"] = "d"},
-    ["镂"] = {["first"] = "j", ["second"] = "n"},
-    ["犒"] = {["first"] = "n", ["second"] = "k"},
-    ["箐"] = {["first"] = "v", ["second"] = "o"},
-    ["箦"] = {["first"] = "v", ["second"] = "r"},
-    ["箧"] = {["first"] = "v", ["second"] = "j"},
-    ["箍"] = {["first"] = "v", ["second"] = "j"},
-    ["箸"] = {["first"] = "v", ["second"] = "o"},
-    ["箬"] = {["first"] = "v", ["second"] = "k"},
-    ["箅"] = {["first"] = "v", ["second"] = "l"},
-    ["箪"] = {["first"] = "v", ["second"] = "l"},
-    ["箔"] = {["first"] = "v", ["second"] = "b"},
-    ["箜"] = {["first"] = "v", ["second"] = "g"},
-    ["箢"] = {["first"] = "v", ["second"] = "v"},
-    ["箓"] = {["first"] = "v", ["second"] = "u"},
-    ["毓"] = {["first"] = "p", ["second"] = "v"},
-    ["僖"] = {["first"] = "r", ["second"] = "k"},
-    ["儆"] = {["first"] = "r", ["second"] = "w"},
-    ["僳"] = {["first"] = "r", ["second"] = "m"},
-    ["僭"] = {["first"] = "r", ["second"] = "o"},
-    ["劁"] = {["first"] = "r", ["second"] = "d"},
-    ["僮"] = {["first"] = "r", ["second"] = "l"},
-    ["魃"] = {["first"] = "g", ["second"] = "d"},
-    ["魆"] = {["first"] = "g", ["second"] = "v"},
-    ["睾"] = {["first"] = "p", ["second"] = "g"},
-    ["艋"] = {["first"] = "v", ["second"] = "m"},
-    ["鄱"] = {["first"] = "p", ["second"] = "e"},
-    ["膈"] = {["first"] = "o", ["second"] = "l"},
-    ["膑"] = {["first"] = "o", ["second"] = "b"},
-    ["鲑"] = {["first"] = "a", ["second"] = "t"},
-    ["鲔"] = {["first"] = "a", ["second"] = "o"},
-    ["鲚"] = {["first"] = "a", ["second"] = "l"},
-    ["鲛"] = {["first"] = "a", ["second"] = "x"},
-    ["鲟"] = {["first"] = "a", ["second"] = "c"},
-    ["獐"] = {["first"] = "q", ["second"] = "u"},
-    ["觫"] = {["first"] = "d", ["second"] = "u"},
-    ["雒"] = {["first"] = "w", ["second"] = "f"},
-    ["夤"] = {["first"] = "x", ["second"] = "b"},
-    ["馑"] = {["first"] = "u", ["second"] = "a"},
-    ["銮"] = {["first"] = "w", ["second"] = "j"},
-    ["塾"] = {["first"] = "w", ["second"] = "t"},
-    ["麽"] = {["first"] = "g", ["second"] = "m"},
-    ["瘌"] = {["first"] = "b", ["second"] = "d"},
-    ["瘊"] = {["first"] = "b", ["second"] = "u"},
-    ["瘘"] = {["first"] = "b", ["second"] = "n"},
-    ["瘙"] = {["first"] = "b", ["second"] = "i"},
-    ["廖"] = {["first"] = "g", ["second"] = "p"},
-    ["韶"] = {["first"] = "l", ["second"] = "k"},
-    ["旖"] = {["first"] = "f", ["second"] = "k"},
-    ["膂"] = {["first"] = "f", ["second"] = "o"},
-    ["阚"] = {["first"] = "m", ["second"] = "w"},
-    ["鄯"] = {["first"] = "y", ["second"] = "e"},
-    ["鲞"] = {["first"] = "j", ["second"] = "a"},
-    ["粿"] = {["first"] = "m", ["second"] = "g"},
-    ["粼"] = {["first"] = "m", ["second"] = "v"},
-    ["粽"] = {["first"] = "m", ["second"] = "x"},
-    ["糁"] = {["first"] = "m", ["second"] = "p"},
-    ["槊"] = {["first"] = "b", ["second"] = "m"},
-    ["鹚"] = {["first"] = "b", ["second"] = "n"},
-    ["熘"] = {["first"] = "h", ["second"] = "t"},
-    ["熥"] = {["first"] = "h", ["second"] = "z"},
-    ["潢"] = {["first"] = "d", ["second"] = "b"},
-    ["漕"] = {["first"] = "d", ["second"] = "o"},
-    ["滹"] = {["first"] = "d", ["second"] = "h"},
-    ["漯"] = {["first"] = "d", ["second"] = "x"},
-    ["漶"] = {["first"] = "d", ["second"] = "x"},
-    ["潋"] = {["first"] = "d", ["second"] = "w"},
-    ["潴"] = {["first"] = "d", ["second"] = "o"},
-    ["漪"] = {["first"] = "d", ["second"] = "k"},
-    ["漉"] = {["first"] = "d", ["second"] = "b"},
-    ["漳"] = {["first"] = "d", ["second"] = "u"},
-    ["漩"] = {["first"] = "d", ["second"] = "r"},
-    ["澉"] = {["first"] = "d", ["second"] = "w"},
-    ["潍"] = {["first"] = "d", ["second"] = "f"},
-    ["慵"] = {["first"] = "x", ["second"] = "l"},
-    ["搴"] = {["first"] = "b", ["second"] = "u"},
-    ["窨"] = {["first"] = "b", ["second"] = "o"},
-    ["寤"] = {["first"] = "b", ["second"] = "k"},
-    ["綮"] = {["first"] = "h", ["second"] = "x"},
-    ["谮"] = {["first"] = "y", ["second"] = "o"},
-    ["褡"] = {["first"] = "p", ["second"] = "k"},
-    ["褙"] = {["first"] = "p", ["second"] = "o"},
-    ["褓"] = {["first"] = "p", ["second"] = "m"},
-    ["褛"] = {["first"] = "p", ["second"] = "n"},
-    ["褊"] = {["first"] = "p", ["second"] = "c"},
-    ["谯"] = {["first"] = "y", ["second"] = "h"},
-    ["谰"] = {["first"] = "y", ["second"] = "j"},
-    ["谲"] = {["first"] = "y", ["second"] = "k"},
-    ["暨"] = {["first"] = "g", ["second"] = "a"},
-    ["屣"] = {["first"] = "u", ["second"] = "r"},
-    ["鹛"] = {["first"] = "v", ["second"] = "n"},
-    ["嫣"] = {["first"] = "n", ["second"] = "h"},
-    ["嫱"] = {["first"] = "n", ["second"] = "k"},
-    ["嫖"] = {["first"] = "n", ["second"] = "x"},
-    ["嫦"] = {["first"] = "n", ["second"] = "j"},
-    ["嫚"] = {["first"] = "n", ["second"] = "y"},
-    ["嫘"] = {["first"] = "n", ["second"] = "x"},
-    ["嫡"] = {["first"] = "n", ["second"] = "k"},
-    ["鼐"] = {["first"] = "n", ["second"] = "v"},
-    ["翟"] = {["first"] = "x", ["second"] = "f"},
-    ["瞀"] = {["first"] = "s", ["second"] = "o"},
-    ["鹜"] = {["first"] = "s", ["second"] = "n"},
-    ["骠"] = {["first"] = "m", ["second"] = "x"},
-    ["缥"] = {["first"] = "s", ["second"] = "x"},
-    ["缦"] = {["first"] = "s", ["second"] = "y"},
-    ["缧"] = {["first"] = "s", ["second"] = "x"},
-    ["缨"] = {["first"] = "s", ["second"] = "n"},
-    ["骢"] = {["first"] = "m", ["second"] = "x"},
-    ["缪"] = {["first"] = "s", ["second"] = "p"},
-    ["缫"] = {["first"] = "s", ["second"] = "g"},
-    ["耦"] = {["first"] = "l", ["second"] = "y"},
-    ["耧"] = {["first"] = "l", ["second"] = "n"},
-    ["瑾"] = {["first"] = "w", ["second"] = "a"},
-    ["璜"] = {["first"] = "w", ["second"] = "b"},
-    ["璀"] = {["first"] = "w", ["second"] = "f"},
-    ["璎"] = {["first"] = "w", ["second"] = "n"},
-    ["璁"] = {["first"] = "w", ["second"] = "x"},
-    ["璋"] = {["first"] = "w", ["second"] = "u"},
-    ["璇"] = {["first"] = "w", ["second"] = "r"},
-    ["奭"] = {["first"] = "d", ["second"] = "b"},
-    ["髯"] = {["first"] = "a", ["second"] = "r"},
-    ["髫"] = {["first"] = "a", ["second"] = "k"},
-    ["撷"] = {["first"] = "f", ["second"] = "r"},
-    ["撅"] = {["first"] = "f", ["second"] = "r"},
-    ["赭"] = {["first"] = "t", ["second"] = "o"},
-    ["撸"] = {["first"] = "f", ["second"] = "o"},
-    ["鋆"] = {["first"] = "t", ["second"] = "j"},
-    ["撙"] = {["first"] = "f", ["second"] = "c"},
-    ["撺"] = {["first"] = "f", ["second"] = "i"},
-    ["墀"] = {["first"] = "t", ["second"] = "n"},
-    ["聩"] = {["first"] = "e", ["second"] = "r"},
-    ["觐"] = {["first"] = "n", ["second"] = "e"},
-    ["鞑"] = {["first"] = "g", ["second"] = "z"},
-    ["蕙"] = {["first"] = "c", ["second"] = "x"},
-    ["鞒"] = {["first"] = "g", ["second"] = "l"},
-    ["蕈"] = {["first"] = "c", ["second"] = "u"},
-    ["蕨"] = {["first"] = "c", ["second"] = "r"},
-    ["蕤"] = {["first"] = "c", ["second"] = "u"},
-    ["蕞"] = {["first"] = "c", ["second"] = "y"},
-    ["蕺"] = {["first"] = "c", ["second"] = "a"},
-    ["瞢"] = {["first"] = "c", ["second"] = "o"},
-    ["蕃"] = {["first"] = "c", ["second"] = "t"},
-    ["蕲"] = {["first"] = "c", ["second"] = "j"},
-    ["赜"] = {["first"] = "k", ["second"] = "r"},
-    ["槿"] = {["first"] = "m", ["second"] = "a"},
-    ["樯"] = {["first"] = "m", ["second"] = "k"},
-    ["槭"] = {["first"] = "m", ["second"] = "x"},
-    ["樗"] = {["first"] = "m", ["second"] = "k"},
-    ["樘"] = {["first"] = "m", ["second"] = "t"},
-    ["樊"] = {["first"] = "m", ["second"] = "d"},
-    ["槲"] = {["first"] = "m", ["second"] = "u"},
-    ["醌"] = {["first"] = "y", ["second"] = "b"},
-    ["醅"] = {["first"] = "y", ["second"] = "k"},
-    ["靥"] = {["first"] = "i", ["second"] = "m"},
-    ["魇"] = {["first"] = "i", ["second"] = "g"},
-    ["餍"] = {["first"] = "i", ["second"] = "l"},
-    ["磔"] = {["first"] = "u", ["second"] = "m"},
-    ["磙"] = {["first"] = "u", ["second"] = "y"},
-    ["霈"] = {["first"] = "y", ["second"] = "l"},
-    ["辘"] = {["first"] = "i", ["second"] = "b"},
-    ["龉"] = {["first"] = "v", ["second"] = "k"},
-    ["龊"] = {["first"] = "v", ["second"] = "r"},
-    ["觑"] = {["first"] = "h", ["second"] = "e"},
-    ["瞌"] = {["first"] = "o", ["second"] = "m"},
-    ["瞋"] = {["first"] = "o", ["second"] = "b"},
-    ["瞑"] = {["first"] = "o", ["second"] = "b"},
-    ["嘭"] = {["first"] = "k", ["second"] = "p"},
-    ["噎"] = {["first"] = "k", ["second"] = "a"},
-    ["噶"] = {["first"] = "k", ["second"] = "v"},
-    ["颙"] = {["first"] = "y", ["second"] = "r"},
-    ["暹"] = {["first"] = "z", ["second"] = "f"},
-    ["噘"] = {["first"] = "k", ["second"] = "r"},
-    ["踔"] = {["first"] = "z", ["second"] = "u"},
-    ["踝"] = {["first"] = "z", ["second"] = "g"},
-    ["踟"] = {["first"] = "z", ["second"] = "k"},
-    ["踒"] = {["first"] = "z", ["second"] = "n"},
-    ["踬"] = {["first"] = "z", ["second"] = "r"},
-    ["踮"] = {["first"] = "z", ["second"] = "k"},
-    ["踯"] = {["first"] = "z", ["second"] = "e"},
-    ["踺"] = {["first"] = "z", ["second"] = "z"},
-    ["踞"] = {["first"] = "z", ["second"] = "k"},
-    ["蝽"] = {["first"] = "i", ["second"] = "o"},
-    ["蝾"] = {["first"] = "i", ["second"] = "m"},
-    ["蝻"] = {["first"] = "i", ["second"] = "g"},
-    ["蝰"] = {["first"] = "i", ["second"] = "t"},
-    ["蝮"] = {["first"] = "i", ["second"] = "w"},
-    ["螋"] = {["first"] = "i", ["second"] = "y"},
-    ["蝓"] = {["first"] = "i", ["second"] = "d"},
-    ["蝣"] = {["first"] = "i", ["second"] = "z"},
-    ["蝼"] = {["first"] = "i", ["second"] = "n"},
-    ["噗"] = {["first"] = "k", ["second"] = "n"},
-    ["嘬"] = {["first"] = "k", ["second"] = "y"},
-    ["颚"] = {["first"] = "k", ["second"] = "r"},
-    ["噍"] = {["first"] = "k", ["second"] = "h"},
-    ["噢"] = {["first"] = "k", ["second"] = "d"},
-    ["噙"] = {["first"] = "k", ["second"] = "d"},
-    ["噜"] = {["first"] = "k", ["second"] = "o"},
-    ["噌"] = {["first"] = "k", ["second"] = "o"},
-    ["噔"] = {["first"] = "k", ["second"] = "a"},
-    ["颛"] = {["first"] = "e", ["second"] = "r"},
-    ["幞"] = {["first"] = "j", ["second"] = "n"},
-    ["幡"] = {["first"] = "j", ["second"] = "t"},
-    ["嶙"] = {["first"] = "e", ["second"] = "l"},
-    ["嶝"] = {["first"] = "e", ["second"] = "a"},
-    ["骺"] = {["first"] = "g", ["second"] = "k"},
-    ["骼"] = {["first"] = "g", ["second"] = "k"},
-    ["骸"] = {["first"] = "g", ["second"] = "r"},
-    ["镊"] = {["first"] = "j", ["second"] = "y"},
-    ["镉"] = {["first"] = "j", ["second"] = "l"},
-    ["镌"] = {["first"] = "j", ["second"] = "n"},
-    ["镍"] = {["first"] = "j", ["second"] = "m"},
-    ["镏"] = {["first"] = "j", ["second"] = "t"},
-    ["镒"] = {["first"] = "j", ["second"] = "m"},
-    ["镓"] = {["first"] = "j", ["second"] = "u"},
-    ["镔"] = {["first"] = "j", ["second"] = "b"},
-    ["稷"] = {["first"] = "h", ["second"] = "w"},
-    ["箴"] = {["first"] = "v", ["second"] = "k"},
-    ["篑"] = {["first"] = "v", ["second"] = "r"},
-    ["篁"] = {["first"] = "v", ["second"] = "w"},
-    ["篌"] = {["first"] = "v", ["second"] = "u"},
-    ["篆"] = {["first"] = "v", ["second"] = "u"},
-    ["牖"] = {["first"] = "p", ["second"] = "f"},
-    ["儋"] = {["first"] = "r", ["second"] = "k"},
-    ["徵"] = {["first"] = "i", ["second"] = "w"},
-    ["磐"] = {["first"] = "v", ["second"] = "u"},
-    ["虢"] = {["first"] = "p", ["second"] = "j"},
-    ["鹞"] = {["first"] = "p", ["second"] = "n"},
-    ["膘"] = {["first"] = "o", ["second"] = "x"},
-    ["滕"] = {["first"] = "o", ["second"] = "u"},
-    ["鲠"] = {["first"] = "a", ["second"] = "g"},
-    ["鲡"] = {["first"] = "a", ["second"] = "l"},
-    ["鲢"] = {["first"] = "a", ["second"] = "z"},
-    ["鲣"] = {["first"] = "a", ["second"] = "t"},
-    ["鲥"] = {["first"] = "a", ["second"] = "c"},
-    ["鲧"] = {["first"] = "a", ["second"] = "x"},
-    ["鲩"] = {["first"] = "a", ["second"] = "e"},
-    ["獗"] = {["first"] = "q", ["second"] = "r"},
-    ["獠"] = {["first"] = "q", ["second"] = "x"},
-    ["觯"] = {["first"] = "d", ["second"] = "l"},
-    ["馓"] = {["first"] = "u", ["second"] = "w"},
-    ["馔"] = {["first"] = "u", ["second"] = "b"},
-    ["麾"] = {["first"] = "g", ["second"] = "m"},
-    ["廛"] = {["first"] = "g", ["second"] = "t"},
-    ["瘛"] = {["first"] = "b", ["second"] = "x"},
-    ["瘼"] = {["first"] = "b", ["second"] = "d"},
-    ["瘢"] = {["first"] = "b", ["second"] = "y"},
-    ["瘠"] = {["first"] = "b", ["second"] = "o"},
-    ["齑"] = {["first"] = "w", ["second"] = "l"},
-    ["羯"] = {["first"] = "y", ["second"] = "v"},
-    ["羰"] = {["first"] = "y", ["second"] = "h"},
-    ["𥻗"] = {["first"] = "m", ["second"] = "a"},
-    ["遴"] = {["first"] = "z", ["second"] = "l"},
-    ["糌"] = {["first"] = "m", ["second"] = "o"},
-    ["糍"] = {["first"] = "m", ["second"] = "y"},
-    ["糅"] = {["first"] = "m", ["second"] = "m"},
-    ["熜"] = {["first"] = "h", ["second"] = "x"},
-    ["熵"] = {["first"] = "h", ["second"] = "k"},
-    ["熠"] = {["first"] = "h", ["second"] = "b"},
-    ["澍"] = {["first"] = "d", ["second"] = "c"},
-    ["澌"] = {["first"] = "d", ["second"] = "j"},
-    ["潸"] = {["first"] = "d", ["second"] = "o"},
-    ["潦"] = {["first"] = "d", ["second"] = "x"},
-    ["潲"] = {["first"] = "d", ["second"] = "o"},
-    ["鋈"] = {["first"] = "d", ["second"] = "j"},
-    ["潟"] = {["first"] = "d", ["second"] = "h"},
-    ["潼"] = {["first"] = "d", ["second"] = "l"},
-    ["潺"] = {["first"] = "d", ["second"] = "z"},
-    ["憬"] = {["first"] = "x", ["second"] = "x"},
-    ["憧"] = {["first"] = "x", ["second"] = "l"},
-    ["寮"] = {["first"] = "b", ["second"] = "x"},
-    ["窳"] = {["first"] = "b", ["second"] = "g"},
-    ["谳"] = {["first"] = "y", ["second"] = "q"},
-    ["褴"] = {["first"] = "p", ["second"] = "m"},
-    ["褟"] = {["first"] = "p", ["second"] = "x"},
-    ["褫"] = {["first"] = "p", ["second"] = "j"},
-    ["谵"] = {["first"] = "y", ["second"] = "k"},
-    ["熨"] = {["first"] = "u", ["second"] = "h"},
-    ["屦"] = {["first"] = "u", ["second"] = "n"},
-    ["嬉"] = {["first"] = "n", ["second"] = "k"},
-    ["勰"] = {["first"] = "l", ["second"] = "x"},
-    ["戮"] = {["first"] = "x", ["second"] = "g"},
-    ["蝥"] = {["first"] = "s", ["second"] = "i"},
-    ["缬"] = {["first"] = "s", ["second"] = "r"},
-    ["缮"] = {["first"] = "s", ["second"] = "k"},
-    ["缯"] = {["first"] = "s", ["second"] = "o"},
-    ["骣"] = {["first"] = "m", ["second"] = "z"},
-    ["畿"] = {["first"] = "y", ["second"] = "t"},
-    ["耩"] = {["first"] = "l", ["second"] = "r"},
-    ["耨"] = {["first"] = "l", ["second"] = "c"},
-    ["耪"] = {["first"] = "l", ["second"] = "f"},
-    ["璞"] = {["first"] = "w", ["second"] = "n"},
-    ["璟"] = {["first"] = "w", ["second"] = "x"},
-    ["靛"] = {["first"] = "f", ["second"] = "r"},
-    ["璠"] = {["first"] = "w", ["second"] = "t"},
-    ["璘"] = {["first"] = "w", ["second"] = "l"},
-    ["聱"] = {["first"] = "f", ["second"] = "e"},
-    ["螯"] = {["first"] = "f", ["second"] = "i"},
-    ["髻"] = {["first"] = "a", ["second"] = "k"},
-    ["髭"] = {["first"] = "a", ["second"] = "b"},
-    ["髹"] = {["first"] = "a", ["second"] = "m"},
-    ["擀"] = {["first"] = "f", ["second"] = "g"},
-    ["熹"] = {["first"] = "u", ["second"] = "h"},
-    ["甏"] = {["first"] = "u", ["second"] = "w"},
-    ["擞"] = {["first"] = "f", ["second"] = "w"},
-    ["縠"] = {["first"] = "u", ["second"] = "y"},
-    ["磬"] = {["first"] = "u", ["second"] = "u"},
-    ["颞"] = {["first"] = "e", ["second"] = "r"},
-    ["蕻"] = {["first"] = "c", ["second"] = "b"},
-    ["鞘"] = {["first"] = "g", ["second"] = "o"},
-    ["颟"] = {["first"] = "c", ["second"] = "r"},
-    ["薤"] = {["first"] = "c", ["second"] = "j"},
-    ["薨"] = {["first"] = "c", ["second"] = "b"},
-    ["檠"] = {["first"] = "c", ["second"] = "m"},
-    ["薏"] = {["first"] = "c", ["second"] = "x"},
-    ["薮"] = {["first"] = "c", ["second"] = "w"},
-    ["薜"] = {["first"] = "c", ["second"] = "u"},
-    ["薅"] = {["first"] = "c", ["second"] = "c"},
-    ["樾"] = {["first"] = "m", ["second"] = "v"},
-    ["橛"] = {["first"] = "m", ["second"] = "r"},
-    ["橇"] = {["first"] = "m", ["second"] = "m"},
-    ["樵"] = {["first"] = "m", ["second"] = "h"},
-    ["檎"] = {["first"] = "m", ["second"] = "d"},
-    ["橹"] = {["first"] = "m", ["second"] = "o"},
-    ["樽"] = {["first"] = "m", ["second"] = "c"},
-    ["樨"] = {["first"] = "m", ["second"] = "n"},
-    ["橼"] = {["first"] = "m", ["second"] = "u"},
-    ["墼"] = {["first"] = "i", ["second"] = "t"},
-    ["橐"] = {["first"] = "a", ["second"] = "m"},
-    ["翮"] = {["first"] = "a", ["second"] = "x"},
-    ["醛"] = {["first"] = "y", ["second"] = "w"},
-    ["醐"] = {["first"] = "y", ["second"] = "o"},
-    ["醍"] = {["first"] = "y", ["second"] = "r"},
-    ["醚"] = {["first"] = "y", ["second"] = "z"},
-    ["磲"] = {["first"] = "u", ["second"] = "m"},
-    ["赝"] = {["first"] = "i", ["second"] = "r"},
-    ["飙"] = {["first"] = "q", ["second"] = "x"},
-    ["殪"] = {["first"] = "d", ["second"] = "a"},
-    ["霖"] = {["first"] = "y", ["second"] = "m"},
-    ["霏"] = {["first"] = "y", ["second"] = "f"},
-    ["霓"] = {["first"] = "y", ["second"] = "e"},
-    ["錾"] = {["first"] = "i", ["second"] = "j"},
-    ["辚"] = {["first"] = "i", ["second"] = "l"},
-    ["臻"] = {["first"] = "a", ["second"] = "h"},
-    ["遽"] = {["first"] = "z", ["second"] = "u"},
-    ["氅"] = {["first"] = "x", ["second"] = "m"},
-    ["瞟"] = {["first"] = "o", ["second"] = "x"},
-    ["瞠"] = {["first"] = "o", ["second"] = "t"},
-    ["瞰"] = {["first"] = "o", ["second"] = "w"},
-    ["嚄"] = {["first"] = "k", ["second"] = "y"},
-    ["嚆"] = {["first"] = "k", ["second"] = "k"},
-    ["噤"] = {["first"] = "k", ["second"] = "x"},
-    ["暾"] = {["first"] = "o", ["second"] = "w"},
-    ["蹀"] = {["first"] = "z", ["second"] = "m"},
-    ["踹"] = {["first"] = "z", ["second"] = "e"},
-    ["踵"] = {["first"] = "z", ["second"] = "v"},
-    ["踽"] = {["first"] = "z", ["second"] = "y"},
-    ["蹉"] = {["first"] = "z", ["second"] = "g"},
-    ["蹁"] = {["first"] = "z", ["second"] = "c"},
-    ["螨"] = {["first"] = "i", ["second"] = "l"},
-    ["蟒"] = {["first"] = "i", ["second"] = "c"},
-    ["螈"] = {["first"] = "i", ["second"] = "x"},
-    ["螅"] = {["first"] = "i", ["second"] = "x"},
-    ["螭"] = {["first"] = "i", ["second"] = "d"},
-    ["螠"] = {["first"] = "i", ["second"] = "m"},
-    ["螟"] = {["first"] = "i", ["second"] = "b"},
-    ["噱"] = {["first"] = "k", ["second"] = "u"},
-    ["噬"] = {["first"] = "k", ["second"] = "r"},
-    ["噫"] = {["first"] = "k", ["second"] = "x"},
-    ["噻"] = {["first"] = "k", ["second"] = "t"},
-    ["噼"] = {["first"] = "k", ["second"] = "u"},
-    ["罹"] = {["first"] = "s", ["second"] = "f"},
-    ["圜"] = {["first"] = "k", ["second"] = "y"},
-    ["䦃"] = {["first"] = "j", ["second"] = "o"},
-    ["镖"] = {["first"] = "j", ["second"] = "x"},
-    ["镗"] = {["first"] = "j", ["second"] = "t"},
-    ["镘"] = {["first"] = "j", ["second"] = "y"},
-    ["镚"] = {["first"] = "j", ["second"] = "o"},
-    ["镛"] = {["first"] = "j", ["second"] = "l"},
-    ["镝"] = {["first"] = "j", ["second"] = "k"},
-    ["镞"] = {["first"] = "j", ["second"] = "u"},
-    ["镠"] = {["first"] = "j", ["second"] = "p"},
-    ["氇"] = {["first"] = "m", ["second"] = "o"},
-    ["氆"] = {["first"] = "m", ["second"] = "o"},
-    ["憩"] = {["first"] = "q", ["second"] = "x"},
-    ["穑"] = {["first"] = "h", ["second"] = "k"},
-    ["篝"] = {["first"] = "v", ["second"] = "r"},
-    ["篥"] = {["first"] = "v", ["second"] = "m"},
-    ["篦"] = {["first"] = "v", ["second"] = "b"},
-    ["篪"] = {["first"] = "v", ["second"] = "j"},
-    ["篙"] = {["first"] = "v", ["second"] = "k"},
-    ["盥"] = {["first"] = "p", ["second"] = "m"},
-    ["劓"] = {["first"] = "z", ["second"] = "d"},
-    ["翱"] = {["first"] = "b", ["second"] = "x"},
-    ["魉"] = {["first"] = "g", ["second"] = "l"},
-    ["魈"] = {["first"] = "g", ["second"] = "o"},
-    ["徼"] = {["first"] = "i", ["second"] = "w"},
-    ["歙"] = {["first"] = "r", ["second"] = "r"},
-    ["膳"] = {["first"] = "o", ["second"] = "k"},
-    ["膦"] = {["first"] = "o", ["second"] = "l"},
-    ["膙"] = {["first"] = "o", ["second"] = "i"},
-    ["鲮"] = {["first"] = "a", ["second"] = "w"},
-    ["鲱"] = {["first"] = "a", ["second"] = "f"},
-    ["鲲"] = {["first"] = "a", ["second"] = "b"},
-    ["鲳"] = {["first"] = "a", ["second"] = "o"},
-    ["鲴"] = {["first"] = "a", ["second"] = "k"},
-    ["鲵"] = {["first"] = "a", ["second"] = "e"},
-    ["鲷"] = {["first"] = "a", ["second"] = "k"},
-    ["鲻"] = {["first"] = "a", ["second"] = "t"},
-    ["獴"] = {["first"] = "q", ["second"] = "n"},
-    ["獭"] = {["first"] = "q", ["second"] = "r"},
-    ["獬"] = {["first"] = "q", ["second"] = "n"},
-    ["邂"] = {["first"] = "z", ["second"] = "n"},
-    ["鹧"] = {["first"] = "g", ["second"] = "n"},
-    ["廨"] = {["first"] = "g", ["second"] = "n"},
-    ["赟"] = {["first"] = "w", ["second"] = "r"},
-    ["瘰"] = {["first"] = "b", ["second"] = "x"},
-    ["廪"] = {["first"] = "g", ["second"] = "x"},
-    ["瘿"] = {["first"] = "b", ["second"] = "n"},
-    ["瘵"] = {["first"] = "b", ["second"] = "x"},
-    ["瘴"] = {["first"] = "b", ["second"] = "u"},
-    ["癃"] = {["first"] = "b", ["second"] = "u"},
-    ["瘳"] = {["first"] = "b", ["second"] = "p"},
-    ["斓"] = {["first"] = "w", ["second"] = "j"},
-    ["麇"] = {["first"] = "g", ["second"] = "h"},
-    ["麈"] = {["first"] = "g", ["second"] = "v"},
-    ["嬴"] = {["first"] = "w", ["second"] = "f"},
-    ["壅"] = {["first"] = "w", ["second"] = "t"},
-    ["羲"] = {["first"] = "y", ["second"] = "d"},
-    ["糗"] = {["first"] = "m", ["second"] = "q"},
-    ["瞥"] = {["first"] = "d", ["second"] = "o"},
-    ["甑"] = {["first"] = "b", ["second"] = "w"},
-    ["燎"] = {["first"] = "h", ["second"] = "x"},
-    ["燠"] = {["first"] = "h", ["second"] = "d"},
-    ["燔"] = {["first"] = "h", ["second"] = "t"},
-    ["燧"] = {["first"] = "h", ["second"] = "z"},
-    ["濑"] = {["first"] = "d", ["second"] = "r"},
-    ["濉"] = {["first"] = "d", ["second"] = "f"},
-    ["潞"] = {["first"] = "d", ["second"] = "k"},
-    ["澧"] = {["first"] = "d", ["second"] = "a"},
-    ["澹"] = {["first"] = "d", ["second"] = "k"},
-    ["澥"] = {["first"] = "d", ["second"] = "n"},
-    ["澶"] = {["first"] = "d", ["second"] = "a"},
-    ["濂"] = {["first"] = "d", ["second"] = "n"},
-    ["褰"] = {["first"] = "b", ["second"] = "y"},
-    ["寰"] = {["first"] = "b", ["second"] = "y"},
-    ["窸"] = {["first"] = "b", ["second"] = "x"},
-    ["褶"] = {["first"] = "p", ["second"] = "b"},
-    ["禧"] = {["first"] = "p", ["second"] = "k"},
-    ["嬖"] = {["first"] = "u", ["second"] = "n"},
-    ["犟"] = {["first"] = "g", ["second"] = "n"},
-    ["隰"] = {["first"] = "e", ["second"] = "h"},
-    ["嬗"] = {["first"] = "n", ["second"] = "a"},
-    ["颡"] = {["first"] = "y", ["second"] = "r"},
-    ["缱"] = {["first"] = "s", ["second"] = "z"},
-    ["缲"] = {["first"] = "s", ["second"] = "m"},
-    ["缳"] = {["first"] = "s", ["second"] = "y"},
-    ["璨"] = {["first"] = "w", ["second"] = "m"},
-    ["璩"] = {["first"] = "w", ["second"] = "u"},
-    ["璐"] = {["first"] = "w", ["second"] = "k"},
-    ["璪"] = {["first"] = "w", ["second"] = "m"},
-    ["螫"] = {["first"] = "t", ["second"] = "i"},
-    ["擤"] = {["first"] = "f", ["second"] = "l"},
-    ["壕"] = {["first"] = "t", ["second"] = "u"},
-    ["觳"] = {["first"] = "u", ["second"] = "y"},
-    ["罄"] = {["first"] = "u", ["second"] = "f"},
-    ["擢"] = {["first"] = "f", ["second"] = "f"},
-    ["薹"] = {["first"] = "c", ["second"] = "t"},
-    ["鞡"] = {["first"] = "g", ["second"] = "l"},
-    ["鞬"] = {["first"] = "g", ["second"] = "z"},
-    ["薷"] = {["first"] = "c", ["second"] = "e"},
-    ["薰"] = {["first"] = "c", ["second"] = "h"},
-    ["藓"] = {["first"] = "c", ["second"] = "y"},
-    ["藁"] = {["first"] = "c", ["second"] = "m"},
-    ["檄"] = {["first"] = "m", ["second"] = "w"},
-    ["檩"] = {["first"] = "m", ["second"] = "x"},
-    ["懋"] = {["first"] = "m", ["second"] = "x"},
-    ["醢"] = {["first"] = "y", ["second"] = "m"},
-    ["翳"] = {["first"] = "k", ["second"] = "x"},
-    ["礅"] = {["first"] = "u", ["second"] = "w"},
-    ["磴"] = {["first"] = "u", ["second"] = "a"},
-    ["鹩"] = {["first"] = "d", ["second"] = "n"},
-    ["龋"] = {["first"] = "v", ["second"] = "y"},
-    ["龌"] = {["first"] = "v", ["second"] = "t"},
-    ["豳"] = {["first"] = "e", ["second"] = "u"},
-    ["壑"] = {["first"] = "l", ["second"] = "t"},
-    ["黻"] = {["first"] = "y", ["second"] = "d"},
-    ["嚏"] = {["first"] = "k", ["second"] = "r"},
-    ["嚅"] = {["first"] = "k", ["second"] = "e"},
-    ["蹑"] = {["first"] = "z", ["second"] = "y"},
-    ["蹒"] = {["first"] = "z", ["second"] = "l"},
-    ["蹊"] = {["first"] = "z", ["second"] = "d"},
-    ["蟥"] = {["first"] = "i", ["second"] = "b"},
-    ["螬"] = {["first"] = "i", ["second"] = "o"},
-    ["螵"] = {["first"] = "i", ["second"] = "x"},
-    ["疃"] = {["first"] = "t", ["second"] = "l"},
-    ["螳"] = {["first"] = "i", ["second"] = "t"},
-    ["蟑"] = {["first"] = "i", ["second"] = "u"},
-    ["嚓"] = {["first"] = "k", ["second"] = "x"},
-    ["羁"] = {["first"] = "s", ["second"] = "m"},
-    ["罽"] = {["first"] = "s", ["second"] = "d"},
-    ["罾"] = {["first"] = "s", ["second"] = "o"},
-    ["嶷"] = {["first"] = "e", ["second"] = "r"},
-    ["黜"] = {["first"] = "h", ["second"] = "i"},
-    ["黝"] = {["first"] = "h", ["second"] = "l"},
-    ["髁"] = {["first"] = "g", ["second"] = "g"},
-    ["髀"] = {["first"] = "g", ["second"] = "u"},
-    ["镡"] = {["first"] = "j", ["second"] = "u"},
-    ["镢"] = {["first"] = "j", ["second"] = "r"},
-    ["镣"] = {["first"] = "j", ["second"] = "x"},
-    ["镦"] = {["first"] = "j", ["second"] = "w"},
-    ["镧"] = {["first"] = "j", ["second"] = "j"},
-    ["镩"] = {["first"] = "j", ["second"] = "i"},
-    ["镪"] = {["first"] = "j", ["second"] = "i"},
-    ["镫"] = {["first"] = "j", ["second"] = "a"},
-    ["罅"] = {["first"] = "f", ["second"] = "h"},
-    ["黏"] = {["first"] = "h", ["second"] = "k"},
-    ["簌"] = {["first"] = "v", ["second"] = "r"},
-    ["篾"] = {["first"] = "v", ["second"] = "u"},
-    ["篼"] = {["first"] = "v", ["second"] = "e"},
-    ["簖"] = {["first"] = "v", ["second"] = "j"},
-    ["簋"] = {["first"] = "v", ["second"] = "m"},
-    ["鼢"] = {["first"] = "j", ["second"] = "d"},
-    ["黛"] = {["first"] = "r", ["second"] = "h"},
-    ["儡"] = {["first"] = "r", ["second"] = "t"},
-    ["鹪"] = {["first"] = "r", ["second"] = "n"},
-    ["鼾"] = {["first"] = "z", ["second"] = "g"},
-    ["皤"] = {["first"] = "b", ["second"] = "t"},
-    ["魍"] = {["first"] = "g", ["second"] = "w"},
-    ["龠"] = {["first"] = "r", ["second"] = "c"},
-    ["繇"] = {["first"] = "p", ["second"] = "x"},
-    ["貘"] = {["first"] = "v", ["second"] = "d"},
-    ["邈"] = {["first"] = "z", ["second"] = "e"},
-    ["貔"] = {["first"] = "v", ["second"] = "b"},
-    ["臌"] = {["first"] = "o", ["second"] = "y"},
-    ["膻"] = {["first"] = "o", ["second"] = "a"},
-    ["臆"] = {["first"] = "o", ["second"] = "x"},
-    ["臃"] = {["first"] = "o", ["second"] = "f"},
-    ["鲼"] = {["first"] = "a", ["second"] = "r"},
-    ["鲽"] = {["first"] = "a", ["second"] = "m"},
-    ["鳀"] = {["first"] = "a", ["second"] = "r"},
-    ["鳃"] = {["first"] = "a", ["second"] = "x"},
-    ["鳅"] = {["first"] = "a", ["second"] = "h"},
-    ["鳇"] = {["first"] = "a", ["second"] = "w"},
-    ["鳊"] = {["first"] = "a", ["second"] = "c"},
-    ["螽"] = {["first"] = "w", ["second"] = "i"},
-    ["燮"] = {["first"] = "h", ["second"] = "y"},
-    ["鹫"] = {["first"] = "w", ["second"] = "n"},
-    ["襄"] = {["first"] = "w", ["second"] = "y"},
-    ["糜"] = {["first"] = "g", ["second"] = "m"},
-    ["縻"] = {["first"] = "g", ["second"] = "x"},
-    ["膺"] = {["first"] = "g", ["second"] = "o"},
-    ["癍"] = {["first"] = "b", ["second"] = "w"},
-    ["麋"] = {["first"] = "g", ["second"] = "m"},
-    ["懑"] = {["first"] = "d", ["second"] = "x"},
-    ["濡"] = {["first"] = "d", ["second"] = "e"},
-    ["濮"] = {["first"] = "d", ["second"] = "n"},
-    ["濞"] = {["first"] = "d", ["second"] = "l"},
-    ["濠"] = {["first"] = "d", ["second"] = "u"},
-    ["濯"] = {["first"] = "d", ["second"] = "f"},
-    ["蹇"] = {["first"] = "b", ["second"] = "r"},
-    ["謇"] = {["first"] = "b", ["second"] = "k"},
-    ["邃"] = {["first"] = "z", ["second"] = "u"},
-    ["襁"] = {["first"] = "p", ["second"] = "i"},
-    ["檗"] = {["first"] = "u", ["second"] = "m"},
-    ["擘"] = {["first"] = "u", ["second"] = "u"},
-    ["孺"] = {["first"] = "z", ["second"] = "e"},
-    ["隳"] = {["first"] = "e", ["second"] = "x"},
-    ["嬷"] = {["first"] = "n", ["second"] = "m"},
-    ["蟊"] = {["first"] = "s", ["second"] = "i"},
-    ["鹬"] = {["first"] = "s", ["second"] = "n"},
-    ["鍪"] = {["first"] = "s", ["second"] = "j"},
-    ["鏊"] = {["first"] = "f", ["second"] = "j"},
-    ["鳌"] = {["first"] = "f", ["second"] = "a"},
-    ["鬈"] = {["first"] = "a", ["second"] = "v"},
-    ["鬃"] = {["first"] = "a", ["second"] = "x"},
-    ["瞽"] = {["first"] = "u", ["second"] = "o"},
-    ["鞯"] = {["first"] = "g", ["second"] = "z"},
-    ["鞨"] = {["first"] = "g", ["second"] = "v"},
-    ["鞫"] = {["first"] = "g", ["second"] = "k"},
-    ["鞧"] = {["first"] = "g", ["second"] = "y"},
-    ["鞣"] = {["first"] = "g", ["second"] = "m"},
-    ["藜"] = {["first"] = "c", ["second"] = "u"},
-    ["藠"] = {["first"] = "c", ["second"] = "b"},
-    ["藩"] = {["first"] = "c", ["second"] = "t"},
-    ["醪"] = {["first"] = "y", ["second"] = "p"},
-    ["蹙"] = {["first"] = "w", ["second"] = "r"},
-    ["礓"] = {["first"] = "u", ["second"] = "a"},
-    ["燹"] = {["first"] = "u", ["second"] = "h"},
-    ["餮"] = {["first"] = "d", ["second"] = "l"},
-    ["瞿"] = {["first"] = "o", ["second"] = "f"},
-    ["曛"] = {["first"] = "o", ["second"] = "h"},
-    ["颢"] = {["first"] = "o", ["second"] = "r"},
-    ["曜"] = {["first"] = "o", ["second"] = "f"},
-    ["躇"] = {["first"] = "z", ["second"] = "o"},
-    ["蹚"] = {["first"] = "z", ["second"] = "t"},
-    ["鹭"] = {["first"] = "z", ["second"] = "n"},
-    ["蟛"] = {["first"] = "i", ["second"] = "p"},
-    ["蟪"] = {["first"] = "i", ["second"] = "x"},
-    ["蟠"] = {["first"] = "i", ["second"] = "t"},
-    ["蟮"] = {["first"] = "i", ["second"] = "k"},
-    ["鹮"] = {["first"] = "s", ["second"] = "n"},
-    ["黠"] = {["first"] = "h", ["second"] = "k"},
-    ["黟"] = {["first"] = "h", ["second"] = "x"},
-    ["髅"] = {["first"] = "g", ["second"] = "n"},
-    ["髂"] = {["first"] = "g", ["second"] = "k"},
-    ["镬"] = {["first"] = "j", ["second"] = "y"},
-    ["镭"] = {["first"] = "j", ["second"] = "t"},
-    ["镯"] = {["first"] = "j", ["second"] = "i"},
-    ["馥"] = {["first"] = "h", ["second"] = "w"},
-    ["簟"] = {["first"] = "v", ["second"] = "u"},
-    ["簪"] = {["first"] = "v", ["second"] = "o"},
-    ["鼬"] = {["first"] = "j", ["second"] = "y"},
-    ["雠"] = {["first"] = "r", ["second"] = "f"},
-    ["艟"] = {["first"] = "v", ["second"] = "l"},
-    ["鳎"] = {["first"] = "a", ["second"] = "x"},
-    ["鳏"] = {["first"] = "a", ["second"] = "d"},
-    ["鳐"] = {["first"] = "a", ["second"] = "f"},
-    ["癞"] = {["first"] = "b", ["second"] = "r"},
-    ["癔"] = {["first"] = "b", ["second"] = "x"},
-    ["癜"] = {["first"] = "b", ["second"] = "y"},
-    ["癖"] = {["first"] = "b", ["second"] = "u"},
-    ["糨"] = {["first"] = "m", ["second"] = "i"},
-    ["蹩"] = {["first"] = "d", ["second"] = "r"},
-    ["鎏"] = {["first"] = "d", ["second"] = "j"},
-    ["懵"] = {["first"] = "x", ["second"] = "o"},
-    ["彝"] = {["first"] = "v", ["second"] = "c"},
-    ["邋"] = {["first"] = "z", ["second"] = "v"},
-    ["鬏"] = {["first"] = "a", ["second"] = "h"},
-    ["攉"] = {["first"] = "f", ["second"] = "f"},
-    ["攒"] = {["first"] = "f", ["second"] = "r"},
-    ["鞲"] = {["first"] = "g", ["second"] = "r"},
-    ["鞴"] = {["first"] = "g", ["second"] = "y"},
-    ["藿"] = {["first"] = "c", ["second"] = "f"},
-    ["蘧"] = {["first"] = "c", ["second"] = "z"},
-    ["蘅"] = {["first"] = "c", ["second"] = "i"},
-    ["麓"] = {["first"] = "m", ["second"] = "b"},
-    ["醮"] = {["first"] = "y", ["second"] = "h"},
-    ["醯"] = {["first"] = "y", ["second"] = "m"},
-    ["酃"] = {["first"] = "y", ["second"] = "e"},
-    ["霪"] = {["first"] = "y", ["second"] = "r"},
-    ["霭"] = {["first"] = "y", ["second"] = "v"},
-    ["霨"] = {["first"] = "y", ["second"] = "c"},
-    ["黼"] = {["first"] = "y", ["second"] = "f"},
-    ["嚯"] = {["first"] = "k", ["second"] = "f"},
-    ["蹰"] = {["first"] = "z", ["second"] = "c"},
-    ["蹶"] = {["first"] = "z", ["second"] = "r"},
-    ["蹽"] = {["first"] = "z", ["second"] = "x"},
-    ["蹼"] = {["first"] = "z", ["second"] = "n"},
-    ["蹴"] = {["first"] = "z", ["second"] = "y"},
-    ["蹾"] = {["first"] = "z", ["second"] = "w"},
-    ["蹿"] = {["first"] = "z", ["second"] = "i"},
-    ["蠖"] = {["first"] = "i", ["second"] = "y"},
-    ["蠓"] = {["first"] = "i", ["second"] = "n"},
-    ["蟾"] = {["first"] = "i", ["second"] = "k"},
-    ["蠊"] = {["first"] = "i", ["second"] = "n"},
-    ["黢"] = {["first"] = "h", ["second"] = "w"},
-    ["髋"] = {["first"] = "g", ["second"] = "e"},
-    ["髌"] = {["first"] = "g", ["second"] = "b"},
-    ["镲"] = {["first"] = "j", ["second"] = "x"},
-    ["籀"] = {["first"] = "v", ["second"] = "t"},
-    ["籁"] = {["first"] = "v", ["second"] = "r"},
-    ["齁"] = {["first"] = "z", ["second"] = "k"},
-    ["魑"] = {["first"] = "g", ["second"] = "d"},
-    ["艨"] = {["first"] = "v", ["second"] = "n"},
-    ["鳓"] = {["first"] = "a", ["second"] = "l"},
-    ["鳔"] = {["first"] = "a", ["second"] = "x"},
-    ["鳕"] = {["first"] = "a", ["second"] = "e"},
-    ["鳗"] = {["first"] = "a", ["second"] = "y"},
-    ["鳙"] = {["first"] = "a", ["second"] = "l"},
-    ["麒"] = {["first"] = "g", ["second"] = "b"},
-    ["鏖"] = {["first"] = "g", ["second"] = "j"},
-    ["羸"] = {["first"] = "w", ["second"] = "f"},
-    ["㸆"] = {["first"] = "h", ["second"] = "f"},
-    ["瀚"] = {["first"] = "d", ["second"] = "x"},
-    ["瀣"] = {["first"] = "d", ["second"] = "j"},
-    ["瀛"] = {["first"] = "d", ["second"] = "f"},
-    ["襦"] = {["first"] = "p", ["second"] = "e"},
-    ["谶"] = {["first"] = "y", ["second"] = "j"},
-    ["襞"] = {["first"] = "u", ["second"] = "y"},
-    ["骥"] = {["first"] = "m", ["second"] = "b"},
-    ["缵"] = {["first"] = "s", ["second"] = "r"},
-    ["瓒"] = {["first"] = "w", ["second"] = "r"},
-    ["攘"] = {["first"] = "f", ["second"] = "y"},
-    ["蘩"] = {["first"] = "c", ["second"] = "x"},
-    ["蘖"] = {["first"] = "c", ["second"] = "m"},
-    ["醴"] = {["first"] = "y", ["second"] = "a"},
-    ["霰"] = {["first"] = "y", ["second"] = "w"},
-    ["酆"] = {["first"] = "e", ["second"] = "e"},
-    ["矍"] = {["first"] = "o", ["second"] = "y"},
-    ["曦"] = {["first"] = "o", ["second"] = "d"},
-    ["躅"] = {["first"] = "z", ["second"] = "i"},
-    ["鼍"] = {["first"] = "k", ["second"] = "d"},
-    ["巉"] = {["first"] = "e", ["second"] = "d"},
-    ["黩"] = {["first"] = "h", ["second"] = "d"},
-    ["黥"] = {["first"] = "h", ["second"] = "x"},
-    ["黪"] = {["first"] = "h", ["second"] = "p"},
-    ["镳"] = {["first"] = "j", ["second"] = "h"},
-    ["镴"] = {["first"] = "j", ["second"] = "v"},
-    ["黧"] = {["first"] = "h", ["second"] = "h"},
-    ["纂"] = {["first"] = "v", ["second"] = "x"},
-    ["璺"] = {["first"] = "p", ["second"] = "y"},
-    ["鼯"] = {["first"] = "j", ["second"] = "k"},
-    ["臜"] = {["first"] = "o", ["second"] = "r"},
-    ["鳜"] = {["first"] = "a", ["second"] = "r"},
-    ["鳝"] = {["first"] = "a", ["second"] = "k"},
-    ["鳟"] = {["first"] = "a", ["second"] = "c"},
-    ["獾"] = {["first"] = "q", ["second"] = "f"},
-    ["孀"] = {["first"] = "n", ["second"] = "o"},
-    ["骧"] = {["first"] = "m", ["second"] = "y"},
-    ["瓘"] = {["first"] = "w", ["second"] = "f"},
-    ["鼙"] = {["first"] = "u", ["second"] = "u"},
-    ["醺"] = {["first"] = "y", ["second"] = "h"},
-    ["礴"] = {["first"] = "u", ["second"] = "c"},
-    ["颦"] = {["first"] = "v", ["second"] = "u"},
-    ["曩"] = {["first"] = "o", ["second"] = "y"},
-    ["鳢"] = {["first"] = "a", ["second"] = "a"},
-    ["癫"] = {["first"] = "b", ["second"] = "r"},
-    ["麝"] = {["first"] = "g", ["second"] = "c"},
-    ["夔"] = {["first"] = "b", ["second"] = "w"},
-    ["爝"] = {["first"] = "h", ["second"] = "c"},
-    ["灏"] = {["first"] = "d", ["second"] = "r"},
-    ["禳"] = {["first"] = "p", ["second"] = "y"},
-    ["鐾"] = {["first"] = "u", ["second"] = "j"},
-    ["羼"] = {["first"] = "u", ["second"] = "y"},
-    ["蠡"] = {["first"] = "v", ["second"] = "i"},
-    ["耱"] = {["first"] = "l", ["second"] = "u"},
-    ["懿"] = {["first"] = "u", ["second"] = "x"},
-    ["蘸"] = {["first"] = "c", ["second"] = "h"},
-    ["鹳"] = {["first"] = "c", ["second"] = "n"},
-    ["霾"] = {["first"] = "y", ["second"] = "l"},
-    ["氍"] = {["first"] = "o", ["second"] = "m"},
-    ["饕"] = {["first"] = "k", ["second"] = "l"},
-    ["躐"] = {["first"] = "z", ["second"] = "v"},
-    ["髑"] = {["first"] = "g", ["second"] = "i"},
-    ["镵"] = {["first"] = "j", ["second"] = "d"},
-    ["穰"] = {["first"] = "h", ["second"] = "y"},
-    ["饔"] = {["first"] = "w", ["second"] = "l"},
-    ["鬻"] = {["first"] = "g", ["second"] = "l"},
-    ["鬟"] = {["first"] = "a", ["second"] = "y"},
-    ["趱"] = {["first"] = "t", ["second"] = "r"},
-    ["攫"] = {["first"] = "f", ["second"] = "y"},
-    ["攥"] = {["first"] = "f", ["second"] = "x"},
-    ["颧"] = {["first"] = "c", ["second"] = "r"},
-    ["躜"] = {["first"] = "z", ["second"] = "r"},
-    ["鼹"] = {["first"] = "j", ["second"] = "n"},
-    ["癯"] = {["first"] = "b", ["second"] = "f"},
-    ["麟"] = {["first"] = "g", ["second"] = "l"},
-    ["蠲"] = {["first"] = "b", ["second"] = "i"},
-    ["蠹"] = {["first"] = "a", ["second"] = "i"},
-    ["躞"] = {["first"] = "z", ["second"] = "y"},
-    ["衢"] = {["first"] = "i", ["second"] = "i"},
-    ["鑫"] = {["first"] = "j", ["second"] = "j"},
-    ["灞"] = {["first"] = "d", ["second"] = "o"},
-    ["襻"] = {["first"] = "p", ["second"] = "u"},
-    ["纛"] = {["first"] = "f", ["second"] = "x"},
-    ["鬣"] = {["first"] = "a", ["second"] = "v"},
-    ["攮"] = {["first"] = "f", ["second"] = "y"},
-    ["囔"] = {["first"] = "k", ["second"] = "y"},
-    ["馕"] = {["first"] = "u", ["second"] = "y"},
-    ["戆"] = {["first"] = "l", ["second"] = "x"},
-    ["爨"] = {["first"] = "p", ["second"] = "h"},
-    ["齉"] = {["first"] = "z", ["second"] = "y"},
-    ["亍"] = {["first"] = "e", ["second"] = "l"},
-    ["尢"] = {["first"] = "u", ["second"] = "v"},
-    ["彳"] = {["first"] = "p", ["second"] = "r"},
-    ["卬"] = {["first"] = "p", ["second"] = "e"},
-    ["殳"] = {["first"] = "j", ["second"] = "y"},
-    ["𠙶"] = {["first"] = "l", ["second"] = "k"},
-    ["毌"] = {["first"] = "v", ["second"] = "a"},
-    ["邘"] = {["first"] = "y", ["second"] = "e"},
-    ["戋"] = {["first"] = "a", ["second"] = "d"},
-    ["圢"] = {["first"] = "t", ["second"] = "d"},
-    ["氕"] = {["first"] = "q", ["second"] = "p"},
-    ["伋"] = {["first"] = "r", ["second"] = "j"},
-    ["仝"] = {["first"] = "r", ["second"] = "g"},
-    ["冮"] = {["first"] = "d", ["second"] = "g"},
-    ["氿"] = {["first"] = "d", ["second"] = "j"},
-    ["汈"] = {["first"] = "d", ["second"] = "d"},
-    ["氾"] = {["first"] = "d", ["second"] = "v"},
-    ["忉"] = {["first"] = "x", ["second"] = "d"},
-    ["宄"] = {["first"] = "b", ["second"] = "j"},
-    ["𬣙"] = {["first"] = "y", ["second"] = "y"},
-    ["讱"] = {["first"] = "y", ["second"] = "r"},
-    ["扞"] = {["first"] = "f", ["second"] = "g"},
-    ["圲"] = {["first"] = "t", ["second"] = "q"},
-    ["圫"] = {["first"] = "t", ["second"] = "q"},
-    ["芏"] = {["first"] = "c", ["second"] = "t"},
-    ["芃"] = {["first"] = "c", ["second"] = "f"},
-    ["朳"] = {["first"] = "m", ["second"] = "b"},
-    ["朸"] = {["first"] = "m", ["second"] = "l"},
-    ["𨙸"] = {["first"] = "u", ["second"] = "e"},
-    ["邨"] = {["first"] = "t", ["second"] = "e"},
-    ["吒"] = {["first"] = "k", ["second"] = "q"},
-    ["吖"] = {["first"] = "k", ["second"] = "y"},
-    ["屼"] = {["first"] = "e", ["second"] = "w"},
-    ["屾"] = {["first"] = "e", ["second"] = "e"},
-    ["辿"] = {["first"] = "z", ["second"] = "e"},
-    ["钆"] = {["first"] = "j", ["second"] = "v"},
-    ["仳"] = {["first"] = "r", ["second"] = "b"},
-    ["伣"] = {["first"] = "r", ["second"] = "e"},
-    ["伈"] = {["first"] = "r", ["second"] = "x"},
-    ["癿"] = {["first"] = "b", ["second"] = "v"},
-    ["甪"] = {["first"] = "p", ["second"] = "y"},
-    ["邠"] = {["first"] = "b", ["second"] = "e"},
-    ["犴"] = {["first"] = "q", ["second"] = "g"},
-    ["冱"] = {["first"] = "d", ["second"] = "h"},
-    ["邡"] = {["first"] = "f", ["second"] = "e"},
-    ["闫"] = {["first"] = "m", ["second"] = "s"},
-    ["𬇕"] = {["first"] = "d", ["second"] = "w"},
-    ["汋"] = {["first"] = "d", ["second"] = "u"},
-    ["䜣"] = {["first"] = "y", ["second"] = "j"},
-    ["讻"] = {["first"] = "y", ["second"] = "k"},
-    ["𬣞"] = {["first"] = "y", ["second"] = "a"},
-    ["孖"] = {["first"] = "z", ["second"] = "z"},
-    ["𬘓"] = {["first"] = "s", ["second"] = "i"},
-    ["纩"] = {["first"] = "s", ["second"] = "g"},
-    ["玒"] = {["first"] = "w", ["second"] = "g"},
-    ["玓"] = {["first"] = "w", ["second"] = "u"},
-    ["玘"] = {["first"] = "w", ["second"] = "j"},
-    ["玚"] = {["first"] = "w", ["second"] = "p"},
-    ["刬"] = {["first"] = "j", ["second"] = "d"},
-    ["𫭟"] = {["first"] = "t", ["second"] = "x"},
-    ["坜"] = {["first"] = "t", ["second"] = "l"},
-    ["坉"] = {["first"] = "t", ["second"] = "t"},
-    ["扽"] = {["first"] = "f", ["second"] = "t"},
-    ["𫭢"] = {["first"] = "t", ["second"] = "b"},
-    ["坋"] = {["first"] = "t", ["second"] = "d"},
-    ["扺"] = {["first"] = "f", ["second"] = "u"},
-    ["㧑"] = {["first"] = "f", ["second"] = "w"},
-    ["毐"] = {["first"] = "u", ["second"] = "w"},
-    ["芰"] = {["first"] = "c", ["second"] = "y"},
-    ["芣"] = {["first"] = "c", ["second"] = "b"},
-    ["苊"] = {["first"] = "c", ["second"] = "v"},
-    ["苉"] = {["first"] = "c", ["second"] = "e"},
-    ["芘"] = {["first"] = "c", ["second"] = "b"},
-    ["芴"] = {["first"] = "c", ["second"] = "w"},
-    ["芠"] = {["first"] = "c", ["second"] = "w"},
-    ["𫇭"] = {["first"] = "c", ["second"] = "w"},
-    ["芤"] = {["first"] = "c", ["second"] = "v"},
-    ["杕"] = {["first"] = "m", ["second"] = "d"},
-    ["杙"] = {["first"] = "m", ["second"] = "y"},
-    ["杄"] = {["first"] = "m", ["second"] = "q"},
-    ["杧"] = {["first"] = "m", ["second"] = "w"},
-    ["杩"] = {["first"] = "m", ["second"] = "m"},
-    ["尪"] = {["first"] = "y", ["second"] = "w"},
-    ["尨"] = {["first"] = "u", ["second"] = "d"},
-    ["轪"] = {["first"] = "i", ["second"] = "d"},
-    ["𫐄"] = {["first"] = "i", ["second"] = "w"},
-    ["坒"] = {["first"] = "b", ["second"] = "t"},
-    ["芈"] = {["first"] = "l", ["second"] = "l"},
-    ["旴"] = {["first"] = "o", ["second"] = "y"},
-    ["旵"] = {["first"] = "o", ["second"] = "e"},
-    ["呙"] = {["first"] = "k", ["second"] = "n"},
-    ["㕮"] = {["first"] = "k", ["second"] = "x"},
-    ["岍"] = {["first"] = "e", ["second"] = "k"},
-    ["𫵷"] = {["first"] = "e", ["second"] = "l"},
-    ["岠"] = {["first"] = "e", ["second"] = "j"},
-    ["岜"] = {["first"] = "e", ["second"] = "b"},
-    ["呇"] = {["first"] = "u", ["second"] = "k"},
-    ["冏"] = {["first"] = "k", ["second"] = "k"},
-    ["觃"] = {["first"] = "k", ["second"] = "z"},
-    ["岙"] = {["first"] = "y", ["second"] = "e"},
-    ["伾"] = {["first"] = "r", ["second"] = "p"},
-    ["㑇"] = {["first"] = "r", ["second"] = "e"},
-    ["伭"] = {["first"] = "r", ["second"] = "y"},
-    ["佖"] = {["first"] = "r", ["second"] = "b"},
-    ["伲"] = {["first"] = "r", ["second"] = "b"},
-    ["佁"] = {["first"] = "r", ["second"] = "k"},
-    ["飏"] = {["first"] = "j", ["second"] = "p"},
-    ["狃"] = {["first"] = "q", ["second"] = "i"},
-    ["闶"] = {["first"] = "m", ["second"] = "j"},
-    ["汧"] = {["first"] = "d", ["second"] = "k"},
-    ["汫"] = {["first"] = "d", ["second"] = "j"},
-    ["𣲘"] = {["first"] = "d", ["second"] = "w"},
-    ["𣲗"] = {["first"] = "d", ["second"] = "w"},
-    ["沄"] = {["first"] = "d", ["second"] = "s"},
-    ["沘"] = {["first"] = "d", ["second"] = "b"},
-    ["𬇙"] = {["first"] = "d", ["second"] = "r"},
-    ["汭"] = {["first"] = "d", ["second"] = "n"},
-    ["㳇"] = {["first"] = "d", ["second"] = "x"},
-    ["沇"] = {["first"] = "d", ["second"] = "e"},
-    ["忮"] = {["first"] = "x", ["second"] = "y"},
-    ["忳"] = {["first"] = "x", ["second"] = "t"},
-    ["忺"] = {["first"] = "x", ["second"] = "r"},
-    ["𬣡"] = {["first"] = "y", ["second"] = "j"},
-    ["祃"] = {["first"] = "p", ["second"] = "m"},
-    ["诇"] = {["first"] = "y", ["second"] = "k"},
-    ["邲"] = {["first"] = "b", ["second"] = "e"},
-    ["诎"] = {["first"] = "y", ["second"] = "i"},
-    ["诐"] = {["first"] = "y", ["second"] = "y"},
-    ["屃"] = {["first"] = "u", ["second"] = "r"},
-    ["𫸩"] = {["first"] = "g", ["second"] = "x"},
-    ["岊"] = {["first"] = "b", ["second"] = "e"},
-    ["阽"] = {["first"] = "e", ["second"] = "k"},
-    ["䢺"] = {["first"] = "i", ["second"] = "e"},
-    ["阼"] = {["first"] = "e", ["second"] = "v"},
-    ["妧"] = {["first"] = "n", ["second"] = "e"},
-    ["妘"] = {["first"] = "n", ["second"] = "s"},
-    ["𨚕"] = {["first"] = "s", ["second"] = "e"},
-    ["纮"] = {["first"] = "s", ["second"] = "s"},
-    ["驲"] = {["first"] = "m", ["second"] = "o"},
-    ["𫘜"] = {["first"] = "m", ["second"] = "w"},
-    ["纻"] = {["first"] = "s", ["second"] = "a"},
-    ["𬘘"] = {["first"] = "s", ["second"] = "v"},
-    ["𫘝"] = {["first"] = "m", ["second"] = "g"},
-    ["纼"] = {["first"] = "s", ["second"] = "l"},
-    ["玤"] = {["first"] = "w", ["second"] = "f"},
-    ["玞"] = {["first"] = "w", ["second"] = "f"},
-    ["玱"] = {["first"] = "w", ["second"] = "v"},
-    ["玟"] = {["first"] = "w", ["second"] = "w"},
-    ["邽"] = {["first"] = "t", ["second"] = "e"},
-    ["邿"] = {["first"] = "t", ["second"] = "e"},
-    ["坥"] = {["first"] = "t", ["second"] = "q"},
-    ["坰"] = {["first"] = "t", ["second"] = "k"},
-    ["坬"] = {["first"] = "t", ["second"] = "g"},
-    ["坽"] = {["first"] = "t", ["second"] = "s"},
-    ["弆"] = {["first"] = "t", ["second"] = "c"},
-    ["耵"] = {["first"] = "e", ["second"] = "d"},
-    ["䢼"] = {["first"] = "c", ["second"] = "e"},
-    ["𦭜"] = {["first"] = "c", ["second"] = "b"},
-    ["茋"] = {["first"] = "c", ["second"] = "d"},
-    ["苧"] = {["first"] = "c", ["second"] = "d"},
-    ["苾"] = {["first"] = "c", ["second"] = "b"},
-    ["苠"] = {["first"] = "c", ["second"] = "m"},
-    ["枅"] = {["first"] = "m", ["second"] = "k"},
-    ["㭎"] = {["first"] = "m", ["second"] = "x"},
-    ["枘"] = {["first"] = "m", ["second"] = "n"},
-    ["枍"] = {["first"] = "m", ["second"] = "v"},
-    ["矼"] = {["first"] = "u", ["second"] = "g"},
-    ["矻"] = {["first"] = "u", ["second"] = "q"},
-    ["匼"] = {["first"] = "k", ["second"] = "k"},
-    ["𬨂"] = {["first"] = "i", ["second"] = "u"},
-    ["𬀩"] = {["first"] = "o", ["second"] = "w"},
-    ["𬀪"] = {["first"] = "o", ["second"] = "e"},
-    ["旿"] = {["first"] = "o", ["second"] = "w"},
-    ["昇"] = {["first"] = "o", ["second"] = "u"},
-    ["昄"] = {["first"] = "o", ["second"] = "y"},
-    ["昒"] = {["first"] = "o", ["second"] = "w"},
-    ["昈"] = {["first"] = "o", ["second"] = "h"},
-    ["咉"] = {["first"] = "k", ["second"] = "y"},
-    ["咇"] = {["first"] = "k", ["second"] = "b"},
-    ["咍"] = {["first"] = "k", ["second"] = "k"},
-    ["岵"] = {["first"] = "e", ["second"] = "k"},
-    ["岽"] = {["first"] = "e", ["second"] = "d"},
-    ["岨"] = {["first"] = "e", ["second"] = "q"},
-    ["岞"] = {["first"] = "e", ["second"] = "v"},
-    ["峂"] = {["first"] = "e", ["second"] = "d"},
-    ["㟃"] = {["first"] = "e", ["second"] = "k"},
-    ["囷"] = {["first"] = "k", ["second"] = "h"},
-    ["𬬩"] = {["first"] = "j", ["second"] = "y"},
-    ["钐"] = {["first"] = "j", ["second"] = "p"},
-    ["钔"] = {["first"] = "j", ["second"] = "m"},
-    ["钖"] = {["first"] = "j", ["second"] = "p"},
-    ["牥"] = {["first"] = "n", ["second"] = "f"},
-    ["佴"] = {["first"] = "r", ["second"] = "e"},
-    ["垈"] = {["first"] = "r", ["second"] = "t"},
-    ["侁"] = {["first"] = "r", ["second"] = "e"},
-    ["侹"] = {["first"] = "r", ["second"] = "z"},
-    ["佸"] = {["first"] = "r", ["second"] = "k"},
-    ["佺"] = {["first"] = "r", ["second"] = "w"},
-    ["隹"] = {["first"] = "r", ["second"] = "f"},
-    ["㑊"] = {["first"] = "r", ["second"] = "d"},
-    ["侂"] = {["first"] = "r", ["second"] = "q"},
-    ["佽"] = {["first"] = "r", ["second"] = "r"},
-    ["侘"] = {["first"] = "r", ["second"] = "q"},
-    ["郈"] = {["first"] = "p", ["second"] = "e"},
-    ["舠"] = {["first"] = "v", ["second"] = "d"},
-    ["郐"] = {["first"] = "r", ["second"] = "e"},
-    ["郃"] = {["first"] = "r", ["second"] = "e"},
-    ["攽"] = {["first"] = "b", ["second"] = "w"},
-    ["肭"] = {["first"] = "o", ["second"] = "n"},
-    ["肸"] = {["first"] = "o", ["second"] = "u"},
-    ["肷"] = {["first"] = "o", ["second"] = "r"},
-    ["狉"] = {["first"] = "q", ["second"] = "p"},
-    ["狝"] = {["first"] = "q", ["second"] = "x"},
-    ["饳"] = {["first"] = "u", ["second"] = "i"},
-    ["忞"] = {["first"] = "w", ["second"] = "x"},
-    ["於"] = {["first"] = "f", ["second"] = "d"},
-    ["炌"] = {["first"] = "h", ["second"] = "l"},
-    ["炆"] = {["first"] = "h", ["second"] = "w"},
-    ["泙"] = {["first"] = "d", ["second"] = "p"},
-    ["沺"] = {["first"] = "d", ["second"] = "t"},
-    ["泂"] = {["first"] = "d", ["second"] = "k"},
-    ["泜"] = {["first"] = "d", ["second"] = "d"},
-    ["泃"] = {["first"] = "d", ["second"] = "k"},
-    ["泇"] = {["first"] = "d", ["second"] = "k"},
-    ["怊"] = {["first"] = "x", ["second"] = "k"},
-    ["峃"] = {["first"] = "x", ["second"] = "e"},
-    ["穸"] = {["first"] = "b", ["second"] = "x"},
-    ["祋"] = {["first"] = "p", ["second"] = "y"},
-    ["祊"] = {["first"] = "p", ["second"] = "f"},
-    ["𫍣"] = {["first"] = "y", ["second"] = "k"},
-    ["𬣳"] = {["first"] = "y", ["second"] = "g"},
-    ["𬩽"] = {["first"] = "e", ["second"] = "e"},
-    ["鸤"] = {["first"] = "u", ["second"] = "n"},
-    ["弢"] = {["first"] = "g", ["second"] = "y"},
-    ["弨"] = {["first"] = "g", ["second"] = "k"},
-    ["陑"] = {["first"] = "e", ["second"] = "e"},
-    ["𬮿"] = {["first"] = "e", ["second"] = "j"},
-    ["陎"] = {["first"] = "e", ["second"] = "v"},
-    ["𬯀"] = {["first"] = "e", ["second"] = "l"},
-    ["卺"] = {["first"] = "l", ["second"] = "v"},
-    ["乸"] = {["first"] = "y", ["second"] = "m"},
-    ["妭"] = {["first"] = "n", ["second"] = "d"},
-    ["姈"] = {["first"] = "n", ["second"] = "s"},
-    ["𫰛"] = {["first"] = "n", ["second"] = "g"},
-    ["迳"] = {["first"] = "z", ["second"] = "g"},
-    ["叕"] = {["first"] = "y", ["second"] = "y"},
-    ["𬳵"] = {["first"] = "m", ["second"] = "p"},
-    ["驵"] = {["first"] = "m", ["second"] = "q"},
-    ["𬳶"] = {["first"] = "m", ["second"] = "k"},
-    ["䌹"] = {["first"] = "s", ["second"] = "k"},
-    ["驺"] = {["first"] = "m", ["second"] = "e"},
-    ["𫠊"] = {["first"] = "m", ["second"] = "y"},
-    ["绋"] = {["first"] = "s", ["second"] = "f"},
-    ["绐"] = {["first"] = "s", ["second"] = "k"},
-    ["砉"] = {["first"] = "f", ["second"] = "u"},
-    ["耔"] = {["first"] = "l", ["second"] = "z"},
-    ["㛃"] = {["first"] = "f", ["second"] = "n"},
-    ["玶"] = {["first"] = "w", ["second"] = "p"},
-    ["珇"] = {["first"] = "w", ["second"] = "q"},
-    ["珅"] = {["first"] = "w", ["second"] = "u"},
-    ["𬍛"] = {["first"] = "w", ["second"] = "l"},
-    ["珋"] = {["first"] = "w", ["second"] = "e"},
-    ["玹"] = {["first"] = "w", ["second"] = "y"},
-    ["珌"] = {["first"] = "w", ["second"] = "b"},
-    ["玿"] = {["first"] = "w", ["second"] = "k"},
-    ["韨"] = {["first"] = "w", ["second"] = "d"},
-    ["垚"] = {["first"] = "t", ["second"] = "t"},
-    ["垯"] = {["first"] = "t", ["second"] = "z"},
-    ["垙"] = {["first"] = "t", ["second"] = "w"},
-    ["垲"] = {["first"] = "t", ["second"] = "j"},
-    ["埏"] = {["first"] = "t", ["second"] = "z"},
-    ["垍"] = {["first"] = "t", ["second"] = "z"},
-    ["耇"] = {["first"] = "l", ["second"] = "k"},
-    ["鿍"] = {["first"] = "t", ["second"] = "l"},
-    ["垎"] = {["first"] = "t", ["second"] = "k"},
-    ["垴"] = {["first"] = "t", ["second"] = "k"},
-    ["垟"] = {["first"] = "t", ["second"] = "y"},
-    ["垞"] = {["first"] = "t", ["second"] = "q"},
-    ["挓"] = {["first"] = "f", ["second"] = "q"},
-    ["垵"] = {["first"] = "t", ["second"] = "n"},
-    ["垏"] = {["first"] = "t", ["second"] = "y"},
-    ["拶"] = {["first"] = "f", ["second"] = "x"},
-    ["荖"] = {["first"] = "c", ["second"] = "b"},
-    ["荁"] = {["first"] = "c", ["second"] = "a"},
-    ["荙"] = {["first"] = "c", ["second"] = "z"},
-    ["荛"] = {["first"] = "c", ["second"] = "w"},
-    ["茈"] = {["first"] = "c", ["second"] = "b"},
-    ["茽"] = {["first"] = "c", ["second"] = "v"},
-    ["荄"] = {["first"] = "c", ["second"] = "r"},
-    ["茺"] = {["first"] = "c", ["second"] = "e"},
-    ["𬜬"] = {["first"] = "c", ["second"] = "k"},
-    ["荓"] = {["first"] = "c", ["second"] = "k"},
-    ["茳"] = {["first"] = "c", ["second"] = "g"},
-    ["𦰡"] = {["first"] = "c", ["second"] = "e"},
-    ["茛"] = {["first"] = "c", ["second"] = "g"},
-    ["荭"] = {["first"] = "c", ["second"] = "g"},
-    ["㭕"] = {["first"] = "m", ["second"] = "s"},
-    ["柷"] = {["first"] = "m", ["second"] = "e"},
-    ["柃"] = {["first"] = "m", ["second"] = "s"},
-    ["柊"] = {["first"] = "m", ["second"] = "d"},
-    ["枹"] = {["first"] = "m", ["second"] = "s"},
-    ["栐"] = {["first"] = "m", ["second"] = "y"},
-    ["柖"] = {["first"] = "m", ["second"] = "k"},
-    ["郚"] = {["first"] = "w", ["second"] = "e"},
-    ["剅"] = {["first"] = "a", ["second"] = "d"},
-    ["䴓"] = {["first"] = "a", ["second"] = "n"},
-    ["迺"] = {["first"] = "z", ["second"] = "x"},
-    ["厖"] = {["first"] = "i", ["second"] = "d"},
-    ["砆"] = {["first"] = "u", ["second"] = "f"},
-    ["砑"] = {["first"] = "u", ["second"] = "y"},
-    ["砄"] = {["first"] = "u", ["second"] = "g"},
-    ["耏"] = {["first"] = "e", ["second"] = "p"},
-    ["奓"] = {["first"] = "d", ["second"] = "x"},
-    ["䶮"] = {["first"] = "l", ["second"] = "t"},
-    ["轵"] = {["first"] = "i", ["second"] = "b"},
-    ["轷"] = {["first"] = "i", ["second"] = "h"},
-    ["轹"] = {["first"] = "i", ["second"] = "l"},
-    ["轺"] = {["first"] = "i", ["second"] = "k"},
-    ["昺"] = {["first"] = "o", ["second"] = "b"},
-    ["𪾢"] = {["first"] = "o", ["second"] = "e"},
-    ["昽"] = {["first"] = "o", ["second"] = "l"},
-    ["盷"] = {["first"] = "o", ["second"] = "d"},
-    ["咡"] = {["first"] = "k", ["second"] = "e"},
-    ["咺"] = {["first"] = "k", ["second"] = "a"},
-    ["昳"] = {["first"] = "o", ["second"] = "u"},
-    ["昣"] = {["first"] = "o", ["second"] = "p"},
-    ["哒"] = {["first"] = "k", ["second"] = "z"},
-    ["昤"] = {["first"] = "o", ["second"] = "s"},
-    ["昫"] = {["first"] = "o", ["second"] = "k"},
-    ["昡"] = {["first"] = "o", ["second"] = "y"},
-    ["咥"] = {["first"] = "k", ["second"] = "t"},
-    ["昪"] = {["first"] = "o", ["second"] = "c"},
-    ["虷"] = {["first"] = "i", ["second"] = "g"},
-    ["虸"] = {["first"] = "i", ["second"] = "z"},
-    ["哃"] = {["first"] = "k", ["second"] = "k"},
-    ["峘"] = {["first"] = "e", ["second"] = "a"},
-    ["耑"] = {["first"] = "e", ["second"] = "e"},
-    ["峛"] = {["first"] = "e", ["second"] = "d"},
-    ["𪨰"] = {["first"] = "e", ["second"] = "q"},
-    ["峗"] = {["first"] = "e", ["second"] = "v"},
-    ["峧"] = {["first"] = "e", ["second"] = "x"},
-    ["帡"] = {["first"] = "j", ["second"] = "k"},
-    ["钘"] = {["first"] = "j", ["second"] = "k"},
-    ["𫓧"] = {["first"] = "j", ["second"] = "f"},
-    ["钜"] = {["first"] = "j", ["second"] = "j"},
-    ["𬬮"] = {["first"] = "j", ["second"] = "i"},
-    ["𬬱"] = {["first"] = "j", ["second"] = "j"},
-    ["𬬭"] = {["first"] = "j", ["second"] = "b"},
-    ["钪"] = {["first"] = "j", ["second"] = "j"},
-    ["钬"] = {["first"] = "j", ["second"] = "h"},
-    ["钭"] = {["first"] = "j", ["second"] = "u"},
-    ["矧"] = {["first"] = "u", ["second"] = "l"},
-    ["秬"] = {["first"] = "h", ["second"] = "j"},
-    ["俫"] = {["first"] = "r", ["second"] = "l"},
-    ["舁"] = {["first"] = "j", ["second"] = "c"},
-    ["俜"] = {["first"] = "r", ["second"] = "v"},
-    ["俙"] = {["first"] = "r", ["second"] = "j"},
-    ["俍"] = {["first"] = "r", ["second"] = "l"},
-    ["垕"] = {["first"] = "p", ["second"] = "t"},
-    ["衎"] = {["first"] = "i", ["second"] = "i"},
-    ["舣"] = {["first"] = "v", ["second"] = "y"},
-    ["弇"] = {["first"] = "r", ["second"] = "c"},
-    ["侴"] = {["first"] = "r", ["second"] = "d"},
-    ["鸧"] = {["first"] = "r", ["second"] = "n"},
-    ["䏡"] = {["first"] = "o", ["second"] = "x"},
-    ["胠"] = {["first"] = "o", ["second"] = "s"},
-    ["𦙶"] = {["first"] = "o", ["second"] = "k"},
-    ["胈"] = {["first"] = "o", ["second"] = "d"},
-    ["胩"] = {["first"] = "o", ["second"] = "b"},
-    ["胣"] = {["first"] = "o", ["second"] = "y"},
-    ["朏"] = {["first"] = "o", ["second"] = "i"},
-    ["飐"] = {["first"] = "j", ["second"] = "k"},
-    ["訄"] = {["first"] = "j", ["second"] = "k"},
-    ["饻"] = {["first"] = "u", ["second"] = "y"},
-    ["庤"] = {["first"] = "g", ["second"] = "c"},
-    ["疢"] = {["first"] = "b", ["second"] = "h"},
-    ["炣"] = {["first"] = "h", ["second"] = "k"},
-    ["炟"] = {["first"] = "h", ["second"] = "a"},
-    ["㶲"] = {["first"] = "h", ["second"] = "y"},
-    ["洭"] = {["first"] = "d", ["second"] = "w"},
-    ["洘"] = {["first"] = "d", ["second"] = "v"},
-    ["洓"] = {["first"] = "d", ["second"] = "n"},
-    ["洿"] = {["first"] = "d", ["second"] = "k"},
-    ["㳚"] = {["first"] = "d", ["second"] = "u"},
-    ["泚"] = {["first"] = "d", ["second"] = "b"},
-    ["浈"] = {["first"] = "d", ["second"] = "r"},
-    ["浉"] = {["first"] = "d", ["second"] = "j"},
-    ["洸"] = {["first"] = "d", ["second"] = "w"},
-    ["洑"] = {["first"] = "d", ["second"] = "q"},
-    ["洢"] = {["first"] = "d", ["second"] = "y"},
-    ["洈"] = {["first"] = "d", ["second"] = "v"},
-    ["洚"] = {["first"] = "d", ["second"] = "l"},
-    ["洺"] = {["first"] = "d", ["second"] = "k"},
-    ["洨"] = {["first"] = "d", ["second"] = "x"},
-    ["浐"] = {["first"] = "d", ["second"] = "i"},
-    ["㳘"] = {["first"] = "d", ["second"] = "e"},
-    ["洴"] = {["first"] = "d", ["second"] = "k"},
-    ["洣"] = {["first"] = "d", ["second"] = "m"},
-    ["恔"] = {["first"] = "x", ["second"] = "x"},
-    ["宬"] = {["first"] = "b", ["second"] = "i"},
-    ["窀"] = {["first"] = "b", ["second"] = "t"},
-    ["扂"] = {["first"] = "h", ["second"] = "k"},
-    ["袆"] = {["first"] = "p", ["second"] = "w"},
-    ["祏"] = {["first"] = "p", ["second"] = "u"},
-    ["祐"] = {["first"] = "p", ["second"] = "k"},
-    ["祕"] = {["first"] = "p", ["second"] = "b"},
-    ["叚"] = {["first"] = "v", ["second"] = "y"},
-    ["陧"] = {["first"] = "e", ["second"] = "t"},
-    ["陞"] = {["first"] = "e", ["second"] = "t"},
-    ["娀"] = {["first"] = "n", ["second"] = "u"},
-    ["姞"] = {["first"] = "n", ["second"] = "k"},
-    ["姱"] = {["first"] = "n", ["second"] = "k"},
-    ["姤"] = {["first"] = "n", ["second"] = "k"},
-    ["姶"] = {["first"] = "n", ["second"] = "k"},
-    ["姽"] = {["first"] = "n", ["second"] = "v"},
-    ["枲"] = {["first"] = "s", ["second"] = "m"},
-    ["绖"] = {["first"] = "s", ["second"] = "t"},
-    ["骃"] = {["first"] = "m", ["second"] = "d"},
-    ["𬘡"] = {["first"] = "s", ["second"] = "d"},
-    ["𬳽"] = {["first"] = "m", ["second"] = "e"},
-    ["𬘩"] = {["first"] = "s", ["second"] = "z"},
-    ["𫄧"] = {["first"] = "s", ["second"] = "z"},
-    ["彖"] = {["first"] = "v", ["second"] = "u"},
-    ["骉"] = {["first"] = "m", ["second"] = "m"},
-    ["恝"] = {["first"] = "f", ["second"] = "x"},
-    ["珪"] = {["first"] = "w", ["second"] = "t"},
-    ["珛"] = {["first"] = "w", ["second"] = "o"},
-    ["珹"] = {["first"] = "w", ["second"] = "i"},
-    ["琊"] = {["first"] = "w", ["second"] = "e"},
-    ["玼"] = {["first"] = "w", ["second"] = "b"},
-    ["珖"] = {["first"] = "w", ["second"] = "w"},
-    ["𪟝"] = {["first"] = "f", ["second"] = "l"},
-    ["珽"] = {["first"] = "w", ["second"] = "z"},
-    ["珦"] = {["first"] = "w", ["second"] = "k"},
-    ["珫"] = {["first"] = "w", ["second"] = "e"},
-    ["珒"] = {["first"] = "w", ["second"] = "y"},
-    ["𬍤"] = {["first"] = "w", ["second"] = "c"},
-    ["珢"] = {["first"] = "w", ["second"] = "g"},
-    ["珕"] = {["first"] = "w", ["second"] = "l"},
-    ["珝"] = {["first"] = "w", ["second"] = "x"},
-    ["𫭼"] = {["first"] = "t", ["second"] = "l"},
-    ["埗"] = {["first"] = "t", ["second"] = "p"},
-    ["垾"] = {["first"] = "t", ["second"] = "g"},
-    ["垺"] = {["first"] = "t", ["second"] = "z"},
-    ["埆"] = {["first"] = "t", ["second"] = "y"},
-    ["垿"] = {["first"] = "t", ["second"] = "l"},
-    ["埌"] = {["first"] = "t", ["second"] = "l"},
-    ["埇"] = {["first"] = "t", ["second"] = "y"},
-    ["莰"] = {["first"] = "c", ["second"] = "r"},
-    ["茝"] = {["first"] = "c", ["second"] = "l"},
-    ["𬜯"] = {["first"] = "c", ["second"] = "l"},
-    ["鄀"] = {["first"] = "c", ["second"] = "e"},
-    ["莶"] = {["first"] = "c", ["second"] = "a"},
-    ["莝"] = {["first"] = "c", ["second"] = "t"},
-    ["䓖"] = {["first"] = "c", ["second"] = "l"},
-    ["莙"] = {["first"] = "c", ["second"] = "k"},
-    ["栻"] = {["first"] = "m", ["second"] = "g"},
-    ["桠"] = {["first"] = "m", ["second"] = "y"},
-    ["𬂩"] = {["first"] = "m", ["second"] = "j"},
-    ["桄"] = {["first"] = "m", ["second"] = "w"},
-    ["梠"] = {["first"] = "m", ["second"] = "k"},
-    ["栴"] = {["first"] = "m", ["second"] = "d"},
-    ["梴"] = {["first"] = "m", ["second"] = "z"},
-    ["栒"] = {["first"] = "m", ["second"] = "o"},
-    ["酎"] = {["first"] = "y", ["second"] = "c"},
-    ["酏"] = {["first"] = "y", ["second"] = "y"},
-    ["𫠆"] = {["first"] = "u", ["second"] = "r"},
-    ["砵"] = {["first"] = "u", ["second"] = "b"},
-    ["砠"] = {["first"] = "u", ["second"] = "q"},
-    ["砫"] = {["first"] = "u", ["second"] = "v"},
-    ["砬"] = {["first"] = "u", ["second"] = "l"},
-    ["硁"] = {["first"] = "u", ["second"] = "g"},
-    ["恧"] = {["first"] = "e", ["second"] = "x"},
-    ["翃"] = {["first"] = "u", ["second"] = "x"},
-    ["郪"] = {["first"] = "a", ["second"] = "e"},
-    ["𨐈"] = {["first"] = "i", ["second"] = "w"},
-    ["辀"] = {["first"] = "i", ["second"] = "v"},
-    ["辁"] = {["first"] = "i", ["second"] = "w"},
-    ["𬌗"] = {["first"] = "y", ["second"] = "k"},
-    ["剕"] = {["first"] = "f", ["second"] = "d"},
-    ["赀"] = {["first"] = "v", ["second"] = "r"},
-    ["哢"] = {["first"] = "k", ["second"] = "c"},
-    ["晅"] = {["first"] = "o", ["second"] = "a"},
-    ["晊"] = {["first"] = "o", ["second"] = "t"},
-    ["唝"] = {["first"] = "k", ["second"] = "r"},
-    ["哳"] = {["first"] = "k", ["second"] = "j"},
-    ["哱"] = {["first"] = "k", ["second"] = "z"},
-    ["冔"] = {["first"] = "k", ["second"] = "y"},
-    ["晔"] = {["first"] = "o", ["second"] = "u"},
-    ["晐"] = {["first"] = "o", ["second"] = "r"},
-    ["晖"] = {["first"] = "o", ["second"] = "i"},
-    ["畖"] = {["first"] = "t", ["second"] = "g"},
-    ["蚄"] = {["first"] = "i", ["second"] = "f"},
-    ["蚆"] = {["first"] = "i", ["second"] = "b"},
-    ["𫑡"] = {["first"] = "k", ["second"] = "e"},
-    ["帱"] = {["first"] = "j", ["second"] = "c"},
-    ["崁"] = {["first"] = "e", ["second"] = "r"},
-    ["峿"] = {["first"] = "e", ["second"] = "k"},
-    ["𪨶"] = {["first"] = "e", ["second"] = "i"},
-    ["崄"] = {["first"] = "e", ["second"] = "a"},
-    ["帨"] = {["first"] = "j", ["second"] = "e"},
-    ["崀"] = {["first"] = "e", ["second"] = "l"},
-    ["赆"] = {["first"] = "k", ["second"] = "d"},
-    ["𬬸"] = {["first"] = "j", ["second"] = "u"},
-    ["钷"] = {["first"] = "j", ["second"] = "k"},
-    ["𬬻"] = {["first"] = "j", ["second"] = "u"},
-    ["𬬹"] = {["first"] = "j", ["second"] = "u"},
-    ["𬬿"] = {["first"] = "j", ["second"] = "k"},
-    ["𬭁"] = {["first"] = "j", ["second"] = "m"},
-    ["眚"] = {["first"] = "u", ["second"] = "o"},
-    ["甡"] = {["first"] = "u", ["second"] = "u"},
-    ["笫"] = {["first"] = "v", ["second"] = "p"},
-    ["倻"] = {["first"] = "r", ["second"] = "e"},
-    ["倴"] = {["first"] = "r", ["second"] = "c"},
-    ["脩"] = {["first"] = "r", ["second"] = "o"},
-    ["倮"] = {["first"] = "r", ["second"] = "g"},
-    ["倕"] = {["first"] = "r", ["second"] = "i"},
-    ["倞"] = {["first"] = "r", ["second"] = "x"},
-    ["𫢸"] = {["first"] = "r", ["second"] = "l"},
-    ["倓"] = {["first"] = "r", ["second"] = "h"},
-    ["倧"] = {["first"] = "r", ["second"] = "x"},
-    ["衃"] = {["first"] = "x", ["second"] = "b"},
-    ["虒"] = {["first"] = "p", ["second"] = "j"},
-    ["舭"] = {["first"] = "v", ["second"] = "b"},
-    ["舯"] = {["first"] = "v", ["second"] = "v"},
-    ["舥"] = {["first"] = "v", ["second"] = "b"},
-    ["瓞"] = {["first"] = "g", ["second"] = "u"},
-    ["鬯"] = {["first"] = "x", ["second"] = "b"},
-    ["鸰"] = {["first"] = "r", ["second"] = "n"},
-    ["脎"] = {["first"] = "o", ["second"] = "m"},
-    ["朓"] = {["first"] = "o", ["second"] = "d"},
-    ["胲"] = {["first"] = "o", ["second"] = "r"},
-    ["虓"] = {["first"] = "j", ["second"] = "j"},
-    ["鱽"] = {["first"] = "a", ["second"] = "d"},
-    ["狴"] = {["first"] = "q", ["second"] = "t"},
-    ["峱"] = {["first"] = "q", ["second"] = "e"},
-    ["狻"] = {["first"] = "q", ["second"] = "w"},
-    ["眢"] = {["first"] = "x", ["second"] = "o"},
-    ["𫗧"] = {["first"] = "u", ["second"] = "u"},
-    ["勍"] = {["first"] = "w", ["second"] = "l"},
-    ["痄"] = {["first"] = "b", ["second"] = "v"},
-    ["疰"] = {["first"] = "b", ["second"] = "v"},
-    ["痃"] = {["first"] = "b", ["second"] = "y"},
-    ["竘"] = {["first"] = "l", ["second"] = "k"},
-    ["羖"] = {["first"] = "y", ["second"] = "y"},
-    ["羓"] = {["first"] = "y", ["second"] = "b"},
-    ["桊"] = {["first"] = "j", ["second"] = "m"},
-    ["敉"] = {["first"] = "m", ["second"] = "w"},
-    ["烠"] = {["first"] = "h", ["second"] = "o"},
-    ["烔"] = {["first"] = "h", ["second"] = "k"},
-    ["烶"] = {["first"] = "h", ["second"] = "z"},
-    ["烻"] = {["first"] = "h", ["second"] = "z"},
-    ["𬊈"] = {["first"] = "h", ["second"] = "c"},
-    ["涍"] = {["first"] = "d", ["second"] = "z"},
-    ["浡"] = {["first"] = "d", ["second"] = "z"},
-    ["浭"] = {["first"] = "d", ["second"] = "g"},
-    ["浬"] = {["first"] = "d", ["second"] = "l"},
-    ["涄"] = {["first"] = "d", ["second"] = "v"},
-    ["涢"] = {["first"] = "d", ["second"] = "r"},
-    ["涐"] = {["first"] = "d", ["second"] = "w"},
-    ["浰"] = {["first"] = "d", ["second"] = "d"},
-    ["浟"] = {["first"] = "d", ["second"] = "w"},
-    ["浛"] = {["first"] = "d", ["second"] = "k"},
-    ["浼"] = {["first"] = "d", ["second"] = "v"},
-    ["浲"] = {["first"] = "d", ["second"] = "f"},
-    ["涘"] = {["first"] = "d", ["second"] = "u"},
-    ["悈"] = {["first"] = "x", ["second"] = "c"},
-    ["悃"] = {["first"] = "x", ["second"] = "m"},
-    ["悢"] = {["first"] = "x", ["second"] = "l"},
-    ["𬒈"] = {["first"] = "x", ["second"] = "u"},
-    ["宧"] = {["first"] = "b", ["second"] = "l"},
-    ["窅"] = {["first"] = "b", ["second"] = "o"},
-    ["窊"] = {["first"] = "b", ["second"] = "g"},
-    ["窎"] = {["first"] = "b", ["second"] = "n"},
-    ["扅"] = {["first"] = "h", ["second"] = "x"},
-    ["扆"] = {["first"] = "h", ["second"] = "y"},
-    ["袪"] = {["first"] = "p", ["second"] = "s"},
-    ["袗"] = {["first"] = "p", ["second"] = "p"},
-    ["袯"] = {["first"] = "p", ["second"] = "d"},
-    ["祧"] = {["first"] = "p", ["second"] = "d"},
-    ["隺"] = {["first"] = "d", ["second"] = "f"},
-    ["堲"] = {["first"] = "g", ["second"] = "t"},
-    ["疍"] = {["first"] = "v", ["second"] = "a"},
-    ["𨺙"] = {["first"] = "e", ["second"] = "e"},
-    ["陴"] = {["first"] = "e", ["second"] = "u"},
-    ["烝"] = {["first"] = "l", ["second"] = "h"},
-    ["砮"] = {["first"] = "n", ["second"] = "u"},
-    ["㛚"] = {["first"] = "n", ["second"] = "y"},
-    ["哿"] = {["first"] = "l", ["second"] = "k"},
-    ["翀"] = {["first"] = "x", ["second"] = "v"},
-    ["翂"] = {["first"] = "x", ["second"] = "d"},
-    ["剟"] = {["first"] = "y", ["second"] = "d"},
-    ["𬳿"] = {["first"] = "m", ["second"] = "h"},
-    ["𫄨"] = {["first"] = "s", ["second"] = "j"},
-    ["绤"] = {["first"] = "s", ["second"] = "k"},
-    ["骍"] = {["first"] = "m", ["second"] = "u"},
-    ["𬘫"] = {["first"] = "s", ["second"] = "e"},
-    ["䂮"] = {["first"] = "f", ["second"] = "u"},
-    ["琎"] = {["first"] = "w", ["second"] = "z"},
-    ["珸"] = {["first"] = "w", ["second"] = "k"},
-    ["珵"] = {["first"] = "w", ["second"] = "w"},
-    ["琄"] = {["first"] = "w", ["second"] = "o"},
-    ["琈"] = {["first"] = "w", ["second"] = "z"},
-    ["琀"] = {["first"] = "w", ["second"] = "k"},
-    ["珺"] = {["first"] = "w", ["second"] = "k"},
-    ["掭"] = {["first"] = "f", ["second"] = "x"},
-    ["堎"] = {["first"] = "t", ["second"] = "w"},
-    ["堐"] = {["first"] = "t", ["second"] = "t"},
-    ["埼"] = {["first"] = "t", ["second"] = "k"},
-    ["掎"] = {["first"] = "f", ["second"] = "k"},
-    ["埫"] = {["first"] = "t", ["second"] = "k"},
-    ["堌"] = {["first"] = "t", ["second"] = "k"},
-    ["晢"] = {["first"] = "f", ["second"] = "o"},
-    ["𫮃"] = {["first"] = "t", ["second"] = "l"},
-    ["掞"] = {["first"] = "f", ["second"] = "h"},
-    ["埪"] = {["first"] = "t", ["second"] = "g"},
-    ["壸"] = {["first"] = "u", ["second"] = "y"},
-    ["㙍"] = {["first"] = "t", ["second"] = "y"},
-    ["聍"] = {["first"] = "e", ["second"] = "d"},
-    ["菝"] = {["first"] = "c", ["second"] = "d"},
-    ["萚"] = {["first"] = "c", ["second"] = "l"},
-    ["菥"] = {["first"] = "c", ["second"] = "j"},
-    ["莿"] = {["first"] = "c", ["second"] = "d"},
-    ["䓫"] = {["first"] = "c", ["second"] = "k"},
-    ["勚"] = {["first"] = "u", ["second"] = "l"},
-    ["䓬"] = {["first"] = "c", ["second"] = "u"},
-    ["萆"] = {["first"] = "c", ["second"] = "u"},
-    ["菂"] = {["first"] = "c", ["second"] = "u"},
-    ["菍"] = {["first"] = "c", ["second"] = "x"},
-    ["菼"] = {["first"] = "c", ["second"] = "h"},
-    ["萣"] = {["first"] = "c", ["second"] = "r"},
-    ["䓨"] = {["first"] = "c", ["second"] = "f"},
-    ["菉"] = {["first"] = "c", ["second"] = "u"},
-    ["䓛"] = {["first"] = "c", ["second"] = "i"},
-    ["梼"] = {["first"] = "m", ["second"] = "c"},
-    ["梽"] = {["first"] = "m", ["second"] = "x"},
-    ["桲"] = {["first"] = "m", ["second"] = "z"},
-    ["梾"] = {["first"] = "m", ["second"] = "l"},
-    ["桯"] = {["first"] = "m", ["second"] = "w"},
-    ["梣"] = {["first"] = "m", ["second"] = "v"},
-    ["梌"] = {["first"] = "m", ["second"] = "h"},
-    ["桹"] = {["first"] = "m", ["second"] = "l"},
-    ["敔"] = {["first"] = "w", ["second"] = "w"},
-    ["厣"] = {["first"] = "i", ["second"] = "j"},
-    ["硔"] = {["first"] = "u", ["second"] = "b"},
-    ["鿎"] = {["first"] = "u", ["second"] = "z"},
-    ["硙"] = {["first"] = "u", ["second"] = "j"},
-    ["硚"] = {["first"] = "u", ["second"] = "l"},
-    ["硊"] = {["first"] = "u", ["second"] = "v"},
-    ["硍"] = {["first"] = "u", ["second"] = "g"},
-    ["勔"] = {["first"] = "m", ["second"] = "l"},
-    ["䴕"] = {["first"] = "d", ["second"] = "n"},
-    ["龁"] = {["first"] = "v", ["second"] = "q"},
-    ["逴"] = {["first"] = "z", ["second"] = "u"},
-    ["唪"] = {["first"] = "k", ["second"] = "l"},
-    ["啫"] = {["first"] = "k", ["second"] = "o"},
-    ["翈"] = {["first"] = "j", ["second"] = "x"},
-    ["㫰"] = {["first"] = "o", ["second"] = "l"},
-    ["晙"] = {["first"] = "o", ["second"] = "w"},
-    ["畤"] = {["first"] = "t", ["second"] = "c"},
-    ["𬱖"] = {["first"] = "y", ["second"] = "r"},
-    ["趼"] = {["first"] = "z", ["second"] = "k"},
-    ["跂"] = {["first"] = "z", ["second"] = "y"},
-    ["蛃"] = {["first"] = "i", ["second"] = "b"},
-    ["蚲"] = {["first"] = "i", ["second"] = "p"},
-    ["𬟽"] = {["first"] = "i", ["second"] = "d"},
-    ["蚺"] = {["first"] = "i", ["second"] = "r"},
-    ["啴"] = {["first"] = "k", ["second"] = "l"},
-    ["䎃"] = {["first"] = "r", ["second"] = "x"},
-    ["崧"] = {["first"] = "e", ["second"] = "s"},
-    ["崟"] = {["first"] = "e", ["second"] = "j"},
-    ["崞"] = {["first"] = "e", ["second"] = "z"},
-    ["崒"] = {["first"] = "e", ["second"] = "u"},
-    ["崌"] = {["first"] = "e", ["second"] = "k"},
-    ["崡"] = {["first"] = "e", ["second"] = "k"},
-    ["铏"] = {["first"] = "j", ["second"] = "d"},
-    ["𫓯"] = {["first"] = "j", ["second"] = "t"},
-    ["𫟹"] = {["first"] = "j", ["second"] = "b"},
-    ["铕"] = {["first"] = "j", ["second"] = "o"},
-    ["𫟼"] = {["first"] = "j", ["second"] = "z"},
-    ["铖"] = {["first"] = "j", ["second"] = "i"},
-    ["铘"] = {["first"] = "j", ["second"] = "e"},
-    ["铚"] = {["first"] = "j", ["second"] = "t"},
-    ["铞"] = {["first"] = "j", ["second"] = "j"},
-    ["铥"] = {["first"] = "j", ["second"] = "s"},
-    ["铴"] = {["first"] = "j", ["second"] = "p"},
-    ["牻"] = {["first"] = "n", ["second"] = "d"},
-    ["牿"] = {["first"] = "n", ["second"] = "k"},
-    ["稆"] = {["first"] = "h", ["second"] = "k"},
-    ["笱"] = {["first"] = "v", ["second"] = "k"},
-    ["笯"] = {["first"] = "v", ["second"] = "y"},
-    ["偰"] = {["first"] = "r", ["second"] = "d"},
-    ["偡"] = {["first"] = "r", ["second"] = "v"},
-    ["鸺"] = {["first"] = "r", ["second"] = "n"},
-    ["偭"] = {["first"] = "r", ["second"] = "m"},
-    ["偲"] = {["first"] = "r", ["second"] = "x"},
-    ["偁"] = {["first"] = "r", ["second"] = "r"},
-    ["㿠"] = {["first"] = "b", ["second"] = "w"},
-    ["鄅"] = {["first"] = "y", ["second"] = "e"},
-    ["偓"] = {["first"] = "r", ["second"] = "t"},
-    ["徛"] = {["first"] = "i", ["second"] = "k"},
-    ["衒"] = {["first"] = "i", ["second"] = "i"},
-    ["舳"] = {["first"] = "v", ["second"] = "y"},
-    ["舲"] = {["first"] = "v", ["second"] = "s"},
-    ["鸼"] = {["first"] = "v", ["second"] = "n"},
-    ["悆"] = {["first"] = "r", ["second"] = "x"},
-    ["鄃"] = {["first"] = "r", ["second"] = "e"},
-    ["瓻"] = {["first"] = "x", ["second"] = "w"},
-    ["䝙"] = {["first"] = "v", ["second"] = "x"},
-    ["脶"] = {["first"] = "o", ["second"] = "n"},
-    ["脞"] = {["first"] = "o", ["second"] = "t"},
-    ["脟"] = {["first"] = "o", ["second"] = "c"},
-    ["䏲"] = {["first"] = "o", ["second"] = "p"},
-    ["鱾"] = {["first"] = "a", ["second"] = "j"},
-    ["猇"] = {["first"] = "q", ["second"] = "j"},
-    ["猊"] = {["first"] = "q", ["second"] = "e"},
-    ["猄"] = {["first"] = "q", ["second"] = "x"},
-    ["觖"] = {["first"] = "d", ["second"] = "g"},
-    ["𠅤"] = {["first"] = "w", ["second"] = "x"},
-    ["庱"] = {["first"] = "g", ["second"] = "w"},
-    ["庼"] = {["first"] = "g", ["second"] = "r"},
-    ["庳"] = {["first"] = "g", ["second"] = "u"},
-    ["痓"] = {["first"] = "b", ["second"] = "t"},
-    ["䴔"] = {["first"] = "w", ["second"] = "n"},
-    ["竫"] = {["first"] = "l", ["second"] = "l"},
-    ["堃"] = {["first"] = "f", ["second"] = "t"},
-    ["阌"] = {["first"] = "m", ["second"] = "y"},
-    ["羝"] = {["first"] = "y", ["second"] = "d"},
-    ["羕"] = {["first"] = "y", ["second"] = "y"},
-    ["焆"] = {["first"] = "h", ["second"] = "o"},
-    ["烺"] = {["first"] = "h", ["second"] = "l"},
-    ["焌"] = {["first"] = "h", ["second"] = "w"},
-    ["淏"] = {["first"] = "d", ["second"] = "t"},
-    ["𬇹"] = {["first"] = "d", ["second"] = "y"},
-    ["淟"] = {["first"] = "d", ["second"] = "b"},
-    ["淜"] = {["first"] = "d", ["second"] = "o"},
-    ["淴"] = {["first"] = "d", ["second"] = "x"},
-    ["淯"] = {["first"] = "d", ["second"] = "o"},
-    ["湴"] = {["first"] = "d", ["second"] = "y"},
-    ["涴"] = {["first"] = "d", ["second"] = "v"},
-    ["𬍡"] = {["first"] = "d", ["second"] = "y"},
-    ["㥄"] = {["first"] = "x", ["second"] = "w"},
-    ["惛"] = {["first"] = "x", ["second"] = "o"},
-    ["惔"] = {["first"] = "x", ["second"] = "h"},
-    ["悰"] = {["first"] = "x", ["second"] = "x"},
-    ["惙"] = {["first"] = "x", ["second"] = "y"},
-    ["寁"] = {["first"] = "b", ["second"] = "r"},
-    ["逭"] = {["first"] = "z", ["second"] = "k"},
-    ["𬤇"] = {["first"] = "y", ["second"] = "t"},
-    ["𫍯"] = {["first"] = "y", ["second"] = "k"},
-    ["袼"] = {["first"] = "p", ["second"] = "k"},
-    ["裈"] = {["first"] = "p", ["second"] = "i"},
-    ["祲"] = {["first"] = "p", ["second"] = "y"},
-    ["𬤊"] = {["first"] = "y", ["second"] = "r"},
-    ["𫍲"] = {["first"] = "y", ["second"] = "y"},
-    ["谞"] = {["first"] = "y", ["second"] = "o"},
-    ["艴"] = {["first"] = "f", ["second"] = "b"},
-    ["弸"] = {["first"] = "g", ["second"] = "o"},
-    ["弶"] = {["first"] = "g", ["second"] = "x"},
-    ["𬯎"] = {["first"] = "e", ["second"] = "r"},
-    ["隃"] = {["first"] = "e", ["second"] = "d"},
-    ["婞"] = {["first"] = "n", ["second"] = "g"},
-    ["娵"] = {["first"] = "n", ["second"] = "y"},
-    ["婼"] = {["first"] = "n", ["second"] = "k"},
-    ["媖"] = {["first"] = "n", ["second"] = "y"},
-    ["婳"] = {["first"] = "n", ["second"] = "k"},
-    ["婍"] = {["first"] = "n", ["second"] = "k"},
-    ["婌"] = {["first"] = "n", ["second"] = "y"},
-    ["婫"] = {["first"] = "n", ["second"] = "b"},
-    ["婤"] = {["first"] = "n", ["second"] = "k"},
-    ["婘"] = {["first"] = "n", ["second"] = "v"},
-    ["婠"] = {["first"] = "n", ["second"] = "k"},
-    ["𬘬"] = {["first"] = "s", ["second"] = "o"},
-    ["𬘭"] = {["first"] = "s", ["second"] = "m"},
-    ["𬴂"] = {["first"] = "m", ["second"] = "f"},
-    ["𫘦"] = {["first"] = "m", ["second"] = "f"},
-    ["绹"] = {["first"] = "s", ["second"] = "f"},
-    ["𫟅"] = {["first"] = "s", ["second"] = "x"},
-    ["𬘯"] = {["first"] = "s", ["second"] = "z"},
-    ["骕"] = {["first"] = "m", ["second"] = "s"},
-    ["𫘧"] = {["first"] = "m", ["second"] = "u"},
-    ["絜"] = {["first"] = "f", ["second"] = "x"},
-    ["珷"] = {["first"] = "w", ["second"] = "v"},
-    ["琲"] = {["first"] = "w", ["second"] = "f"},
-    ["琡"] = {["first"] = "w", ["second"] = "y"},
-    ["琟"] = {["first"] = "w", ["second"] = "f"},
-    ["琔"] = {["first"] = "w", ["second"] = "r"},
-    ["琭"] = {["first"] = "w", ["second"] = "u"},
-    ["堾"] = {["first"] = "t", ["second"] = "o"},
-    ["堼"] = {["first"] = "t", ["second"] = "t"},
-    ["揕"] = {["first"] = "f", ["second"] = "v"},
-    ["㙘"] = {["first"] = "t", ["second"] = "n"},
-    ["堧"] = {["first"] = "t", ["second"] = "d"},
-    ["喆"] = {["first"] = "u", ["second"] = "k"},
-    ["堨"] = {["first"] = "t", ["second"] = "v"},
-    ["塅"] = {["first"] = "t", ["second"] = "y"},
-    ["堠"] = {["first"] = "t", ["second"] = "u"},
-    ["絷"] = {["first"] = "f", ["second"] = "x"},
-    ["𪣻"] = {["first"] = "t", ["second"] = "n"},
-    ["𡎚"] = {["first"] = "t", ["second"] = "c"},
-    ["葜"] = {["first"] = "c", ["second"] = "d"},
-    ["惎"] = {["first"] = "q", ["second"] = "x"},
-    ["萳"] = {["first"] = "c", ["second"] = "g"},
-    ["葙"] = {["first"] = "c", ["second"] = "o"},
-    ["靬"] = {["first"] = "g", ["second"] = "g"},
-    ["葴"] = {["first"] = "c", ["second"] = "k"},
-    ["蒇"] = {["first"] = "c", ["second"] = "r"},
-    ["蒈"] = {["first"] = "c", ["second"] = "b"},
-    ["鄚"] = {["first"] = "c", ["second"] = "e"},
-    ["蒉"] = {["first"] = "c", ["second"] = "r"},
-    ["蓇"] = {["first"] = "c", ["second"] = "g"},
-    ["萩"] = {["first"] = "c", ["second"] = "h"},
-    ["蒐"] = {["first"] = "c", ["second"] = "g"},
-    ["葰"] = {["first"] = "c", ["second"] = "w"},
-    ["葎"] = {["first"] = "c", ["second"] = "y"},
-    ["鄑"] = {["first"] = "y", ["second"] = "e"},
-    ["蒎"] = {["first"] = "c", ["second"] = "n"},
-    ["葖"] = {["first"] = "c", ["second"] = "q"},
-    ["蒄"] = {["first"] = "c", ["second"] = "c"},
-    ["萹"] = {["first"] = "c", ["second"] = "c"},
-    ["棤"] = {["first"] = "m", ["second"] = "o"},
-    ["棽"] = {["first"] = "m", ["second"] = "v"},
-    ["棫"] = {["first"] = "m", ["second"] = "a"},
-    ["椓"] = {["first"] = "m", ["second"] = "n"},
-    ["椑"] = {["first"] = "m", ["second"] = "u"},
-    ["𬃊"] = {["first"] = "m", ["second"] = "r"},
-    ["鹀"] = {["first"] = "g", ["second"] = "n"},
-    ["椆"] = {["first"] = "m", ["second"] = "k"},
-    ["棓"] = {["first"] = "m", ["second"] = "k"},
-    ["棬"] = {["first"] = "m", ["second"] = "v"},
-    ["棪"] = {["first"] = "m", ["second"] = "h"},
-    ["椀"] = {["first"] = "m", ["second"] = "v"},
-    ["楗"] = {["first"] = "m", ["second"] = "z"},
-    ["𬷕"] = {["first"] = "f", ["second"] = "n"},
-    ["甦"] = {["first"] = "g", ["second"] = "u"},
-    ["酦"] = {["first"] = "y", ["second"] = "d"},
-    ["觌"] = {["first"] = "u", ["second"] = "e"},
-    ["奡"] = {["first"] = "a", ["second"] = "l"},
-    ["皕"] = {["first"] = "b", ["second"] = "b"},
-    ["硪"] = {["first"] = "u", ["second"] = "w"},
-    ["欹"] = {["first"] = "d", ["second"] = "r"},
-    ["詟"] = {["first"] = "l", ["second"] = "k"},
-    ["𫐐"] = {["first"] = "i", ["second"] = "e"},
-    ["辌"] = {["first"] = "i", ["second"] = "x"},
-    ["棐"] = {["first"] = "f", ["second"] = "m"},
-    ["龂"] = {["first"] = "v", ["second"] = "j"},
-    ["𬹼"] = {["first"] = "v", ["second"] = "l"},
-    ["黹"] = {["first"] = "y", ["second"] = "d"},
-    ["牚"] = {["first"] = "x", ["second"] = "y"},
-    ["睎"] = {["first"] = "o", ["second"] = "j"},
-    ["晫"] = {["first"] = "o", ["second"] = "u"},
-    ["晪"] = {["first"] = "o", ["second"] = "b"},
-    ["晱"] = {["first"] = "o", ["second"] = "h"},
-    ["𧿹"] = {["first"] = "z", ["second"] = "m"},
-    ["蛑"] = {["first"] = "i", ["second"] = "n"},
-    ["畯"] = {["first"] = "t", ["second"] = "w"},
-    ["斝"] = {["first"] = "k", ["second"] = "u"},
-    ["喤"] = {["first"] = "k", ["second"] = "w"},
-    ["崶"] = {["first"] = "e", ["second"] = "c"},
-    ["嵁"] = {["first"] = "e", ["second"] = "v"},
-    ["𫶇"] = {["first"] = "e", ["second"] = "j"},
-    ["崾"] = {["first"] = "e", ["second"] = "n"},
-    ["嵅"] = {["first"] = "e", ["second"] = "k"},
-    ["崿"] = {["first"] = "e", ["second"] = "k"},
-    ["嵚"] = {["first"] = "e", ["second"] = "r"},
-    ["翙"] = {["first"] = "e", ["second"] = "x"},
-    ["𫖮"] = {["first"] = "e", ["second"] = "r"},
-    ["圌"] = {["first"] = "k", ["second"] = "e"},
-    ["圐"] = {["first"] = "k", ["second"] = "f"},
-    ["赑"] = {["first"] = "k", ["second"] = "r"},
-    ["淼"] = {["first"] = "u", ["second"] = "u"},
-    ["赒"] = {["first"] = "k", ["second"] = "k"},
-    ["鿏"] = {["first"] = "j", ["second"] = "w"},
-    ["铹"] = {["first"] = "j", ["second"] = "l"},
-    ["𬭊"] = {["first"] = "j", ["second"] = "t"},
-    ["铽"] = {["first"] = "j", ["second"] = "x"},
-    ["𨱇"] = {["first"] = "j", ["second"] = "q"},
-    ["𫓶"] = {["first"] = "j", ["second"] = "o"},
-    ["锊"] = {["first"] = "j", ["second"] = "c"},
-    ["锍"] = {["first"] = "j", ["second"] = "v"},
-    ["锎"] = {["first"] = "j", ["second"] = "k"},
-    ["𬭎"] = {["first"] = "j", ["second"] = "s"},
-    ["锓"] = {["first"] = "j", ["second"] = "y"},
-    ["犇"] = {["first"] = "n", ["second"] = "n"},
-    ["颋"] = {["first"] = "r", ["second"] = "r"},
-    ["稌"] = {["first"] = "h", ["second"] = "h"},
-    ["筀"] = {["first"] = "v", ["second"] = "t"},
-    ["筘"] = {["first"] = "v", ["second"] = "k"},
-    ["筜"] = {["first"] = "v", ["second"] = "e"},
-    ["筥"] = {["first"] = "v", ["second"] = "k"},
-    ["筅"] = {["first"] = "v", ["second"] = "e"},
-    ["傃"] = {["first"] = "r", ["second"] = "x"},
-    ["傉"] = {["first"] = "r", ["second"] = "c"},
-    ["翛"] = {["first"] = "r", ["second"] = "x"},
-    ["傒"] = {["first"] = "r", ["second"] = "d"},
-    ["傕"] = {["first"] = "r", ["second"] = "f"},
-    ["舾"] = {["first"] = "v", ["second"] = "x"},
-    ["畬"] = {["first"] = "r", ["second"] = "t"},
-    ["𫖯"] = {["first"] = "e", ["second"] = "r"},
-    ["脿"] = {["first"] = "o", ["second"] = "y"},
-    ["腘"] = {["first"] = "o", ["second"] = "y"},
-    ["䐃"] = {["first"] = "o", ["second"] = "h"},
-    ["腙"] = {["first"] = "o", ["second"] = "x"},
-    ["腒"] = {["first"] = "o", ["second"] = "k"},
-    ["𬱟"] = {["first"] = "d", ["second"] = "r"},
-    ["鲃"] = {["first"] = "a", ["second"] = "b"},
-    ["猰"] = {["first"] = "q", ["second"] = "d"},
-    ["𫛭"] = {["first"] = "q", ["second"] = "n"},
-    ["猯"] = {["first"] = "q", ["second"] = "e"},
-    ["㺄"] = {["first"] = "q", ["second"] = "d"},
-    ["馉"] = {["first"] = "u", ["second"] = "g"},
-    ["凓"] = {["first"] = "d", ["second"] = "m"},
-    ["鄗"] = {["first"] = "w", ["second"] = "e"},
-    ["𫷷"] = {["first"] = "g", ["second"] = "r"},
-    ["廋"] = {["first"] = "g", ["second"] = "y"},
-    ["廆"] = {["first"] = "g", ["second"] = "g"},
-    ["鄌"] = {["first"] = "g", ["second"] = "e"},
-    ["粢"] = {["first"] = "d", ["second"] = "m"},
-    ["遆"] = {["first"] = "z", ["second"] = "j"},
-    ["旐"] = {["first"] = "f", ["second"] = "d"},
-    ["𬮱"] = {["first"] = "m", ["second"] = "t"},
-    ["焞"] = {["first"] = "h", ["second"] = "z"},
-    ["𬊤"] = {["first"] = "h", ["second"] = "l"},
-    ["欻"] = {["first"] = "h", ["second"] = "r"},
-    ["𣸣"] = {["first"] = "d", ["second"] = "r"},
-    ["溚"] = {["first"] = "d", ["second"] = "k"},
-    ["溁"] = {["first"] = "d", ["second"] = "m"},
-    ["湝"] = {["first"] = "d", ["second"] = "b"},
-    ["渰"] = {["first"] = "d", ["second"] = "c"},
-    ["湓"] = {["first"] = "d", ["second"] = "m"},
-    ["㴔"] = {["first"] = "d", ["second"] = "x"},
-    ["渟"] = {["first"] = "d", ["second"] = "d"},
-    ["溠"] = {["first"] = "d", ["second"] = "g"},
-    ["渼"] = {["first"] = "d", ["second"] = "d"},
-    ["溇"] = {["first"] = "d", ["second"] = "n"},
-    ["湣"] = {["first"] = "d", ["second"] = "o"},
-    ["湑"] = {["first"] = "d", ["second"] = "o"},
-    ["溞"] = {["first"] = "d", ["second"] = "i"},
-    ["愐"] = {["first"] = "x", ["second"] = "m"},
-    ["愃"] = {["first"] = "x", ["second"] = "a"},
-    ["敩"] = {["first"] = "x", ["second"] = "w"},
-    ["甯"] = {["first"] = "b", ["second"] = "y"},
-    ["棨"] = {["first"] = "h", ["second"] = "m"},
-    ["扊"] = {["first"] = "h", ["second"] = "h"},
-    ["裣"] = {["first"] = "p", ["second"] = "a"},
-    ["祼"] = {["first"] = "p", ["second"] = "g"},
-    ["婻"] = {["first"] = "n", ["second"] = "g"},
-    ["媆"] = {["first"] = "n", ["second"] = "d"},
-    ["媞"] = {["first"] = "n", ["second"] = "r"},
-    ["㛹"] = {["first"] = "n", ["second"] = "g"},
-    ["媓"] = {["first"] = "n", ["second"] = "w"},
-    ["媂"] = {["first"] = "n", ["second"] = "j"},
-    ["媄"] = {["first"] = "n", ["second"] = "d"},
-    ["毵"] = {["first"] = "s", ["second"] = "m"},
-    ["矞"] = {["first"] = "s", ["second"] = "k"},
-    ["𬴃"] = {["first"] = "m", ["second"] = "u"},
-    ["𫘨"] = {["first"] = "m", ["second"] = "r"},
-    ["缊"] = {["first"] = "s", ["second"] = "m"},
-    ["缐"] = {["first"] = "s", ["second"] = "u"},
-    ["骙"] = {["first"] = "m", ["second"] = "t"},
-    ["瑃"] = {["first"] = "w", ["second"] = "o"},
-    ["瑓"] = {["first"] = "w", ["second"] = "j"},
-    ["瑅"] = {["first"] = "w", ["second"] = "r"},
-    ["瑆"] = {["first"] = "w", ["second"] = "u"},
-    ["䴖"] = {["first"] = "f", ["second"] = "n"},
-    ["瑖"] = {["first"] = "w", ["second"] = "y"},
-    ["瑝"] = {["first"] = "w", ["second"] = "w"},
-    ["瑔"] = {["first"] = "w", ["second"] = "u"},
-    ["瑀"] = {["first"] = "w", ["second"] = "y"},
-    ["𤧛"] = {["first"] = "w", ["second"] = "j"},
-    ["瑳"] = {["first"] = "w", ["second"] = "g"},
-    ["瑂"] = {["first"] = "w", ["second"] = "o"},
-    ["嶅"] = {["first"] = "f", ["second"] = "e"},
-    ["瑑"] = {["first"] = "w", ["second"] = "u"},
-    ["遘"] = {["first"] = "z", ["second"] = "r"},
-    ["髢"] = {["first"] = "a", ["second"] = "y"},
-    ["塥"] = {["first"] = "t", ["second"] = "l"},
-    ["堽"] = {["first"] = "t", ["second"] = "v"},
-    ["赪"] = {["first"] = "t", ["second"] = "r"},
-    ["摛"] = {["first"] = "f", ["second"] = "d"},
-    ["塝"] = {["first"] = "t", ["second"] = "f"},
-    ["搒"] = {["first"] = "f", ["second"] = "f"},
-    ["搌"] = {["first"] = "f", ["second"] = "n"},
-    ["蒱"] = {["first"] = "c", ["second"] = "f"},
-    ["蒨"] = {["first"] = "c", ["second"] = "o"},
-    ["蓏"] = {["first"] = "c", ["second"] = "g"},
-    ["蔀"] = {["first"] = "c", ["second"] = "e"},
-    ["蓢"] = {["first"] = "c", ["second"] = "o"},
-    ["蓂"] = {["first"] = "c", ["second"] = "b"},
-    ["蒻"] = {["first"] = "c", ["second"] = "d"},
-    ["蓣"] = {["first"] = "c", ["second"] = "r"},
-    ["椹"] = {["first"] = "m", ["second"] = "v"},
-    ["楪"] = {["first"] = "m", ["second"] = "m"},
-    ["榃"] = {["first"] = "m", ["second"] = "t"},
-    ["榅"] = {["first"] = "m", ["second"] = "m"},
-    ["楒"] = {["first"] = "m", ["second"] = "x"},
-    ["楞"] = {["first"] = "m", ["second"] = "f"},
-    ["楩"] = {["first"] = "m", ["second"] = "g"},
-    ["榇"] = {["first"] = "m", ["second"] = "m"},
-    ["椸"] = {["first"] = "m", ["second"] = "y"},
-    ["楙"] = {["first"] = "m", ["second"] = "m"},
-    ["歅"] = {["first"] = "x", ["second"] = "r"},
-    ["𬪩"] = {["first"] = "y", ["second"] = "n"},
-    ["碃"] = {["first"] = "u", ["second"] = "o"},
-    ["碏"] = {["first"] = "u", ["second"] = "o"},
-    ["𬒔"] = {["first"] = "u", ["second"] = "o"},
-    ["碈"] = {["first"] = "u", ["second"] = "o"},
-    ["䃅"] = {["first"] = "u", ["second"] = "l"},
-    ["硿"] = {["first"] = "u", ["second"] = "g"},
-    ["鄠"] = {["first"] = "y", ["second"] = "e"},
-    ["辒"] = {["first"] = "i", ["second"] = "m"},
-    ["𬨎"] = {["first"] = "i", ["second"] = "y"},
-    ["𫐓"] = {["first"] = "i", ["second"] = "m"},
-    ["龆"] = {["first"] = "v", ["second"] = "k"},
-    ["觜"] = {["first"] = "v", ["second"] = "y"},
-    ["䣘"] = {["first"] = "x", ["second"] = "e"},
-    ["暕"] = {["first"] = "o", ["second"] = "j"},
-    ["鹍"] = {["first"] = "o", ["second"] = "n"},
-    ["𫫇"] = {["first"] = "k", ["second"] = "x"},
-    ["㬊"] = {["first"] = "o", ["second"] = "y"},
-    ["暅"] = {["first"] = "o", ["second"] = "a"},
-    ["跱"] = {["first"] = "z", ["second"] = "c"},
-    ["蜐"] = {["first"] = "i", ["second"] = "l"},
-    ["蜎"] = {["first"] = "i", ["second"] = "o"},
-    ["嵲"] = {["first"] = "e", ["second"] = "m"},
-    ["赗"] = {["first"] = "k", ["second"] = "o"},
-    ["骱"] = {["first"] = "g", ["second"] = "l"},
-    ["锖"] = {["first"] = "j", ["second"] = "o"},
-    ["𫓹"] = {["first"] = "j", ["second"] = "b"},
-    ["锘"] = {["first"] = "j", ["second"] = "k"},
-    ["锳"] = {["first"] = "j", ["second"] = "y"},
-    ["锧"] = {["first"] = "j", ["second"] = "r"},
-    ["锪"] = {["first"] = "j", ["second"] = "x"},
-    ["𬭚"] = {["first"] = "j", ["second"] = "z"},
-    ["锫"] = {["first"] = "j", ["second"] = "k"},
-    ["锬"] = {["first"] = "j", ["second"] = "h"},
-    ["𬭛"] = {["first"] = "j", ["second"] = "y"},
-    ["稑"] = {["first"] = "h", ["second"] = "t"},
-    ["稙"] = {["first"] = "h", ["second"] = "q"},
-    ["䅟"] = {["first"] = "h", ["second"] = "p"},
-    ["𬕂"] = {["first"] = "v", ["second"] = "r"},
-    ["筻"] = {["first"] = "v", ["second"] = "g"},
-    ["筼"] = {["first"] = "v", ["second"] = "r"},
-    ["筶"] = {["first"] = "v", ["second"] = "k"},
-    ["筦"] = {["first"] = "v", ["second"] = "e"},
-    ["筤"] = {["first"] = "v", ["second"] = "l"},
-    ["傺"] = {["first"] = "r", ["second"] = "x"},
-    ["鹎"] = {["first"] = "p", ["second"] = "n"},
-    ["僇"] = {["first"] = "r", ["second"] = "p"},
-    ["艅"] = {["first"] = "v", ["second"] = "h"},
-    ["艉"] = {["first"] = "v", ["second"] = "m"},
-    ["谼"] = {["first"] = "b", ["second"] = "b"},
-    ["貆"] = {["first"] = "v", ["second"] = "a"},
-    ["腽"] = {["first"] = "o", ["second"] = "m"},
-    ["腨"] = {["first"] = "o", ["second"] = "e"},
-    ["腯"] = {["first"] = "o", ["second"] = "o"},
-    ["鲉"] = {["first"] = "a", ["second"] = "y"},
-    ["鲊"] = {["first"] = "a", ["second"] = "v"},
-    ["鲌"] = {["first"] = "a", ["second"] = "b"},
-    ["䲟"] = {["first"] = "a", ["second"] = "e"},
-    ["𬶋"] = {["first"] = "a", ["second"] = "k"},
-    ["𬶍"] = {["first"] = "a", ["second"] = "b"},
-    ["鲏"] = {["first"] = "a", ["second"] = "y"},
-    ["雊"] = {["first"] = "b", ["second"] = "f"},
-    ["猺"] = {["first"] = "q", ["second"] = "f"},
-    ["飔"] = {["first"] = "j", ["second"] = "x"},
-    ["觟"] = {["first"] = "d", ["second"] = "t"},
-    ["𦝼"] = {["first"] = "o", ["second"] = "n"},
-    ["馌"] = {["first"] = "u", ["second"] = "m"},
-    ["裛"] = {["first"] = "w", ["second"] = "y"},
-    ["廒"] = {["first"] = "g", ["second"] = "w"},
-    ["瘀"] = {["first"] = "b", ["second"] = "d"},
-    ["瘅"] = {["first"] = "b", ["second"] = "l"},
-    ["鄘"] = {["first"] = "g", ["second"] = "e"},
-    ["鹒"] = {["first"] = "g", ["second"] = "n"},
-    ["鄜"] = {["first"] = "g", ["second"] = "e"},
-    ["麀"] = {["first"] = "g", ["second"] = "b"},
-    ["鄣"] = {["first"] = "l", ["second"] = "e"},
-    ["阘"] = {["first"] = "m", ["second"] = "x"},
-    ["𫔶"] = {["first"] = "m", ["second"] = "m"},
-    ["煁"] = {["first"] = "h", ["second"] = "v"},
-    ["煃"] = {["first"] = "h", ["second"] = "t"},
-    ["煴"] = {["first"] = "h", ["second"] = "m"},
-    ["煋"] = {["first"] = "h", ["second"] = "u"},
-    ["煟"] = {["first"] = "h", ["second"] = "o"},
-    ["煓"] = {["first"] = "h", ["second"] = "e"},
-    ["滠"] = {["first"] = "d", ["second"] = "y"},
-    ["溍"] = {["first"] = "d", ["second"] = "o"},
-    ["溹"] = {["first"] = "d", ["second"] = "x"},
-    ["滆"] = {["first"] = "d", ["second"] = "l"},
-    ["滉"] = {["first"] = "d", ["second"] = "w"},
-    ["溦"] = {["first"] = "d", ["second"] = "w"},
-    ["溵"] = {["first"] = "d", ["second"] = "y"},
-    ["漷"] = {["first"] = "d", ["second"] = "e"},
-    ["滧"] = {["first"] = "d", ["second"] = "w"},
-    ["滘"] = {["first"] = "d", ["second"] = "k"},
-    ["滍"] = {["first"] = "d", ["second"] = "i"},
-    ["愭"] = {["first"] = "x", ["second"] = "o"},
-    ["慥"] = {["first"] = "x", ["second"] = "z"},
-    ["慆"] = {["first"] = "x", ["second"] = "j"},
-    ["塱"] = {["first"] = "d", ["second"] = "t"},
-    ["𫌀"] = {["first"] = "p", ["second"] = "r"},
-    ["裼"] = {["first"] = "p", ["second"] = "w"},
-    ["禋"] = {["first"] = "p", ["second"] = "t"},
-    ["禔"] = {["first"] = "p", ["second"] = "r"},
-    ["禘"] = {["first"] = "p", ["second"] = "j"},
-    ["禒"] = {["first"] = "p", ["second"] = "u"},
-    ["谫"] = {["first"] = "y", ["second"] = "d"},
-    ["鹔"] = {["first"] = "s", ["second"] = "n"},
-    ["𫖳"] = {["first"] = "y", ["second"] = "r"},
-    ["愍"] = {["first"] = "m", ["second"] = "x"},
-    ["嫄"] = {["first"] = "n", ["second"] = "x"},
-    ["媱"] = {["first"] = "n", ["second"] = "f"},
-    ["戤"] = {["first"] = "n", ["second"] = "g"},
-    ["勠"] = {["first"] = "x", ["second"] = "l"},
-    ["戣"] = {["first"] = "v", ["second"] = "g"},
-    ["𫘪"] = {["first"] = "m", ["second"] = "x"},
-    ["𫘬"] = {["first"] = "m", ["second"] = "d"},
-    ["缞"] = {["first"] = "s", ["second"] = "y"},
-    ["耤"] = {["first"] = "l", ["second"] = "o"},
-    ["瑧"] = {["first"] = "w", ["second"] = "h"},
-    ["𫞩"] = {["first"] = "w", ["second"] = "l"},
-    ["瑨"] = {["first"] = "w", ["second"] = "o"},
-    ["瑱"] = {["first"] = "w", ["second"] = "b"},
-    ["瑷"] = {["first"] = "w", ["second"] = "y"},
-    ["瑢"] = {["first"] = "w", ["second"] = "k"},
-    ["斠"] = {["first"] = "a", ["second"] = "u"},
-    ["摏"] = {["first"] = "f", ["second"] = "j"},
-    ["墕"] = {["first"] = "t", ["second"] = "h"},
-    ["墈"] = {["first"] = "t", ["second"] = "l"},
-    ["墐"] = {["first"] = "t", ["second"] = "a"},
-    ["墘"] = {["first"] = "t", ["second"] = "q"},
-    ["摴"] = {["first"] = "f", ["second"] = "k"},
-    ["銎"] = {["first"] = "g", ["second"] = "j"},
-    ["𡐓"] = {["first"] = "t", ["second"] = "n"},
-    ["墚"] = {["first"] = "t", ["second"] = "m"},
-    ["撖"] = {["first"] = "f", ["second"] = "w"},
-    ["𪤗"] = {["first"] = "t", ["second"] = "p"},
-    ["靽"] = {["first"] = "g", ["second"] = "b"},
-    ["鞁"] = {["first"] = "g", ["second"] = "y"},
-    ["蔌"] = {["first"] = "c", ["second"] = "r"},
-    ["蔈"] = {["first"] = "c", ["second"] = "x"},
-    ["蓰"] = {["first"] = "c", ["second"] = "r"},
-    ["蔹"] = {["first"] = "c", ["second"] = "w"},
-    ["蔊"] = {["first"] = "c", ["second"] = "g"},
-    ["嘏"] = {["first"] = "u", ["second"] = "y"},
-    ["榰"] = {["first"] = "m", ["second"] = "o"},
-    ["榑"] = {["first"] = "m", ["second"] = "c"},
-    ["槚"] = {["first"] = "m", ["second"] = "r"},
-    ["𣗋"] = {["first"] = "m", ["second"] = "e"},
-    ["槜"] = {["first"] = "m", ["second"] = "n"},
-    ["榍"] = {["first"] = "m", ["second"] = "o"},
-    ["疐"] = {["first"] = "u", ["second"] = "r"},
-    ["𬸘"] = {["first"] = "k", ["second"] = "n"},
-    ["酺"] = {["first"] = "y", ["second"] = "f"},
-    ["酾"] = {["first"] = "y", ["second"] = "l"},
-    ["酲"] = {["first"] = "y", ["second"] = "w"},
-    ["酴"] = {["first"] = "y", ["second"] = "h"},
-    ["碶"] = {["first"] = "u", ["second"] = "d"},
-    ["䃎"] = {["first"] = "u", ["second"] = "x"},
-    ["𬒗"] = {["first"] = "u", ["second"] = "e"},
-    ["碨"] = {["first"] = "u", ["second"] = "n"},
-    ["𥔲"] = {["first"] = "u", ["second"] = "k"},
-    ["碹"] = {["first"] = "u", ["second"] = "a"},
-    ["碥"] = {["first"] = "u", ["second"] = "c"},
-    ["劂"] = {["first"] = "i", ["second"] = "d"},
-    ["𫚖"] = {["first"] = "v", ["second"] = "a"},
-    ["䴗"] = {["first"] = "o", ["second"] = "n"},
-    ["夥"] = {["first"] = "g", ["second"] = "x"},
-    ["瞍"] = {["first"] = "o", ["second"] = "y"},
-    ["鹖"] = {["first"] = "o", ["second"] = "n"},
-    ["㬎"] = {["first"] = "o", ["second"] = "h"},
-    ["跽"] = {["first"] = "z", ["second"] = "x"},
-    ["蜾"] = {["first"] = "i", ["second"] = "g"},
-    ["幖"] = {["first"] = "j", ["second"] = "x"},
-    ["嶍"] = {["first"] = "e", ["second"] = "b"},
-    ["圙"] = {["first"] = "k", ["second"] = "m"},
-    ["𨱏"] = {["first"] = "j", ["second"] = "k"},
-    ["锺"] = {["first"] = "j", ["second"] = "v"},
-    ["锼"] = {["first"] = "j", ["second"] = "y"},
-    ["锽"] = {["first"] = "j", ["second"] = "w"},
-    ["𬭤"] = {["first"] = "j", ["second"] = "u"},
-    ["锾"] = {["first"] = "j", ["second"] = "y"},
-    ["锿"] = {["first"] = "j", ["second"] = "y"},
-    ["镃"] = {["first"] = "j", ["second"] = "y"},
-    ["镄"] = {["first"] = "j", ["second"] = "r"},
-    ["镅"] = {["first"] = "j", ["second"] = "o"},
-    ["馝"] = {["first"] = "h", ["second"] = "b"},
-    ["鹙"] = {["first"] = "h", ["second"] = "n"},
-    ["箨"] = {["first"] = "v", ["second"] = "l"},
-    ["箖"] = {["first"] = "v", ["second"] = "m"},
-    ["劄"] = {["first"] = "v", ["second"] = "d"},
-    ["僬"] = {["first"] = "r", ["second"] = "h"},
-    ["僦"] = {["first"] = "r", ["second"] = "y"},
-    ["僔"] = {["first"] = "r", ["second"] = "c"},
-    ["僎"] = {["first"] = "r", ["second"] = "b"},
-    ["槃"] = {["first"] = "v", ["second"] = "m"},
-    ["㙦"] = {["first"] = "r", ["second"] = "t"},
-    ["鲒"] = {["first"] = "a", ["second"] = "k"},
-    ["鲕"] = {["first"] = "a", ["second"] = "e"},
-    ["𫚕"] = {["first"] = "a", ["second"] = "j"},
-    ["鲖"] = {["first"] = "a", ["second"] = "k"},
-    ["鲗"] = {["first"] = "a", ["second"] = "d"},
-    ["鲘"] = {["first"] = "a", ["second"] = "k"},
-    ["鲙"] = {["first"] = "a", ["second"] = "s"},
-    ["𬶐"] = {["first"] = "a", ["second"] = "d"},
-    ["𬶏"] = {["first"] = "a", ["second"] = "v"},
-    ["𩽾"] = {["first"] = "a", ["second"] = "n"},
-    ["夐"] = {["first"] = "d", ["second"] = "w"},
-    ["獍"] = {["first"] = "q", ["second"] = "e"},
-    ["飗"] = {["first"] = "j", ["second"] = "t"},
-    ["𬸚"] = {["first"] = "q", ["second"] = "n"},
-    ["凘"] = {["first"] = "d", ["second"] = "j"},
-    ["廑"] = {["first"] = "g", ["second"] = "a"},
-    ["廙"] = {["first"] = "g", ["second"] = "b"},
-    ["瘗"] = {["first"] = "b", ["second"] = "t"},
-    ["瘥"] = {["first"] = "b", ["second"] = "g"},
-    ["瘕"] = {["first"] = "b", ["second"] = "y"},
-    ["鲝"] = {["first"] = "y", ["second"] = "a"},
-    ["鄫"] = {["first"] = "b", ["second"] = "e"},
-    ["熇"] = {["first"] = "h", ["second"] = "k"},
-    ["漹"] = {["first"] = "d", ["second"] = "h"},
-    ["漖"] = {["first"] = "d", ["second"] = "w"},
-    ["潆"] = {["first"] = "d", ["second"] = "x"},
-    ["漤"] = {["first"] = "d", ["second"] = "n"},
-    ["潩"] = {["first"] = "d", ["second"] = "b"},
-    ["漼"] = {["first"] = "d", ["second"] = "f"},
-    ["漴"] = {["first"] = "d", ["second"] = "x"},
-    ["㽏"] = {["first"] = "d", ["second"] = "g"},
-    ["漈"] = {["first"] = "d", ["second"] = "x"},
-    ["漋"] = {["first"] = "d", ["second"] = "u"},
-    ["漻"] = {["first"] = "d", ["second"] = "p"},
-    ["慬"] = {["first"] = "x", ["second"] = "a"},
-    ["窬"] = {["first"] = "b", ["second"] = "d"},
-    ["窭"] = {["first"] = "b", ["second"] = "n"},
-    ["㮾"] = {["first"] = "d", ["second"] = "m"},
-    ["𬤝"] = {["first"] = "y", ["second"] = "x"},
-    ["褕"] = {["first"] = "p", ["second"] = "d"},
-    ["禛"] = {["first"] = "p", ["second"] = "b"},
-    ["禚"] = {["first"] = "p", ["second"] = "h"},
-    ["隩"] = {["first"] = "e", ["second"] = "d"},
-    ["嫕"] = {["first"] = "n", ["second"] = "x"},
-    ["嫭"] = {["first"] = "n", ["second"] = "h"},
-    ["嫜"] = {["first"] = "n", ["second"] = "u"},
-    ["嫪"] = {["first"] = "n", ["second"] = "p"},
-    ["𬙂"] = {["first"] = "s", ["second"] = "b"},
-    ["㻬"] = {["first"] = "w", ["second"] = "k"},
-    ["麹"] = {["first"] = "f", ["second"] = "m"},
-    ["璆"] = {["first"] = "w", ["second"] = "p"},
-    ["漦"] = {["first"] = "w", ["second"] = "u"},
-    ["叇"] = {["first"] = "e", ["second"] = "z"},
-    ["墣"] = {["first"] = "t", ["second"] = "n"},
-    ["墦"] = {["first"] = "t", ["second"] = "t"},
-    ["墡"] = {["first"] = "t", ["second"] = "k"},
-    ["劐"] = {["first"] = "c", ["second"] = "d"},
-    ["薁"] = {["first"] = "c", ["second"] = "d"},
-    ["蕰"] = {["first"] = "c", ["second"] = "m"},
-    ["蔃"] = {["first"] = "c", ["second"] = "i"},
-    ["鼒"] = {["first"] = "c", ["second"] = "v"},
-    ["槱"] = {["first"] = "m", ["second"] = "h"},
-    ["鹝"] = {["first"] = "a", ["second"] = "n"},
-    ["磏"] = {["first"] = "u", ["second"] = "n"},
-    ["磉"] = {["first"] = "u", ["second"] = "m"},
-    ["殣"] = {["first"] = "d", ["second"] = "a"},
-    ["慭"] = {["first"] = "l", ["second"] = "x"},
-    ["霅"] = {["first"] = "y", ["second"] = "k"},
-    ["暵"] = {["first"] = "o", ["second"] = "n"},
-    ["暲"] = {["first"] = "o", ["second"] = "u"},
-    ["暶"] = {["first"] = "o", ["second"] = "r"},
-    ["踦"] = {["first"] = "z", ["second"] = "k"},
-    ["踣"] = {["first"] = "z", ["second"] = "k"},
-    ["䗖"] = {["first"] = "i", ["second"] = "j"},
-    ["蝘"] = {["first"] = "i", ["second"] = "n"},
-    ["蝲"] = {["first"] = "i", ["second"] = "d"},
-    ["蝤"] = {["first"] = "i", ["second"] = "y"},
-    ["噇"] = {["first"] = "k", ["second"] = "l"},
-    ["噂"] = {["first"] = "k", ["second"] = "c"},
-    ["噀"] = {["first"] = "k", ["second"] = "b"},
-    ["罶"] = {["first"] = "s", ["second"] = "t"},
-    ["嶲"] = {["first"] = "e", ["second"] = "v"},
-    ["嶓"] = {["first"] = "e", ["second"] = "t"},
-    ["㠇"] = {["first"] = "e", ["second"] = "y"},
-    ["嶟"] = {["first"] = "e", ["second"] = "c"},
-    ["嶒"] = {["first"] = "e", ["second"] = "o"},
-    ["镆"] = {["first"] = "j", ["second"] = "d"},
-    ["镈"] = {["first"] = "j", ["second"] = "c"},
-    ["镋"] = {["first"] = "j", ["second"] = "e"},
-    ["镎"] = {["first"] = "j", ["second"] = "u"},
-    ["𬭩"] = {["first"] = "j", ["second"] = "x"},
-    ["镕"] = {["first"] = "j", ["second"] = "k"},
-    ["稹"] = {["first"] = "h", ["second"] = "b"},
-    ["儇"] = {["first"] = "r", ["second"] = "y"},
-    ["皞"] = {["first"] = "b", ["second"] = "u"},
-    ["皛"] = {["first"] = "b", ["second"] = "b"},
-    ["䴘"] = {["first"] = "p", ["second"] = "n"},
-    ["艎"] = {["first"] = "v", ["second"] = "w"},
-    ["艏"] = {["first"] = "v", ["second"] = "z"},
-    ["鹟"] = {["first"] = "b", ["second"] = "n"},
-    ["𩾃"] = {["first"] = "a", ["second"] = "v"},
-    ["鲦"] = {["first"] = "a", ["second"] = "m"},
-    ["鲪"] = {["first"] = "a", ["second"] = "k"},
-    ["鲬"] = {["first"] = "a", ["second"] = "y"},
-    ["橥"] = {["first"] = "q", ["second"] = "m"},
-    ["觭"] = {["first"] = "d", ["second"] = "k"},
-    ["鹠"] = {["first"] = "p", ["second"] = "n"},
-    ["鹡"] = {["first"] = "d", ["second"] = "n"},
-    ["糇"] = {["first"] = "m", ["second"] = "u"},
-    ["糈"] = {["first"] = "m", ["second"] = "o"},
-    ["翦"] = {["first"] = "b", ["second"] = "x"},
-    ["鹢"] = {["first"] = "b", ["second"] = "n"},
-    ["鹣"] = {["first"] = "b", ["second"] = "n"},
-    ["熛"] = {["first"] = "h", ["second"] = "x"},
-    ["潖"] = {["first"] = "d", ["second"] = "b"},
-    ["潵"] = {["first"] = "d", ["second"] = "w"},
-    ["㵐"] = {["first"] = "d", ["second"] = "r"},
-    ["澂"] = {["first"] = "d", ["second"] = "w"},
-    ["澛"] = {["first"] = "d", ["second"] = "o"},
-    ["瑬"] = {["first"] = "d", ["second"] = "y"},
-    ["潽"] = {["first"] = "d", ["second"] = "o"},
-    ["潾"] = {["first"] = "d", ["second"] = "l"},
-    ["潏"] = {["first"] = "d", ["second"] = "k"},
-    ["憭"] = {["first"] = "x", ["second"] = "x"},
-    ["憕"] = {["first"] = "x", ["second"] = "a"},
-    ["𬸣"] = {["first"] = "b", ["second"] = "n"},
-    ["戭"] = {["first"] = "b", ["second"] = "g"},
-    ["褯"] = {["first"] = "p", ["second"] = "j"},
-    ["禤"] = {["first"] = "p", ["second"] = "x"},
-    ["𫍽"] = {["first"] = "y", ["second"] = "y"},
-    ["嫽"] = {["first"] = "n", ["second"] = "x"},
-    ["遹"] = {["first"] = "z", ["second"] = "k"},
-    ["𬴊"] = {["first"] = "m", ["second"] = "l"},
-    ["璥"] = {["first"] = "w", ["second"] = "w"},
-    ["璲"] = {["first"] = "w", ["second"] = "z"},
-    ["璒"] = {["first"] = "w", ["second"] = "a"},
-    ["憙"] = {["first"] = "u", ["second"] = "x"},
-    ["擐"] = {["first"] = "f", ["second"] = "y"},
-    ["鄹"] = {["first"] = "e", ["second"] = "e"},
-    ["薳"] = {["first"] = "c", ["second"] = "z"},
-    ["鞔"] = {["first"] = "g", ["second"] = "v"},
-    ["黇"] = {["first"] = "c", ["second"] = "k"},
-    ["𬞟"] = {["first"] = "c", ["second"] = "r"},
-    ["蕗"] = {["first"] = "c", ["second"] = "k"},
-    ["薢"] = {["first"] = "c", ["second"] = "n"},
-    ["蕹"] = {["first"] = "c", ["second"] = "f"},
-    ["橞"] = {["first"] = "m", ["second"] = "x"},
-    ["橑"] = {["first"] = "m", ["second"] = "x"},
-    ["橦"] = {["first"] = "m", ["second"] = "l"},
-    ["醑"] = {["first"] = "y", ["second"] = "o"},
-    ["觱"] = {["first"] = "x", ["second"] = "y"},
-    ["磡"] = {["first"] = "u", ["second"] = "l"},
-    ["𥕢"] = {["first"] = "u", ["second"] = "o"},
-    ["磜"] = {["first"] = "u", ["second"] = "x"},
-    ["豮"] = {["first"] = "u", ["second"] = "r"},
-    ["𫟦"] = {["first"] = "i", ["second"] = "z"},
-    ["𬺈"] = {["first"] = "v", ["second"] = "k"},
-    ["𫠜"] = {["first"] = "v", ["second"] = "e"},
-    ["鹾"] = {["first"] = "l", ["second"] = "g"},
-    ["虤"] = {["first"] = "h", ["second"] = "j"},
-    ["暿"] = {["first"] = "o", ["second"] = "k"},
-    ["曌"] = {["first"] = "o", ["second"] = "g"},
-    ["曈"] = {["first"] = "o", ["second"] = "l"},
-    ["㬚"] = {["first"] = "o", ["second"] = "w"},
-    ["蹅"] = {["first"] = "z", ["second"] = "a"},
-    ["踶"] = {["first"] = "z", ["second"] = "r"},
-    ["䗛"] = {["first"] = "i", ["second"] = "o"},
-    ["螗"] = {["first"] = "i", ["second"] = "k"},
-    ["疁"] = {["first"] = "t", ["second"] = "p"},
-    ["㠓"] = {["first"] = "e", ["second"] = "n"},
-    ["幪"] = {["first"] = "j", ["second"] = "n"},
-    ["𪩘"] = {["first"] = "e", ["second"] = "q"},
-    ["嶦"] = {["first"] = "e", ["second"] = "k"},
-    ["𬭬"] = {["first"] = "j", ["second"] = "e"},
-    ["𨱑"] = {["first"] = "j", ["second"] = "b"},
-    ["𬭯"] = {["first"] = "j", ["second"] = "w"},
-    ["馞"] = {["first"] = "h", ["second"] = "z"},
-    ["穄"] = {["first"] = "h", ["second"] = "x"},
-    ["篚"] = {["first"] = "v", ["second"] = "f"},
-    ["篯"] = {["first"] = "v", ["second"] = "j"},
-    ["簉"] = {["first"] = "v", ["second"] = "z"},
-    ["鼽"] = {["first"] = "z", ["second"] = "j"},
-    ["衠"] = {["first"] = "i", ["second"] = "i"},
-    ["盦"] = {["first"] = "r", ["second"] = "m"},
-    ["螣"] = {["first"] = "o", ["second"] = "i"},
-    ["縢"] = {["first"] = "o", ["second"] = "x"},
-    ["鲭"] = {["first"] = "a", ["second"] = "o"},
-    ["鲯"] = {["first"] = "a", ["second"] = "b"},
-    ["鲰"] = {["first"] = "a", ["second"] = "y"},
-    ["鲺"] = {["first"] = "a", ["second"] = "i"},
-    ["鲹"] = {["first"] = "a", ["second"] = "p"},
-    ["𫗴"] = {["first"] = "u", ["second"] = "a"},
-    ["亸"] = {["first"] = "w", ["second"] = "l"},
-    ["癀"] = {["first"] = "b", ["second"] = "b"},
-    ["瘭"] = {["first"] = "b", ["second"] = "x"},
-    ["𬸦"] = {["first"] = "f", ["second"] = "n"},
-    ["羱"] = {["first"] = "y", ["second"] = "x"},
-    ["糒"] = {["first"] = "m", ["second"] = "y"},
-    ["燋"] = {["first"] = "h", ["second"] = "h"},
-    ["熻"] = {["first"] = "h", ["second"] = "x"},
-    ["燊"] = {["first"] = "h", ["second"] = "m"},
-    ["燚"] = {["first"] = "h", ["second"] = "h"},
-    ["燏"] = {["first"] = "h", ["second"] = "k"},
-    ["濩"] = {["first"] = "d", ["second"] = "y"},
-    ["濋"] = {["first"] = "d", ["second"] = "r"},
-    ["澪"] = {["first"] = "d", ["second"] = "s"},
-    ["澽"] = {["first"] = "d", ["second"] = "u"},
-    ["澴"] = {["first"] = "d", ["second"] = "y"},
-    ["澭"] = {["first"] = "d", ["second"] = "f"},
-    ["澼"] = {["first"] = "d", ["second"] = "u"},
-    ["憷"] = {["first"] = "x", ["second"] = "r"},
-    ["憺"] = {["first"] = "x", ["second"] = "k"},
-    ["懔"] = {["first"] = "x", ["second"] = "x"},
-    ["黉"] = {["first"] = "x", ["second"] = "b"},
-    ["嬛"] = {["first"] = "n", ["second"] = "y"},
-    ["鹨"] = {["first"] = "x", ["second"] = "n"},
-    ["翯"] = {["first"] = "x", ["second"] = "k"},
-    ["𫄷"] = {["first"] = "s", ["second"] = "x"},
-    ["璱"] = {["first"] = "w", ["second"] = "b"},
-    ["𤩽"] = {["first"] = "w", ["second"] = "q"},
-    ["璬"] = {["first"] = "w", ["second"] = "w"},
-    ["璮"] = {["first"] = "w", ["second"] = "a"},
-    ["髽"] = {["first"] = "a", ["second"] = "t"},
-    ["擿"] = {["first"] = "f", ["second"] = "z"},
-    ["薿"] = {["first"] = "c", ["second"] = "r"},
-    ["薸"] = {["first"] = "c", ["second"] = "x"},
-    ["檑"] = {["first"] = "m", ["second"] = "t"},
-    ["櫆"] = {["first"] = "m", ["second"] = "u"},
-    ["檞"] = {["first"] = "m", ["second"] = "n"},
-    ["醨"] = {["first"] = "y", ["second"] = "d"},
-    ["繄"] = {["first"] = "k", ["second"] = "x"},
-    ["磹"] = {["first"] = "u", ["second"] = "u"},
-    ["磻"] = {["first"] = "u", ["second"] = "t"},
-    ["瞫"] = {["first"] = "o", ["second"] = "u"},
-    ["瞵"] = {["first"] = "o", ["second"] = "l"},
-    ["蹐"] = {["first"] = "z", ["second"] = "o"},
-    ["蟏"] = {["first"] = "i", ["second"] = "s"},
-    ["㘎"] = {["first"] = "k", ["second"] = "w"},
-    ["𬭳"] = {["first"] = "j", ["second"] = "k"},
-    ["镤"] = {["first"] = "j", ["second"] = "n"},
-    ["𬭶"] = {["first"] = "j", ["second"] = "h"},
-    ["𫔍"] = {["first"] = "j", ["second"] = "t"},
-    ["镥"] = {["first"] = "j", ["second"] = "o"},
-    ["镨"] = {["first"] = "j", ["second"] = "o"},
-    ["𬭸"] = {["first"] = "j", ["second"] = "l"},
-    ["𨱔"] = {["first"] = "j", ["second"] = "c"},
-    ["𬭼"] = {["first"] = "j", ["second"] = "z"},
-    ["𫔎"] = {["first"] = "j", ["second"] = "k"},
-    ["矰"] = {["first"] = "u", ["second"] = "o"},
-    ["穙"] = {["first"] = "h", ["second"] = "n"},
-    ["穜"] = {["first"] = "h", ["second"] = "l"},
-    ["穟"] = {["first"] = "h", ["second"] = "z"},
-    ["簕"] = {["first"] = "v", ["second"] = "l"},
-    ["簃"] = {["first"] = "v", ["second"] = "x"},
-    ["簏"] = {["first"] = "v", ["second"] = "b"},
-    ["儦"] = {["first"] = "r", ["second"] = "h"},
-    ["魋"] = {["first"] = "g", ["second"] = "f"},
-    ["斶"] = {["first"] = "j", ["second"] = "i"},
-    ["艚"] = {["first"] = "v", ["second"] = "o"},
-    ["𬸪"] = {["first"] = "p", ["second"] = "n"},
-    ["谿"] = {["first"] = "p", ["second"] = "k"},
-    ["䲠"] = {["first"] = "a", ["second"] = "o"},
-    ["𬶟"] = {["first"] = "a", ["second"] = "d"},
-    ["鲾"] = {["first"] = "a", ["second"] = "t"},
-    ["𬶠"] = {["first"] = "a", ["second"] = "j"},
-    ["鲿"] = {["first"] = "a", ["second"] = "s"},
-    ["鳁"] = {["first"] = "a", ["second"] = "m"},
-    ["鳂"] = {["first"] = "a", ["second"] = "n"},
-    ["鳈"] = {["first"] = "a", ["second"] = "u"},
-    ["鳉"] = {["first"] = "a", ["second"] = "c"},
-    ["獯"] = {["first"] = "q", ["second"] = "h"},
-    ["䗪"] = {["first"] = "g", ["second"] = "i"},
-    ["馘"] = {["first"] = "b", ["second"] = "a"},
-    ["襕"] = {["first"] = "p", ["second"] = "j"},
-    ["襚"] = {["first"] = "p", ["second"] = "z"},
-    ["𬶨"] = {["first"] = "g", ["second"] = "a"},
-    ["螱"] = {["first"] = "u", ["second"] = "i"},
-    ["甓"] = {["first"] = "u", ["second"] = "w"},
-    ["嬬"] = {["first"] = "n", ["second"] = "e"},
-    ["嬥"] = {["first"] = "n", ["second"] = "f"},
-    ["𦈡"] = {["first"] = "s", ["second"] = "e"},
-    ["𫄸"] = {["first"] = "s", ["second"] = "h"},
-    ["瓀"] = {["first"] = "w", ["second"] = "e"},
-    ["釐"] = {["first"] = "w", ["second"] = "l"},
-    ["鬶"] = {["first"] = "f", ["second"] = "l"},
-    ["爇"] = {["first"] = "c", ["second"] = "h"},
-    ["鞳"] = {["first"] = "g", ["second"] = "k"},
-    ["鞮"] = {["first"] = "g", ["second"] = "r"},
-    ["𬟁"] = {["first"] = "c", ["second"] = "n"},
-    ["藟"] = {["first"] = "c", ["second"] = "t"},
-    ["藦"] = {["first"] = "c", ["second"] = "u"},
-    ["藨"] = {["first"] = "c", ["second"] = "h"},
-    ["鹲"] = {["first"] = "c", ["second"] = "n"},
-    ["檫"] = {["first"] = "m", ["second"] = "x"},
-    ["黡"] = {["first"] = "i", ["second"] = "h"},
-    ["礞"] = {["first"] = "u", ["second"] = "n"},
-    ["礌"] = {["first"] = "u", ["second"] = "t"},
-    ["𥖨"] = {["first"] = "u", ["second"] = "m"},
-    ["蹢"] = {["first"] = "z", ["second"] = "k"},
-    ["蹜"] = {["first"] = "z", ["second"] = "b"},
-    ["蟫"] = {["first"] = "i", ["second"] = "u"},
-    ["䗴"] = {["first"] = "i", ["second"] = "z"},
-    ["嚚"] = {["first"] = "k", ["second"] = "k"},
-    ["髃"] = {["first"] = "g", ["second"] = "y"},
-    ["镮"] = {["first"] = "j", ["second"] = "y"},
-    ["镱"] = {["first"] = "j", ["second"] = "x"},
-    ["酂"] = {["first"] = "n", ["second"] = "e"},
-    ["馧"] = {["first"] = "h", ["second"] = "m"},
-    ["簠"] = {["first"] = "v", ["second"] = "m"},
-    ["簝"] = {["first"] = "v", ["second"] = "x"},
-    ["簰"] = {["first"] = "v", ["second"] = "u"},
-    ["鼫"] = {["first"] = "j", ["second"] = "u"},
-    ["鼩"] = {["first"] = "j", ["second"] = "k"},
-    ["皦"] = {["first"] = "b", ["second"] = "w"},
-    ["臑"] = {["first"] = "o", ["second"] = "e"},
-    ["䲢"] = {["first"] = "o", ["second"] = "a"},
-    ["鳑"] = {["first"] = "a", ["second"] = "f"},
-    ["鳒"] = {["first"] = "a", ["second"] = "n"},
-    ["鹱"] = {["first"] = "n", ["second"] = "y"},
-    ["鹯"] = {["first"] = "w", ["second"] = "n"},
-    ["癗"] = {["first"] = "b", ["second"] = "t"},
-    ["𦒍"] = {["first"] = "l", ["second"] = "x"},
-    ["旞"] = {["first"] = "f", ["second"] = "z"},
-    ["翷"] = {["first"] = "m", ["second"] = "x"},
-    ["冁"] = {["first"] = "b", ["second"] = "n"},
-    ["䎖"] = {["first"] = "b", ["second"] = "x"},
-    ["瀔"] = {["first"] = "d", ["second"] = "y"},
-    ["瀍"] = {["first"] = "d", ["second"] = "t"},
-    ["瀌"] = {["first"] = "d", ["second"] = "h"},
-    ["襜"] = {["first"] = "p", ["second"] = "k"},
-    ["䴙"] = {["first"] = "u", ["second"] = "n"},
-    ["𬙊"] = {["first"] = "s", ["second"] = "t"},
-    ["嚭"] = {["first"] = "u", ["second"] = "k"},
-    ["㰀"] = {["first"] = "m", ["second"] = "u"},
-    ["鬷"] = {["first"] = "a", ["second"] = "w"},
-    ["醭"] = {["first"] = "y", ["second"] = "n"},
-    ["蹯"] = {["first"] = "z", ["second"] = "t"},
-    ["蠋"] = {["first"] = "i", ["second"] = "i"},
-    ["翾"] = {["first"] = "s", ["second"] = "x"},
-    ["鳘"] = {["first"] = "p", ["second"] = "a"},
-    ["儳"] = {["first"] = "r", ["second"] = "d"},
-    ["儴"] = {["first"] = "r", ["second"] = "y"},
-    ["鼗"] = {["first"] = "e", ["second"] = "y"},
-    ["𬶭"] = {["first"] = "a", ["second"] = "x"},
-    ["𩾌"] = {["first"] = "a", ["second"] = "n"},
-    ["鳚"] = {["first"] = "a", ["second"] = "c"},
-    ["鳛"] = {["first"] = "a", ["second"] = "b"},
-    ["麑"] = {["first"] = "g", ["second"] = "e"},
-    ["麖"] = {["first"] = "g", ["second"] = "x"},
-    ["蠃"] = {["first"] = "w", ["second"] = "f"},
-    ["彟"] = {["first"] = "e", ["second"] = "y"},
-    ["嬿"] = {["first"] = "n", ["second"] = "h"},
-    ["鬒"] = {["first"] = "a", ["second"] = "b"},
-    ["蘘"] = {["first"] = "c", ["second"] = "y"},
-    ["欂"] = {["first"] = "m", ["second"] = "c"},
-    ["醵"] = {["first"] = "y", ["second"] = "u"},
-    ["颥"] = {["first"] = "y", ["second"] = "r"},
-    ["甗"] = {["first"] = "h", ["second"] = "w"},
-    ["𨟠"] = {["first"] = "o", ["second"] = "e"},
-    ["巇"] = {["first"] = "e", ["second"] = "g"},
-    ["酅"] = {["first"] = "e", ["second"] = "e"},
-    ["髎"] = {["first"] = "g", ["second"] = "p"},
-    ["犨"] = {["first"] = "r", ["second"] = "n"},
-    ["𬶮"] = {["first"] = "a", ["second"] = "k"},
-    ["𨭉"] = {["first"] = "w", ["second"] = "j"},
-    ["㸌"] = {["first"] = "h", ["second"] = "f"},
-    ["爔"] = {["first"] = "h", ["second"] = "d"},
-    ["瀱"] = {["first"] = "d", ["second"] = "d"},
-    ["瀹"] = {["first"] = "d", ["second"] = "c"},
-    ["瀼"] = {["first"] = "d", ["second"] = "y"},
-    ["瀵"] = {["first"] = "d", ["second"] = "b"},
-    ["襫"] = {["first"] = "p", ["second"] = "b"},
-    ["孅"] = {["first"] = "n", ["second"] = "j"},
-    ["骦"] = {["first"] = "m", ["second"] = "o"},
-    ["𬙋"] = {["first"] = "s", ["second"] = "y"},
-    ["耰"] = {["first"] = "l", ["second"] = "w"},
-    ["𤫉"] = {["first"] = "w", ["second"] = "y"},
-    ["瓖"] = {["first"] = "w", ["second"] = "y"},
-    ["鬘"] = {["first"] = "a", ["second"] = "y"},
-    ["趯"] = {["first"] = "t", ["second"] = "f"},
-    ["𬺓"] = {["first"] = "v", ["second"] = "r"},
-    ["罍"] = {["first"] = "t", ["second"] = "f"},
-    ["鼱"] = {["first"] = "j", ["second"] = "o"},
-    ["鳠"] = {["first"] = "a", ["second"] = "y"},
-    ["鳡"] = {["first"] = "a", ["second"] = "x"},
-    ["鳣"] = {["first"] = "a", ["second"] = "a"},
-    ["爟"] = {["first"] = "h", ["second"] = "f"},
-    ["爚"] = {["first"] = "h", ["second"] = "c"},
-    ["灈"] = {["first"] = "d", ["second"] = "f"},
-    ["韂"] = {["first"] = "g", ["second"] = "k"},
-    ["糵"] = {["first"] = "c", ["second"] = "m"},
-    ["蘼"] = {["first"] = "c", ["second"] = "f"},
-    ["礵"] = {["first"] = "u", ["second"] = "o"},
-    ["鹴"] = {["first"] = "y", ["second"] = "n"},
-    ["躔"] = {["first"] = "z", ["second"] = "t"},
-    ["皭"] = {["first"] = "b", ["second"] = "c"},
-    ["龢"] = {["first"] = "r", ["second"] = "h"},
-    ["鳤"] = {["first"] = "a", ["second"] = "k"},
-    ["亹"] = {["first"] = "w", ["second"] = "q"},
-    ["籥"] = {["first"] = "v", ["second"] = "c"},
-    ["鼷"] = {["first"] = "j", ["second"] = "d"},
-    ["𫚭"] = {["first"] = "a", ["second"] = "v"},
-    ["玃"] = {["first"] = "q", ["second"] = "y"},
-    ["醾"] = {["first"] = "y", ["second"] = "m"},
-    ["齇"] = {["first"] = "z", ["second"] = "q"},
-    ["觿"] = {["first"] = "d", ["second"] = "k"},
-    ["蠼"] = {["first"] = "i", ["second"] = "y"}
+return {["一"]={["first"]="a", ["second"]="a"}
+, ["乙"]={["first"]="v", ["second"]="v"}
+, ["二"]={["first"]="a", ["second"]="a"}
+, ["十"]={["first"]="a", ["second"]="l"}
+, ["丁"]={["first"]="a", ["second"]="l"}
+, ["厂"]={["first"]="a", ["second"]="p"}
+, ["七"]={["first"]="a", ["second"]="v"}
+, ["卜"]={["first"]="l", ["second"]="d"}
+, ["八"]={["first"]="p", ["second"]="n"}
+, ["人"]={["first"]="p", ["second"]="n"}
+, ["入"]={["first"]="p", ["second"]="n"}
+, ["儿"]={["first"]="p", ["second"]="v"}
+, ["匕"]={["first"]="p", ["second"]="v"}
+, ["几"]={["first"]="p", ["second"]="v"}
+, ["九"]={["first"]="p", ["second"]="v"}
+, ["刁"]={["first"]="v", ["second"]="a"}
+, ["了"]={["first"]="v", ["second"]="l"}
+, ["刀"]={["first"]="v", ["second"]="p"}
+, ["力"]={["first"]="v", ["second"]="p"}
+, ["乃"]={["first"]="v", ["second"]="p"}
+, ["又"]={["first"]="v", ["second"]="n"}
+, ["三"]={["first"]="a", ["second"]="e"}
+, ["干"]={["first"]="a", ["second"]="u"}
+, ["于"]={["first"]="a", ["second"]="l"}
+, ["亏"]={["first"]="e", ["second"]="v"}
+, ["工"]={["first"]="a", ["second"]="a"}
+, ["土"]={["first"]="u", ["second"]="a"}
+, ["士"]={["first"]="u", ["second"]="a"}
+, ["才"]={["first"]="a", ["second"]="p"}
+, ["下"]={["first"]="a", ["second"]="b"}
+, ["寸"]={["first"]="a", ["second"]="d"}
+, ["大"]={["first"]="u", ["second"]="n"}
+, ["丈"]={["first"]="a", ["second"]="n"}
+, ["与"]={["first"]="a", ["second"]="a"}
+, ["万"]={["first"]="a", ["second"]="p"}
+, ["上"]={["first"]="l", ["second"]="a"}
+, ["小"]={["first"]="l", ["second"]="d"}
+, ["口"]={["first"]="l", ["second"]="a"}
+, ["山"]={["first"]="l", ["second"]="k"}
+, ["巾"]={["first"]="l", ["second"]="l"}
+, ["千"]={["first"]="p", ["second"]="u"}
+, ["乞"]={["first"]="p", ["second"]="v"}
+, ["川"]={["first"]="p", ["second"]="l"}
+, ["亿"]={["first"]="r", ["second"]="v"}
+, ["个"]={["first"]="r", ["second"]="l"}
+, ["夕"]={["first"]="p", ["second"]="d"}
+, ["久"]={["first"]="p", ["second"]="n"}
+, ["么"]={["first"]="p", ["second"]="s"}
+, ["勺"]={["first"]="b", ["second"]="d"}
+, ["凡"]={["first"]="j", ["second"]="d"}
+, ["丸"]={["first"]="p", ["second"]="d"}
+, ["及"]={["first"]="p", ["second"]="n"}
+, ["广"]={["first"]="d", ["second"]="i"}
+, ["亡"]={["first"]="w", ["second"]="v"}
+, ["门"]={["first"]="d", ["second"]="v"}
+, ["丫"]={["first"]="b", ["second"]="l"}
+, ["义"]={["first"]="d", ["second"]="x"}
+, ["之"]={["first"]="d", ["second"]="n"}
+, ["尸"]={["first"]="v", ["second"]="p"}
+, ["己"]={["first"]="v", ["second"]="v"}
+, ["已"]={["first"]="v", ["second"]="v"}
+, ["巳"]={["first"]="v", ["second"]="v"}
+, ["弓"]={["first"]="v", ["second"]="v"}
+, ["子"]={["first"]="v", ["second"]="a"}
+, ["卫"]={["first"]="e", ["second"]="a"}
+, ["也"]={["first"]="v", ["second"]="v"}
+, ["女"]={["first"]="v", ["second"]="a"}
+, ["刃"]={["first"]="d", ["second"]="d"}
+, ["飞"]={["first"]="v", ["second"]="d"}
+, ["习"]={["first"]="v", ["second"]="d"}
+, ["叉"]={["first"]="y", ["second"]="d"}
+, ["马"]={["first"]="v", ["second"]="a"}
+, ["乡"]={["first"]="v", ["second"]="p"}
+, ["丰"]={["first"]="a", ["second"]="l"}
+, ["王"]={["first"]="a", ["second"]="t"}
+, ["开"]={["first"]="a", ["second"]="c"}
+, ["井"]={["first"]="a", ["second"]="l"}
+, ["天"]={["first"]="a", ["second"]="d"}
+, ["夫"]={["first"]="a", ["second"]="n"}
+, ["元"]={["first"]="e", ["second"]="e"}
+, ["无"]={["first"]="a", ["second"]="y"}
+, ["云"]={["first"]="e", ["second"]="s"}
+, ["专"]={["first"]="a", ["second"]="d"}
+, ["丐"]={["first"]="a", ["second"]="v"}
+, ["扎"]={["first"]="f", ["second"]="v"}
+, ["艺"]={["first"]="c", ["second"]="v"}
+, ["木"]={["first"]="u", ["second"]="n"}
+, ["五"]={["first"]="a", ["second"]="a"}
+, ["支"]={["first"]="u", ["second"]="y"}
+, ["厅"]={["first"]="i", ["second"]="d"}
+, ["不"]={["first"]="a", ["second"]="d"}
+, ["犬"]={["first"]="d", ["second"]="d"}
+, ["太"]={["first"]="d", ["second"]="d"}
+, ["区"]={["first"]="k", ["second"]="x"}
+, ["历"]={["first"]="i", ["second"]="l"}
+, ["歹"]={["first"]="a", ["second"]="x"}
+, ["友"]={["first"]="u", ["second"]="y"}
+, ["尤"]={["first"]="y", ["second"]="d"}
+, ["匹"]={["first"]="k", ["second"]="e"}
+, ["车"]={["first"]="a", ["second"]="l"}
+, ["巨"]={["first"]="k", ["second"]="a"}
+, ["牙"]={["first"]="a", ["second"]="p"}
+, ["屯"]={["first"]="a", ["second"]="v"}
+, ["戈"]={["first"]="a", ["second"]="d"}
+, ["比"]={["first"]="b", ["second"]="b"}
+, ["互"]={["first"]="a", ["second"]="a"}
+, ["切"]={["first"]="q", ["second"]="d"}
+, ["瓦"]={["first"]="a", ["second"]="d"}
+, ["止"]={["first"]="l", ["second"]="a"}
+, ["少"]={["first"]="x", ["second"]="p"}
+, ["曰"]={["first"]="k", ["second"]="a"}
+, ["日"]={["first"]="k", ["second"]="a"}
+, ["中"]={["first"]="l", ["second"]="l"}
+, ["贝"]={["first"]="k", ["second"]="r"}
+, ["冈"]={["first"]="k", ["second"]="x"}
+, ["内"]={["first"]="l", ["second"]="d"}
+, ["水"]={["first"]="l", ["second"]="n"}
+, ["见"]={["first"]="k", ["second"]="e"}
+, ["午"]={["first"]="p", ["second"]="g"}
+, ["牛"]={["first"]="p", ["second"]="l"}
+, ["手"]={["first"]="p", ["second"]="l"}
+, ["气"]={["first"]="p", ["second"]="v"}
+, ["毛"]={["first"]="p", ["second"]="v"}
+, ["壬"]={["first"]="p", ["second"]="u"}
+, ["升"]={["first"]="p", ["second"]="c"}
+, ["夭"]={["first"]="p", ["second"]="d"}
+, ["长"]={["first"]="p", ["second"]="n"}
+, ["仁"]={["first"]="r", ["second"]="e"}
+, ["什"]={["first"]="r", ["second"]="u"}
+, ["片"]={["first"]="p", ["second"]="v"}
+, ["仆"]={["first"]="r", ["second"]="b"}
+, ["化"]={["first"]="r", ["second"]="b"}
+, ["仇"]={["first"]="r", ["second"]="j"}
+, ["币"]={["first"]="p", ["second"]="j"}
+, ["仍"]={["first"]="r", ["second"]="n"}
+, ["仅"]={["first"]="r", ["second"]="y"}
+, ["斤"]={["first"]="p", ["second"]="l"}
+, ["爪"]={["first"]="p", ["second"]="n"}
+, ["反"]={["first"]="p", ["second"]="y"}
+, ["介"]={["first"]="r", ["second"]="l"}
+, ["父"]={["first"]="b", ["second"]="x"}
+, ["从"]={["first"]="r", ["second"]="r"}
+, ["仑"]={["first"]="r", ["second"]="b"}
+, ["今"]={["first"]="r", ["second"]="v"}
+, ["凶"]={["first"]="x", ["second"]="k"}
+, ["分"]={["first"]="b", ["second"]="d"}
+, ["乏"]={["first"]="p", ["second"]="v"}
+, ["公"]={["first"]="b", ["second"]="s"}
+, ["仓"]={["first"]="r", ["second"]="v"}
+, ["月"]={["first"]="k", ["second"]="a"}
+, ["氏"]={["first"]="p", ["second"]="v"}
+, ["勿"]={["first"]="b", ["second"]="p"}
+, ["欠"]={["first"]="d", ["second"]="r"}
+, ["风"]={["first"]="j", ["second"]="x"}
+, ["丹"]={["first"]="p", ["second"]="a"}
+, ["匀"]={["first"]="b", ["second"]="d"}
+, ["乌"]={["first"]="p", ["second"]="a"}
+, ["勾"]={["first"]="b", ["second"]="s"}
+, ["凤"]={["first"]="j", ["second"]="y"}
+, ["六"]={["first"]="w", ["second"]="b"}
+, ["文"]={["first"]="w", ["second"]="x"}
+, ["亢"]={["first"]="w", ["second"]="j"}
+, ["方"]={["first"]="d", ["second"]="w"}
+, ["火"]={["first"]="d", ["second"]="r"}
+, ["为"]={["first"]="d", ["second"]="d"}
+, ["斗"]={["first"]="d", ["second"]="u"}
+, ["忆"]={["first"]="x", ["second"]="v"}
+, ["计"]={["first"]="y", ["second"]="u"}
+, ["订"]={["first"]="y", ["second"]="d"}
+, ["户"]={["first"]="d", ["second"]="u"}
+, ["认"]={["first"]="y", ["second"]="r"}
+, ["冗"]={["first"]="b", ["second"]="j"}
+, ["讥"]={["first"]="y", ["second"]="j"}
+, ["心"]={["first"]="d", ["second"]="d"}
+, ["尺"]={["first"]="u", ["second"]="n"}
+, ["引"]={["first"]="g", ["second"]="l"}
+, ["丑"]={["first"]="v", ["second"]="a"}
+, ["巴"]={["first"]="s", ["second"]="l"}
+, ["孔"]={["first"]="z", ["second"]="v"}
+, ["队"]={["first"]="e", ["second"]="r"}
+, ["办"]={["first"]="l", ["second"]="d"}
+, ["以"]={["first"]="v", ["second"]="r"}
+, ["允"]={["first"]="s", ["second"]="e"}
+, ["予"]={["first"]="s", ["second"]="l"}
+, ["邓"]={["first"]="y", ["second"]="e"}
+, ["劝"]={["first"]="y", ["second"]="l"}
+, ["双"]={["first"]="y", ["second"]="y"}
+, ["书"]={["first"]="v", ["second"]="d"}
+, ["幻"]={["first"]="y", ["second"]="v"}
+, ["玉"]={["first"]="w", ["second"]="d"}
+, ["刊"]={["first"]="g", ["second"]="d"}
+, ["未"]={["first"]="a", ["second"]="n"}
+, ["末"]={["first"]="a", ["second"]="n"}
+, ["示"]={["first"]="e", ["second"]="x"}
+, ["击"]={["first"]="a", ["second"]="k"}
+, ["打"]={["first"]="f", ["second"]="d"}
+, ["巧"]={["first"]="g", ["second"]="v"}
+, ["正"]={["first"]="a", ["second"]="v"}
+, ["扑"]={["first"]="f", ["second"]="b"}
+, ["卉"]={["first"]="u", ["second"]="c"}
+, ["扒"]={["first"]="f", ["second"]="b"}
+, ["功"]={["first"]="g", ["second"]="l"}
+, ["扔"]={["first"]="f", ["second"]="n"}
+, ["去"]={["first"]="t", ["second"]="s"}
+, ["甘"]={["first"]="n", ["second"]="a"}
+, ["世"]={["first"]="a", ["second"]="v"}
+, ["艾"]={["first"]="c", ["second"]="x"}
+, ["古"]={["first"]="u", ["second"]="k"}
+, ["节"]={["first"]="c", ["second"]="e"}
+, ["本"]={["first"]="a", ["second"]="a"}
+, ["术"]={["first"]="m", ["second"]="d"}
+, ["可"]={["first"]="d", ["second"]="k"}
+, ["丙"]={["first"]="a", ["second"]="n"}
+, ["左"]={["first"]="u", ["second"]="g"}
+, ["厉"]={["first"]="i", ["second"]="w"}
+, ["石"]={["first"]="a", ["second"]="k"}
+, ["右"]={["first"]="u", ["second"]="k"}
+, ["布"]={["first"]="u", ["second"]="j"}
+, ["夯"]={["first"]="d", ["second"]="l"}
+, ["戊"]={["first"]="g", ["second"]="p"}
+, ["龙"]={["first"]="u", ["second"]="d"}
+, ["平"]={["first"]="a", ["second"]="u"}
+, ["灭"]={["first"]="a", ["second"]="h"}
+, ["轧"]={["first"]="i", ["second"]="v"}
+, ["东"]={["first"]="a", ["second"]="d"}
+, ["卡"]={["first"]="u", ["second"]="b"}
+, ["北"]={["first"]="l", ["second"]="b"}
+, ["占"]={["first"]="l", ["second"]="k"}
+, ["凸"]={["first"]="l", ["second"]="a"}
+, ["卢"]={["first"]="l", ["second"]="u"}
+, ["业"]={["first"]="l", ["second"]="a"}
+, ["旧"]={["first"]="l", ["second"]="o"}
+, ["帅"]={["first"]="l", ["second"]="j"}
+, ["归"]={["first"]="l", ["second"]="e"}
+, ["旦"]={["first"]="o", ["second"]="a"}
+, ["目"]={["first"]="k", ["second"]="a"}
+, ["且"]={["first"]="l", ["second"]="a"}
+, ["叶"]={["first"]="k", ["second"]="u"}
+, ["甲"]={["first"]="l", ["second"]="l"}
+, ["申"]={["first"]="l", ["second"]="l"}
+, ["叮"]={["first"]="k", ["second"]="d"}
+, ["电"]={["first"]="l", ["second"]="v"}
+, ["号"]={["first"]="k", ["second"]="v"}
+, ["田"]={["first"]="k", ["second"]="u"}
+, ["由"]={["first"]="l", ["second"]="a"}
+, ["只"]={["first"]="k", ["second"]="b"}
+, ["叭"]={["first"]="k", ["second"]="b"}
+, ["史"]={["first"]="l", ["second"]="n"}
+, ["央"]={["first"]="l", ["second"]="g"}
+, ["兄"]={["first"]="k", ["second"]="e"}
+, ["叽"]={["first"]="k", ["second"]="j"}
+, ["叼"]={["first"]="k", ["second"]="d"}
+, ["叫"]={["first"]="k", ["second"]="l"}
+, ["叩"]={["first"]="k", ["second"]="e"}
+, ["叨"]={["first"]="k", ["second"]="d"}
+, ["另"]={["first"]="k", ["second"]="l"}
+, ["叹"]={["first"]="k", ["second"]="y"}
+, ["冉"]={["first"]="l", ["second"]="a"}
+, ["皿"]={["first"]="l", ["second"]="a"}
+, ["凹"]={["first"]="l", ["second"]="a"}
+, ["囚"]={["first"]="k", ["second"]="r"}
+, ["四"]={["first"]="k", ["second"]="e"}
+, ["生"]={["first"]="p", ["second"]="f"}
+, ["矢"]={["first"]="p", ["second"]="t"}
+, ["失"]={["first"]="p", ["second"]="f"}
+, ["乍"]={["first"]="p", ["second"]="a"}
+, ["禾"]={["first"]="p", ["second"]="m"}
+, ["丘"]={["first"]="p", ["second"]="a"}
+, ["付"]={["first"]="r", ["second"]="c"}
+, ["仗"]={["first"]="r", ["second"]="v"}
+, ["代"]={["first"]="r", ["second"]="y"}
+, ["仙"]={["first"]="r", ["second"]="e"}
+, ["们"]={["first"]="r", ["second"]="m"}
+, ["仪"]={["first"]="r", ["second"]="y"}
+, ["白"]={["first"]="p", ["second"]="o"}
+, ["仔"]={["first"]="r", ["second"]="z"}
+, ["他"]={["first"]="r", ["second"]="y"}
+, ["斥"]={["first"]="p", ["second"]="d"}
+, ["瓜"]={["first"]="p", ["second"]="n"}
+, ["乎"]={["first"]="p", ["second"]="l"}
+, ["丛"]={["first"]="r", ["second"]="a"}
+, ["令"]={["first"]="r", ["second"]="s"}
+, ["用"]={["first"]="k", ["second"]="l"}
+, ["甩"]={["first"]="k", ["second"]="v"}
+, ["印"]={["first"]="p", ["second"]="e"}
+, ["尔"]={["first"]="d", ["second"]="x"}
+, ["乐"]={["first"]="p", ["second"]="d"}
+, ["句"]={["first"]="b", ["second"]="k"}
+, ["匆"]={["first"]="b", ["second"]="d"}
+, ["册"]={["first"]="p", ["second"]="a"}
+, ["卯"]={["first"]="p", ["second"]="e"}
+, ["犯"]={["first"]="q", ["second"]="v"}
+, ["外"]={["first"]="x", ["second"]="b"}
+, ["处"]={["first"]="w", ["second"]="b"}
+, ["冬"]={["first"]="w", ["second"]="d"}
+, ["鸟"]={["first"]="w", ["second"]="d"}
+, ["务"]={["first"]="w", ["second"]="l"}
+, ["包"]={["first"]="b", ["second"]="s"}
+, ["饥"]={["first"]="u", ["second"]="j"}
+, ["主"]={["first"]="d", ["second"]="w"}
+, ["市"]={["first"]="w", ["second"]="j"}
+, ["立"]={["first"]="w", ["second"]="a"}
+, ["冯"]={["first"]="d", ["second"]="m"}
+, ["玄"]={["first"]="w", ["second"]="y"}
+, ["闪"]={["first"]="m", ["second"]="r"}
+, ["兰"]={["first"]="b", ["second"]="s"}
+, ["半"]={["first"]="d", ["second"]="l"}
+, ["汁"]={["first"]="d", ["second"]="u"}
+, ["汇"]={["first"]="d", ["second"]="k"}
+, ["头"]={["first"]="d", ["second"]="d"}
+, ["汉"]={["first"]="d", ["second"]="y"}
+, ["宁"]={["first"]="b", ["second"]="d"}
+, ["穴"]={["first"]="b", ["second"]="b"}
+, ["它"]={["first"]="b", ["second"]="b"}
+, ["讨"]={["first"]="y", ["second"]="c"}
+, ["写"]={["first"]="b", ["second"]="y"}
+, ["让"]={["first"]="y", ["second"]="u"}
+, ["礼"]={["first"]="p", ["second"]="v"}
+, ["训"]={["first"]="y", ["second"]="i"}
+, ["议"]={["first"]="y", ["second"]="y"}
+, ["必"]={["first"]="d", ["second"]="d"}
+, ["讯"]={["first"]="y", ["second"]="u"}
+, ["记"]={["first"]="y", ["second"]="j"}
+, ["永"]={["first"]="d", ["second"]="n"}
+, ["司"]={["first"]="v", ["second"]="k"}
+, ["尼"]={["first"]="u", ["second"]="b"}
+, ["民"]={["first"]="v", ["second"]="v"}
+, ["弗"]={["first"]="v", ["second"]="l"}
+, ["弘"]={["first"]="g", ["second"]="s"}
+, ["出"]={["first"]="v", ["second"]="k"}
+, ["辽"]={["first"]="z", ["second"]="l"}
+, ["奶"]={["first"]="n", ["second"]="n"}
+, ["奴"]={["first"]="n", ["second"]="y"}
+, ["召"]={["first"]="d", ["second"]="k"}
+, ["加"]={["first"]="l", ["second"]="k"}
+, ["皮"]={["first"]="v", ["second"]="y"}
+, ["边"]={["first"]="z", ["second"]="l"}
+, ["孕"]={["first"]="n", ["second"]="z"}
+, ["发"]={["first"]="v", ["second"]="d"}
+, ["圣"]={["first"]="y", ["second"]="t"}
+, ["对"]={["first"]="y", ["second"]="c"}
+, ["台"]={["first"]="s", ["second"]="k"}
+, ["矛"]={["first"]="s", ["second"]="p"}
+, ["纠"]={["first"]="s", ["second"]="l"}
+, ["母"]={["first"]="v", ["second"]="d"}
+, ["幼"]={["first"]="y", ["second"]="l"}
+, ["丝"]={["first"]="v", ["second"]="a"}
+, ["邦"]={["first"]="f", ["second"]="e"}
+, ["式"]={["first"]="y", ["second"]="g"}
+, ["迂"]={["first"]="z", ["second"]="y"}
+, ["刑"]={["first"]="k", ["second"]="d"}
+, ["戎"]={["first"]="g", ["second"]="u"}
+, ["动"]={["first"]="e", ["second"]="l"}
+, ["扛"]={["first"]="f", ["second"]="g"}
+, ["寺"]={["first"]="t", ["second"]="c"}
+, ["吉"]={["first"]="u", ["second"]="k"}
+, ["扣"]={["first"]="f", ["second"]="k"}
+, ["考"]={["first"]="l", ["second"]="v"}
+, ["托"]={["first"]="f", ["second"]="q"}
+, ["老"]={["first"]="l", ["second"]="b"}
+, ["巩"]={["first"]="g", ["second"]="f"}
+, ["圾"]={["first"]="t", ["second"]="j"}
+, ["执"]={["first"]="f", ["second"]="w"}
+, ["扩"]={["first"]="f", ["second"]="g"}
+, ["扫"]={["first"]="f", ["second"]="e"}
+, ["地"]={["first"]="t", ["second"]="y"}
+, ["场"]={["first"]="t", ["second"]="p"}
+, ["扬"]={["first"]="f", ["second"]="p"}
+, ["耳"]={["first"]="a", ["second"]="a"}
+, ["芋"]={["first"]="c", ["second"]="y"}
+, ["共"]={["first"]="c", ["second"]="b"}
+, ["芒"]={["first"]="c", ["second"]="w"}
+, ["亚"]={["first"]="a", ["second"]="y"}
+, ["芝"]={["first"]="c", ["second"]="v"}
+, ["朽"]={["first"]="m", ["second"]="v"}
+, ["朴"]={["first"]="m", ["second"]="b"}
+, ["机"]={["first"]="m", ["second"]="j"}
+, ["权"]={["first"]="m", ["second"]="y"}
+, ["过"]={["first"]="z", ["second"]="c"}
+, ["臣"]={["first"]="k", ["second"]="l"}
+, ["吏"]={["first"]="a", ["second"]="n"}
+, ["再"]={["first"]="a", ["second"]="r"}
+, ["协"]={["first"]="u", ["second"]="b"}
+, ["西"]={["first"]="a", ["second"]="a"}
+, ["压"]={["first"]="i", ["second"]="d"}
+, ["厌"]={["first"]="i", ["second"]="q"}
+, ["戌"]={["first"]="w", ["second"]="a"}
+, ["在"]={["first"]="u", ["second"]="t"}
+, ["百"]={["first"]="a", ["second"]="b"}
+, ["有"]={["first"]="u", ["second"]="o"}
+, ["存"]={["first"]="u", ["second"]="z"}
+, ["而"]={["first"]="a", ["second"]="l"}
+, ["页"]={["first"]="a", ["second"]="r"}
+, ["匠"]={["first"]="k", ["second"]="j"}
+, ["夸"]={["first"]="d", ["second"]="k"}
+, ["夺"]={["first"]="d", ["second"]="c"}
+, ["灰"]={["first"]="u", ["second"]="h"}
+, ["达"]={["first"]="z", ["second"]="d"}
+, ["列"]={["first"]="d", ["second"]="d"}
+, ["死"]={["first"]="d", ["second"]="b"}
+, ["成"]={["first"]="w", ["second"]="v"}
+, ["夹"]={["first"]="a", ["second"]="n"}
+, ["夷"]={["first"]="a", ["second"]="n"}
+, ["轨"]={["first"]="i", ["second"]="j"}
+, ["邪"]={["first"]="y", ["second"]="e"}
+, ["尧"]={["first"]="a", ["second"]="w"}
+, ["划"]={["first"]="g", ["second"]="d"}
+, ["迈"]={["first"]="z", ["second"]="w"}
+, ["毕"]={["first"]="b", ["second"]="u"}
+, ["至"]={["first"]="a", ["second"]="t"}
+, ["此"]={["first"]="v", ["second"]="b"}
+, ["贞"]={["first"]="l", ["second"]="r"}
+, ["师"]={["first"]="l", ["second"]="j"}
+, ["尘"]={["first"]="x", ["second"]="t"}
+, ["尖"]={["first"]="x", ["second"]="d"}
+, ["劣"]={["first"]="u", ["second"]="l"}
+, ["光"]={["first"]="x", ["second"]="w"}
+, ["当"]={["first"]="x", ["second"]="e"}
+, ["早"]={["first"]="o", ["second"]="u"}
+, ["吁"]={["first"]="k", ["second"]="y"}
+, ["吐"]={["first"]="k", ["second"]="t"}
+, ["吓"]={["first"]="k", ["second"]="x"}
+, ["虫"]={["first"]="v", ["second"]="d"}
+, ["曲"]={["first"]="l", ["second"]="a"}
+, ["团"]={["first"]="k", ["second"]="c"}
+, ["吕"]={["first"]="k", ["second"]="k"}
+, ["同"]={["first"]="k", ["second"]="k"}
+, ["吊"]={["first"]="k", ["second"]="j"}
+, ["吃"]={["first"]="k", ["second"]="q"}
+, ["因"]={["first"]="k", ["second"]="d"}
+, ["吸"]={["first"]="k", ["second"]="j"}
+, ["吗"]={["first"]="k", ["second"]="m"}
+, ["吆"]={["first"]="k", ["second"]="y"}
+, ["屿"]={["first"]="e", ["second"]="y"}
+, ["屹"]={["first"]="e", ["second"]="q"}
+, ["岁"]={["first"]="e", ["second"]="x"}
+, ["帆"]={["first"]="j", ["second"]="f"}
+, ["回"]={["first"]="k", ["second"]="k"}
+, ["岂"]={["first"]="e", ["second"]="j"}
+, ["则"]={["first"]="k", ["second"]="d"}
+, ["刚"]={["first"]="k", ["second"]="d"}
+, ["网"]={["first"]="k", ["second"]="x"}
+, ["肉"]={["first"]="n", ["second"]="r"}
+, ["年"]={["first"]="p", ["second"]="l"}
+, ["朱"]={["first"]="p", ["second"]="w"}
+, ["先"]={["first"]="n", ["second"]="e"}
+, ["丢"]={["first"]="p", ["second"]="s"}
+, ["廷"]={["first"]="z", ["second"]="r"}
+, ["舌"]={["first"]="q", ["second"]="k"}
+, ["竹"]={["first"]="p", ["second"]="l"}
+, ["迁"]={["first"]="z", ["second"]="q"}
+, ["乔"]={["first"]="y", ["second"]="l"}
+, ["迄"]={["first"]="z", ["second"]="q"}
+, ["伟"]={["first"]="r", ["second"]="w"}
+, ["传"]={["first"]="r", ["second"]="v"}
+, ["乒"]={["first"]="q", ["second"]="p"}
+, ["乓"]={["first"]="q", ["second"]="d"}
+, ["休"]={["first"]="r", ["second"]="m"}
+, ["伍"]={["first"]="r", ["second"]="w"}
+, ["伏"]={["first"]="r", ["second"]="q"}
+, ["优"]={["first"]="r", ["second"]="y"}
+, ["臼"]={["first"]="p", ["second"]="a"}
+, ["伐"]={["first"]="r", ["second"]="g"}
+, ["延"]={["first"]="z", ["second"]="v"}
+, ["仲"]={["first"]="r", ["second"]="v"}
+, ["件"]={["first"]="r", ["second"]="n"}
+, ["任"]={["first"]="r", ["second"]="r"}
+, ["伤"]={["first"]="r", ["second"]="l"}
+, ["价"]={["first"]="r", ["second"]="l"}
+, ["伦"]={["first"]="r", ["second"]="b"}
+, ["份"]={["first"]="r", ["second"]="d"}
+, ["华"]={["first"]="r", ["second"]="u"}
+, ["仰"]={["first"]="r", ["second"]="e"}
+, ["仿"]={["first"]="r", ["second"]="f"}
+, ["伙"]={["first"]="r", ["second"]="h"}
+, ["伪"]={["first"]="r", ["second"]="w"}
+, ["自"]={["first"]="p", ["second"]="o"}
+, ["伊"]={["first"]="r", ["second"]="y"}
+, ["血"]={["first"]="p", ["second"]="m"}
+, ["向"]={["first"]="p", ["second"]="k"}
+, ["似"]={["first"]="r", ["second"]="r"}
+, ["后"]={["first"]="p", ["second"]="k"}
+, ["行"]={["first"]="i", ["second"]="i"}
+, ["舟"]={["first"]="p", ["second"]="d"}
+, ["全"]={["first"]="r", ["second"]="w"}
+, ["会"]={["first"]="r", ["second"]="s"}
+, ["杀"]={["first"]="x", ["second"]="m"}
+, ["合"]={["first"]="r", ["second"]="k"}
+, ["兆"]={["first"]="e", ["second"]="d"}
+, ["企"]={["first"]="r", ["second"]="v"}
+, ["众"]={["first"]="r", ["second"]="r"}
+, ["爷"]={["first"]="b", ["second"]="e"}
+, ["伞"]={["first"]="r", ["second"]="u"}
+, ["创"]={["first"]="r", ["second"]="d"}
+, ["肌"]={["first"]="o", ["second"]="j"}
+, ["肋"]={["first"]="o", ["second"]="l"}
+, ["朵"]={["first"]="j", ["second"]="m"}
+, ["杂"]={["first"]="j", ["second"]="m"}
+, ["危"]={["first"]="d", ["second"]="v"}
+, ["旬"]={["first"]="b", ["second"]="o"}
+, ["旨"]={["first"]="b", ["second"]="o"}
+, ["旭"]={["first"]="j", ["second"]="o"}
+, ["负"]={["first"]="d", ["second"]="r"}
+, ["匈"]={["first"]="b", ["second"]="k"}
+, ["名"]={["first"]="x", ["second"]="k"}
+, ["各"]={["first"]="w", ["second"]="k"}
+, ["多"]={["first"]="x", ["second"]="x"}
+, ["争"]={["first"]="d", ["second"]="l"}
+, ["色"]={["first"]="d", ["second"]="b"}
+, ["壮"]={["first"]="d", ["second"]="u"}
+, ["冲"]={["first"]="d", ["second"]="v"}
+, ["妆"]={["first"]="d", ["second"]="n"}
+, ["冰"]={["first"]="d", ["second"]="u"}
+, ["庄"]={["first"]="g", ["second"]="t"}
+, ["庆"]={["first"]="g", ["second"]="d"}
+, ["亦"]={["first"]="w", ["second"]="d"}
+, ["刘"]={["first"]="w", ["second"]="d"}
+, ["齐"]={["first"]="w", ["second"]="l"}
+, ["交"]={["first"]="w", ["second"]="x"}
+, ["衣"]={["first"]="w", ["second"]="y"}
+, ["次"]={["first"]="d", ["second"]="r"}
+, ["产"]={["first"]="l", ["second"]="p"}
+, ["决"]={["first"]="d", ["second"]="g"}
+, ["亥"]={["first"]="w", ["second"]="r"}
+, ["充"]={["first"]="w", ["second"]="e"}
+, ["妄"]={["first"]="w", ["second"]="n"}
+, ["闭"]={["first"]="m", ["second"]="c"}
+, ["问"]={["first"]="m", ["second"]="k"}
+, ["闯"]={["first"]="m", ["second"]="m"}
+, ["羊"]={["first"]="b", ["second"]="l"}
+, ["并"]={["first"]="b", ["second"]="k"}
+, ["关"]={["first"]="b", ["second"]="t"}
+, ["米"]={["first"]="d", ["second"]="m"}
+, ["灯"]={["first"]="h", ["second"]="d"}
+, ["州"]={["first"]="d", ["second"]="l"}
+, ["汗"]={["first"]="d", ["second"]="g"}
+, ["污"]={["first"]="d", ["second"]="k"}
+, ["江"]={["first"]="d", ["second"]="g"}
+, ["汛"]={["first"]="d", ["second"]="u"}
+, ["池"]={["first"]="d", ["second"]="y"}
+, ["汝"]={["first"]="d", ["second"]="n"}
+, ["汤"]={["first"]="d", ["second"]="p"}
+, ["忙"]={["first"]="x", ["second"]="w"}
+, ["兴"]={["first"]="x", ["second"]="b"}
+, ["宇"]={["first"]="b", ["second"]="y"}
+, ["守"]={["first"]="b", ["second"]="c"}
+, ["宅"]={["first"]="b", ["second"]="q"}
+, ["字"]={["first"]="b", ["second"]="z"}
+, ["安"]={["first"]="b", ["second"]="n"}
+, ["讲"]={["first"]="y", ["second"]="j"}
+, ["讳"]={["first"]="y", ["second"]="w"}
+, ["军"]={["first"]="b", ["second"]="i"}
+, ["讶"]={["first"]="y", ["second"]="y"}
+, ["许"]={["first"]="y", ["second"]="w"}
+, ["讹"]={["first"]="y", ["second"]="b"}
+, ["论"]={["first"]="y", ["second"]="b"}
+, ["讼"]={["first"]="y", ["second"]="s"}
+, ["农"]={["first"]="d", ["second"]="n"}
+, ["讽"]={["first"]="y", ["second"]="x"}
+, ["设"]={["first"]="y", ["second"]="y"}
+, ["访"]={["first"]="y", ["second"]="f"}
+, ["诀"]={["first"]="y", ["second"]="g"}
+, ["寻"]={["first"]="e", ["second"]="c"}
+, ["那"]={["first"]="v", ["second"]="e"}
+, ["迅"]={["first"]="z", ["second"]="u"}
+, ["尽"]={["first"]="i", ["second"]="d"}
+, ["导"]={["first"]="s", ["second"]="c"}
+, ["异"]={["first"]="s", ["second"]="c"}
+, ["弛"]={["first"]="g", ["second"]="y"}
+, ["孙"]={["first"]="z", ["second"]="x"}
+, ["阵"]={["first"]="e", ["second"]="i"}
+, ["阳"]={["first"]="e", ["second"]="o"}
+, ["收"]={["first"]="v", ["second"]="w"}
+, ["阶"]={["first"]="e", ["second"]="l"}
+, ["阴"]={["first"]="e", ["second"]="o"}
+, ["防"]={["first"]="e", ["second"]="f"}
+, ["奸"]={["first"]="n", ["second"]="g"}
+, ["如"]={["first"]="n", ["second"]="k"}
+, ["妇"]={["first"]="n", ["second"]="e"}
+, ["妃"]={["first"]="n", ["second"]="j"}
+, ["好"]={["first"]="n", ["second"]="z"}
+, ["她"]={["first"]="n", ["second"]="y"}
+, ["妈"]={["first"]="n", ["second"]="m"}
+, ["戏"]={["first"]="y", ["second"]="g"}
+, ["羽"]={["first"]="x", ["second"]="x"}
+, ["观"]={["first"]="y", ["second"]="e"}
+, ["欢"]={["first"]="y", ["second"]="r"}
+, ["买"]={["first"]="v", ["second"]="d"}
+, ["红"]={["first"]="s", ["second"]="g"}
+, ["驮"]={["first"]="m", ["second"]="d"}
+, ["纤"]={["first"]="s", ["second"]="q"}
+, ["驯"]={["first"]="m", ["second"]="i"}
+, ["约"]={["first"]="s", ["second"]="u"}
+, ["级"]={["first"]="s", ["second"]="j"}
+, ["纪"]={["first"]="s", ["second"]="j"}
+, ["驰"]={["first"]="m", ["second"]="y"}
+, ["纫"]={["first"]="s", ["second"]="r"}
+, ["巡"]={["first"]="z", ["second"]="v"}
+, ["寿"]={["first"]="f", ["second"]="c"}
+, ["弄"]={["first"]="w", ["second"]="c"}
+, ["麦"]={["first"]="f", ["second"]="w"}
+, ["玖"]={["first"]="w", ["second"]="j"}
+, ["玛"]={["first"]="w", ["second"]="m"}
+, ["形"]={["first"]="k", ["second"]="p"}
+, ["进"]={["first"]="z", ["second"]="j"}
+, ["戒"]={["first"]="g", ["second"]="c"}
+, ["吞"]={["first"]="t", ["second"]="k"}
+, ["远"]={["first"]="z", ["second"]="e"}
+, ["违"]={["first"]="z", ["second"]="w"}
+, ["韧"]={["first"]="w", ["second"]="r"}
+, ["运"]={["first"]="z", ["second"]="s"}
+, ["扶"]={["first"]="f", ["second"]="f"}
+, ["抚"]={["first"]="f", ["second"]="w"}
+, ["坛"]={["first"]="t", ["second"]="s"}
+, ["技"]={["first"]="f", ["second"]="y"}
+, ["坏"]={["first"]="t", ["second"]="b"}
+, ["抠"]={["first"]="f", ["second"]="x"}
+, ["扰"]={["first"]="f", ["second"]="y"}
+, ["扼"]={["first"]="f", ["second"]="v"}
+, ["拒"]={["first"]="f", ["second"]="j"}
+, ["找"]={["first"]="f", ["second"]="g"}
+, ["批"]={["first"]="f", ["second"]="b"}
+, ["址"]={["first"]="t", ["second"]="v"}
+, ["扯"]={["first"]="f", ["second"]="v"}
+, ["走"]={["first"]="t", ["second"]="r"}
+, ["抄"]={["first"]="f", ["second"]="u"}
+, ["贡"]={["first"]="g", ["second"]="r"}
+, ["汞"]={["first"]="g", ["second"]="u"}
+, ["坝"]={["first"]="t", ["second"]="r"}
+, ["攻"]={["first"]="g", ["second"]="w"}
+, ["赤"]={["first"]="t", ["second"]="d"}
+, ["折"]={["first"]="f", ["second"]="j"}
+, ["抓"]={["first"]="f", ["second"]="v"}
+, ["扳"]={["first"]="f", ["second"]="y"}
+, ["抡"]={["first"]="f", ["second"]="b"}
+, ["扮"]={["first"]="f", ["second"]="d"}
+, ["抢"]={["first"]="f", ["second"]="v"}
+, ["孝"]={["first"]="l", ["second"]="z"}
+, ["坎"]={["first"]="t", ["second"]="r"}
+, ["均"]={["first"]="t", ["second"]="d"}
+, ["抑"]={["first"]="f", ["second"]="e"}
+, ["抛"]={["first"]="f", ["second"]="l"}
+, ["投"]={["first"]="f", ["second"]="y"}
+, ["坟"]={["first"]="t", ["second"]="w"}
+, ["坑"]={["first"]="t", ["second"]="j"}
+, ["抗"]={["first"]="f", ["second"]="j"}
+, ["坊"]={["first"]="t", ["second"]="f"}
+, ["抖"]={["first"]="f", ["second"]="u"}
+, ["护"]={["first"]="f", ["second"]="h"}
+, ["壳"]={["first"]="u", ["second"]="j"}
+, ["志"]={["first"]="u", ["second"]="x"}
+, ["块"]={["first"]="t", ["second"]="g"}
+, ["扭"]={["first"]="f", ["second"]="i"}
+, ["声"]={["first"]="u", ["second"]="p"}
+, ["把"]={["first"]="f", ["second"]="b"}
+, ["报"]={["first"]="f", ["second"]="y"}
+, ["拟"]={["first"]="f", ["second"]="r"}
+, ["却"]={["first"]="t", ["second"]="e"}
+, ["抒"]={["first"]="f", ["second"]="l"}
+, ["劫"]={["first"]="t", ["second"]="l"}
+, ["芙"]={["first"]="c", ["second"]="f"}
+, ["芜"]={["first"]="c", ["second"]="w"}
+, ["苇"]={["first"]="c", ["second"]="w"}
+, ["芽"]={["first"]="c", ["second"]="y"}
+, ["花"]={["first"]="c", ["second"]="b"}
+, ["芹"]={["first"]="c", ["second"]="j"}
+, ["芥"]={["first"]="c", ["second"]="l"}
+, ["芬"]={["first"]="c", ["second"]="d"}
+, ["苍"]={["first"]="c", ["second"]="v"}
+, ["芳"]={["first"]="c", ["second"]="f"}
+, ["严"]={["first"]="y", ["second"]="p"}
+, ["芦"]={["first"]="c", ["second"]="h"}
+, ["芯"]={["first"]="c", ["second"]="x"}
+, ["劳"]={["first"]="c", ["second"]="l"}
+, ["克"]={["first"]="u", ["second"]="e"}
+, ["芭"]={["first"]="c", ["second"]="b"}
+, ["苏"]={["first"]="c", ["second"]="b"}
+, ["杆"]={["first"]="m", ["second"]="g"}
+, ["杠"]={["first"]="m", ["second"]="g"}
+, ["杜"]={["first"]="m", ["second"]="t"}
+, ["材"]={["first"]="m", ["second"]="c"}
+, ["村"]={["first"]="m", ["second"]="c"}
+, ["杖"]={["first"]="m", ["second"]="v"}
+, ["杏"]={["first"]="m", ["second"]="k"}
+, ["杉"]={["first"]="m", ["second"]="p"}
+, ["巫"]={["first"]="g", ["second"]="r"}
+, ["极"]={["first"]="m", ["second"]="j"}
+, ["李"]={["first"]="m", ["second"]="z"}
+, ["杨"]={["first"]="m", ["second"]="p"}
+, ["求"]={["first"]="a", ["second"]="d"}
+, ["甫"]={["first"]="a", ["second"]="d"}
+, ["匣"]={["first"]="k", ["second"]="j"}
+, ["更"]={["first"]="a", ["second"]="n"}
+, ["束"]={["first"]="a", ["second"]="n"}
+, ["吾"]={["first"]="w", ["second"]="k"}
+, ["豆"]={["first"]="a", ["second"]="a"}
+, ["两"]={["first"]="a", ["second"]="d"}
+, ["酉"]={["first"]="x", ["second"]="a"}
+, ["丽"]={["first"]="a", ["second"]="d"}
+, ["医"]={["first"]="k", ["second"]="u"}
+, ["辰"]={["first"]="i", ["second"]="n"}
+, ["励"]={["first"]="i", ["second"]="l"}
+, ["否"]={["first"]="b", ["second"]="k"}
+, ["还"]={["first"]="z", ["second"]="b"}
+, ["尬"]={["first"]="y", ["second"]="l"}
+, ["歼"]={["first"]="d", ["second"]="q"}
+, ["来"]={["first"]="a", ["second"]="n"}
+, ["连"]={["first"]="z", ["second"]="i"}
+, ["轩"]={["first"]="i", ["second"]="g"}
+, ["步"]={["first"]="v", ["second"]="p"}
+, ["卤"]={["first"]="l", ["second"]="x"}
+, ["坚"]={["first"]="l", ["second"]="t"}
+, ["肖"]={["first"]="x", ["second"]="o"}
+, ["旱"]={["first"]="o", ["second"]="g"}
+, ["盯"]={["first"]="o", ["second"]="d"}
+, ["呈"]={["first"]="k", ["second"]="w"}
+, ["时"]={["first"]="o", ["second"]="c"}
+, ["吴"]={["first"]="k", ["second"]="t"}
+, ["助"]={["first"]="q", ["second"]="l"}
+, ["县"]={["first"]="q", ["second"]="s"}
+, ["里"]={["first"]="l", ["second"]="a"}
+, ["呆"]={["first"]="k", ["second"]="m"}
+, ["吱"]={["first"]="k", ["second"]="y"}
+, ["吠"]={["first"]="k", ["second"]="q"}
+, ["呕"]={["first"]="k", ["second"]="x"}
+, ["园"]={["first"]="k", ["second"]="e"}
+, ["旷"]={["first"]="o", ["second"]="g"}
+, ["围"]={["first"]="k", ["second"]="w"}
+, ["呀"]={["first"]="k", ["second"]="y"}
+, ["吨"]={["first"]="k", ["second"]="t"}
+, ["足"]={["first"]="k", ["second"]="r"}
+, ["邮"]={["first"]="y", ["second"]="e"}
+, ["男"]={["first"]="t", ["second"]="l"}
+, ["困"]={["first"]="k", ["second"]="m"}
+, ["吵"]={["first"]="k", ["second"]="u"}
+, ["串"]={["first"]="l", ["second"]="l"}
+, ["员"]={["first"]="k", ["second"]="r"}
+, ["呐"]={["first"]="k", ["second"]="n"}
+, ["听"]={["first"]="k", ["second"]="j"}
+, ["吟"]={["first"]="k", ["second"]="v"}
+, ["吩"]={["first"]="k", ["second"]="d"}
+, ["呛"]={["first"]="k", ["second"]="v"}
+, ["吻"]={["first"]="k", ["second"]="w"}
+, ["吹"]={["first"]="k", ["second"]="r"}
+, ["呜"]={["first"]="k", ["second"]="w"}
+, ["吭"]={["first"]="k", ["second"]="j"}
+, ["吧"]={["first"]="k", ["second"]="b"}
+, ["邑"]={["first"]="k", ["second"]="b"}
+, ["吼"]={["first"]="k", ["second"]="v"}
+, ["囤"]={["first"]="k", ["second"]="t"}
+, ["别"]={["first"]="k", ["second"]="d"}
+, ["吮"]={["first"]="k", ["second"]="e"}
+, ["岖"]={["first"]="e", ["second"]="x"}
+, ["岗"]={["first"]="e", ["second"]="x"}
+, ["帐"]={["first"]="j", ["second"]="i"}
+, ["财"]={["first"]="k", ["second"]="c"}
+, ["针"]={["first"]="j", ["second"]="u"}
+, ["钉"]={["first"]="j", ["second"]="d"}
+, ["牡"]={["first"]="n", ["second"]="t"}
+, ["告"]={["first"]="n", ["second"]="k"}
+, ["我"]={["first"]="p", ["second"]="d"}
+, ["乱"]={["first"]="q", ["second"]="v"}
+, ["利"]={["first"]="h", ["second"]="d"}
+, ["秃"]={["first"]="h", ["second"]="j"}
+, ["秀"]={["first"]="h", ["second"]="n"}
+, ["私"]={["first"]="h", ["second"]="s"}
+, ["每"]={["first"]="p", ["second"]="m"}
+, ["兵"]={["first"]="q", ["second"]="b"}
+, ["估"]={["first"]="r", ["second"]="k"}
+, ["体"]={["first"]="r", ["second"]="b"}
+, ["何"]={["first"]="r", ["second"]="k"}
+, ["佐"]={["first"]="r", ["second"]="g"}
+, ["佑"]={["first"]="r", ["second"]="k"}
+, ["但"]={["first"]="r", ["second"]="a"}
+, ["伸"]={["first"]="r", ["second"]="u"}
+, ["佃"]={["first"]="r", ["second"]="t"}
+, ["作"]={["first"]="r", ["second"]="v"}
+, ["伯"]={["first"]="r", ["second"]="b"}
+, ["伶"]={["first"]="r", ["second"]="s"}
+, ["佣"]={["first"]="r", ["second"]="y"}
+, ["低"]={["first"]="r", ["second"]="d"}
+, ["你"]={["first"]="r", ["second"]="x"}
+, ["住"]={["first"]="r", ["second"]="v"}
+, ["位"]={["first"]="r", ["second"]="l"}
+, ["伴"]={["first"]="r", ["second"]="b"}
+, ["身"]={["first"]="p", ["second"]="p"}
+, ["皂"]={["first"]="b", ["second"]="q"}
+, ["伺"]={["first"]="r", ["second"]="k"}
+, ["佛"]={["first"]="r", ["second"]="f"}
+, ["囱"]={["first"]="p", ["second"]="w"}
+, ["近"]={["first"]="z", ["second"]="j"}
+, ["彻"]={["first"]="i", ["second"]="d"}
+, ["役"]={["first"]="i", ["second"]="y"}
+, ["返"]={["first"]="z", ["second"]="y"}
+, ["余"]={["first"]="r", ["second"]="h"}
+, ["希"]={["first"]="x", ["second"]="j"}
+, ["坐"]={["first"]="r", ["second"]="t"}
+, ["谷"]={["first"]="b", ["second"]="k"}
+, ["妥"]={["first"]="p", ["second"]="n"}
+, ["含"]={["first"]="r", ["second"]="k"}
+, ["邻"]={["first"]="r", ["second"]="e"}
+, ["岔"]={["first"]="b", ["second"]="e"}
+, ["肝"]={["first"]="o", ["second"]="g"}
+, ["肛"]={["first"]="o", ["second"]="g"}
+, ["肚"]={["first"]="o", ["second"]="t"}
+, ["肘"]={["first"]="o", ["second"]="c"}
+, ["肠"]={["first"]="o", ["second"]="p"}
+, ["龟"]={["first"]="d", ["second"]="v"}
+, ["甸"]={["first"]="b", ["second"]="t"}
+, ["免"]={["first"]="d", ["second"]="v"}
+, ["狂"]={["first"]="q", ["second"]="w"}
+, ["犹"]={["first"]="q", ["second"]="y"}
+, ["狈"]={["first"]="q", ["second"]="r"}
+, ["角"]={["first"]="d", ["second"]="y"}
+, ["删"]={["first"]="c", ["second"]="d"}
+, ["条"]={["first"]="w", ["second"]="m"}
+, ["彤"]={["first"]="d", ["second"]="p"}
+, ["卵"]={["first"]="p", ["second"]="d"}
+, ["灸"]={["first"]="j", ["second"]="h"}
+, ["岛"]={["first"]="p", ["second"]="e"}
+, ["刨"]={["first"]="b", ["second"]="d"}
+, ["迎"]={["first"]="z", ["second"]="e"}
+, ["饭"]={["first"]="u", ["second"]="y"}
+, ["饮"]={["first"]="u", ["second"]="r"}
+, ["系"]={["first"]="p", ["second"]="x"}
+, ["言"]={["first"]="w", ["second"]="k"}
+, ["冻"]={["first"]="d", ["second"]="d"}
+, ["状"]={["first"]="d", ["second"]="q"}
+, ["亩"]={["first"]="w", ["second"]="t"}
+, ["况"]={["first"]="d", ["second"]="e"}
+, ["床"]={["first"]="g", ["second"]="m"}
+, ["库"]={["first"]="g", ["second"]="i"}
+, ["庇"]={["first"]="g", ["second"]="b"}
+, ["疗"]={["first"]="b", ["second"]="l"}
+, ["吝"]={["first"]="w", ["second"]="k"}
+, ["应"]={["first"]="g", ["second"]="a"}
+, ["这"]={["first"]="z", ["second"]="w"}
+, ["冷"]={["first"]="d", ["second"]="s"}
+, ["庐"]={["first"]="g", ["second"]="h"}
+, ["序"]={["first"]="g", ["second"]="l"}
+, ["辛"]={["first"]="l", ["second"]="u"}
+, ["弃"]={["first"]="w", ["second"]="c"}
+, ["冶"]={["first"]="d", ["second"]="k"}
+, ["忘"]={["first"]="w", ["second"]="x"}
+, ["闰"]={["first"]="m", ["second"]="w"}
+, ["闲"]={["first"]="m", ["second"]="m"}
+, ["间"]={["first"]="m", ["second"]="o"}
+, ["闷"]={["first"]="m", ["second"]="x"}
+, ["判"]={["first"]="b", ["second"]="d"}
+, ["兑"]={["first"]="b", ["second"]="e"}
+, ["灶"]={["first"]="h", ["second"]="t"}
+, ["灿"]={["first"]="h", ["second"]="e"}
+, ["灼"]={["first"]="h", ["second"]="u"}
+, ["弟"]={["first"]="b", ["second"]="p"}
+, ["汪"]={["first"]="d", ["second"]="w"}
+, ["沐"]={["first"]="d", ["second"]="m"}
+, ["沛"]={["first"]="d", ["second"]="l"}
+, ["汰"]={["first"]="d", ["second"]="t"}
+, ["沥"]={["first"]="d", ["second"]="l"}
+, ["沙"]={["first"]="d", ["second"]="u"}
+, ["汽"]={["first"]="d", ["second"]="q"}
+, ["沃"]={["first"]="d", ["second"]="y"}
+, ["沦"]={["first"]="d", ["second"]="b"}
+, ["汹"]={["first"]="d", ["second"]="k"}
+, ["泛"]={["first"]="d", ["second"]="f"}
+, ["沧"]={["first"]="d", ["second"]="v"}
+, ["没"]={["first"]="d", ["second"]="y"}
+, ["沟"]={["first"]="d", ["second"]="s"}
+, ["沪"]={["first"]="d", ["second"]="h"}
+, ["沈"]={["first"]="d", ["second"]="v"}
+, ["沉"]={["first"]="d", ["second"]="j"}
+, ["沁"]={["first"]="d", ["second"]="x"}
+, ["怀"]={["first"]="x", ["second"]="b"}
+, ["忧"]={["first"]="x", ["second"]="y"}
+, ["忱"]={["first"]="x", ["second"]="v"}
+, ["快"]={["first"]="x", ["second"]="g"}
+, ["完"]={["first"]="b", ["second"]="e"}
+, ["宋"]={["first"]="b", ["second"]="m"}
+, ["宏"]={["first"]="b", ["second"]="s"}
+, ["牢"]={["first"]="b", ["second"]="n"}
+, ["究"]={["first"]="b", ["second"]="j"}
+, ["穷"]={["first"]="b", ["second"]="l"}
+, ["灾"]={["first"]="b", ["second"]="h"}
+, ["良"]={["first"]="d", ["second"]="g"}
+, ["证"]={["first"]="y", ["second"]="v"}
+, ["启"]={["first"]="h", ["second"]="k"}
+, ["评"]={["first"]="y", ["second"]="p"}
+, ["补"]={["first"]="p", ["second"]="b"}
+, ["初"]={["first"]="p", ["second"]="d"}
+, ["社"]={["first"]="p", ["second"]="t"}
+, ["祀"]={["first"]="p", ["second"]="s"}
+, ["识"]={["first"]="y", ["second"]="b"}
+, ["诈"]={["first"]="y", ["second"]="v"}
+, ["诉"]={["first"]="y", ["second"]="i"}
+, ["罕"]={["first"]="b", ["second"]="g"}
+, ["诊"]={["first"]="y", ["second"]="p"}
+, ["词"]={["first"]="y", ["second"]="k"}
+, ["译"]={["first"]="y", ["second"]="l"}
+, ["君"]={["first"]="y", ["second"]="k"}
+, ["灵"]={["first"]="e", ["second"]="h"}
+, ["即"]={["first"]="g", ["second"]="e"}
+, ["层"]={["first"]="u", ["second"]="s"}
+, ["屁"]={["first"]="u", ["second"]="b"}
+, ["尿"]={["first"]="u", ["second"]="u"}
+, ["尾"]={["first"]="u", ["second"]="m"}
+, ["迟"]={["first"]="z", ["second"]="i"}
+, ["局"]={["first"]="u", ["second"]="k"}
+, ["改"]={["first"]="j", ["second"]="w"}
+, ["张"]={["first"]="g", ["second"]="i"}
+, ["忌"]={["first"]="j", ["second"]="x"}
+, ["际"]={["first"]="e", ["second"]="x"}
+, ["陆"]={["first"]="e", ["second"]="j"}
+, ["阿"]={["first"]="e", ["second"]="k"}
+, ["陈"]={["first"]="e", ["second"]="d"}
+, ["阻"]={["first"]="e", ["second"]="q"}
+, ["附"]={["first"]="e", ["second"]="c"}
+, ["坠"]={["first"]="e", ["second"]="t"}
+, ["妓"]={["first"]="n", ["second"]="y"}
+, ["妙"]={["first"]="n", ["second"]="u"}
+, ["妖"]={["first"]="n", ["second"]="y"}
+, ["姊"]={["first"]="n", ["second"]="p"}
+, ["妨"]={["first"]="n", ["second"]="f"}
+, ["妒"]={["first"]="n", ["second"]="h"}
+, ["努"]={["first"]="n", ["second"]="l"}
+, ["忍"]={["first"]="r", ["second"]="x"}
+, ["劲"]={["first"]="v", ["second"]="l"}
+, ["矣"]={["first"]="s", ["second"]="u"}
+, ["鸡"]={["first"]="y", ["second"]="n"}
+, ["纬"]={["first"]="s", ["second"]="w"}
+, ["驱"]={["first"]="m", ["second"]="x"}
+, ["纯"]={["first"]="s", ["second"]="t"}
+, ["纱"]={["first"]="s", ["second"]="u"}
+, ["纲"]={["first"]="s", ["second"]="x"}
+, ["纳"]={["first"]="s", ["second"]="n"}
+, ["驳"]={["first"]="m", ["second"]="x"}
+, ["纵"]={["first"]="s", ["second"]="r"}
+, ["纷"]={["first"]="s", ["second"]="d"}
+, ["纸"]={["first"]="s", ["second"]="u"}
+, ["纹"]={["first"]="s", ["second"]="w"}
+, ["纺"]={["first"]="s", ["second"]="f"}
+, ["驴"]={["first"]="m", ["second"]="h"}
+, ["纽"]={["first"]="s", ["second"]="i"}
+, ["奉"]={["first"]="f", ["second"]="l"}
+, ["玩"]={["first"]="w", ["second"]="e"}
+, ["环"]={["first"]="w", ["second"]="b"}
+, ["武"]={["first"]="a", ["second"]="v"}
+, ["青"]={["first"]="f", ["second"]="o"}
+, ["责"]={["first"]="f", ["second"]="r"}
+, ["现"]={["first"]="w", ["second"]="e"}
+, ["玫"]={["first"]="w", ["second"]="w"}
+, ["表"]={["first"]="f", ["second"]="y"}
+, ["规"]={["first"]="f", ["second"]="e"}
+, ["抹"]={["first"]="f", ["second"]="m"}
+, ["卦"]={["first"]="t", ["second"]="b"}
+, ["坷"]={["first"]="t", ["second"]="k"}
+, ["坯"]={["first"]="t", ["second"]="p"}
+, ["拓"]={["first"]="f", ["second"]="u"}
+, ["拢"]={["first"]="f", ["second"]="l"}
+, ["拔"]={["first"]="f", ["second"]="d"}
+, ["坪"]={["first"]="t", ["second"]="p"}
+, ["拣"]={["first"]="f", ["second"]="d"}
+, ["坦"]={["first"]="t", ["second"]="a"}
+, ["担"]={["first"]="f", ["second"]="a"}
+, ["坤"]={["first"]="t", ["second"]="u"}
+, ["押"]={["first"]="f", ["second"]="j"}
+, ["抽"]={["first"]="f", ["second"]="y"}
+, ["拐"]={["first"]="f", ["second"]="l"}
+, ["拖"]={["first"]="f", ["second"]="y"}
+, ["者"]={["first"]="l", ["second"]="o"}
+, ["拍"]={["first"]="f", ["second"]="b"}
+, ["顶"]={["first"]="d", ["second"]="r"}
+, ["拆"]={["first"]="f", ["second"]="i"}
+, ["拎"]={["first"]="f", ["second"]="s"}
+, ["拥"]={["first"]="f", ["second"]="y"}
+, ["抵"]={["first"]="f", ["second"]="d"}
+, ["拘"]={["first"]="f", ["second"]="k"}
+, ["势"]={["first"]="f", ["second"]="l"}
+, ["抱"]={["first"]="f", ["second"]="s"}
+, ["拄"]={["first"]="f", ["second"]="v"}
+, ["垃"]={["first"]="t", ["second"]="l"}
+, ["拉"]={["first"]="f", ["second"]="l"}
+, ["拦"]={["first"]="f", ["second"]="s"}
+, ["幸"]={["first"]="t", ["second"]="g"}
+, ["拌"]={["first"]="f", ["second"]="b"}
+, ["拧"]={["first"]="f", ["second"]="d"}
+, ["拂"]={["first"]="f", ["second"]="f"}
+, ["拙"]={["first"]="f", ["second"]="i"}
+, ["招"]={["first"]="f", ["second"]="k"}
+, ["坡"]={["first"]="t", ["second"]="y"}
+, ["披"]={["first"]="f", ["second"]="y"}
+, ["拨"]={["first"]="f", ["second"]="d"}
+, ["择"]={["first"]="f", ["second"]="l"}
+, ["抬"]={["first"]="f", ["second"]="k"}
+, ["拇"]={["first"]="f", ["second"]="m"}
+, ["拗"]={["first"]="f", ["second"]="l"}
+, ["其"]={["first"]="q", ["second"]="b"}
+, ["取"]={["first"]="e", ["second"]="y"}
+, ["茉"]={["first"]="c", ["second"]="m"}
+, ["苦"]={["first"]="c", ["second"]="k"}
+, ["昔"]={["first"]="c", ["second"]="o"}
+, ["苛"]={["first"]="c", ["second"]="k"}
+, ["若"]={["first"]="c", ["second"]="k"}
+, ["茂"]={["first"]="c", ["second"]="w"}
+, ["苹"]={["first"]="c", ["second"]="p"}
+, ["苗"]={["first"]="c", ["second"]="t"}
+, ["英"]={["first"]="c", ["second"]="y"}
+, ["苟"]={["first"]="c", ["second"]="k"}
+, ["苑"]={["first"]="c", ["second"]="v"}
+, ["苞"]={["first"]="c", ["second"]="s"}
+, ["范"]={["first"]="c", ["second"]="v"}
+, ["直"]={["first"]="u", ["second"]="q"}
+, ["茁"]={["first"]="c", ["second"]="i"}
+, ["茄"]={["first"]="c", ["second"]="k"}
+, ["茎"]={["first"]="c", ["second"]="g"}
+, ["苔"]={["first"]="c", ["second"]="k"}
+, ["茅"]={["first"]="c", ["second"]="p"}
+, ["枉"]={["first"]="m", ["second"]="w"}
+, ["林"]={["first"]="m", ["second"]="m"}
+, ["枝"]={["first"]="m", ["second"]="y"}
+, ["杯"]={["first"]="m", ["second"]="b"}
+, ["枢"]={["first"]="m", ["second"]="x"}
+, ["柜"]={["first"]="m", ["second"]="j"}
+, ["枚"]={["first"]="m", ["second"]="w"}
+, ["析"]={["first"]="m", ["second"]="j"}
+, ["板"]={["first"]="m", ["second"]="y"}
+, ["松"]={["first"]="m", ["second"]="s"}
+, ["枪"]={["first"]="m", ["second"]="v"}
+, ["枫"]={["first"]="m", ["second"]="x"}
+, ["构"]={["first"]="m", ["second"]="s"}
+, ["杭"]={["first"]="m", ["second"]="j"}
+, ["杰"]={["first"]="m", ["second"]="h"}
+, ["述"]={["first"]="z", ["second"]="u"}
+, ["枕"]={["first"]="m", ["second"]="v"}
+, ["丧"]={["first"]="u", ["second"]="n"}
+, ["或"]={["first"]="g", ["second"]="a"}
+, ["画"]={["first"]="a", ["second"]="k"}
+, ["卧"]={["first"]="i", ["second"]="b"}
+, ["事"]={["first"]="a", ["second"]="l"}
+, ["刺"]={["first"]="a", ["second"]="d"}
+, ["枣"]={["first"]="a", ["second"]="d"}
+, ["雨"]={["first"]="a", ["second"]="d"}
+, ["卖"]={["first"]="u", ["second"]="d"}
+, ["郁"]={["first"]="u", ["second"]="e"}
+, ["矾"]={["first"]="u", ["second"]="f"}
+, ["矿"]={["first"]="u", ["second"]="g"}
+, ["码"]={["first"]="u", ["second"]="m"}
+, ["厕"]={["first"]="i", ["second"]="d"}
+, ["奈"]={["first"]="d", ["second"]="x"}
+, ["奔"]={["first"]="d", ["second"]="c"}
+, ["奇"]={["first"]="d", ["second"]="k"}
+, ["奋"]={["first"]="d", ["second"]="t"}
+, ["态"]={["first"]="t", ["second"]="x"}
+, ["欧"]={["first"]="k", ["second"]="r"}
+, ["殴"]={["first"]="k", ["second"]="y"}
+, ["垄"]={["first"]="l", ["second"]="t"}
+, ["妻"]={["first"]="a", ["second"]="n"}
+, ["轰"]={["first"]="i", ["second"]="y"}
+, ["顷"]={["first"]="b", ["second"]="r"}
+, ["转"]={["first"]="i", ["second"]="v"}
+, ["斩"]={["first"]="i", ["second"]="j"}
+, ["轮"]={["first"]="i", ["second"]="b"}
+, ["软"]={["first"]="i", ["second"]="r"}
+, ["到"]={["first"]="a", ["second"]="d"}
+, ["非"]={["first"]="l", ["second"]="a"}
+, ["叔"]={["first"]="u", ["second"]="y"}
+, ["歧"]={["first"]="v", ["second"]="y"}
+, ["肯"]={["first"]="v", ["second"]="o"}
+, ["齿"]={["first"]="v", ["second"]="k"}
+, ["些"]={["first"]="v", ["second"]="e"}
+, ["卓"]={["first"]="l", ["second"]="u"}
+, ["虎"]={["first"]="h", ["second"]="j"}
+, ["虏"]={["first"]="h", ["second"]="l"}
+, ["肾"]={["first"]="l", ["second"]="o"}
+, ["贤"]={["first"]="l", ["second"]="r"}
+, ["尚"]={["first"]="x", ["second"]="k"}
+, ["旺"]={["first"]="o", ["second"]="w"}
+, ["具"]={["first"]="q", ["second"]="b"}
+, ["味"]={["first"]="k", ["second"]="w"}
+, ["果"]={["first"]="l", ["second"]="n"}
+, ["昆"]={["first"]="o", ["second"]="b"}
+, ["国"]={["first"]="k", ["second"]="y"}
+, ["哎"]={["first"]="k", ["second"]="x"}
+, ["咕"]={["first"]="k", ["second"]="k"}
+, ["昌"]={["first"]="o", ["second"]="o"}
+, ["呵"]={["first"]="k", ["second"]="k"}
+, ["畅"]={["first"]="u", ["second"]="p"}
+, ["明"]={["first"]="o", ["second"]="o"}
+, ["易"]={["first"]="o", ["second"]="w"}
+, ["咙"]={["first"]="k", ["second"]="l"}
+, ["昂"]={["first"]="o", ["second"]="e"}
+, ["迪"]={["first"]="z", ["second"]="y"}
+, ["典"]={["first"]="l", ["second"]="b"}
+, ["固"]={["first"]="k", ["second"]="k"}
+, ["忠"]={["first"]="v", ["second"]="x"}
+, ["呻"]={["first"]="k", ["second"]="u"}
+, ["咒"]={["first"]="k", ["second"]="j"}
+, ["咋"]={["first"]="k", ["second"]="v"}
+, ["咐"]={["first"]="k", ["second"]="c"}
+, ["呼"]={["first"]="k", ["second"]="h"}
+, ["鸣"]={["first"]="k", ["second"]="n"}
+, ["咏"]={["first"]="k", ["second"]="y"}
+, ["呢"]={["first"]="k", ["second"]="b"}
+, ["咄"]={["first"]="k", ["second"]="i"}
+, ["咖"]={["first"]="k", ["second"]="k"}
+, ["岸"]={["first"]="e", ["second"]="g"}
+, ["岩"]={["first"]="e", ["second"]="u"}
+, ["帖"]={["first"]="j", ["second"]="k"}
+, ["罗"]={["first"]="s", ["second"]="x"}
+, ["帜"]={["first"]="j", ["second"]="b"}
+, ["帕"]={["first"]="j", ["second"]="b"}
+, ["岭"]={["first"]="e", ["second"]="s"}
+, ["凯"]={["first"]="e", ["second"]="j"}
+, ["败"]={["first"]="k", ["second"]="w"}
+, ["账"]={["first"]="k", ["second"]="i"}
+, ["贩"]={["first"]="k", ["second"]="y"}
+, ["贬"]={["first"]="k", ["second"]="f"}
+, ["购"]={["first"]="k", ["second"]="s"}
+, ["贮"]={["first"]="k", ["second"]="a"}
+, ["图"]={["first"]="k", ["second"]="d"}
+, ["钓"]={["first"]="j", ["second"]="u"}
+, ["制"]={["first"]="p", ["second"]="d"}
+, ["知"]={["first"]="u", ["second"]="k"}
+, ["迭"]={["first"]="z", ["second"]="u"}
+, ["氛"]={["first"]="q", ["second"]="d"}
+, ["垂"]={["first"]="p", ["second"]="a"}
+, ["牧"]={["first"]="n", ["second"]="w"}
+, ["物"]={["first"]="n", ["second"]="w"}
+, ["乖"]={["first"]="q", ["second"]="b"}
+, ["刮"]={["first"]="q", ["second"]="d"}
+, ["秆"]={["first"]="h", ["second"]="g"}
+, ["和"]={["first"]="h", ["second"]="k"}
+, ["季"]={["first"]="h", ["second"]="z"}
+, ["委"]={["first"]="h", ["second"]="n"}
+, ["秉"]={["first"]="p", ["second"]="n"}
+, ["佳"]={["first"]="r", ["second"]="t"}
+, ["侍"]={["first"]="r", ["second"]="c"}
+, ["岳"]={["first"]="q", ["second"]="e"}
+, ["供"]={["first"]="r", ["second"]="b"}
+, ["使"]={["first"]="r", ["second"]="l"}
+, ["例"]={["first"]="r", ["second"]="d"}
+, ["侠"]={["first"]="r", ["second"]="j"}
+, ["侥"]={["first"]="r", ["second"]="w"}
+, ["版"]={["first"]="p", ["second"]="y"}
+, ["侄"]={["first"]="r", ["second"]="t"}
+, ["侦"]={["first"]="r", ["second"]="r"}
+, ["侣"]={["first"]="r", ["second"]="k"}
+, ["侧"]={["first"]="r", ["second"]="d"}
+, ["凭"]={["first"]="r", ["second"]="j"}
+, ["侨"]={["first"]="r", ["second"]="l"}
+, ["佩"]={["first"]="r", ["second"]="j"}
+, ["货"]={["first"]="r", ["second"]="r"}
+, ["侈"]={["first"]="r", ["second"]="x"}
+, ["依"]={["first"]="r", ["second"]="y"}
+, ["卑"]={["first"]="p", ["second"]="u"}
+, ["的"]={["first"]="b", ["second"]="u"}
+, ["迫"]={["first"]="z", ["second"]="b"}
+, ["质"]={["first"]="p", ["second"]="r"}
+, ["欣"]={["first"]="j", ["second"]="r"}
+, ["征"]={["first"]="i", ["second"]="v"}
+, ["往"]={["first"]="i", ["second"]="v"}
+, ["爬"]={["first"]="v", ["second"]="b"}
+, ["彼"]={["first"]="i", ["second"]="y"}
+, ["径"]={["first"]="i", ["second"]="g"}
+, ["所"]={["first"]="p", ["second"]="j"}
+, ["舍"]={["first"]="r", ["second"]="k"}
+, ["金"]={["first"]="r", ["second"]="a"}
+, ["刹"]={["first"]="x", ["second"]="d"}
+, ["命"]={["first"]="r", ["second"]="e"}
+, ["肴"]={["first"]="x", ["second"]="o"}
+, ["斧"]={["first"]="b", ["second"]="j"}
+, ["爸"]={["first"]="b", ["second"]="b"}
+, ["采"]={["first"]="p", ["second"]="m"}
+, ["觅"]={["first"]="p", ["second"]="e"}
+, ["受"]={["first"]="p", ["second"]="y"}
+, ["乳"]={["first"]="p", ["second"]="v"}
+, ["贪"]={["first"]="r", ["second"]="r"}
+, ["念"]={["first"]="r", ["second"]="x"}
+, ["贫"]={["first"]="b", ["second"]="r"}
+, ["忿"]={["first"]="b", ["second"]="x"}
+, ["肤"]={["first"]="o", ["second"]="f"}
+, ["肺"]={["first"]="o", ["second"]="l"}
+, ["肢"]={["first"]="o", ["second"]="y"}
+, ["肿"]={["first"]="o", ["second"]="v"}
+, ["胀"]={["first"]="o", ["second"]="i"}
+, ["朋"]={["first"]="o", ["second"]="o"}
+, ["股"]={["first"]="o", ["second"]="y"}
+, ["肮"]={["first"]="o", ["second"]="j"}
+, ["肪"]={["first"]="o", ["second"]="f"}
+, ["肥"]={["first"]="o", ["second"]="b"}
+, ["服"]={["first"]="o", ["second"]="y"}
+, ["胁"]={["first"]="o", ["second"]="b"}
+, ["周"]={["first"]="k", ["second"]="k"}
+, ["昏"]={["first"]="u", ["second"]="o"}
+, ["鱼"]={["first"]="d", ["second"]="a"}
+, ["兔"]={["first"]="d", ["second"]="d"}
+, ["狐"]={["first"]="q", ["second"]="g"}
+, ["忽"]={["first"]="w", ["second"]="x"}
+, ["狗"]={["first"]="q", ["second"]="k"}
+, ["狞"]={["first"]="q", ["second"]="d"}
+, ["备"]={["first"]="w", ["second"]="t"}
+, ["饰"]={["first"]="u", ["second"]="j"}
+, ["饱"]={["first"]="u", ["second"]="s"}
+, ["饲"]={["first"]="u", ["second"]="k"}
+, ["变"]={["first"]="w", ["second"]="y"}
+, ["京"]={["first"]="w", ["second"]="x"}
+, ["享"]={["first"]="w", ["second"]="z"}
+, ["庞"]={["first"]="g", ["second"]="l"}
+, ["店"]={["first"]="g", ["second"]="k"}
+, ["夜"]={["first"]="w", ["second"]="n"}
+, ["庙"]={["first"]="g", ["second"]="y"}
+, ["府"]={["first"]="g", ["second"]="c"}
+, ["底"]={["first"]="g", ["second"]="d"}
+, ["疟"]={["first"]="b", ["second"]="a"}
+, ["疙"]={["first"]="b", ["second"]="q"}
+, ["疚"]={["first"]="b", ["second"]="j"}
+, ["剂"]={["first"]="w", ["second"]="d"}
+, ["卒"]={["first"]="w", ["second"]="u"}
+, ["郊"]={["first"]="w", ["second"]="e"}
+, ["庚"]={["first"]="g", ["second"]="n"}
+, ["废"]={["first"]="g", ["second"]="d"}
+, ["净"]={["first"]="d", ["second"]="l"}
+, ["盲"]={["first"]="w", ["second"]="o"}
+, ["放"]={["first"]="f", ["second"]="w"}
+, ["刻"]={["first"]="w", ["second"]="d"}
+, ["育"]={["first"]="w", ["second"]="o"}
+, ["氓"]={["first"]="w", ["second"]="m"}
+, ["闸"]={["first"]="m", ["second"]="j"}
+, ["闹"]={["first"]="m", ["second"]="j"}
+, ["郑"]={["first"]="b", ["second"]="e"}
+, ["券"]={["first"]="j", ["second"]="d"}
+, ["卷"]={["first"]="j", ["second"]="v"}
+, ["单"]={["first"]="b", ["second"]="l"}
+, ["炬"]={["first"]="h", ["second"]="j"}
+, ["炒"]={["first"]="h", ["second"]="u"}
+, ["炊"]={["first"]="h", ["second"]="r"}
+, ["炕"]={["first"]="h", ["second"]="j"}
+, ["炎"]={["first"]="h", ["second"]="h"}
+, ["炉"]={["first"]="h", ["second"]="h"}
+, ["沫"]={["first"]="d", ["second"]="m"}
+, ["浅"]={["first"]="d", ["second"]="j"}
+, ["法"]={["first"]="d", ["second"]="s"}
+, ["泄"]={["first"]="d", ["second"]="u"}
+, ["沽"]={["first"]="d", ["second"]="k"}
+, ["河"]={["first"]="d", ["second"]="k"}
+, ["沾"]={["first"]="d", ["second"]="k"}
+, ["泪"]={["first"]="d", ["second"]="o"}
+, ["沮"]={["first"]="d", ["second"]="q"}
+, ["油"]={["first"]="d", ["second"]="y"}
+, ["泊"]={["first"]="d", ["second"]="b"}
+, ["沿"]={["first"]="d", ["second"]="k"}
+, ["泡"]={["first"]="d", ["second"]="s"}
+, ["注"]={["first"]="d", ["second"]="v"}
+, ["泣"]={["first"]="d", ["second"]="l"}
+, ["泞"]={["first"]="d", ["second"]="d"}
+, ["泻"]={["first"]="d", ["second"]="y"}
+, ["泌"]={["first"]="d", ["second"]="b"}
+, ["泳"]={["first"]="d", ["second"]="y"}
+, ["泥"]={["first"]="d", ["second"]="b"}
+, ["沸"]={["first"]="d", ["second"]="f"}
+, ["沼"]={["first"]="d", ["second"]="k"}
+, ["波"]={["first"]="d", ["second"]="y"}
+, ["泼"]={["first"]="d", ["second"]="d"}
+, ["泽"]={["first"]="d", ["second"]="l"}
+, ["治"]={["first"]="d", ["second"]="k"}
+, ["怔"]={["first"]="x", ["second"]="v"}
+, ["怯"]={["first"]="x", ["second"]="s"}
+, ["怖"]={["first"]="x", ["second"]="j"}
+, ["性"]={["first"]="x", ["second"]="u"}
+, ["怕"]={["first"]="x", ["second"]="b"}
+, ["怜"]={["first"]="x", ["second"]="s"}
+, ["怪"]={["first"]="x", ["second"]="t"}
+, ["怡"]={["first"]="x", ["second"]="k"}
+, ["学"]={["first"]="x", ["second"]="z"}
+, ["宝"]={["first"]="b", ["second"]="y"}
+, ["宗"]={["first"]="b", ["second"]="x"}
+, ["定"]={["first"]="b", ["second"]="r"}
+, ["宠"]={["first"]="b", ["second"]="l"}
+, ["宜"]={["first"]="b", ["second"]="q"}
+, ["审"]={["first"]="b", ["second"]="u"}
+, ["宙"]={["first"]="b", ["second"]="y"}
+, ["官"]={["first"]="b", ["second"]="k"}
+, ["空"]={["first"]="b", ["second"]="g"}
+, ["帘"]={["first"]="b", ["second"]="j"}
+, ["宛"]={["first"]="b", ["second"]="v"}
+, ["实"]={["first"]="b", ["second"]="d"}
+, ["试"]={["first"]="y", ["second"]="g"}
+, ["郎"]={["first"]="d", ["second"]="e"}
+, ["诗"]={["first"]="y", ["second"]="c"}
+, ["肩"]={["first"]="h", ["second"]="o"}
+, ["房"]={["first"]="h", ["second"]="f"}
+, ["诚"]={["first"]="y", ["second"]="i"}
+, ["衬"]={["first"]="p", ["second"]="c"}
+, ["衫"]={["first"]="p", ["second"]="p"}
+, ["视"]={["first"]="p", ["second"]="e"}
+, ["祈"]={["first"]="p", ["second"]="j"}
+, ["话"]={["first"]="y", ["second"]="k"}
+, ["诞"]={["first"]="y", ["second"]="z"}
+, ["诡"]={["first"]="y", ["second"]="v"}
+, ["询"]={["first"]="y", ["second"]="o"}
+, ["该"]={["first"]="y", ["second"]="r"}
+, ["详"]={["first"]="y", ["second"]="y"}
+, ["建"]={["first"]="z", ["second"]="y"}
+, ["肃"]={["first"]="v", ["second"]="d"}
+, ["录"]={["first"]="e", ["second"]="u"}
+, ["隶"]={["first"]="v", ["second"]="n"}
+, ["帚"]={["first"]="e", ["second"]="j"}
+, ["屉"]={["first"]="u", ["second"]="u"}
+, ["居"]={["first"]="u", ["second"]="k"}
+, ["届"]={["first"]="u", ["second"]="y"}
+, ["刷"]={["first"]="u", ["second"]="d"}
+, ["屈"]={["first"]="u", ["second"]="i"}
+, ["弧"]={["first"]="g", ["second"]="g"}
+, ["弥"]={["first"]="g", ["second"]="x"}
+, ["弦"]={["first"]="g", ["second"]="y"}
+, ["承"]={["first"]="v", ["second"]="n"}
+, ["孟"]={["first"]="z", ["second"]="m"}
+, ["陋"]={["first"]="e", ["second"]="v"}
+, ["陌"]={["first"]="e", ["second"]="b"}
+, ["孤"]={["first"]="z", ["second"]="g"}
+, ["陕"]={["first"]="e", ["second"]="j"}
+, ["降"]={["first"]="e", ["second"]="l"}
+, ["函"]={["first"]="l", ["second"]="k"}
+, ["限"]={["first"]="e", ["second"]="g"}
+, ["妹"]={["first"]="n", ["second"]="w"}
+, ["姑"]={["first"]="n", ["second"]="k"}
+, ["姐"]={["first"]="n", ["second"]="q"}
+, ["姓"]={["first"]="n", ["second"]="u"}
+, ["妮"]={["first"]="n", ["second"]="b"}
+, ["始"]={["first"]="n", ["second"]="k"}
+, ["姆"]={["first"]="n", ["second"]="m"}
+, ["迢"]={["first"]="z", ["second"]="k"}
+, ["驾"]={["first"]="l", ["second"]="m"}
+, ["叁"]={["first"]="s", ["second"]="s"}
+, ["参"]={["first"]="s", ["second"]="p"}
+, ["艰"]={["first"]="y", ["second"]="g"}
+, ["线"]={["first"]="s", ["second"]="j"}
+, ["练"]={["first"]="s", ["second"]="d"}
+, ["组"]={["first"]="s", ["second"]="q"}
+, ["绅"]={["first"]="s", ["second"]="u"}
+, ["细"]={["first"]="s", ["second"]="t"}
+, ["驶"]={["first"]="m", ["second"]="u"}
+, ["织"]={["first"]="s", ["second"]="b"}
+, ["驹"]={["first"]="m", ["second"]="k"}
+, ["终"]={["first"]="s", ["second"]="d"}
+, ["驻"]={["first"]="m", ["second"]="v"}
+, ["绊"]={["first"]="s", ["second"]="b"}
+, ["驼"]={["first"]="m", ["second"]="b"}
+, ["绍"]={["first"]="s", ["second"]="k"}
+, ["绎"]={["first"]="s", ["second"]="l"}
+, ["经"]={["first"]="s", ["second"]="g"}
+, ["贯"]={["first"]="g", ["second"]="r"}
+, ["契"]={["first"]="f", ["second"]="d"}
+, ["贰"]={["first"]="y", ["second"]="r"}
+, ["奏"]={["first"]="f", ["second"]="t"}
+, ["春"]={["first"]="f", ["second"]="o"}
+, ["帮"]={["first"]="f", ["second"]="j"}
+, ["玷"]={["first"]="w", ["second"]="k"}
+, ["珍"]={["first"]="w", ["second"]="p"}
+, ["玲"]={["first"]="w", ["second"]="s"}
+, ["珊"]={["first"]="w", ["second"]="c"}
+, ["玻"]={["first"]="w", ["second"]="y"}
+, ["毒"]={["first"]="f", ["second"]="m"}
+, ["型"]={["first"]="k", ["second"]="t"}
+, ["拭"]={["first"]="f", ["second"]="g"}
+, ["挂"]={["first"]="f", ["second"]="t"}
+, ["封"]={["first"]="t", ["second"]="c"}
+, ["持"]={["first"]="f", ["second"]="c"}
+, ["拷"]={["first"]="f", ["second"]="v"}
+, ["拱"]={["first"]="f", ["second"]="b"}
+, ["项"]={["first"]="g", ["second"]="r"}
+, ["垮"]={["first"]="t", ["second"]="k"}
+, ["挎"]={["first"]="f", ["second"]="k"}
+, ["城"]={["first"]="t", ["second"]="i"}
+, ["挟"]={["first"]="f", ["second"]="j"}
+, ["挠"]={["first"]="f", ["second"]="w"}
+, ["政"]={["first"]="v", ["second"]="w"}
+, ["赴"]={["first"]="t", ["second"]="b"}
+, ["赵"]={["first"]="t", ["second"]="x"}
+, ["挡"]={["first"]="f", ["second"]="e"}
+, ["拽"]={["first"]="f", ["second"]="y"}
+, ["哉"]={["first"]="u", ["second"]="k"}
+, ["挺"]={["first"]="f", ["second"]="z"}
+, ["括"]={["first"]="f", ["second"]="k"}
+, ["垢"]={["first"]="t", ["second"]="k"}
+, ["拴"]={["first"]="f", ["second"]="w"}
+, ["拾"]={["first"]="f", ["second"]="k"}
+, ["挑"]={["first"]="f", ["second"]="d"}
+, ["垛"]={["first"]="t", ["second"]="m"}
+, ["指"]={["first"]="f", ["second"]="o"}
+, ["垫"]={["first"]="f", ["second"]="t"}
+, ["挣"]={["first"]="f", ["second"]="l"}
+, ["挤"]={["first"]="f", ["second"]="l"}
+, ["拼"]={["first"]="f", ["second"]="k"}
+, ["挖"]={["first"]="f", ["second"]="v"}
+, ["按"]={["first"]="f", ["second"]="n"}
+, ["挥"]={["first"]="f", ["second"]="i"}
+, ["挪"]={["first"]="f", ["second"]="e"}
+, ["拯"]={["first"]="f", ["second"]="a"}
+, ["某"]={["first"]="g", ["second"]="m"}
+, ["甚"]={["first"]="q", ["second"]="v"}
+, ["荆"]={["first"]="c", ["second"]="d"}
+, ["茸"]={["first"]="c", ["second"]="e"}
+, ["革"]={["first"]="n", ["second"]="l"}
+, ["茬"]={["first"]="c", ["second"]="t"}
+, ["荐"]={["first"]="c", ["second"]="z"}
+, ["巷"]={["first"]="c", ["second"]="s"}
+, ["带"]={["first"]="f", ["second"]="j"}
+, ["草"]={["first"]="c", ["second"]="u"}
+, ["茧"]={["first"]="c", ["second"]="i"}
+, ["茵"]={["first"]="c", ["second"]="d"}
+, ["茶"]={["first"]="c", ["second"]="m"}
+, ["荒"]={["first"]="c", ["second"]="v"}
+, ["茫"]={["first"]="c", ["second"]="w"}
+, ["荡"]={["first"]="c", ["second"]="p"}
+, ["荣"]={["first"]="c", ["second"]="m"}
+, ["荤"]={["first"]="c", ["second"]="i"}
+, ["荧"]={["first"]="c", ["second"]="h"}
+, ["故"]={["first"]="u", ["second"]="w"}
+, ["胡"]={["first"]="u", ["second"]="o"}
+, ["荫"]={["first"]="c", ["second"]="o"}
+, ["荔"]={["first"]="c", ["second"]="l"}
+, ["南"]={["first"]="u", ["second"]="g"}
+, ["药"]={["first"]="c", ["second"]="u"}
+, ["标"]={["first"]="m", ["second"]="x"}
+, ["栈"]={["first"]="m", ["second"]="j"}
+, ["柑"]={["first"]="m", ["second"]="g"}
+, ["枯"]={["first"]="m", ["second"]="k"}
+, ["柄"]={["first"]="m", ["second"]="b"}
+, ["栋"]={["first"]="m", ["second"]="d"}
+, ["相"]={["first"]="m", ["second"]="o"}
+, ["查"]={["first"]="m", ["second"]="a"}
+, ["柏"]={["first"]="m", ["second"]="b"}
+, ["栅"]={["first"]="m", ["second"]="c"}
+, ["柳"]={["first"]="m", ["second"]="e"}
+, ["柱"]={["first"]="m", ["second"]="v"}
+, ["柿"]={["first"]="m", ["second"]="j"}
+, ["栏"]={["first"]="m", ["second"]="s"}
+, ["柠"]={["first"]="m", ["second"]="d"}
+, ["树"]={["first"]="m", ["second"]="c"}
+, ["勃"]={["first"]="u", ["second"]="l"}
+, ["要"]={["first"]="x", ["second"]="n"}
+, ["柬"]={["first"]="a", ["second"]="n"}
+, ["咸"]={["first"]="x", ["second"]="k"}
+, ["威"]={["first"]="x", ["second"]="n"}
+, ["歪"]={["first"]="b", ["second"]="v"}
+, ["研"]={["first"]="u", ["second"]="k"}
+, ["砖"]={["first"]="u", ["second"]="v"}
+, ["厘"]={["first"]="i", ["second"]="l"}
+, ["厚"]={["first"]="i", ["second"]="z"}
+, ["砌"]={["first"]="u", ["second"]="d"}
+, ["砂"]={["first"]="u", ["second"]="u"}
+, ["泵"]={["first"]="u", ["second"]="u"}
+, ["砚"]={["first"]="u", ["second"]="e"}
+, ["砍"]={["first"]="u", ["second"]="r"}
+, ["面"]={["first"]="a", ["second"]="a"}
+, ["耐"]={["first"]="e", ["second"]="c"}
+, ["耍"]={["first"]="e", ["second"]="n"}
+, ["牵"]={["first"]="d", ["second"]="n"}
+, ["鸥"]={["first"]="k", ["second"]="n"}
+, ["残"]={["first"]="d", ["second"]="j"}
+, ["殃"]={["first"]="d", ["second"]="y"}
+, ["轴"]={["first"]="i", ["second"]="y"}
+, ["轻"]={["first"]="i", ["second"]="g"}
+, ["鸦"]={["first"]="y", ["second"]="n"}
+, ["皆"]={["first"]="b", ["second"]="b"}
+, ["韭"]={["first"]="f", ["second"]="a"}
+, ["背"]={["first"]="l", ["second"]="o"}
+, ["战"]={["first"]="l", ["second"]="g"}
+, ["点"]={["first"]="l", ["second"]="h"}
+, ["虐"]={["first"]="h", ["second"]="a"}
+, ["临"]={["first"]="l", ["second"]="a"}
+, ["览"]={["first"]="l", ["second"]="e"}
+, ["竖"]={["first"]="l", ["second"]="l"}
+, ["省"]={["first"]="u", ["second"]="o"}
+, ["削"]={["first"]="x", ["second"]="d"}
+, ["尝"]={["first"]="x", ["second"]="s"}
+, ["昧"]={["first"]="o", ["second"]="w"}
+, ["盹"]={["first"]="o", ["second"]="t"}
+, ["是"]={["first"]="o", ["second"]="r"}
+, ["盼"]={["first"]="o", ["second"]="d"}
+, ["眨"]={["first"]="o", ["second"]="f"}
+, ["哇"]={["first"]="k", ["second"]="t"}
+, ["哄"]={["first"]="k", ["second"]="b"}
+, ["哑"]={["first"]="k", ["second"]="y"}
+, ["显"]={["first"]="o", ["second"]="y"}
+, ["冒"]={["first"]="k", ["second"]="o"}
+, ["映"]={["first"]="o", ["second"]="y"}
+, ["星"]={["first"]="o", ["second"]="u"}
+, ["昨"]={["first"]="o", ["second"]="v"}
+, ["咧"]={["first"]="k", ["second"]="d"}
+, ["昭"]={["first"]="o", ["second"]="k"}
+, ["畏"]={["first"]="t", ["second"]="n"}
+, ["趴"]={["first"]="z", ["second"]="b"}
+, ["胃"]={["first"]="t", ["second"]="o"}
+, ["贵"]={["first"]="v", ["second"]="r"}
+, ["界"]={["first"]="t", ["second"]="l"}
+, ["虹"]={["first"]="i", ["second"]="g"}
+, ["虾"]={["first"]="i", ["second"]="x"}
+, ["蚁"]={["first"]="i", ["second"]="y"}
+, ["思"]={["first"]="t", ["second"]="x"}
+, ["蚂"]={["first"]="i", ["second"]="m"}
+, ["虽"]={["first"]="k", ["second"]="i"}
+, ["品"]={["first"]="k", ["second"]="k"}
+, ["咽"]={["first"]="k", ["second"]="d"}
+, ["骂"]={["first"]="k", ["second"]="m"}
+, ["勋"]={["first"]="k", ["second"]="l"}
+, ["哗"]={["first"]="k", ["second"]="u"}
+, ["咱"]={["first"]="k", ["second"]="z"}
+, ["响"]={["first"]="k", ["second"]="k"}
+, ["哈"]={["first"]="k", ["second"]="k"}
+, ["哆"]={["first"]="k", ["second"]="x"}
+, ["咬"]={["first"]="k", ["second"]="x"}
+, ["咳"]={["first"]="k", ["second"]="r"}
+, ["咪"]={["first"]="k", ["second"]="m"}
+, ["哪"]={["first"]="k", ["second"]="e"}
+, ["哟"]={["first"]="k", ["second"]="u"}
+, ["炭"]={["first"]="e", ["second"]="h"}
+, ["峡"]={["first"]="e", ["second"]="j"}
+, ["罚"]={["first"]="s", ["second"]="d"}
+, ["贱"]={["first"]="k", ["second"]="j"}
+, ["贴"]={["first"]="k", ["second"]="k"}
+, ["贻"]={["first"]="k", ["second"]="k"}
+, ["骨"]={["first"]="l", ["second"]="o"}
+, ["幽"]={["first"]="e", ["second"]="y"}
+, ["钙"]={["first"]="j", ["second"]="g"}
+, ["钝"]={["first"]="j", ["second"]="t"}
+, ["钞"]={["first"]="j", ["second"]="u"}
+, ["钟"]={["first"]="j", ["second"]="v"}
+, ["钢"]={["first"]="j", ["second"]="x"}
+, ["钠"]={["first"]="j", ["second"]="n"}
+, ["钥"]={["first"]="j", ["second"]="o"}
+, ["钦"]={["first"]="j", ["second"]="r"}
+, ["钧"]={["first"]="j", ["second"]="d"}
+, ["钩"]={["first"]="j", ["second"]="s"}
+, ["钮"]={["first"]="j", ["second"]="i"}
+, ["卸"]={["first"]="w", ["second"]="e"}
+, ["缸"]={["first"]="f", ["second"]="g"}
+, ["拜"]={["first"]="u", ["second"]="f"}
+, ["看"]={["first"]="u", ["second"]="o"}
+, ["矩"]={["first"]="u", ["second"]="j"}
+, ["毡"]={["first"]="m", ["second"]="k"}
+, ["氢"]={["first"]="q", ["second"]="g"}
+, ["怎"]={["first"]="v", ["second"]="x"}
+, ["牲"]={["first"]="n", ["second"]="u"}
+, ["选"]={["first"]="z", ["second"]="e"}
+, ["适"]={["first"]="z", ["second"]="k"}
+, ["秒"]={["first"]="h", ["second"]="u"}
+, ["香"]={["first"]="h", ["second"]="o"}
+, ["种"]={["first"]="h", ["second"]="v"}
+, ["秋"]={["first"]="h", ["second"]="h"}
+, ["科"]={["first"]="h", ["second"]="u"}
+, ["重"]={["first"]="p", ["second"]="a"}
+, ["复"]={["first"]="p", ["second"]="w"}
+, ["竿"]={["first"]="v", ["second"]="g"}
+, ["段"]={["first"]="p", ["second"]="y"}
+, ["便"]={["first"]="r", ["second"]="g"}
+, ["俩"]={["first"]="r", ["second"]="l"}
+, ["贷"]={["first"]="r", ["second"]="r"}
+, ["顺"]={["first"]="i", ["second"]="r"}
+, ["修"]={["first"]="r", ["second"]="p"}
+, ["俏"]={["first"]="r", ["second"]="o"}
+, ["保"]={["first"]="r", ["second"]="m"}
+, ["促"]={["first"]="r", ["second"]="r"}
+, ["俄"]={["first"]="r", ["second"]="w"}
+, ["俐"]={["first"]="r", ["second"]="d"}
+, ["侮"]={["first"]="r", ["second"]="m"}
+, ["俭"]={["first"]="r", ["second"]="a"}
+, ["俗"]={["first"]="r", ["second"]="k"}
+, ["俘"]={["first"]="r", ["second"]="z"}
+, ["信"]={["first"]="r", ["second"]="k"}
+, ["皇"]={["first"]="b", ["second"]="w"}
+, ["泉"]={["first"]="b", ["second"]="u"}
+, ["鬼"]={["first"]="p", ["second"]="s"}
+, ["侵"]={["first"]="r", ["second"]="y"}
+, ["禹"]={["first"]="p", ["second"]="d"}
+, ["侯"]={["first"]="r", ["second"]="u"}
+, ["追"]={["first"]="z", ["second"]="k"}
+, ["俊"]={["first"]="r", ["second"]="w"}
+, ["盾"]={["first"]="p", ["second"]="o"}
+, ["待"]={["first"]="i", ["second"]="c"}
+, ["徊"]={["first"]="i", ["second"]="k"}
+, ["衍"]={["first"]="i", ["second"]="i"}
+, ["律"]={["first"]="i", ["second"]="y"}
+, ["很"]={["first"]="i", ["second"]="g"}
+, ["须"]={["first"]="p", ["second"]="r"}
+, ["叙"]={["first"]="r", ["second"]="y"}
+, ["剑"]={["first"]="r", ["second"]="d"}
+, ["逃"]={["first"]="z", ["second"]="d"}
+, ["食"]={["first"]="r", ["second"]="l"}
+, ["盆"]={["first"]="b", ["second"]="m"}
+, ["胚"]={["first"]="o", ["second"]="p"}
+, ["胧"]={["first"]="o", ["second"]="l"}
+, ["胆"]={["first"]="o", ["second"]="a"}
+, ["胜"]={["first"]="o", ["second"]="u"}
+, ["胞"]={["first"]="o", ["second"]="s"}
+, ["胖"]={["first"]="o", ["second"]="b"}
+, ["脉"]={["first"]="o", ["second"]="y"}
+, ["胎"]={["first"]="o", ["second"]="k"}
+, ["勉"]={["first"]="d", ["second"]="l"}
+, ["狭"]={["first"]="q", ["second"]="j"}
+, ["狮"]={["first"]="q", ["second"]="j"}
+, ["独"]={["first"]="q", ["second"]="i"}
+, ["狰"]={["first"]="q", ["second"]="l"}
+, ["狡"]={["first"]="q", ["second"]="x"}
+, ["狱"]={["first"]="q", ["second"]="q"}
+, ["狠"]={["first"]="q", ["second"]="g"}
+, ["贸"]={["first"]="p", ["second"]="r"}
+, ["怨"]={["first"]="x", ["second"]="x"}
+, ["急"]={["first"]="d", ["second"]="x"}
+, ["饵"]={["first"]="u", ["second"]="e"}
+, ["饶"]={["first"]="u", ["second"]="w"}
+, ["蚀"]={["first"]="u", ["second"]="i"}
+, ["饺"]={["first"]="u", ["second"]="x"}
+, ["饼"]={["first"]="u", ["second"]="k"}
+, ["峦"]={["first"]="w", ["second"]="e"}
+, ["弯"]={["first"]="w", ["second"]="g"}
+, ["将"]={["first"]="d", ["second"]="c"}
+, ["奖"]={["first"]="d", ["second"]="d"}
+, ["哀"]={["first"]="w", ["second"]="y"}
+, ["亭"]={["first"]="w", ["second"]="d"}
+, ["亮"]={["first"]="w", ["second"]="j"}
+, ["度"]={["first"]="g", ["second"]="y"}
+, ["迹"]={["first"]="z", ["second"]="d"}
+, ["庭"]={["first"]="g", ["second"]="z"}
+, ["疮"]={["first"]="b", ["second"]="v"}
+, ["疯"]={["first"]="b", ["second"]="x"}
+, ["疫"]={["first"]="b", ["second"]="y"}
+, ["疤"]={["first"]="b", ["second"]="b"}
+, ["咨"]={["first"]="d", ["second"]="k"}
+, ["姿"]={["first"]="d", ["second"]="n"}
+, ["亲"]={["first"]="l", ["second"]="m"}
+, ["音"]={["first"]="l", ["second"]="o"}
+, ["帝"]={["first"]="w", ["second"]="j"}
+, ["施"]={["first"]="f", ["second"]="y"}
+, ["闺"]={["first"]="m", ["second"]="t"}
+, ["闻"]={["first"]="m", ["second"]="e"}
+, ["闽"]={["first"]="m", ["second"]="i"}
+, ["阀"]={["first"]="m", ["second"]="g"}
+, ["阁"]={["first"]="m", ["second"]="k"}
+, ["差"]={["first"]="y", ["second"]="g"}
+, ["养"]={["first"]="y", ["second"]="l"}
+, ["美"]={["first"]="y", ["second"]="d"}
+, ["姜"]={["first"]="y", ["second"]="n"}
+, ["叛"]={["first"]="b", ["second"]="y"}
+, ["送"]={["first"]="z", ["second"]="t"}
+, ["类"]={["first"]="m", ["second"]="d"}
+, ["迷"]={["first"]="z", ["second"]="m"}
+, ["籽"]={["first"]="m", ["second"]="z"}
+, ["娄"]={["first"]="m", ["second"]="n"}
+, ["前"]={["first"]="b", ["second"]="d"}
+, ["首"]={["first"]="b", ["second"]="z"}
+, ["逆"]={["first"]="z", ["second"]="p"}
+, ["兹"]={["first"]="b", ["second"]="y"}
+, ["总"]={["first"]="b", ["second"]="x"}
+, ["炼"]={["first"]="h", ["second"]="d"}
+, ["炸"]={["first"]="h", ["second"]="v"}
+, ["烁"]={["first"]="h", ["second"]="l"}
+, ["炮"]={["first"]="h", ["second"]="s"}
+, ["炫"]={["first"]="h", ["second"]="y"}
+, ["烂"]={["first"]="h", ["second"]="s"}
+, ["剃"]={["first"]="b", ["second"]="d"}
+, ["洼"]={["first"]="d", ["second"]="t"}
+, ["洁"]={["first"]="d", ["second"]="k"}
+, ["洪"]={["first"]="d", ["second"]="b"}
+, ["洒"]={["first"]="d", ["second"]="x"}
+, ["柒"]={["first"]="d", ["second"]="m"}
+, ["浇"]={["first"]="d", ["second"]="w"}
+, ["浊"]={["first"]="d", ["second"]="i"}
+, ["洞"]={["first"]="d", ["second"]="k"}
+, ["测"]={["first"]="d", ["second"]="d"}
+, ["洗"]={["first"]="d", ["second"]="e"}
+, ["活"]={["first"]="d", ["second"]="k"}
+, ["派"]={["first"]="d", ["second"]="n"}
+, ["洽"]={["first"]="d", ["second"]="k"}
+, ["染"]={["first"]="d", ["second"]="m"}
+, ["洛"]={["first"]="d", ["second"]="k"}
+, ["浏"]={["first"]="d", ["second"]="d"}
+, ["济"]={["first"]="d", ["second"]="l"}
+, ["洋"]={["first"]="d", ["second"]="y"}
+, ["洲"]={["first"]="d", ["second"]="v"}
+, ["浑"]={["first"]="d", ["second"]="i"}
+, ["浓"]={["first"]="d", ["second"]="n"}
+, ["津"]={["first"]="d", ["second"]="y"}
+, ["恃"]={["first"]="x", ["second"]="c"}
+, ["恒"]={["first"]="x", ["second"]="a"}
+, ["恢"]={["first"]="x", ["second"]="h"}
+, ["恍"]={["first"]="x", ["second"]="w"}
+, ["恬"]={["first"]="x", ["second"]="k"}
+, ["恤"]={["first"]="x", ["second"]="x"}
+, ["恰"]={["first"]="x", ["second"]="k"}
+, ["恼"]={["first"]="x", ["second"]="k"}
+, ["恨"]={["first"]="x", ["second"]="g"}
+, ["举"]={["first"]="x", ["second"]="l"}
+, ["觉"]={["first"]="x", ["second"]="e"}
+, ["宣"]={["first"]="b", ["second"]="a"}
+, ["宦"]={["first"]="b", ["second"]="i"}
+, ["室"]={["first"]="b", ["second"]="t"}
+, ["宫"]={["first"]="b", ["second"]="k"}
+, ["宪"]={["first"]="b", ["second"]="e"}
+, ["突"]={["first"]="b", ["second"]="q"}
+, ["穿"]={["first"]="b", ["second"]="y"}
+, ["窃"]={["first"]="b", ["second"]="d"}
+, ["客"]={["first"]="b", ["second"]="k"}
+, ["诫"]={["first"]="y", ["second"]="c"}
+, ["冠"]={["first"]="b", ["second"]="c"}
+, ["诬"]={["first"]="y", ["second"]="r"}
+, ["语"]={["first"]="y", ["second"]="k"}
+, ["扁"]={["first"]="h", ["second"]="c"}
+, ["袄"]={["first"]="p", ["second"]="y"}
+, ["祖"]={["first"]="p", ["second"]="q"}
+, ["神"]={["first"]="p", ["second"]="u"}
+, ["祝"]={["first"]="p", ["second"]="e"}
+, ["祠"]={["first"]="p", ["second"]="k"}
+, ["误"]={["first"]="y", ["second"]="t"}
+, ["诱"]={["first"]="y", ["second"]="n"}
+, ["诲"]={["first"]="y", ["second"]="m"}
+, ["说"]={["first"]="y", ["second"]="e"}
+, ["诵"]={["first"]="y", ["second"]="y"}
+, ["垦"]={["first"]="g", ["second"]="t"}
+, ["退"]={["first"]="z", ["second"]="g"}
+, ["既"]={["first"]="g", ["second"]="v"}
+, ["屋"]={["first"]="u", ["second"]="t"}
+, ["昼"]={["first"]="i", ["second"]="a"}
+, ["屏"]={["first"]="u", ["second"]="k"}
+, ["屎"]={["first"]="u", ["second"]="m"}
+, ["费"]={["first"]="f", ["second"]="r"}
+, ["陡"]={["first"]="e", ["second"]="r"}
+, ["逊"]={["first"]="z", ["second"]="x"}
+, ["眉"]={["first"]="v", ["second"]="o"}
+, ["孩"]={["first"]="z", ["second"]="r"}
+, ["陨"]={["first"]="e", ["second"]="r"}
+, ["除"]={["first"]="e", ["second"]="h"}
+, ["险"]={["first"]="e", ["second"]="a"}
+, ["院"]={["first"]="e", ["second"]="e"}
+, ["娃"]={["first"]="n", ["second"]="t"}
+, ["姥"]={["first"]="n", ["second"]="b"}
+, ["姨"]={["first"]="n", ["second"]="y"}
+, ["姻"]={["first"]="n", ["second"]="d"}
+, ["娇"]={["first"]="n", ["second"]="l"}
+, ["姚"]={["first"]="n", ["second"]="d"}
+, ["娜"]={["first"]="n", ["second"]="e"}
+, ["怒"]={["first"]="n", ["second"]="x"}
+, ["架"]={["first"]="l", ["second"]="m"}
+, ["贺"]={["first"]="l", ["second"]="r"}
+, ["盈"]={["first"]="n", ["second"]="m"}
+, ["勇"]={["first"]="s", ["second"]="l"}
+, ["怠"]={["first"]="s", ["second"]="x"}
+, ["癸"]={["first"]="v", ["second"]="t"}
+, ["蚤"]={["first"]="i", ["second"]="i"}
+, ["柔"]={["first"]="s", ["second"]="m"}
+, ["垒"]={["first"]="s", ["second"]="t"}
+, ["绑"]={["first"]="s", ["second"]="e"}
+, ["绒"]={["first"]="s", ["second"]="u"}
+, ["结"]={["first"]="s", ["second"]="k"}
+, ["绕"]={["first"]="s", ["second"]="w"}
+, ["骄"]={["first"]="m", ["second"]="l"}
+, ["绘"]={["first"]="s", ["second"]="s"}
+, ["给"]={["first"]="s", ["second"]="k"}
+, ["绚"]={["first"]="s", ["second"]="o"}
+, ["骆"]={["first"]="m", ["second"]="k"}
+, ["络"]={["first"]="s", ["second"]="k"}
+, ["绝"]={["first"]="s", ["second"]="b"}
+, ["绞"]={["first"]="s", ["second"]="x"}
+, ["骇"]={["first"]="m", ["second"]="r"}
+, ["统"]={["first"]="s", ["second"]="e"}
+, ["耕"]={["first"]="l", ["second"]="j"}
+, ["耘"]={["first"]="l", ["second"]="s"}
+, ["耗"]={["first"]="l", ["second"]="m"}
+, ["耙"]={["first"]="l", ["second"]="b"}
+, ["艳"]={["first"]="f", ["second"]="b"}
+, ["泰"]={["first"]="f", ["second"]="u"}
+, ["秦"]={["first"]="f", ["second"]="h"}
+, ["珠"]={["first"]="w", ["second"]="v"}
+, ["班"]={["first"]="w", ["second"]="w"}
+, ["素"]={["first"]="f", ["second"]="x"}
+, ["匿"]={["first"]="k", ["second"]="k"}
+, ["蚕"]={["first"]="t", ["second"]="i"}
+, ["顽"]={["first"]="e", ["second"]="r"}
+, ["盏"]={["first"]="j", ["second"]="m"}
+, ["匪"]={["first"]="k", ["second"]="f"}
+, ["捞"]={["first"]="f", ["second"]="l"}
+, ["栽"]={["first"]="u", ["second"]="m"}
+, ["捕"]={["first"]="f", ["second"]="f"}
+, ["埂"]={["first"]="t", ["second"]="g"}
+, ["捂"]={["first"]="f", ["second"]="k"}
+, ["振"]={["first"]="f", ["second"]="n"}
+, ["载"]={["first"]="u", ["second"]="i"}
+, ["赶"]={["first"]="t", ["second"]="g"}
+, ["起"]={["first"]="t", ["second"]="j"}
+, ["盐"]={["first"]="t", ["second"]="m"}
+, ["捎"]={["first"]="f", ["second"]="o"}
+, ["捍"]={["first"]="f", ["second"]="g"}
+, ["捏"]={["first"]="f", ["second"]="t"}
+, ["埋"]={["first"]="t", ["second"]="l"}
+, ["捉"]={["first"]="f", ["second"]="r"}
+, ["捆"]={["first"]="f", ["second"]="m"}
+, ["捐"]={["first"]="f", ["second"]="o"}
+, ["损"]={["first"]="f", ["second"]="r"}
+, ["袁"]={["first"]="t", ["second"]="y"}
+, ["捌"]={["first"]="f", ["second"]="d"}
+, ["都"]={["first"]="l", ["second"]="e"}
+, ["哲"]={["first"]="f", ["second"]="k"}
+, ["逝"]={["first"]="z", ["second"]="j"}
+, ["捡"]={["first"]="f", ["second"]="a"}
+, ["挫"]={["first"]="f", ["second"]="t"}
+, ["换"]={["first"]="f", ["second"]="d"}
+, ["挽"]={["first"]="f", ["second"]="v"}
+, ["挚"]={["first"]="f", ["second"]="u"}
+, ["热"]={["first"]="f", ["second"]="h"}
+, ["恐"]={["first"]="g", ["second"]="x"}
+, ["捣"]={["first"]="f", ["second"]="e"}
+, ["壶"]={["first"]="u", ["second"]="y"}
+, ["捅"]={["first"]="f", ["second"]="y"}
+, ["埃"]={["first"]="t", ["second"]="u"}
+, ["挨"]={["first"]="f", ["second"]="u"}
+, ["耻"]={["first"]="e", ["second"]="v"}
+, ["耿"]={["first"]="e", ["second"]="h"}
+, ["耽"]={["first"]="e", ["second"]="v"}
+, ["聂"]={["first"]="e", ["second"]="y"}
+, ["恭"]={["first"]="c", ["second"]="x"}
+, ["莽"]={["first"]="c", ["second"]="c"}
+, ["莱"]={["first"]="c", ["second"]="l"}
+, ["莲"]={["first"]="c", ["second"]="z"}
+, ["莫"]={["first"]="c", ["second"]="d"}
+, ["莉"]={["first"]="c", ["second"]="d"}
+, ["荷"]={["first"]="c", ["second"]="k"}
+, ["获"]={["first"]="c", ["second"]="q"}
+, ["晋"]={["first"]="y", ["second"]="o"}
+, ["恶"]={["first"]="y", ["second"]="x"}
+, ["莹"]={["first"]="c", ["second"]="y"}
+, ["莺"]={["first"]="c", ["second"]="n"}
+, ["真"]={["first"]="u", ["second"]="b"}
+, ["框"]={["first"]="m", ["second"]="w"}
+, ["梆"]={["first"]="m", ["second"]="e"}
+, ["桂"]={["first"]="m", ["second"]="t"}
+, ["桔"]={["first"]="m", ["second"]="k"}
+, ["栖"]={["first"]="m", ["second"]="x"}
+, ["档"]={["first"]="m", ["second"]="e"}
+, ["桐"]={["first"]="m", ["second"]="k"}
+, ["株"]={["first"]="m", ["second"]="v"}
+, ["桥"]={["first"]="m", ["second"]="l"}
+, ["桦"]={["first"]="m", ["second"]="u"}
+, ["栓"]={["first"]="m", ["second"]="w"}
+, ["桃"]={["first"]="m", ["second"]="d"}
+, ["格"]={["first"]="m", ["second"]="k"}
+, ["桩"]={["first"]="m", ["second"]="t"}
+, ["校"]={["first"]="m", ["second"]="x"}
+, ["核"]={["first"]="m", ["second"]="r"}
+, ["样"]={["first"]="m", ["second"]="y"}
+, ["根"]={["first"]="m", ["second"]="g"}
+, ["索"]={["first"]="u", ["second"]="x"}
+, ["哥"]={["first"]="d", ["second"]="k"}
+, ["速"]={["first"]="z", ["second"]="u"}
+, ["逗"]={["first"]="z", ["second"]="a"}
+, ["栗"]={["first"]="x", ["second"]="m"}
+, ["贾"]={["first"]="x", ["second"]="r"}
+, ["酌"]={["first"]="y", ["second"]="u"}
+, ["配"]={["first"]="y", ["second"]="j"}
+, ["翅"]={["first"]="u", ["second"]="x"}
+, ["辱"]={["first"]="i", ["second"]="c"}
+, ["唇"]={["first"]="i", ["second"]="k"}
+, ["夏"]={["first"]="a", ["second"]="w"}
+, ["砸"]={["first"]="u", ["second"]="j"}
+, ["砰"]={["first"]="u", ["second"]="p"}
+, ["砾"]={["first"]="u", ["second"]="l"}
+, ["础"]={["first"]="u", ["second"]="i"}
+, ["破"]={["first"]="u", ["second"]="y"}
+, ["原"]={["first"]="i", ["second"]="x"}
+, ["套"]={["first"]="d", ["second"]="s"}
+, ["逐"]={["first"]="z", ["second"]="u"}
+, ["烈"]={["first"]="d", ["second"]="h"}
+, ["殊"]={["first"]="d", ["second"]="v"}
+, ["殉"]={["first"]="d", ["second"]="o"}
+, ["顾"]={["first"]="i", ["second"]="r"}
+, ["轿"]={["first"]="i", ["second"]="l"}
+, ["较"]={["first"]="i", ["second"]="x"}
+, ["顿"]={["first"]="t", ["second"]="r"}
+, ["毙"]={["first"]="b", ["second"]="b"}
+, ["致"]={["first"]="a", ["second"]="w"}
+, ["柴"]={["first"]="v", ["second"]="m"}
+, ["桌"]={["first"]="l", ["second"]="m"}
+, ["虑"]={["first"]="h", ["second"]="x"}
+, ["监"]={["first"]="l", ["second"]="m"}
+, ["紧"]={["first"]="l", ["second"]="x"}
+, ["党"]={["first"]="x", ["second"]="e"}
+, ["逞"]={["first"]="z", ["second"]="w"}
+, ["晒"]={["first"]="o", ["second"]="x"}
+, ["眠"]={["first"]="o", ["second"]="m"}
+, ["晓"]={["first"]="o", ["second"]="w"}
+, ["哮"]={["first"]="k", ["second"]="z"}
+, ["唠"]={["first"]="k", ["second"]="l"}
+, ["鸭"]={["first"]="j", ["second"]="n"}
+, ["晃"]={["first"]="o", ["second"]="w"}
+, ["哺"]={["first"]="k", ["second"]="f"}
+, ["晌"]={["first"]="o", ["second"]="k"}
+, ["剔"]={["first"]="o", ["second"]="d"}
+, ["晕"]={["first"]="o", ["second"]="i"}
+, ["蚌"]={["first"]="i", ["second"]="f"}
+, ["畔"]={["first"]="t", ["second"]="b"}
+, ["蚣"]={["first"]="i", ["second"]="s"}
+, ["蚊"]={["first"]="i", ["second"]="w"}
+, ["蚪"]={["first"]="i", ["second"]="u"}
+, ["蚓"]={["first"]="i", ["second"]="l"}
+, ["哨"]={["first"]="k", ["second"]="o"}
+, ["哩"]={["first"]="k", ["second"]="l"}
+, ["圃"]={["first"]="k", ["second"]="f"}
+, ["哭"]={["first"]="k", ["second"]="q"}
+, ["哦"]={["first"]="k", ["second"]="w"}
+, ["恩"]={["first"]="k", ["second"]="x"}
+, ["鸯"]={["first"]="y", ["second"]="n"}
+, ["唤"]={["first"]="k", ["second"]="d"}
+, ["唁"]={["first"]="k", ["second"]="k"}
+, ["哼"]={["first"]="k", ["second"]="l"}
+, ["唧"]={["first"]="k", ["second"]="e"}
+, ["啊"]={["first"]="k", ["second"]="k"}
+, ["唉"]={["first"]="k", ["second"]="u"}
+, ["唆"]={["first"]="k", ["second"]="w"}
+, ["罢"]={["first"]="s", ["second"]="s"}
+, ["峭"]={["first"]="e", ["second"]="o"}
+, ["峨"]={["first"]="e", ["second"]="w"}
+, ["峰"]={["first"]="e", ["second"]="f"}
+, ["圆"]={["first"]="k", ["second"]="r"}
+, ["峻"]={["first"]="e", ["second"]="w"}
+, ["贼"]={["first"]="k", ["second"]="u"}
+, ["贿"]={["first"]="k", ["second"]="o"}
+, ["赂"]={["first"]="k", ["second"]="k"}
+, ["赃"]={["first"]="k", ["second"]="t"}
+, ["钱"]={["first"]="j", ["second"]="j"}
+, ["钳"]={["first"]="j", ["second"]="g"}
+, ["钻"]={["first"]="j", ["second"]="k"}
+, ["钾"]={["first"]="j", ["second"]="j"}
+, ["铁"]={["first"]="j", ["second"]="u"}
+, ["铃"]={["first"]="j", ["second"]="s"}
+, ["铅"]={["first"]="j", ["second"]="k"}
+, ["缺"]={["first"]="f", ["second"]="g"}
+, ["氧"]={["first"]="q", ["second"]="y"}
+, ["氨"]={["first"]="q", ["second"]="n"}
+, ["特"]={["first"]="n", ["second"]="c"}
+, ["牺"]={["first"]="n", ["second"]="x"}
+, ["造"]={["first"]="z", ["second"]="k"}
+, ["乘"]={["first"]="q", ["second"]="n"}
+, ["敌"]={["first"]="q", ["second"]="w"}
+, ["秤"]={["first"]="h", ["second"]="p"}
+, ["租"]={["first"]="h", ["second"]="q"}
+, ["积"]={["first"]="h", ["second"]="b"}
+, ["秧"]={["first"]="h", ["second"]="y"}
+, ["秩"]={["first"]="h", ["second"]="u"}
+, ["称"]={["first"]="h", ["second"]="x"}
+, ["秘"]={["first"]="h", ["second"]="b"}
+, ["透"]={["first"]="z", ["second"]="n"}
+, ["笔"]={["first"]="v", ["second"]="m"}
+, ["笑"]={["first"]="v", ["second"]="y"}
+, ["笋"]={["first"]="v", ["second"]="y"}
+, ["债"]={["first"]="r", ["second"]="r"}
+, ["借"]={["first"]="r", ["second"]="o"}
+, ["值"]={["first"]="r", ["second"]="q"}
+, ["倚"]={["first"]="r", ["second"]="k"}
+, ["俺"]={["first"]="r", ["second"]="d"}
+, ["倾"]={["first"]="r", ["second"]="r"}
+, ["倒"]={["first"]="r", ["second"]="d"}
+, ["倘"]={["first"]="r", ["second"]="k"}
+, ["俱"]={["first"]="r", ["second"]="b"}
+, ["倡"]={["first"]="r", ["second"]="o"}
+, ["候"]={["first"]="r", ["second"]="u"}
+, ["赁"]={["first"]="r", ["second"]="r"}
+, ["俯"]={["first"]="r", ["second"]="c"}
+, ["倍"]={["first"]="r", ["second"]="k"}
+, ["倦"]={["first"]="r", ["second"]="v"}
+, ["健"]={["first"]="r", ["second"]="z"}
+, ["臭"]={["first"]="z", ["second"]="q"}
+, ["射"]={["first"]="u", ["second"]="c"}
+, ["躬"]={["first"]="u", ["second"]="g"}
+, ["息"]={["first"]="z", ["second"]="x"}
+, ["倔"]={["first"]="r", ["second"]="i"}
+, ["徒"]={["first"]="i", ["second"]="r"}
+, ["徐"]={["first"]="i", ["second"]="h"}
+, ["殷"]={["first"]="p", ["second"]="y"}
+, ["舰"]={["first"]="v", ["second"]="e"}
+, ["舱"]={["first"]="v", ["second"]="v"}
+, ["般"]={["first"]="v", ["second"]="y"}
+, ["航"]={["first"]="v", ["second"]="j"}
+, ["途"]={["first"]="z", ["second"]="h"}
+, ["拿"]={["first"]="r", ["second"]="u"}
+, ["耸"]={["first"]="r", ["second"]="e"}
+, ["爹"]={["first"]="b", ["second"]="x"}
+, ["舀"]={["first"]="p", ["second"]="j"}
+, ["爱"]={["first"]="p", ["second"]="y"}
+, ["豺"]={["first"]="v", ["second"]="c"}
+, ["豹"]={["first"]="v", ["second"]="u"}
+, ["颁"]={["first"]="b", ["second"]="r"}
+, ["颂"]={["first"]="b", ["second"]="r"}
+, ["翁"]={["first"]="b", ["second"]="x"}
+, ["胰"]={["first"]="o", ["second"]="y"}
+, ["脆"]={["first"]="o", ["second"]="v"}
+, ["脂"]={["first"]="o", ["second"]="o"}
+, ["胸"]={["first"]="o", ["second"]="k"}
+, ["胳"]={["first"]="o", ["second"]="k"}
+, ["脏"]={["first"]="o", ["second"]="t"}
+, ["脐"]={["first"]="o", ["second"]="l"}
+, ["胶"]={["first"]="o", ["second"]="x"}
+, ["脑"]={["first"]="o", ["second"]="k"}
+, ["脓"]={["first"]="o", ["second"]="n"}
+, ["逛"]={["first"]="z", ["second"]="w"}
+, ["狸"]={["first"]="q", ["second"]="l"}
+, ["狼"]={["first"]="q", ["second"]="l"}
+, ["卿"]={["first"]="p", ["second"]="e"}
+, ["逢"]={["first"]="z", ["second"]="f"}
+, ["鸵"]={["first"]="n", ["second"]="b"}
+, ["留"]={["first"]="p", ["second"]="t"}
+, ["鸳"]={["first"]="x", ["second"]="n"}
+, ["皱"]={["first"]="d", ["second"]="y"}
+, ["饿"]={["first"]="u", ["second"]="w"}
+, ["馁"]={["first"]="u", ["second"]="n"}
+, ["凌"]={["first"]="d", ["second"]="w"}
+, ["凄"]={["first"]="d", ["second"]="n"}
+, ["恋"]={["first"]="w", ["second"]="x"}
+, ["桨"]={["first"]="d", ["second"]="m"}
+, ["浆"]={["first"]="d", ["second"]="u"}
+, ["衰"]={["first"]="w", ["second"]="y"}
+, ["衷"]={["first"]="w", ["second"]="y"}
+, ["高"]={["first"]="w", ["second"]="k"}
+, ["郭"]={["first"]="w", ["second"]="e"}
+, ["席"]={["first"]="g", ["second"]="j"}
+, ["准"]={["first"]="d", ["second"]="f"}
+, ["座"]={["first"]="g", ["second"]="t"}
+, ["症"]={["first"]="b", ["second"]="v"}
+, ["病"]={["first"]="b", ["second"]="b"}
+, ["疾"]={["first"]="b", ["second"]="u"}
+, ["斋"]={["first"]="w", ["second"]="e"}
+, ["疹"]={["first"]="b", ["second"]="p"}
+, ["疼"]={["first"]="b", ["second"]="d"}
+, ["疲"]={["first"]="b", ["second"]="y"}
+, ["脊"]={["first"]="d", ["second"]="o"}
+, ["效"]={["first"]="w", ["second"]="w"}
+, ["离"]={["first"]="w", ["second"]="d"}
+, ["紊"]={["first"]="w", ["second"]="x"}
+, ["唐"]={["first"]="g", ["second"]="k"}
+, ["瓷"]={["first"]="d", ["second"]="w"}
+, ["资"]={["first"]="d", ["second"]="r"}
+, ["凉"]={["first"]="d", ["second"]="x"}
+, ["站"]={["first"]="l", ["second"]="k"}
+, ["剖"]={["first"]="l", ["second"]="d"}
+, ["竞"]={["first"]="l", ["second"]="e"}
+, ["部"]={["first"]="l", ["second"]="e"}
+, ["旁"]={["first"]="w", ["second"]="f"}
+, ["旅"]={["first"]="f", ["second"]="n"}
+, ["畜"]={["first"]="w", ["second"]="t"}
+, ["阅"]={["first"]="m", ["second"]="e"}
+, ["羞"]={["first"]="y", ["second"]="i"}
+, ["羔"]={["first"]="y", ["second"]="h"}
+, ["瓶"]={["first"]="b", ["second"]="w"}
+, ["拳"]={["first"]="j", ["second"]="u"}
+, ["粉"]={["first"]="m", ["second"]="d"}
+, ["料"]={["first"]="m", ["second"]="u"}
+, ["益"]={["first"]="b", ["second"]="m"}
+, ["兼"]={["first"]="b", ["second"]="n"}
+, ["烤"]={["first"]="h", ["second"]="v"}
+, ["烘"]={["first"]="h", ["second"]="b"}
+, ["烦"]={["first"]="h", ["second"]="r"}
+, ["烧"]={["first"]="h", ["second"]="w"}
+, ["烛"]={["first"]="h", ["second"]="i"}
+, ["烟"]={["first"]="h", ["second"]="d"}
+, ["烙"]={["first"]="h", ["second"]="k"}
+, ["递"]={["first"]="z", ["second"]="p"}
+, ["涛"]={["first"]="d", ["second"]="c"}
+, ["浙"]={["first"]="d", ["second"]="j"}
+, ["涝"]={["first"]="d", ["second"]="l"}
+, ["浦"]={["first"]="d", ["second"]="f"}
+, ["酒"]={["first"]="d", ["second"]="y"}
+, ["涉"]={["first"]="d", ["second"]="p"}
+, ["消"]={["first"]="d", ["second"]="o"}
+, ["涡"]={["first"]="d", ["second"]="n"}
+, ["浩"]={["first"]="d", ["second"]="k"}
+, ["海"]={["first"]="d", ["second"]="m"}
+, ["涂"]={["first"]="d", ["second"]="h"}
+, ["浴"]={["first"]="d", ["second"]="k"}
+, ["浮"]={["first"]="d", ["second"]="z"}
+, ["涣"]={["first"]="d", ["second"]="d"}
+, ["涤"]={["first"]="d", ["second"]="m"}
+, ["流"]={["first"]="d", ["second"]="v"}
+, ["润"]={["first"]="d", ["second"]="w"}
+, ["涧"]={["first"]="d", ["second"]="o"}
+, ["涕"]={["first"]="d", ["second"]="p"}
+, ["浪"]={["first"]="d", ["second"]="l"}
+, ["浸"]={["first"]="d", ["second"]="y"}
+, ["涨"]={["first"]="d", ["second"]="i"}
+, ["烫"]={["first"]="d", ["second"]="h"}
+, ["涩"]={["first"]="d", ["second"]="v"}
+, ["涌"]={["first"]="d", ["second"]="y"}
+, ["悖"]={["first"]="x", ["second"]="z"}
+, ["悟"]={["first"]="x", ["second"]="k"}
+, ["悄"]={["first"]="x", ["second"]="o"}
+, ["悍"]={["first"]="x", ["second"]="g"}
+, ["悔"]={["first"]="x", ["second"]="m"}
+, ["悯"]={["first"]="x", ["second"]="w"}
+, ["悦"]={["first"]="x", ["second"]="e"}
+, ["害"]={["first"]="b", ["second"]="k"}
+, ["宽"]={["first"]="b", ["second"]="e"}
+, ["家"]={["first"]="b", ["second"]="u"}
+, ["宵"]={["first"]="b", ["second"]="o"}
+, ["宴"]={["first"]="b", ["second"]="n"}
+, ["宾"]={["first"]="b", ["second"]="b"}
+, ["窍"]={["first"]="b", ["second"]="v"}
+, ["窄"]={["first"]="b", ["second"]="v"}
+, ["容"]={["first"]="b", ["second"]="k"}
+, ["宰"]={["first"]="b", ["second"]="u"}
+, ["案"]={["first"]="b", ["second"]="m"}
+, ["请"]={["first"]="y", ["second"]="o"}
+, ["朗"]={["first"]="d", ["second"]="o"}
+, ["诸"]={["first"]="y", ["second"]="o"}
+, ["诺"]={["first"]="y", ["second"]="k"}
+, ["读"]={["first"]="y", ["second"]="d"}
+, ["扇"]={["first"]="h", ["second"]="x"}
+, ["诽"]={["first"]="y", ["second"]="f"}
+, ["袜"]={["first"]="p", ["second"]="m"}
+, ["袖"]={["first"]="p", ["second"]="y"}
+, ["袍"]={["first"]="p", ["second"]="s"}
+, ["被"]={["first"]="p", ["second"]="y"}
+, ["祥"]={["first"]="p", ["second"]="y"}
+, ["课"]={["first"]="y", ["second"]="g"}
+, ["冥"]={["first"]="b", ["second"]="b"}
+, ["谁"]={["first"]="y", ["second"]="f"}
+, ["调"]={["first"]="y", ["second"]="k"}
+, ["冤"]={["first"]="b", ["second"]="d"}
+, ["谅"]={["first"]="y", ["second"]="x"}
+, ["谆"]={["first"]="y", ["second"]="z"}
+, ["谈"]={["first"]="y", ["second"]="h"}
+, ["谊"]={["first"]="y", ["second"]="q"}
+, ["剥"]={["first"]="e", ["second"]="d"}
+, ["恳"]={["first"]="g", ["second"]="x"}
+, ["展"]={["first"]="u", ["second"]="n"}
+, ["剧"]={["first"]="u", ["second"]="d"}
+, ["屑"]={["first"]="u", ["second"]="o"}
+, ["弱"]={["first"]="g", ["second"]="d"}
+, ["陵"]={["first"]="e", ["second"]="w"}
+, ["祟"]={["first"]="i", ["second"]="x"}
+, ["陶"]={["first"]="e", ["second"]="f"}
+, ["陷"]={["first"]="e", ["second"]="j"}
+, ["陪"]={["first"]="e", ["second"]="k"}
+, ["娱"]={["first"]="n", ["second"]="t"}
+, ["娟"]={["first"]="n", ["second"]="o"}
+, ["恕"]={["first"]="n", ["second"]="x"}
+, ["娥"]={["first"]="n", ["second"]="w"}
+, ["娘"]={["first"]="n", ["second"]="l"}
+, ["通"]={["first"]="z", ["second"]="y"}
+, ["能"]={["first"]="s", ["second"]="b"}
+, ["难"]={["first"]="y", ["second"]="f"}
+, ["预"]={["first"]="s", ["second"]="r"}
+, ["桑"]={["first"]="y", ["second"]="m"}
+, ["绢"]={["first"]="s", ["second"]="o"}
+, ["绣"]={["first"]="s", ["second"]="n"}
+, ["验"]={["first"]="m", ["second"]="a"}
+, ["继"]={["first"]="s", ["second"]="v"}
+, ["骏"]={["first"]="m", ["second"]="w"}
+, ["球"]={["first"]="w", ["second"]="q"}
+, ["琐"]={["first"]="w", ["second"]="r"}
+, ["理"]={["first"]="w", ["second"]="l"}
+, ["琉"]={["first"]="w", ["second"]="v"}
+, ["琅"]={["first"]="w", ["second"]="l"}
+, ["捧"]={["first"]="f", ["second"]="l"}
+, ["堵"]={["first"]="t", ["second"]="o"}
+, ["措"]={["first"]="f", ["second"]="o"}
+, ["描"]={["first"]="f", ["second"]="t"}
+, ["域"]={["first"]="t", ["second"]="a"}
+, ["捺"]={["first"]="f", ["second"]="x"}
+, ["掩"]={["first"]="f", ["second"]="d"}
+, ["捷"]={["first"]="f", ["second"]="r"}
+, ["排"]={["first"]="f", ["second"]="f"}
+, ["焉"]={["first"]="v", ["second"]="h"}
+, ["掉"]={["first"]="f", ["second"]="u"}
+, ["捶"]={["first"]="f", ["second"]="i"}
+, ["赦"]={["first"]="t", ["second"]="w"}
+, ["堆"]={["first"]="t", ["second"]="f"}
+, ["推"]={["first"]="f", ["second"]="f"}
+, ["埠"]={["first"]="t", ["second"]="u"}
+, ["掀"]={["first"]="f", ["second"]="r"}
+, ["授"]={["first"]="f", ["second"]="y"}
+, ["捻"]={["first"]="f", ["second"]="x"}
+, ["教"]={["first"]="l", ["second"]="w"}
+, ["掏"]={["first"]="f", ["second"]="f"}
+, ["掐"]={["first"]="f", ["second"]="j"}
+, ["掠"]={["first"]="f", ["second"]="x"}
+, ["掂"]={["first"]="f", ["second"]="k"}
+, ["培"]={["first"]="t", ["second"]="k"}
+, ["接"]={["first"]="f", ["second"]="n"}
+, ["掷"]={["first"]="f", ["second"]="e"}
+, ["控"]={["first"]="f", ["second"]="g"}
+, ["探"]={["first"]="f", ["second"]="m"}
+, ["据"]={["first"]="f", ["second"]="k"}
+, ["掘"]={["first"]="f", ["second"]="i"}
+, ["掺"]={["first"]="f", ["second"]="p"}
+, ["职"]={["first"]="e", ["second"]="b"}
+, ["基"]={["first"]="q", ["second"]="t"}
+, ["聆"]={["first"]="e", ["second"]="s"}
+, ["勘"]={["first"]="q", ["second"]="l"}
+, ["聊"]={["first"]="e", ["second"]="e"}
+, ["娶"]={["first"]="e", ["second"]="n"}
+, ["著"]={["first"]="c", ["second"]="o"}
+, ["菱"]={["first"]="c", ["second"]="w"}
+, ["勒"]={["first"]="g", ["second"]="l"}
+, ["黄"]={["first"]="c", ["second"]="b"}
+, ["菲"]={["first"]="c", ["second"]="f"}
+, ["萌"]={["first"]="c", ["second"]="o"}
+, ["萝"]={["first"]="c", ["second"]="x"}
+, ["菌"]={["first"]="c", ["second"]="h"}
+, ["萎"]={["first"]="c", ["second"]="n"}
+, ["菜"]={["first"]="c", ["second"]="m"}
+, ["萄"]={["first"]="c", ["second"]="f"}
+, ["菊"]={["first"]="c", ["second"]="m"}
+, ["菩"]={["first"]="c", ["second"]="k"}
+, ["萍"]={["first"]="c", ["second"]="p"}
+, ["菠"]={["first"]="c", ["second"]="y"}
+, ["萤"]={["first"]="c", ["second"]="i"}
+, ["营"]={["first"]="c", ["second"]="k"}
+, ["乾"]={["first"]="u", ["second"]="q"}
+, ["萧"]={["first"]="c", ["second"]="s"}
+, ["萨"]={["first"]="c", ["second"]="i"}
+, ["菇"]={["first"]="c", ["second"]="k"}
+, ["械"]={["first"]="m", ["second"]="c"}
+, ["彬"]={["first"]="m", ["second"]="p"}
+, ["梦"]={["first"]="m", ["second"]="x"}
+, ["婪"]={["first"]="m", ["second"]="n"}
+, ["梗"]={["first"]="m", ["second"]="g"}
+, ["梧"]={["first"]="m", ["second"]="k"}
+, ["梢"]={["first"]="m", ["second"]="o"}
+, ["梅"]={["first"]="m", ["second"]="m"}
+, ["检"]={["first"]="m", ["second"]="a"}
+, ["梳"]={["first"]="m", ["second"]="v"}
+, ["梯"]={["first"]="m", ["second"]="p"}
+, ["桶"]={["first"]="m", ["second"]="y"}
+, ["梭"]={["first"]="m", ["second"]="w"}
+, ["救"]={["first"]="q", ["second"]="w"}
+, ["曹"]={["first"]="a", ["second"]="o"}
+, ["副"]={["first"]="a", ["second"]="d"}
+, ["票"]={["first"]="x", ["second"]="x"}
+, ["酝"]={["first"]="y", ["second"]="s"}
+, ["酗"]={["first"]="y", ["second"]="k"}
+, ["厢"]={["first"]="i", ["second"]="o"}
+, ["戚"]={["first"]="w", ["second"]="x"}
+, ["硅"]={["first"]="u", ["second"]="t"}
+, ["硕"]={["first"]="u", ["second"]="r"}
+, ["奢"]={["first"]="d", ["second"]="o"}
+, ["盔"]={["first"]="u", ["second"]="m"}
+, ["爽"]={["first"]="d", ["second"]="x"}
+, ["聋"]={["first"]="l", ["second"]="e"}
+, ["袭"]={["first"]="l", ["second"]="y"}
+, ["盛"]={["first"]="i", ["second"]="m"}
+, ["匾"]={["first"]="k", ["second"]="c"}
+, ["雪"]={["first"]="y", ["second"]="e"}
+, ["辅"]={["first"]="i", ["second"]="f"}
+, ["辆"]={["first"]="i", ["second"]="l"}
+, ["颅"]={["first"]="l", ["second"]="r"}
+, ["虚"]={["first"]="h", ["second"]="y"}
+, ["彪"]={["first"]="h", ["second"]="p"}
+, ["雀"]={["first"]="u", ["second"]="f"}
+, ["堂"]={["first"]="x", ["second"]="t"}
+, ["常"]={["first"]="x", ["second"]="j"}
+, ["眶"]={["first"]="o", ["second"]="w"}
+, ["匙"]={["first"]="o", ["second"]="b"}
+, ["晨"]={["first"]="o", ["second"]="n"}
+, ["睁"]={["first"]="o", ["second"]="l"}
+, ["眯"]={["first"]="o", ["second"]="m"}
+, ["眼"]={["first"]="o", ["second"]="g"}
+, ["悬"]={["first"]="q", ["second"]="x"}
+, ["野"]={["first"]="l", ["second"]="l"}
+, ["啪"]={["first"]="k", ["second"]="b"}
+, ["啦"]={["first"]="k", ["second"]="l"}
+, ["曼"]={["first"]="o", ["second"]="y"}
+, ["晦"]={["first"]="o", ["second"]="m"}
+, ["晚"]={["first"]="o", ["second"]="v"}
+, ["啄"]={["first"]="k", ["second"]="n"}
+, ["啡"]={["first"]="k", ["second"]="f"}
+, ["距"]={["first"]="z", ["second"]="j"}
+, ["趾"]={["first"]="z", ["second"]="v"}
+, ["啃"]={["first"]="k", ["second"]="o"}
+, ["跃"]={["first"]="z", ["second"]="y"}
+, ["略"]={["first"]="t", ["second"]="k"}
+, ["蚯"]={["first"]="i", ["second"]="q"}
+, ["蛀"]={["first"]="i", ["second"]="v"}
+, ["蛇"]={["first"]="i", ["second"]="b"}
+, ["唬"]={["first"]="k", ["second"]="j"}
+, ["累"]={["first"]="t", ["second"]="x"}
+, ["鄂"]={["first"]="k", ["second"]="e"}
+, ["唱"]={["first"]="k", ["second"]="o"}
+, ["患"]={["first"]="i", ["second"]="x"}
+, ["啰"]={["first"]="k", ["second"]="x"}
+, ["唾"]={["first"]="k", ["second"]="i"}
+, ["唯"]={["first"]="k", ["second"]="f"}
+, ["啤"]={["first"]="k", ["second"]="u"}
+, ["啥"]={["first"]="k", ["second"]="k"}
+, ["啸"]={["first"]="k", ["second"]="s"}
+, ["崖"]={["first"]="e", ["second"]="t"}
+, ["崎"]={["first"]="e", ["second"]="k"}
+, ["崭"]={["first"]="e", ["second"]="j"}
+, ["逻"]={["first"]="z", ["second"]="x"}
+, ["崔"]={["first"]="e", ["second"]="f"}
+, ["帷"]={["first"]="j", ["second"]="f"}
+, ["崩"]={["first"]="e", ["second"]="o"}
+, ["崇"]={["first"]="e", ["second"]="x"}
+, ["崛"]={["first"]="e", ["second"]="i"}
+, ["婴"]={["first"]="k", ["second"]="n"}
+, ["圈"]={["first"]="k", ["second"]="v"}
+, ["铐"]={["first"]="j", ["second"]="v"}
+, ["铛"]={["first"]="j", ["second"]="e"}
+, ["铝"]={["first"]="j", ["second"]="k"}
+, ["铜"]={["first"]="j", ["second"]="k"}
+, ["铭"]={["first"]="j", ["second"]="k"}
+, ["铲"]={["first"]="j", ["second"]="i"}
+, ["银"]={["first"]="j", ["second"]="g"}
+, ["矫"]={["first"]="u", ["second"]="l"}
+, ["甜"]={["first"]="q", ["second"]="g"}
+, ["秸"]={["first"]="h", ["second"]="k"}
+, ["梨"]={["first"]="h", ["second"]="m"}
+, ["犁"]={["first"]="h", ["second"]="n"}
+, ["秽"]={["first"]="h", ["second"]="x"}
+, ["移"]={["first"]="h", ["second"]="x"}
+, ["笨"]={["first"]="v", ["second"]="b"}
+, ["笼"]={["first"]="v", ["second"]="l"}
+, ["笛"]={["first"]="v", ["second"]="y"}
+, ["笙"]={["first"]="v", ["second"]="u"}
+, ["符"]={["first"]="v", ["second"]="c"}
+, ["第"]={["first"]="v", ["second"]="p"}
+, ["敏"]={["first"]="p", ["second"]="w"}
+, ["做"]={["first"]="r", ["second"]="w"}
+, ["袋"]={["first"]="r", ["second"]="y"}
+, ["悠"]={["first"]="r", ["second"]="x"}
+, ["偿"]={["first"]="r", ["second"]="s"}
+, ["偶"]={["first"]="r", ["second"]="y"}
+, ["偎"]={["first"]="r", ["second"]="n"}
+, ["偷"]={["first"]="r", ["second"]="d"}
+, ["您"]={["first"]="r", ["second"]="x"}
+, ["售"]={["first"]="r", ["second"]="k"}
+, ["停"]={["first"]="r", ["second"]="d"}
+, ["偏"]={["first"]="r", ["second"]="c"}
+, ["躯"]={["first"]="u", ["second"]="x"}
+, ["兜"]={["first"]="b", ["second"]="e"}
+, ["假"]={["first"]="r", ["second"]="y"}
+, ["衅"]={["first"]="x", ["second"]="b"}
+, ["徘"]={["first"]="i", ["second"]="f"}
+, ["徙"]={["first"]="i", ["second"]="r"}
+, ["得"]={["first"]="i", ["second"]="c"}
+, ["衔"]={["first"]="i", ["second"]="i"}
+, ["盘"]={["first"]="v", ["second"]="m"}
+, ["舶"]={["first"]="v", ["second"]="b"}
+, ["船"]={["first"]="v", ["second"]="k"}
+, ["舵"]={["first"]="v", ["second"]="b"}
+, ["斜"]={["first"]="r", ["second"]="u"}
+, ["盒"]={["first"]="r", ["second"]="m"}
+, ["鸽"]={["first"]="r", ["second"]="n"}
+, ["敛"]={["first"]="r", ["second"]="w"}
+, ["悉"]={["first"]="p", ["second"]="x"}
+, ["欲"]={["first"]="b", ["second"]="r"}
+, ["彩"]={["first"]="p", ["second"]="p"}
+, ["领"]={["first"]="r", ["second"]="r"}
+, ["脚"]={["first"]="o", ["second"]="e"}
+, ["脖"]={["first"]="o", ["second"]="z"}
+, ["脯"]={["first"]="o", ["second"]="f"}
+, ["豚"]={["first"]="o", ["second"]="u"}
+, ["脸"]={["first"]="o", ["second"]="a"}
+, ["脱"]={["first"]="o", ["second"]="e"}
+, ["象"]={["first"]="d", ["second"]="n"}
+, ["够"]={["first"]="b", ["second"]="x"}
+, ["逸"]={["first"]="z", ["second"]="d"}
+, ["猜"]={["first"]="q", ["second"]="o"}
+, ["猪"]={["first"]="q", ["second"]="o"}
+, ["猎"]={["first"]="q", ["second"]="o"}
+, ["猫"]={["first"]="q", ["second"]="t"}
+, ["凰"]={["first"]="j", ["second"]="w"}
+, ["猖"]={["first"]="q", ["second"]="o"}
+, ["猛"]={["first"]="q", ["second"]="m"}
+, ["祭"]={["first"]="p", ["second"]="x"}
+, ["馅"]={["first"]="u", ["second"]="j"}
+, ["馆"]={["first"]="u", ["second"]="k"}
+, ["凑"]={["first"]="d", ["second"]="t"}
+, ["减"]={["first"]="d", ["second"]="k"}
+, ["毫"]={["first"]="w", ["second"]="m"}
+, ["烹"]={["first"]="w", ["second"]="h"}
+, ["庶"]={["first"]="g", ["second"]="h"}
+, ["麻"]={["first"]="g", ["second"]="m"}
+, ["庵"]={["first"]="g", ["second"]="d"}
+, ["痊"]={["first"]="b", ["second"]="w"}
+, ["痒"]={["first"]="b", ["second"]="y"}
+, ["痕"]={["first"]="b", ["second"]="g"}
+, ["廊"]={["first"]="g", ["second"]="e"}
+, ["康"]={["first"]="g", ["second"]="n"}
+, ["庸"]={["first"]="g", ["second"]="l"}
+, ["鹿"]={["first"]="g", ["second"]="b"}
+, ["盗"]={["first"]="d", ["second"]="m"}
+, ["章"]={["first"]="l", ["second"]="u"}
+, ["竟"]={["first"]="l", ["second"]="e"}
+, ["商"]={["first"]="w", ["second"]="k"}
+, ["族"]={["first"]="f", ["second"]="u"}
+, ["旋"]={["first"]="f", ["second"]="r"}
+, ["望"]={["first"]="w", ["second"]="w"}
+, ["率"]={["first"]="w", ["second"]="u"}
+, ["阎"]={["first"]="m", ["second"]="j"}
+, ["阐"]={["first"]="m", ["second"]="l"}
+, ["着"]={["first"]="y", ["second"]="o"}
+, ["羚"]={["first"]="y", ["second"]="s"}
+, ["盖"]={["first"]="y", ["second"]="m"}
+, ["眷"]={["first"]="j", ["second"]="o"}
+, ["粘"]={["first"]="m", ["second"]="k"}
+, ["粗"]={["first"]="m", ["second"]="q"}
+, ["粒"]={["first"]="m", ["second"]="l"}
+, ["断"]={["first"]="m", ["second"]="j"}
+, ["剪"]={["first"]="b", ["second"]="d"}
+, ["兽"]={["first"]="b", ["second"]="k"}
+, ["焊"]={["first"]="h", ["second"]="g"}
+, ["焕"]={["first"]="h", ["second"]="d"}
+, ["清"]={["first"]="d", ["second"]="o"}
+, ["添"]={["first"]="d", ["second"]="x"}
+, ["鸿"]={["first"]="d", ["second"]="n"}
+, ["淋"]={["first"]="d", ["second"]="m"}
+, ["涯"]={["first"]="d", ["second"]="t"}
+, ["淹"]={["first"]="d", ["second"]="d"}
+, ["渠"]={["first"]="d", ["second"]="m"}
+, ["渐"]={["first"]="d", ["second"]="j"}
+, ["淑"]={["first"]="d", ["second"]="y"}
+, ["淌"]={["first"]="d", ["second"]="k"}
+, ["混"]={["first"]="d", ["second"]="b"}
+, ["淮"]={["first"]="d", ["second"]="f"}
+, ["淆"]={["first"]="d", ["second"]="o"}
+, ["渊"]={["first"]="d", ["second"]="l"}
+, ["淫"]={["first"]="d", ["second"]="r"}
+, ["渔"]={["first"]="d", ["second"]="a"}
+, ["淘"]={["first"]="d", ["second"]="f"}
+, ["淳"]={["first"]="d", ["second"]="z"}
+, ["液"]={["first"]="d", ["second"]="n"}
+, ["淤"]={["first"]="d", ["second"]="d"}
+, ["淡"]={["first"]="d", ["second"]="h"}
+, ["淀"]={["first"]="d", ["second"]="r"}
+, ["深"]={["first"]="d", ["second"]="m"}
+, ["涮"]={["first"]="d", ["second"]="d"}
+, ["涵"]={["first"]="d", ["second"]="k"}
+, ["婆"]={["first"]="d", ["second"]="n"}
+, ["梁"]={["first"]="d", ["second"]="m"}
+, ["渗"]={["first"]="d", ["second"]="p"}
+, ["情"]={["first"]="x", ["second"]="o"}
+, ["惜"]={["first"]="x", ["second"]="o"}
+, ["惭"]={["first"]="x", ["second"]="j"}
+, ["悼"]={["first"]="x", ["second"]="u"}
+, ["惧"]={["first"]="x", ["second"]="b"}
+, ["惕"]={["first"]="x", ["second"]="w"}
+, ["惟"]={["first"]="x", ["second"]="f"}
+, ["惊"]={["first"]="x", ["second"]="x"}
+, ["惦"]={["first"]="x", ["second"]="k"}
+, ["悴"]={["first"]="x", ["second"]="u"}
+, ["惋"]={["first"]="x", ["second"]="v"}
+, ["惨"]={["first"]="x", ["second"]="p"}
+, ["惯"]={["first"]="x", ["second"]="r"}
+, ["寇"]={["first"]="b", ["second"]="y"}
+, ["寅"]={["first"]="b", ["second"]="b"}
+, ["寄"]={["first"]="b", ["second"]="k"}
+, ["寂"]={["first"]="b", ["second"]="y"}
+, ["宿"]={["first"]="b", ["second"]="b"}
+, ["窒"]={["first"]="b", ["second"]="t"}
+, ["窑"]={["first"]="b", ["second"]="f"}
+, ["密"]={["first"]="b", ["second"]="e"}
+, ["谋"]={["first"]="y", ["second"]="m"}
+, ["谍"]={["first"]="y", ["second"]="m"}
+, ["谎"]={["first"]="y", ["second"]="v"}
+, ["谐"]={["first"]="y", ["second"]="b"}
+, ["袱"]={["first"]="p", ["second"]="q"}
+, ["祷"]={["first"]="p", ["second"]="c"}
+, ["祸"]={["first"]="p", ["second"]="n"}
+, ["谓"]={["first"]="y", ["second"]="o"}
+, ["谚"]={["first"]="y", ["second"]="p"}
+, ["谜"]={["first"]="y", ["second"]="z"}
+, ["逮"]={["first"]="z", ["second"]="n"}
+, ["敢"]={["first"]="v", ["second"]="w"}
+, ["尉"]={["first"]="u", ["second"]="c"}
+, ["屠"]={["first"]="u", ["second"]="o"}
+, ["弹"]={["first"]="g", ["second"]="l"}
+, ["隋"]={["first"]="e", ["second"]="o"}
+, ["堕"]={["first"]="e", ["second"]="t"}
+, ["随"]={["first"]="e", ["second"]="z"}
+, ["蛋"]={["first"]="v", ["second"]="i"}
+, ["隅"]={["first"]="e", ["second"]="y"}
+, ["隆"]={["first"]="e", ["second"]="u"}
+, ["隐"]={["first"]="e", ["second"]="x"}
+, ["婚"]={["first"]="n", ["second"]="o"}
+, ["婶"]={["first"]="n", ["second"]="u"}
+, ["婉"]={["first"]="n", ["second"]="v"}
+, ["颇"]={["first"]="v", ["second"]="r"}
+, ["颈"]={["first"]="v", ["second"]="r"}
+, ["绩"]={["first"]="s", ["second"]="r"}
+, ["绪"]={["first"]="s", ["second"]="o"}
+, ["续"]={["first"]="s", ["second"]="d"}
+, ["骑"]={["first"]="m", ["second"]="k"}
+, ["绰"]={["first"]="s", ["second"]="u"}
+, ["绳"]={["first"]="s", ["second"]="d"}
+, ["维"]={["first"]="s", ["second"]="f"}
+, ["绵"]={["first"]="s", ["second"]="j"}
+, ["绷"]={["first"]="s", ["second"]="o"}
+, ["绸"]={["first"]="s", ["second"]="k"}
+, ["综"]={["first"]="s", ["second"]="x"}
+, ["绽"]={["first"]="s", ["second"]="r"}
+, ["绿"]={["first"]="s", ["second"]="u"}
+, ["缀"]={["first"]="s", ["second"]="y"}
+, ["巢"]={["first"]="v", ["second"]="g"}
+, ["琴"]={["first"]="w", ["second"]="v"}
+, ["琳"]={["first"]="w", ["second"]="m"}
+, ["琢"]={["first"]="w", ["second"]="n"}
+, ["琼"]={["first"]="w", ["second"]="x"}
+, ["斑"]={["first"]="w", ["second"]="w"}
+, ["替"]={["first"]="f", ["second"]="o"}
+, ["揍"]={["first"]="f", ["second"]="t"}
+, ["款"]={["first"]="u", ["second"]="r"}
+, ["堪"]={["first"]="t", ["second"]="v"}
+, ["塔"]={["first"]="t", ["second"]="k"}
+, ["搭"]={["first"]="f", ["second"]="k"}
+, ["堰"]={["first"]="t", ["second"]="n"}
+, ["揩"]={["first"]="f", ["second"]="b"}
+, ["越"]={["first"]="t", ["second"]="v"}
+, ["趁"]={["first"]="t", ["second"]="p"}
+, ["趋"]={["first"]="t", ["second"]="e"}
+, ["超"]={["first"]="t", ["second"]="k"}
+, ["揽"]={["first"]="f", ["second"]="e"}
+, ["堤"]={["first"]="t", ["second"]="r"}
+, ["提"]={["first"]="f", ["second"]="r"}
+, ["博"]={["first"]="u", ["second"]="c"}
+, ["揭"]={["first"]="f", ["second"]="v"}
+, ["喜"]={["first"]="u", ["second"]="k"}
+, ["彭"]={["first"]="u", ["second"]="p"}
+, ["揣"]={["first"]="f", ["second"]="e"}
+, ["插"]={["first"]="f", ["second"]="j"}
+, ["揪"]={["first"]="f", ["second"]="h"}
+, ["搜"]={["first"]="f", ["second"]="y"}
+, ["煮"]={["first"]="l", ["second"]="h"}
+, ["援"]={["first"]="f", ["second"]="y"}
+, ["搀"]={["first"]="f", ["second"]="d"}
+, ["裁"]={["first"]="u", ["second"]="y"}
+, ["搁"]={["first"]="f", ["second"]="k"}
+, ["搓"]={["first"]="f", ["second"]="g"}
+, ["搂"]={["first"]="f", ["second"]="n"}
+, ["搅"]={["first"]="f", ["second"]="e"}
+, ["壹"]={["first"]="u", ["second"]="a"}
+, ["握"]={["first"]="f", ["second"]="t"}
+, ["搔"]={["first"]="f", ["second"]="i"}
+, ["揉"]={["first"]="f", ["second"]="m"}
+, ["斯"]={["first"]="q", ["second"]="j"}
+, ["期"]={["first"]="q", ["second"]="o"}
+, ["欺"]={["first"]="q", ["second"]="r"}
+, ["联"]={["first"]="e", ["second"]="t"}
+, ["葫"]={["first"]="c", ["second"]="o"}
+, ["散"]={["first"]="c", ["second"]="w"}
+, ["惹"]={["first"]="c", ["second"]="x"}
+, ["葬"]={["first"]="c", ["second"]="c"}
+, ["募"]={["first"]="c", ["second"]="l"}
+, ["葛"]={["first"]="c", ["second"]="v"}
+, ["董"]={["first"]="c", ["second"]="v"}
+, ["葡"]={["first"]="c", ["second"]="f"}
+, ["敬"]={["first"]="c", ["second"]="w"}
+, ["葱"]={["first"]="c", ["second"]="x"}
+, ["蒋"]={["first"]="c", ["second"]="c"}
+, ["蒂"]={["first"]="c", ["second"]="j"}
+, ["落"]={["first"]="c", ["second"]="k"}
+, ["韩"]={["first"]="u", ["second"]="w"}
+, ["朝"]={["first"]="u", ["second"]="o"}
+, ["辜"]={["first"]="u", ["second"]="u"}
+, ["葵"]={["first"]="c", ["second"]="t"}
+, ["棒"]={["first"]="m", ["second"]="l"}
+, ["棱"]={["first"]="m", ["second"]="w"}
+, ["棋"]={["first"]="m", ["second"]="b"}
+, ["椰"]={["first"]="m", ["second"]="e"}
+, ["植"]={["first"]="m", ["second"]="q"}
+, ["森"]={["first"]="m", ["second"]="m"}
+, ["焚"]={["first"]="m", ["second"]="h"}
+, ["椅"]={["first"]="m", ["second"]="k"}
+, ["椒"]={["first"]="m", ["second"]="y"}
+, ["棵"]={["first"]="m", ["second"]="g"}
+, ["棍"]={["first"]="m", ["second"]="b"}
+, ["椎"]={["first"]="m", ["second"]="f"}
+, ["棉"]={["first"]="m", ["second"]="j"}
+, ["棚"]={["first"]="m", ["second"]="o"}
+, ["棕"]={["first"]="m", ["second"]="x"}
+, ["棺"]={["first"]="m", ["second"]="k"}
+, ["榔"]={["first"]="m", ["second"]="e"}
+, ["椭"]={["first"]="m", ["second"]="o"}
+, ["惠"]={["first"]="a", ["second"]="x"}
+, ["惑"]={["first"]="g", ["second"]="x"}
+, ["逼"]={["first"]="z", ["second"]="t"}
+, ["粟"]={["first"]="x", ["second"]="m"}
+, ["棘"]={["first"]="a", ["second"]="n"}
+, ["酣"]={["first"]="y", ["second"]="g"}
+, ["酥"]={["first"]="y", ["second"]="h"}
+, ["厨"]={["first"]="i", ["second"]="c"}
+, ["厦"]={["first"]="i", ["second"]="w"}
+, ["硬"]={["first"]="u", ["second"]="g"}
+, ["硝"]={["first"]="u", ["second"]="o"}
+, ["确"]={["first"]="u", ["second"]="y"}
+, ["硫"]={["first"]="u", ["second"]="v"}
+, ["雁"]={["first"]="i", ["second"]="f"}
+, ["殖"]={["first"]="d", ["second"]="q"}
+, ["裂"]={["first"]="d", ["second"]="y"}
+, ["雄"]={["first"]="u", ["second"]="f"}
+, ["颊"]={["first"]="j", ["second"]="r"}
+, ["雳"]={["first"]="y", ["second"]="l"}
+, ["暂"]={["first"]="i", ["second"]="o"}
+, ["雅"]={["first"]="y", ["second"]="f"}
+, ["翘"]={["first"]="a", ["second"]="x"}
+, ["辈"]={["first"]="f", ["second"]="i"}
+, ["悲"]={["first"]="f", ["second"]="x"}
+, ["紫"]={["first"]="v", ["second"]="x"}
+, ["凿"]={["first"]="y", ["second"]="k"}
+, ["辉"]={["first"]="x", ["second"]="i"}
+, ["敞"]={["first"]="x", ["second"]="w"}
+, ["棠"]={["first"]="x", ["second"]="m"}
+, ["赏"]={["first"]="x", ["second"]="r"}
+, ["掌"]={["first"]="x", ["second"]="u"}
+, ["晴"]={["first"]="o", ["second"]="o"}
+, ["睐"]={["first"]="o", ["second"]="l"}
+, ["暑"]={["first"]="o", ["second"]="o"}
+, ["最"]={["first"]="o", ["second"]="y"}
+, ["晰"]={["first"]="o", ["second"]="j"}
+, ["量"]={["first"]="o", ["second"]="l"}
+, ["鼎"]={["first"]="o", ["second"]="v"}
+, ["喷"]={["first"]="k", ["second"]="r"}
+, ["喳"]={["first"]="k", ["second"]="a"}
+, ["晶"]={["first"]="o", ["second"]="o"}
+, ["喇"]={["first"]="k", ["second"]="d"}
+, ["遇"]={["first"]="z", ["second"]="y"}
+, ["喊"]={["first"]="k", ["second"]="k"}
+, ["遏"]={["first"]="z", ["second"]="v"}
+, ["晾"]={["first"]="o", ["second"]="x"}
+, ["景"]={["first"]="o", ["second"]="x"}
+, ["畴"]={["first"]="t", ["second"]="c"}
+, ["践"]={["first"]="z", ["second"]="j"}
+, ["跋"]={["first"]="z", ["second"]="d"}
+, ["跌"]={["first"]="z", ["second"]="u"}
+, ["跑"]={["first"]="z", ["second"]="s"}
+, ["跛"]={["first"]="z", ["second"]="y"}
+, ["遗"]={["first"]="z", ["second"]="r"}
+, ["蛙"]={["first"]="i", ["second"]="t"}
+, ["蛛"]={["first"]="i", ["second"]="v"}
+, ["蜓"]={["first"]="i", ["second"]="z"}
+, ["蜒"]={["first"]="i", ["second"]="z"}
+, ["蛤"]={["first"]="i", ["second"]="k"}
+, ["喝"]={["first"]="k", ["second"]="v"}
+, ["鹃"]={["first"]="k", ["second"]="n"}
+, ["喂"]={["first"]="k", ["second"]="n"}
+, ["喘"]={["first"]="k", ["second"]="e"}
+, ["喉"]={["first"]="k", ["second"]="u"}
+, ["喻"]={["first"]="k", ["second"]="d"}
+, ["啼"]={["first"]="k", ["second"]="j"}
+, ["喧"]={["first"]="k", ["second"]="a"}
+, ["嵌"]={["first"]="e", ["second"]="r"}
+, ["幅"]={["first"]="j", ["second"]="t"}
+, ["帽"]={["first"]="j", ["second"]="o"}
+, ["赋"]={["first"]="k", ["second"]="v"}
+, ["赌"]={["first"]="k", ["second"]="o"}
+, ["赎"]={["first"]="k", ["second"]="d"}
+, ["赐"]={["first"]="k", ["second"]="w"}
+, ["赔"]={["first"]="k", ["second"]="k"}
+, ["黑"]={["first"]="l", ["second"]="h"}
+, ["铸"]={["first"]="j", ["second"]="c"}
+, ["铺"]={["first"]="j", ["second"]="f"}
+, ["链"]={["first"]="j", ["second"]="z"}
+, ["销"]={["first"]="j", ["second"]="o"}
+, ["锁"]={["first"]="j", ["second"]="r"}
+, ["锄"]={["first"]="j", ["second"]="l"}
+, ["锅"]={["first"]="j", ["second"]="n"}
+, ["锈"]={["first"]="j", ["second"]="n"}
+, ["锋"]={["first"]="j", ["second"]="f"}
+, ["锌"]={["first"]="j", ["second"]="u"}
+, ["锐"]={["first"]="j", ["second"]="e"}
+, ["甥"]={["first"]="u", ["second"]="l"}
+, ["掰"]={["first"]="u", ["second"]="u"}
+, ["短"]={["first"]="u", ["second"]="a"}
+, ["智"]={["first"]="u", ["second"]="o"}
+, ["氮"]={["first"]="q", ["second"]="h"}
+, ["毯"]={["first"]="m", ["second"]="h"}
+, ["氯"]={["first"]="q", ["second"]="u"}
+, ["鹅"]={["first"]="w", ["second"]="n"}
+, ["剩"]={["first"]="q", ["second"]="d"}
+, ["稍"]={["first"]="h", ["second"]="o"}
+, ["程"]={["first"]="h", ["second"]="w"}
+, ["稀"]={["first"]="h", ["second"]="j"}
+, ["税"]={["first"]="h", ["second"]="e"}
+, ["筐"]={["first"]="v", ["second"]="w"}
+, ["等"]={["first"]="v", ["second"]="c"}
+, ["筑"]={["first"]="v", ["second"]="f"}
+, ["策"]={["first"]="v", ["second"]="n"}
+, ["筛"]={["first"]="v", ["second"]="j"}
+, ["筒"]={["first"]="v", ["second"]="k"}
+, ["筏"]={["first"]="v", ["second"]="g"}
+, ["答"]={["first"]="v", ["second"]="k"}
+, ["筋"]={["first"]="v", ["second"]="l"}
+, ["筝"]={["first"]="v", ["second"]="l"}
+, ["傲"]={["first"]="r", ["second"]="w"}
+, ["傅"]={["first"]="r", ["second"]="c"}
+, ["牌"]={["first"]="p", ["second"]="u"}
+, ["堡"]={["first"]="r", ["second"]="t"}
+, ["集"]={["first"]="r", ["second"]="m"}
+, ["焦"]={["first"]="r", ["second"]="h"}
+, ["傍"]={["first"]="r", ["second"]="f"}
+, ["储"]={["first"]="r", ["second"]="o"}
+, ["皓"]={["first"]="b", ["second"]="k"}
+, ["皖"]={["first"]="b", ["second"]="e"}
+, ["粤"]={["first"]="p", ["second"]="v"}
+, ["奥"]={["first"]="p", ["second"]="d"}
+, ["街"]={["first"]="i", ["second"]="i"}
+, ["惩"]={["first"]="i", ["second"]="x"}
+, ["御"]={["first"]="i", ["second"]="e"}
+, ["循"]={["first"]="i", ["second"]="o"}
+, ["艇"]={["first"]="v", ["second"]="z"}
+, ["舒"]={["first"]="r", ["second"]="l"}
+, ["逾"]={["first"]="z", ["second"]="d"}
+, ["番"]={["first"]="p", ["second"]="t"}
+, ["释"]={["first"]="p", ["second"]="l"}
+, ["禽"]={["first"]="r", ["second"]="d"}
+, ["腊"]={["first"]="o", ["second"]="o"}
+, ["脾"]={["first"]="o", ["second"]="u"}
+, ["腋"]={["first"]="o", ["second"]="n"}
+, ["腔"]={["first"]="o", ["second"]="g"}
+, ["腕"]={["first"]="o", ["second"]="v"}
+, ["鲁"]={["first"]="a", ["second"]="o"}
+, ["猩"]={["first"]="q", ["second"]="u"}
+, ["猬"]={["first"]="q", ["second"]="o"}
+, ["猾"]={["first"]="q", ["second"]="g"}
+, ["猴"]={["first"]="q", ["second"]="u"}
+, ["惫"]={["first"]="w", ["second"]="x"}
+, ["然"]={["first"]="p", ["second"]="h"}
+, ["馈"]={["first"]="u", ["second"]="r"}
+, ["馋"]={["first"]="u", ["second"]="d"}
+, ["装"]={["first"]="d", ["second"]="y"}
+, ["蛮"]={["first"]="w", ["second"]="i"}
+, ["就"]={["first"]="w", ["second"]="y"}
+, ["敦"]={["first"]="w", ["second"]="w"}
+, ["斌"]={["first"]="w", ["second"]="v"}
+, ["痘"]={["first"]="b", ["second"]="a"}
+, ["痢"]={["first"]="b", ["second"]="d"}
+, ["痪"]={["first"]="b", ["second"]="d"}
+, ["痛"]={["first"]="b", ["second"]="y"}
+, ["童"]={["first"]="l", ["second"]="l"}
+, ["竣"]={["first"]="l", ["second"]="w"}
+, ["阔"]={["first"]="m", ["second"]="k"}
+, ["善"]={["first"]="y", ["second"]="k"}
+, ["翔"]={["first"]="y", ["second"]="x"}
+, ["羡"]={["first"]="y", ["second"]="r"}
+, ["普"]={["first"]="b", ["second"]="o"}
+, ["粪"]={["first"]="m", ["second"]="b"}
+, ["尊"]={["first"]="b", ["second"]="c"}
+, ["奠"]={["first"]="b", ["second"]="d"}
+, ["道"]={["first"]="z", ["second"]="z"}
+, ["遂"]={["first"]="z", ["second"]="u"}
+, ["曾"]={["first"]="b", ["second"]="o"}
+, ["焰"]={["first"]="h", ["second"]="j"}
+, ["港"]={["first"]="d", ["second"]="s"}
+, ["滞"]={["first"]="d", ["second"]="j"}
+, ["湖"]={["first"]="d", ["second"]="o"}
+, ["湘"]={["first"]="d", ["second"]="o"}
+, ["渣"]={["first"]="d", ["second"]="a"}
+, ["渤"]={["first"]="d", ["second"]="l"}
+, ["渺"]={["first"]="d", ["second"]="u"}
+, ["湿"]={["first"]="d", ["second"]="y"}
+, ["温"]={["first"]="d", ["second"]="m"}
+, ["渴"]={["first"]="d", ["second"]="v"}
+, ["溃"]={["first"]="d", ["second"]="r"}
+, ["溅"]={["first"]="d", ["second"]="j"}
+, ["滑"]={["first"]="d", ["second"]="g"}
+, ["湃"]={["first"]="d", ["second"]="f"}
+, ["渝"]={["first"]="d", ["second"]="d"}
+, ["湾"]={["first"]="d", ["second"]="g"}
+, ["渡"]={["first"]="d", ["second"]="y"}
+, ["游"]={["first"]="d", ["second"]="z"}
+, ["滋"]={["first"]="d", ["second"]="y"}
+, ["渲"]={["first"]="d", ["second"]="a"}
+, ["溉"]={["first"]="d", ["second"]="v"}
+, ["愤"]={["first"]="x", ["second"]="r"}
+, ["慌"]={["first"]="x", ["second"]="v"}
+, ["惰"]={["first"]="x", ["second"]="o"}
+, ["愕"]={["first"]="x", ["second"]="k"}
+, ["愣"]={["first"]="x", ["second"]="f"}
+, ["惶"]={["first"]="x", ["second"]="w"}
+, ["愧"]={["first"]="x", ["second"]="g"}
+, ["愉"]={["first"]="x", ["second"]="d"}
+, ["慨"]={["first"]="x", ["second"]="v"}
+, ["割"]={["first"]="b", ["second"]="d"}
+, ["寒"]={["first"]="b", ["second"]="d"}
+, ["富"]={["first"]="b", ["second"]="t"}
+, ["寓"]={["first"]="b", ["second"]="y"}
+, ["窜"]={["first"]="b", ["second"]="i"}
+, ["窝"]={["first"]="b", ["second"]="n"}
+, ["窖"]={["first"]="b", ["second"]="k"}
+, ["窗"]={["first"]="b", ["second"]="w"}
+, ["窘"]={["first"]="b", ["second"]="k"}
+, ["遍"]={["first"]="z", ["second"]="c"}
+, ["雇"]={["first"]="h", ["second"]="f"}
+, ["裕"]={["first"]="p", ["second"]="k"}
+, ["裤"]={["first"]="p", ["second"]="i"}
+, ["裙"]={["first"]="p", ["second"]="k"}
+, ["禅"]={["first"]="p", ["second"]="l"}
+, ["禄"]={["first"]="p", ["second"]="u"}
+, ["谢"]={["first"]="y", ["second"]="c"}
+, ["谣"]={["first"]="y", ["second"]="f"}
+, ["谤"]={["first"]="y", ["second"]="f"}
+, ["谦"]={["first"]="y", ["second"]="n"}
+, ["犀"]={["first"]="u", ["second"]="n"}
+, ["属"]={["first"]="u", ["second"]="y"}
+, ["屡"]={["first"]="u", ["second"]="n"}
+, ["强"]={["first"]="g", ["second"]="i"}
+, ["粥"]={["first"]="g", ["second"]="g"}
+, ["疏"]={["first"]="v", ["second"]="v"}
+, ["隔"]={["first"]="e", ["second"]="l"}
+, ["隙"]={["first"]="e", ["second"]="x"}
+, ["隘"]={["first"]="e", ["second"]="m"}
+, ["媒"]={["first"]="n", ["second"]="m"}
+, ["絮"]={["first"]="n", ["second"]="x"}
+, ["嫂"]={["first"]="n", ["second"]="y"}
+, ["媚"]={["first"]="n", ["second"]="o"}
+, ["婿"]={["first"]="n", ["second"]="o"}
+, ["登"]={["first"]="v", ["second"]="a"}
+, ["缅"]={["first"]="s", ["second"]="m"}
+, ["缆"]={["first"]="s", ["second"]="e"}
+, ["缉"]={["first"]="s", ["second"]="e"}
+, ["缎"]={["first"]="s", ["second"]="y"}
+, ["缓"]={["first"]="s", ["second"]="y"}
+, ["缔"]={["first"]="s", ["second"]="j"}
+, ["缕"]={["first"]="s", ["second"]="n"}
+, ["骗"]={["first"]="m", ["second"]="c"}
+, ["编"]={["first"]="s", ["second"]="c"}
+, ["骚"]={["first"]="m", ["second"]="i"}
+, ["缘"]={["first"]="s", ["second"]="u"}
+, ["瑟"]={["first"]="w", ["second"]="b"}
+, ["鹉"]={["first"]="a", ["second"]="n"}
+, ["瑞"]={["first"]="w", ["second"]="e"}
+, ["瑰"]={["first"]="w", ["second"]="g"}
+, ["瑙"]={["first"]="w", ["second"]="x"}
+, ["魂"]={["first"]="e", ["second"]="g"}
+, ["肆"]={["first"]="a", ["second"]="y"}
+, ["摄"]={["first"]="f", ["second"]="y"}
+, ["摸"]={["first"]="f", ["second"]="d"}
+, ["填"]={["first"]="t", ["second"]="b"}
+, ["搏"]={["first"]="f", ["second"]="c"}
+, ["塌"]={["first"]="t", ["second"]="x"}
+, ["鼓"]={["first"]="u", ["second"]="y"}
+, ["摆"]={["first"]="f", ["second"]="s"}
+, ["携"]={["first"]="f", ["second"]="n"}
+, ["搬"]={["first"]="f", ["second"]="y"}
+, ["摇"]={["first"]="f", ["second"]="f"}
+, ["搞"]={["first"]="f", ["second"]="k"}
+, ["塘"]={["first"]="t", ["second"]="k"}
+, ["摊"]={["first"]="f", ["second"]="f"}
+, ["聘"]={["first"]="e", ["second"]="v"}
+, ["斟"]={["first"]="q", ["second"]="u"}
+, ["蒜"]={["first"]="c", ["second"]="x"}
+, ["勤"]={["first"]="n", ["second"]="l"}
+, ["靴"]={["first"]="g", ["second"]="b"}
+, ["靶"]={["first"]="g", ["second"]="b"}
+, ["鹊"]={["first"]="c", ["second"]="n"}
+, ["蓝"]={["first"]="c", ["second"]="m"}
+, ["墓"]={["first"]="c", ["second"]="t"}
+, ["幕"]={["first"]="c", ["second"]="j"}
+, ["蓬"]={["first"]="c", ["second"]="z"}
+, ["蓄"]={["first"]="c", ["second"]="t"}
+, ["蒲"]={["first"]="c", ["second"]="f"}
+, ["蓉"]={["first"]="c", ["second"]="k"}
+, ["蒙"]={["first"]="c", ["second"]="n"}
+, ["蒸"]={["first"]="c", ["second"]="h"}
+, ["献"]={["first"]="u", ["second"]="q"}
+, ["椿"]={["first"]="m", ["second"]="o"}
+, ["禁"]={["first"]="m", ["second"]="x"}
+, ["楚"]={["first"]="m", ["second"]="r"}
+, ["楷"]={["first"]="m", ["second"]="b"}
+, ["榄"]={["first"]="m", ["second"]="e"}
+, ["想"]={["first"]="m", ["second"]="x"}
+, ["槐"]={["first"]="m", ["second"]="g"}
+, ["榆"]={["first"]="m", ["second"]="d"}
+, ["楼"]={["first"]="m", ["second"]="n"}
+, ["概"]={["first"]="m", ["second"]="v"}
+, ["赖"]={["first"]="u", ["second"]="r"}
+, ["酪"]={["first"]="y", ["second"]="k"}
+, ["酬"]={["first"]="y", ["second"]="v"}
+, ["感"]={["first"]="x", ["second"]="x"}
+, ["碍"]={["first"]="u", ["second"]="c"}
+, ["碘"]={["first"]="u", ["second"]="b"}
+, ["碑"]={["first"]="u", ["second"]="u"}
+, ["碎"]={["first"]="u", ["second"]="u"}
+, ["碰"]={["first"]="u", ["second"]="y"}
+, ["碗"]={["first"]="u", ["second"]="v"}
+, ["碌"]={["first"]="u", ["second"]="u"}
+, ["尴"]={["first"]="y", ["second"]="m"}
+, ["雷"]={["first"]="y", ["second"]="t"}
+, ["零"]={["first"]="y", ["second"]="s"}
+, ["雾"]={["first"]="y", ["second"]="l"}
+, ["雹"]={["first"]="y", ["second"]="s"}
+, ["辐"]={["first"]="i", ["second"]="t"}
+, ["辑"]={["first"]="i", ["second"]="e"}
+, ["输"]={["first"]="i", ["second"]="d"}
+, ["督"]={["first"]="u", ["second"]="o"}
+, ["频"]={["first"]="v", ["second"]="r"}
+, ["龄"]={["first"]="v", ["second"]="s"}
+, ["鉴"]={["first"]="l", ["second"]="j"}
+, ["睛"]={["first"]="o", ["second"]="o"}
+, ["睹"]={["first"]="o", ["second"]="o"}
+, ["睦"]={["first"]="o", ["second"]="t"}
+, ["瞄"]={["first"]="o", ["second"]="t"}
+, ["睫"]={["first"]="o", ["second"]="r"}
+, ["睡"]={["first"]="o", ["second"]="i"}
+, ["睬"]={["first"]="o", ["second"]="m"}
+, ["嗜"]={["first"]="k", ["second"]="o"}
+, ["鄙"]={["first"]="k", ["second"]="e"}
+, ["嗦"]={["first"]="k", ["second"]="x"}
+, ["愚"]={["first"]="y", ["second"]="x"}
+, ["暖"]={["first"]="o", ["second"]="y"}
+, ["盟"]={["first"]="o", ["second"]="m"}
+, ["歇"]={["first"]="o", ["second"]="r"}
+, ["暗"]={["first"]="o", ["second"]="o"}
+, ["暇"]={["first"]="o", ["second"]="y"}
+, ["照"]={["first"]="o", ["second"]="h"}
+, ["畸"]={["first"]="t", ["second"]="k"}
+, ["跨"]={["first"]="z", ["second"]="k"}
+, ["跷"]={["first"]="z", ["second"]="w"}
+, ["跳"]={["first"]="z", ["second"]="d"}
+, ["跺"]={["first"]="z", ["second"]="m"}
+, ["跪"]={["first"]="z", ["second"]="v"}
+, ["路"]={["first"]="z", ["second"]="k"}
+, ["跤"]={["first"]="z", ["second"]="x"}
+, ["跟"]={["first"]="z", ["second"]="g"}
+, ["遣"]={["first"]="z", ["second"]="k"}
+, ["蜈"]={["first"]="i", ["second"]="t"}
+, ["蜗"]={["first"]="i", ["second"]="n"}
+, ["蛾"]={["first"]="i", ["second"]="w"}
+, ["蜂"]={["first"]="i", ["second"]="f"}
+, ["蜕"]={["first"]="i", ["second"]="e"}
+, ["嗅"]={["first"]="k", ["second"]="q"}
+, ["嗡"]={["first"]="k", ["second"]="x"}
+, ["嗓"]={["first"]="k", ["second"]="m"}
+, ["署"]={["first"]="s", ["second"]="o"}
+, ["置"]={["first"]="s", ["second"]="q"}
+, ["罪"]={["first"]="s", ["second"]="f"}
+, ["罩"]={["first"]="s", ["second"]="u"}
+, ["蜀"]={["first"]="s", ["second"]="i"}
+, ["幌"]={["first"]="j", ["second"]="w"}
+, ["错"]={["first"]="j", ["second"]="o"}
+, ["锚"]={["first"]="j", ["second"]="t"}
+, ["锡"]={["first"]="j", ["second"]="w"}
+, ["锣"]={["first"]="j", ["second"]="x"}
+, ["锤"]={["first"]="j", ["second"]="i"}
+, ["锥"]={["first"]="j", ["second"]="f"}
+, ["锦"]={["first"]="j", ["second"]="j"}
+, ["键"]={["first"]="j", ["second"]="z"}
+, ["锯"]={["first"]="j", ["second"]="k"}
+, ["锰"]={["first"]="j", ["second"]="m"}
+, ["矮"]={["first"]="u", ["second"]="n"}
+, ["辞"]={["first"]="q", ["second"]="u"}
+, ["稚"]={["first"]="h", ["second"]="f"}
+, ["稠"]={["first"]="h", ["second"]="k"}
+, ["颓"]={["first"]="h", ["second"]="r"}
+, ["愁"]={["first"]="h", ["second"]="x"}
+, ["筹"]={["first"]="v", ["second"]="c"}
+, ["签"]={["first"]="v", ["second"]="a"}
+, ["简"]={["first"]="v", ["second"]="o"}
+, ["筷"]={["first"]="v", ["second"]="g"}
+, ["毁"]={["first"]="j", ["second"]="y"}
+, ["舅"]={["first"]="j", ["second"]="l"}
+, ["鼠"]={["first"]="j", ["second"]="v"}
+, ["催"]={["first"]="r", ["second"]="f"}
+, ["傻"]={["first"]="r", ["second"]="w"}
+, ["像"]={["first"]="r", ["second"]="n"}
+, ["躲"]={["first"]="u", ["second"]="m"}
+, ["魁"]={["first"]="g", ["second"]="u"}
+, ["衙"]={["first"]="i", ["second"]="i"}
+, ["微"]={["first"]="i", ["second"]="w"}
+, ["愈"]={["first"]="r", ["second"]="x"}
+, ["遥"]={["first"]="z", ["second"]="f"}
+, ["腻"]={["first"]="o", ["second"]="r"}
+, ["腰"]={["first"]="o", ["second"]="n"}
+, ["腥"]={["first"]="o", ["second"]="u"}
+, ["腮"]={["first"]="o", ["second"]="x"}
+, ["腹"]={["first"]="o", ["second"]="w"}
+, ["腺"]={["first"]="o", ["second"]="u"}
+, ["鹏"]={["first"]="o", ["second"]="n"}
+, ["腾"]={["first"]="o", ["second"]="m"}
+, ["腿"]={["first"]="o", ["second"]="z"}
+, ["鲍"]={["first"]="a", ["second"]="s"}
+, ["猿"]={["first"]="q", ["second"]="y"}
+, ["颖"]={["first"]="b", ["second"]="r"}
+, ["触"]={["first"]="d", ["second"]="i"}
+, ["解"]={["first"]="d", ["second"]="n"}
+, ["煞"]={["first"]="d", ["second"]="h"}
+, ["雏"]={["first"]="d", ["second"]="f"}
+, ["馍"]={["first"]="u", ["second"]="d"}
+, ["馏"]={["first"]="u", ["second"]="t"}
+, ["酱"]={["first"]="d", ["second"]="y"}
+, ["禀"]={["first"]="w", ["second"]="x"}
+, ["痹"]={["first"]="b", ["second"]="l"}
+, ["廓"]={["first"]="g", ["second"]="e"}
+, ["痴"]={["first"]="b", ["second"]="k"}
+, ["痰"]={["first"]="b", ["second"]="h"}
+, ["廉"]={["first"]="g", ["second"]="n"}
+, ["靖"]={["first"]="l", ["second"]="o"}
+, ["新"]={["first"]="l", ["second"]="j"}
+, ["韵"]={["first"]="l", ["second"]="d"}
+, ["意"]={["first"]="l", ["second"]="x"}
+, ["誊"]={["first"]="j", ["second"]="k"}
+, ["粮"]={["first"]="m", ["second"]="l"}
+, ["数"]={["first"]="m", ["second"]="w"}
+, ["煎"]={["first"]="b", ["second"]="h"}
+, ["塑"]={["first"]="b", ["second"]="t"}
+, ["慈"]={["first"]="b", ["second"]="x"}
+, ["煤"]={["first"]="h", ["second"]="m"}
+, ["煌"]={["first"]="h", ["second"]="w"}
+, ["满"]={["first"]="d", ["second"]="l"}
+, ["漠"]={["first"]="d", ["second"]="d"}
+, ["滇"]={["first"]="d", ["second"]="b"}
+, ["源"]={["first"]="d", ["second"]="x"}
+, ["滤"]={["first"]="d", ["second"]="x"}
+, ["滥"]={["first"]="d", ["second"]="m"}
+, ["滔"]={["first"]="d", ["second"]="j"}
+, ["溪"]={["first"]="d", ["second"]="d"}
+, ["溜"]={["first"]="d", ["second"]="t"}
+, ["漓"]={["first"]="d", ["second"]="d"}
+, ["滚"]={["first"]="d", ["second"]="y"}
+, ["溢"]={["first"]="d", ["second"]="m"}
+, ["溯"]={["first"]="d", ["second"]="o"}
+, ["滨"]={["first"]="d", ["second"]="b"}
+, ["溶"]={["first"]="d", ["second"]="k"}
+, ["溺"]={["first"]="d", ["second"]="d"}
+, ["粱"]={["first"]="d", ["second"]="m"}
+, ["滩"]={["first"]="d", ["second"]="f"}
+, ["慎"]={["first"]="x", ["second"]="b"}
+, ["誉"]={["first"]="x", ["second"]="k"}
+, ["塞"]={["first"]="b", ["second"]="t"}
+, ["寞"]={["first"]="b", ["second"]="d"}
+, ["窥"]={["first"]="b", ["second"]="e"}
+, ["窟"]={["first"]="b", ["second"]="i"}
+, ["寝"]={["first"]="b", ["second"]="y"}
+, ["谨"]={["first"]="y", ["second"]="a"}
+, ["褂"]={["first"]="p", ["second"]="b"}
+, ["裸"]={["first"]="p", ["second"]="g"}
+, ["福"]={["first"]="p", ["second"]="t"}
+, ["谬"]={["first"]="y", ["second"]="p"}
+, ["群"]={["first"]="y", ["second"]="y"}
+, ["殿"]={["first"]="u", ["second"]="y"}
+, ["辟"]={["first"]="u", ["second"]="u"}
+, ["障"]={["first"]="e", ["second"]="u"}
+, ["媳"]={["first"]="n", ["second"]="x"}
+, ["嫉"]={["first"]="n", ["second"]="u"}
+, ["嫌"]={["first"]="n", ["second"]="n"}
+, ["嫁"]={["first"]="n", ["second"]="u"}
+, ["叠"]={["first"]="y", ["second"]="q"}
+, ["缚"]={["first"]="s", ["second"]="c"}
+, ["缝"]={["first"]="s", ["second"]="z"}
+, ["缠"]={["first"]="s", ["second"]="l"}
+, ["缤"]={["first"]="s", ["second"]="b"}
+, ["剿"]={["first"]="v", ["second"]="d"}
+, ["静"]={["first"]="f", ["second"]="l"}
+, ["碧"]={["first"]="w", ["second"]="u"}
+, ["璃"]={["first"]="w", ["second"]="d"}
+, ["赘"]={["first"]="f", ["second"]="r"}
+, ["熬"]={["first"]="f", ["second"]="h"}
+, ["墙"]={["first"]="t", ["second"]="k"}
+, ["墟"]={["first"]="t", ["second"]="y"}
+, ["嘉"]={["first"]="u", ["second"]="k"}
+, ["摧"]={["first"]="f", ["second"]="f"}
+, ["赫"]={["first"]="t", ["second"]="d"}
+, ["截"]={["first"]="u", ["second"]="f"}
+, ["誓"]={["first"]="f", ["second"]="k"}
+, ["境"]={["first"]="t", ["second"]="e"}
+, ["摘"]={["first"]="f", ["second"]="k"}
+, ["摔"]={["first"]="f", ["second"]="u"}
+, ["撇"]={["first"]="f", ["second"]="w"}
+, ["聚"]={["first"]="e", ["second"]="n"}
+, ["慕"]={["first"]="c", ["second"]="x"}
+, ["暮"]={["first"]="c", ["second"]="o"}
+, ["摹"]={["first"]="c", ["second"]="u"}
+, ["蔓"]={["first"]="c", ["second"]="y"}
+, ["蔑"]={["first"]="c", ["second"]="u"}
+, ["蔡"]={["first"]="c", ["second"]="x"}
+, ["蔗"]={["first"]="c", ["second"]="h"}
+, ["蔽"]={["first"]="c", ["second"]="w"}
+, ["蔼"]={["first"]="c", ["second"]="v"}
+, ["熙"]={["first"]="k", ["second"]="h"}
+, ["蔚"]={["first"]="c", ["second"]="c"}
+, ["兢"]={["first"]="u", ["second"]="e"}
+, ["模"]={["first"]="m", ["second"]="d"}
+, ["槛"]={["first"]="m", ["second"]="m"}
+, ["榴"]={["first"]="m", ["second"]="t"}
+, ["榜"]={["first"]="m", ["second"]="f"}
+, ["榨"]={["first"]="m", ["second"]="v"}
+, ["榕"]={["first"]="m", ["second"]="k"}
+, ["歌"]={["first"]="d", ["second"]="r"}
+, ["遭"]={["first"]="z", ["second"]="o"}
+, ["酵"]={["first"]="y", ["second"]="z"}
+, ["酷"]={["first"]="y", ["second"]="k"}
+, ["酿"]={["first"]="y", ["second"]="l"}
+, ["酸"]={["first"]="y", ["second"]="w"}
+, ["碟"]={["first"]="u", ["second"]="m"}
+, ["碱"]={["first"]="u", ["second"]="k"}
+, ["碳"]={["first"]="u", ["second"]="h"}
+, ["磁"]={["first"]="u", ["second"]="y"}
+, ["愿"]={["first"]="i", ["second"]="x"}
+, ["需"]={["first"]="y", ["second"]="e"}
+, ["辖"]={["first"]="i", ["second"]="k"}
+, ["辗"]={["first"]="i", ["second"]="n"}
+, ["雌"]={["first"]="v", ["second"]="f"}
+, ["裳"]={["first"]="x", ["second"]="y"}
+, ["颗"]={["first"]="g", ["second"]="r"}
+, ["瞅"]={["first"]="o", ["second"]="h"}
+, ["墅"]={["first"]="l", ["second"]="t"}
+, ["嗽"]={["first"]="k", ["second"]="r"}
+, ["踊"]={["first"]="z", ["second"]="y"}
+, ["蜻"]={["first"]="i", ["second"]="o"}
+, ["蜡"]={["first"]="i", ["second"]="o"}
+, ["蝇"]={["first"]="i", ["second"]="d"}
+, ["蜘"]={["first"]="i", ["second"]="k"}
+, ["蝉"]={["first"]="i", ["second"]="l"}
+, ["嘛"]={["first"]="k", ["second"]="m"}
+, ["嘀"]={["first"]="k", ["second"]="k"}
+, ["赚"]={["first"]="k", ["second"]="n"}
+, ["锹"]={["first"]="j", ["second"]="h"}
+, ["锻"]={["first"]="j", ["second"]="y"}
+, ["镀"]={["first"]="j", ["second"]="y"}
+, ["舞"]={["first"]="p", ["second"]="l"}
+, ["舔"]={["first"]="q", ["second"]="x"}
+, ["稳"]={["first"]="h", ["second"]="x"}
+, ["熏"]={["first"]="p", ["second"]="h"}
+, ["箕"]={["first"]="v", ["second"]="b"}
+, ["算"]={["first"]="v", ["second"]="c"}
+, ["箩"]={["first"]="v", ["second"]="x"}
+, ["管"]={["first"]="v", ["second"]="k"}
+, ["箫"]={["first"]="v", ["second"]="s"}
+, ["舆"]={["first"]="p", ["second"]="b"}
+, ["僚"]={["first"]="r", ["second"]="x"}
+, ["僧"]={["first"]="r", ["second"]="o"}
+, ["鼻"]={["first"]="z", ["second"]="l"}
+, ["魄"]={["first"]="b", ["second"]="g"}
+, ["魅"]={["first"]="g", ["second"]="w"}
+, ["貌"]={["first"]="v", ["second"]="e"}
+, ["膜"]={["first"]="o", ["second"]="d"}
+, ["膊"]={["first"]="o", ["second"]="c"}
+, ["膀"]={["first"]="o", ["second"]="f"}
+, ["鲜"]={["first"]="a", ["second"]="y"}
+, ["疑"]={["first"]="b", ["second"]="r"}
+, ["孵"]={["first"]="l", ["second"]="z"}
+, ["馒"]={["first"]="u", ["second"]="y"}
+, ["裹"]={["first"]="w", ["second"]="y"}
+, ["敲"]={["first"]="w", ["second"]="y"}
+, ["豪"]={["first"]="w", ["second"]="u"}
+, ["膏"]={["first"]="w", ["second"]="o"}
+, ["遮"]={["first"]="z", ["second"]="h"}
+, ["腐"]={["first"]="g", ["second"]="r"}
+, ["瘩"]={["first"]="b", ["second"]="k"}
+, ["瘟"]={["first"]="b", ["second"]="m"}
+, ["瘦"]={["first"]="b", ["second"]="y"}
+, ["辣"]={["first"]="l", ["second"]="u"}
+, ["彰"]={["first"]="l", ["second"]="p"}
+, ["竭"]={["first"]="l", ["second"]="v"}
+, ["端"]={["first"]="l", ["second"]="e"}
+, ["旗"]={["first"]="f", ["second"]="b"}
+, ["精"]={["first"]="m", ["second"]="o"}
+, ["粹"]={["first"]="m", ["second"]="u"}
+, ["歉"]={["first"]="b", ["second"]="r"}
+, ["弊"]={["first"]="d", ["second"]="c"}
+, ["熄"]={["first"]="h", ["second"]="x"}
+, ["熔"]={["first"]="h", ["second"]="k"}
+, ["煽"]={["first"]="h", ["second"]="x"}
+, ["潇"]={["first"]="d", ["second"]="s"}
+, ["漆"]={["first"]="d", ["second"]="u"}
+, ["漱"]={["first"]="d", ["second"]="r"}
+, ["漂"]={["first"]="d", ["second"]="x"}
+, ["漫"]={["first"]="d", ["second"]="y"}
+, ["滴"]={["first"]="d", ["second"]="k"}
+, ["漾"]={["first"]="d", ["second"]="y"}
+, ["演"]={["first"]="d", ["second"]="b"}
+, ["漏"]={["first"]="d", ["second"]="y"}
+, ["慢"]={["first"]="x", ["second"]="y"}
+, ["慷"]={["first"]="x", ["second"]="n"}
+, ["寨"]={["first"]="b", ["second"]="m"}
+, ["赛"]={["first"]="b", ["second"]="r"}
+, ["寡"]={["first"]="b", ["second"]="d"}
+, ["察"]={["first"]="b", ["second"]="x"}
+, ["蜜"]={["first"]="b", ["second"]="i"}
+, ["寥"]={["first"]="b", ["second"]="p"}
+, ["谭"]={["first"]="y", ["second"]="u"}
+, ["肇"]={["first"]="h", ["second"]="y"}
+, ["褐"]={["first"]="p", ["second"]="v"}
+, ["褪"]={["first"]="p", ["second"]="z"}
+, ["谱"]={["first"]="y", ["second"]="o"}
+, ["隧"]={["first"]="e", ["second"]="z"}
+, ["嫩"]={["first"]="n", ["second"]="w"}
+, ["翠"]={["first"]="x", ["second"]="u"}
+, ["熊"]={["first"]="s", ["second"]="h"}
+, ["凳"]={["first"]="v", ["second"]="j"}
+, ["骡"]={["first"]="m", ["second"]="x"}
+, ["缩"]={["first"]="s", ["second"]="b"}
+, ["慧"]={["first"]="f", ["second"]="x"}
+, ["撵"]={["first"]="f", ["second"]="i"}
+, ["撕"]={["first"]="f", ["second"]="j"}
+, ["撒"]={["first"]="f", ["second"]="w"}
+, ["撩"]={["first"]="f", ["second"]="x"}
+, ["趣"]={["first"]="t", ["second"]="y"}
+, ["趟"]={["first"]="t", ["second"]="k"}
+, ["撑"]={["first"]="f", ["second"]="u"}
+, ["撮"]={["first"]="f", ["second"]="y"}
+, ["撬"]={["first"]="f", ["second"]="m"}
+, ["播"]={["first"]="f", ["second"]="t"}
+, ["擒"]={["first"]="f", ["second"]="d"}
+, ["墩"]={["first"]="t", ["second"]="w"}
+, ["撞"]={["first"]="f", ["second"]="l"}
+, ["撤"]={["first"]="f", ["second"]="w"}
+, ["增"]={["first"]="t", ["second"]="o"}
+, ["撰"]={["first"]="f", ["second"]="b"}
+, ["聪"]={["first"]="e", ["second"]="x"}
+, ["鞋"]={["first"]="g", ["second"]="t"}
+, ["鞍"]={["first"]="g", ["second"]="n"}
+, ["蕉"]={["first"]="c", ["second"]="h"}
+, ["蕊"]={["first"]="c", ["second"]="x"}
+, ["蔬"]={["first"]="c", ["second"]="v"}
+, ["蕴"]={["first"]="c", ["second"]="m"}
+, ["横"]={["first"]="m", ["second"]="b"}
+, ["槽"]={["first"]="m", ["second"]="o"}
+, ["樱"]={["first"]="m", ["second"]="n"}
+, ["橡"]={["first"]="m", ["second"]="n"}
+, ["樟"]={["first"]="m", ["second"]="u"}
+, ["橄"]={["first"]="m", ["second"]="w"}
+, ["敷"]={["first"]="f", ["second"]="w"}
+, ["豌"]={["first"]="a", ["second"]="v"}
+, ["飘"]={["first"]="x", ["second"]="x"}
+, ["醋"]={["first"]="y", ["second"]="o"}
+, ["醇"]={["first"]="y", ["second"]="z"}
+, ["醉"]={["first"]="y", ["second"]="u"}
+, ["磕"]={["first"]="u", ["second"]="m"}
+, ["磊"]={["first"]="u", ["second"]="u"}
+, ["磅"]={["first"]="u", ["second"]="f"}
+, ["碾"]={["first"]="u", ["second"]="n"}
+, ["震"]={["first"]="y", ["second"]="n"}
+, ["霄"]={["first"]="y", ["second"]="o"}
+, ["霉"]={["first"]="y", ["second"]="m"}
+, ["瞒"]={["first"]="o", ["second"]="l"}
+, ["题"]={["first"]="o", ["second"]="r"}
+, ["暴"]={["first"]="o", ["second"]="u"}
+, ["瞎"]={["first"]="o", ["second"]="k"}
+, ["嘻"]={["first"]="k", ["second"]="k"}
+, ["嘶"]={["first"]="k", ["second"]="j"}
+, ["嘲"]={["first"]="k", ["second"]="o"}
+, ["嘹"]={["first"]="k", ["second"]="x"}
+, ["影"]={["first"]="o", ["second"]="p"}
+, ["踢"]={["first"]="z", ["second"]="w"}
+, ["踏"]={["first"]="z", ["second"]="o"}
+, ["踩"]={["first"]="z", ["second"]="m"}
+, ["踪"]={["first"]="z", ["second"]="x"}
+, ["蝶"]={["first"]="i", ["second"]="m"}
+, ["蝴"]={["first"]="i", ["second"]="o"}
+, ["蝠"]={["first"]="i", ["second"]="t"}
+, ["蝎"]={["first"]="i", ["second"]="v"}
+, ["蝌"]={["first"]="i", ["second"]="u"}
+, ["蝗"]={["first"]="i", ["second"]="w"}
+, ["蝙"]={["first"]="i", ["second"]="c"}
+, ["嘿"]={["first"]="k", ["second"]="h"}
+, ["嘱"]={["first"]="k", ["second"]="y"}
+, ["幢"]={["first"]="j", ["second"]="l"}
+, ["墨"]={["first"]="h", ["second"]="t"}
+, ["镇"]={["first"]="j", ["second"]="b"}
+, ["镐"]={["first"]="j", ["second"]="k"}
+, ["镑"]={["first"]="j", ["second"]="f"}
+, ["靠"]={["first"]="n", ["second"]="f"}
+, ["稽"]={["first"]="h", ["second"]="o"}
+, ["稻"]={["first"]="h", ["second"]="j"}
+, ["黎"]={["first"]="h", ["second"]="u"}
+, ["稿"]={["first"]="h", ["second"]="k"}
+, ["稼"]={["first"]="h", ["second"]="u"}
+, ["箱"]={["first"]="v", ["second"]="o"}
+, ["篓"]={["first"]="v", ["second"]="n"}
+, ["箭"]={["first"]="v", ["second"]="d"}
+, ["篇"]={["first"]="v", ["second"]="c"}
+, ["僵"]={["first"]="r", ["second"]="a"}
+, ["躺"]={["first"]="u", ["second"]="k"}
+, ["僻"]={["first"]="r", ["second"]="u"}
+, ["德"]={["first"]="i", ["second"]="x"}
+, ["艘"]={["first"]="v", ["second"]="y"}
+, ["膝"]={["first"]="o", ["second"]="u"}
+, ["膛"]={["first"]="o", ["second"]="t"}
+, ["鲤"]={["first"]="a", ["second"]="l"}
+, ["鲫"]={["first"]="a", ["second"]="e"}
+, ["熟"]={["first"]="w", ["second"]="h"}
+, ["摩"]={["first"]="g", ["second"]="u"}
+, ["褒"]={["first"]="w", ["second"]="y"}
+, ["瘪"]={["first"]="b", ["second"]="b"}
+, ["瘤"]={["first"]="b", ["second"]="t"}
+, ["瘫"]={["first"]="b", ["second"]="f"}
+, ["凛"]={["first"]="d", ["second"]="x"}
+, ["颜"]={["first"]="i", ["second"]="r"}
+, ["毅"]={["first"]="l", ["second"]="y"}
+, ["糊"]={["first"]="m", ["second"]="o"}
+, ["遵"]={["first"]="z", ["second"]="c"}
+, ["憋"]={["first"]="d", ["second"]="x"}
+, ["潜"]={["first"]="d", ["second"]="o"}
+, ["澎"]={["first"]="d", ["second"]="p"}
+, ["潮"]={["first"]="d", ["second"]="o"}
+, ["潭"]={["first"]="d", ["second"]="u"}
+, ["鲨"]={["first"]="d", ["second"]="a"}
+, ["澳"]={["first"]="d", ["second"]="d"}
+, ["潘"]={["first"]="d", ["second"]="t"}
+, ["澈"]={["first"]="d", ["second"]="w"}
+, ["澜"]={["first"]="d", ["second"]="j"}
+, ["澄"]={["first"]="d", ["second"]="a"}
+, ["懂"]={["first"]="x", ["second"]="v"}
+, ["憔"]={["first"]="x", ["second"]="h"}
+, ["懊"]={["first"]="x", ["second"]="d"}
+, ["憎"]={["first"]="x", ["second"]="o"}
+, ["额"]={["first"]="b", ["second"]="r"}
+, ["翩"]={["first"]="h", ["second"]="x"}
+, ["褥"]={["first"]="p", ["second"]="c"}
+, ["谴"]={["first"]="y", ["second"]="z"}
+, ["鹤"]={["first"]="d", ["second"]="n"}
+, ["憨"]={["first"]="v", ["second"]="x"}
+, ["慰"]={["first"]="u", ["second"]="x"}
+, ["劈"]={["first"]="u", ["second"]="d"}
+, ["履"]={["first"]="u", ["second"]="w"}
+, ["豫"]={["first"]="s", ["second"]="n"}
+, ["缭"]={["first"]="s", ["second"]="x"}
+, ["撼"]={["first"]="f", ["second"]="x"}
+, ["擂"]={["first"]="f", ["second"]="t"}
+, ["操"]={["first"]="f", ["second"]="m"}
+, ["擅"]={["first"]="f", ["second"]="a"}
+, ["燕"]={["first"]="n", ["second"]="h"}
+, ["蕾"]={["first"]="c", ["second"]="t"}
+, ["薯"]={["first"]="c", ["second"]="o"}
+, ["薛"]={["first"]="c", ["second"]="u"}
+, ["薇"]={["first"]="c", ["second"]="w"}
+, ["擎"]={["first"]="c", ["second"]="u"}
+, ["薪"]={["first"]="c", ["second"]="j"}
+, ["薄"]={["first"]="c", ["second"]="c"}
+, ["颠"]={["first"]="u", ["second"]="r"}
+, ["翰"]={["first"]="u", ["second"]="x"}
+, ["噩"]={["first"]="w", ["second"]="k"}
+, ["橱"]={["first"]="m", ["second"]="c"}
+, ["橙"]={["first"]="m", ["second"]="a"}
+, ["橘"]={["first"]="m", ["second"]="k"}
+, ["整"]={["first"]="u", ["second"]="v"}
+, ["融"]={["first"]="a", ["second"]="i"}
+, ["瓢"]={["first"]="x", ["second"]="g"}
+, ["醒"]={["first"]="y", ["second"]="u"}
+, ["霍"]={["first"]="y", ["second"]="f"}
+, ["霎"]={["first"]="y", ["second"]="n"}
+, ["辙"]={["first"]="i", ["second"]="w"}
+, ["冀"]={["first"]="l", ["second"]="b"}
+, ["餐"]={["first"]="l", ["second"]="l"}
+, ["嘴"]={["first"]="k", ["second"]="y"}
+, ["踱"]={["first"]="z", ["second"]="y"}
+, ["蹄"]={["first"]="z", ["second"]="j"}
+, ["蹂"]={["first"]="z", ["second"]="m"}
+, ["蟆"]={["first"]="i", ["second"]="d"}
+, ["螃"]={["first"]="i", ["second"]="f"}
+, ["器"]={["first"]="k", ["second"]="k"}
+, ["噪"]={["first"]="k", ["second"]="m"}
+, ["鹦"]={["first"]="k", ["second"]="n"}
+, ["赠"]={["first"]="k", ["second"]="o"}
+, ["默"]={["first"]="h", ["second"]="q"}
+, ["黔"]={["first"]="h", ["second"]="v"}
+, ["镜"]={["first"]="j", ["second"]="e"}
+, ["赞"]={["first"]="n", ["second"]="r"}
+, ["穆"]={["first"]="h", ["second"]="p"}
+, ["篮"]={["first"]="v", ["second"]="m"}
+, ["篡"]={["first"]="v", ["second"]="s"}
+, ["篷"]={["first"]="v", ["second"]="z"}
+, ["篱"]={["first"]="v", ["second"]="d"}
+, ["儒"]={["first"]="r", ["second"]="e"}
+, ["邀"]={["first"]="z", ["second"]="w"}
+, ["衡"]={["first"]="i", ["second"]="i"}
+, ["膨"]={["first"]="o", ["second"]="p"}
+, ["雕"]={["first"]="k", ["second"]="f"}
+, ["鲸"]={["first"]="a", ["second"]="x"}
+, ["磨"]={["first"]="g", ["second"]="u"}
+, ["瘾"]={["first"]="b", ["second"]="x"}
+, ["瘸"]={["first"]="b", ["second"]="r"}
+, ["凝"]={["first"]="d", ["second"]="r"}
+, ["辨"]={["first"]="l", ["second"]="u"}
+, ["辩"]={["first"]="l", ["second"]="u"}
+, ["糙"]={["first"]="m", ["second"]="z"}
+, ["糖"]={["first"]="m", ["second"]="k"}
+, ["糕"]={["first"]="m", ["second"]="h"}
+, ["燃"]={["first"]="h", ["second"]="h"}
+, ["濒"]={["first"]="d", ["second"]="r"}
+, ["澡"]={["first"]="d", ["second"]="m"}
+, ["激"]={["first"]="d", ["second"]="w"}
+, ["懒"]={["first"]="x", ["second"]="r"}
+, ["憾"]={["first"]="x", ["second"]="x"}
+, ["懈"]={["first"]="x", ["second"]="n"}
+, ["窿"]={["first"]="b", ["second"]="u"}
+, ["壁"]={["first"]="u", ["second"]="t"}
+, ["避"]={["first"]="z", ["second"]="u"}
+, ["缰"]={["first"]="s", ["second"]="a"}
+, ["缴"]={["first"]="s", ["second"]="w"}
+, ["戴"]={["first"]="u", ["second"]="b"}
+, ["擦"]={["first"]="f", ["second"]="x"}
+, ["藉"]={["first"]="c", ["second"]="o"}
+, ["鞠"]={["first"]="g", ["second"]="m"}
+, ["藏"]={["first"]="c", ["second"]="i"}
+, ["藐"]={["first"]="c", ["second"]="e"}
+, ["檬"]={["first"]="m", ["second"]="n"}
+, ["檐"]={["first"]="m", ["second"]="k"}
+, ["檀"]={["first"]="m", ["second"]="a"}
+, ["礁"]={["first"]="u", ["second"]="h"}
+, ["磷"]={["first"]="u", ["second"]="l"}
+, ["霜"]={["first"]="y", ["second"]="o"}
+, ["霞"]={["first"]="y", ["second"]="y"}
+, ["瞭"]={["first"]="o", ["second"]="x"}
+, ["瞧"]={["first"]="o", ["second"]="h"}
+, ["瞬"]={["first"]="o", ["second"]="l"}
+, ["瞳"]={["first"]="o", ["second"]="l"}
+, ["瞩"]={["first"]="o", ["second"]="y"}
+, ["瞪"]={["first"]="o", ["second"]="a"}
+, ["曙"]={["first"]="o", ["second"]="o"}
+, ["蹋"]={["first"]="z", ["second"]="x"}
+, ["蹈"]={["first"]="z", ["second"]="j"}
+, ["螺"]={["first"]="i", ["second"]="x"}
+, ["蟋"]={["first"]="i", ["second"]="x"}
+, ["蟀"]={["first"]="i", ["second"]="u"}
+, ["嚎"]={["first"]="k", ["second"]="u"}
+, ["赡"]={["first"]="k", ["second"]="k"}
+, ["穗"]={["first"]="h", ["second"]="x"}
+, ["魏"]={["first"]="h", ["second"]="g"}
+, ["簧"]={["first"]="v", ["second"]="b"}
+, ["簇"]={["first"]="v", ["second"]="u"}
+, ["繁"]={["first"]="p", ["second"]="x"}
+, ["徽"]={["first"]="i", ["second"]="w"}
+, ["爵"]={["first"]="p", ["second"]="c"}
+, ["朦"]={["first"]="o", ["second"]="n"}
+, ["臊"]={["first"]="o", ["second"]="m"}
+, ["鳄"]={["first"]="a", ["second"]="k"}
+, ["癌"]={["first"]="b", ["second"]="e"}
+, ["辫"]={["first"]="l", ["second"]="u"}
+, ["赢"]={["first"]="w", ["second"]="f"}
+, ["糟"]={["first"]="m", ["second"]="o"}
+, ["糠"]={["first"]="m", ["second"]="n"}
+, ["燥"]={["first"]="h", ["second"]="m"}
+, ["懦"]={["first"]="x", ["second"]="e"}
+, ["豁"]={["first"]="b", ["second"]="k"}
+, ["臀"]={["first"]="u", ["second"]="o"}
+, ["臂"]={["first"]="u", ["second"]="o"}
+, ["翼"]={["first"]="x", ["second"]="b"}
+, ["骤"]={["first"]="m", ["second"]="n"}
+, ["藕"]={["first"]="c", ["second"]="y"}
+, ["鞭"]={["first"]="g", ["second"]="g"}
+, ["藤"]={["first"]="c", ["second"]="u"}
+, ["覆"]={["first"]="x", ["second"]="w"}
+, ["瞻"]={["first"]="o", ["second"]="k"}
+, ["蹦"]={["first"]="z", ["second"]="o"}
+, ["嚣"]={["first"]="k", ["second"]="k"}
+, ["镰"]={["first"]="j", ["second"]="n"}
+, ["翻"]={["first"]="p", ["second"]="x"}
+, ["鳍"]={["first"]="a", ["second"]="o"}
+, ["鹰"]={["first"]="g", ["second"]="n"}
+, ["瀑"]={["first"]="d", ["second"]="u"}
+, ["襟"]={["first"]="p", ["second"]="x"}
+, ["璧"]={["first"]="u", ["second"]="y"}
+, ["戳"]={["first"]="x", ["second"]="g"}
+, ["孽"]={["first"]="c", ["second"]="z"}
+, ["警"]={["first"]="c", ["second"]="k"}
+, ["蘑"]={["first"]="c", ["second"]="u"}
+, ["藻"]={["first"]="c", ["second"]="m"}
+, ["攀"]={["first"]="m", ["second"]="u"}
+, ["曝"]={["first"]="o", ["second"]="u"}
+, ["蹲"]={["first"]="z", ["second"]="c"}
+, ["蹭"]={["first"]="z", ["second"]="o"}
+, ["蹬"]={["first"]="z", ["second"]="a"}
+, ["巅"]={["first"]="e", ["second"]="r"}
+, ["簸"]={["first"]="v", ["second"]="y"}
+, ["簿"]={["first"]="v", ["second"]="c"}
+, ["蟹"]={["first"]="d", ["second"]="i"}
+, ["颤"]={["first"]="w", ["second"]="r"}
+, ["靡"]={["first"]="g", ["second"]="f"}
+, ["癣"]={["first"]="b", ["second"]="y"}
+, ["瓣"]={["first"]="l", ["second"]="u"}
+, ["羹"]={["first"]="y", ["second"]="d"}
+, ["鳖"]={["first"]="d", ["second"]="a"}
+, ["爆"]={["first"]="h", ["second"]="u"}
+, ["疆"]={["first"]="g", ["second"]="a"}
+, ["鬓"]={["first"]="a", ["second"]="b"}
+, ["壤"]={["first"]="t", ["second"]="y"}
+, ["馨"]={["first"]="u", ["second"]="o"}
+, ["耀"]={["first"]="x", ["second"]="f"}
+, ["躁"]={["first"]="z", ["second"]="m"}
+, ["蠕"]={["first"]="i", ["second"]="e"}
+, ["嚼"]={["first"]="k", ["second"]="c"}
+, ["嚷"]={["first"]="k", ["second"]="y"}
+, ["巍"]={["first"]="e", ["second"]="g"}
+, ["籍"]={["first"]="v", ["second"]="o"}
+, ["鳞"]={["first"]="a", ["second"]="l"}
+, ["魔"]={["first"]="g", ["second"]="g"}
+, ["糯"]={["first"]="m", ["second"]="e"}
+, ["灌"]={["first"]="d", ["second"]="f"}
+, ["譬"]={["first"]="u", ["second"]="k"}
+, ["蠢"]={["first"]="f", ["second"]="i"}
+, ["霸"]={["first"]="y", ["second"]="o"}
+, ["露"]={["first"]="y", ["second"]="k"}
+, ["霹"]={["first"]="y", ["second"]="u"}
+, ["躏"]={["first"]="z", ["second"]="f"}
+, ["黯"]={["first"]="h", ["second"]="o"}
+, ["髓"]={["first"]="g", ["second"]="z"}
+, ["赣"]={["first"]="l", ["second"]="r"}
+, ["囊"]={["first"]="a", ["second"]="y"}
+, ["镶"]={["first"]="j", ["second"]="y"}
+, ["瓤"]={["first"]="w", ["second"]="g"}
+, ["罐"]={["first"]="f", ["second"]="f"}
+, ["矗"]={["first"]="u", ["second"]="q"}
+, ["乂"]={["first"]="p", ["second"]="n"}
+, ["乜"]={["first"]="v", ["second"]="v"}
+, ["兀"]={["first"]="a", ["second"]="e"}
+, ["弋"]={["first"]="a", ["second"]="d"}
+, ["孑"]={["first"]="v", ["second"]="a"}
+, ["孓"]={["first"]="v", ["second"]="n"}
+, ["幺"]={["first"]="v", ["second"]="s"}
+, ["亓"]={["first"]="e", ["second"]="l"}
+, ["韦"]={["first"]="a", ["second"]="l"}
+, ["廿"]={["first"]="c", ["second"]="a"}
+, ["丏"]={["first"]="a", ["second"]="v"}
+, ["卅"]={["first"]="a", ["second"]="l"}
+, ["仄"]={["first"]="i", ["second"]="r"}
+, ["厄"]={["first"]="i", ["second"]="v"}
+, ["仃"]={["first"]="r", ["second"]="d"}
+, ["仉"]={["first"]="r", ["second"]="j"}
+, ["仂"]={["first"]="r", ["second"]="l"}
+, ["兮"]={["first"]="b", ["second"]="v"}
+, ["刈"]={["first"]="x", ["second"]="d"}
+, ["爻"]={["first"]="x", ["second"]="x"}
+, ["卞"]={["first"]="d", ["second"]="x"}
+, ["闩"]={["first"]="m", ["second"]="a"}
+, ["讣"]={["first"]="y", ["second"]="b"}
+, ["尹"]={["first"]="v", ["second"]="p"}
+, ["夬"]={["first"]="v", ["second"]="n"}
+, ["爿"]={["first"]="v", ["second"]="p"}
+, ["毋"]={["first"]="v", ["second"]="a"}
+, ["邗"]={["first"]="g", ["second"]="e"}
+, ["邛"]={["first"]="g", ["second"]="e"}
+, ["艽"]={["first"]="c", ["second"]="j"}
+, ["艿"]={["first"]="c", ["second"]="n"}
+, ["札"]={["first"]="m", ["second"]="v"}
+, ["叵"]={["first"]="k", ["second"]="k"}
+, ["匝"]={["first"]="k", ["second"]="j"}
+, ["丕"]={["first"]="b", ["second"]="a"}
+, ["匜"]={["first"]="k", ["second"]="y"}
+, ["劢"]={["first"]="w", ["second"]="l"}
+, ["卟"]={["first"]="k", ["second"]="b"}
+, ["叱"]={["first"]="k", ["second"]="b"}
+, ["叻"]={["first"]="k", ["second"]="l"}
+, ["仨"]={["first"]="r", ["second"]="s"}
+, ["仕"]={["first"]="r", ["second"]="u"}
+, ["仟"]={["first"]="r", ["second"]="q"}
+, ["仡"]={["first"]="r", ["second"]="q"}
+, ["仫"]={["first"]="r", ["second"]="m"}
+, ["仞"]={["first"]="r", ["second"]="r"}
+, ["卮"]={["first"]="p", ["second"]="v"}
+, ["氐"]={["first"]="u", ["second"]="d"}
+, ["犰"]={["first"]="q", ["second"]="j"}
+, ["刍"]={["first"]="d", ["second"]="e"}
+, ["邝"]={["first"]="g", ["second"]="e"}
+, ["邙"]={["first"]="w", ["second"]="e"}
+, ["汀"]={["first"]="d", ["second"]="d"}
+, ["讦"]={["first"]="y", ["second"]="g"}
+, ["讧"]={["first"]="y", ["second"]="g"}
+, ["讪"]={["first"]="y", ["second"]="e"}
+, ["讫"]={["first"]="y", ["second"]="q"}
+, ["尻"]={["first"]="u", ["second"]="j"}
+, ["阡"]={["first"]="e", ["second"]="q"}
+, ["尕"]={["first"]="n", ["second"]="x"}
+, ["弁"]={["first"]="s", ["second"]="c"}
+, ["驭"]={["first"]="m", ["second"]="y"}
+, ["匡"]={["first"]="k", ["second"]="w"}
+, ["耒"]={["first"]="f", ["second"]="n"}
+, ["玎"]={["first"]="w", ["second"]="d"}
+, ["玑"]={["first"]="w", ["second"]="j"}
+, ["邢"]={["first"]="k", ["second"]="e"}
+, ["圩"]={["first"]="t", ["second"]="y"}
+, ["圬"]={["first"]="t", ["second"]="k"}
+, ["圭"]={["first"]="t", ["second"]="t"}
+, ["扦"]={["first"]="f", ["second"]="q"}
+, ["圪"]={["first"]="t", ["second"]="q"}
+, ["圳"]={["first"]="t", ["second"]="i"}
+, ["圹"]={["first"]="t", ["second"]="g"}
+, ["扪"]={["first"]="f", ["second"]="m"}
+, ["圮"]={["first"]="t", ["second"]="j"}
+, ["圯"]={["first"]="t", ["second"]="s"}
+, ["芊"]={["first"]="c", ["second"]="q"}
+, ["芍"]={["first"]="c", ["second"]="u"}
+, ["芄"]={["first"]="c", ["second"]="w"}
+, ["芨"]={["first"]="c", ["second"]="j"}
+, ["芑"]={["first"]="c", ["second"]="j"}
+, ["芎"]={["first"]="c", ["second"]="g"}
+, ["芗"]={["first"]="c", ["second"]="x"}
+, ["亘"]={["first"]="a", ["second"]="a"}
+, ["厍"]={["first"]="i", ["second"]="i"}
+, ["夼"]={["first"]="d", ["second"]="i"}
+, ["戍"]={["first"]="w", ["second"]="d"}
+, ["尥"]={["first"]="y", ["second"]="u"}
+, ["乩"]={["first"]="l", ["second"]="v"}
+, ["旯"]={["first"]="o", ["second"]="j"}
+, ["曳"]={["first"]="l", ["second"]="p"}
+, ["岌"]={["first"]="e", ["second"]="j"}
+, ["屺"]={["first"]="e", ["second"]="j"}
+, ["凼"]={["first"]="u", ["second"]="k"}
+, ["囡"]={["first"]="k", ["second"]="n"}
+, ["钇"]={["first"]="j", ["second"]="v"}
+, ["缶"]={["first"]="w", ["second"]="k"}
+, ["氘"]={["first"]="q", ["second"]="l"}
+, ["氖"]={["first"]="q", ["second"]="n"}
+, ["牝"]={["first"]="n", ["second"]="b"}
+, ["伎"]={["first"]="r", ["second"]="y"}
+, ["伛"]={["first"]="r", ["second"]="x"}
+, ["伢"]={["first"]="r", ["second"]="y"}
+, ["佤"]={["first"]="r", ["second"]="w"}
+, ["仵"]={["first"]="r", ["second"]="w"}
+, ["伥"]={["first"]="r", ["second"]="i"}
+, ["伧"]={["first"]="r", ["second"]="v"}
+, ["伉"]={["first"]="r", ["second"]="j"}
+, ["伫"]={["first"]="r", ["second"]="a"}
+, ["囟"]={["first"]="p", ["second"]="x"}
+, ["汆"]={["first"]="r", ["second"]="u"}
+, ["刖"]={["first"]="o", ["second"]="d"}
+, ["夙"]={["first"]="j", ["second"]="d"}
+, ["旮"]={["first"]="j", ["second"]="o"}
+, ["刎"]={["first"]="w", ["second"]="d"}
+, ["犷"]={["first"]="q", ["second"]="g"}
+, ["犸"]={["first"]="q", ["second"]="m"}
+, ["舛"]={["first"]="x", ["second"]="l"}
+, ["凫"]={["first"]="p", ["second"]="j"}
+, ["邬"]={["first"]="w", ["second"]="e"}
+, ["饧"]={["first"]="u", ["second"]="p"}
+, ["汕"]={["first"]="d", ["second"]="e"}
+, ["汔"]={["first"]="d", ["second"]="q"}
+, ["汐"]={["first"]="d", ["second"]="x"}
+, ["汲"]={["first"]="d", ["second"]="j"}
+, ["汜"]={["first"]="d", ["second"]="s"}
+, ["汊"]={["first"]="d", ["second"]="i"}
+, ["忖"]={["first"]="x", ["second"]="c"}
+, ["忏"]={["first"]="x", ["second"]="q"}
+, ["讴"]={["first"]="y", ["second"]="x"}
+, ["讵"]={["first"]="y", ["second"]="j"}
+, ["祁"]={["first"]="p", ["second"]="e"}
+, ["讷"]={["first"]="y", ["second"]="n"}
+, ["聿"]={["first"]="v", ["second"]="l"}
+, ["艮"]={["first"]="e", ["second"]="n"}
+, ["厾"]={["first"]="v", ["second"]="s"}
+, ["阱"]={["first"]="e", ["second"]="j"}
+, ["阮"]={["first"]="e", ["second"]="e"}
+, ["阪"]={["first"]="e", ["second"]="y"}
+, ["丞"]={["first"]="l", ["second"]="a"}
+, ["妁"]={["first"]="n", ["second"]="u"}
+, ["牟"]={["first"]="s", ["second"]="n"}
+, ["纡"]={["first"]="s", ["second"]="y"}
+, ["纣"]={["first"]="s", ["second"]="c"}
+, ["纥"]={["first"]="s", ["second"]="q"}
+, ["纨"]={["first"]="s", ["second"]="w"}
+, ["玕"]={["first"]="w", ["second"]="g"}
+, ["玙"]={["first"]="w", ["second"]="y"}
+, ["抟"]={["first"]="f", ["second"]="v"}
+, ["抔"]={["first"]="f", ["second"]="b"}
+, ["圻"]={["first"]="t", ["second"]="j"}
+, ["坂"]={["first"]="t", ["second"]="y"}
+, ["坍"]={["first"]="t", ["second"]="d"}
+, ["坞"]={["first"]="t", ["second"]="w"}
+, ["抃"]={["first"]="f", ["second"]="b"}
+, ["抉"]={["first"]="f", ["second"]="g"}
+, ["㧐"]={["first"]="f", ["second"]="y"}
+, ["芫"]={["first"]="c", ["second"]="e"}
+, ["邯"]={["first"]="g", ["second"]="e"}
+, ["芸"]={["first"]="c", ["second"]="s"}
+, ["芾"]={["first"]="c", ["second"]="l"}
+, ["苈"]={["first"]="c", ["second"]="l"}
+, ["苣"]={["first"]="c", ["second"]="j"}
+, ["芷"]={["first"]="c", ["second"]="v"}
+, ["芮"]={["first"]="c", ["second"]="n"}
+, ["苋"]={["first"]="c", ["second"]="e"}
+, ["芼"]={["first"]="c", ["second"]="m"}
+, ["苌"]={["first"]="c", ["second"]="i"}
+, ["苁"]={["first"]="c", ["second"]="r"}
+, ["芩"]={["first"]="c", ["second"]="v"}
+, ["芪"]={["first"]="c", ["second"]="u"}
+, ["芡"]={["first"]="c", ["second"]="r"}
+, ["芟"]={["first"]="c", ["second"]="y"}
+, ["苄"]={["first"]="c", ["second"]="b"}
+, ["苎"]={["first"]="c", ["second"]="a"}
+, ["苡"]={["first"]="c", ["second"]="r"}
+, ["杌"]={["first"]="m", ["second"]="w"}
+, ["杓"]={["first"]="m", ["second"]="u"}
+, ["杞"]={["first"]="m", ["second"]="j"}
+, ["杈"]={["first"]="m", ["second"]="i"}
+, ["忑"]={["first"]="x", ["second"]="x"}
+, ["孛"]={["first"]="u", ["second"]="z"}
+, ["邴"]={["first"]="b", ["second"]="e"}
+, ["邳"]={["first"]="p", ["second"]="e"}
+, ["矶"]={["first"]="u", ["second"]="j"}
+, ["奁"]={["first"]="d", ["second"]="x"}
+, ["豕"]={["first"]="a", ["second"]="n"}
+, ["忒"]={["first"]="y", ["second"]="x"}
+, ["欤"]={["first"]="y", ["second"]="r"}
+, ["轫"]={["first"]="i", ["second"]="r"}
+, ["迓"]={["first"]="z", ["second"]="y"}
+, ["邶"]={["first"]="l", ["second"]="e"}
+, ["忐"]={["first"]="u", ["second"]="x"}
+, ["卣"]={["first"]="l", ["second"]="a"}
+, ["邺"]={["first"]="y", ["second"]="e"}
+, ["旰"]={["first"]="o", ["second"]="g"}
+, ["呋"]={["first"]="k", ["second"]="f"}
+, ["呒"]={["first"]="k", ["second"]="w"}
+, ["呓"]={["first"]="k", ["second"]="v"}
+, ["呔"]={["first"]="k", ["second"]="t"}
+, ["呖"]={["first"]="k", ["second"]="l"}
+, ["呃"]={["first"]="k", ["second"]="v"}
+, ["旸"]={["first"]="o", ["second"]="p"}
+, ["吡"]={["first"]="k", ["second"]="b"}
+, ["町"]={["first"]="t", ["second"]="d"}
+, ["虬"]={["first"]="i", ["second"]="v"}
+, ["呗"]={["first"]="k", ["second"]="r"}
+, ["吽"]={["first"]="k", ["second"]="n"}
+, ["吣"]={["first"]="k", ["second"]="x"}
+, ["吲"]={["first"]="k", ["second"]="l"}
+, ["帏"]={["first"]="j", ["second"]="w"}
+, ["岐"]={["first"]="e", ["second"]="y"}
+, ["岈"]={["first"]="e", ["second"]="y"}
+, ["岘"]={["first"]="e", ["second"]="e"}
+, ["岑"]={["first"]="e", ["second"]="v"}
+, ["岚"]={["first"]="e", ["second"]="x"}
+, ["兕"]={["first"]="a", ["second"]="e"}
+, ["囵"]={["first"]="k", ["second"]="b"}
+, ["囫"]={["first"]="k", ["second"]="w"}
+, ["钊"]={["first"]="j", ["second"]="d"}
+, ["钋"]={["first"]="j", ["second"]="b"}
+, ["钌"]={["first"]="j", ["second"]="l"}
+, ["迕"]={["first"]="z", ["second"]="w"}
+, ["氙"]={["first"]="q", ["second"]="e"}
+, ["氚"]={["first"]="q", ["second"]="i"}
+, ["牤"]={["first"]="n", ["second"]="w"}
+, ["佞"]={["first"]="r", ["second"]="n"}
+, ["邱"]={["first"]="q", ["second"]="e"}
+, ["攸"]={["first"]="r", ["second"]="w"}
+, ["佚"]={["first"]="r", ["second"]="u"}
+, ["佝"]={["first"]="r", ["second"]="k"}
+, ["佟"]={["first"]="r", ["second"]="d"}
+, ["佗"]={["first"]="r", ["second"]="b"}
+, ["伽"]={["first"]="r", ["second"]="k"}
+, ["彷"]={["first"]="i", ["second"]="f"}
+, ["佘"]={["first"]="r", ["second"]="x"}
+, ["佥"]={["first"]="r", ["second"]="a"}
+, ["孚"]={["first"]="p", ["second"]="z"}
+, ["豸"]={["first"]="p", ["second"]="p"}
+, ["坌"]={["first"]="b", ["second"]="t"}
+, ["肟"]={["first"]="o", ["second"]="k"}
+, ["邸"]={["first"]="d", ["second"]="e"}
+, ["奂"]={["first"]="d", ["second"]="d"}
+, ["劬"]={["first"]="b", ["second"]="l"}
+, ["狄"]={["first"]="q", ["second"]="h"}
+, ["狁"]={["first"]="q", ["second"]="e"}
+, ["鸠"]={["first"]="j", ["second"]="n"}
+, ["邹"]={["first"]="d", ["second"]="e"}
+, ["饨"]={["first"]="u", ["second"]="t"}
+, ["饩"]={["first"]="u", ["second"]="q"}
+, ["饪"]={["first"]="u", ["second"]="r"}
+, ["饫"]={["first"]="u", ["second"]="y"}
+, ["饬"]={["first"]="u", ["second"]="l"}
+, ["亨"]={["first"]="w", ["second"]="l"}
+, ["庑"]={["first"]="g", ["second"]="w"}
+, ["庋"]={["first"]="g", ["second"]="y"}
+, ["疔"]={["first"]="b", ["second"]="d"}
+, ["疖"]={["first"]="b", ["second"]="e"}
+, ["肓"]={["first"]="w", ["second"]="o"}
+, ["闱"]={["first"]="m", ["second"]="w"}
+, ["闳"]={["first"]="m", ["second"]="s"}
+, ["闵"]={["first"]="m", ["second"]="w"}
+, ["羌"]={["first"]="y", ["second"]="v"}
+, ["炀"]={["first"]="h", ["second"]="p"}
+, ["沣"]={["first"]="d", ["second"]="f"}
+, ["沅"]={["first"]="d", ["second"]="e"}
+, ["沔"]={["first"]="d", ["second"]="m"}
+, ["沤"]={["first"]="d", ["second"]="x"}
+, ["沌"]={["first"]="d", ["second"]="t"}
+, ["沏"]={["first"]="d", ["second"]="d"}
+, ["沚"]={["first"]="d", ["second"]="v"}
+, ["汩"]={["first"]="d", ["second"]="o"}
+, ["汨"]={["first"]="d", ["second"]="o"}
+, ["沂"]={["first"]="d", ["second"]="j"}
+, ["汾"]={["first"]="d", ["second"]="d"}
+, ["沨"]={["first"]="d", ["second"]="x"}
+, ["汴"]={["first"]="d", ["second"]="b"}
+, ["汶"]={["first"]="d", ["second"]="w"}
+, ["沆"]={["first"]="d", ["second"]="j"}
+, ["沩"]={["first"]="d", ["second"]="w"}
+, ["泐"]={["first"]="d", ["second"]="l"}
+, ["怃"]={["first"]="x", ["second"]="w"}
+, ["怄"]={["first"]="x", ["second"]="x"}
+, ["忡"]={["first"]="x", ["second"]="v"}
+, ["忤"]={["first"]="x", ["second"]="w"}
+, ["忾"]={["first"]="x", ["second"]="q"}
+, ["怅"]={["first"]="x", ["second"]="i"}
+, ["忻"]={["first"]="x", ["second"]="j"}
+, ["忪"]={["first"]="x", ["second"]="s"}
+, ["怆"]={["first"]="x", ["second"]="v"}
+, ["忭"]={["first"]="x", ["second"]="b"}
+, ["忸"]={["first"]="x", ["second"]="i"}
+, ["诂"]={["first"]="y", ["second"]="k"}
+, ["诃"]={["first"]="y", ["second"]="k"}
+, ["诅"]={["first"]="y", ["second"]="q"}
+, ["诋"]={["first"]="y", ["second"]="d"}
+, ["诌"]={["first"]="y", ["second"]="e"}
+, ["诏"]={["first"]="y", ["second"]="k"}
+, ["诒"]={["first"]="y", ["second"]="k"}
+, ["孜"]={["first"]="z", ["second"]="w"}
+, ["陇"]={["first"]="e", ["second"]="l"}
+, ["陀"]={["first"]="e", ["second"]="b"}
+, ["陂"]={["first"]="e", ["second"]="y"}
+, ["陉"]={["first"]="e", ["second"]="g"}
+, ["妍"]={["first"]="n", ["second"]="k"}
+, ["妩"]={["first"]="n", ["second"]="w"}
+, ["妪"]={["first"]="n", ["second"]="x"}
+, ["妣"]={["first"]="n", ["second"]="b"}
+, ["妊"]={["first"]="n", ["second"]="r"}
+, ["妗"]={["first"]="n", ["second"]="v"}
+, ["妫"]={["first"]="n", ["second"]="w"}
+, ["妞"]={["first"]="n", ["second"]="i"}
+, ["姒"]={["first"]="n", ["second"]="r"}
+, ["妤"]={["first"]="n", ["second"]="l"}
+, ["邵"]={["first"]="d", ["second"]="e"}
+, ["劭"]={["first"]="d", ["second"]="l"}
+, ["刭"]={["first"]="v", ["second"]="d"}
+, ["甬"]={["first"]="s", ["second"]="y"}
+, ["邰"]={["first"]="s", ["second"]="e"}
+, ["纭"]={["first"]="s", ["second"]="s"}
+, ["纰"]={["first"]="s", ["second"]="b"}
+, ["纴"]={["first"]="s", ["second"]="r"}
+, ["纶"]={["first"]="s", ["second"]="b"}
+, ["纾"]={["first"]="s", ["second"]="l"}
+, ["玮"]={["first"]="w", ["second"]="w"}
+, ["玡"]={["first"]="w", ["second"]="y"}
+, ["玭"]={["first"]="w", ["second"]="b"}
+, ["玠"]={["first"]="w", ["second"]="l"}
+, ["玢"]={["first"]="w", ["second"]="d"}
+, ["玥"]={["first"]="w", ["second"]="o"}
+, ["玦"]={["first"]="w", ["second"]="g"}
+, ["盂"]={["first"]="y", ["second"]="m"}
+, ["忝"]={["first"]="t", ["second"]="x"}
+, ["匦"]={["first"]="k", ["second"]="j"}
+, ["坩"]={["first"]="t", ["second"]="g"}
+, ["抨"]={["first"]="f", ["second"]="p"}
+, ["拤"]={["first"]="f", ["second"]="b"}
+, ["坫"]={["first"]="t", ["second"]="k"}
+, ["拈"]={["first"]="f", ["second"]="k"}
+, ["垆"]={["first"]="t", ["second"]="u"}
+, ["抻"]={["first"]="f", ["second"]="u"}
+, ["劼"]={["first"]="u", ["second"]="l"}
+, ["拃"]={["first"]="f", ["second"]="v"}
+, ["拊"]={["first"]="f", ["second"]="c"}
+, ["坼"]={["first"]="t", ["second"]="i"}
+, ["坻"]={["first"]="t", ["second"]="d"}
+, ["㧟"]={["first"]="f", ["second"]="k"}
+, ["坨"]={["first"]="t", ["second"]="b"}
+, ["坭"]={["first"]="t", ["second"]="b"}
+, ["抿"]={["first"]="f", ["second"]="m"}
+, ["坳"]={["first"]="t", ["second"]="l"}
+, ["耶"]={["first"]="e", ["second"]="e"}
+, ["苷"]={["first"]="c", ["second"]="g"}
+, ["苯"]={["first"]="c", ["second"]="b"}
+, ["苤"]={["first"]="c", ["second"]="p"}
+, ["茏"]={["first"]="c", ["second"]="l"}
+, ["苫"]={["first"]="c", ["second"]="k"}
+, ["苜"]={["first"]="c", ["second"]="o"}
+, ["苴"]={["first"]="c", ["second"]="q"}
+, ["苒"]={["first"]="c", ["second"]="r"}
+, ["苘"]={["first"]="c", ["second"]="k"}
+, ["茌"]={["first"]="c", ["second"]="u"}
+, ["苻"]={["first"]="c", ["second"]="c"}
+, ["苓"]={["first"]="c", ["second"]="s"}
+, ["茚"]={["first"]="c", ["second"]="e"}
+, ["茆"]={["first"]="c", ["second"]="e"}
+, ["茑"]={["first"]="c", ["second"]="n"}
+, ["茓"]={["first"]="c", ["second"]="b"}
+, ["茔"]={["first"]="c", ["second"]="t"}
+, ["茕"]={["first"]="c", ["second"]="u"}
+, ["茀"]={["first"]="c", ["second"]="f"}
+, ["苕"]={["first"]="c", ["second"]="k"}
+, ["枥"]={["first"]="m", ["second"]="l"}
+, ["枇"]={["first"]="m", ["second"]="b"}
+, ["杪"]={["first"]="m", ["second"]="u"}
+, ["杳"]={["first"]="m", ["second"]="o"}
+, ["枧"]={["first"]="m", ["second"]="e"}
+, ["杵"]={["first"]="m", ["second"]="w"}
+, ["枨"]={["first"]="m", ["second"]="i"}
+, ["枞"]={["first"]="m", ["second"]="r"}
+, ["枋"]={["first"]="m", ["second"]="f"}
+, ["杻"]={["first"]="m", ["second"]="i"}
+, ["杷"]={["first"]="m", ["second"]="b"}
+, ["杼"]={["first"]="m", ["second"]="l"}
+, ["矸"]={["first"]="u", ["second"]="g"}
+, ["砀"]={["first"]="u", ["second"]="p"}
+, ["刳"]={["first"]="d", ["second"]="d"}
+, ["奄"]={["first"]="d", ["second"]="d"}
+, ["瓯"]={["first"]="k", ["second"]="w"}
+, ["殁"]={["first"]="d", ["second"]="y"}
+, ["郏"]={["first"]="j", ["second"]="e"}
+, ["轭"]={["first"]="i", ["second"]="v"}
+, ["郅"]={["first"]="a", ["second"]="e"}
+, ["鸢"]={["first"]="y", ["second"]="n"}
+, ["盱"]={["first"]="o", ["second"]="y"}
+, ["昊"]={["first"]="o", ["second"]="t"}
+, ["昙"]={["first"]="o", ["second"]="s"}
+, ["杲"]={["first"]="o", ["second"]="m"}
+, ["昃"]={["first"]="o", ["second"]="r"}
+, ["咂"]={["first"]="k", ["second"]="j"}
+, ["呸"]={["first"]="k", ["second"]="p"}
+, ["昕"]={["first"]="o", ["second"]="j"}
+, ["昀"]={["first"]="o", ["second"]="d"}
+, ["旻"]={["first"]="o", ["second"]="w"}
+, ["昉"]={["first"]="o", ["second"]="f"}
+, ["炅"]={["first"]="o", ["second"]="h"}
+, ["咔"]={["first"]="k", ["second"]="b"}
+, ["畀"]={["first"]="t", ["second"]="l"}
+, ["虮"]={["first"]="i", ["second"]="j"}
+, ["咀"]={["first"]="k", ["second"]="q"}
+, ["呷"]={["first"]="k", ["second"]="j"}
+, ["黾"]={["first"]="k", ["second"]="d"}
+, ["呱"]={["first"]="k", ["second"]="g"}
+, ["呤"]={["first"]="k", ["second"]="s"}
+, ["咚"]={["first"]="k", ["second"]="d"}
+, ["咆"]={["first"]="k", ["second"]="s"}
+, ["咛"]={["first"]="k", ["second"]="d"}
+, ["呶"]={["first"]="k", ["second"]="y"}
+, ["呣"]={["first"]="k", ["second"]="m"}
+, ["呦"]={["first"]="k", ["second"]="l"}
+, ["咝"]={["first"]="k", ["second"]="s"}
+, ["岢"]={["first"]="e", ["second"]="k"}
+, ["岿"]={["first"]="e", ["second"]="e"}
+, ["岬"]={["first"]="e", ["second"]="j"}
+, ["岫"]={["first"]="e", ["second"]="y"}
+, ["帙"]={["first"]="j", ["second"]="u"}
+, ["岣"]={["first"]="e", ["second"]="k"}
+, ["峁"]={["first"]="e", ["second"]="e"}
+, ["刿"]={["first"]="e", ["second"]="d"}
+, ["迥"]={["first"]="z", ["second"]="k"}
+, ["岷"]={["first"]="e", ["second"]="m"}
+, ["剀"]={["first"]="e", ["second"]="d"}
+, ["帔"]={["first"]="j", ["second"]="y"}
+, ["峄"]={["first"]="e", ["second"]="l"}
+, ["沓"]={["first"]="u", ["second"]="o"}
+, ["囹"]={["first"]="k", ["second"]="s"}
+, ["罔"]={["first"]="k", ["second"]="w"}
+, ["钍"]={["first"]="j", ["second"]="t"}
+, ["钎"]={["first"]="j", ["second"]="q"}
+, ["钏"]={["first"]="j", ["second"]="i"}
+, ["钒"]={["first"]="j", ["second"]="f"}
+, ["钕"]={["first"]="j", ["second"]="n"}
+, ["钗"]={["first"]="j", ["second"]="i"}
+, ["邾"]={["first"]="v", ["second"]="e"}
+, ["迮"]={["first"]="z", ["second"]="v"}
+, ["牦"]={["first"]="n", ["second"]="m"}
+, ["竺"]={["first"]="v", ["second"]="e"}
+, ["迤"]={["first"]="z", ["second"]="y"}
+, ["佶"]={["first"]="r", ["second"]="k"}
+, ["佬"]={["first"]="r", ["second"]="b"}
+, ["佰"]={["first"]="r", ["second"]="b"}
+, ["侑"]={["first"]="r", ["second"]="o"}
+, ["侉"]={["first"]="r", ["second"]="k"}
+, ["臾"]={["first"]="p", ["second"]="n"}
+, ["岱"]={["first"]="r", ["second"]="e"}
+, ["侗"]={["first"]="r", ["second"]="k"}
+, ["侃"]={["first"]="r", ["second"]="v"}
+, ["侏"]={["first"]="r", ["second"]="v"}
+, ["侩"]={["first"]="r", ["second"]="s"}
+, ["佻"]={["first"]="r", ["second"]="d"}
+, ["佾"]={["first"]="r", ["second"]="o"}
+, ["侪"]={["first"]="r", ["second"]="l"}
+, ["佼"]={["first"]="r", ["second"]="x"}
+, ["佯"]={["first"]="r", ["second"]="y"}
+, ["侬"]={["first"]="r", ["second"]="n"}
+, ["帛"]={["first"]="b", ["second"]="j"}
+, ["阜"]={["first"]="p", ["second"]="u"}
+, ["侔"]={["first"]="r", ["second"]="n"}
+, ["徂"]={["first"]="i", ["second"]="q"}
+, ["刽"]={["first"]="r", ["second"]="d"}
+, ["郄"]={["first"]="x", ["second"]="e"}
+, ["怂"]={["first"]="r", ["second"]="x"}
+, ["籴"]={["first"]="r", ["second"]="m"}
+, ["瓮"]={["first"]="b", ["second"]="w"}
+, ["戗"]={["first"]="r", ["second"]="g"}
+, ["肼"]={["first"]="o", ["second"]="j"}
+, ["䏝"]={["first"]="o", ["second"]="v"}
+, ["肽"]={["first"]="o", ["second"]="t"}
+, ["肱"]={["first"]="o", ["second"]="s"}
+, ["肫"]={["first"]="o", ["second"]="t"}
+, ["剁"]={["first"]="j", ["second"]="d"}
+, ["迩"]={["first"]="z", ["second"]="x"}
+, ["郇"]={["first"]="b", ["second"]="e"}
+, ["狙"]={["first"]="q", ["second"]="q"}
+, ["狎"]={["first"]="q", ["second"]="j"}
+, ["狍"]={["first"]="q", ["second"]="s"}
+, ["狒"]={["first"]="q", ["second"]="f"}
+, ["咎"]={["first"]="w", ["second"]="k"}
+, ["炙"]={["first"]="p", ["second"]="h"}
+, ["枭"]={["first"]="p", ["second"]="m"}
+, ["饯"]={["first"]="u", ["second"]="j"}
+, ["饴"]={["first"]="u", ["second"]="k"}
+, ["冽"]={["first"]="d", ["second"]="d"}
+, ["冼"]={["first"]="d", ["second"]="e"}
+, ["庖"]={["first"]="g", ["second"]="s"}
+, ["疠"]={["first"]="b", ["second"]="w"}
+, ["疝"]={["first"]="b", ["second"]="e"}
+, ["疡"]={["first"]="b", ["second"]="p"}
+, ["兖"]={["first"]="w", ["second"]="e"}
+, ["妾"]={["first"]="l", ["second"]="n"}
+, ["劾"]={["first"]="w", ["second"]="l"}
+, ["炜"]={["first"]="h", ["second"]="w"}
+, ["𬉼"]={["first"]="h", ["second"]="x"}
+, ["炖"]={["first"]="h", ["second"]="t"}
+, ["炘"]={["first"]="h", ["second"]="j"}
+, ["炝"]={["first"]="h", ["second"]="v"}
+, ["炔"]={["first"]="h", ["second"]="g"}
+, ["泔"]={["first"]="d", ["second"]="g"}
+, ["沭"]={["first"]="d", ["second"]="u"}
+, ["泷"]={["first"]="d", ["second"]="l"}
+, ["泸"]={["first"]="d", ["second"]="u"}
+, ["泱"]={["first"]="d", ["second"]="y"}
+, ["泅"]={["first"]="d", ["second"]="r"}
+, ["泗"]={["first"]="d", ["second"]="e"}
+, ["泠"]={["first"]="d", ["second"]="s"}
+, ["泺"]={["first"]="d", ["second"]="l"}
+, ["泖"]={["first"]="d", ["second"]="e"}
+, ["泫"]={["first"]="d", ["second"]="y"}
+, ["泮"]={["first"]="d", ["second"]="b"}
+, ["沱"]={["first"]="d", ["second"]="b"}
+, ["泯"]={["first"]="d", ["second"]="m"}
+, ["泓"]={["first"]="d", ["second"]="s"}
+, ["泾"]={["first"]="d", ["second"]="g"}
+, ["怙"]={["first"]="x", ["second"]="k"}
+, ["怵"]={["first"]="x", ["second"]="u"}
+, ["怦"]={["first"]="x", ["second"]="p"}
+, ["怛"]={["first"]="x", ["second"]="a"}
+, ["怏"]={["first"]="x", ["second"]="y"}
+, ["怍"]={["first"]="x", ["second"]="v"}
+, ["㤘"]={["first"]="x", ["second"]="e"}
+, ["怩"]={["first"]="x", ["second"]="b"}
+, ["怫"]={["first"]="x", ["second"]="f"}
+, ["怿"]={["first"]="x", ["second"]="l"}
+, ["宕"]={["first"]="b", ["second"]="u"}
+, ["穹"]={["first"]="b", ["second"]="g"}
+, ["宓"]={["first"]="b", ["second"]="b"}
+, ["诓"]={["first"]="y", ["second"]="w"}
+, ["诔"]={["first"]="y", ["second"]="l"}
+, ["诖"]={["first"]="y", ["second"]="t"}
+, ["诘"]={["first"]="y", ["second"]="k"}
+, ["戾"]={["first"]="h", ["second"]="q"}
+, ["诙"]={["first"]="y", ["second"]="h"}
+, ["戽"]={["first"]="h", ["second"]="u"}
+, ["郓"]={["first"]="b", ["second"]="e"}
+, ["衩"]={["first"]="p", ["second"]="i"}
+, ["祆"]={["first"]="p", ["second"]="t"}
+, ["祎"]={["first"]="p", ["second"]="w"}
+, ["祉"]={["first"]="p", ["second"]="v"}
+, ["祇"]={["first"]="p", ["second"]="u"}
+, ["诛"]={["first"]="y", ["second"]="v"}
+, ["诜"]={["first"]="y", ["second"]="e"}
+, ["诟"]={["first"]="y", ["second"]="k"}
+, ["诠"]={["first"]="y", ["second"]="w"}
+, ["诣"]={["first"]="y", ["second"]="o"}
+, ["诤"]={["first"]="y", ["second"]="l"}
+, ["诧"]={["first"]="y", ["second"]="q"}
+, ["诨"]={["first"]="y", ["second"]="i"}
+, ["诩"]={["first"]="y", ["second"]="x"}
+, ["戕"]={["first"]="p", ["second"]="g"}
+, ["孢"]={["first"]="z", ["second"]="s"}
+, ["亟"]={["first"]="l", ["second"]="a"}
+, ["陔"]={["first"]="e", ["second"]="r"}
+, ["妲"]={["first"]="n", ["second"]="a"}
+, ["妯"]={["first"]="n", ["second"]="y"}
+, ["姗"]={["first"]="n", ["second"]="c"}
+, ["帑"]={["first"]="n", ["second"]="j"}
+, ["弩"]={["first"]="n", ["second"]="g"}
+, ["孥"]={["first"]="n", ["second"]="z"}
+, ["驽"]={["first"]="n", ["second"]="m"}
+, ["虱"]={["first"]="v", ["second"]="i"}
+, ["迦"]={["first"]="z", ["second"]="k"}
+, ["迨"]={["first"]="z", ["second"]="k"}
+, ["绀"]={["first"]="s", ["second"]="g"}
+, ["绁"]={["first"]="s", ["second"]="u"}
+, ["绂"]={["first"]="s", ["second"]="d"}
+, ["驷"]={["first"]="m", ["second"]="e"}
+, ["驸"]={["first"]="m", ["second"]="c"}
+, ["绉"]={["first"]="s", ["second"]="e"}
+, ["绌"]={["first"]="s", ["second"]="i"}
+, ["驿"]={["first"]="m", ["second"]="l"}
+, ["骀"]={["first"]="m", ["second"]="k"}
+, ["甾"]={["first"]="v", ["second"]="t"}
+, ["珏"]={["first"]="w", ["second"]="y"}
+, ["珐"]={["first"]="w", ["second"]="s"}
+, ["珂"]={["first"]="w", ["second"]="k"}
+, ["珑"]={["first"]="w", ["second"]="l"}
+, ["玳"]={["first"]="w", ["second"]="y"}
+, ["珀"]={["first"]="w", ["second"]="b"}
+, ["顸"]={["first"]="g", ["second"]="r"}
+, ["珉"]={["first"]="w", ["second"]="m"}
+, ["珈"]={["first"]="w", ["second"]="k"}
+, ["拮"]={["first"]="f", ["second"]="k"}
+, ["垭"]={["first"]="t", ["second"]="y"}
+, ["挝"]={["first"]="f", ["second"]="z"}
+, ["垣"]={["first"]="t", ["second"]="a"}
+, ["挞"]={["first"]="f", ["second"]="z"}
+, ["垤"]={["first"]="t", ["second"]="t"}
+, ["赳"]={["first"]="t", ["second"]="l"}
+, ["贲"]={["first"]="u", ["second"]="r"}
+, ["垱"]={["first"]="t", ["second"]="e"}
+, ["垌"]={["first"]="t", ["second"]="k"}
+, ["郝"]={["first"]="t", ["second"]="e"}
+, ["垧"]={["first"]="t", ["second"]="k"}
+, ["垓"]={["first"]="t", ["second"]="r"}
+, ["挦"]={["first"]="f", ["second"]="c"}
+, ["垠"]={["first"]="t", ["second"]="g"}
+, ["茜"]={["first"]="c", ["second"]="x"}
+, ["荚"]={["first"]="c", ["second"]="j"}
+, ["荑"]={["first"]="c", ["second"]="y"}
+, ["贳"]={["first"]="u", ["second"]="r"}
+, ["荜"]={["first"]="c", ["second"]="u"}
+, ["莒"]={["first"]="c", ["second"]="k"}
+, ["茼"]={["first"]="c", ["second"]="k"}
+, ["茴"]={["first"]="c", ["second"]="k"}
+, ["茱"]={["first"]="c", ["second"]="v"}
+, ["莛"]={["first"]="c", ["second"]="z"}
+, ["荞"]={["first"]="c", ["second"]="l"}
+, ["茯"]={["first"]="c", ["second"]="q"}
+, ["荏"]={["first"]="c", ["second"]="r"}
+, ["荇"]={["first"]="c", ["second"]="i"}
+, ["荃"]={["first"]="c", ["second"]="w"}
+, ["荟"]={["first"]="c", ["second"]="s"}
+, ["荀"]={["first"]="c", ["second"]="o"}
+, ["茗"]={["first"]="c", ["second"]="k"}
+, ["荠"]={["first"]="c", ["second"]="l"}
+, ["茭"]={["first"]="c", ["second"]="x"}
+, ["茨"]={["first"]="c", ["second"]="r"}
+, ["垩"]={["first"]="y", ["second"]="t"}
+, ["荥"]={["first"]="c", ["second"]="u"}
+, ["荦"]={["first"]="c", ["second"]="n"}
+, ["荨"]={["first"]="c", ["second"]="c"}
+, ["荩"]={["first"]="c", ["second"]="d"}
+, ["剋"]={["first"]="u", ["second"]="d"}
+, ["荪"]={["first"]="c", ["second"]="x"}
+, ["茹"]={["first"]="c", ["second"]="k"}
+, ["荬"]={["first"]="c", ["second"]="d"}
+, ["荮"]={["first"]="c", ["second"]="c"}
+, ["柰"]={["first"]="m", ["second"]="x"}
+, ["栉"]={["first"]="m", ["second"]="e"}
+, ["柯"]={["first"]="m", ["second"]="k"}
+, ["柘"]={["first"]="m", ["second"]="u"}
+, ["栊"]={["first"]="m", ["second"]="l"}
+, ["柩"]={["first"]="m", ["second"]="j"}
+, ["枰"]={["first"]="m", ["second"]="p"}
+, ["栌"]={["first"]="m", ["second"]="u"}
+, ["柙"]={["first"]="m", ["second"]="j"}
+, ["枵"]={["first"]="m", ["second"]="v"}
+, ["柚"]={["first"]="m", ["second"]="y"}
+, ["枳"]={["first"]="m", ["second"]="b"}
+, ["柞"]={["first"]="m", ["second"]="v"}
+, ["柝"]={["first"]="m", ["second"]="i"}
+, ["栀"]={["first"]="m", ["second"]="v"}
+, ["柢"]={["first"]="m", ["second"]="d"}
+, ["栎"]={["first"]="m", ["second"]="l"}
+, ["枸"]={["first"]="m", ["second"]="k"}
+, ["柈"]={["first"]="m", ["second"]="b"}
+, ["柁"]={["first"]="m", ["second"]="b"}
+, ["枷"]={["first"]="m", ["second"]="k"}
+, ["柽"]={["first"]="m", ["second"]="t"}
+, ["剌"]={["first"]="u", ["second"]="d"}
+, ["酊"]={["first"]="y", ["second"]="d"}
+, ["郦"]={["first"]="l", ["second"]="e"}
+, ["甭"]={["first"]="b", ["second"]="y"}
+, ["砗"]={["first"]="u", ["second"]="i"}
+, ["砘"]={["first"]="u", ["second"]="t"}
+, ["砒"]={["first"]="u", ["second"]="b"}
+, ["斫"]={["first"]="u", ["second"]="j"}
+, ["砭"]={["first"]="u", ["second"]="f"}
+, ["砜"]={["first"]="u", ["second"]="x"}
+, ["奎"]={["first"]="d", ["second"]="t"}
+, ["耷"]={["first"]="d", ["second"]="e"}
+, ["虺"]={["first"]="w", ["second"]="i"}
+, ["殂"]={["first"]="d", ["second"]="q"}
+, ["殇"]={["first"]="d", ["second"]="p"}
+, ["殄"]={["first"]="d", ["second"]="p"}
+, ["殆"]={["first"]="d", ["second"]="k"}
+, ["轱"]={["first"]="i", ["second"]="k"}
+, ["轲"]={["first"]="i", ["second"]="k"}
+, ["轳"]={["first"]="i", ["second"]="u"}
+, ["轶"]={["first"]="i", ["second"]="u"}
+, ["轸"]={["first"]="i", ["second"]="p"}
+, ["虿"]={["first"]="w", ["second"]="i"}
+, ["毖"]={["first"]="b", ["second"]="b"}
+, ["觇"]={["first"]="l", ["second"]="e"}
+, ["尜"]={["first"]="x", ["second"]="x"}
+, ["哐"]={["first"]="k", ["second"]="w"}
+, ["眄"]={["first"]="o", ["second"]="m"}
+, ["眍"]={["first"]="o", ["second"]="x"}
+, ["𠳐"]={["first"]="k", ["second"]="e"}
+, ["郢"]={["first"]="k", ["second"]="e"}
+, ["眇"]={["first"]="o", ["second"]="u"}
+, ["眊"]={["first"]="o", ["second"]="m"}
+, ["眈"]={["first"]="o", ["second"]="v"}
+, ["禺"]={["first"]="l", ["second"]="d"}
+, ["哂"]={["first"]="k", ["second"]="x"}
+, ["咴"]={["first"]="k", ["second"]="h"}
+, ["曷"]={["first"]="o", ["second"]="v"}
+, ["昴"]={["first"]="o", ["second"]="e"}
+, ["昱"]={["first"]="o", ["second"]="l"}
+, ["昵"]={["first"]="o", ["second"]="b"}
+, ["咦"]={["first"]="k", ["second"]="y"}
+, ["哓"]={["first"]="k", ["second"]="w"}
+, ["哔"]={["first"]="k", ["second"]="u"}
+, ["畎"]={["first"]="t", ["second"]="q"}
+, ["毗"]={["first"]="t", ["second"]="b"}
+, ["呲"]={["first"]="k", ["second"]="b"}
+, ["胄"]={["first"]="y", ["second"]="o"}
+, ["畋"]={["first"]="t", ["second"]="w"}
+, ["畈"]={["first"]="t", ["second"]="y"}
+, ["虼"]={["first"]="i", ["second"]="q"}
+, ["虻"]={["first"]="i", ["second"]="w"}
+, ["盅"]={["first"]="v", ["second"]="m"}
+, ["咣"]={["first"]="k", ["second"]="w"}
+, ["哕"]={["first"]="k", ["second"]="x"}
+, ["剐"]={["first"]="k", ["second"]="d"}
+, ["郧"]={["first"]="k", ["second"]="e"}
+, ["咻"]={["first"]="k", ["second"]="m"}
+, ["囿"]={["first"]="k", ["second"]="o"}
+, ["咿"]={["first"]="k", ["second"]="y"}
+, ["哌"]={["first"]="k", ["second"]="n"}
+, ["哙"]={["first"]="k", ["second"]="s"}
+, ["哚"]={["first"]="k", ["second"]="m"}
+, ["咯"]={["first"]="k", ["second"]="k"}
+, ["咩"]={["first"]="k", ["second"]="y"}
+, ["咤"]={["first"]="k", ["second"]="q"}
+, ["哝"]={["first"]="k", ["second"]="n"}
+, ["哏"]={["first"]="k", ["second"]="g"}
+, ["哞"]={["first"]="k", ["second"]="n"}
+, ["峙"]={["first"]="e", ["second"]="c"}
+, ["峣"]={["first"]="e", ["second"]="w"}
+, ["罘"]={["first"]="s", ["second"]="b"}
+, ["帧"]={["first"]="j", ["second"]="r"}
+, ["峒"]={["first"]="e", ["second"]="k"}
+, ["峤"]={["first"]="e", ["second"]="l"}
+, ["峋"]={["first"]="e", ["second"]="o"}
+, ["峥"]={["first"]="e", ["second"]="l"}
+, ["贶"]={["first"]="k", ["second"]="e"}
+, ["钚"]={["first"]="j", ["second"]="b"}
+, ["钛"]={["first"]="j", ["second"]="t"}
+, ["钡"]={["first"]="j", ["second"]="r"}
+, ["钣"]={["first"]="j", ["second"]="y"}
+, ["钤"]={["first"]="j", ["second"]="v"}
+, ["钨"]={["first"]="j", ["second"]="w"}
+, ["钫"]={["first"]="j", ["second"]="f"}
+, ["钯"]={["first"]="j", ["second"]="b"}
+, ["氡"]={["first"]="q", ["second"]="d"}
+, ["氟"]={["first"]="q", ["second"]="f"}
+, ["牯"]={["first"]="n", ["second"]="k"}
+, ["郜"]={["first"]="n", ["second"]="e"}
+, ["秕"]={["first"]="h", ["second"]="b"}
+, ["秭"]={["first"]="h", ["second"]="p"}
+, ["竽"]={["first"]="v", ["second"]="y"}
+, ["笈"]={["first"]="v", ["second"]="j"}
+, ["笃"]={["first"]="v", ["second"]="m"}
+, ["俦"]={["first"]="r", ["second"]="c"}
+, ["俨"]={["first"]="r", ["second"]="y"}
+, ["俅"]={["first"]="r", ["second"]="q"}
+, ["俪"]={["first"]="r", ["second"]="l"}
+, ["叟"]={["first"]="p", ["second"]="y"}
+, ["垡"]={["first"]="r", ["second"]="t"}
+, ["牮"]={["first"]="r", ["second"]="n"}
+, ["俣"]={["first"]="r", ["second"]="t"}
+, ["俚"]={["first"]="r", ["second"]="l"}
+, ["皈"]={["first"]="b", ["second"]="y"}
+, ["俑"]={["first"]="r", ["second"]="y"}
+, ["俟"]={["first"]="r", ["second"]="u"}
+, ["逅"]={["first"]="z", ["second"]="k"}
+, ["徇"]={["first"]="i", ["second"]="o"}
+, ["徉"]={["first"]="i", ["second"]="y"}
+, ["舢"]={["first"]="v", ["second"]="e"}
+, ["俞"]={["first"]="r", ["second"]="d"}
+, ["郗"]={["first"]="x", ["second"]="e"}
+, ["俎"]={["first"]="r", ["second"]="q"}
+, ["郤"]={["first"]="b", ["second"]="e"}
+, ["爰"]={["first"]="p", ["second"]="y"}
+, ["郛"]={["first"]="p", ["second"]="e"}
+, ["瓴"]={["first"]="r", ["second"]="w"}
+, ["胨"]={["first"]="o", ["second"]="d"}
+, ["胪"]={["first"]="o", ["second"]="u"}
+, ["胛"]={["first"]="o", ["second"]="j"}
+, ["胂"]={["first"]="o", ["second"]="u"}
+, ["胙"]={["first"]="o", ["second"]="v"}
+, ["胍"]={["first"]="o", ["second"]="g"}
+, ["胗"]={["first"]="o", ["second"]="p"}
+, ["胝"]={["first"]="o", ["second"]="d"}
+, ["朐"]={["first"]="o", ["second"]="k"}
+, ["胫"]={["first"]="o", ["second"]="g"}
+, ["鸨"]={["first"]="b", ["second"]="n"}
+, ["匍"]={["first"]="b", ["second"]="f"}
+, ["狨"]={["first"]="q", ["second"]="u"}
+, ["狯"]={["first"]="q", ["second"]="s"}
+, ["飑"]={["first"]="j", ["second"]="s"}
+, ["狩"]={["first"]="q", ["second"]="c"}
+, ["狲"]={["first"]="q", ["second"]="x"}
+, ["訇"]={["first"]="b", ["second"]="k"}
+, ["逄"]={["first"]="z", ["second"]="l"}
+, ["昝"]={["first"]="w", ["second"]="o"}
+, ["饷"]={["first"]="u", ["second"]="k"}
+, ["饸"]={["first"]="u", ["second"]="k"}
+, ["饹"]={["first"]="u", ["second"]="k"}
+, ["胤"]={["first"]="p", ["second"]="v"}
+, ["孪"]={["first"]="w", ["second"]="z"}
+, ["娈"]={["first"]="w", ["second"]="n"}
+, ["弈"]={["first"]="w", ["second"]="c"}
+, ["奕"]={["first"]="w", ["second"]="d"}
+, ["庥"]={["first"]="g", ["second"]="m"}
+, ["疬"]={["first"]="b", ["second"]="l"}
+, ["疣"]={["first"]="b", ["second"]="y"}
+, ["疥"]={["first"]="b", ["second"]="l"}
+, ["疭"]={["first"]="b", ["second"]="r"}
+, ["庠"]={["first"]="g", ["second"]="y"}
+, ["竑"]={["first"]="l", ["second"]="s"}
+, ["彦"]={["first"]="i", ["second"]="p"}
+, ["飒"]={["first"]="l", ["second"]="x"}
+, ["闼"]={["first"]="m", ["second"]="z"}
+, ["闾"]={["first"]="m", ["second"]="k"}
+, ["闿"]={["first"]="m", ["second"]="j"}
+, ["阂"]={["first"]="m", ["second"]="r"}
+, ["羑"]={["first"]="y", ["second"]="j"}
+, ["迸"]={["first"]="z", ["second"]="k"}
+, ["籼"]={["first"]="m", ["second"]="e"}
+, ["酋"]={["first"]="b", ["second"]="y"}
+, ["炳"]={["first"]="h", ["second"]="b"}
+, ["炻"]={["first"]="h", ["second"]="u"}
+, ["炽"]={["first"]="h", ["second"]="b"}
+, ["炯"]={["first"]="h", ["second"]="k"}
+, ["烀"]={["first"]="h", ["second"]="h"}
+, ["炷"]={["first"]="h", ["second"]="v"}
+, ["烃"]={["first"]="h", ["second"]="g"}
+, ["洱"]={["first"]="d", ["second"]="e"}
+, ["洹"]={["first"]="d", ["second"]="a"}
+, ["洧"]={["first"]="d", ["second"]="o"}
+, ["洌"]={["first"]="d", ["second"]="d"}
+, ["浃"]={["first"]="d", ["second"]="j"}
+, ["洇"]={["first"]="d", ["second"]="d"}
+, ["洄"]={["first"]="d", ["second"]="k"}
+, ["洙"]={["first"]="d", ["second"]="v"}
+, ["涎"]={["first"]="d", ["second"]="z"}
+, ["洎"]={["first"]="d", ["second"]="z"}
+, ["洫"]={["first"]="d", ["second"]="x"}
+, ["浍"]={["first"]="d", ["second"]="s"}
+, ["洮"]={["first"]="d", ["second"]="d"}
+, ["洵"]={["first"]="d", ["second"]="o"}
+, ["浒"]={["first"]="d", ["second"]="w"}
+, ["浔"]={["first"]="d", ["second"]="c"}
+, ["浕"]={["first"]="d", ["second"]="d"}
+, ["洳"]={["first"]="d", ["second"]="k"}
+, ["恸"]={["first"]="x", ["second"]="l"}
+, ["恓"]={["first"]="x", ["second"]="x"}
+, ["恹"]={["first"]="x", ["second"]="q"}
+, ["恫"]={["first"]="x", ["second"]="k"}
+, ["恺"]={["first"]="x", ["second"]="j"}
+, ["恻"]={["first"]="x", ["second"]="d"}
+, ["恂"]={["first"]="x", ["second"]="o"}
+, ["恪"]={["first"]="x", ["second"]="k"}
+, ["恽"]={["first"]="x", ["second"]="i"}
+, ["宥"]={["first"]="b", ["second"]="o"}
+, ["扃"]={["first"]="h", ["second"]="k"}
+, ["衲"]={["first"]="p", ["second"]="n"}
+, ["衽"]={["first"]="p", ["second"]="r"}
+, ["衿"]={["first"]="p", ["second"]="v"}
+, ["袂"]={["first"]="p", ["second"]="g"}
+, ["祛"]={["first"]="p", ["second"]="s"}
+, ["祜"]={["first"]="p", ["second"]="k"}
+, ["祓"]={["first"]="p", ["second"]="d"}
+, ["祚"]={["first"]="p", ["second"]="v"}
+, ["诮"]={["first"]="y", ["second"]="o"}
+, ["祗"]={["first"]="p", ["second"]="d"}
+, ["祢"]={["first"]="p", ["second"]="x"}
+, ["诰"]={["first"]="y", ["second"]="k"}
+, ["诳"]={["first"]="y", ["second"]="w"}
+, ["鸩"]={["first"]="d", ["second"]="n"}
+, ["昶"]={["first"]="y", ["second"]="o"}
+, ["郡"]={["first"]="y", ["second"]="e"}
+, ["咫"]={["first"]="i", ["second"]="b"}
+, ["弭"]={["first"]="g", ["second"]="e"}
+, ["牁"]={["first"]="p", ["second"]="k"}
+, ["胥"]={["first"]="v", ["second"]="o"}
+, ["陛"]={["first"]="e", ["second"]="t"}
+, ["陟"]={["first"]="e", ["second"]="p"}
+, ["娅"]={["first"]="n", ["second"]="y"}
+, ["姮"]={["first"]="n", ["second"]="a"}
+, ["娆"]={["first"]="n", ["second"]="w"}
+, ["姝"]={["first"]="n", ["second"]="v"}
+, ["姣"]={["first"]="n", ["second"]="x"}
+, ["姘"]={["first"]="n", ["second"]="k"}
+, ["姹"]={["first"]="n", ["second"]="q"}
+, ["怼"]={["first"]="y", ["second"]="x"}
+, ["羿"]={["first"]="x", ["second"]="c"}
+, ["炱"]={["first"]="s", ["second"]="h"}
+, ["矜"]={["first"]="s", ["second"]="v"}
+, ["绔"]={["first"]="s", ["second"]="k"}
+, ["骁"]={["first"]="m", ["second"]="w"}
+, ["骅"]={["first"]="m", ["second"]="u"}
+, ["绗"]={["first"]="s", ["second"]="i"}
+, ["绛"]={["first"]="s", ["second"]="l"}
+, ["骈"]={["first"]="m", ["second"]="k"}
+, ["耖"]={["first"]="l", ["second"]="u"}
+, ["挈"]={["first"]="f", ["second"]="u"}
+, ["珥"]={["first"]="w", ["second"]="e"}
+, ["珙"]={["first"]="w", ["second"]="b"}
+, ["顼"]={["first"]="w", ["second"]="r"}
+, ["珰"]={["first"]="w", ["second"]="e"}
+, ["珩"]={["first"]="w", ["second"]="i"}
+, ["珧"]={["first"]="w", ["second"]="d"}
+, ["珣"]={["first"]="w", ["second"]="o"}
+, ["珞"]={["first"]="w", ["second"]="k"}
+, ["琤"]={["first"]="w", ["second"]="l"}
+, ["珲"]={["first"]="w", ["second"]="i"}
+, ["敖"]={["first"]="f", ["second"]="w"}
+, ["恚"]={["first"]="t", ["second"]="x"}
+, ["埔"]={["first"]="t", ["second"]="f"}
+, ["埕"]={["first"]="t", ["second"]="w"}
+, ["埘"]={["first"]="t", ["second"]="c"}
+, ["埙"]={["first"]="t", ["second"]="r"}
+, ["埚"]={["first"]="t", ["second"]="n"}
+, ["挹"]={["first"]="f", ["second"]="b"}
+, ["耆"]={["first"]="l", ["second"]="o"}
+, ["耄"]={["first"]="l", ["second"]="m"}
+, ["埒"]={["first"]="t", ["second"]="c"}
+, ["捋"]={["first"]="f", ["second"]="c"}
+, ["贽"]={["first"]="f", ["second"]="r"}
+, ["垸"]={["first"]="t", ["second"]="e"}
+, ["捃"]={["first"]="f", ["second"]="k"}
+, ["盍"]={["first"]="t", ["second"]="m"}
+, ["荸"]={["first"]="c", ["second"]="z"}
+, ["莆"]={["first"]="c", ["second"]="f"}
+, ["莳"]={["first"]="c", ["second"]="c"}
+, ["莴"]={["first"]="c", ["second"]="n"}
+, ["莪"]={["first"]="c", ["second"]="w"}
+, ["莠"]={["first"]="c", ["second"]="n"}
+, ["莓"]={["first"]="c", ["second"]="m"}
+, ["莜"]={["first"]="c", ["second"]="w"}
+, ["莅"]={["first"]="c", ["second"]="l"}
+, ["荼"]={["first"]="c", ["second"]="h"}
+, ["莩"]={["first"]="c", ["second"]="z"}
+, ["荽"]={["first"]="c", ["second"]="n"}
+, ["莸"]={["first"]="c", ["second"]="y"}
+, ["荻"]={["first"]="c", ["second"]="h"}
+, ["莘"]={["first"]="c", ["second"]="u"}
+, ["莎"]={["first"]="c", ["second"]="u"}
+, ["莞"]={["first"]="c", ["second"]="e"}
+, ["莨"]={["first"]="c", ["second"]="l"}
+, ["鸪"]={["first"]="u", ["second"]="n"}
+, ["莼"]={["first"]="c", ["second"]="t"}
+, ["栲"]={["first"]="m", ["second"]="v"}
+, ["栳"]={["first"]="m", ["second"]="b"}
+, ["郴"]={["first"]="m", ["second"]="e"}
+, ["桓"]={["first"]="m", ["second"]="a"}
+, ["桡"]={["first"]="m", ["second"]="w"}
+, ["桎"]={["first"]="m", ["second"]="t"}
+, ["桢"]={["first"]="m", ["second"]="r"}
+, ["桤"]={["first"]="m", ["second"]="j"}
+, ["梃"]={["first"]="m", ["second"]="z"}
+, ["栝"]={["first"]="m", ["second"]="k"}
+, ["桕"]={["first"]="m", ["second"]="j"}
+, ["桁"]={["first"]="m", ["second"]="i"}
+, ["桧"]={["first"]="m", ["second"]="s"}
+, ["桅"]={["first"]="m", ["second"]="v"}
+, ["栟"]={["first"]="m", ["second"]="k"}
+, ["桉"]={["first"]="m", ["second"]="n"}
+, ["栩"]={["first"]="m", ["second"]="x"}
+, ["逑"]={["first"]="z", ["second"]="q"}
+, ["逋"]={["first"]="z", ["second"]="f"}
+, ["彧"]={["first"]="a", ["second"]="d"}
+, ["鬲"]={["first"]="a", ["second"]="l"}
+, ["豇"]={["first"]="a", ["second"]="g"}
+, ["酐"]={["first"]="y", ["second"]="g"}
+, ["逦"]={["first"]="z", ["second"]="l"}
+, ["厝"]={["first"]="i", ["second"]="o"}
+, ["孬"]={["first"]="b", ["second"]="z"}
+, ["砝"]={["first"]="u", ["second"]="s"}
+, ["砹"]={["first"]="u", ["second"]="x"}
+, ["砺"]={["first"]="u", ["second"]="w"}
+, ["砧"]={["first"]="u", ["second"]="k"}
+, ["砷"]={["first"]="u", ["second"]="u"}
+, ["砟"]={["first"]="u", ["second"]="v"}
+, ["砼"]={["first"]="u", ["second"]="g"}
+, ["砥"]={["first"]="u", ["second"]="d"}
+, ["砣"]={["first"]="u", ["second"]="b"}
+, ["剞"]={["first"]="d", ["second"]="d"}
+, ["砻"]={["first"]="l", ["second"]="u"}
+, ["轼"]={["first"]="i", ["second"]="g"}
+, ["轾"]={["first"]="i", ["second"]="t"}
+, ["辂"]={["first"]="i", ["second"]="k"}
+, ["鸫"]={["first"]="d", ["second"]="n"}
+, ["趸"]={["first"]="w", ["second"]="r"}
+, ["龀"]={["first"]="v", ["second"]="b"}
+, ["鸬"]={["first"]="l", ["second"]="n"}
+, ["虔"]={["first"]="h", ["second"]="w"}
+, ["逍"]={["first"]="z", ["second"]="o"}
+, ["眬"]={["first"]="o", ["second"]="l"}
+, ["唛"]={["first"]="k", ["second"]="w"}
+, ["晟"]={["first"]="o", ["second"]="i"}
+, ["眩"]={["first"]="o", ["second"]="y"}
+, ["眙"]={["first"]="o", ["second"]="k"}
+, ["哧"]={["first"]="k", ["second"]="d"}
+, ["哽"]={["first"]="k", ["second"]="g"}
+, ["唔"]={["first"]="k", ["second"]="k"}
+, ["晁"]={["first"]="o", ["second"]="d"}
+, ["晏"]={["first"]="o", ["second"]="n"}
+, ["鸮"]={["first"]="k", ["second"]="n"}
+, ["趵"]={["first"]="z", ["second"]="u"}
+, ["趿"]={["first"]="z", ["second"]="j"}
+, ["畛"]={["first"]="t", ["second"]="p"}
+, ["蚨"]={["first"]="i", ["second"]="f"}
+, ["蚜"]={["first"]="i", ["second"]="y"}
+, ["蚍"]={["first"]="i", ["second"]="b"}
+, ["蚋"]={["first"]="i", ["second"]="n"}
+, ["蚬"]={["first"]="i", ["second"]="e"}
+, ["蚝"]={["first"]="i", ["second"]="m"}
+, ["蚧"]={["first"]="i", ["second"]="l"}
+, ["唢"]={["first"]="k", ["second"]="r"}
+, ["圄"]={["first"]="k", ["second"]="k"}
+, ["唣"]={["first"]="k", ["second"]="q"}
+, ["唏"]={["first"]="k", ["second"]="j"}
+, ["盎"]={["first"]="y", ["second"]="m"}
+, ["唑"]={["first"]="k", ["second"]="t"}
+, ["崂"]={["first"]="e", ["second"]="l"}
+, ["崃"]={["first"]="e", ["second"]="l"}
+, ["罡"]={["first"]="s", ["second"]="v"}
+, ["罟"]={["first"]="s", ["second"]="k"}
+, ["峪"]={["first"]="e", ["second"]="k"}
+, ["觊"]={["first"]="e", ["second"]="e"}
+, ["赅"]={["first"]="k", ["second"]="r"}
+, ["钰"]={["first"]="j", ["second"]="y"}
+, ["钲"]={["first"]="j", ["second"]="v"}
+, ["钴"]={["first"]="j", ["second"]="k"}
+, ["钵"]={["first"]="j", ["second"]="b"}
+, ["钹"]={["first"]="j", ["second"]="d"}
+, ["钺"]={["first"]="j", ["second"]="v"}
+, ["钽"]={["first"]="j", ["second"]="a"}
+, ["钼"]={["first"]="j", ["second"]="o"}
+, ["钿"]={["first"]="j", ["second"]="t"}
+, ["铀"]={["first"]="j", ["second"]="y"}
+, ["铂"]={["first"]="j", ["second"]="b"}
+, ["铄"]={["first"]="j", ["second"]="l"}
+, ["铆"]={["first"]="j", ["second"]="e"}
+, ["铈"]={["first"]="j", ["second"]="j"}
+, ["铉"]={["first"]="j", ["second"]="y"}
+, ["铊"]={["first"]="j", ["second"]="b"}
+, ["铋"]={["first"]="j", ["second"]="b"}
+, ["铌"]={["first"]="j", ["second"]="b"}
+, ["铍"]={["first"]="j", ["second"]="y"}
+, ["䥽"]={["first"]="j", ["second"]="d"}
+, ["铎"]={["first"]="j", ["second"]="l"}
+, ["氩"]={["first"]="q", ["second"]="y"}
+, ["氤"]={["first"]="q", ["second"]="d"}
+, ["氦"]={["first"]="q", ["second"]="r"}
+, ["毪"]={["first"]="m", ["second"]="n"}
+, ["舐"]={["first"]="q", ["second"]="u"}
+, ["秣"]={["first"]="h", ["second"]="m"}
+, ["秫"]={["first"]="h", ["second"]="u"}
+, ["盉"]={["first"]="h", ["second"]="m"}
+, ["笄"]={["first"]="v", ["second"]="k"}
+, ["笕"]={["first"]="v", ["second"]="e"}
+, ["笊"]={["first"]="v", ["second"]="v"}
+, ["笏"]={["first"]="v", ["second"]="w"}
+, ["笆"]={["first"]="v", ["second"]="b"}
+, ["俸"]={["first"]="r", ["second"]="l"}
+, ["倩"]={["first"]="r", ["second"]="o"}
+, ["俵"]={["first"]="r", ["second"]="y"}
+, ["偌"]={["first"]="r", ["second"]="k"}
+, ["俳"]={["first"]="r", ["second"]="f"}
+, ["俶"]={["first"]="r", ["second"]="y"}
+, ["倬"]={["first"]="r", ["second"]="u"}
+, ["倏"]={["first"]="r", ["second"]="q"}
+, ["恁"]={["first"]="r", ["second"]="x"}
+, ["倭"]={["first"]="r", ["second"]="n"}
+, ["倪"]={["first"]="r", ["second"]="e"}
+, ["俾"]={["first"]="r", ["second"]="u"}
+, ["倜"]={["first"]="r", ["second"]="k"}
+, ["隼"]={["first"]="r", ["second"]="u"}
+, ["隽"]={["first"]="r", ["second"]="n"}
+, ["倌"]={["first"]="r", ["second"]="k"}
+, ["倥"]={["first"]="r", ["second"]="g"}
+, ["臬"]={["first"]="z", ["second"]="m"}
+, ["皋"]={["first"]="b", ["second"]="u"}
+, ["郫"]={["first"]="p", ["second"]="e"}
+, ["倨"]={["first"]="r", ["second"]="k"}
+, ["衄"]={["first"]="x", ["second"]="i"}
+, ["颀"]={["first"]="j", ["second"]="r"}
+, ["徕"]={["first"]="i", ["second"]="l"}
+, ["舫"]={["first"]="v", ["second"]="f"}
+, ["釜"]={["first"]="b", ["second"]="a"}
+, ["奚"]={["first"]="p", ["second"]="d"}
+, ["衾"]={["first"]="r", ["second"]="y"}
+, ["胯"]={["first"]="o", ["second"]="k"}
+, ["胱"]={["first"]="o", ["second"]="w"}
+, ["胴"]={["first"]="o", ["second"]="k"}
+, ["胭"]={["first"]="o", ["second"]="d"}
+, ["脍"]={["first"]="o", ["second"]="s"}
+, ["胼"]={["first"]="o", ["second"]="k"}
+, ["朕"]={["first"]="o", ["second"]="t"}
+, ["脒"]={["first"]="o", ["second"]="m"}
+, ["胺"]={["first"]="o", ["second"]="n"}
+, ["鸱"]={["first"]="d", ["second"]="n"}
+, ["玺"]={["first"]="d", ["second"]="y"}
+, ["鸲"]={["first"]="b", ["second"]="n"}
+, ["狷"]={["first"]="q", ["second"]="o"}
+, ["猁"]={["first"]="q", ["second"]="d"}
+, ["狳"]={["first"]="q", ["second"]="h"}
+, ["猃"]={["first"]="q", ["second"]="a"}
+, ["狺"]={["first"]="q", ["second"]="k"}
+, ["逖"]={["first"]="z", ["second"]="h"}
+, ["桀"]={["first"]="x", ["second"]="m"}
+, ["袅"]={["first"]="p", ["second"]="y"}
+, ["饽"]={["first"]="u", ["second"]="z"}
+, ["凇"]={["first"]="d", ["second"]="s"}
+, ["栾"]={["first"]="w", ["second"]="m"}
+, ["挛"]={["first"]="w", ["second"]="u"}
+, ["亳"]={["first"]="w", ["second"]="q"}
+, ["疳"]={["first"]="b", ["second"]="g"}
+, ["疴"]={["first"]="b", ["second"]="k"}
+, ["疸"]={["first"]="b", ["second"]="a"}
+, ["疽"]={["first"]="b", ["second"]="q"}
+, ["痈"]={["first"]="b", ["second"]="y"}
+, ["疱"]={["first"]="b", ["second"]="s"}
+, ["痂"]={["first"]="b", ["second"]="k"}
+, ["痉"]={["first"]="b", ["second"]="g"}
+, ["衮"]={["first"]="w", ["second"]="y"}
+, ["凋"]={["first"]="d", ["second"]="k"}
+, ["颃"]={["first"]="w", ["second"]="r"}
+, ["恣"]={["first"]="d", ["second"]="x"}
+, ["旆"]={["first"]="f", ["second"]="l"}
+, ["旄"]={["first"]="f", ["second"]="m"}
+, ["旃"]={["first"]="f", ["second"]="d"}
+, ["阃"]={["first"]="m", ["second"]="m"}
+, ["阄"]={["first"]="m", ["second"]="v"}
+, ["訚"]={["first"]="m", ["second"]="k"}
+, ["阆"]={["first"]="m", ["second"]="l"}
+, ["恙"]={["first"]="y", ["second"]="x"}
+, ["粑"]={["first"]="m", ["second"]="b"}
+, ["朔"]={["first"]="b", ["second"]="o"}
+, ["郸"]={["first"]="b", ["second"]="e"}
+, ["烜"]={["first"]="h", ["second"]="a"}
+, ["烨"]={["first"]="h", ["second"]="u"}
+, ["烩"]={["first"]="h", ["second"]="s"}
+, ["烊"]={["first"]="h", ["second"]="y"}
+, ["剡"]={["first"]="h", ["second"]="d"}
+, ["郯"]={["first"]="h", ["second"]="e"}
+, ["烬"]={["first"]="h", ["second"]="d"}
+, ["涑"]={["first"]="d", ["second"]="u"}
+, ["浯"]={["first"]="d", ["second"]="k"}
+, ["涞"]={["first"]="d", ["second"]="l"}
+, ["涟"]={["first"]="d", ["second"]="z"}
+, ["娑"]={["first"]="d", ["second"]="n"}
+, ["涅"]={["first"]="d", ["second"]="t"}
+, ["涠"]={["first"]="d", ["second"]="w"}
+, ["浞"]={["first"]="d", ["second"]="r"}
+, ["涓"]={["first"]="d", ["second"]="o"}
+, ["浥"]={["first"]="d", ["second"]="b"}
+, ["涔"]={["first"]="d", ["second"]="v"}
+, ["浜"]={["first"]="d", ["second"]="b"}
+, ["浠"]={["first"]="d", ["second"]="j"}
+, ["浣"]={["first"]="d", ["second"]="e"}
+, ["浚"]={["first"]="d", ["second"]="w"}
+, ["悚"]={["first"]="x", ["second"]="u"}
+, ["悭"]={["first"]="x", ["second"]="t"}
+, ["悝"]={["first"]="x", ["second"]="l"}
+, ["悒"]={["first"]="x", ["second"]="b"}
+, ["悌"]={["first"]="x", ["second"]="p"}
+, ["悛"]={["first"]="x", ["second"]="w"}
+, ["宸"]={["first"]="b", ["second"]="n"}
+, ["窈"]={["first"]="b", ["second"]="l"}
+, ["剜"]={["first"]="b", ["second"]="d"}
+, ["诹"]={["first"]="y", ["second"]="y"}
+, ["冢"]={["first"]="b", ["second"]="n"}
+, ["诼"]={["first"]="y", ["second"]="n"}
+, ["袒"]={["first"]="p", ["second"]="a"}
+, ["袢"]={["first"]="p", ["second"]="b"}
+, ["祯"]={["first"]="p", ["second"]="r"}
+, ["诿"]={["first"]="y", ["second"]="n"}
+, ["谀"]={["first"]="y", ["second"]="y"}
+, ["谂"]={["first"]="y", ["second"]="x"}
+, ["谄"]={["first"]="y", ["second"]="j"}
+, ["谇"]={["first"]="y", ["second"]="u"}
+, ["屐"]={["first"]="u", ["second"]="y"}
+, ["屙"]={["first"]="u", ["second"]="k"}
+, ["陬"]={["first"]="e", ["second"]="y"}
+, ["勐"]={["first"]="z", ["second"]="l"}
+, ["奘"]={["first"]="p", ["second"]="d"}
+, ["牂"]={["first"]="p", ["second"]="y"}
+, ["蚩"]={["first"]="v", ["second"]="i"}
+, ["陲"]={["first"]="e", ["second"]="i"}
+, ["姬"]={["first"]="n", ["second"]="l"}
+, ["娠"]={["first"]="n", ["second"]="n"}
+, ["娌"]={["first"]="n", ["second"]="l"}
+, ["娉"]={["first"]="n", ["second"]="v"}
+, ["娲"]={["first"]="n", ["second"]="n"}
+, ["娩"]={["first"]="n", ["second"]="v"}
+, ["娴"]={["first"]="n", ["second"]="m"}
+, ["娣"]={["first"]="n", ["second"]="p"}
+, ["娓"]={["first"]="n", ["second"]="m"}
+, ["婀"]={["first"]="n", ["second"]="k"}
+, ["畚"]={["first"]="s", ["second"]="t"}
+, ["逡"]={["first"]="z", ["second"]="w"}
+, ["绠"]={["first"]="s", ["second"]="g"}
+, ["骊"]={["first"]="m", ["second"]="l"}
+, ["绡"]={["first"]="s", ["second"]="o"}
+, ["骋"]={["first"]="m", ["second"]="v"}
+, ["绥"]={["first"]="s", ["second"]="n"}
+, ["绦"]={["first"]="s", ["second"]="m"}
+, ["绨"]={["first"]="s", ["second"]="p"}
+, ["骎"]={["first"]="m", ["second"]="y"}
+, ["邕"]={["first"]="v", ["second"]="b"}
+, ["鸶"]={["first"]="s", ["second"]="n"}
+, ["彗"]={["first"]="f", ["second"]="e"}
+, ["耜"]={["first"]="l", ["second"]="k"}
+, ["焘"]={["first"]="f", ["second"]="h"}
+, ["舂"]={["first"]="f", ["second"]="j"}
+, ["琏"]={["first"]="w", ["second"]="z"}
+, ["琇"]={["first"]="w", ["second"]="n"}
+, ["麸"]={["first"]="f", ["second"]="f"}
+, ["揶"]={["first"]="f", ["second"]="e"}
+, ["埴"]={["first"]="t", ["second"]="q"}
+, ["埯"]={["first"]="t", ["second"]="d"}
+, ["捯"]={["first"]="f", ["second"]="d"}
+, ["掳"]={["first"]="f", ["second"]="l"}
+, ["掴"]={["first"]="f", ["second"]="y"}
+, ["埸"]={["first"]="t", ["second"]="w"}
+, ["埵"]={["first"]="t", ["second"]="i"}
+, ["赧"]={["first"]="t", ["second"]="y"}
+, ["埤"]={["first"]="t", ["second"]="u"}
+, ["捭"]={["first"]="f", ["second"]="u"}
+, ["逵"]={["first"]="z", ["second"]="t"}
+, ["埝"]={["first"]="t", ["second"]="x"}
+, ["堋"]={["first"]="t", ["second"]="o"}
+, ["堍"]={["first"]="t", ["second"]="d"}
+, ["掬"]={["first"]="f", ["second"]="m"}
+, ["鸷"]={["first"]="f", ["second"]="n"}
+, ["掖"]={["first"]="f", ["second"]="n"}
+, ["捽"]={["first"]="f", ["second"]="u"}
+, ["掊"]={["first"]="f", ["second"]="k"}
+, ["堉"]={["first"]="t", ["second"]="o"}
+, ["掸"]={["first"]="f", ["second"]="l"}
+, ["捩"]={["first"]="f", ["second"]="q"}
+, ["掮"]={["first"]="f", ["second"]="o"}
+, ["悫"]={["first"]="u", ["second"]="x"}
+, ["埭"]={["first"]="t", ["second"]="n"}
+, ["埽"]={["first"]="t", ["second"]="j"}
+, ["掇"]={["first"]="f", ["second"]="y"}
+, ["掼"]={["first"]="f", ["second"]="r"}
+, ["聃"]={["first"]="e", ["second"]="r"}
+, ["菁"]={["first"]="c", ["second"]="o"}
+, ["萁"]={["first"]="c", ["second"]="b"}
+, ["菘"]={["first"]="c", ["second"]="s"}
+, ["堇"]={["first"]="n", ["second"]="a"}
+, ["萘"]={["first"]="c", ["second"]="x"}
+, ["萋"]={["first"]="c", ["second"]="n"}
+, ["菽"]={["first"]="c", ["second"]="y"}
+, ["菖"]={["first"]="c", ["second"]="o"}
+, ["萜"]={["first"]="c", ["second"]="k"}
+, ["萸"]={["first"]="c", ["second"]="y"}
+, ["萑"]={["first"]="c", ["second"]="f"}
+, ["棻"]={["first"]="c", ["second"]="m"}
+, ["菔"]={["first"]="c", ["second"]="y"}
+, ["菟"]={["first"]="c", ["second"]="d"}
+, ["萏"]={["first"]="c", ["second"]="j"}
+, ["萃"]={["first"]="c", ["second"]="u"}
+, ["菏"]={["first"]="c", ["second"]="k"}
+, ["菹"]={["first"]="c", ["second"]="q"}
+, ["菪"]={["first"]="c", ["second"]="u"}
+, ["菅"]={["first"]="c", ["second"]="k"}
+, ["菀"]={["first"]="c", ["second"]="v"}
+, ["萦"]={["first"]="c", ["second"]="x"}
+, ["菰"]={["first"]="c", ["second"]="g"}
+, ["菡"]={["first"]="c", ["second"]="k"}
+, ["梵"]={["first"]="m", ["second"]="f"}
+, ["梿"]={["first"]="m", ["second"]="z"}
+, ["梏"]={["first"]="m", ["second"]="k"}
+, ["觋"]={["first"]="g", ["second"]="e"}
+, ["桴"]={["first"]="m", ["second"]="z"}
+, ["桷"]={["first"]="m", ["second"]="y"}
+, ["梓"]={["first"]="m", ["second"]="u"}
+, ["棁"]={["first"]="m", ["second"]="e"}
+, ["桫"]={["first"]="m", ["second"]="u"}
+, ["棂"]={["first"]="m", ["second"]="h"}
+, ["啬"]={["first"]="u", ["second"]="k"}
+, ["郾"]={["first"]="k", ["second"]="e"}
+, ["匮"]={["first"]="k", ["second"]="r"}
+, ["敕"]={["first"]="u", ["second"]="w"}
+, ["豉"]={["first"]="a", ["second"]="y"}
+, ["鄄"]={["first"]="x", ["second"]="e"}
+, ["酞"]={["first"]="y", ["second"]="t"}
+, ["酚"]={["first"]="y", ["second"]="d"}
+, ["戛"]={["first"]="a", ["second"]="g"}
+, ["硎"]={["first"]="u", ["second"]="d"}
+, ["硭"]={["first"]="u", ["second"]="w"}
+, ["硒"]={["first"]="u", ["second"]="x"}
+, ["硖"]={["first"]="u", ["second"]="j"}
+, ["硗"]={["first"]="u", ["second"]="w"}
+, ["硐"]={["first"]="u", ["second"]="k"}
+, ["硇"]={["first"]="u", ["second"]="x"}
+, ["硌"]={["first"]="u", ["second"]="k"}
+, ["鸸"]={["first"]="e", ["second"]="n"}
+, ["瓠"]={["first"]="d", ["second"]="g"}
+, ["匏"]={["first"]="d", ["second"]="s"}
+, ["厩"]={["first"]="i", ["second"]="v"}
+, ["龚"]={["first"]="l", ["second"]="b"}
+, ["殒"]={["first"]="d", ["second"]="r"}
+, ["殓"]={["first"]="d", ["second"]="a"}
+, ["殍"]={["first"]="d", ["second"]="z"}
+, ["赉"]={["first"]="l", ["second"]="r"}
+, ["雩"]={["first"]="y", ["second"]="k"}
+, ["辄"]={["first"]="i", ["second"]="v"}
+, ["堑"]={["first"]="i", ["second"]="t"}
+, ["眭"]={["first"]="o", ["second"]="t"}
+, ["眦"]={["first"]="o", ["second"]="b"}
+, ["啧"]={["first"]="k", ["second"]="r"}
+, ["晡"]={["first"]="o", ["second"]="f"}
+, ["晤"]={["first"]="o", ["second"]="k"}
+, ["眺"]={["first"]="o", ["second"]="d"}
+, ["眵"]={["first"]="o", ["second"]="x"}
+, ["眸"]={["first"]="o", ["second"]="n"}
+, ["圊"]={["first"]="k", ["second"]="o"}
+, ["喏"]={["first"]="k", ["second"]="k"}
+, ["喵"]={["first"]="k", ["second"]="t"}
+, ["啉"]={["first"]="k", ["second"]="m"}
+, ["勖"]={["first"]="k", ["second"]="l"}
+, ["晞"]={["first"]="o", ["second"]="j"}
+, ["唵"]={["first"]="k", ["second"]="d"}
+, ["晗"]={["first"]="o", ["second"]="k"}
+, ["冕"]={["first"]="k", ["second"]="v"}
+, ["啭"]={["first"]="k", ["second"]="v"}
+, ["畦"]={["first"]="t", ["second"]="t"}
+, ["趺"]={["first"]="z", ["second"]="f"}
+, ["啮"]={["first"]="k", ["second"]="k"}
+, ["跄"]={["first"]="z", ["second"]="v"}
+, ["蚶"]={["first"]="i", ["second"]="g"}
+, ["蛄"]={["first"]="i", ["second"]="k"}
+, ["蛎"]={["first"]="i", ["second"]="w"}
+, ["蛆"]={["first"]="i", ["second"]="q"}
+, ["蚰"]={["first"]="i", ["second"]="y"}
+, ["蛊"]={["first"]="i", ["second"]="m"}
+, ["圉"]={["first"]="k", ["second"]="g"}
+, ["蚱"]={["first"]="i", ["second"]="v"}
+, ["蛉"]={["first"]="i", ["second"]="s"}
+, ["蛏"]={["first"]="i", ["second"]="t"}
+, ["蚴"]={["first"]="i", ["second"]="l"}
+, ["啁"]={["first"]="k", ["second"]="k"}
+, ["啕"]={["first"]="k", ["second"]="f"}
+, ["唿"]={["first"]="k", ["second"]="x"}
+, ["啐"]={["first"]="k", ["second"]="u"}
+, ["唼"]={["first"]="k", ["second"]="n"}
+, ["唷"]={["first"]="k", ["second"]="o"}
+, ["啖"]={["first"]="k", ["second"]="h"}
+, ["啵"]={["first"]="k", ["second"]="y"}
+, ["啶"]={["first"]="k", ["second"]="r"}
+, ["啷"]={["first"]="k", ["second"]="e"}
+, ["唳"]={["first"]="k", ["second"]="q"}
+, ["唰"]={["first"]="k", ["second"]="d"}
+, ["啜"]={["first"]="k", ["second"]="y"}
+, ["帻"]={["first"]="j", ["second"]="r"}
+, ["崚"]={["first"]="e", ["second"]="w"}
+, ["崦"]={["first"]="e", ["second"]="d"}
+, ["帼"]={["first"]="j", ["second"]="y"}
+, ["崮"]={["first"]="e", ["second"]="k"}
+, ["崤"]={["first"]="e", ["second"]="o"}
+, ["崆"]={["first"]="e", ["second"]="g"}
+, ["赇"]={["first"]="k", ["second"]="q"}
+, ["赈"]={["first"]="k", ["second"]="n"}
+, ["赊"]={["first"]="k", ["second"]="x"}
+, ["铑"]={["first"]="j", ["second"]="b"}
+, ["铒"]={["first"]="j", ["second"]="e"}
+, ["铗"]={["first"]="j", ["second"]="j"}
+, ["铙"]={["first"]="j", ["second"]="w"}
+, ["铟"]={["first"]="j", ["second"]="d"}
+, ["铠"]={["first"]="j", ["second"]="j"}
+, ["铡"]={["first"]="j", ["second"]="d"}
+, ["铢"]={["first"]="j", ["second"]="v"}
+, ["铣"]={["first"]="j", ["second"]="e"}
+, ["铤"]={["first"]="j", ["second"]="z"}
+, ["铧"]={["first"]="j", ["second"]="u"}
+, ["铨"]={["first"]="j", ["second"]="w"}
+, ["铩"]={["first"]="j", ["second"]="m"}
+, ["铪"]={["first"]="j", ["second"]="k"}
+, ["铫"]={["first"]="j", ["second"]="d"}
+, ["铬"]={["first"]="j", ["second"]="k"}
+, ["铮"]={["first"]="j", ["second"]="l"}
+, ["铯"]={["first"]="j", ["second"]="b"}
+, ["铰"]={["first"]="j", ["second"]="x"}
+, ["铱"]={["first"]="j", ["second"]="y"}
+, ["铳"]={["first"]="j", ["second"]="e"}
+, ["铵"]={["first"]="j", ["second"]="n"}
+, ["铷"]={["first"]="j", ["second"]="k"}
+, ["氪"]={["first"]="q", ["second"]="e"}
+, ["牾"]={["first"]="n", ["second"]="k"}
+, ["鸹"]={["first"]="q", ["second"]="n"}
+, ["秾"]={["first"]="h", ["second"]="n"}
+, ["逶"]={["first"]="z", ["second"]="n"}
+, ["笺"]={["first"]="v", ["second"]="j"}
+, ["筇"]={["first"]="v", ["second"]="e"}
+, ["笸"]={["first"]="v", ["second"]="k"}
+, ["笪"]={["first"]="v", ["second"]="a"}
+, ["笮"]={["first"]="v", ["second"]="v"}
+, ["笠"]={["first"]="v", ["second"]="l"}
+, ["笥"]={["first"]="v", ["second"]="k"}
+, ["笤"]={["first"]="v", ["second"]="k"}
+, ["笳"]={["first"]="v", ["second"]="k"}
+, ["笾"]={["first"]="v", ["second"]="z"}
+, ["笞"]={["first"]="v", ["second"]="k"}
+, ["偾"]={["first"]="r", ["second"]="r"}
+, ["偃"]={["first"]="r", ["second"]="n"}
+, ["偕"]={["first"]="r", ["second"]="b"}
+, ["偈"]={["first"]="r", ["second"]="v"}
+, ["傀"]={["first"]="r", ["second"]="g"}
+, ["偬"]={["first"]="r", ["second"]="x"}
+, ["偻"]={["first"]="r", ["second"]="n"}
+, ["皑"]={["first"]="b", ["second"]="j"}
+, ["皎"]={["first"]="b", ["second"]="x"}
+, ["鸻"]={["first"]="i", ["second"]="n"}
+, ["徜"]={["first"]="i", ["second"]="k"}
+, ["舸"]={["first"]="v", ["second"]="k"}
+, ["舻"]={["first"]="v", ["second"]="u"}
+, ["舴"]={["first"]="v", ["second"]="v"}
+, ["舷"]={["first"]="v", ["second"]="y"}
+, ["龛"]={["first"]="r", ["second"]="l"}
+, ["翎"]={["first"]="r", ["second"]="x"}
+, ["脬"]={["first"]="o", ["second"]="z"}
+, ["脘"]={["first"]="o", ["second"]="e"}
+, ["脲"]={["first"]="o", ["second"]="u"}
+, ["匐"]={["first"]="b", ["second"]="t"}
+, ["猗"]={["first"]="q", ["second"]="k"}
+, ["猡"]={["first"]="q", ["second"]="x"}
+, ["猞"]={["first"]="q", ["second"]="k"}
+, ["猝"]={["first"]="q", ["second"]="u"}
+, ["斛"]={["first"]="d", ["second"]="u"}
+, ["猕"]={["first"]="q", ["second"]="x"}
+, ["馗"]={["first"]="j", ["second"]="z"}
+, ["馃"]={["first"]="u", ["second"]="g"}
+, ["馄"]={["first"]="u", ["second"]="b"}
+, ["鸾"]={["first"]="w", ["second"]="n"}
+, ["孰"]={["first"]="w", ["second"]="w"}
+, ["庹"]={["first"]="g", ["second"]="i"}
+, ["庾"]={["first"]="g", ["second"]="y"}
+, ["痔"]={["first"]="b", ["second"]="c"}
+, ["痍"]={["first"]="b", ["second"]="y"}
+, ["疵"]={["first"]="b", ["second"]="b"}
+, ["翊"]={["first"]="l", ["second"]="x"}
+, ["旌"]={["first"]="f", ["second"]="u"}
+, ["旎"]={["first"]="f", ["second"]="b"}
+, ["袤"]={["first"]="w", ["second"]="y"}
+, ["阇"]={["first"]="m", ["second"]="o"}
+, ["阈"]={["first"]="m", ["second"]="a"}
+, ["阉"]={["first"]="m", ["second"]="d"}
+, ["阊"]={["first"]="m", ["second"]="o"}
+, ["阋"]={["first"]="m", ["second"]="e"}
+, ["阍"]={["first"]="m", ["second"]="o"}
+, ["阏"]={["first"]="m", ["second"]="d"}
+, ["羟"]={["first"]="y", ["second"]="g"}
+, ["粝"]={["first"]="m", ["second"]="w"}
+, ["粕"]={["first"]="m", ["second"]="b"}
+, ["敝"]={["first"]="d", ["second"]="w"}
+, ["焐"]={["first"]="h", ["second"]="k"}
+, ["烯"]={["first"]="h", ["second"]="j"}
+, ["焓"]={["first"]="h", ["second"]="k"}
+, ["烽"]={["first"]="h", ["second"]="f"}
+, ["焖"]={["first"]="h", ["second"]="x"}
+, ["烷"]={["first"]="h", ["second"]="e"}
+, ["焗"]={["first"]="h", ["second"]="k"}
+, ["渍"]={["first"]="d", ["second"]="r"}
+, ["渚"]={["first"]="d", ["second"]="o"}
+, ["淇"]={["first"]="d", ["second"]="b"}
+, ["淅"]={["first"]="d", ["second"]="j"}
+, ["淞"]={["first"]="d", ["second"]="s"}
+, ["渎"]={["first"]="d", ["second"]="d"}
+, ["涿"]={["first"]="d", ["second"]="n"}
+, ["淖"]={["first"]="d", ["second"]="u"}
+, ["挲"]={["first"]="d", ["second"]="u"}
+, ["淠"]={["first"]="d", ["second"]="l"}
+, ["涸"]={["first"]="d", ["second"]="k"}
+, ["渑"]={["first"]="d", ["second"]="d"}
+, ["淦"]={["first"]="d", ["second"]="j"}
+, ["淝"]={["first"]="d", ["second"]="b"}
+, ["淬"]={["first"]="d", ["second"]="u"}
+, ["涪"]={["first"]="d", ["second"]="k"}
+, ["淙"]={["first"]="d", ["second"]="x"}
+, ["涫"]={["first"]="d", ["second"]="k"}
+, ["渌"]={["first"]="d", ["second"]="u"}
+, ["淄"]={["first"]="d", ["second"]="t"}
+, ["惬"]={["first"]="x", ["second"]="j"}
+, ["悻"]={["first"]="x", ["second"]="g"}
+, ["悱"]={["first"]="x", ["second"]="f"}
+, ["惝"]={["first"]="x", ["second"]="k"}
+, ["惘"]={["first"]="x", ["second"]="w"}
+, ["悸"]={["first"]="x", ["second"]="z"}
+, ["惆"]={["first"]="x", ["second"]="k"}
+, ["惚"]={["first"]="x", ["second"]="x"}
+, ["惇"]={["first"]="x", ["second"]="z"}
+, ["惮"]={["first"]="x", ["second"]="l"}
+, ["窕"]={["first"]="b", ["second"]="d"}
+, ["谌"]={["first"]="y", ["second"]="v"}
+, ["谏"]={["first"]="y", ["second"]="j"}
+, ["扈"]={["first"]="h", ["second"]="b"}
+, ["皲"]={["first"]="b", ["second"]="y"}
+, ["谑"]={["first"]="y", ["second"]="a"}
+, ["裆"]={["first"]="p", ["second"]="e"}
+, ["袷"]={["first"]="p", ["second"]="k"}
+, ["裉"]={["first"]="p", ["second"]="g"}
+, ["谒"]={["first"]="y", ["second"]="v"}
+, ["谔"]={["first"]="y", ["second"]="k"}
+, ["谕"]={["first"]="y", ["second"]="d"}
+, ["谖"]={["first"]="y", ["second"]="y"}
+, ["谗"]={["first"]="y", ["second"]="d"}
+, ["谙"]={["first"]="y", ["second"]="o"}
+, ["谛"]={["first"]="y", ["second"]="j"}
+, ["谝"]={["first"]="y", ["second"]="c"}
+, ["逯"]={["first"]="z", ["second"]="u"}
+, ["郿"]={["first"]="v", ["second"]="e"}
+, ["隈"]={["first"]="e", ["second"]="n"}
+, ["粜"]={["first"]="i", ["second"]="m"}
+, ["隍"]={["first"]="e", ["second"]="w"}
+, ["隗"]={["first"]="e", ["second"]="g"}
+, ["婧"]={["first"]="n", ["second"]="o"}
+, ["婊"]={["first"]="n", ["second"]="y"}
+, ["婕"]={["first"]="n", ["second"]="r"}
+, ["娼"]={["first"]="n", ["second"]="o"}
+, ["婢"]={["first"]="n", ["second"]="u"}
+, ["婵"]={["first"]="n", ["second"]="l"}
+, ["胬"]={["first"]="n", ["second"]="r"}
+, ["袈"]={["first"]="l", ["second"]="y"}
+, ["翌"]={["first"]="x", ["second"]="l"}
+, ["恿"]={["first"]="s", ["second"]="x"}
+, ["欸"]={["first"]="s", ["second"]="r"}
+, ["绫"]={["first"]="s", ["second"]="w"}
+, ["骐"]={["first"]="m", ["second"]="b"}
+, ["绮"]={["first"]="s", ["second"]="k"}
+, ["绯"]={["first"]="s", ["second"]="f"}
+, ["绱"]={["first"]="s", ["second"]="k"}
+, ["骒"]={["first"]="m", ["second"]="g"}
+, ["绲"]={["first"]="s", ["second"]="b"}
+, ["骓"]={["first"]="m", ["second"]="f"}
+, ["绶"]={["first"]="s", ["second"]="y"}
+, ["绺"]={["first"]="s", ["second"]="k"}
+, ["绻"]={["first"]="s", ["second"]="v"}
+, ["绾"]={["first"]="s", ["second"]="k"}
+, ["骖"]={["first"]="m", ["second"]="p"}
+, ["缁"]={["first"]="s", ["second"]="t"}
+, ["耠"]={["first"]="l", ["second"]="k"}
+, ["琫"]={["first"]="w", ["second"]="l"}
+, ["琵"]={["first"]="w", ["second"]="b"}
+, ["琶"]={["first"]="w", ["second"]="b"}
+, ["琪"]={["first"]="w", ["second"]="b"}
+, ["瑛"]={["first"]="w", ["second"]="y"}
+, ["琦"]={["first"]="w", ["second"]="k"}
+, ["琥"]={["first"]="w", ["second"]="j"}
+, ["琨"]={["first"]="w", ["second"]="b"}
+, ["靓"]={["first"]="f", ["second"]="e"}
+, ["琰"]={["first"]="w", ["second"]="h"}
+, ["琮"]={["first"]="w", ["second"]="x"}
+, ["琯"]={["first"]="w", ["second"]="k"}
+, ["琬"]={["first"]="w", ["second"]="v"}
+, ["琛"]={["first"]="w", ["second"]="m"}
+, ["琚"]={["first"]="w", ["second"]="k"}
+, ["辇"]={["first"]="f", ["second"]="i"}
+, ["鼋"]={["first"]="e", ["second"]="d"}
+, ["揳"]={["first"]="f", ["second"]="d"}
+, ["堞"]={["first"]="t", ["second"]="m"}
+, ["搽"]={["first"]="f", ["second"]="m"}
+, ["揸"]={["first"]="f", ["second"]="a"}
+, ["揠"]={["first"]="f", ["second"]="n"}
+, ["堙"]={["first"]="t", ["second"]="t"}
+, ["趄"]={["first"]="t", ["second"]="q"}
+, ["揖"]={["first"]="f", ["second"]="e"}
+, ["颉"]={["first"]="u", ["second"]="r"}
+, ["塄"]={["first"]="t", ["second"]="f"}
+, ["揿"]={["first"]="f", ["second"]="r"}
+, ["耋"]={["first"]="l", ["second"]="t"}
+, ["揄"]={["first"]="f", ["second"]="d"}
+, ["蛩"]={["first"]="g", ["second"]="i"}
+, ["蛰"]={["first"]="f", ["second"]="i"}
+, ["塆"]={["first"]="t", ["second"]="g"}
+, ["摒"]={["first"]="f", ["second"]="k"}
+, ["揆"]={["first"]="f", ["second"]="t"}
+, ["掾"]={["first"]="f", ["second"]="u"}
+, ["聒"]={["first"]="e", ["second"]="k"}
+, ["葑"]={["first"]="c", ["second"]="c"}
+, ["葚"]={["first"]="c", ["second"]="v"}
+, ["靰"]={["first"]="g", ["second"]="w"}
+, ["靸"]={["first"]="g", ["second"]="j"}
+, ["葳"]={["first"]="c", ["second"]="n"}
+, ["葺"]={["first"]="c", ["second"]="e"}
+, ["葸"]={["first"]="c", ["second"]="x"}
+, ["萼"]={["first"]="c", ["second"]="k"}
+, ["葆"]={["first"]="c", ["second"]="m"}
+, ["葩"]={["first"]="c", ["second"]="b"}
+, ["葶"]={["first"]="c", ["second"]="d"}
+, ["蒌"]={["first"]="c", ["second"]="n"}
+, ["萱"]={["first"]="c", ["second"]="a"}
+, ["戟"]={["first"]="u", ["second"]="g"}
+, ["葭"]={["first"]="c", ["second"]="y"}
+, ["楮"]={["first"]="m", ["second"]="o"}
+, ["棼"]={["first"]="m", ["second"]="d"}
+, ["椟"]={["first"]="m", ["second"]="d"}
+, ["棹"]={["first"]="m", ["second"]="u"}
+, ["椤"]={["first"]="m", ["second"]="x"}
+, ["棰"]={["first"]="m", ["second"]="i"}
+, ["赍"]={["first"]="u", ["second"]="r"}
+, ["椋"]={["first"]="m", ["second"]="x"}
+, ["椁"]={["first"]="m", ["second"]="z"}
+, ["椪"]={["first"]="m", ["second"]="y"}
+, ["棣"]={["first"]="m", ["second"]="n"}
+, ["椐"]={["first"]="m", ["second"]="k"}
+, ["鹁"]={["first"]="u", ["second"]="n"}
+, ["覃"]={["first"]="x", ["second"]="u"}
+, ["酤"]={["first"]="y", ["second"]="k"}
+, ["酢"]={["first"]="y", ["second"]="v"}
+, ["酡"]={["first"]="y", ["second"]="b"}
+, ["鹂"]={["first"]="l", ["second"]="n"}
+, ["厥"]={["first"]="i", ["second"]="r"}
+, ["殚"]={["first"]="d", ["second"]="l"}
+, ["殛"]={["first"]="d", ["second"]="a"}
+, ["雯"]={["first"]="y", ["second"]="w"}
+, ["雱"]={["first"]="y", ["second"]="f"}
+, ["辊"]={["first"]="i", ["second"]="b"}
+, ["辋"]={["first"]="i", ["second"]="w"}
+, ["椠"]={["first"]="i", ["second"]="m"}
+, ["辍"]={["first"]="i", ["second"]="y"}
+, ["辎"]={["first"]="i", ["second"]="t"}
+, ["斐"]={["first"]="f", ["second"]="w"}
+, ["睄"]={["first"]="o", ["second"]="o"}
+, ["睑"]={["first"]="o", ["second"]="a"}
+, ["睇"]={["first"]="o", ["second"]="p"}
+, ["睃"]={["first"]="o", ["second"]="w"}
+, ["戢"]={["first"]="k", ["second"]="a"}
+, ["喋"]={["first"]="k", ["second"]="m"}
+, ["嗒"]={["first"]="k", ["second"]="k"}
+, ["喃"]={["first"]="k", ["second"]="g"}
+, ["喱"]={["first"]="k", ["second"]="l"}
+, ["喹"]={["first"]="k", ["second"]="t"}
+, ["晷"]={["first"]="o", ["second"]="k"}
+, ["喈"]={["first"]="k", ["second"]="b"}
+, ["跖"]={["first"]="z", ["second"]="u"}
+, ["跗"]={["first"]="z", ["second"]="c"}
+, ["跞"]={["first"]="z", ["second"]="l"}
+, ["跚"]={["first"]="z", ["second"]="c"}
+, ["跎"]={["first"]="z", ["second"]="b"}
+, ["跏"]={["first"]="z", ["second"]="k"}
+, ["跆"]={["first"]="z", ["second"]="k"}
+, ["蛱"]={["first"]="i", ["second"]="j"}
+, ["蛲"]={["first"]="i", ["second"]="w"}
+, ["蛭"]={["first"]="i", ["second"]="t"}
+, ["蛳"]={["first"]="i", ["second"]="j"}
+, ["蛐"]={["first"]="i", ["second"]="q"}
+, ["蛔"]={["first"]="i", ["second"]="k"}
+, ["蛞"]={["first"]="i", ["second"]="k"}
+, ["蛴"]={["first"]="i", ["second"]="l"}
+, ["蛟"]={["first"]="i", ["second"]="x"}
+, ["蛘"]={["first"]="i", ["second"]="y"}
+, ["喁"]={["first"]="k", ["second"]="y"}
+, ["喟"]={["first"]="k", ["second"]="o"}
+, ["啾"]={["first"]="k", ["second"]="h"}
+, ["嗖"]={["first"]="k", ["second"]="y"}
+, ["喑"]={["first"]="k", ["second"]="o"}
+, ["嗟"]={["first"]="k", ["second"]="g"}
+, ["喽"]={["first"]="k", ["second"]="n"}
+, ["嗞"]={["first"]="k", ["second"]="y"}
+, ["喀"]={["first"]="k", ["second"]="k"}
+, ["喔"]={["first"]="k", ["second"]="t"}
+, ["喙"]={["first"]="k", ["second"]="u"}
+, ["嵘"]={["first"]="e", ["second"]="m"}
+, ["嵖"]={["first"]="e", ["second"]="a"}
+, ["崴"]={["first"]="e", ["second"]="n"}
+, ["遄"]={["first"]="z", ["second"]="e"}
+, ["詈"]={["first"]="s", ["second"]="k"}
+, ["嵎"]={["first"]="e", ["second"]="y"}
+, ["崽"]={["first"]="e", ["second"]="x"}
+, ["嵬"]={["first"]="e", ["second"]="g"}
+, ["嵛"]={["first"]="e", ["second"]="d"}
+, ["嵯"]={["first"]="e", ["second"]="g"}
+, ["嵝"]={["first"]="e", ["second"]="n"}
+, ["嵫"]={["first"]="e", ["second"]="y"}
+, ["幄"]={["first"]="j", ["second"]="t"}
+, ["嵋"]={["first"]="e", ["second"]="o"}
+, ["赕"]={["first"]="k", ["second"]="h"}
+, ["铻"]={["first"]="j", ["second"]="k"}
+, ["铼"]={["first"]="j", ["second"]="l"}
+, ["铿"]={["first"]="j", ["second"]="t"}
+, ["锃"]={["first"]="j", ["second"]="w"}
+, ["锂"]={["first"]="j", ["second"]="l"}
+, ["锆"]={["first"]="j", ["second"]="k"}
+, ["锇"]={["first"]="j", ["second"]="w"}
+, ["锉"]={["first"]="j", ["second"]="t"}
+, ["锏"]={["first"]="j", ["second"]="o"}
+, ["锑"]={["first"]="j", ["second"]="p"}
+, ["锒"]={["first"]="j", ["second"]="l"}
+, ["锔"]={["first"]="j", ["second"]="k"}
+, ["锕"]={["first"]="j", ["second"]="k"}
+, ["掣"]={["first"]="p", ["second"]="u"}
+, ["矬"]={["first"]="u", ["second"]="t"}
+, ["氰"]={["first"]="q", ["second"]="o"}
+, ["毳"]={["first"]="m", ["second"]="m"}
+, ["毽"]={["first"]="m", ["second"]="z"}
+, ["犊"]={["first"]="n", ["second"]="d"}
+, ["犄"]={["first"]="n", ["second"]="k"}
+, ["犋"]={["first"]="n", ["second"]="b"}
+, ["鹄"]={["first"]="n", ["second"]="n"}
+, ["犍"]={["first"]="n", ["second"]="z"}
+, ["嵇"]={["first"]="h", ["second"]="e"}
+, ["黍"]={["first"]="h", ["second"]="u"}
+, ["稃"]={["first"]="h", ["second"]="z"}
+, ["稂"]={["first"]="h", ["second"]="l"}
+, ["筚"]={["first"]="v", ["second"]="u"}
+, ["筵"]={["first"]="v", ["second"]="z"}
+, ["筌"]={["first"]="v", ["second"]="w"}
+, ["傣"]={["first"]="r", ["second"]="u"}
+, ["傈"]={["first"]="r", ["second"]="m"}
+, ["舄"]={["first"]="j", ["second"]="h"}
+, ["牍"]={["first"]="p", ["second"]="d"}
+, ["傥"]={["first"]="r", ["second"]="e"}
+, ["傧"]={["first"]="r", ["second"]="b"}
+, ["遑"]={["first"]="z", ["second"]="w"}
+, ["傩"]={["first"]="r", ["second"]="f"}
+, ["遁"]={["first"]="z", ["second"]="o"}
+, ["徨"]={["first"]="i", ["second"]="w"}
+, ["媭"]={["first"]="p", ["second"]="n"}
+, ["畲"]={["first"]="r", ["second"]="t"}
+, ["弑"]={["first"]="x", ["second"]="g"}
+, ["颌"]={["first"]="r", ["second"]="r"}
+, ["翕"]={["first"]="r", ["second"]="x"}
+, ["釉"]={["first"]="p", ["second"]="y"}
+, ["鹆"]={["first"]="b", ["second"]="n"}
+, ["舜"]={["first"]="p", ["second"]="l"}
+, ["貂"]={["first"]="v", ["second"]="k"}
+, ["腈"]={["first"]="o", ["second"]="o"}
+, ["腌"]={["first"]="o", ["second"]="d"}
+, ["腓"]={["first"]="o", ["second"]="f"}
+, ["腆"]={["first"]="o", ["second"]="b"}
+, ["腴"]={["first"]="o", ["second"]="y"}
+, ["腑"]={["first"]="o", ["second"]="c"}
+, ["腚"]={["first"]="o", ["second"]="r"}
+, ["腱"]={["first"]="o", ["second"]="z"}
+, ["鱿"]={["first"]="a", ["second"]="y"}
+, ["鲀"]={["first"]="a", ["second"]="t"}
+, ["鲂"]={["first"]="a", ["second"]="f"}
+, ["颍"]={["first"]="b", ["second"]="r"}
+, ["猢"]={["first"]="q", ["second"]="o"}
+, ["猹"]={["first"]="q", ["second"]="a"}
+, ["猥"]={["first"]="q", ["second"]="n"}
+, ["飓"]={["first"]="j", ["second"]="b"}
+, ["觞"]={["first"]="d", ["second"]="p"}
+, ["觚"]={["first"]="d", ["second"]="g"}
+, ["猱"]={["first"]="q", ["second"]="m"}
+, ["颎"]={["first"]="b", ["second"]="r"}
+, ["飧"]={["first"]="x", ["second"]="l"}
+, ["馇"]={["first"]="u", ["second"]="a"}
+, ["馊"]={["first"]="u", ["second"]="y"}
+, ["亵"]={["first"]="w", ["second"]="y"}
+, ["脔"]={["first"]="w", ["second"]="r"}
+, ["裒"]={["first"]="w", ["second"]="y"}
+, ["痣"]={["first"]="b", ["second"]="x"}
+, ["痨"]={["first"]="b", ["second"]="l"}
+, ["痦"]={["first"]="b", ["second"]="k"}
+, ["痞"]={["first"]="b", ["second"]="k"}
+, ["痤"]={["first"]="b", ["second"]="t"}
+, ["痫"]={["first"]="b", ["second"]="m"}
+, ["痧"]={["first"]="b", ["second"]="u"}
+, ["赓"]={["first"]="g", ["second"]="r"}
+, ["竦"]={["first"]="l", ["second"]="u"}
+, ["瓿"]={["first"]="l", ["second"]="w"}
+, ["啻"]={["first"]="w", ["second"]="k"}
+, ["颏"]={["first"]="w", ["second"]="r"}
+, ["鹇"]={["first"]="m", ["second"]="n"}
+, ["阑"]={["first"]="m", ["second"]="j"}
+, ["阒"]={["first"]="m", ["second"]="q"}
+, ["阕"]={["first"]="m", ["second"]="t"}
+, ["粞"]={["first"]="m", ["second"]="x"}
+, ["遒"]={["first"]="z", ["second"]="y"}
+, ["孳"]={["first"]="b", ["second"]="z"}
+, ["焯"]={["first"]="h", ["second"]="u"}
+, ["焜"]={["first"]="h", ["second"]="b"}
+, ["焙"]={["first"]="h", ["second"]="k"}
+, ["焱"]={["first"]="h", ["second"]="h"}
+, ["鹈"]={["first"]="b", ["second"]="n"}
+, ["湛"]={["first"]="d", ["second"]="v"}
+, ["渫"]={["first"]="d", ["second"]="m"}
+, ["湮"]={["first"]="d", ["second"]="t"}
+, ["湎"]={["first"]="d", ["second"]="m"}
+, ["湜"]={["first"]="d", ["second"]="r"}
+, ["渭"]={["first"]="d", ["second"]="o"}
+, ["湍"]={["first"]="d", ["second"]="e"}
+, ["湫"]={["first"]="d", ["second"]="h"}
+, ["溲"]={["first"]="d", ["second"]="y"}
+, ["湟"]={["first"]="d", ["second"]="w"}
+, ["溆"]={["first"]="d", ["second"]="y"}
+, ["湲"]={["first"]="d", ["second"]="y"}
+, ["湔"]={["first"]="d", ["second"]="d"}
+, ["湉"]={["first"]="d", ["second"]="k"}
+, ["渥"]={["first"]="d", ["second"]="t"}
+, ["湄"]={["first"]="d", ["second"]="o"}
+, ["滁"]={["first"]="d", ["second"]="h"}
+, ["愠"]={["first"]="x", ["second"]="m"}
+, ["惺"]={["first"]="x", ["second"]="u"}
+, ["愦"]={["first"]="x", ["second"]="r"}
+, ["惴"]={["first"]="x", ["second"]="e"}
+, ["愀"]={["first"]="x", ["second"]="h"}
+, ["愎"]={["first"]="x", ["second"]="w"}
+, ["愔"]={["first"]="x", ["second"]="o"}
+, ["喾"]={["first"]="x", ["second"]="k"}
+, ["寐"]={["first"]="b", ["second"]="w"}
+, ["谟"]={["first"]="y", ["second"]="d"}
+, ["扉"]={["first"]="h", ["second"]="f"}
+, ["裢"]={["first"]="p", ["second"]="z"}
+, ["裎"]={["first"]="p", ["second"]="w"}
+, ["裥"]={["first"]="p", ["second"]="o"}
+, ["祾"]={["first"]="p", ["second"]="w"}
+, ["祺"]={["first"]="p", ["second"]="b"}
+, ["谠"]={["first"]="y", ["second"]="e"}
+, ["幂"]={["first"]="b", ["second"]="j"}
+, ["谡"]={["first"]="y", ["second"]="w"}
+, ["谥"]={["first"]="y", ["second"]="m"}
+, ["谧"]={["first"]="y", ["second"]="m"}
+, ["遐"]={["first"]="z", ["second"]="y"}
+, ["孱"]={["first"]="u", ["second"]="z"}
+, ["弼"]={["first"]="g", ["second"]="g"}
+, ["巽"]={["first"]="s", ["second"]="b"}
+, ["骘"]={["first"]="e", ["second"]="m"}
+, ["媪"]={["first"]="n", ["second"]="m"}
+, ["媛"]={["first"]="n", ["second"]="y"}
+, ["婷"]={["first"]="n", ["second"]="d"}
+, ["巯"]={["first"]="v", ["second"]="v"}
+, ["翚"]={["first"]="x", ["second"]="i"}
+, ["皴"]={["first"]="s", ["second"]="y"}
+, ["婺"]={["first"]="s", ["second"]="n"}
+, ["骛"]={["first"]="s", ["second"]="m"}
+, ["缂"]={["first"]="s", ["second"]="g"}
+, ["缃"]={["first"]="s", ["second"]="o"}
+, ["缄"]={["first"]="s", ["second"]="k"}
+, ["彘"]={["first"]="v", ["second"]="b"}
+, ["缇"]={["first"]="s", ["second"]="r"}
+, ["缈"]={["first"]="s", ["second"]="u"}
+, ["缌"]={["first"]="s", ["second"]="x"}
+, ["缑"]={["first"]="s", ["second"]="u"}
+, ["缒"]={["first"]="s", ["second"]="z"}
+, ["缗"]={["first"]="s", ["second"]="o"}
+, ["飨"]={["first"]="x", ["second"]="l"}
+, ["耢"]={["first"]="l", ["second"]="l"}
+, ["瑚"]={["first"]="w", ["second"]="o"}
+, ["瑁"]={["first"]="w", ["second"]="o"}
+, ["瑜"]={["first"]="w", ["second"]="d"}
+, ["瑗"]={["first"]="w", ["second"]="y"}
+, ["瑄"]={["first"]="w", ["second"]="a"}
+, ["瑕"]={["first"]="w", ["second"]="y"}
+, ["遨"]={["first"]="z", ["second"]="w"}
+, ["骜"]={["first"]="f", ["second"]="m"}
+, ["韫"]={["first"]="w", ["second"]="m"}
+, ["髡"]={["first"]="a", ["second"]="w"}
+, ["塬"]={["first"]="t", ["second"]="x"}
+, ["鄢"]={["first"]="v", ["second"]="e"}
+, ["趔"]={["first"]="t", ["second"]="d"}
+, ["趑"]={["first"]="t", ["second"]="r"}
+, ["摅"]={["first"]="f", ["second"]="x"}
+, ["摁"]={["first"]="f", ["second"]="x"}
+, ["蜇"]={["first"]="f", ["second"]="i"}
+, ["搋"]={["first"]="f", ["second"]="j"}
+, ["搪"]={["first"]="f", ["second"]="k"}
+, ["搐"]={["first"]="f", ["second"]="t"}
+, ["搛"]={["first"]="f", ["second"]="n"}
+, ["搠"]={["first"]="f", ["second"]="o"}
+, ["摈"]={["first"]="f", ["second"]="b"}
+, ["彀"]={["first"]="u", ["second"]="y"}
+, ["毂"]={["first"]="u", ["second"]="y"}
+, ["搦"]={["first"]="f", ["second"]="d"}
+, ["搡"]={["first"]="f", ["second"]="m"}
+, ["蓁"]={["first"]="c", ["second"]="h"}
+, ["戡"]={["first"]="q", ["second"]="g"}
+, ["蓍"]={["first"]="c", ["second"]="o"}
+, ["鄞"]={["first"]="n", ["second"]="e"}
+, ["靳"]={["first"]="g", ["second"]="j"}
+, ["蓐"]={["first"]="c", ["second"]="c"}
+, ["蓦"]={["first"]="c", ["second"]="m"}
+, ["鹋"]={["first"]="c", ["second"]="n"}
+, ["蒽"]={["first"]="c", ["second"]="x"}
+, ["蓓"]={["first"]="c", ["second"]="k"}
+, ["蓖"]={["first"]="c", ["second"]="b"}
+, ["蓊"]={["first"]="c", ["second"]="x"}
+, ["蒯"]={["first"]="c", ["second"]="d"}
+, ["蓟"]={["first"]="c", ["second"]="d"}
+, ["蓑"]={["first"]="c", ["second"]="y"}
+, ["蒿"]={["first"]="c", ["second"]="k"}
+, ["蒺"]={["first"]="c", ["second"]="u"}
+, ["蓠"]={["first"]="c", ["second"]="d"}
+, ["蒟"]={["first"]="c", ["second"]="k"}
+, ["蒡"]={["first"]="c", ["second"]="f"}
+, ["蒹"]={["first"]="c", ["second"]="n"}
+, ["蒴"]={["first"]="c", ["second"]="o"}
+, ["蒗"]={["first"]="c", ["second"]="l"}
+, ["蓥"]={["first"]="c", ["second"]="j"}
+, ["颐"]={["first"]="k", ["second"]="r"}
+, ["楔"]={["first"]="m", ["second"]="d"}
+, ["楠"]={["first"]="m", ["second"]="g"}
+, ["楂"]={["first"]="m", ["second"]="a"}
+, ["楝"]={["first"]="m", ["second"]="j"}
+, ["楫"]={["first"]="m", ["second"]="e"}
+, ["楸"]={["first"]="m", ["second"]="h"}
+, ["椴"]={["first"]="m", ["second"]="y"}
+, ["槌"]={["first"]="m", ["second"]="z"}
+, ["楯"]={["first"]="m", ["second"]="o"}
+, ["皙"]={["first"]="m", ["second"]="b"}
+, ["榈"]={["first"]="m", ["second"]="k"}
+, ["槎"]={["first"]="m", ["second"]="g"}
+, ["榉"]={["first"]="m", ["second"]="l"}
+, ["楦"]={["first"]="m", ["second"]="a"}
+, ["楣"]={["first"]="m", ["second"]="o"}
+, ["楹"]={["first"]="m", ["second"]="m"}
+, ["椽"]={["first"]="m", ["second"]="u"}
+, ["裘"]={["first"]="q", ["second"]="y"}
+, ["剽"]={["first"]="x", ["second"]="d"}
+, ["甄"]={["first"]="x", ["second"]="w"}
+, ["酮"]={["first"]="y", ["second"]="k"}
+, ["酰"]={["first"]="y", ["second"]="e"}
+, ["酯"]={["first"]="y", ["second"]="o"}
+, ["酩"]={["first"]="y", ["second"]="k"}
+, ["蜃"]={["first"]="i", ["second"]="i"}
+, ["碛"]={["first"]="u", ["second"]="r"}
+, ["碓"]={["first"]="u", ["second"]="f"}
+, ["硼"]={["first"]="u", ["second"]="o"}
+, ["碉"]={["first"]="u", ["second"]="k"}
+, ["碚"]={["first"]="u", ["second"]="k"}
+, ["碇"]={["first"]="u", ["second"]="r"}
+, ["碜"]={["first"]="u", ["second"]="p"}
+, ["鹌"]={["first"]="d", ["second"]="n"}
+, ["辏"]={["first"]="i", ["second"]="t"}
+, ["龃"]={["first"]="v", ["second"]="q"}
+, ["龅"]={["first"]="v", ["second"]="s"}
+, ["訾"]={["first"]="v", ["second"]="k"}
+, ["粲"]={["first"]="l", ["second"]="m"}
+, ["虞"]={["first"]="h", ["second"]="t"}
+, ["睚"]={["first"]="o", ["second"]="t"}
+, ["嗪"]={["first"]="k", ["second"]="h"}
+, ["韪"]={["first"]="o", ["second"]="w"}
+, ["嗷"]={["first"]="k", ["second"]="w"}
+, ["嗉"]={["first"]="k", ["second"]="x"}
+, ["睨"]={["first"]="o", ["second"]="e"}
+, ["睢"]={["first"]="o", ["second"]="f"}
+, ["雎"]={["first"]="q", ["second"]="f"}
+, ["睥"]={["first"]="o", ["second"]="u"}
+, ["嘟"]={["first"]="k", ["second"]="e"}
+, ["嗑"]={["first"]="k", ["second"]="m"}
+, ["嗫"]={["first"]="k", ["second"]="y"}
+, ["嗬"]={["first"]="k", ["second"]="k"}
+, ["嗔"]={["first"]="k", ["second"]="b"}
+, ["嗝"]={["first"]="k", ["second"]="l"}
+, ["戥"]={["first"]="o", ["second"]="g"}
+, ["嗄"]={["first"]="k", ["second"]="w"}
+, ["煦"]={["first"]="o", ["second"]="h"}
+, ["暄"]={["first"]="o", ["second"]="a"}
+, ["遢"]={["first"]="z", ["second"]="x"}
+, ["暌"]={["first"]="o", ["second"]="t"}
+, ["跬"]={["first"]="z", ["second"]="t"}
+, ["跶"]={["first"]="z", ["second"]="z"}
+, ["跸"]={["first"]="z", ["second"]="u"}
+, ["跐"]={["first"]="z", ["second"]="b"}
+, ["跣"]={["first"]="z", ["second"]="e"}
+, ["跹"]={["first"]="z", ["second"]="z"}
+, ["跻"]={["first"]="z", ["second"]="l"}
+, ["蛸"]={["first"]="i", ["second"]="o"}
+, ["蜊"]={["first"]="i", ["second"]="d"}
+, ["蜍"]={["first"]="i", ["second"]="h"}
+, ["蜉"]={["first"]="i", ["second"]="z"}
+, ["蜣"]={["first"]="i", ["second"]="q"}
+, ["畹"]={["first"]="t", ["second"]="v"}
+, ["蛹"]={["first"]="i", ["second"]="y"}
+, ["嗣"]={["first"]="k", ["second"]="k"}
+, ["嗯"]={["first"]="k", ["second"]="x"}
+, ["嗥"]={["first"]="k", ["second"]="u"}
+, ["嗲"]={["first"]="k", ["second"]="x"}
+, ["嗳"]={["first"]="k", ["second"]="y"}
+, ["嗌"]={["first"]="k", ["second"]="m"}
+, ["嗍"]={["first"]="k", ["second"]="o"}
+, ["嗨"]={["first"]="k", ["second"]="m"}
+, ["嗐"]={["first"]="k", ["second"]="k"}
+, ["嗤"]={["first"]="k", ["second"]="i"}
+, ["嗵"]={["first"]="k", ["second"]="z"}
+, ["罨"]={["first"]="s", ["second"]="d"}
+, ["嵊"]={["first"]="e", ["second"]="n"}
+, ["嵩"]={["first"]="e", ["second"]="k"}
+, ["嵴"]={["first"]="e", ["second"]="o"}
+, ["骰"]={["first"]="g", ["second"]="y"}
+, ["锗"]={["first"]="j", ["second"]="o"}
+, ["锛"]={["first"]="j", ["second"]="c"}
+, ["锜"]={["first"]="j", ["second"]="k"}
+, ["锝"]={["first"]="j", ["second"]="c"}
+, ["锞"]={["first"]="j", ["second"]="g"}
+, ["锟"]={["first"]="j", ["second"]="b"}
+, ["锢"]={["first"]="j", ["second"]="k"}
+, ["锨"]={["first"]="j", ["second"]="r"}
+, ["锩"]={["first"]="j", ["second"]="v"}
+, ["锭"]={["first"]="j", ["second"]="r"}
+, ["锱"]={["first"]="j", ["second"]="t"}
+, ["雉"]={["first"]="u", ["second"]="f"}
+, ["氲"]={["first"]="q", ["second"]="m"}
+, ["犏"]={["first"]="n", ["second"]="c"}
+, ["歃"]={["first"]="q", ["second"]="r"}
+, ["稞"]={["first"]="h", ["second"]="g"}
+, ["稗"]={["first"]="h", ["second"]="u"}
+, ["稔"]={["first"]="h", ["second"]="x"}
+, ["筠"]={["first"]="v", ["second"]="d"}
+, ["筢"]={["first"]="v", ["second"]="b"}
+, ["筮"]={["first"]="v", ["second"]="r"}
+, ["筲"]={["first"]="v", ["second"]="o"}
+, ["筱"]={["first"]="v", ["second"]="w"}
+, ["牒"]={["first"]="p", ["second"]="m"}
+, ["煲"]={["first"]="r", ["second"]="h"}
+, ["敫"]={["first"]="b", ["second"]="w"}
+, ["徭"]={["first"]="i", ["second"]="f"}
+, ["愆"]={["first"]="i", ["second"]="x"}
+, ["艄"]={["first"]="v", ["second"]="o"}
+, ["觎"]={["first"]="r", ["second"]="e"}
+, ["毹"]={["first"]="r", ["second"]="m"}
+, ["貊"]={["first"]="v", ["second"]="b"}
+, ["貅"]={["first"]="v", ["second"]="m"}
+, ["貉"]={["first"]="v", ["second"]="k"}
+, ["颔"]={["first"]="r", ["second"]="r"}
+, ["腠"]={["first"]="o", ["second"]="t"}
+, ["腩"]={["first"]="o", ["second"]="g"}
+, ["腼"]={["first"]="o", ["second"]="m"}
+, ["腭"]={["first"]="o", ["second"]="k"}
+, ["腧"]={["first"]="o", ["second"]="d"}
+, ["塍"]={["first"]="o", ["second"]="t"}
+, ["媵"]={["first"]="o", ["second"]="n"}
+, ["詹"]={["first"]="d", ["second"]="k"}
+, ["鲅"]={["first"]="a", ["second"]="d"}
+, ["鲆"]={["first"]="a", ["second"]="p"}
+, ["鲇"]={["first"]="a", ["second"]="k"}
+, ["鲈"]={["first"]="a", ["second"]="u"}
+, ["稣"]={["first"]="a", ["second"]="h"}
+, ["鲋"]={["first"]="a", ["second"]="c"}
+, ["鲐"]={["first"]="a", ["second"]="k"}
+, ["肄"]={["first"]="b", ["second"]="y"}
+, ["鹐"]={["first"]="d", ["second"]="n"}
+, ["飕"]={["first"]="j", ["second"]="y"}
+, ["觥"]={["first"]="d", ["second"]="w"}
+, ["遛"]={["first"]="z", ["second"]="t"}
+, ["馐"]={["first"]="u", ["second"]="i"}
+, ["鹑"]={["first"]="w", ["second"]="n"}
+, ["亶"]={["first"]="w", ["second"]="a"}
+, ["瘃"]={["first"]="b", ["second"]="n"}
+, ["痱"]={["first"]="b", ["second"]="f"}
+, ["痼"]={["first"]="b", ["second"]="k"}
+, ["痿"]={["first"]="b", ["second"]="n"}
+, ["瘐"]={["first"]="b", ["second"]="y"}
+, ["瘁"]={["first"]="b", ["second"]="u"}
+, ["瘆"]={["first"]="b", ["second"]="p"}
+, ["麂"]={["first"]="g", ["second"]="j"}
+, ["裔"]={["first"]="w", ["second"]="k"}
+, ["歆"]={["first"]="l", ["second"]="r"}
+, ["旒"]={["first"]="f", ["second"]="v"}
+, ["雍"]={["first"]="w", ["second"]="f"}
+, ["阖"]={["first"]="m", ["second"]="m"}
+, ["阗"]={["first"]="m", ["second"]="b"}
+, ["阙"]={["first"]="m", ["second"]="r"}
+, ["羧"]={["first"]="y", ["second"]="w"}
+, ["豢"]={["first"]="j", ["second"]="u"}
+, ["粳"]={["first"]="m", ["second"]="g"}
+, ["猷"]={["first"]="b", ["second"]="q"}
+, ["煳"]={["first"]="h", ["second"]="o"}
+, ["煜"]={["first"]="h", ["second"]="l"}
+, ["煨"]={["first"]="h", ["second"]="n"}
+, ["煅"]={["first"]="h", ["second"]="y"}
+, ["煊"]={["first"]="h", ["second"]="a"}
+, ["煸"]={["first"]="h", ["second"]="c"}
+, ["煺"]={["first"]="h", ["second"]="z"}
+, ["滟"]={["first"]="d", ["second"]="b"}
+, ["溱"]={["first"]="d", ["second"]="h"}
+, ["溘"]={["first"]="d", ["second"]="m"}
+, ["漭"]={["first"]="d", ["second"]="c"}
+, ["滢"]={["first"]="d", ["second"]="y"}
+, ["溥"]={["first"]="d", ["second"]="c"}
+, ["溧"]={["first"]="d", ["second"]="m"}
+, ["溽"]={["first"]="d", ["second"]="c"}
+, ["裟"]={["first"]="d", ["second"]="y"}
+, ["溻"]={["first"]="d", ["second"]="x"}
+, ["溷"]={["first"]="d", ["second"]="u"}
+, ["滗"]={["first"]="d", ["second"]="m"}
+, ["滫"]={["first"]="d", ["second"]="o"}
+, ["溴"]={["first"]="d", ["second"]="q"}
+, ["滏"]={["first"]="d", ["second"]="a"}
+, ["滃"]={["first"]="d", ["second"]="x"}
+, ["滦"]={["first"]="d", ["second"]="m"}
+, ["溏"]={["first"]="d", ["second"]="k"}
+, ["滂"]={["first"]="d", ["second"]="f"}
+, ["滓"]={["first"]="d", ["second"]="u"}
+, ["溟"]={["first"]="d", ["second"]="b"}
+, ["滪"]={["first"]="d", ["second"]="r"}
+, ["愫"]={["first"]="x", ["second"]="x"}
+, ["慑"]={["first"]="x", ["second"]="y"}
+, ["慊"]={["first"]="x", ["second"]="n"}
+, ["鲎"]={["first"]="x", ["second"]="a"}
+, ["骞"]={["first"]="b", ["second"]="m"}
+, ["窦"]={["first"]="b", ["second"]="d"}
+, ["窠"]={["first"]="b", ["second"]="g"}
+, ["窣"]={["first"]="b", ["second"]="u"}
+, ["裱"]={["first"]="p", ["second"]="y"}
+, ["褚"]={["first"]="p", ["second"]="o"}
+, ["裨"]={["first"]="p", ["second"]="u"}
+, ["裾"]={["first"]="p", ["second"]="k"}
+, ["裰"]={["first"]="p", ["second"]="y"}
+, ["禊"]={["first"]="p", ["second"]="d"}
+, ["谩"]={["first"]="y", ["second"]="y"}
+, ["谪"]={["first"]="y", ["second"]="k"}
+, ["媾"]={["first"]="n", ["second"]="r"}
+, ["嫫"]={["first"]="n", ["second"]="d"}
+, ["媲"]={["first"]="n", ["second"]="b"}
+, ["嫒"]={["first"]="n", ["second"]="y"}
+, ["嫔"]={["first"]="n", ["second"]="b"}
+, ["媸"]={["first"]="n", ["second"]="i"}
+, ["缙"]={["first"]="s", ["second"]="o"}
+, ["缜"]={["first"]="s", ["second"]="b"}
+, ["缛"]={["first"]="s", ["second"]="c"}
+, ["辔"]={["first"]="s", ["second"]="k"}
+, ["骝"]={["first"]="m", ["second"]="t"}
+, ["缟"]={["first"]="s", ["second"]="k"}
+, ["缡"]={["first"]="s", ["second"]="d"}
+, ["缢"]={["first"]="s", ["second"]="m"}
+, ["缣"]={["first"]="s", ["second"]="n"}
+, ["骟"]={["first"]="m", ["second"]="x"}
+, ["耥"]={["first"]="l", ["second"]="k"}
+, ["璈"]={["first"]="w", ["second"]="w"}
+, ["瑶"]={["first"]="w", ["second"]="f"}
+, ["瑭"]={["first"]="w", ["second"]="k"}
+, ["獒"]={["first"]="f", ["second"]="q"}
+, ["觏"]={["first"]="a", ["second"]="e"}
+, ["慝"]={["first"]="k", ["second"]="x"}
+, ["嫠"]={["first"]="w", ["second"]="n"}
+, ["韬"]={["first"]="w", ["second"]="j"}
+, ["叆"]={["first"]="e", ["second"]="y"}
+, ["髦"]={["first"]="a", ["second"]="m"}
+, ["摽"]={["first"]="f", ["second"]="x"}
+, ["墁"]={["first"]="t", ["second"]="y"}
+, ["撂"]={["first"]="f", ["second"]="k"}
+, ["摞"]={["first"]="f", ["second"]="x"}
+, ["撄"]={["first"]="f", ["second"]="n"}
+, ["翥"]={["first"]="l", ["second"]="x"}
+, ["踅"]={["first"]="f", ["second"]="r"}
+, ["摭"]={["first"]="f", ["second"]="h"}
+, ["墉"]={["first"]="t", ["second"]="l"}
+, ["墒"]={["first"]="t", ["second"]="k"}
+, ["榖"]={["first"]="u", ["second"]="y"}
+, ["綦"]={["first"]="q", ["second"]="x"}
+, ["蔫"]={["first"]="c", ["second"]="h"}
+, ["蔷"]={["first"]="c", ["second"]="k"}
+, ["靺"]={["first"]="g", ["second"]="m"}
+, ["靼"]={["first"]="g", ["second"]="a"}
+, ["鞅"]={["first"]="g", ["second"]="y"}
+, ["靿"]={["first"]="g", ["second"]="l"}
+, ["甍"]={["first"]="c", ["second"]="w"}
+, ["蔸"]={["first"]="c", ["second"]="e"}
+, ["蔟"]={["first"]="c", ["second"]="u"}
+, ["蔺"]={["first"]="c", ["second"]="f"}
+, ["戬"]={["first"]="y", ["second"]="g"}
+, ["蕖"]={["first"]="c", ["second"]="m"}
+, ["蔻"]={["first"]="c", ["second"]="y"}
+, ["蓿"]={["first"]="c", ["second"]="b"}
+, ["斡"]={["first"]="u", ["second"]="u"}
+, ["鹕"]={["first"]="u", ["second"]="n"}
+, ["蓼"]={["first"]="c", ["second"]="p"}
+, ["榛"]={["first"]="m", ["second"]="h"}
+, ["榧"]={["first"]="m", ["second"]="f"}
+, ["榻"]={["first"]="m", ["second"]="x"}
+, ["榫"]={["first"]="m", ["second"]="u"}
+, ["榭"]={["first"]="m", ["second"]="c"}
+, ["槔"]={["first"]="m", ["second"]="u"}
+, ["榱"]={["first"]="m", ["second"]="y"}
+, ["槁"]={["first"]="m", ["second"]="k"}
+, ["槟"]={["first"]="m", ["second"]="b"}
+, ["槠"]={["first"]="m", ["second"]="o"}
+, ["榷"]={["first"]="m", ["second"]="f"}
+, ["僰"]={["first"]="a", ["second"]="r"}
+, ["酽"]={["first"]="y", ["second"]="y"}
+, ["酶"]={["first"]="y", ["second"]="m"}
+, ["酹"]={["first"]="y", ["second"]="c"}
+, ["厮"]={["first"]="i", ["second"]="j"}
+, ["碡"]={["first"]="u", ["second"]="m"}
+, ["碴"]={["first"]="u", ["second"]="a"}
+, ["碣"]={["first"]="u", ["second"]="v"}
+, ["碲"]={["first"]="u", ["second"]="j"}
+, ["磋"]={["first"]="u", ["second"]="g"}
+, ["臧"]={["first"]="w", ["second"]="i"}
+, ["豨"]={["first"]="u", ["second"]="j"}
+, ["殡"]={["first"]="d", ["second"]="b"}
+, ["霆"]={["first"]="y", ["second"]="z"}
+, ["霁"]={["first"]="y", ["second"]="l"}
+, ["辕"]={["first"]="i", ["second"]="y"}
+, ["蜚"]={["first"]="f", ["second"]="i"}
+, ["裴"]={["first"]="f", ["second"]="y"}
+, ["翡"]={["first"]="f", ["second"]="x"}
+, ["龇"]={["first"]="v", ["second"]="b"}
+, ["龈"]={["first"]="v", ["second"]="g"}
+, ["睿"]={["first"]="l", ["second"]="o"}
+, ["䁖"]={["first"]="o", ["second"]="n"}
+, ["睽"]={["first"]="o", ["second"]="t"}
+, ["嘞"]={["first"]="k", ["second"]="l"}
+, ["嘈"]={["first"]="k", ["second"]="o"}
+, ["嘌"]={["first"]="k", ["second"]="x"}
+, ["嘁"]={["first"]="k", ["second"]="x"}
+, ["嘎"]={["first"]="k", ["second"]="g"}
+, ["暧"]={["first"]="o", ["second"]="y"}
+, ["暝"]={["first"]="o", ["second"]="b"}
+, ["踌"]={["first"]="z", ["second"]="c"}
+, ["踉"]={["first"]="z", ["second"]="l"}
+, ["蜞"]={["first"]="i", ["second"]="b"}
+, ["蜥"]={["first"]="i", ["second"]="j"}
+, ["蜮"]={["first"]="i", ["second"]="a"}
+, ["蝈"]={["first"]="i", ["second"]="y"}
+, ["蜴"]={["first"]="i", ["second"]="w"}
+, ["蜱"]={["first"]="i", ["second"]="u"}
+, ["蜩"]={["first"]="i", ["second"]="k"}
+, ["蜷"]={["first"]="i", ["second"]="v"}
+, ["蜿"]={["first"]="i", ["second"]="v"}
+, ["螂"]={["first"]="i", ["second"]="e"}
+, ["蜢"]={["first"]="i", ["second"]="m"}
+, ["嘘"]={["first"]="k", ["second"]="y"}
+, ["嘡"]={["first"]="k", ["second"]="t"}
+, ["鹗"]={["first"]="k", ["second"]="n"}
+, ["嘣"]={["first"]="k", ["second"]="o"}
+, ["嘤"]={["first"]="k", ["second"]="n"}
+, ["嘚"]={["first"]="k", ["second"]="c"}
+, ["嗾"]={["first"]="k", ["second"]="u"}
+, ["嘧"]={["first"]="k", ["second"]="e"}
+, ["罴"]={["first"]="s", ["second"]="h"}
+, ["罱"]={["first"]="s", ["second"]="g"}
+, ["幔"]={["first"]="j", ["second"]="y"}
+, ["嶂"]={["first"]="e", ["second"]="u"}
+, ["幛"]={["first"]="j", ["second"]="u"}
+, ["赙"]={["first"]="k", ["second"]="c"}
+, ["罂"]={["first"]="k", ["second"]="f"}
+, ["骷"]={["first"]="g", ["second"]="k"}
+, ["骶"]={["first"]="g", ["second"]="d"}
+, ["鹘"]={["first"]="g", ["second"]="n"}
+, ["锲"]={["first"]="j", ["second"]="d"}
+, ["锴"]={["first"]="j", ["second"]="b"}
+, ["锶"]={["first"]="j", ["second"]="x"}
+, ["锷"]={["first"]="j", ["second"]="k"}
+, ["锸"]={["first"]="j", ["second"]="j"}
+, ["锵"]={["first"]="j", ["second"]="c"}
+, ["镁"]={["first"]="j", ["second"]="d"}
+, ["镂"]={["first"]="j", ["second"]="n"}
+, ["犒"]={["first"]="n", ["second"]="k"}
+, ["箐"]={["first"]="v", ["second"]="o"}
+, ["箦"]={["first"]="v", ["second"]="r"}
+, ["箧"]={["first"]="v", ["second"]="j"}
+, ["箍"]={["first"]="v", ["second"]="j"}
+, ["箸"]={["first"]="v", ["second"]="o"}
+, ["箬"]={["first"]="v", ["second"]="k"}
+, ["箅"]={["first"]="v", ["second"]="l"}
+, ["箪"]={["first"]="v", ["second"]="l"}
+, ["箔"]={["first"]="v", ["second"]="b"}
+, ["箜"]={["first"]="v", ["second"]="g"}
+, ["箢"]={["first"]="v", ["second"]="v"}
+, ["箓"]={["first"]="v", ["second"]="u"}
+, ["毓"]={["first"]="p", ["second"]="v"}
+, ["僖"]={["first"]="r", ["second"]="k"}
+, ["儆"]={["first"]="r", ["second"]="w"}
+, ["僳"]={["first"]="r", ["second"]="m"}
+, ["僭"]={["first"]="r", ["second"]="o"}
+, ["劁"]={["first"]="r", ["second"]="d"}
+, ["僮"]={["first"]="r", ["second"]="l"}
+, ["魃"]={["first"]="g", ["second"]="d"}
+, ["魆"]={["first"]="g", ["second"]="v"}
+, ["睾"]={["first"]="p", ["second"]="g"}
+, ["艋"]={["first"]="v", ["second"]="m"}
+, ["鄱"]={["first"]="p", ["second"]="e"}
+, ["膈"]={["first"]="o", ["second"]="l"}
+, ["膑"]={["first"]="o", ["second"]="b"}
+, ["鲑"]={["first"]="a", ["second"]="t"}
+, ["鲔"]={["first"]="a", ["second"]="o"}
+, ["鲚"]={["first"]="a", ["second"]="l"}
+, ["鲛"]={["first"]="a", ["second"]="x"}
+, ["鲟"]={["first"]="a", ["second"]="c"}
+, ["獐"]={["first"]="q", ["second"]="u"}
+, ["觫"]={["first"]="d", ["second"]="u"}
+, ["雒"]={["first"]="w", ["second"]="f"}
+, ["夤"]={["first"]="x", ["second"]="b"}
+, ["馑"]={["first"]="u", ["second"]="a"}
+, ["銮"]={["first"]="w", ["second"]="j"}
+, ["塾"]={["first"]="w", ["second"]="t"}
+, ["麽"]={["first"]="g", ["second"]="m"}
+, ["瘌"]={["first"]="b", ["second"]="d"}
+, ["瘊"]={["first"]="b", ["second"]="u"}
+, ["瘘"]={["first"]="b", ["second"]="n"}
+, ["瘙"]={["first"]="b", ["second"]="i"}
+, ["廖"]={["first"]="g", ["second"]="p"}
+, ["韶"]={["first"]="l", ["second"]="k"}
+, ["旖"]={["first"]="f", ["second"]="k"}
+, ["膂"]={["first"]="f", ["second"]="o"}
+, ["阚"]={["first"]="m", ["second"]="w"}
+, ["鄯"]={["first"]="y", ["second"]="e"}
+, ["鲞"]={["first"]="j", ["second"]="a"}
+, ["粿"]={["first"]="m", ["second"]="g"}
+, ["粼"]={["first"]="m", ["second"]="v"}
+, ["粽"]={["first"]="m", ["second"]="x"}
+, ["糁"]={["first"]="m", ["second"]="p"}
+, ["槊"]={["first"]="b", ["second"]="m"}
+, ["鹚"]={["first"]="b", ["second"]="n"}
+, ["熘"]={["first"]="h", ["second"]="t"}
+, ["熥"]={["first"]="h", ["second"]="z"}
+, ["潢"]={["first"]="d", ["second"]="b"}
+, ["漕"]={["first"]="d", ["second"]="o"}
+, ["滹"]={["first"]="d", ["second"]="h"}
+, ["漯"]={["first"]="d", ["second"]="x"}
+, ["漶"]={["first"]="d", ["second"]="x"}
+, ["潋"]={["first"]="d", ["second"]="w"}
+, ["潴"]={["first"]="d", ["second"]="o"}
+, ["漪"]={["first"]="d", ["second"]="k"}
+, ["漉"]={["first"]="d", ["second"]="b"}
+, ["漳"]={["first"]="d", ["second"]="u"}
+, ["漩"]={["first"]="d", ["second"]="r"}
+, ["澉"]={["first"]="d", ["second"]="w"}
+, ["潍"]={["first"]="d", ["second"]="f"}
+, ["慵"]={["first"]="x", ["second"]="l"}
+, ["搴"]={["first"]="b", ["second"]="u"}
+, ["窨"]={["first"]="b", ["second"]="o"}
+, ["寤"]={["first"]="b", ["second"]="k"}
+, ["綮"]={["first"]="h", ["second"]="x"}
+, ["谮"]={["first"]="y", ["second"]="o"}
+, ["褡"]={["first"]="p", ["second"]="k"}
+, ["褙"]={["first"]="p", ["second"]="o"}
+, ["褓"]={["first"]="p", ["second"]="m"}
+, ["褛"]={["first"]="p", ["second"]="n"}
+, ["褊"]={["first"]="p", ["second"]="c"}
+, ["谯"]={["first"]="y", ["second"]="h"}
+, ["谰"]={["first"]="y", ["second"]="j"}
+, ["谲"]={["first"]="y", ["second"]="k"}
+, ["暨"]={["first"]="g", ["second"]="a"}
+, ["屣"]={["first"]="u", ["second"]="r"}
+, ["鹛"]={["first"]="v", ["second"]="n"}
+, ["嫣"]={["first"]="n", ["second"]="h"}
+, ["嫱"]={["first"]="n", ["second"]="k"}
+, ["嫖"]={["first"]="n", ["second"]="x"}
+, ["嫦"]={["first"]="n", ["second"]="j"}
+, ["嫚"]={["first"]="n", ["second"]="y"}
+, ["嫘"]={["first"]="n", ["second"]="x"}
+, ["嫡"]={["first"]="n", ["second"]="k"}
+, ["鼐"]={["first"]="n", ["second"]="v"}
+, ["翟"]={["first"]="x", ["second"]="f"}
+, ["瞀"]={["first"]="s", ["second"]="o"}
+, ["鹜"]={["first"]="s", ["second"]="n"}
+, ["骠"]={["first"]="m", ["second"]="x"}
+, ["缥"]={["first"]="s", ["second"]="x"}
+, ["缦"]={["first"]="s", ["second"]="y"}
+, ["缧"]={["first"]="s", ["second"]="x"}
+, ["缨"]={["first"]="s", ["second"]="n"}
+, ["骢"]={["first"]="m", ["second"]="x"}
+, ["缪"]={["first"]="s", ["second"]="p"}
+, ["缫"]={["first"]="s", ["second"]="g"}
+, ["耦"]={["first"]="l", ["second"]="y"}
+, ["耧"]={["first"]="l", ["second"]="n"}
+, ["瑾"]={["first"]="w", ["second"]="a"}
+, ["璜"]={["first"]="w", ["second"]="b"}
+, ["璀"]={["first"]="w", ["second"]="f"}
+, ["璎"]={["first"]="w", ["second"]="n"}
+, ["璁"]={["first"]="w", ["second"]="x"}
+, ["璋"]={["first"]="w", ["second"]="u"}
+, ["璇"]={["first"]="w", ["second"]="r"}
+, ["奭"]={["first"]="d", ["second"]="b"}
+, ["髯"]={["first"]="a", ["second"]="r"}
+, ["髫"]={["first"]="a", ["second"]="k"}
+, ["撷"]={["first"]="f", ["second"]="r"}
+, ["撅"]={["first"]="f", ["second"]="r"}
+, ["赭"]={["first"]="t", ["second"]="o"}
+, ["撸"]={["first"]="f", ["second"]="o"}
+, ["鋆"]={["first"]="t", ["second"]="j"}
+, ["撙"]={["first"]="f", ["second"]="c"}
+, ["撺"]={["first"]="f", ["second"]="i"}
+, ["墀"]={["first"]="t", ["second"]="n"}
+, ["聩"]={["first"]="e", ["second"]="r"}
+, ["觐"]={["first"]="n", ["second"]="e"}
+, ["鞑"]={["first"]="g", ["second"]="z"}
+, ["蕙"]={["first"]="c", ["second"]="x"}
+, ["鞒"]={["first"]="g", ["second"]="l"}
+, ["蕈"]={["first"]="c", ["second"]="u"}
+, ["蕨"]={["first"]="c", ["second"]="r"}
+, ["蕤"]={["first"]="c", ["second"]="u"}
+, ["蕞"]={["first"]="c", ["second"]="y"}
+, ["蕺"]={["first"]="c", ["second"]="a"}
+, ["瞢"]={["first"]="c", ["second"]="o"}
+, ["蕃"]={["first"]="c", ["second"]="t"}
+, ["蕲"]={["first"]="c", ["second"]="j"}
+, ["赜"]={["first"]="k", ["second"]="r"}
+, ["槿"]={["first"]="m", ["second"]="a"}
+, ["樯"]={["first"]="m", ["second"]="k"}
+, ["槭"]={["first"]="m", ["second"]="x"}
+, ["樗"]={["first"]="m", ["second"]="k"}
+, ["樘"]={["first"]="m", ["second"]="t"}
+, ["樊"]={["first"]="m", ["second"]="d"}
+, ["槲"]={["first"]="m", ["second"]="u"}
+, ["醌"]={["first"]="y", ["second"]="b"}
+, ["醅"]={["first"]="y", ["second"]="k"}
+, ["靥"]={["first"]="i", ["second"]="m"}
+, ["魇"]={["first"]="i", ["second"]="g"}
+, ["餍"]={["first"]="i", ["second"]="l"}
+, ["磔"]={["first"]="u", ["second"]="m"}
+, ["磙"]={["first"]="u", ["second"]="y"}
+, ["霈"]={["first"]="y", ["second"]="l"}
+, ["辘"]={["first"]="i", ["second"]="b"}
+, ["龉"]={["first"]="v", ["second"]="k"}
+, ["龊"]={["first"]="v", ["second"]="r"}
+, ["觑"]={["first"]="h", ["second"]="e"}
+, ["瞌"]={["first"]="o", ["second"]="m"}
+, ["瞋"]={["first"]="o", ["second"]="b"}
+, ["瞑"]={["first"]="o", ["second"]="b"}
+, ["嘭"]={["first"]="k", ["second"]="p"}
+, ["噎"]={["first"]="k", ["second"]="a"}
+, ["噶"]={["first"]="k", ["second"]="v"}
+, ["颙"]={["first"]="y", ["second"]="r"}
+, ["暹"]={["first"]="z", ["second"]="f"}
+, ["噘"]={["first"]="k", ["second"]="r"}
+, ["踔"]={["first"]="z", ["second"]="u"}
+, ["踝"]={["first"]="z", ["second"]="g"}
+, ["踟"]={["first"]="z", ["second"]="k"}
+, ["踒"]={["first"]="z", ["second"]="n"}
+, ["踬"]={["first"]="z", ["second"]="r"}
+, ["踮"]={["first"]="z", ["second"]="k"}
+, ["踯"]={["first"]="z", ["second"]="e"}
+, ["踺"]={["first"]="z", ["second"]="z"}
+, ["踞"]={["first"]="z", ["second"]="k"}
+, ["蝽"]={["first"]="i", ["second"]="o"}
+, ["蝾"]={["first"]="i", ["second"]="m"}
+, ["蝻"]={["first"]="i", ["second"]="g"}
+, ["蝰"]={["first"]="i", ["second"]="t"}
+, ["蝮"]={["first"]="i", ["second"]="w"}
+, ["螋"]={["first"]="i", ["second"]="y"}
+, ["蝓"]={["first"]="i", ["second"]="d"}
+, ["蝣"]={["first"]="i", ["second"]="z"}
+, ["蝼"]={["first"]="i", ["second"]="n"}
+, ["噗"]={["first"]="k", ["second"]="n"}
+, ["嘬"]={["first"]="k", ["second"]="y"}
+, ["颚"]={["first"]="k", ["second"]="r"}
+, ["噍"]={["first"]="k", ["second"]="h"}
+, ["噢"]={["first"]="k", ["second"]="d"}
+, ["噙"]={["first"]="k", ["second"]="d"}
+, ["噜"]={["first"]="k", ["second"]="o"}
+, ["噌"]={["first"]="k", ["second"]="o"}
+, ["噔"]={["first"]="k", ["second"]="a"}
+, ["颛"]={["first"]="e", ["second"]="r"}
+, ["幞"]={["first"]="j", ["second"]="n"}
+, ["幡"]={["first"]="j", ["second"]="t"}
+, ["嶙"]={["first"]="e", ["second"]="l"}
+, ["嶝"]={["first"]="e", ["second"]="a"}
+, ["骺"]={["first"]="g", ["second"]="k"}
+, ["骼"]={["first"]="g", ["second"]="k"}
+, ["骸"]={["first"]="g", ["second"]="r"}
+, ["镊"]={["first"]="j", ["second"]="y"}
+, ["镉"]={["first"]="j", ["second"]="l"}
+, ["镌"]={["first"]="j", ["second"]="n"}
+, ["镍"]={["first"]="j", ["second"]="m"}
+, ["镏"]={["first"]="j", ["second"]="t"}
+, ["镒"]={["first"]="j", ["second"]="m"}
+, ["镓"]={["first"]="j", ["second"]="u"}
+, ["镔"]={["first"]="j", ["second"]="b"}
+, ["稷"]={["first"]="h", ["second"]="w"}
+, ["箴"]={["first"]="v", ["second"]="k"}
+, ["篑"]={["first"]="v", ["second"]="r"}
+, ["篁"]={["first"]="v", ["second"]="w"}
+, ["篌"]={["first"]="v", ["second"]="u"}
+, ["篆"]={["first"]="v", ["second"]="u"}
+, ["牖"]={["first"]="p", ["second"]="f"}
+, ["儋"]={["first"]="r", ["second"]="k"}
+, ["徵"]={["first"]="i", ["second"]="w"}
+, ["磐"]={["first"]="v", ["second"]="u"}
+, ["虢"]={["first"]="p", ["second"]="j"}
+, ["鹞"]={["first"]="p", ["second"]="n"}
+, ["膘"]={["first"]="o", ["second"]="x"}
+, ["滕"]={["first"]="o", ["second"]="u"}
+, ["鲠"]={["first"]="a", ["second"]="g"}
+, ["鲡"]={["first"]="a", ["second"]="l"}
+, ["鲢"]={["first"]="a", ["second"]="z"}
+, ["鲣"]={["first"]="a", ["second"]="t"}
+, ["鲥"]={["first"]="a", ["second"]="c"}
+, ["鲧"]={["first"]="a", ["second"]="x"}
+, ["鲩"]={["first"]="a", ["second"]="e"}
+, ["獗"]={["first"]="q", ["second"]="r"}
+, ["獠"]={["first"]="q", ["second"]="x"}
+, ["觯"]={["first"]="d", ["second"]="l"}
+, ["馓"]={["first"]="u", ["second"]="w"}
+, ["馔"]={["first"]="u", ["second"]="b"}
+, ["麾"]={["first"]="g", ["second"]="m"}
+, ["廛"]={["first"]="g", ["second"]="t"}
+, ["瘛"]={["first"]="b", ["second"]="x"}
+, ["瘼"]={["first"]="b", ["second"]="d"}
+, ["瘢"]={["first"]="b", ["second"]="y"}
+, ["瘠"]={["first"]="b", ["second"]="o"}
+, ["齑"]={["first"]="w", ["second"]="l"}
+, ["羯"]={["first"]="y", ["second"]="v"}
+, ["羰"]={["first"]="y", ["second"]="h"}
+, ["𥻗"]={["first"]="m", ["second"]="a"}
+, ["遴"]={["first"]="z", ["second"]="l"}
+, ["糌"]={["first"]="m", ["second"]="o"}
+, ["糍"]={["first"]="m", ["second"]="y"}
+, ["糅"]={["first"]="m", ["second"]="m"}
+, ["熜"]={["first"]="h", ["second"]="x"}
+, ["熵"]={["first"]="h", ["second"]="k"}
+, ["熠"]={["first"]="h", ["second"]="b"}
+, ["澍"]={["first"]="d", ["second"]="c"}
+, ["澌"]={["first"]="d", ["second"]="j"}
+, ["潸"]={["first"]="d", ["second"]="o"}
+, ["潦"]={["first"]="d", ["second"]="x"}
+, ["潲"]={["first"]="d", ["second"]="o"}
+, ["鋈"]={["first"]="d", ["second"]="j"}
+, ["潟"]={["first"]="d", ["second"]="h"}
+, ["潼"]={["first"]="d", ["second"]="l"}
+, ["潺"]={["first"]="d", ["second"]="z"}
+, ["憬"]={["first"]="x", ["second"]="x"}
+, ["憧"]={["first"]="x", ["second"]="l"}
+, ["寮"]={["first"]="b", ["second"]="x"}
+, ["窳"]={["first"]="b", ["second"]="g"}
+, ["谳"]={["first"]="y", ["second"]="q"}
+, ["褴"]={["first"]="p", ["second"]="m"}
+, ["褟"]={["first"]="p", ["second"]="x"}
+, ["褫"]={["first"]="p", ["second"]="j"}
+, ["谵"]={["first"]="y", ["second"]="k"}
+, ["熨"]={["first"]="u", ["second"]="h"}
+, ["屦"]={["first"]="u", ["second"]="n"}
+, ["嬉"]={["first"]="n", ["second"]="k"}
+, ["勰"]={["first"]="l", ["second"]="x"}
+, ["戮"]={["first"]="x", ["second"]="g"}
+, ["蝥"]={["first"]="s", ["second"]="i"}
+, ["缬"]={["first"]="s", ["second"]="r"}
+, ["缮"]={["first"]="s", ["second"]="k"}
+, ["缯"]={["first"]="s", ["second"]="o"}
+, ["骣"]={["first"]="m", ["second"]="z"}
+, ["畿"]={["first"]="y", ["second"]="t"}
+, ["耩"]={["first"]="l", ["second"]="r"}
+, ["耨"]={["first"]="l", ["second"]="c"}
+, ["耪"]={["first"]="l", ["second"]="f"}
+, ["璞"]={["first"]="w", ["second"]="n"}
+, ["璟"]={["first"]="w", ["second"]="x"}
+, ["靛"]={["first"]="f", ["second"]="r"}
+, ["璠"]={["first"]="w", ["second"]="t"}
+, ["璘"]={["first"]="w", ["second"]="l"}
+, ["聱"]={["first"]="f", ["second"]="e"}
+, ["螯"]={["first"]="f", ["second"]="i"}
+, ["髻"]={["first"]="a", ["second"]="k"}
+, ["髭"]={["first"]="a", ["second"]="b"}
+, ["髹"]={["first"]="a", ["second"]="m"}
+, ["擀"]={["first"]="f", ["second"]="g"}
+, ["熹"]={["first"]="u", ["second"]="h"}
+, ["甏"]={["first"]="u", ["second"]="w"}
+, ["擞"]={["first"]="f", ["second"]="w"}
+, ["縠"]={["first"]="u", ["second"]="y"}
+, ["磬"]={["first"]="u", ["second"]="u"}
+, ["颞"]={["first"]="e", ["second"]="r"}
+, ["蕻"]={["first"]="c", ["second"]="b"}
+, ["鞘"]={["first"]="g", ["second"]="o"}
+, ["颟"]={["first"]="c", ["second"]="r"}
+, ["薤"]={["first"]="c", ["second"]="j"}
+, ["薨"]={["first"]="c", ["second"]="b"}
+, ["檠"]={["first"]="c", ["second"]="m"}
+, ["薏"]={["first"]="c", ["second"]="x"}
+, ["薮"]={["first"]="c", ["second"]="w"}
+, ["薜"]={["first"]="c", ["second"]="u"}
+, ["薅"]={["first"]="c", ["second"]="c"}
+, ["樾"]={["first"]="m", ["second"]="v"}
+, ["橛"]={["first"]="m", ["second"]="r"}
+, ["橇"]={["first"]="m", ["second"]="m"}
+, ["樵"]={["first"]="m", ["second"]="h"}
+, ["檎"]={["first"]="m", ["second"]="d"}
+, ["橹"]={["first"]="m", ["second"]="o"}
+, ["樽"]={["first"]="m", ["second"]="c"}
+, ["樨"]={["first"]="m", ["second"]="n"}
+, ["橼"]={["first"]="m", ["second"]="u"}
+, ["墼"]={["first"]="i", ["second"]="t"}
+, ["橐"]={["first"]="a", ["second"]="m"}
+, ["翮"]={["first"]="a", ["second"]="x"}
+, ["醛"]={["first"]="y", ["second"]="w"}
+, ["醐"]={["first"]="y", ["second"]="o"}
+, ["醍"]={["first"]="y", ["second"]="r"}
+, ["醚"]={["first"]="y", ["second"]="z"}
+, ["磲"]={["first"]="u", ["second"]="m"}
+, ["赝"]={["first"]="i", ["second"]="r"}
+, ["飙"]={["first"]="q", ["second"]="x"}
+, ["殪"]={["first"]="d", ["second"]="a"}
+, ["霖"]={["first"]="y", ["second"]="m"}
+, ["霏"]={["first"]="y", ["second"]="f"}
+, ["霓"]={["first"]="y", ["second"]="e"}
+, ["錾"]={["first"]="i", ["second"]="j"}
+, ["辚"]={["first"]="i", ["second"]="l"}
+, ["臻"]={["first"]="a", ["second"]="h"}
+, ["遽"]={["first"]="z", ["second"]="u"}
+, ["氅"]={["first"]="x", ["second"]="m"}
+, ["瞟"]={["first"]="o", ["second"]="x"}
+, ["瞠"]={["first"]="o", ["second"]="t"}
+, ["瞰"]={["first"]="o", ["second"]="w"}
+, ["嚄"]={["first"]="k", ["second"]="y"}
+, ["嚆"]={["first"]="k", ["second"]="k"}
+, ["噤"]={["first"]="k", ["second"]="x"}
+, ["暾"]={["first"]="o", ["second"]="w"}
+, ["蹀"]={["first"]="z", ["second"]="m"}
+, ["踹"]={["first"]="z", ["second"]="e"}
+, ["踵"]={["first"]="z", ["second"]="v"}
+, ["踽"]={["first"]="z", ["second"]="y"}
+, ["蹉"]={["first"]="z", ["second"]="g"}
+, ["蹁"]={["first"]="z", ["second"]="c"}
+, ["螨"]={["first"]="i", ["second"]="l"}
+, ["蟒"]={["first"]="i", ["second"]="c"}
+, ["螈"]={["first"]="i", ["second"]="x"}
+, ["螅"]={["first"]="i", ["second"]="x"}
+, ["螭"]={["first"]="i", ["second"]="d"}
+, ["螠"]={["first"]="i", ["second"]="m"}
+, ["螟"]={["first"]="i", ["second"]="b"}
+, ["噱"]={["first"]="k", ["second"]="u"}
+, ["噬"]={["first"]="k", ["second"]="r"}
+, ["噫"]={["first"]="k", ["second"]="x"}
+, ["噻"]={["first"]="k", ["second"]="t"}
+, ["噼"]={["first"]="k", ["second"]="u"}
+, ["罹"]={["first"]="s", ["second"]="f"}
+, ["圜"]={["first"]="k", ["second"]="y"}
+, ["䦃"]={["first"]="j", ["second"]="o"}
+, ["镖"]={["first"]="j", ["second"]="x"}
+, ["镗"]={["first"]="j", ["second"]="t"}
+, ["镘"]={["first"]="j", ["second"]="y"}
+, ["镚"]={["first"]="j", ["second"]="o"}
+, ["镛"]={["first"]="j", ["second"]="l"}
+, ["镝"]={["first"]="j", ["second"]="k"}
+, ["镞"]={["first"]="j", ["second"]="u"}
+, ["镠"]={["first"]="j", ["second"]="p"}
+, ["氇"]={["first"]="m", ["second"]="o"}
+, ["氆"]={["first"]="m", ["second"]="o"}
+, ["憩"]={["first"]="q", ["second"]="x"}
+, ["穑"]={["first"]="h", ["second"]="k"}
+, ["篝"]={["first"]="v", ["second"]="r"}
+, ["篥"]={["first"]="v", ["second"]="m"}
+, ["篦"]={["first"]="v", ["second"]="b"}
+, ["篪"]={["first"]="v", ["second"]="j"}
+, ["篙"]={["first"]="v", ["second"]="k"}
+, ["盥"]={["first"]="p", ["second"]="m"}
+, ["劓"]={["first"]="z", ["second"]="d"}
+, ["翱"]={["first"]="b", ["second"]="x"}
+, ["魉"]={["first"]="g", ["second"]="l"}
+, ["魈"]={["first"]="g", ["second"]="o"}
+, ["徼"]={["first"]="i", ["second"]="w"}
+, ["歙"]={["first"]="r", ["second"]="r"}
+, ["膳"]={["first"]="o", ["second"]="k"}
+, ["膦"]={["first"]="o", ["second"]="l"}
+, ["膙"]={["first"]="o", ["second"]="i"}
+, ["鲮"]={["first"]="a", ["second"]="w"}
+, ["鲱"]={["first"]="a", ["second"]="f"}
+, ["鲲"]={["first"]="a", ["second"]="b"}
+, ["鲳"]={["first"]="a", ["second"]="o"}
+, ["鲴"]={["first"]="a", ["second"]="k"}
+, ["鲵"]={["first"]="a", ["second"]="e"}
+, ["鲷"]={["first"]="a", ["second"]="k"}
+, ["鲻"]={["first"]="a", ["second"]="t"}
+, ["獴"]={["first"]="q", ["second"]="n"}
+, ["獭"]={["first"]="q", ["second"]="r"}
+, ["獬"]={["first"]="q", ["second"]="n"}
+, ["邂"]={["first"]="z", ["second"]="n"}
+, ["鹧"]={["first"]="g", ["second"]="n"}
+, ["廨"]={["first"]="g", ["second"]="n"}
+, ["赟"]={["first"]="w", ["second"]="r"}
+, ["瘰"]={["first"]="b", ["second"]="x"}
+, ["廪"]={["first"]="g", ["second"]="x"}
+, ["瘿"]={["first"]="b", ["second"]="n"}
+, ["瘵"]={["first"]="b", ["second"]="x"}
+, ["瘴"]={["first"]="b", ["second"]="u"}
+, ["癃"]={["first"]="b", ["second"]="u"}
+, ["瘳"]={["first"]="b", ["second"]="p"}
+, ["斓"]={["first"]="w", ["second"]="j"}
+, ["麇"]={["first"]="g", ["second"]="h"}
+, ["麈"]={["first"]="g", ["second"]="v"}
+, ["嬴"]={["first"]="w", ["second"]="f"}
+, ["壅"]={["first"]="w", ["second"]="t"}
+, ["羲"]={["first"]="y", ["second"]="d"}
+, ["糗"]={["first"]="m", ["second"]="q"}
+, ["瞥"]={["first"]="d", ["second"]="o"}
+, ["甑"]={["first"]="b", ["second"]="w"}
+, ["燎"]={["first"]="h", ["second"]="x"}
+, ["燠"]={["first"]="h", ["second"]="d"}
+, ["燔"]={["first"]="h", ["second"]="t"}
+, ["燧"]={["first"]="h", ["second"]="z"}
+, ["濑"]={["first"]="d", ["second"]="r"}
+, ["濉"]={["first"]="d", ["second"]="f"}
+, ["潞"]={["first"]="d", ["second"]="k"}
+, ["澧"]={["first"]="d", ["second"]="a"}
+, ["澹"]={["first"]="d", ["second"]="k"}
+, ["澥"]={["first"]="d", ["second"]="n"}
+, ["澶"]={["first"]="d", ["second"]="a"}
+, ["濂"]={["first"]="d", ["second"]="n"}
+, ["褰"]={["first"]="b", ["second"]="y"}
+, ["寰"]={["first"]="b", ["second"]="y"}
+, ["窸"]={["first"]="b", ["second"]="x"}
+, ["褶"]={["first"]="p", ["second"]="b"}
+, ["禧"]={["first"]="p", ["second"]="k"}
+, ["嬖"]={["first"]="u", ["second"]="n"}
+, ["犟"]={["first"]="g", ["second"]="n"}
+, ["隰"]={["first"]="e", ["second"]="h"}
+, ["嬗"]={["first"]="n", ["second"]="a"}
+, ["颡"]={["first"]="y", ["second"]="r"}
+, ["缱"]={["first"]="s", ["second"]="z"}
+, ["缲"]={["first"]="s", ["second"]="m"}
+, ["缳"]={["first"]="s", ["second"]="y"}
+, ["璨"]={["first"]="w", ["second"]="m"}
+, ["璩"]={["first"]="w", ["second"]="u"}
+, ["璐"]={["first"]="w", ["second"]="k"}
+, ["璪"]={["first"]="w", ["second"]="m"}
+, ["螫"]={["first"]="t", ["second"]="i"}
+, ["擤"]={["first"]="f", ["second"]="l"}
+, ["壕"]={["first"]="t", ["second"]="u"}
+, ["觳"]={["first"]="u", ["second"]="y"}
+, ["罄"]={["first"]="u", ["second"]="f"}
+, ["擢"]={["first"]="f", ["second"]="f"}
+, ["薹"]={["first"]="c", ["second"]="t"}
+, ["鞡"]={["first"]="g", ["second"]="l"}
+, ["鞬"]={["first"]="g", ["second"]="z"}
+, ["薷"]={["first"]="c", ["second"]="e"}
+, ["薰"]={["first"]="c", ["second"]="h"}
+, ["藓"]={["first"]="c", ["second"]="y"}
+, ["藁"]={["first"]="c", ["second"]="m"}
+, ["檄"]={["first"]="m", ["second"]="w"}
+, ["檩"]={["first"]="m", ["second"]="x"}
+, ["懋"]={["first"]="m", ["second"]="x"}
+, ["醢"]={["first"]="y", ["second"]="m"}
+, ["翳"]={["first"]="k", ["second"]="x"}
+, ["礅"]={["first"]="u", ["second"]="w"}
+, ["磴"]={["first"]="u", ["second"]="a"}
+, ["鹩"]={["first"]="d", ["second"]="n"}
+, ["龋"]={["first"]="v", ["second"]="y"}
+, ["龌"]={["first"]="v", ["second"]="t"}
+, ["豳"]={["first"]="e", ["second"]="u"}
+, ["壑"]={["first"]="l", ["second"]="t"}
+, ["黻"]={["first"]="y", ["second"]="d"}
+, ["嚏"]={["first"]="k", ["second"]="r"}
+, ["嚅"]={["first"]="k", ["second"]="e"}
+, ["蹑"]={["first"]="z", ["second"]="y"}
+, ["蹒"]={["first"]="z", ["second"]="l"}
+, ["蹊"]={["first"]="z", ["second"]="d"}
+, ["蟥"]={["first"]="i", ["second"]="b"}
+, ["螬"]={["first"]="i", ["second"]="o"}
+, ["螵"]={["first"]="i", ["second"]="x"}
+, ["疃"]={["first"]="t", ["second"]="l"}
+, ["螳"]={["first"]="i", ["second"]="t"}
+, ["蟑"]={["first"]="i", ["second"]="u"}
+, ["嚓"]={["first"]="k", ["second"]="x"}
+, ["羁"]={["first"]="s", ["second"]="m"}
+, ["罽"]={["first"]="s", ["second"]="d"}
+, ["罾"]={["first"]="s", ["second"]="o"}
+, ["嶷"]={["first"]="e", ["second"]="r"}
+, ["黜"]={["first"]="h", ["second"]="i"}
+, ["黝"]={["first"]="h", ["second"]="l"}
+, ["髁"]={["first"]="g", ["second"]="g"}
+, ["髀"]={["first"]="g", ["second"]="u"}
+, ["镡"]={["first"]="j", ["second"]="u"}
+, ["镢"]={["first"]="j", ["second"]="r"}
+, ["镣"]={["first"]="j", ["second"]="x"}
+, ["镦"]={["first"]="j", ["second"]="w"}
+, ["镧"]={["first"]="j", ["second"]="j"}
+, ["镩"]={["first"]="j", ["second"]="i"}
+, ["镪"]={["first"]="j", ["second"]="i"}
+, ["镫"]={["first"]="j", ["second"]="a"}
+, ["罅"]={["first"]="f", ["second"]="h"}
+, ["黏"]={["first"]="h", ["second"]="k"}
+, ["簌"]={["first"]="v", ["second"]="r"}
+, ["篾"]={["first"]="v", ["second"]="u"}
+, ["篼"]={["first"]="v", ["second"]="e"}
+, ["簖"]={["first"]="v", ["second"]="j"}
+, ["簋"]={["first"]="v", ["second"]="m"}
+, ["鼢"]={["first"]="j", ["second"]="d"}
+, ["黛"]={["first"]="r", ["second"]="h"}
+, ["儡"]={["first"]="r", ["second"]="t"}
+, ["鹪"]={["first"]="r", ["second"]="n"}
+, ["鼾"]={["first"]="z", ["second"]="g"}
+, ["皤"]={["first"]="b", ["second"]="t"}
+, ["魍"]={["first"]="g", ["second"]="w"}
+, ["龠"]={["first"]="r", ["second"]="c"}
+, ["繇"]={["first"]="p", ["second"]="x"}
+, ["貘"]={["first"]="v", ["second"]="d"}
+, ["邈"]={["first"]="z", ["second"]="e"}
+, ["貔"]={["first"]="v", ["second"]="b"}
+, ["臌"]={["first"]="o", ["second"]="y"}
+, ["膻"]={["first"]="o", ["second"]="a"}
+, ["臆"]={["first"]="o", ["second"]="x"}
+, ["臃"]={["first"]="o", ["second"]="f"}
+, ["鲼"]={["first"]="a", ["second"]="r"}
+, ["鲽"]={["first"]="a", ["second"]="m"}
+, ["鳀"]={["first"]="a", ["second"]="r"}
+, ["鳃"]={["first"]="a", ["second"]="x"}
+, ["鳅"]={["first"]="a", ["second"]="h"}
+, ["鳇"]={["first"]="a", ["second"]="w"}
+, ["鳊"]={["first"]="a", ["second"]="c"}
+, ["螽"]={["first"]="w", ["second"]="i"}
+, ["燮"]={["first"]="h", ["second"]="y"}
+, ["鹫"]={["first"]="w", ["second"]="n"}
+, ["襄"]={["first"]="w", ["second"]="y"}
+, ["糜"]={["first"]="g", ["second"]="m"}
+, ["縻"]={["first"]="g", ["second"]="x"}
+, ["膺"]={["first"]="g", ["second"]="o"}
+, ["癍"]={["first"]="b", ["second"]="w"}
+, ["麋"]={["first"]="g", ["second"]="m"}
+, ["懑"]={["first"]="d", ["second"]="x"}
+, ["濡"]={["first"]="d", ["second"]="e"}
+, ["濮"]={["first"]="d", ["second"]="n"}
+, ["濞"]={["first"]="d", ["second"]="l"}
+, ["濠"]={["first"]="d", ["second"]="u"}
+, ["濯"]={["first"]="d", ["second"]="f"}
+, ["蹇"]={["first"]="b", ["second"]="r"}
+, ["謇"]={["first"]="b", ["second"]="k"}
+, ["邃"]={["first"]="z", ["second"]="u"}
+, ["襁"]={["first"]="p", ["second"]="i"}
+, ["檗"]={["first"]="u", ["second"]="m"}
+, ["擘"]={["first"]="u", ["second"]="u"}
+, ["孺"]={["first"]="z", ["second"]="e"}
+, ["隳"]={["first"]="e", ["second"]="x"}
+, ["嬷"]={["first"]="n", ["second"]="m"}
+, ["蟊"]={["first"]="s", ["second"]="i"}
+, ["鹬"]={["first"]="s", ["second"]="n"}
+, ["鍪"]={["first"]="s", ["second"]="j"}
+, ["鏊"]={["first"]="f", ["second"]="j"}
+, ["鳌"]={["first"]="f", ["second"]="a"}
+, ["鬈"]={["first"]="a", ["second"]="v"}
+, ["鬃"]={["first"]="a", ["second"]="x"}
+, ["瞽"]={["first"]="u", ["second"]="o"}
+, ["鞯"]={["first"]="g", ["second"]="z"}
+, ["鞨"]={["first"]="g", ["second"]="v"}
+, ["鞫"]={["first"]="g", ["second"]="k"}
+, ["鞧"]={["first"]="g", ["second"]="y"}
+, ["鞣"]={["first"]="g", ["second"]="m"}
+, ["藜"]={["first"]="c", ["second"]="u"}
+, ["藠"]={["first"]="c", ["second"]="b"}
+, ["藩"]={["first"]="c", ["second"]="t"}
+, ["醪"]={["first"]="y", ["second"]="p"}
+, ["蹙"]={["first"]="w", ["second"]="r"}
+, ["礓"]={["first"]="u", ["second"]="a"}
+, ["燹"]={["first"]="u", ["second"]="h"}
+, ["餮"]={["first"]="d", ["second"]="l"}
+, ["瞿"]={["first"]="o", ["second"]="f"}
+, ["曛"]={["first"]="o", ["second"]="h"}
+, ["颢"]={["first"]="o", ["second"]="r"}
+, ["曜"]={["first"]="o", ["second"]="f"}
+, ["躇"]={["first"]="z", ["second"]="o"}
+, ["蹚"]={["first"]="z", ["second"]="t"}
+, ["鹭"]={["first"]="z", ["second"]="n"}
+, ["蟛"]={["first"]="i", ["second"]="p"}
+, ["蟪"]={["first"]="i", ["second"]="x"}
+, ["蟠"]={["first"]="i", ["second"]="t"}
+, ["蟮"]={["first"]="i", ["second"]="k"}
+, ["鹮"]={["first"]="s", ["second"]="n"}
+, ["黠"]={["first"]="h", ["second"]="k"}
+, ["黟"]={["first"]="h", ["second"]="x"}
+, ["髅"]={["first"]="g", ["second"]="n"}
+, ["髂"]={["first"]="g", ["second"]="k"}
+, ["镬"]={["first"]="j", ["second"]="y"}
+, ["镭"]={["first"]="j", ["second"]="t"}
+, ["镯"]={["first"]="j", ["second"]="i"}
+, ["馥"]={["first"]="h", ["second"]="w"}
+, ["簟"]={["first"]="v", ["second"]="u"}
+, ["簪"]={["first"]="v", ["second"]="o"}
+, ["鼬"]={["first"]="j", ["second"]="y"}
+, ["雠"]={["first"]="r", ["second"]="f"}
+, ["艟"]={["first"]="v", ["second"]="l"}
+, ["鳎"]={["first"]="a", ["second"]="x"}
+, ["鳏"]={["first"]="a", ["second"]="d"}
+, ["鳐"]={["first"]="a", ["second"]="f"}
+, ["癞"]={["first"]="b", ["second"]="r"}
+, ["癔"]={["first"]="b", ["second"]="x"}
+, ["癜"]={["first"]="b", ["second"]="y"}
+, ["癖"]={["first"]="b", ["second"]="u"}
+, ["糨"]={["first"]="m", ["second"]="i"}
+, ["蹩"]={["first"]="d", ["second"]="r"}
+, ["鎏"]={["first"]="d", ["second"]="j"}
+, ["懵"]={["first"]="x", ["second"]="o"}
+, ["彝"]={["first"]="v", ["second"]="c"}
+, ["邋"]={["first"]="z", ["second"]="v"}
+, ["鬏"]={["first"]="a", ["second"]="h"}
+, ["攉"]={["first"]="f", ["second"]="f"}
+, ["攒"]={["first"]="f", ["second"]="r"}
+, ["鞲"]={["first"]="g", ["second"]="r"}
+, ["鞴"]={["first"]="g", ["second"]="y"}
+, ["藿"]={["first"]="c", ["second"]="f"}
+, ["蘧"]={["first"]="c", ["second"]="z"}
+, ["蘅"]={["first"]="c", ["second"]="i"}
+, ["麓"]={["first"]="m", ["second"]="b"}
+, ["醮"]={["first"]="y", ["second"]="h"}
+, ["醯"]={["first"]="y", ["second"]="m"}
+, ["酃"]={["first"]="y", ["second"]="e"}
+, ["霪"]={["first"]="y", ["second"]="r"}
+, ["霭"]={["first"]="y", ["second"]="v"}
+, ["霨"]={["first"]="y", ["second"]="c"}
+, ["黼"]={["first"]="y", ["second"]="f"}
+, ["嚯"]={["first"]="k", ["second"]="f"}
+, ["蹰"]={["first"]="z", ["second"]="c"}
+, ["蹶"]={["first"]="z", ["second"]="r"}
+, ["蹽"]={["first"]="z", ["second"]="x"}
+, ["蹼"]={["first"]="z", ["second"]="n"}
+, ["蹴"]={["first"]="z", ["second"]="y"}
+, ["蹾"]={["first"]="z", ["second"]="w"}
+, ["蹿"]={["first"]="z", ["second"]="i"}
+, ["蠖"]={["first"]="i", ["second"]="y"}
+, ["蠓"]={["first"]="i", ["second"]="n"}
+, ["蟾"]={["first"]="i", ["second"]="k"}
+, ["蠊"]={["first"]="i", ["second"]="n"}
+, ["黢"]={["first"]="h", ["second"]="w"}
+, ["髋"]={["first"]="g", ["second"]="e"}
+, ["髌"]={["first"]="g", ["second"]="b"}
+, ["镲"]={["first"]="j", ["second"]="x"}
+, ["籀"]={["first"]="v", ["second"]="t"}
+, ["籁"]={["first"]="v", ["second"]="r"}
+, ["齁"]={["first"]="z", ["second"]="k"}
+, ["魑"]={["first"]="g", ["second"]="d"}
+, ["艨"]={["first"]="v", ["second"]="n"}
+, ["鳓"]={["first"]="a", ["second"]="l"}
+, ["鳔"]={["first"]="a", ["second"]="x"}
+, ["鳕"]={["first"]="a", ["second"]="e"}
+, ["鳗"]={["first"]="a", ["second"]="y"}
+, ["鳙"]={["first"]="a", ["second"]="l"}
+, ["麒"]={["first"]="g", ["second"]="b"}
+, ["鏖"]={["first"]="g", ["second"]="j"}
+, ["羸"]={["first"]="w", ["second"]="f"}
+, ["㸆"]={["first"]="h", ["second"]="f"}
+, ["瀚"]={["first"]="d", ["second"]="x"}
+, ["瀣"]={["first"]="d", ["second"]="j"}
+, ["瀛"]={["first"]="d", ["second"]="f"}
+, ["襦"]={["first"]="p", ["second"]="e"}
+, ["谶"]={["first"]="y", ["second"]="j"}
+, ["襞"]={["first"]="u", ["second"]="y"}
+, ["骥"]={["first"]="m", ["second"]="b"}
+, ["缵"]={["first"]="s", ["second"]="r"}
+, ["瓒"]={["first"]="w", ["second"]="r"}
+, ["攘"]={["first"]="f", ["second"]="y"}
+, ["蘩"]={["first"]="c", ["second"]="x"}
+, ["蘖"]={["first"]="c", ["second"]="m"}
+, ["醴"]={["first"]="y", ["second"]="a"}
+, ["霰"]={["first"]="y", ["second"]="w"}
+, ["酆"]={["first"]="e", ["second"]="e"}
+, ["矍"]={["first"]="o", ["second"]="y"}
+, ["曦"]={["first"]="o", ["second"]="d"}
+, ["躅"]={["first"]="z", ["second"]="i"}
+, ["鼍"]={["first"]="k", ["second"]="d"}
+, ["巉"]={["first"]="e", ["second"]="d"}
+, ["黩"]={["first"]="h", ["second"]="d"}
+, ["黥"]={["first"]="h", ["second"]="x"}
+, ["黪"]={["first"]="h", ["second"]="p"}
+, ["镳"]={["first"]="j", ["second"]="h"}
+, ["镴"]={["first"]="j", ["second"]="v"}
+, ["黧"]={["first"]="h", ["second"]="h"}
+, ["纂"]={["first"]="v", ["second"]="x"}
+, ["璺"]={["first"]="p", ["second"]="y"}
+, ["鼯"]={["first"]="j", ["second"]="k"}
+, ["臜"]={["first"]="o", ["second"]="r"}
+, ["鳜"]={["first"]="a", ["second"]="r"}
+, ["鳝"]={["first"]="a", ["second"]="k"}
+, ["鳟"]={["first"]="a", ["second"]="c"}
+, ["獾"]={["first"]="q", ["second"]="f"}
+, ["孀"]={["first"]="n", ["second"]="o"}
+, ["骧"]={["first"]="m", ["second"]="y"}
+, ["瓘"]={["first"]="w", ["second"]="f"}
+, ["鼙"]={["first"]="u", ["second"]="u"}
+, ["醺"]={["first"]="y", ["second"]="h"}
+, ["礴"]={["first"]="u", ["second"]="c"}
+, ["颦"]={["first"]="v", ["second"]="u"}
+, ["曩"]={["first"]="o", ["second"]="y"}
+, ["鳢"]={["first"]="a", ["second"]="a"}
+, ["癫"]={["first"]="b", ["second"]="r"}
+, ["麝"]={["first"]="g", ["second"]="c"}
+, ["夔"]={["first"]="b", ["second"]="w"}
+, ["爝"]={["first"]="h", ["second"]="c"}
+, ["灏"]={["first"]="d", ["second"]="r"}
+, ["禳"]={["first"]="p", ["second"]="y"}
+, ["鐾"]={["first"]="u", ["second"]="j"}
+, ["羼"]={["first"]="u", ["second"]="y"}
+, ["蠡"]={["first"]="v", ["second"]="i"}
+, ["耱"]={["first"]="l", ["second"]="u"}
+, ["懿"]={["first"]="u", ["second"]="x"}
+, ["蘸"]={["first"]="c", ["second"]="h"}
+, ["鹳"]={["first"]="c", ["second"]="n"}
+, ["霾"]={["first"]="y", ["second"]="l"}
+, ["氍"]={["first"]="o", ["second"]="m"}
+, ["饕"]={["first"]="k", ["second"]="l"}
+, ["躐"]={["first"]="z", ["second"]="v"}
+, ["髑"]={["first"]="g", ["second"]="i"}
+, ["镵"]={["first"]="j", ["second"]="d"}
+, ["穰"]={["first"]="h", ["second"]="y"}
+, ["饔"]={["first"]="w", ["second"]="l"}
+, ["鬻"]={["first"]="g", ["second"]="l"}
+, ["鬟"]={["first"]="a", ["second"]="y"}
+, ["趱"]={["first"]="t", ["second"]="r"}
+, ["攫"]={["first"]="f", ["second"]="y"}
+, ["攥"]={["first"]="f", ["second"]="x"}
+, ["颧"]={["first"]="c", ["second"]="r"}
+, ["躜"]={["first"]="z", ["second"]="r"}
+, ["鼹"]={["first"]="j", ["second"]="n"}
+, ["癯"]={["first"]="b", ["second"]="f"}
+, ["麟"]={["first"]="g", ["second"]="l"}
+, ["蠲"]={["first"]="b", ["second"]="i"}
+, ["蠹"]={["first"]="a", ["second"]="i"}
+, ["躞"]={["first"]="z", ["second"]="y"}
+, ["衢"]={["first"]="i", ["second"]="i"}
+, ["鑫"]={["first"]="j", ["second"]="j"}
+, ["灞"]={["first"]="d", ["second"]="o"}
+, ["襻"]={["first"]="p", ["second"]="u"}
+, ["纛"]={["first"]="f", ["second"]="x"}
+, ["鬣"]={["first"]="a", ["second"]="v"}
+, ["攮"]={["first"]="f", ["second"]="y"}
+, ["囔"]={["first"]="k", ["second"]="y"}
+, ["馕"]={["first"]="u", ["second"]="y"}
+, ["戆"]={["first"]="l", ["second"]="x"}
+, ["爨"]={["first"]="p", ["second"]="h"}
+, ["齉"]={["first"]="z", ["second"]="y"}
+, ["亍"]={["first"]="e", ["second"]="l"}
+, ["尢"]={["first"]="u", ["second"]="v"}
+, ["彳"]={["first"]="p", ["second"]="r"}
+, ["卬"]={["first"]="p", ["second"]="e"}
+, ["殳"]={["first"]="j", ["second"]="y"}
+, ["𠙶"]={["first"]="l", ["second"]="k"}
+, ["毌"]={["first"]="v", ["second"]="a"}
+, ["邘"]={["first"]="y", ["second"]="e"}
+, ["戋"]={["first"]="a", ["second"]="d"}
+, ["圢"]={["first"]="t", ["second"]="d"}
+, ["氕"]={["first"]="q", ["second"]="p"}
+, ["伋"]={["first"]="r", ["second"]="j"}
+, ["仝"]={["first"]="r", ["second"]="g"}
+, ["冮"]={["first"]="d", ["second"]="g"}
+, ["氿"]={["first"]="d", ["second"]="j"}
+, ["汈"]={["first"]="d", ["second"]="d"}
+, ["氾"]={["first"]="d", ["second"]="v"}
+, ["忉"]={["first"]="x", ["second"]="d"}
+, ["宄"]={["first"]="b", ["second"]="j"}
+, ["𬣙"]={["first"]="y", ["second"]="y"}
+, ["讱"]={["first"]="y", ["second"]="r"}
+, ["扞"]={["first"]="f", ["second"]="g"}
+, ["圲"]={["first"]="t", ["second"]="q"}
+, ["圫"]={["first"]="t", ["second"]="q"}
+, ["芏"]={["first"]="c", ["second"]="t"}
+, ["芃"]={["first"]="c", ["second"]="f"}
+, ["朳"]={["first"]="m", ["second"]="b"}
+, ["朸"]={["first"]="m", ["second"]="l"}
+, ["𨙸"]={["first"]="u", ["second"]="e"}
+, ["邨"]={["first"]="t", ["second"]="e"}
+, ["吒"]={["first"]="k", ["second"]="q"}
+, ["吖"]={["first"]="k", ["second"]="y"}
+, ["屼"]={["first"]="e", ["second"]="w"}
+, ["屾"]={["first"]="e", ["second"]="e"}
+, ["辿"]={["first"]="z", ["second"]="e"}
+, ["钆"]={["first"]="j", ["second"]="v"}
+, ["仳"]={["first"]="r", ["second"]="b"}
+, ["伣"]={["first"]="r", ["second"]="e"}
+, ["伈"]={["first"]="r", ["second"]="x"}
+, ["癿"]={["first"]="b", ["second"]="v"}
+, ["甪"]={["first"]="p", ["second"]="y"}
+, ["邠"]={["first"]="b", ["second"]="e"}
+, ["犴"]={["first"]="q", ["second"]="g"}
+, ["冱"]={["first"]="d", ["second"]="h"}
+, ["邡"]={["first"]="f", ["second"]="e"}
+, ["闫"]={["first"]="m", ["second"]="s"}
+, ["𬇕"]={["first"]="d", ["second"]="w"}
+, ["汋"]={["first"]="d", ["second"]="u"}
+, ["䜣"]={["first"]="y", ["second"]="j"}
+, ["讻"]={["first"]="y", ["second"]="k"}
+, ["𬣞"]={["first"]="y", ["second"]="a"}
+, ["孖"]={["first"]="z", ["second"]="z"}
+, ["𬘓"]={["first"]="s", ["second"]="i"}
+, ["纩"]={["first"]="s", ["second"]="g"}
+, ["玒"]={["first"]="w", ["second"]="g"}
+, ["玓"]={["first"]="w", ["second"]="u"}
+, ["玘"]={["first"]="w", ["second"]="j"}
+, ["玚"]={["first"]="w", ["second"]="p"}
+, ["刬"]={["first"]="j", ["second"]="d"}
+, ["𫭟"]={["first"]="t", ["second"]="x"}
+, ["坜"]={["first"]="t", ["second"]="l"}
+, ["坉"]={["first"]="t", ["second"]="t"}
+, ["扽"]={["first"]="f", ["second"]="t"}
+, ["𫭢"]={["first"]="t", ["second"]="b"}
+, ["坋"]={["first"]="t", ["second"]="d"}
+, ["扺"]={["first"]="f", ["second"]="u"}
+, ["㧑"]={["first"]="f", ["second"]="w"}
+, ["毐"]={["first"]="u", ["second"]="w"}
+, ["芰"]={["first"]="c", ["second"]="y"}
+, ["芣"]={["first"]="c", ["second"]="b"}
+, ["苊"]={["first"]="c", ["second"]="v"}
+, ["苉"]={["first"]="c", ["second"]="e"}
+, ["芘"]={["first"]="c", ["second"]="b"}
+, ["芴"]={["first"]="c", ["second"]="w"}
+, ["芠"]={["first"]="c", ["second"]="w"}
+, ["𫇭"]={["first"]="c", ["second"]="w"}
+, ["芤"]={["first"]="c", ["second"]="v"}
+, ["杕"]={["first"]="m", ["second"]="d"}
+, ["杙"]={["first"]="m", ["second"]="y"}
+, ["杄"]={["first"]="m", ["second"]="q"}
+, ["杧"]={["first"]="m", ["second"]="w"}
+, ["杩"]={["first"]="m", ["second"]="m"}
+, ["尪"]={["first"]="y", ["second"]="w"}
+, ["尨"]={["first"]="u", ["second"]="d"}
+, ["轪"]={["first"]="i", ["second"]="d"}
+, ["𫐄"]={["first"]="i", ["second"]="w"}
+, ["坒"]={["first"]="b", ["second"]="t"}
+, ["芈"]={["first"]="l", ["second"]="l"}
+, ["旴"]={["first"]="o", ["second"]="y"}
+, ["旵"]={["first"]="o", ["second"]="e"}
+, ["呙"]={["first"]="k", ["second"]="n"}
+, ["㕮"]={["first"]="k", ["second"]="x"}
+, ["岍"]={["first"]="e", ["second"]="k"}
+, ["𫵷"]={["first"]="e", ["second"]="l"}
+, ["岠"]={["first"]="e", ["second"]="j"}
+, ["岜"]={["first"]="e", ["second"]="b"}
+, ["呇"]={["first"]="u", ["second"]="k"}
+, ["冏"]={["first"]="k", ["second"]="k"}
+, ["觃"]={["first"]="k", ["second"]="z"}
+, ["岙"]={["first"]="y", ["second"]="e"}
+, ["伾"]={["first"]="r", ["second"]="p"}
+, ["㑇"]={["first"]="r", ["second"]="e"}
+, ["伭"]={["first"]="r", ["second"]="y"}
+, ["佖"]={["first"]="r", ["second"]="b"}
+, ["伲"]={["first"]="r", ["second"]="b"}
+, ["佁"]={["first"]="r", ["second"]="k"}
+, ["飏"]={["first"]="j", ["second"]="p"}
+, ["狃"]={["first"]="q", ["second"]="i"}
+, ["闶"]={["first"]="m", ["second"]="j"}
+, ["汧"]={["first"]="d", ["second"]="k"}
+, ["汫"]={["first"]="d", ["second"]="j"}
+, ["𣲘"]={["first"]="d", ["second"]="w"}
+, ["𣲗"]={["first"]="d", ["second"]="w"}
+, ["沄"]={["first"]="d", ["second"]="s"}
+, ["沘"]={["first"]="d", ["second"]="b"}
+, ["𬇙"]={["first"]="d", ["second"]="r"}
+, ["汭"]={["first"]="d", ["second"]="n"}
+, ["㳇"]={["first"]="d", ["second"]="x"}
+, ["沇"]={["first"]="d", ["second"]="e"}
+, ["忮"]={["first"]="x", ["second"]="y"}
+, ["忳"]={["first"]="x", ["second"]="t"}
+, ["忺"]={["first"]="x", ["second"]="r"}
+, ["𬣡"]={["first"]="y", ["second"]="j"}
+, ["祃"]={["first"]="p", ["second"]="m"}
+, ["诇"]={["first"]="y", ["second"]="k"}
+, ["邲"]={["first"]="b", ["second"]="e"}
+, ["诎"]={["first"]="y", ["second"]="i"}
+, ["诐"]={["first"]="y", ["second"]="y"}
+, ["屃"]={["first"]="u", ["second"]="r"}
+, ["𫸩"]={["first"]="g", ["second"]="x"}
+, ["岊"]={["first"]="b", ["second"]="e"}
+, ["阽"]={["first"]="e", ["second"]="k"}
+, ["䢺"]={["first"]="i", ["second"]="e"}
+, ["阼"]={["first"]="e", ["second"]="v"}
+, ["妧"]={["first"]="n", ["second"]="e"}
+, ["妘"]={["first"]="n", ["second"]="s"}
+, ["𨚕"]={["first"]="s", ["second"]="e"}
+, ["纮"]={["first"]="s", ["second"]="s"}
+, ["驲"]={["first"]="m", ["second"]="o"}
+, ["𫘜"]={["first"]="m", ["second"]="w"}
+, ["纻"]={["first"]="s", ["second"]="a"}
+, ["𬘘"]={["first"]="s", ["second"]="v"}
+, ["𫘝"]={["first"]="m", ["second"]="g"}
+, ["纼"]={["first"]="s", ["second"]="l"}
+, ["玤"]={["first"]="w", ["second"]="f"}
+, ["玞"]={["first"]="w", ["second"]="f"}
+, ["玱"]={["first"]="w", ["second"]="v"}
+, ["玟"]={["first"]="w", ["second"]="w"}
+, ["邽"]={["first"]="t", ["second"]="e"}
+, ["邿"]={["first"]="t", ["second"]="e"}
+, ["坥"]={["first"]="t", ["second"]="q"}
+, ["坰"]={["first"]="t", ["second"]="k"}
+, ["坬"]={["first"]="t", ["second"]="g"}
+, ["坽"]={["first"]="t", ["second"]="s"}
+, ["弆"]={["first"]="t", ["second"]="c"}
+, ["耵"]={["first"]="e", ["second"]="d"}
+, ["䢼"]={["first"]="c", ["second"]="e"}
+, ["𦭜"]={["first"]="c", ["second"]="b"}
+, ["茋"]={["first"]="c", ["second"]="d"}
+, ["苧"]={["first"]="c", ["second"]="d"}
+, ["苾"]={["first"]="c", ["second"]="b"}
+, ["苠"]={["first"]="c", ["second"]="m"}
+, ["枅"]={["first"]="m", ["second"]="k"}
+, ["㭎"]={["first"]="m", ["second"]="x"}
+, ["枘"]={["first"]="m", ["second"]="n"}
+, ["枍"]={["first"]="m", ["second"]="v"}
+, ["矼"]={["first"]="u", ["second"]="g"}
+, ["矻"]={["first"]="u", ["second"]="q"}
+, ["匼"]={["first"]="k", ["second"]="k"}
+, ["𬨂"]={["first"]="i", ["second"]="u"}
+, ["𬀩"]={["first"]="o", ["second"]="w"}
+, ["𬀪"]={["first"]="o", ["second"]="e"}
+, ["旿"]={["first"]="o", ["second"]="w"}
+, ["昇"]={["first"]="o", ["second"]="u"}
+, ["昄"]={["first"]="o", ["second"]="y"}
+, ["昒"]={["first"]="o", ["second"]="w"}
+, ["昈"]={["first"]="o", ["second"]="h"}
+, ["咉"]={["first"]="k", ["second"]="y"}
+, ["咇"]={["first"]="k", ["second"]="b"}
+, ["咍"]={["first"]="k", ["second"]="k"}
+, ["岵"]={["first"]="e", ["second"]="k"}
+, ["岽"]={["first"]="e", ["second"]="d"}
+, ["岨"]={["first"]="e", ["second"]="q"}
+, ["岞"]={["first"]="e", ["second"]="v"}
+, ["峂"]={["first"]="e", ["second"]="d"}
+, ["㟃"]={["first"]="e", ["second"]="k"}
+, ["囷"]={["first"]="k", ["second"]="h"}
+, ["𬬩"]={["first"]="j", ["second"]="y"}
+, ["钐"]={["first"]="j", ["second"]="p"}
+, ["钔"]={["first"]="j", ["second"]="m"}
+, ["钖"]={["first"]="j", ["second"]="p"}
+, ["牥"]={["first"]="n", ["second"]="f"}
+, ["佴"]={["first"]="r", ["second"]="e"}
+, ["垈"]={["first"]="r", ["second"]="t"}
+, ["侁"]={["first"]="r", ["second"]="e"}
+, ["侹"]={["first"]="r", ["second"]="z"}
+, ["佸"]={["first"]="r", ["second"]="k"}
+, ["佺"]={["first"]="r", ["second"]="w"}
+, ["隹"]={["first"]="r", ["second"]="f"}
+, ["㑊"]={["first"]="r", ["second"]="d"}
+, ["侂"]={["first"]="r", ["second"]="q"}
+, ["佽"]={["first"]="r", ["second"]="r"}
+, ["侘"]={["first"]="r", ["second"]="q"}
+, ["郈"]={["first"]="p", ["second"]="e"}
+, ["舠"]={["first"]="v", ["second"]="d"}
+, ["郐"]={["first"]="r", ["second"]="e"}
+, ["郃"]={["first"]="r", ["second"]="e"}
+, ["攽"]={["first"]="b", ["second"]="w"}
+, ["肭"]={["first"]="o", ["second"]="n"}
+, ["肸"]={["first"]="o", ["second"]="u"}
+, ["肷"]={["first"]="o", ["second"]="r"}
+, ["狉"]={["first"]="q", ["second"]="p"}
+, ["狝"]={["first"]="q", ["second"]="x"}
+, ["饳"]={["first"]="u", ["second"]="i"}
+, ["忞"]={["first"]="w", ["second"]="x"}
+, ["於"]={["first"]="f", ["second"]="d"}
+, ["炌"]={["first"]="h", ["second"]="l"}
+, ["炆"]={["first"]="h", ["second"]="w"}
+, ["泙"]={["first"]="d", ["second"]="p"}
+, ["沺"]={["first"]="d", ["second"]="t"}
+, ["泂"]={["first"]="d", ["second"]="k"}
+, ["泜"]={["first"]="d", ["second"]="d"}
+, ["泃"]={["first"]="d", ["second"]="k"}
+, ["泇"]={["first"]="d", ["second"]="k"}
+, ["怊"]={["first"]="x", ["second"]="k"}
+, ["峃"]={["first"]="x", ["second"]="e"}
+, ["穸"]={["first"]="b", ["second"]="x"}
+, ["祋"]={["first"]="p", ["second"]="y"}
+, ["祊"]={["first"]="p", ["second"]="f"}
+, ["𫍣"]={["first"]="y", ["second"]="k"}
+, ["𬣳"]={["first"]="y", ["second"]="g"}
+, ["𬩽"]={["first"]="e", ["second"]="e"}
+, ["鸤"]={["first"]="u", ["second"]="n"}
+, ["弢"]={["first"]="g", ["second"]="y"}
+, ["弨"]={["first"]="g", ["second"]="k"}
+, ["陑"]={["first"]="e", ["second"]="e"}
+, ["𬮿"]={["first"]="e", ["second"]="j"}
+, ["陎"]={["first"]="e", ["second"]="v"}
+, ["𬯀"]={["first"]="e", ["second"]="l"}
+, ["卺"]={["first"]="l", ["second"]="v"}
+, ["乸"]={["first"]="y", ["second"]="m"}
+, ["妭"]={["first"]="n", ["second"]="d"}
+, ["姈"]={["first"]="n", ["second"]="s"}
+, ["𫰛"]={["first"]="n", ["second"]="g"}
+, ["迳"]={["first"]="z", ["second"]="g"}
+, ["叕"]={["first"]="y", ["second"]="y"}
+, ["𬳵"]={["first"]="m", ["second"]="p"}
+, ["驵"]={["first"]="m", ["second"]="q"}
+, ["𬳶"]={["first"]="m", ["second"]="k"}
+, ["䌹"]={["first"]="s", ["second"]="k"}
+, ["驺"]={["first"]="m", ["second"]="e"}
+, ["𫠊"]={["first"]="m", ["second"]="y"}
+, ["绋"]={["first"]="s", ["second"]="f"}
+, ["绐"]={["first"]="s", ["second"]="k"}
+, ["砉"]={["first"]="f", ["second"]="u"}
+, ["耔"]={["first"]="l", ["second"]="z"}
+, ["㛃"]={["first"]="f", ["second"]="n"}
+, ["玶"]={["first"]="w", ["second"]="p"}
+, ["珇"]={["first"]="w", ["second"]="q"}
+, ["珅"]={["first"]="w", ["second"]="u"}
+, ["𬍛"]={["first"]="w", ["second"]="l"}
+, ["珋"]={["first"]="w", ["second"]="e"}
+, ["玹"]={["first"]="w", ["second"]="y"}
+, ["珌"]={["first"]="w", ["second"]="b"}
+, ["玿"]={["first"]="w", ["second"]="k"}
+, ["韨"]={["first"]="w", ["second"]="d"}
+, ["垚"]={["first"]="t", ["second"]="t"}
+, ["垯"]={["first"]="t", ["second"]="z"}
+, ["垙"]={["first"]="t", ["second"]="w"}
+, ["垲"]={["first"]="t", ["second"]="j"}
+, ["埏"]={["first"]="t", ["second"]="z"}
+, ["垍"]={["first"]="t", ["second"]="z"}
+, ["耇"]={["first"]="l", ["second"]="k"}
+, ["鿍"]={["first"]="t", ["second"]="l"}
+, ["垎"]={["first"]="t", ["second"]="k"}
+, ["垴"]={["first"]="t", ["second"]="k"}
+, ["垟"]={["first"]="t", ["second"]="y"}
+, ["垞"]={["first"]="t", ["second"]="q"}
+, ["挓"]={["first"]="f", ["second"]="q"}
+, ["垵"]={["first"]="t", ["second"]="n"}
+, ["垏"]={["first"]="t", ["second"]="y"}
+, ["拶"]={["first"]="f", ["second"]="x"}
+, ["荖"]={["first"]="c", ["second"]="b"}
+, ["荁"]={["first"]="c", ["second"]="a"}
+, ["荙"]={["first"]="c", ["second"]="z"}
+, ["荛"]={["first"]="c", ["second"]="w"}
+, ["茈"]={["first"]="c", ["second"]="b"}
+, ["茽"]={["first"]="c", ["second"]="v"}
+, ["荄"]={["first"]="c", ["second"]="r"}
+, ["茺"]={["first"]="c", ["second"]="e"}
+, ["𬜬"]={["first"]="c", ["second"]="k"}
+, ["荓"]={["first"]="c", ["second"]="k"}
+, ["茳"]={["first"]="c", ["second"]="g"}
+, ["𦰡"]={["first"]="c", ["second"]="e"}
+, ["茛"]={["first"]="c", ["second"]="g"}
+, ["荭"]={["first"]="c", ["second"]="g"}
+, ["㭕"]={["first"]="m", ["second"]="s"}
+, ["柷"]={["first"]="m", ["second"]="e"}
+, ["柃"]={["first"]="m", ["second"]="s"}
+, ["柊"]={["first"]="m", ["second"]="d"}
+, ["枹"]={["first"]="m", ["second"]="s"}
+, ["栐"]={["first"]="m", ["second"]="y"}
+, ["柖"]={["first"]="m", ["second"]="k"}
+, ["郚"]={["first"]="w", ["second"]="e"}
+, ["剅"]={["first"]="a", ["second"]="d"}
+, ["䴓"]={["first"]="a", ["second"]="n"}
+, ["迺"]={["first"]="z", ["second"]="x"}
+, ["厖"]={["first"]="i", ["second"]="d"}
+, ["砆"]={["first"]="u", ["second"]="f"}
+, ["砑"]={["first"]="u", ["second"]="y"}
+, ["砄"]={["first"]="u", ["second"]="g"}
+, ["耏"]={["first"]="e", ["second"]="p"}
+, ["奓"]={["first"]="d", ["second"]="x"}
+, ["䶮"]={["first"]="l", ["second"]="t"}
+, ["轵"]={["first"]="i", ["second"]="b"}
+, ["轷"]={["first"]="i", ["second"]="h"}
+, ["轹"]={["first"]="i", ["second"]="l"}
+, ["轺"]={["first"]="i", ["second"]="k"}
+, ["昺"]={["first"]="o", ["second"]="b"}
+, ["𪾢"]={["first"]="o", ["second"]="e"}
+, ["昽"]={["first"]="o", ["second"]="l"}
+, ["盷"]={["first"]="o", ["second"]="d"}
+, ["咡"]={["first"]="k", ["second"]="e"}
+, ["咺"]={["first"]="k", ["second"]="a"}
+, ["昳"]={["first"]="o", ["second"]="u"}
+, ["昣"]={["first"]="o", ["second"]="p"}
+, ["哒"]={["first"]="k", ["second"]="z"}
+, ["昤"]={["first"]="o", ["second"]="s"}
+, ["昫"]={["first"]="o", ["second"]="k"}
+, ["昡"]={["first"]="o", ["second"]="y"}
+, ["咥"]={["first"]="k", ["second"]="t"}
+, ["昪"]={["first"]="o", ["second"]="c"}
+, ["虷"]={["first"]="i", ["second"]="g"}
+, ["虸"]={["first"]="i", ["second"]="z"}
+, ["哃"]={["first"]="k", ["second"]="k"}
+, ["峘"]={["first"]="e", ["second"]="a"}
+, ["耑"]={["first"]="e", ["second"]="e"}
+, ["峛"]={["first"]="e", ["second"]="d"}
+, ["𪨰"]={["first"]="e", ["second"]="q"}
+, ["峗"]={["first"]="e", ["second"]="v"}
+, ["峧"]={["first"]="e", ["second"]="x"}
+, ["帡"]={["first"]="j", ["second"]="k"}
+, ["钘"]={["first"]="j", ["second"]="k"}
+, ["𫓧"]={["first"]="j", ["second"]="f"}
+, ["钜"]={["first"]="j", ["second"]="j"}
+, ["𬬮"]={["first"]="j", ["second"]="i"}
+, ["𬬱"]={["first"]="j", ["second"]="j"}
+, ["𬬭"]={["first"]="j", ["second"]="b"}
+, ["钪"]={["first"]="j", ["second"]="j"}
+, ["钬"]={["first"]="j", ["second"]="h"}
+, ["钭"]={["first"]="j", ["second"]="u"}
+, ["矧"]={["first"]="u", ["second"]="l"}
+, ["秬"]={["first"]="h", ["second"]="j"}
+, ["俫"]={["first"]="r", ["second"]="l"}
+, ["舁"]={["first"]="j", ["second"]="c"}
+, ["俜"]={["first"]="r", ["second"]="v"}
+, ["俙"]={["first"]="r", ["second"]="j"}
+, ["俍"]={["first"]="r", ["second"]="l"}
+, ["垕"]={["first"]="p", ["second"]="t"}
+, ["衎"]={["first"]="i", ["second"]="i"}
+, ["舣"]={["first"]="v", ["second"]="y"}
+, ["弇"]={["first"]="r", ["second"]="c"}
+, ["侴"]={["first"]="r", ["second"]="d"}
+, ["鸧"]={["first"]="r", ["second"]="n"}
+, ["䏡"]={["first"]="o", ["second"]="x"}
+, ["胠"]={["first"]="o", ["second"]="s"}
+, ["𦙶"]={["first"]="o", ["second"]="k"}
+, ["胈"]={["first"]="o", ["second"]="d"}
+, ["胩"]={["first"]="o", ["second"]="b"}
+, ["胣"]={["first"]="o", ["second"]="y"}
+, ["朏"]={["first"]="o", ["second"]="i"}
+, ["飐"]={["first"]="j", ["second"]="k"}
+, ["訄"]={["first"]="j", ["second"]="k"}
+, ["饻"]={["first"]="u", ["second"]="y"}
+, ["庤"]={["first"]="g", ["second"]="c"}
+, ["疢"]={["first"]="b", ["second"]="h"}
+, ["炣"]={["first"]="h", ["second"]="k"}
+, ["炟"]={["first"]="h", ["second"]="a"}
+, ["㶲"]={["first"]="h", ["second"]="y"}
+, ["洭"]={["first"]="d", ["second"]="w"}
+, ["洘"]={["first"]="d", ["second"]="v"}
+, ["洓"]={["first"]="d", ["second"]="n"}
+, ["洿"]={["first"]="d", ["second"]="k"}
+, ["㳚"]={["first"]="d", ["second"]="u"}
+, ["泚"]={["first"]="d", ["second"]="b"}
+, ["浈"]={["first"]="d", ["second"]="r"}
+, ["浉"]={["first"]="d", ["second"]="j"}
+, ["洸"]={["first"]="d", ["second"]="w"}
+, ["洑"]={["first"]="d", ["second"]="q"}
+, ["洢"]={["first"]="d", ["second"]="y"}
+, ["洈"]={["first"]="d", ["second"]="v"}
+, ["洚"]={["first"]="d", ["second"]="l"}
+, ["洺"]={["first"]="d", ["second"]="k"}
+, ["洨"]={["first"]="d", ["second"]="x"}
+, ["浐"]={["first"]="d", ["second"]="i"}
+, ["㳘"]={["first"]="d", ["second"]="e"}
+, ["洴"]={["first"]="d", ["second"]="k"}
+, ["洣"]={["first"]="d", ["second"]="m"}
+, ["恔"]={["first"]="x", ["second"]="x"}
+, ["宬"]={["first"]="b", ["second"]="i"}
+, ["窀"]={["first"]="b", ["second"]="t"}
+, ["扂"]={["first"]="h", ["second"]="k"}
+, ["袆"]={["first"]="p", ["second"]="w"}
+, ["祏"]={["first"]="p", ["second"]="u"}
+, ["祐"]={["first"]="p", ["second"]="k"}
+, ["祕"]={["first"]="p", ["second"]="b"}
+, ["叚"]={["first"]="v", ["second"]="y"}
+, ["陧"]={["first"]="e", ["second"]="t"}
+, ["陞"]={["first"]="e", ["second"]="t"}
+, ["娀"]={["first"]="n", ["second"]="u"}
+, ["姞"]={["first"]="n", ["second"]="k"}
+, ["姱"]={["first"]="n", ["second"]="k"}
+, ["姤"]={["first"]="n", ["second"]="k"}
+, ["姶"]={["first"]="n", ["second"]="k"}
+, ["姽"]={["first"]="n", ["second"]="v"}
+, ["枲"]={["first"]="s", ["second"]="m"}
+, ["绖"]={["first"]="s", ["second"]="t"}
+, ["骃"]={["first"]="m", ["second"]="d"}
+, ["𬘡"]={["first"]="s", ["second"]="d"}
+, ["𬳽"]={["first"]="m", ["second"]="e"}
+, ["𬘩"]={["first"]="s", ["second"]="z"}
+, ["𫄧"]={["first"]="s", ["second"]="z"}
+, ["彖"]={["first"]="v", ["second"]="u"}
+, ["骉"]={["first"]="m", ["second"]="m"}
+, ["恝"]={["first"]="f", ["second"]="x"}
+, ["珪"]={["first"]="w", ["second"]="t"}
+, ["珛"]={["first"]="w", ["second"]="o"}
+, ["珹"]={["first"]="w", ["second"]="i"}
+, ["琊"]={["first"]="w", ["second"]="e"}
+, ["玼"]={["first"]="w", ["second"]="b"}
+, ["珖"]={["first"]="w", ["second"]="w"}
+, ["𪟝"]={["first"]="f", ["second"]="l"}
+, ["珽"]={["first"]="w", ["second"]="z"}
+, ["珦"]={["first"]="w", ["second"]="k"}
+, ["珫"]={["first"]="w", ["second"]="e"}
+, ["珒"]={["first"]="w", ["second"]="y"}
+, ["𬍤"]={["first"]="w", ["second"]="c"}
+, ["珢"]={["first"]="w", ["second"]="g"}
+, ["珕"]={["first"]="w", ["second"]="l"}
+, ["珝"]={["first"]="w", ["second"]="x"}
+, ["𫭼"]={["first"]="t", ["second"]="l"}
+, ["埗"]={["first"]="t", ["second"]="p"}
+, ["垾"]={["first"]="t", ["second"]="g"}
+, ["垺"]={["first"]="t", ["second"]="z"}
+, ["埆"]={["first"]="t", ["second"]="y"}
+, ["垿"]={["first"]="t", ["second"]="l"}
+, ["埌"]={["first"]="t", ["second"]="l"}
+, ["埇"]={["first"]="t", ["second"]="y"}
+, ["莰"]={["first"]="c", ["second"]="r"}
+, ["茝"]={["first"]="c", ["second"]="l"}
+, ["𬜯"]={["first"]="c", ["second"]="l"}
+, ["鄀"]={["first"]="c", ["second"]="e"}
+, ["莶"]={["first"]="c", ["second"]="a"}
+, ["莝"]={["first"]="c", ["second"]="t"}
+, ["䓖"]={["first"]="c", ["second"]="l"}
+, ["莙"]={["first"]="c", ["second"]="k"}
+, ["栻"]={["first"]="m", ["second"]="g"}
+, ["桠"]={["first"]="m", ["second"]="y"}
+, ["𬂩"]={["first"]="m", ["second"]="j"}
+, ["桄"]={["first"]="m", ["second"]="w"}
+, ["梠"]={["first"]="m", ["second"]="k"}
+, ["栴"]={["first"]="m", ["second"]="d"}
+, ["梴"]={["first"]="m", ["second"]="z"}
+, ["栒"]={["first"]="m", ["second"]="o"}
+, ["酎"]={["first"]="y", ["second"]="c"}
+, ["酏"]={["first"]="y", ["second"]="y"}
+, ["𫠆"]={["first"]="u", ["second"]="r"}
+, ["砵"]={["first"]="u", ["second"]="b"}
+, ["砠"]={["first"]="u", ["second"]="q"}
+, ["砫"]={["first"]="u", ["second"]="v"}
+, ["砬"]={["first"]="u", ["second"]="l"}
+, ["硁"]={["first"]="u", ["second"]="g"}
+, ["恧"]={["first"]="e", ["second"]="x"}
+, ["翃"]={["first"]="u", ["second"]="x"}
+, ["郪"]={["first"]="a", ["second"]="e"}
+, ["𨐈"]={["first"]="i", ["second"]="w"}
+, ["辀"]={["first"]="i", ["second"]="v"}
+, ["辁"]={["first"]="i", ["second"]="w"}
+, ["𬌗"]={["first"]="y", ["second"]="k"}
+, ["剕"]={["first"]="f", ["second"]="d"}
+, ["赀"]={["first"]="v", ["second"]="r"}
+, ["哢"]={["first"]="k", ["second"]="c"}
+, ["晅"]={["first"]="o", ["second"]="a"}
+, ["晊"]={["first"]="o", ["second"]="t"}
+, ["唝"]={["first"]="k", ["second"]="r"}
+, ["哳"]={["first"]="k", ["second"]="j"}
+, ["哱"]={["first"]="k", ["second"]="z"}
+, ["冔"]={["first"]="k", ["second"]="y"}
+, ["晔"]={["first"]="o", ["second"]="u"}
+, ["晐"]={["first"]="o", ["second"]="r"}
+, ["晖"]={["first"]="o", ["second"]="i"}
+, ["畖"]={["first"]="t", ["second"]="g"}
+, ["蚄"]={["first"]="i", ["second"]="f"}
+, ["蚆"]={["first"]="i", ["second"]="b"}
+, ["𫑡"]={["first"]="k", ["second"]="e"}
+, ["帱"]={["first"]="j", ["second"]="c"}
+, ["崁"]={["first"]="e", ["second"]="r"}
+, ["峿"]={["first"]="e", ["second"]="k"}
+, ["𪨶"]={["first"]="e", ["second"]="i"}
+, ["崄"]={["first"]="e", ["second"]="a"}
+, ["帨"]={["first"]="j", ["second"]="e"}
+, ["崀"]={["first"]="e", ["second"]="l"}
+, ["赆"]={["first"]="k", ["second"]="d"}
+, ["𬬸"]={["first"]="j", ["second"]="u"}
+, ["钷"]={["first"]="j", ["second"]="k"}
+, ["𬬻"]={["first"]="j", ["second"]="u"}
+, ["𬬹"]={["first"]="j", ["second"]="u"}
+, ["𬬿"]={["first"]="j", ["second"]="k"}
+, ["𬭁"]={["first"]="j", ["second"]="m"}
+, ["眚"]={["first"]="u", ["second"]="o"}
+, ["甡"]={["first"]="u", ["second"]="u"}
+, ["笫"]={["first"]="v", ["second"]="p"}
+, ["倻"]={["first"]="r", ["second"]="e"}
+, ["倴"]={["first"]="r", ["second"]="c"}
+, ["脩"]={["first"]="r", ["second"]="o"}
+, ["倮"]={["first"]="r", ["second"]="g"}
+, ["倕"]={["first"]="r", ["second"]="i"}
+, ["倞"]={["first"]="r", ["second"]="x"}
+, ["𫢸"]={["first"]="r", ["second"]="l"}
+, ["倓"]={["first"]="r", ["second"]="h"}
+, ["倧"]={["first"]="r", ["second"]="x"}
+, ["衃"]={["first"]="x", ["second"]="b"}
+, ["虒"]={["first"]="p", ["second"]="j"}
+, ["舭"]={["first"]="v", ["second"]="b"}
+, ["舯"]={["first"]="v", ["second"]="v"}
+, ["舥"]={["first"]="v", ["second"]="b"}
+, ["瓞"]={["first"]="g", ["second"]="u"}
+, ["鬯"]={["first"]="x", ["second"]="b"}
+, ["鸰"]={["first"]="r", ["second"]="n"}
+, ["脎"]={["first"]="o", ["second"]="m"}
+, ["朓"]={["first"]="o", ["second"]="d"}
+, ["胲"]={["first"]="o", ["second"]="r"}
+, ["虓"]={["first"]="j", ["second"]="j"}
+, ["鱽"]={["first"]="a", ["second"]="d"}
+, ["狴"]={["first"]="q", ["second"]="t"}
+, ["峱"]={["first"]="q", ["second"]="e"}
+, ["狻"]={["first"]="q", ["second"]="w"}
+, ["眢"]={["first"]="x", ["second"]="o"}
+, ["𫗧"]={["first"]="u", ["second"]="u"}
+, ["勍"]={["first"]="w", ["second"]="l"}
+, ["痄"]={["first"]="b", ["second"]="v"}
+, ["疰"]={["first"]="b", ["second"]="v"}
+, ["痃"]={["first"]="b", ["second"]="y"}
+, ["竘"]={["first"]="l", ["second"]="k"}
+, ["羖"]={["first"]="y", ["second"]="y"}
+, ["羓"]={["first"]="y", ["second"]="b"}
+, ["桊"]={["first"]="j", ["second"]="m"}
+, ["敉"]={["first"]="m", ["second"]="w"}
+, ["烠"]={["first"]="h", ["second"]="o"}
+, ["烔"]={["first"]="h", ["second"]="k"}
+, ["烶"]={["first"]="h", ["second"]="z"}
+, ["烻"]={["first"]="h", ["second"]="z"}
+, ["𬊈"]={["first"]="h", ["second"]="c"}
+, ["涍"]={["first"]="d", ["second"]="z"}
+, ["浡"]={["first"]="d", ["second"]="z"}
+, ["浭"]={["first"]="d", ["second"]="g"}
+, ["浬"]={["first"]="d", ["second"]="l"}
+, ["涄"]={["first"]="d", ["second"]="v"}
+, ["涢"]={["first"]="d", ["second"]="r"}
+, ["涐"]={["first"]="d", ["second"]="w"}
+, ["浰"]={["first"]="d", ["second"]="d"}
+, ["浟"]={["first"]="d", ["second"]="w"}
+, ["浛"]={["first"]="d", ["second"]="k"}
+, ["浼"]={["first"]="d", ["second"]="v"}
+, ["浲"]={["first"]="d", ["second"]="f"}
+, ["涘"]={["first"]="d", ["second"]="u"}
+, ["悈"]={["first"]="x", ["second"]="c"}
+, ["悃"]={["first"]="x", ["second"]="m"}
+, ["悢"]={["first"]="x", ["second"]="l"}
+, ["𬒈"]={["first"]="x", ["second"]="u"}
+, ["宧"]={["first"]="b", ["second"]="l"}
+, ["窅"]={["first"]="b", ["second"]="o"}
+, ["窊"]={["first"]="b", ["second"]="g"}
+, ["窎"]={["first"]="b", ["second"]="n"}
+, ["扅"]={["first"]="h", ["second"]="x"}
+, ["扆"]={["first"]="h", ["second"]="y"}
+, ["袪"]={["first"]="p", ["second"]="s"}
+, ["袗"]={["first"]="p", ["second"]="p"}
+, ["袯"]={["first"]="p", ["second"]="d"}
+, ["祧"]={["first"]="p", ["second"]="d"}
+, ["隺"]={["first"]="d", ["second"]="f"}
+, ["堲"]={["first"]="g", ["second"]="t"}
+, ["疍"]={["first"]="v", ["second"]="a"}
+, ["𨺙"]={["first"]="e", ["second"]="e"}
+, ["陴"]={["first"]="e", ["second"]="u"}
+, ["烝"]={["first"]="l", ["second"]="h"}
+, ["砮"]={["first"]="n", ["second"]="u"}
+, ["㛚"]={["first"]="n", ["second"]="y"}
+, ["哿"]={["first"]="l", ["second"]="k"}
+, ["翀"]={["first"]="x", ["second"]="v"}
+, ["翂"]={["first"]="x", ["second"]="d"}
+, ["剟"]={["first"]="y", ["second"]="d"}
+, ["𬳿"]={["first"]="m", ["second"]="h"}
+, ["𫄨"]={["first"]="s", ["second"]="j"}
+, ["绤"]={["first"]="s", ["second"]="k"}
+, ["骍"]={["first"]="m", ["second"]="u"}
+, ["𬘫"]={["first"]="s", ["second"]="e"}
+, ["䂮"]={["first"]="f", ["second"]="u"}
+, ["琎"]={["first"]="w", ["second"]="z"}
+, ["珸"]={["first"]="w", ["second"]="k"}
+, ["珵"]={["first"]="w", ["second"]="w"}
+, ["琄"]={["first"]="w", ["second"]="o"}
+, ["琈"]={["first"]="w", ["second"]="z"}
+, ["琀"]={["first"]="w", ["second"]="k"}
+, ["珺"]={["first"]="w", ["second"]="k"}
+, ["掭"]={["first"]="f", ["second"]="x"}
+, ["堎"]={["first"]="t", ["second"]="w"}
+, ["堐"]={["first"]="t", ["second"]="t"}
+, ["埼"]={["first"]="t", ["second"]="k"}
+, ["掎"]={["first"]="f", ["second"]="k"}
+, ["埫"]={["first"]="t", ["second"]="k"}
+, ["堌"]={["first"]="t", ["second"]="k"}
+, ["晢"]={["first"]="f", ["second"]="o"}
+, ["𫮃"]={["first"]="t", ["second"]="l"}
+, ["掞"]={["first"]="f", ["second"]="h"}
+, ["埪"]={["first"]="t", ["second"]="g"}
+, ["壸"]={["first"]="u", ["second"]="y"}
+, ["㙍"]={["first"]="t", ["second"]="y"}
+, ["聍"]={["first"]="e", ["second"]="d"}
+, ["菝"]={["first"]="c", ["second"]="d"}
+, ["萚"]={["first"]="c", ["second"]="l"}
+, ["菥"]={["first"]="c", ["second"]="j"}
+, ["莿"]={["first"]="c", ["second"]="d"}
+, ["䓫"]={["first"]="c", ["second"]="k"}
+, ["勚"]={["first"]="u", ["second"]="l"}
+, ["䓬"]={["first"]="c", ["second"]="u"}
+, ["萆"]={["first"]="c", ["second"]="u"}
+, ["菂"]={["first"]="c", ["second"]="u"}
+, ["菍"]={["first"]="c", ["second"]="x"}
+, ["菼"]={["first"]="c", ["second"]="h"}
+, ["萣"]={["first"]="c", ["second"]="r"}
+, ["䓨"]={["first"]="c", ["second"]="f"}
+, ["菉"]={["first"]="c", ["second"]="u"}
+, ["䓛"]={["first"]="c", ["second"]="i"}
+, ["梼"]={["first"]="m", ["second"]="c"}
+, ["梽"]={["first"]="m", ["second"]="x"}
+, ["桲"]={["first"]="m", ["second"]="z"}
+, ["梾"]={["first"]="m", ["second"]="l"}
+, ["桯"]={["first"]="m", ["second"]="w"}
+, ["梣"]={["first"]="m", ["second"]="v"}
+, ["梌"]={["first"]="m", ["second"]="h"}
+, ["桹"]={["first"]="m", ["second"]="l"}
+, ["敔"]={["first"]="w", ["second"]="w"}
+, ["厣"]={["first"]="i", ["second"]="j"}
+, ["硔"]={["first"]="u", ["second"]="b"}
+, ["鿎"]={["first"]="u", ["second"]="z"}
+, ["硙"]={["first"]="u", ["second"]="j"}
+, ["硚"]={["first"]="u", ["second"]="l"}
+, ["硊"]={["first"]="u", ["second"]="v"}
+, ["硍"]={["first"]="u", ["second"]="g"}
+, ["勔"]={["first"]="m", ["second"]="l"}
+, ["䴕"]={["first"]="d", ["second"]="n"}
+, ["龁"]={["first"]="v", ["second"]="q"}
+, ["逴"]={["first"]="z", ["second"]="u"}
+, ["唪"]={["first"]="k", ["second"]="l"}
+, ["啫"]={["first"]="k", ["second"]="o"}
+, ["翈"]={["first"]="j", ["second"]="x"}
+, ["㫰"]={["first"]="o", ["second"]="l"}
+, ["晙"]={["first"]="o", ["second"]="w"}
+, ["畤"]={["first"]="t", ["second"]="c"}
+, ["𬱖"]={["first"]="y", ["second"]="r"}
+, ["趼"]={["first"]="z", ["second"]="k"}
+, ["跂"]={["first"]="z", ["second"]="y"}
+, ["蛃"]={["first"]="i", ["second"]="b"}
+, ["蚲"]={["first"]="i", ["second"]="p"}
+, ["𬟽"]={["first"]="i", ["second"]="d"}
+, ["蚺"]={["first"]="i", ["second"]="r"}
+, ["啴"]={["first"]="k", ["second"]="l"}
+, ["䎃"]={["first"]="r", ["second"]="x"}
+, ["崧"]={["first"]="e", ["second"]="s"}
+, ["崟"]={["first"]="e", ["second"]="j"}
+, ["崞"]={["first"]="e", ["second"]="z"}
+, ["崒"]={["first"]="e", ["second"]="u"}
+, ["崌"]={["first"]="e", ["second"]="k"}
+, ["崡"]={["first"]="e", ["second"]="k"}
+, ["铏"]={["first"]="j", ["second"]="d"}
+, ["𫓯"]={["first"]="j", ["second"]="t"}
+, ["𫟹"]={["first"]="j", ["second"]="b"}
+, ["铕"]={["first"]="j", ["second"]="o"}
+, ["𫟼"]={["first"]="j", ["second"]="z"}
+, ["铖"]={["first"]="j", ["second"]="i"}
+, ["铘"]={["first"]="j", ["second"]="e"}
+, ["铚"]={["first"]="j", ["second"]="t"}
+, ["铞"]={["first"]="j", ["second"]="j"}
+, ["铥"]={["first"]="j", ["second"]="s"}
+, ["铴"]={["first"]="j", ["second"]="p"}
+, ["牻"]={["first"]="n", ["second"]="d"}
+, ["牿"]={["first"]="n", ["second"]="k"}
+, ["稆"]={["first"]="h", ["second"]="k"}
+, ["笱"]={["first"]="v", ["second"]="k"}
+, ["笯"]={["first"]="v", ["second"]="y"}
+, ["偰"]={["first"]="r", ["second"]="d"}
+, ["偡"]={["first"]="r", ["second"]="v"}
+, ["鸺"]={["first"]="r", ["second"]="n"}
+, ["偭"]={["first"]="r", ["second"]="m"}
+, ["偲"]={["first"]="r", ["second"]="x"}
+, ["偁"]={["first"]="r", ["second"]="r"}
+, ["㿠"]={["first"]="b", ["second"]="w"}
+, ["鄅"]={["first"]="y", ["second"]="e"}
+, ["偓"]={["first"]="r", ["second"]="t"}
+, ["徛"]={["first"]="i", ["second"]="k"}
+, ["衒"]={["first"]="i", ["second"]="i"}
+, ["舳"]={["first"]="v", ["second"]="y"}
+, ["舲"]={["first"]="v", ["second"]="s"}
+, ["鸼"]={["first"]="v", ["second"]="n"}
+, ["悆"]={["first"]="r", ["second"]="x"}
+, ["鄃"]={["first"]="r", ["second"]="e"}
+, ["瓻"]={["first"]="x", ["second"]="w"}
+, ["䝙"]={["first"]="v", ["second"]="x"}
+, ["脶"]={["first"]="o", ["second"]="n"}
+, ["脞"]={["first"]="o", ["second"]="t"}
+, ["脟"]={["first"]="o", ["second"]="c"}
+, ["䏲"]={["first"]="o", ["second"]="p"}
+, ["鱾"]={["first"]="a", ["second"]="j"}
+, ["猇"]={["first"]="q", ["second"]="j"}
+, ["猊"]={["first"]="q", ["second"]="e"}
+, ["猄"]={["first"]="q", ["second"]="x"}
+, ["觖"]={["first"]="d", ["second"]="g"}
+, ["𠅤"]={["first"]="w", ["second"]="x"}
+, ["庱"]={["first"]="g", ["second"]="w"}
+, ["庼"]={["first"]="g", ["second"]="r"}
+, ["庳"]={["first"]="g", ["second"]="u"}
+, ["痓"]={["first"]="b", ["second"]="t"}
+, ["䴔"]={["first"]="w", ["second"]="n"}
+, ["竫"]={["first"]="l", ["second"]="l"}
+, ["堃"]={["first"]="f", ["second"]="t"}
+, ["阌"]={["first"]="m", ["second"]="y"}
+, ["羝"]={["first"]="y", ["second"]="d"}
+, ["羕"]={["first"]="y", ["second"]="y"}
+, ["焆"]={["first"]="h", ["second"]="o"}
+, ["烺"]={["first"]="h", ["second"]="l"}
+, ["焌"]={["first"]="h", ["second"]="w"}
+, ["淏"]={["first"]="d", ["second"]="t"}
+, ["𬇹"]={["first"]="d", ["second"]="y"}
+, ["淟"]={["first"]="d", ["second"]="b"}
+, ["淜"]={["first"]="d", ["second"]="o"}
+, ["淴"]={["first"]="d", ["second"]="x"}
+, ["淯"]={["first"]="d", ["second"]="o"}
+, ["湴"]={["first"]="d", ["second"]="y"}
+, ["涴"]={["first"]="d", ["second"]="v"}
+, ["𬍡"]={["first"]="d", ["second"]="y"}
+, ["㥄"]={["first"]="x", ["second"]="w"}
+, ["惛"]={["first"]="x", ["second"]="o"}
+, ["惔"]={["first"]="x", ["second"]="h"}
+, ["悰"]={["first"]="x", ["second"]="x"}
+, ["惙"]={["first"]="x", ["second"]="y"}
+, ["寁"]={["first"]="b", ["second"]="r"}
+, ["逭"]={["first"]="z", ["second"]="k"}
+, ["𬤇"]={["first"]="y", ["second"]="t"}
+, ["𫍯"]={["first"]="y", ["second"]="k"}
+, ["袼"]={["first"]="p", ["second"]="k"}
+, ["裈"]={["first"]="p", ["second"]="i"}
+, ["祲"]={["first"]="p", ["second"]="y"}
+, ["𬤊"]={["first"]="y", ["second"]="r"}
+, ["𫍲"]={["first"]="y", ["second"]="y"}
+, ["谞"]={["first"]="y", ["second"]="o"}
+, ["艴"]={["first"]="f", ["second"]="b"}
+, ["弸"]={["first"]="g", ["second"]="o"}
+, ["弶"]={["first"]="g", ["second"]="x"}
+, ["𬯎"]={["first"]="e", ["second"]="r"}
+, ["隃"]={["first"]="e", ["second"]="d"}
+, ["婞"]={["first"]="n", ["second"]="g"}
+, ["娵"]={["first"]="n", ["second"]="y"}
+, ["婼"]={["first"]="n", ["second"]="k"}
+, ["媖"]={["first"]="n", ["second"]="y"}
+, ["婳"]={["first"]="n", ["second"]="k"}
+, ["婍"]={["first"]="n", ["second"]="k"}
+, ["婌"]={["first"]="n", ["second"]="y"}
+, ["婫"]={["first"]="n", ["second"]="b"}
+, ["婤"]={["first"]="n", ["second"]="k"}
+, ["婘"]={["first"]="n", ["second"]="v"}
+, ["婠"]={["first"]="n", ["second"]="k"}
+, ["𬘬"]={["first"]="s", ["second"]="o"}
+, ["𬘭"]={["first"]="s", ["second"]="m"}
+, ["𬴂"]={["first"]="m", ["second"]="f"}
+, ["𫘦"]={["first"]="m", ["second"]="f"}
+, ["绹"]={["first"]="s", ["second"]="f"}
+, ["𫟅"]={["first"]="s", ["second"]="x"}
+, ["𬘯"]={["first"]="s", ["second"]="z"}
+, ["骕"]={["first"]="m", ["second"]="s"}
+, ["𫘧"]={["first"]="m", ["second"]="u"}
+, ["絜"]={["first"]="f", ["second"]="x"}
+, ["珷"]={["first"]="w", ["second"]="v"}
+, ["琲"]={["first"]="w", ["second"]="f"}
+, ["琡"]={["first"]="w", ["second"]="y"}
+, ["琟"]={["first"]="w", ["second"]="f"}
+, ["琔"]={["first"]="w", ["second"]="r"}
+, ["琭"]={["first"]="w", ["second"]="u"}
+, ["堾"]={["first"]="t", ["second"]="o"}
+, ["堼"]={["first"]="t", ["second"]="t"}
+, ["揕"]={["first"]="f", ["second"]="v"}
+, ["㙘"]={["first"]="t", ["second"]="n"}
+, ["堧"]={["first"]="t", ["second"]="d"}
+, ["喆"]={["first"]="u", ["second"]="k"}
+, ["堨"]={["first"]="t", ["second"]="v"}
+, ["塅"]={["first"]="t", ["second"]="y"}
+, ["堠"]={["first"]="t", ["second"]="u"}
+, ["絷"]={["first"]="f", ["second"]="x"}
+, ["𪣻"]={["first"]="t", ["second"]="n"}
+, ["𡎚"]={["first"]="t", ["second"]="c"}
+, ["葜"]={["first"]="c", ["second"]="d"}
+, ["惎"]={["first"]="q", ["second"]="x"}
+, ["萳"]={["first"]="c", ["second"]="g"}
+, ["葙"]={["first"]="c", ["second"]="o"}
+, ["靬"]={["first"]="g", ["second"]="g"}
+, ["葴"]={["first"]="c", ["second"]="k"}
+, ["蒇"]={["first"]="c", ["second"]="r"}
+, ["蒈"]={["first"]="c", ["second"]="b"}
+, ["鄚"]={["first"]="c", ["second"]="e"}
+, ["蒉"]={["first"]="c", ["second"]="r"}
+, ["蓇"]={["first"]="c", ["second"]="g"}
+, ["萩"]={["first"]="c", ["second"]="h"}
+, ["蒐"]={["first"]="c", ["second"]="g"}
+, ["葰"]={["first"]="c", ["second"]="w"}
+, ["葎"]={["first"]="c", ["second"]="y"}
+, ["鄑"]={["first"]="y", ["second"]="e"}
+, ["蒎"]={["first"]="c", ["second"]="n"}
+, ["葖"]={["first"]="c", ["second"]="q"}
+, ["蒄"]={["first"]="c", ["second"]="c"}
+, ["萹"]={["first"]="c", ["second"]="c"}
+, ["棤"]={["first"]="m", ["second"]="o"}
+, ["棽"]={["first"]="m", ["second"]="v"}
+, ["棫"]={["first"]="m", ["second"]="a"}
+, ["椓"]={["first"]="m", ["second"]="n"}
+, ["椑"]={["first"]="m", ["second"]="u"}
+, ["𬃊"]={["first"]="m", ["second"]="r"}
+, ["鹀"]={["first"]="g", ["second"]="n"}
+, ["椆"]={["first"]="m", ["second"]="k"}
+, ["棓"]={["first"]="m", ["second"]="k"}
+, ["棬"]={["first"]="m", ["second"]="v"}
+, ["棪"]={["first"]="m", ["second"]="h"}
+, ["椀"]={["first"]="m", ["second"]="v"}
+, ["楗"]={["first"]="m", ["second"]="z"}
+, ["𬷕"]={["first"]="f", ["second"]="n"}
+, ["甦"]={["first"]="g", ["second"]="u"}
+, ["酦"]={["first"]="y", ["second"]="d"}
+, ["觌"]={["first"]="u", ["second"]="e"}
+, ["奡"]={["first"]="a", ["second"]="l"}
+, ["皕"]={["first"]="b", ["second"]="b"}
+, ["硪"]={["first"]="u", ["second"]="w"}
+, ["欹"]={["first"]="d", ["second"]="r"}
+, ["詟"]={["first"]="l", ["second"]="k"}
+, ["𫐐"]={["first"]="i", ["second"]="e"}
+, ["辌"]={["first"]="i", ["second"]="x"}
+, ["棐"]={["first"]="f", ["second"]="m"}
+, ["龂"]={["first"]="v", ["second"]="j"}
+, ["𬹼"]={["first"]="v", ["second"]="l"}
+, ["黹"]={["first"]="y", ["second"]="d"}
+, ["牚"]={["first"]="x", ["second"]="y"}
+, ["睎"]={["first"]="o", ["second"]="j"}
+, ["晫"]={["first"]="o", ["second"]="u"}
+, ["晪"]={["first"]="o", ["second"]="b"}
+, ["晱"]={["first"]="o", ["second"]="h"}
+, ["𧿹"]={["first"]="z", ["second"]="m"}
+, ["蛑"]={["first"]="i", ["second"]="n"}
+, ["畯"]={["first"]="t", ["second"]="w"}
+, ["斝"]={["first"]="k", ["second"]="u"}
+, ["喤"]={["first"]="k", ["second"]="w"}
+, ["崶"]={["first"]="e", ["second"]="c"}
+, ["嵁"]={["first"]="e", ["second"]="v"}
+, ["𫶇"]={["first"]="e", ["second"]="j"}
+, ["崾"]={["first"]="e", ["second"]="n"}
+, ["嵅"]={["first"]="e", ["second"]="k"}
+, ["崿"]={["first"]="e", ["second"]="k"}
+, ["嵚"]={["first"]="e", ["second"]="r"}
+, ["翙"]={["first"]="e", ["second"]="x"}
+, ["𫖮"]={["first"]="e", ["second"]="r"}
+, ["圌"]={["first"]="k", ["second"]="e"}
+, ["圐"]={["first"]="k", ["second"]="f"}
+, ["赑"]={["first"]="k", ["second"]="r"}
+, ["淼"]={["first"]="u", ["second"]="u"}
+, ["赒"]={["first"]="k", ["second"]="k"}
+, ["鿏"]={["first"]="j", ["second"]="w"}
+, ["铹"]={["first"]="j", ["second"]="l"}
+, ["𬭊"]={["first"]="j", ["second"]="t"}
+, ["铽"]={["first"]="j", ["second"]="x"}
+, ["𨱇"]={["first"]="j", ["second"]="q"}
+, ["𫓶"]={["first"]="j", ["second"]="o"}
+, ["锊"]={["first"]="j", ["second"]="c"}
+, ["锍"]={["first"]="j", ["second"]="v"}
+, ["锎"]={["first"]="j", ["second"]="k"}
+, ["𬭎"]={["first"]="j", ["second"]="s"}
+, ["锓"]={["first"]="j", ["second"]="y"}
+, ["犇"]={["first"]="n", ["second"]="n"}
+, ["颋"]={["first"]="r", ["second"]="r"}
+, ["稌"]={["first"]="h", ["second"]="h"}
+, ["筀"]={["first"]="v", ["second"]="t"}
+, ["筘"]={["first"]="v", ["second"]="k"}
+, ["筜"]={["first"]="v", ["second"]="e"}
+, ["筥"]={["first"]="v", ["second"]="k"}
+, ["筅"]={["first"]="v", ["second"]="e"}
+, ["傃"]={["first"]="r", ["second"]="x"}
+, ["傉"]={["first"]="r", ["second"]="c"}
+, ["翛"]={["first"]="r", ["second"]="x"}
+, ["傒"]={["first"]="r", ["second"]="d"}
+, ["傕"]={["first"]="r", ["second"]="f"}
+, ["舾"]={["first"]="v", ["second"]="x"}
+, ["畬"]={["first"]="r", ["second"]="t"}
+, ["𫖯"]={["first"]="e", ["second"]="r"}
+, ["脿"]={["first"]="o", ["second"]="y"}
+, ["腘"]={["first"]="o", ["second"]="y"}
+, ["䐃"]={["first"]="o", ["second"]="h"}
+, ["腙"]={["first"]="o", ["second"]="x"}
+, ["腒"]={["first"]="o", ["second"]="k"}
+, ["𬱟"]={["first"]="d", ["second"]="r"}
+, ["鲃"]={["first"]="a", ["second"]="b"}
+, ["猰"]={["first"]="q", ["second"]="d"}
+, ["𫛭"]={["first"]="q", ["second"]="n"}
+, ["猯"]={["first"]="q", ["second"]="e"}
+, ["㺄"]={["first"]="q", ["second"]="d"}
+, ["馉"]={["first"]="u", ["second"]="g"}
+, ["凓"]={["first"]="d", ["second"]="m"}
+, ["鄗"]={["first"]="w", ["second"]="e"}
+, ["𫷷"]={["first"]="g", ["second"]="r"}
+, ["廋"]={["first"]="g", ["second"]="y"}
+, ["廆"]={["first"]="g", ["second"]="g"}
+, ["鄌"]={["first"]="g", ["second"]="e"}
+, ["粢"]={["first"]="d", ["second"]="m"}
+, ["遆"]={["first"]="z", ["second"]="j"}
+, ["旐"]={["first"]="f", ["second"]="d"}
+, ["𬮱"]={["first"]="m", ["second"]="t"}
+, ["焞"]={["first"]="h", ["second"]="z"}
+, ["𬊤"]={["first"]="h", ["second"]="l"}
+, ["欻"]={["first"]="h", ["second"]="r"}
+, ["𣸣"]={["first"]="d", ["second"]="r"}
+, ["溚"]={["first"]="d", ["second"]="k"}
+, ["溁"]={["first"]="d", ["second"]="m"}
+, ["湝"]={["first"]="d", ["second"]="b"}
+, ["渰"]={["first"]="d", ["second"]="c"}
+, ["湓"]={["first"]="d", ["second"]="m"}
+, ["㴔"]={["first"]="d", ["second"]="x"}
+, ["渟"]={["first"]="d", ["second"]="d"}
+, ["溠"]={["first"]="d", ["second"]="g"}
+, ["渼"]={["first"]="d", ["second"]="d"}
+, ["溇"]={["first"]="d", ["second"]="n"}
+, ["湣"]={["first"]="d", ["second"]="o"}
+, ["湑"]={["first"]="d", ["second"]="o"}
+, ["溞"]={["first"]="d", ["second"]="i"}
+, ["愐"]={["first"]="x", ["second"]="m"}
+, ["愃"]={["first"]="x", ["second"]="a"}
+, ["敩"]={["first"]="x", ["second"]="w"}
+, ["甯"]={["first"]="b", ["second"]="y"}
+, ["棨"]={["first"]="h", ["second"]="m"}
+, ["扊"]={["first"]="h", ["second"]="h"}
+, ["裣"]={["first"]="p", ["second"]="a"}
+, ["祼"]={["first"]="p", ["second"]="g"}
+, ["婻"]={["first"]="n", ["second"]="g"}
+, ["媆"]={["first"]="n", ["second"]="d"}
+, ["媞"]={["first"]="n", ["second"]="r"}
+, ["㛹"]={["first"]="n", ["second"]="g"}
+, ["媓"]={["first"]="n", ["second"]="w"}
+, ["媂"]={["first"]="n", ["second"]="j"}
+, ["媄"]={["first"]="n", ["second"]="d"}
+, ["毵"]={["first"]="s", ["second"]="m"}
+, ["矞"]={["first"]="s", ["second"]="k"}
+, ["𬴃"]={["first"]="m", ["second"]="u"}
+, ["𫘨"]={["first"]="m", ["second"]="r"}
+, ["缊"]={["first"]="s", ["second"]="m"}
+, ["缐"]={["first"]="s", ["second"]="u"}
+, ["骙"]={["first"]="m", ["second"]="t"}
+, ["瑃"]={["first"]="w", ["second"]="o"}
+, ["瑓"]={["first"]="w", ["second"]="j"}
+, ["瑅"]={["first"]="w", ["second"]="r"}
+, ["瑆"]={["first"]="w", ["second"]="u"}
+, ["䴖"]={["first"]="f", ["second"]="n"}
+, ["瑖"]={["first"]="w", ["second"]="y"}
+, ["瑝"]={["first"]="w", ["second"]="w"}
+, ["瑔"]={["first"]="w", ["second"]="u"}
+, ["瑀"]={["first"]="w", ["second"]="y"}
+, ["𤧛"]={["first"]="w", ["second"]="j"}
+, ["瑳"]={["first"]="w", ["second"]="g"}
+, ["瑂"]={["first"]="w", ["second"]="o"}
+, ["嶅"]={["first"]="f", ["second"]="e"}
+, ["瑑"]={["first"]="w", ["second"]="u"}
+, ["遘"]={["first"]="z", ["second"]="r"}
+, ["髢"]={["first"]="a", ["second"]="y"}
+, ["塥"]={["first"]="t", ["second"]="l"}
+, ["堽"]={["first"]="t", ["second"]="v"}
+, ["赪"]={["first"]="t", ["second"]="r"}
+, ["摛"]={["first"]="f", ["second"]="d"}
+, ["塝"]={["first"]="t", ["second"]="f"}
+, ["搒"]={["first"]="f", ["second"]="f"}
+, ["搌"]={["first"]="f", ["second"]="n"}
+, ["蒱"]={["first"]="c", ["second"]="f"}
+, ["蒨"]={["first"]="c", ["second"]="o"}
+, ["蓏"]={["first"]="c", ["second"]="g"}
+, ["蔀"]={["first"]="c", ["second"]="e"}
+, ["蓢"]={["first"]="c", ["second"]="o"}
+, ["蓂"]={["first"]="c", ["second"]="b"}
+, ["蒻"]={["first"]="c", ["second"]="d"}
+, ["蓣"]={["first"]="c", ["second"]="r"}
+, ["椹"]={["first"]="m", ["second"]="v"}
+, ["楪"]={["first"]="m", ["second"]="m"}
+, ["榃"]={["first"]="m", ["second"]="t"}
+, ["榅"]={["first"]="m", ["second"]="m"}
+, ["楒"]={["first"]="m", ["second"]="x"}
+, ["楞"]={["first"]="m", ["second"]="f"}
+, ["楩"]={["first"]="m", ["second"]="g"}
+, ["榇"]={["first"]="m", ["second"]="m"}
+, ["椸"]={["first"]="m", ["second"]="y"}
+, ["楙"]={["first"]="m", ["second"]="m"}
+, ["歅"]={["first"]="x", ["second"]="r"}
+, ["𬪩"]={["first"]="y", ["second"]="n"}
+, ["碃"]={["first"]="u", ["second"]="o"}
+, ["碏"]={["first"]="u", ["second"]="o"}
+, ["𬒔"]={["first"]="u", ["second"]="o"}
+, ["碈"]={["first"]="u", ["second"]="o"}
+, ["䃅"]={["first"]="u", ["second"]="l"}
+, ["硿"]={["first"]="u", ["second"]="g"}
+, ["鄠"]={["first"]="y", ["second"]="e"}
+, ["辒"]={["first"]="i", ["second"]="m"}
+, ["𬨎"]={["first"]="i", ["second"]="y"}
+, ["𫐓"]={["first"]="i", ["second"]="m"}
+, ["龆"]={["first"]="v", ["second"]="k"}
+, ["觜"]={["first"]="v", ["second"]="y"}
+, ["䣘"]={["first"]="x", ["second"]="e"}
+, ["暕"]={["first"]="o", ["second"]="j"}
+, ["鹍"]={["first"]="o", ["second"]="n"}
+, ["𫫇"]={["first"]="k", ["second"]="x"}
+, ["㬊"]={["first"]="o", ["second"]="y"}
+, ["暅"]={["first"]="o", ["second"]="a"}
+, ["跱"]={["first"]="z", ["second"]="c"}
+, ["蜐"]={["first"]="i", ["second"]="l"}
+, ["蜎"]={["first"]="i", ["second"]="o"}
+, ["嵲"]={["first"]="e", ["second"]="m"}
+, ["赗"]={["first"]="k", ["second"]="o"}
+, ["骱"]={["first"]="g", ["second"]="l"}
+, ["锖"]={["first"]="j", ["second"]="o"}
+, ["𫓹"]={["first"]="j", ["second"]="b"}
+, ["锘"]={["first"]="j", ["second"]="k"}
+, ["锳"]={["first"]="j", ["second"]="y"}
+, ["锧"]={["first"]="j", ["second"]="r"}
+, ["锪"]={["first"]="j", ["second"]="x"}
+, ["𬭚"]={["first"]="j", ["second"]="z"}
+, ["锫"]={["first"]="j", ["second"]="k"}
+, ["锬"]={["first"]="j", ["second"]="h"}
+, ["𬭛"]={["first"]="j", ["second"]="y"}
+, ["稑"]={["first"]="h", ["second"]="t"}
+, ["稙"]={["first"]="h", ["second"]="q"}
+, ["䅟"]={["first"]="h", ["second"]="p"}
+, ["𬕂"]={["first"]="v", ["second"]="r"}
+, ["筻"]={["first"]="v", ["second"]="g"}
+, ["筼"]={["first"]="v", ["second"]="r"}
+, ["筶"]={["first"]="v", ["second"]="k"}
+, ["筦"]={["first"]="v", ["second"]="e"}
+, ["筤"]={["first"]="v", ["second"]="l"}
+, ["傺"]={["first"]="r", ["second"]="x"}
+, ["鹎"]={["first"]="p", ["second"]="n"}
+, ["僇"]={["first"]="r", ["second"]="p"}
+, ["艅"]={["first"]="v", ["second"]="h"}
+, ["艉"]={["first"]="v", ["second"]="m"}
+, ["谼"]={["first"]="b", ["second"]="b"}
+, ["貆"]={["first"]="v", ["second"]="a"}
+, ["腽"]={["first"]="o", ["second"]="m"}
+, ["腨"]={["first"]="o", ["second"]="e"}
+, ["腯"]={["first"]="o", ["second"]="o"}
+, ["鲉"]={["first"]="a", ["second"]="y"}
+, ["鲊"]={["first"]="a", ["second"]="v"}
+, ["鲌"]={["first"]="a", ["second"]="b"}
+, ["䲟"]={["first"]="a", ["second"]="e"}
+, ["𬶋"]={["first"]="a", ["second"]="k"}
+, ["𬶍"]={["first"]="a", ["second"]="b"}
+, ["鲏"]={["first"]="a", ["second"]="y"}
+, ["雊"]={["first"]="b", ["second"]="f"}
+, ["猺"]={["first"]="q", ["second"]="f"}
+, ["飔"]={["first"]="j", ["second"]="x"}
+, ["觟"]={["first"]="d", ["second"]="t"}
+, ["𦝼"]={["first"]="o", ["second"]="n"}
+, ["馌"]={["first"]="u", ["second"]="m"}
+, ["裛"]={["first"]="w", ["second"]="y"}
+, ["廒"]={["first"]="g", ["second"]="w"}
+, ["瘀"]={["first"]="b", ["second"]="d"}
+, ["瘅"]={["first"]="b", ["second"]="l"}
+, ["鄘"]={["first"]="g", ["second"]="e"}
+, ["鹒"]={["first"]="g", ["second"]="n"}
+, ["鄜"]={["first"]="g", ["second"]="e"}
+, ["麀"]={["first"]="g", ["second"]="b"}
+, ["鄣"]={["first"]="l", ["second"]="e"}
+, ["阘"]={["first"]="m", ["second"]="x"}
+, ["𫔶"]={["first"]="m", ["second"]="m"}
+, ["煁"]={["first"]="h", ["second"]="v"}
+, ["煃"]={["first"]="h", ["second"]="t"}
+, ["煴"]={["first"]="h", ["second"]="m"}
+, ["煋"]={["first"]="h", ["second"]="u"}
+, ["煟"]={["first"]="h", ["second"]="o"}
+, ["煓"]={["first"]="h", ["second"]="e"}
+, ["滠"]={["first"]="d", ["second"]="y"}
+, ["溍"]={["first"]="d", ["second"]="o"}
+, ["溹"]={["first"]="d", ["second"]="x"}
+, ["滆"]={["first"]="d", ["second"]="l"}
+, ["滉"]={["first"]="d", ["second"]="w"}
+, ["溦"]={["first"]="d", ["second"]="w"}
+, ["溵"]={["first"]="d", ["second"]="y"}
+, ["漷"]={["first"]="d", ["second"]="e"}
+, ["滧"]={["first"]="d", ["second"]="w"}
+, ["滘"]={["first"]="d", ["second"]="k"}
+, ["滍"]={["first"]="d", ["second"]="i"}
+, ["愭"]={["first"]="x", ["second"]="o"}
+, ["慥"]={["first"]="x", ["second"]="z"}
+, ["慆"]={["first"]="x", ["second"]="j"}
+, ["塱"]={["first"]="d", ["second"]="t"}
+, ["𫌀"]={["first"]="p", ["second"]="r"}
+, ["裼"]={["first"]="p", ["second"]="w"}
+, ["禋"]={["first"]="p", ["second"]="t"}
+, ["禔"]={["first"]="p", ["second"]="r"}
+, ["禘"]={["first"]="p", ["second"]="j"}
+, ["禒"]={["first"]="p", ["second"]="u"}
+, ["谫"]={["first"]="y", ["second"]="d"}
+, ["鹔"]={["first"]="s", ["second"]="n"}
+, ["𫖳"]={["first"]="y", ["second"]="r"}
+, ["愍"]={["first"]="m", ["second"]="x"}
+, ["嫄"]={["first"]="n", ["second"]="x"}
+, ["媱"]={["first"]="n", ["second"]="f"}
+, ["戤"]={["first"]="n", ["second"]="g"}
+, ["勠"]={["first"]="x", ["second"]="l"}
+, ["戣"]={["first"]="v", ["second"]="g"}
+, ["𫘪"]={["first"]="m", ["second"]="x"}
+, ["𫘬"]={["first"]="m", ["second"]="d"}
+, ["缞"]={["first"]="s", ["second"]="y"}
+, ["耤"]={["first"]="l", ["second"]="o"}
+, ["瑧"]={["first"]="w", ["second"]="h"}
+, ["𫞩"]={["first"]="w", ["second"]="l"}
+, ["瑨"]={["first"]="w", ["second"]="o"}
+, ["瑱"]={["first"]="w", ["second"]="b"}
+, ["瑷"]={["first"]="w", ["second"]="y"}
+, ["瑢"]={["first"]="w", ["second"]="k"}
+, ["斠"]={["first"]="a", ["second"]="u"}
+, ["摏"]={["first"]="f", ["second"]="j"}
+, ["墕"]={["first"]="t", ["second"]="h"}
+, ["墈"]={["first"]="t", ["second"]="l"}
+, ["墐"]={["first"]="t", ["second"]="a"}
+, ["墘"]={["first"]="t", ["second"]="q"}
+, ["摴"]={["first"]="f", ["second"]="k"}
+, ["銎"]={["first"]="g", ["second"]="j"}
+, ["𡐓"]={["first"]="t", ["second"]="n"}
+, ["墚"]={["first"]="t", ["second"]="m"}
+, ["撖"]={["first"]="f", ["second"]="w"}
+, ["𪤗"]={["first"]="t", ["second"]="p"}
+, ["靽"]={["first"]="g", ["second"]="b"}
+, ["鞁"]={["first"]="g", ["second"]="y"}
+, ["蔌"]={["first"]="c", ["second"]="r"}
+, ["蔈"]={["first"]="c", ["second"]="x"}
+, ["蓰"]={["first"]="c", ["second"]="r"}
+, ["蔹"]={["first"]="c", ["second"]="w"}
+, ["蔊"]={["first"]="c", ["second"]="g"}
+, ["嘏"]={["first"]="u", ["second"]="y"}
+, ["榰"]={["first"]="m", ["second"]="o"}
+, ["榑"]={["first"]="m", ["second"]="c"}
+, ["槚"]={["first"]="m", ["second"]="r"}
+, ["𣗋"]={["first"]="m", ["second"]="e"}
+, ["槜"]={["first"]="m", ["second"]="n"}
+, ["榍"]={["first"]="m", ["second"]="o"}
+, ["疐"]={["first"]="u", ["second"]="r"}
+, ["𬸘"]={["first"]="k", ["second"]="n"}
+, ["酺"]={["first"]="y", ["second"]="f"}
+, ["酾"]={["first"]="y", ["second"]="l"}
+, ["酲"]={["first"]="y", ["second"]="w"}
+, ["酴"]={["first"]="y", ["second"]="h"}
+, ["碶"]={["first"]="u", ["second"]="d"}
+, ["䃎"]={["first"]="u", ["second"]="x"}
+, ["𬒗"]={["first"]="u", ["second"]="e"}
+, ["碨"]={["first"]="u", ["second"]="n"}
+, ["𥔲"]={["first"]="u", ["second"]="k"}
+, ["碹"]={["first"]="u", ["second"]="a"}
+, ["碥"]={["first"]="u", ["second"]="c"}
+, ["劂"]={["first"]="i", ["second"]="d"}
+, ["𫚖"]={["first"]="v", ["second"]="a"}
+, ["䴗"]={["first"]="o", ["second"]="n"}
+, ["夥"]={["first"]="g", ["second"]="x"}
+, ["瞍"]={["first"]="o", ["second"]="y"}
+, ["鹖"]={["first"]="o", ["second"]="n"}
+, ["㬎"]={["first"]="o", ["second"]="h"}
+, ["跽"]={["first"]="z", ["second"]="x"}
+, ["蜾"]={["first"]="i", ["second"]="g"}
+, ["幖"]={["first"]="j", ["second"]="x"}
+, ["嶍"]={["first"]="e", ["second"]="b"}
+, ["圙"]={["first"]="k", ["second"]="m"}
+, ["𨱏"]={["first"]="j", ["second"]="k"}
+, ["锺"]={["first"]="j", ["second"]="v"}
+, ["锼"]={["first"]="j", ["second"]="y"}
+, ["锽"]={["first"]="j", ["second"]="w"}
+, ["𬭤"]={["first"]="j", ["second"]="u"}
+, ["锾"]={["first"]="j", ["second"]="y"}
+, ["锿"]={["first"]="j", ["second"]="y"}
+, ["镃"]={["first"]="j", ["second"]="y"}
+, ["镄"]={["first"]="j", ["second"]="r"}
+, ["镅"]={["first"]="j", ["second"]="o"}
+, ["馝"]={["first"]="h", ["second"]="b"}
+, ["鹙"]={["first"]="h", ["second"]="n"}
+, ["箨"]={["first"]="v", ["second"]="l"}
+, ["箖"]={["first"]="v", ["second"]="m"}
+, ["劄"]={["first"]="v", ["second"]="d"}
+, ["僬"]={["first"]="r", ["second"]="h"}
+, ["僦"]={["first"]="r", ["second"]="y"}
+, ["僔"]={["first"]="r", ["second"]="c"}
+, ["僎"]={["first"]="r", ["second"]="b"}
+, ["槃"]={["first"]="v", ["second"]="m"}
+, ["㙦"]={["first"]="r", ["second"]="t"}
+, ["鲒"]={["first"]="a", ["second"]="k"}
+, ["鲕"]={["first"]="a", ["second"]="e"}
+, ["𫚕"]={["first"]="a", ["second"]="j"}
+, ["鲖"]={["first"]="a", ["second"]="k"}
+, ["鲗"]={["first"]="a", ["second"]="d"}
+, ["鲘"]={["first"]="a", ["second"]="k"}
+, ["鲙"]={["first"]="a", ["second"]="s"}
+, ["𬶐"]={["first"]="a", ["second"]="d"}
+, ["𬶏"]={["first"]="a", ["second"]="v"}
+, ["𩽾"]={["first"]="a", ["second"]="n"}
+, ["夐"]={["first"]="d", ["second"]="w"}
+, ["獍"]={["first"]="q", ["second"]="e"}
+, ["飗"]={["first"]="j", ["second"]="t"}
+, ["𬸚"]={["first"]="q", ["second"]="n"}
+, ["凘"]={["first"]="d", ["second"]="j"}
+, ["廑"]={["first"]="g", ["second"]="a"}
+, ["廙"]={["first"]="g", ["second"]="b"}
+, ["瘗"]={["first"]="b", ["second"]="t"}
+, ["瘥"]={["first"]="b", ["second"]="g"}
+, ["瘕"]={["first"]="b", ["second"]="y"}
+, ["鲝"]={["first"]="y", ["second"]="a"}
+, ["鄫"]={["first"]="b", ["second"]="e"}
+, ["熇"]={["first"]="h", ["second"]="k"}
+, ["漹"]={["first"]="d", ["second"]="h"}
+, ["漖"]={["first"]="d", ["second"]="w"}
+, ["潆"]={["first"]="d", ["second"]="x"}
+, ["漤"]={["first"]="d", ["second"]="n"}
+, ["潩"]={["first"]="d", ["second"]="b"}
+, ["漼"]={["first"]="d", ["second"]="f"}
+, ["漴"]={["first"]="d", ["second"]="x"}
+, ["㽏"]={["first"]="d", ["second"]="g"}
+, ["漈"]={["first"]="d", ["second"]="x"}
+, ["漋"]={["first"]="d", ["second"]="u"}
+, ["漻"]={["first"]="d", ["second"]="p"}
+, ["慬"]={["first"]="x", ["second"]="a"}
+, ["窬"]={["first"]="b", ["second"]="d"}
+, ["窭"]={["first"]="b", ["second"]="n"}
+, ["㮾"]={["first"]="d", ["second"]="m"}
+, ["𬤝"]={["first"]="y", ["second"]="x"}
+, ["褕"]={["first"]="p", ["second"]="d"}
+, ["禛"]={["first"]="p", ["second"]="b"}
+, ["禚"]={["first"]="p", ["second"]="h"}
+, ["隩"]={["first"]="e", ["second"]="d"}
+, ["嫕"]={["first"]="n", ["second"]="x"}
+, ["嫭"]={["first"]="n", ["second"]="h"}
+, ["嫜"]={["first"]="n", ["second"]="u"}
+, ["嫪"]={["first"]="n", ["second"]="p"}
+, ["𬙂"]={["first"]="s", ["second"]="b"}
+, ["㻬"]={["first"]="w", ["second"]="k"}
+, ["麹"]={["first"]="f", ["second"]="m"}
+, ["璆"]={["first"]="w", ["second"]="p"}
+, ["漦"]={["first"]="w", ["second"]="u"}
+, ["叇"]={["first"]="e", ["second"]="z"}
+, ["墣"]={["first"]="t", ["second"]="n"}
+, ["墦"]={["first"]="t", ["second"]="t"}
+, ["墡"]={["first"]="t", ["second"]="k"}
+, ["劐"]={["first"]="c", ["second"]="d"}
+, ["薁"]={["first"]="c", ["second"]="d"}
+, ["蕰"]={["first"]="c", ["second"]="m"}
+, ["蔃"]={["first"]="c", ["second"]="i"}
+, ["鼒"]={["first"]="c", ["second"]="v"}
+, ["槱"]={["first"]="m", ["second"]="h"}
+, ["鹝"]={["first"]="a", ["second"]="n"}
+, ["磏"]={["first"]="u", ["second"]="n"}
+, ["磉"]={["first"]="u", ["second"]="m"}
+, ["殣"]={["first"]="d", ["second"]="a"}
+, ["慭"]={["first"]="l", ["second"]="x"}
+, ["霅"]={["first"]="y", ["second"]="k"}
+, ["暵"]={["first"]="o", ["second"]="n"}
+, ["暲"]={["first"]="o", ["second"]="u"}
+, ["暶"]={["first"]="o", ["second"]="r"}
+, ["踦"]={["first"]="z", ["second"]="k"}
+, ["踣"]={["first"]="z", ["second"]="k"}
+, ["䗖"]={["first"]="i", ["second"]="j"}
+, ["蝘"]={["first"]="i", ["second"]="n"}
+, ["蝲"]={["first"]="i", ["second"]="d"}
+, ["蝤"]={["first"]="i", ["second"]="y"}
+, ["噇"]={["first"]="k", ["second"]="l"}
+, ["噂"]={["first"]="k", ["second"]="c"}
+, ["噀"]={["first"]="k", ["second"]="b"}
+, ["罶"]={["first"]="s", ["second"]="t"}
+, ["嶲"]={["first"]="e", ["second"]="v"}
+, ["嶓"]={["first"]="e", ["second"]="t"}
+, ["㠇"]={["first"]="e", ["second"]="y"}
+, ["嶟"]={["first"]="e", ["second"]="c"}
+, ["嶒"]={["first"]="e", ["second"]="o"}
+, ["镆"]={["first"]="j", ["second"]="d"}
+, ["镈"]={["first"]="j", ["second"]="c"}
+, ["镋"]={["first"]="j", ["second"]="e"}
+, ["镎"]={["first"]="j", ["second"]="u"}
+, ["𬭩"]={["first"]="j", ["second"]="x"}
+, ["镕"]={["first"]="j", ["second"]="k"}
+, ["稹"]={["first"]="h", ["second"]="b"}
+, ["儇"]={["first"]="r", ["second"]="y"}
+, ["皞"]={["first"]="b", ["second"]="u"}
+, ["皛"]={["first"]="b", ["second"]="b"}
+, ["䴘"]={["first"]="p", ["second"]="n"}
+, ["艎"]={["first"]="v", ["second"]="w"}
+, ["艏"]={["first"]="v", ["second"]="z"}
+, ["鹟"]={["first"]="b", ["second"]="n"}
+, ["𩾃"]={["first"]="a", ["second"]="v"}
+, ["鲦"]={["first"]="a", ["second"]="m"}
+, ["鲪"]={["first"]="a", ["second"]="k"}
+, ["鲬"]={["first"]="a", ["second"]="y"}
+, ["橥"]={["first"]="q", ["second"]="m"}
+, ["觭"]={["first"]="d", ["second"]="k"}
+, ["鹠"]={["first"]="p", ["second"]="n"}
+, ["鹡"]={["first"]="d", ["second"]="n"}
+, ["糇"]={["first"]="m", ["second"]="u"}
+, ["糈"]={["first"]="m", ["second"]="o"}
+, ["翦"]={["first"]="b", ["second"]="x"}
+, ["鹢"]={["first"]="b", ["second"]="n"}
+, ["鹣"]={["first"]="b", ["second"]="n"}
+, ["熛"]={["first"]="h", ["second"]="x"}
+, ["潖"]={["first"]="d", ["second"]="b"}
+, ["潵"]={["first"]="d", ["second"]="w"}
+, ["㵐"]={["first"]="d", ["second"]="r"}
+, ["澂"]={["first"]="d", ["second"]="w"}
+, ["澛"]={["first"]="d", ["second"]="o"}
+, ["瑬"]={["first"]="d", ["second"]="y"}
+, ["潽"]={["first"]="d", ["second"]="o"}
+, ["潾"]={["first"]="d", ["second"]="l"}
+, ["潏"]={["first"]="d", ["second"]="k"}
+, ["憭"]={["first"]="x", ["second"]="x"}
+, ["憕"]={["first"]="x", ["second"]="a"}
+, ["𬸣"]={["first"]="b", ["second"]="n"}
+, ["戭"]={["first"]="b", ["second"]="g"}
+, ["褯"]={["first"]="p", ["second"]="j"}
+, ["禤"]={["first"]="p", ["second"]="x"}
+, ["𫍽"]={["first"]="y", ["second"]="y"}
+, ["嫽"]={["first"]="n", ["second"]="x"}
+, ["遹"]={["first"]="z", ["second"]="k"}
+, ["𬴊"]={["first"]="m", ["second"]="l"}
+, ["璥"]={["first"]="w", ["second"]="w"}
+, ["璲"]={["first"]="w", ["second"]="z"}
+, ["璒"]={["first"]="w", ["second"]="a"}
+, ["憙"]={["first"]="u", ["second"]="x"}
+, ["擐"]={["first"]="f", ["second"]="y"}
+, ["鄹"]={["first"]="e", ["second"]="e"}
+, ["薳"]={["first"]="c", ["second"]="z"}
+, ["鞔"]={["first"]="g", ["second"]="v"}
+, ["黇"]={["first"]="c", ["second"]="k"}
+, ["𬞟"]={["first"]="c", ["second"]="r"}
+, ["蕗"]={["first"]="c", ["second"]="k"}
+, ["薢"]={["first"]="c", ["second"]="n"}
+, ["蕹"]={["first"]="c", ["second"]="f"}
+, ["橞"]={["first"]="m", ["second"]="x"}
+, ["橑"]={["first"]="m", ["second"]="x"}
+, ["橦"]={["first"]="m", ["second"]="l"}
+, ["醑"]={["first"]="y", ["second"]="o"}
+, ["觱"]={["first"]="x", ["second"]="y"}
+, ["磡"]={["first"]="u", ["second"]="l"}
+, ["𥕢"]={["first"]="u", ["second"]="o"}
+, ["磜"]={["first"]="u", ["second"]="x"}
+, ["豮"]={["first"]="u", ["second"]="r"}
+, ["𫟦"]={["first"]="i", ["second"]="z"}
+, ["𬺈"]={["first"]="v", ["second"]="k"}
+, ["𫠜"]={["first"]="v", ["second"]="e"}
+, ["鹾"]={["first"]="l", ["second"]="g"}
+, ["虤"]={["first"]="h", ["second"]="j"}
+, ["暿"]={["first"]="o", ["second"]="k"}
+, ["曌"]={["first"]="o", ["second"]="g"}
+, ["曈"]={["first"]="o", ["second"]="l"}
+, ["㬚"]={["first"]="o", ["second"]="w"}
+, ["蹅"]={["first"]="z", ["second"]="a"}
+, ["踶"]={["first"]="z", ["second"]="r"}
+, ["䗛"]={["first"]="i", ["second"]="o"}
+, ["螗"]={["first"]="i", ["second"]="k"}
+, ["疁"]={["first"]="t", ["second"]="p"}
+, ["㠓"]={["first"]="e", ["second"]="n"}
+, ["幪"]={["first"]="j", ["second"]="n"}
+, ["𪩘"]={["first"]="e", ["second"]="q"}
+, ["嶦"]={["first"]="e", ["second"]="k"}
+, ["𬭬"]={["first"]="j", ["second"]="e"}
+, ["𨱑"]={["first"]="j", ["second"]="b"}
+, ["𬭯"]={["first"]="j", ["second"]="w"}
+, ["馞"]={["first"]="h", ["second"]="z"}
+, ["穄"]={["first"]="h", ["second"]="x"}
+, ["篚"]={["first"]="v", ["second"]="f"}
+, ["篯"]={["first"]="v", ["second"]="j"}
+, ["簉"]={["first"]="v", ["second"]="z"}
+, ["鼽"]={["first"]="z", ["second"]="j"}
+, ["衠"]={["first"]="i", ["second"]="i"}
+, ["盦"]={["first"]="r", ["second"]="m"}
+, ["螣"]={["first"]="o", ["second"]="i"}
+, ["縢"]={["first"]="o", ["second"]="x"}
+, ["鲭"]={["first"]="a", ["second"]="o"}
+, ["鲯"]={["first"]="a", ["second"]="b"}
+, ["鲰"]={["first"]="a", ["second"]="y"}
+, ["鲺"]={["first"]="a", ["second"]="i"}
+, ["鲹"]={["first"]="a", ["second"]="p"}
+, ["𫗴"]={["first"]="u", ["second"]="a"}
+, ["亸"]={["first"]="w", ["second"]="l"}
+, ["癀"]={["first"]="b", ["second"]="b"}
+, ["瘭"]={["first"]="b", ["second"]="x"}
+, ["𬸦"]={["first"]="f", ["second"]="n"}
+, ["羱"]={["first"]="y", ["second"]="x"}
+, ["糒"]={["first"]="m", ["second"]="y"}
+, ["燋"]={["first"]="h", ["second"]="h"}
+, ["熻"]={["first"]="h", ["second"]="x"}
+, ["燊"]={["first"]="h", ["second"]="m"}
+, ["燚"]={["first"]="h", ["second"]="h"}
+, ["燏"]={["first"]="h", ["second"]="k"}
+, ["濩"]={["first"]="d", ["second"]="y"}
+, ["濋"]={["first"]="d", ["second"]="r"}
+, ["澪"]={["first"]="d", ["second"]="s"}
+, ["澽"]={["first"]="d", ["second"]="u"}
+, ["澴"]={["first"]="d", ["second"]="y"}
+, ["澭"]={["first"]="d", ["second"]="f"}
+, ["澼"]={["first"]="d", ["second"]="u"}
+, ["憷"]={["first"]="x", ["second"]="r"}
+, ["憺"]={["first"]="x", ["second"]="k"}
+, ["懔"]={["first"]="x", ["second"]="x"}
+, ["黉"]={["first"]="x", ["second"]="b"}
+, ["嬛"]={["first"]="n", ["second"]="y"}
+, ["鹨"]={["first"]="x", ["second"]="n"}
+, ["翯"]={["first"]="x", ["second"]="k"}
+, ["𫄷"]={["first"]="s", ["second"]="x"}
+, ["璱"]={["first"]="w", ["second"]="b"}
+, ["𤩽"]={["first"]="w", ["second"]="q"}
+, ["璬"]={["first"]="w", ["second"]="w"}
+, ["璮"]={["first"]="w", ["second"]="a"}
+, ["髽"]={["first"]="a", ["second"]="t"}
+, ["擿"]={["first"]="f", ["second"]="z"}
+, ["薿"]={["first"]="c", ["second"]="r"}
+, ["薸"]={["first"]="c", ["second"]="x"}
+, ["檑"]={["first"]="m", ["second"]="t"}
+, ["櫆"]={["first"]="m", ["second"]="u"}
+, ["檞"]={["first"]="m", ["second"]="n"}
+, ["醨"]={["first"]="y", ["second"]="d"}
+, ["繄"]={["first"]="k", ["second"]="x"}
+, ["磹"]={["first"]="u", ["second"]="u"}
+, ["磻"]={["first"]="u", ["second"]="t"}
+, ["瞫"]={["first"]="o", ["second"]="u"}
+, ["瞵"]={["first"]="o", ["second"]="l"}
+, ["蹐"]={["first"]="z", ["second"]="o"}
+, ["蟏"]={["first"]="i", ["second"]="s"}
+, ["㘎"]={["first"]="k", ["second"]="w"}
+, ["𬭳"]={["first"]="j", ["second"]="k"}
+, ["镤"]={["first"]="j", ["second"]="n"}
+, ["𬭶"]={["first"]="j", ["second"]="h"}
+, ["𫔍"]={["first"]="j", ["second"]="t"}
+, ["镥"]={["first"]="j", ["second"]="o"}
+, ["镨"]={["first"]="j", ["second"]="o"}
+, ["𬭸"]={["first"]="j", ["second"]="l"}
+, ["𨱔"]={["first"]="j", ["second"]="c"}
+, ["𬭼"]={["first"]="j", ["second"]="z"}
+, ["𫔎"]={["first"]="j", ["second"]="k"}
+, ["矰"]={["first"]="u", ["second"]="o"}
+, ["穙"]={["first"]="h", ["second"]="n"}
+, ["穜"]={["first"]="h", ["second"]="l"}
+, ["穟"]={["first"]="h", ["second"]="z"}
+, ["簕"]={["first"]="v", ["second"]="l"}
+, ["簃"]={["first"]="v", ["second"]="x"}
+, ["簏"]={["first"]="v", ["second"]="b"}
+, ["儦"]={["first"]="r", ["second"]="h"}
+, ["魋"]={["first"]="g", ["second"]="f"}
+, ["斶"]={["first"]="j", ["second"]="i"}
+, ["艚"]={["first"]="v", ["second"]="o"}
+, ["𬸪"]={["first"]="p", ["second"]="n"}
+, ["谿"]={["first"]="p", ["second"]="k"}
+, ["䲠"]={["first"]="a", ["second"]="o"}
+, ["𬶟"]={["first"]="a", ["second"]="d"}
+, ["鲾"]={["first"]="a", ["second"]="t"}
+, ["𬶠"]={["first"]="a", ["second"]="j"}
+, ["鲿"]={["first"]="a", ["second"]="s"}
+, ["鳁"]={["first"]="a", ["second"]="m"}
+, ["鳂"]={["first"]="a", ["second"]="n"}
+, ["鳈"]={["first"]="a", ["second"]="u"}
+, ["鳉"]={["first"]="a", ["second"]="c"}
+, ["獯"]={["first"]="q", ["second"]="h"}
+, ["䗪"]={["first"]="g", ["second"]="i"}
+, ["馘"]={["first"]="b", ["second"]="a"}
+, ["襕"]={["first"]="p", ["second"]="j"}
+, ["襚"]={["first"]="p", ["second"]="z"}
+, ["𬶨"]={["first"]="g", ["second"]="a"}
+, ["螱"]={["first"]="u", ["second"]="i"}
+, ["甓"]={["first"]="u", ["second"]="w"}
+, ["嬬"]={["first"]="n", ["second"]="e"}
+, ["嬥"]={["first"]="n", ["second"]="f"}
+, ["𦈡"]={["first"]="s", ["second"]="e"}
+, ["𫄸"]={["first"]="s", ["second"]="h"}
+, ["瓀"]={["first"]="w", ["second"]="e"}
+, ["釐"]={["first"]="w", ["second"]="l"}
+, ["鬶"]={["first"]="f", ["second"]="l"}
+, ["爇"]={["first"]="c", ["second"]="h"}
+, ["鞳"]={["first"]="g", ["second"]="k"}
+, ["鞮"]={["first"]="g", ["second"]="r"}
+, ["𬟁"]={["first"]="c", ["second"]="n"}
+, ["藟"]={["first"]="c", ["second"]="t"}
+, ["藦"]={["first"]="c", ["second"]="u"}
+, ["藨"]={["first"]="c", ["second"]="h"}
+, ["鹲"]={["first"]="c", ["second"]="n"}
+, ["檫"]={["first"]="m", ["second"]="x"}
+, ["黡"]={["first"]="i", ["second"]="h"}
+, ["礞"]={["first"]="u", ["second"]="n"}
+, ["礌"]={["first"]="u", ["second"]="t"}
+, ["𥖨"]={["first"]="u", ["second"]="m"}
+, ["蹢"]={["first"]="z", ["second"]="k"}
+, ["蹜"]={["first"]="z", ["second"]="b"}
+, ["蟫"]={["first"]="i", ["second"]="u"}
+, ["䗴"]={["first"]="i", ["second"]="z"}
+, ["嚚"]={["first"]="k", ["second"]="k"}
+, ["髃"]={["first"]="g", ["second"]="y"}
+, ["镮"]={["first"]="j", ["second"]="y"}
+, ["镱"]={["first"]="j", ["second"]="x"}
+, ["酂"]={["first"]="n", ["second"]="e"}
+, ["馧"]={["first"]="h", ["second"]="m"}
+, ["簠"]={["first"]="v", ["second"]="m"}
+, ["簝"]={["first"]="v", ["second"]="x"}
+, ["簰"]={["first"]="v", ["second"]="u"}
+, ["鼫"]={["first"]="j", ["second"]="u"}
+, ["鼩"]={["first"]="j", ["second"]="k"}
+, ["皦"]={["first"]="b", ["second"]="w"}
+, ["臑"]={["first"]="o", ["second"]="e"}
+, ["䲢"]={["first"]="o", ["second"]="a"}
+, ["鳑"]={["first"]="a", ["second"]="f"}
+, ["鳒"]={["first"]="a", ["second"]="n"}
+, ["鹱"]={["first"]="n", ["second"]="y"}
+, ["鹯"]={["first"]="w", ["second"]="n"}
+, ["癗"]={["first"]="b", ["second"]="t"}
+, ["𦒍"]={["first"]="l", ["second"]="x"}
+, ["旞"]={["first"]="f", ["second"]="z"}
+, ["翷"]={["first"]="m", ["second"]="x"}
+, ["冁"]={["first"]="b", ["second"]="n"}
+, ["䎖"]={["first"]="b", ["second"]="x"}
+, ["瀔"]={["first"]="d", ["second"]="y"}
+, ["瀍"]={["first"]="d", ["second"]="t"}
+, ["瀌"]={["first"]="d", ["second"]="h"}
+, ["襜"]={["first"]="p", ["second"]="k"}
+, ["䴙"]={["first"]="u", ["second"]="n"}
+, ["𬙊"]={["first"]="s", ["second"]="t"}
+, ["嚭"]={["first"]="u", ["second"]="k"}
+, ["㰀"]={["first"]="m", ["second"]="u"}
+, ["鬷"]={["first"]="a", ["second"]="w"}
+, ["醭"]={["first"]="y", ["second"]="n"}
+, ["蹯"]={["first"]="z", ["second"]="t"}
+, ["蠋"]={["first"]="i", ["second"]="i"}
+, ["翾"]={["first"]="s", ["second"]="x"}
+, ["鳘"]={["first"]="p", ["second"]="a"}
+, ["儳"]={["first"]="r", ["second"]="d"}
+, ["儴"]={["first"]="r", ["second"]="y"}
+, ["鼗"]={["first"]="e", ["second"]="y"}
+, ["𬶭"]={["first"]="a", ["second"]="x"}
+, ["𩾌"]={["first"]="a", ["second"]="n"}
+, ["鳚"]={["first"]="a", ["second"]="c"}
+, ["鳛"]={["first"]="a", ["second"]="b"}
+, ["麑"]={["first"]="g", ["second"]="e"}
+, ["麖"]={["first"]="g", ["second"]="x"}
+, ["蠃"]={["first"]="w", ["second"]="f"}
+, ["彟"]={["first"]="e", ["second"]="y"}
+, ["嬿"]={["first"]="n", ["second"]="h"}
+, ["鬒"]={["first"]="a", ["second"]="b"}
+, ["蘘"]={["first"]="c", ["second"]="y"}
+, ["欂"]={["first"]="m", ["second"]="c"}
+, ["醵"]={["first"]="y", ["second"]="u"}
+, ["颥"]={["first"]="y", ["second"]="r"}
+, ["甗"]={["first"]="h", ["second"]="w"}
+, ["𨟠"]={["first"]="o", ["second"]="e"}
+, ["巇"]={["first"]="e", ["second"]="g"}
+, ["酅"]={["first"]="e", ["second"]="e"}
+, ["髎"]={["first"]="g", ["second"]="p"}
+, ["犨"]={["first"]="r", ["second"]="n"}
+, ["𬶮"]={["first"]="a", ["second"]="k"}
+, ["𨭉"]={["first"]="w", ["second"]="j"}
+, ["㸌"]={["first"]="h", ["second"]="f"}
+, ["爔"]={["first"]="h", ["second"]="d"}
+, ["瀱"]={["first"]="d", ["second"]="d"}
+, ["瀹"]={["first"]="d", ["second"]="c"}
+, ["瀼"]={["first"]="d", ["second"]="y"}
+, ["瀵"]={["first"]="d", ["second"]="b"}
+, ["襫"]={["first"]="p", ["second"]="b"}
+, ["孅"]={["first"]="n", ["second"]="j"}
+, ["骦"]={["first"]="m", ["second"]="o"}
+, ["𬙋"]={["first"]="s", ["second"]="y"}
+, ["耰"]={["first"]="l", ["second"]="w"}
+, ["𤫉"]={["first"]="w", ["second"]="y"}
+, ["瓖"]={["first"]="w", ["second"]="y"}
+, ["鬘"]={["first"]="a", ["second"]="y"}
+, ["趯"]={["first"]="t", ["second"]="f"}
+, ["𬺓"]={["first"]="v", ["second"]="r"}
+, ["罍"]={["first"]="t", ["second"]="f"}
+, ["鼱"]={["first"]="j", ["second"]="o"}
+, ["鳠"]={["first"]="a", ["second"]="y"}
+, ["鳡"]={["first"]="a", ["second"]="x"}
+, ["鳣"]={["first"]="a", ["second"]="a"}
+, ["爟"]={["first"]="h", ["second"]="f"}
+, ["爚"]={["first"]="h", ["second"]="c"}
+, ["灈"]={["first"]="d", ["second"]="f"}
+, ["韂"]={["first"]="g", ["second"]="k"}
+, ["糵"]={["first"]="c", ["second"]="m"}
+, ["蘼"]={["first"]="c", ["second"]="f"}
+, ["礵"]={["first"]="u", ["second"]="o"}
+, ["鹴"]={["first"]="y", ["second"]="n"}
+, ["躔"]={["first"]="z", ["second"]="t"}
+, ["皭"]={["first"]="b", ["second"]="c"}
+, ["龢"]={["first"]="r", ["second"]="h"}
+, ["鳤"]={["first"]="a", ["second"]="k"}
+, ["亹"]={["first"]="w", ["second"]="q"}
+, ["籥"]={["first"]="v", ["second"]="c"}
+, ["鼷"]={["first"]="j", ["second"]="d"}
+, ["𫚭"]={["first"]="a", ["second"]="v"}
+, ["玃"]={["first"]="q", ["second"]="y"}
+, ["醾"]={["first"]="y", ["second"]="m"}
+, ["齇"]={["first"]="z", ["second"]="q"}
+, ["觿"]={["first"]="d", ["second"]="k"}
+, ["蠼"]={["first"]="i", ["second"]="y"}
 }

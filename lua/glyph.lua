@@ -2,6 +2,8 @@
 glyph_filter: 候选项重排序, 匹配形码
 --]]
 
+local glyph_table = require("glyph_table")
+
 local filter = function (cands, env)
   local context = env.engine.context
   local input = context:get_script_text()
