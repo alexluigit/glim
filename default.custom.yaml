@@ -2,7 +2,7 @@ patch:
   schema_list:
     - { schema: glime }
 
-  menu/page_size: 5
+  menu/page_size: 3
 
   switcher/hotkeys:
     - Control+grave
