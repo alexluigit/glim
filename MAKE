@@ -36,6 +36,14 @@ _fix_phrase_dict() {
   cat ./phrase-pinyin-data/large_pinyin.txt | eval ${fix_phrase[@]} > pdb.txt
 }
 
+_fix_word_dict() {
+  fix_word=(sed -i '"')
+  fix_word+=("s/帧.*zheng.*//;")
+  fix_word+=('"' ./glime_base.dict.yaml)
+  eval ${fix_word[@]}
+  echo "Fixed wrong words"
+}
+
 update_dicts_basic() {
   _clone_or_pull rime-pinyin-simp 'https://hub.fastgit.org/rime/rime-pinyin-simp'
   _clone_or_pull rime-essay 'https://hub.fastgit.org/rime/rime-essay'
@@ -67,6 +75,7 @@ gen_dicts_basic() {
   cp ../src/{emoji.js,package.json} .
   yarn install; node emoji.js
   rm ./pinyin_simp.dict.yaml
+  _fix_word_dict
   ../src/glime_encode.py
 }
 
