@@ -4,39 +4,36 @@
 chole:
   speller/algebra:
     - erase/^xx$/
-    - derive/^([ae])(.*)$/$1$1$2/
-    - xform/^ou/OR/
-    - xform/^o$/OE/
-    - xform/^b/O/
+    - derive/^([aoe])(.*)$/$1$1$2/
     - xform/^j/E/
-    - xform/^ch/I/
-    - xform/^sh/U/
-    - xform/^zh/V/
-    - xform/iang/Z/
-    - xform/uang/Z/
-    - xform/iong/L/
-    - xform/(\w+)ang/$1Y/
+    - derive/^ch/U/
+    - derive/^sh/I/
+    - derive/^zh/V/
+    - xform/iang/Y/
+    - xform/uang/Y/
+    - xform/iong/M/
+    - xform/(\w+)ang/$1L/
     - xform/(\w+)eng/$1P/
-    - xform/ong/L/
-    - xform/ian/M/
+    - xform/ong/M/
+    - xform/ian/T/
     - xform/iao/K/
     - xform/ing/F/
     - xform/uai/F/
     - xform/uan/H/
-    - xform/(\w+)ai/$1T/
+    - xform/(\w+)ai/$1Z/
     - xform/(\w+)an/$1N/
     - xform/(\w+)ao/$1D/
     - xform/(\w+)ei/$1W/
     - xform/(\w+)en/$1S/
     - xform/(\w)ia/$1X/
-    - xform/(\w)ie/$1B/
+    - xform/(\w)ie/$1J/
     - xform/(\w)in/$1C/
     - xform/(\w)iu/$1Q/
     - xform/(\w+)ou/$1R/
     - xform/(\w+)ua/$1X/
     - xform/(\w)ue/$1G/
     - xform/(\w+)ui/$1V/
-    - xform/(\w+)un/$1J/
+    - xform/(\w+)un/$1B/
     - xform/(\w+)uo/$1O/
     - xform/(\w)ve/$1G/
     - xlit/QWERTYUIOPSDFGHJKLZXCVBNMA/qwertyuiopsdfghjklzxcvbnma/
@@ -44,47 +41,46 @@ chole:
   translator/preedit_format:
     - erase/^;.*/
     - "xform/(^|[ '])e([^nrwep])/$1j$2/" # E -> J
-    - "xform/(^|[ '])o([^er])/$1b$2/" # O* -> B*
-    - xform/([dtnlgkhviuzcsr])o/$1uo/ # *O -> *uo
-    - xform/([bpmdtnlgkhzcsviuw])t/$1ai/
+    - xform/([bpmdtnlgkhzcsviuw])z/$1ai/
     - xform/([bpmfdtnlgkhxviuzcsryw])n/$1an/
     - xform/([bpmdtnlgkhviurzcsy])d/$1ao/
-    - xform/([bpmfnlghvuzw])w/$1ei/
+    - xform/([bpmfnlghvizw])w/$1ei/
     - xform/([bpmfdtnlgkhxviuzcsrw])s/$1en/
     - xform/([dljqx])x/$1ia/
-    - xform/([bpmdtnljqx])b/$1ie/
+    - xform/([bpmdtnljqx])j/$1ie/
     - xform/([bpmnljqxy])c/$1in/
     - xform/([mdnljqx])q/$1iu/
     - xform/([gkhviurzcs])x/$1ua/
     - xform/([jqxy])g/$1ue/
     - xform/([nl])v/$1ü/
     - xform/([dtgkhviurzcs])v/$1ui/
-    - xform/([dtlgkhviuzcsy])j/$1un/
+    - xform/([dtlgkhjqxviuzcsy])b/$1un/
+    - xform/([dtnlgkhviuzcsr])o/$1uo/
     - xform/([pmfdtlgkhviuzcsry])r/$1ou/
     - xform/([nl])g/$1ve/
-    - xform/([bpmfdtnlgkhxviurzcsryw])y/$1ang/
+    - xform/([bpmfdtnlgkhxviuzcsryw])l/$1ang/
     - xform/([bpmfdtnlgkhxviuzcsryw])p/$1eng/
-    - xform/([bpmdtnljqx])m/$1ian/
+    - xform/([bpmdtnljqx])t/$1ian/
     - xform/([bpmfdtnljqx])k/$1iao/
     - xform/([bpmdtnljqxy])f/$1ing/
-    - xform/([pdtnlgkhvizscry])l/$1ong/
-    - xform/([gkhvui])f/$1uai/
+    - xform/([pdtnlgkhvuzscry])m/$1ong/
+    - xform/([gkhviu])f/$1uai/
     - xform/([dtnlgkhjqxviurzcsy])h/$1uan/
-    - xform/([bjqxnl])z/$1iang/
-    - xform/([gkhviu])z/$1uang/
-    - xform/([jqx])l/$1iong/
+    - xform/([bjqxnl])y/$1iang/
+    - xform/([gkhviu])y/$1uang/
+    - xform/([jqx])m/$1iong/
     - "xform/(^|[ '])v/$1zh/"
-    - "xform/(^|[ '])i/$1ch/"
-    - "xform/(^|[ '])u/$1sh/"
+    - "xform/(^|[ '])i/$1sh/"
+    - "xform/(^|[ '])u/$1ch/"
 
 
 flypy:
   speller/algebra:
     - erase/^xx$/
     - derive/^([aoe])(.*)$/$1$1$2/
-    - xform/^ch/I/
-    - xform/^sh/U/
-    - xform/^zh/V/
+    - derive/^ch/I/
+    - derive/^sh/U/
+    - derive/^zh/V/
     - xform/iang/L/
     - xform/uang/L/
     - xform/iong/S/
@@ -134,7 +130,7 @@ flypy:
     - xform/([nl])t/$1ve/
     - xform/([pmfdtlgkhviuzcsry])z/$1ou/
     - xform/([bpmfdtnlgkhxviuzcsryw])g/$1eng/
-    - xform/([bpmfdtnlgkhxviurzcsryw])h/$1ang/
+    - xform/([bpmfdtnlgkhxviuzcsryw])h/$1ang/
     - xform/([bpmdtnljqx])m/$1ian/
     - xform/([bpmfdtnljqx])n/$1iao/
     - xform/([bpmdtnljqxy])k/$1ing/
@@ -154,9 +150,9 @@ natural:
     - erase/^xx$/
     - derive/^([jqxy])u$/$1v/
     - xform/^([aoe])(.*)$/$1$1$2/
-    - xform/^zh/V/
-    - xform/^ch/I/
-    - xform/^sh/U/
+    - derive/^ch/I/
+    - derive/^sh/U/
+    - derive/^zh/V/
     - xform/iang$/D/
     - xform/iong$/S/
     - xform/uang$/D/
@@ -207,7 +203,7 @@ natural:
     - xform/([nl])t/$1ve/
     - xform/([pmfdtlgkhviuzcsry])b/$1ou/
     - xform/([bpmfdtnlgkhxviuzcsryw])g/$1eng/
-    - xform/([bpmfdtnlgkhxviurzcsryw])h/$1ang/
+    - xform/([bpmfdtnlgkhxviuzcsryw])h/$1ang/
     - xform/([bpmdtnljqx])m/$1ian/
     - xform/([bpmfdtnljqx])c/$1iao/
     - xform/([bpmdtnljqxy])y/$1ing/
@@ -227,9 +223,9 @@ ms:
     - erase/^xx$/
     - derive/^([jqxy])u$/$1v/
     - xform/^([aoe].*)$/O$1/
-    - xform/^zh/V/
-    - xform/^ch/I/
-    - xform/^sh/U/
+    - derive/^ch/I/
+    - derive/^sh/U/
+    - derive/^zh/V/
     - xform/iang$/D/
     - xform/iong$/S/
     - xform/uang$/D/
@@ -281,7 +277,7 @@ ms:
     - xform/([nl])v/$1ve/
     - xform/([pmfdtlgkhviuzcsry])b/$1ou/
     - xform/([bpmfdtnlgkhxviuzcsryw])g/$1eng/
-    - xform/([bpmfdtnlgkhxviurzcsryw])h/$1ang/
+    - xform/([bpmfdtnlgkhxviuzcsryw])h/$1ang/
     - xform/([bpmdtnljqx])m/$1ian/
     - xform/([bpmfdtnljqx])c/$1iao/
     - xform/([bpmdtnljqxy]);/$1ing/
