@@ -276,19 +276,19 @@ def main(args):
     )
     print("成功合并360万中文词库 %s 个汉字， %s 个词组。" % r)
 
-    # 合并 rime 自带的八股文，权值 60
+    # 合并 rime 自带的八股文
     text = open("essay.txt", "r", encoding="utf-8").read()
     r = generator.mergeDict(
-        text, 60, 0, 100000, PrintProcess("正在合并八股文 (%s/%s)").process
+        text, args.weight, 0, 100000, PrintProcess("正在合并八股文 (%s/%s)").process
     )
     print("成功合并八股文 %s 个汉字， %s 个词组。" % r)
 
-    # 合并袖珍简化字拼音的词库，权值 60
+    # 合并袖珍简化字拼音的词库
     text = (
         open("pinyin_simp.dict.yaml", "r", encoding="utf-8").read().replace("罗嗦", "啰嗦")
     )
     r = generator.mergeDict(
-        text, 60, 0, 100000, PrintProcess("正在合并袖珍简化字拼音的词库 (%s/%s)").process
+        text, args.weight, 0, 100000, PrintProcess("正在合并袖珍简化字拼音的词库 (%s/%s)").process
     )
     print("成功合并袖珍简化字拼音 %s 个汉字， %s 个词组。" % r)
 
@@ -315,6 +315,13 @@ if __name__ == "__main__":
         + "phrases that are less than this frequency will be filtered out",
         type=int,
         default=100,
+    )
+    parser.add_argument(
+        "--weight",
+        "-w",
+        help="Specify the weight for vanilla rime dict, will multiple this value with word freq",
+        type=int,
+        default=20,
     )
     args = parser.parse_args()
     main(args)

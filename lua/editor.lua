@@ -5,6 +5,7 @@ local function _sanitize_input (input, ctx, saved_caret)
     local g_len = saved_caret - string.find(input, ":") + 1
     ctx:pop_input(g_len)
   end
+  -- only support double pinyin for now.
   ctx.caret_pos = ctx.caret_pos + 2
   if not ctx:has_menu() then
     ctx:commit(ctx.get_commit_text(ctx))
