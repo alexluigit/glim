@@ -3,5 +3,7 @@ cache/
 *.dict.yaml
 !glime.dict.yaml
 !/assets/glime_fix.dict.yaml
+/assets/glyph_mappings.json
+/lua/glyph_table.lua
 custom_phrase.txt
 /glime.custom.yaml

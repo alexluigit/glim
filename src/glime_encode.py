@@ -8,6 +8,8 @@ import json
 
 xiaohe_glyph_dict = "../assets/xiaohe-8105.json"
 glyph_mappings = "../assets/glyph_mappings.json"
+if not os.path.exists(glyph_mappings):
+    glyph_mappings = "../assets/glyph_mappings_default.json"
 glyph_lua_table = "../lua/glyph_table.lua"
 dict_data_dev = "../cache/dict_data"
 
