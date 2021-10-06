@@ -76,8 +76,7 @@ custom_phrase:
 
 punctuator:
   __include: symbols:/punctuator
-  # import_preset: symbols
-  abbrev_suffix: ";"
+  abbrev_suffix: "::"
   half_shape/=:
     ## Prevent symbols.yaml from setting ';' key
     ',' : { commit: ，}
@@ -97,7 +96,7 @@ key_binder:
 recognizer:
   import_preset: default
   patterns:
-    punct: '^/[0-9A-Za-z]+$'
+    punct: '^/[A-Za-z]+$'
     emoji: "^;e[a-z]*'?$"
 
 emoji:

@@ -1,5 +1,5 @@
 patch:
-  ## 是否预览全拼
+  ## 取消预览全拼
   # translator/preedit_format: {}
 
   ## 选择双拼方案 (单选)
@@ -8,24 +8,26 @@ patch:
   # __include: glime.layout:/ms      # 微软
   # __include: glime.layout:/chole   # chole (Colemak 首推)
 
-  ## 快捷键
-  key_binder/bindings/+:
-    ## Control + I/O 左右移动光标
-    - { when: composing, accept: Control+i, send: Shift+Right }
-    - { when: composing, accept: Control+o, send: Shift+Left }
-    ## 减号, 等号上屏 2, 3 候选
-    - { when: has_menu, accept: -, send: 2 }
-    - { when: has_menu, accept: =, send: 3 }
-    ## "/" 键筛音形
-    - { when: composing, accept: slash, send: ':' }
-
   ## 开启首字母缩写 (如 「cqjn」-> 「此去经年」)
   speller/algebra/@next: abbrev/^(.).+$/$1/
-  ## Caveat1:
+  ## Caveat:
   ## 由于双拼声韵母同键，故双拼方案下此选项并不能保证生成长码词候选。
-  ## 如 (以小鹤为例)「qqww」-->「秋闱」-\->「千千万万」
-  ## 如希望「qqww」直接得到「千千万万」而非「秋闱」，请输入「qqww;」
-  ## Caveat2:
-  ## 如双拼方案包含 ";" 作韵母 (如微软方案), 需开启此选项, 双击 ";" 引导缩写
-  ## (或自行定义其他键, 单引号除外)
-  # punctuator/abbrev_suffix: ";;"
+  ## 以小鹤为例: qqww -->「秋闱」-\->「千千万万」
+  ## 为解决此问题， 该方案引入了 :: 后缀以强制分词
+  ## 输入 qqww + :: (或于下方自行设置「强制分词」快捷键) 将直接得到「千千万万」
+
+  ## 快捷键
+  key_binder/bindings/+:
+    ## 左右移动光标
+    - { when: composing, accept: Control+i, send: Shift+Right }
+    - { when: composing, accept: Control+o, send: Shift+Left }
+    ## 上屏 2, 3 候选
+    - { when: has_menu, accept: minus, send: 2 }
+    - { when: has_menu, accept: equal, send: 3 }
+    ## 形码引导
+    ### 适用于・不・以分号作韵母的双拼方案， 如小鹤
+    - { when: composing, accept: semicolon, send: ':' }
+    ### 适用于以分号作韵母的双拼方案， 如微软
+    # - { when: composing, accept: bracketleft, send: ':' }
+    ## 强制分词
+    - { when: composing, accept: apostrophe, send_sequence: '::{BackSpace}' }
