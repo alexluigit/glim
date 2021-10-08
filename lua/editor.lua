@@ -31,7 +31,10 @@ local function editor(key, env)
     elseif key_repr == 'Escape' then
       ctx:clear()
     elseif string.match(key_repr, "^%d$") then
-      ctx:select(key_repr - 1)
+      local curr_index = ctx.composition:back().selected_index
+      local page_start_index = curr_index - curr_index % env.page_size
+      local computed_index = page_start_index + tonumber(key_repr) - 1
+      ctx:select(computed_index)
       _sanitize_input(input, ctx, saved_caret)
     else
       return kNoop
@@ -42,4 +45,8 @@ local function editor(key, env)
   end
 end
 
-return editor
+local init = function (env)
+  env.page_size = env.engine.schema.config:get_int("menu/page_size")
+end
+
+return { init = init, func = editor }
