@@ -45,8 +45,10 @@ def init_glyph_encoding(glyph_dict):
             mappings[i["first_py"]]["map"] + mappings[i["last_py"]]["map"]
         )
         glyph_encoding_lua[i["character"]] = {
-            "first": mappings[i["first_py"]]["map"],
-            "second": mappings[i["last_py"]]["map"],
+            "first_py": mappings[i["first_py"]]["map"],
+            "last_py": mappings[i["last_py"]]["map"],
+            "first_gl": i["first_part"],
+            "last_gl": i["last_part"],
         }
 
     for c in ascii_lowercase:

@@ -16,18 +16,27 @@ patch:
   ## 为解决此问题， 该方案引入了 :: 后缀以强制分词
   ## 输入 qqww + :: (或于下方自行设置「强制分词」快捷键) 将直接得到「千千万万」
 
+  ## 开启一简码 (单字母候选前三位固定)
+  engine/translators/@next: lua_translator@onechar_translator
+
+  ## 单字反查形码提示等级
+  ### 0: 不提示      | 它
+  ### 1: 仅编码      | 它 :bb
+  ### 2: 编码 + 部首 | 它 :bb 宀匕
+  translator/glyph_hint_level: 2
+
   ## 快捷键
   key_binder/bindings/+:
     ## 左右移动光标
     - { when: composing, accept: Control+i, send: Shift+Right }
     - { when: composing, accept: Control+o, send: Shift+Left }
     ## 上屏 2, 3 候选
-    - { when: has_menu, accept: minus, send: 2 }
-    - { when: has_menu, accept: equal, send: 3 }
+    - { when: has_menu, accept: comma, send: 2 }
+    - { when: has_menu, accept: period, send: 3 }
     ## 形码引导
     ### 适用于・不・以分号作韵母的双拼方案， 如小鹤
-    - { when: composing, accept: semicolon, send: ':' }
+    - { when: composing, accept: apostrophe, send: ':' }
     ### 适用于以分号作韵母的双拼方案， 如微软
     # - { when: composing, accept: bracketleft, send: ':' }
     ## 强制分词
-    - { when: composing, accept: apostrophe, send_sequence: '::{BackSpace}' }
+    - { when: composing, accept: semicolon, send_sequence: '::{BackSpace}' }
