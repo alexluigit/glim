@@ -5,16 +5,19 @@ import re
 import argparse
 import datetime
 import json
+from string import ascii_lowercase
 
 xiaohe_glyph_dict = "../assets/xiaohe-8105.json"
 glyph_mappings = "../assets/glyph_mappings.json"
 if not os.path.exists(glyph_mappings):
     glyph_mappings = "../assets/glyph_mappings_default.json"
 glyph_lua_table = "../lua/glyph_table.lua"
+alphabet_lua_table = "../lua/alphabet_table.lua"
 dict_data_dev = "../cache/dict_data"
 
 glyph_encoding = {}
 glyph_encoding_lua = {}
+alphabet_to_chars_lua = {}
 
 
 def dump_lua(data):
@@ -39,12 +42,16 @@ def init_glyph_encoding(glyph_dict):
     dict_json = json.load(open(glyph_dict, "r"))
     for i in dict_json:
         glyph_encoding[i["character"]] = (
-            mappings[i["first_py"]] + mappings[i["last_py"]]
+            mappings[i["first_py"]]["map"] + mappings[i["last_py"]]["map"]
         )
         glyph_encoding_lua[i["character"]] = {
-            "first": mappings[i["first_py"]],
-            "second": mappings[i["last_py"]],
+            "first": mappings[i["first_py"]]["map"],
+            "second": mappings[i["last_py"]]["map"],
         }
+
+    for c in ascii_lowercase:
+        alphabet_to_chars_lua[c] = mappings[c]["chars"]
+
     print(len(glyph_encoding))
 
 
@@ -81,6 +88,10 @@ def main(args):
     with open(glyph_lua_table, "w") as table_out:
         table_out.write("return ")
         table_out.write(dump_lua(glyph_encoding_lua))
+
+    with open(alphabet_lua_table, "w") as table_out:
+        table_out.write("return ")
+        table_out.write(dump_lua(alphabet_to_chars_lua))
 
     global output
     output = dict_data_dev if args.dev else ".."
