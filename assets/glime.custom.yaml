@@ -13,8 +13,8 @@ patch:
   ## Caveat:
   ## 由于双拼声韵母同键，故双拼方案下此选项并不能保证生成长码词候选。
   ## 以小鹤为例: qqww -->「秋闱」-\->「千千万万」
-  ## 为解决此问题， 该方案引入了 :: 后缀以强制分词
-  ## 输入 qqww + :: (或于下方自行设置「强制分词」快捷键) 将直接得到「千千万万」
+  ## 为解决此问题， 该方案引入了 ;; 后缀以强制分词
+  ## 输入 qqww + ;; (或于下方自行设置「强制分词」快捷键) 将直接得到「千千万万」
 
   ## 开启一简码 (单字母候选前三位固定)
   engine/translators/@next: lua_translator@onechar_translator
@@ -34,9 +34,9 @@ patch:
     - { when: has_menu, accept: comma, send: 2 }
     - { when: has_menu, accept: period, send: 3 }
     ## 形码引导
-    ### 适用于・不・以分号作韵母的双拼方案， 如小鹤
     - { when: composing, accept: apostrophe, send: ':' }
-    ### 适用于以分号作韵母的双拼方案， 如微软
-    # - { when: composing, accept: bracketleft, send: ':' }
     ## 强制分词
-    - { when: composing, accept: semicolon, send_sequence: '::{BackSpace}' }
+    ### 适用于・不・以分号作韵母的双拼方案， 如小鹤
+    - { when: composing, accept: semicolon, send_sequence: ';;{BackSpace}' }
+    ### 适用于以分号作韵母的双拼方案， 如微软
+    # - { when: composing, accept: bracketleft, send_sequence: ';;{BackSpace}' }
