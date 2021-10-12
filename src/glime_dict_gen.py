@@ -242,8 +242,6 @@ class DictGenerator:
         for phrase_st in phrase_list:
             # 若 large_pinyin.txt 无此 phrase, 则通过 pypinyin 库获取到词组的拼音
             phrase_pinyin = map(self.fixPinyin, pypinyin.lazy_pinyin(phrase_st[0]))
-            # print(phrase_st[0])
-            # print(pypinyin.lazy_pinyin(phrase_st[0]))
             text_phrase += (
                 phrase_st[0]
                 + "\t"
@@ -291,6 +289,17 @@ def main(args):
         text, args.weight, 0, 100000, PrintProcess("正在合并袖珍简化字拼音的词库 (%s/%s)").process
     )
     print("成功合并袖珍简化字拼音 %s 个汉字， %s 个词组。" % r)
+
+    # 合并 phrase-pinyin-data 的词库
+    text = open("pdb_raw.txt", "r", encoding="utf-8").read()
+    r = generator.mergeDict(
+        text,
+        args.weight,
+        0,
+        100000,
+        PrintProcess("正在合并 phrase-pinyin-data 的词库 (%s/%s)").process,
+    )
+    print("成功合并 phrase-pinyin-data %s 个汉字， %s 个词组。" % r)
 
     word_dict_name = "glime_base"
     parse_dict_name = "glime_phrase"

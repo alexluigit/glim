@@ -32,6 +32,10 @@ _fix_phrase_dict() {
   fix_phrase+=("s/bié wú fēn d$/bié wú fēn diàn/;")
   fix_phrase+=("s/rì jī yuè zh/rì jū yuè zhū/;")
   fix_phrase+=("s/léi tíng wàn j$/léi tíng zhī nù/;")
+  fix_phrase+=("s/不强: bù jiāng/不强: bù qiáng/;")
+  fix_phrase+=("s/别强: bié qiáng/别强: bié jiàng/;")
+  fix_phrase+=("s/发强: fā qiáng/发强: fā jiàng/;")
+  fix_phrase+=("s/度人之腹: dù rén zh fù/度人之腹: duó rén zhī fù/;")
   fix_phrase+=('"')
   cat ./phrase-pinyin-data/large_pinyin.txt | eval ${fix_phrase[@]} > pdb.txt
 }
@@ -70,6 +74,7 @@ gen_dicts_basic() {
   cat ./THUOCL/data/*.txt > THUOCL.txt
   ../src/thuocl2rime.py THUOCL.txt ../cache/THUOCL.dict.yaml
   diff ./phrase-pinyin-data/large_pinyin.txt pdb.txt
+  awk -F': ' '{print $1}' < pdb.txt > pdb_raw.txt
   ../src/glime_dict_gen.py --minfreq=$minfreq
   ../src/glime_remove_trad_char.py
   cp ../src/{emoji.js,package.json} .
