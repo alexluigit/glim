@@ -3,12 +3,12 @@
 
 schema:
   schema_id: glime
-  name: ㄓ
+  name: ㄓ - Glime
   version: "0.1"
   author:
     - Alex Lu
   description: |
-    Glime - 一套 lua 实现的辅助形码方案
+    Glime - 音形输入应如是
   dependencies:
     - emoji
 

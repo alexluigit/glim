@@ -9,6 +9,6 @@ patch:
   switcher/hotkeys:
     - Control+grave
 
-  switcher/caption: "【设置】"
+  switcher/caption: "- 设置 -"
 
-  switcher/option_list_separator: "/"
+  switcher/option_list_separator: "〡"
