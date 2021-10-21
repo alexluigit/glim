@@ -8,12 +8,9 @@ import json
 from string import ascii_lowercase
 
 xiaohe_glyph_dict = "../assets/xiaohe-8105.json"
-glyph_mappings = "../assets/glyph_mappings.json"
-if not os.path.exists(glyph_mappings):
-    glyph_mappings = "../assets/glyph_mappings_default.json"
-glyph_lua_table = "../lua/glyph_table.lua"
-alphabet_lua_table = "../lua/alphabet_table.lua"
 dict_data_dev = "../cache/dict_data"
+glyph_lua_table = dict_data_dev + "/glyph_table.lua"
+alphabet_lua_table = dict_data_dev + "/alphabet_table.lua"
 
 glyph_encoding = {}
 glyph_encoding_lua = {}
@@ -37,8 +34,8 @@ def dump_lua(data):
         return "{" + kv_pairs + "}\n"
 
 
-def init_glyph_encoding(glyph_dict):
-    mappings = json.load(open(glyph_mappings, "r"))
+def init_glyph_encoding(glyph_dict, mapping):
+    mappings = json.load(open(mapping, "r"))
     dict_json = json.load(open(glyph_dict, "r"))
     for i in dict_json:
         glyph_encoding[i["character"]] = (
@@ -49,6 +46,7 @@ def init_glyph_encoding(glyph_dict):
             "last_py": mappings[i["last_py"]]["map"],
             "first_gl": i["first_part"],
             "last_gl": i["last_part"],
+            "level": int(i["level"]),
         }
 
     for c in ascii_lowercase:
@@ -85,8 +83,7 @@ def convert_dict(raw_dict, dev=False):
 
 
 def main(args):
-    init_glyph_encoding(xiaohe_glyph_dict)
-
+    init_glyph_encoding(xiaohe_glyph_dict, args.mapping)
     with open(glyph_lua_table, "w") as table_out:
         table_out.write("return ")
         table_out.write(dump_lua(glyph_encoding_lua))
@@ -103,10 +100,24 @@ def main(args):
             convert_dict(file, args.dev)
 
 
+def file_path(string):
+    if os.path.exists(string):
+        return string
+    else:
+        raise FileNotFoundError(string)
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Glime 辅助码码表生成工具。")
     parser.add_argument(
-        "--dev", help="生成带辅助码后缀的词典, 用以分析数据.", action=argparse.BooleanOptionalAction
+        "--mapping",
+        "-m",
+        help="单字母映射文件",
+        type=file_path,
+        default="../assets/glyph_mappings_II.json",
+    )
+    parser.add_argument(
+        "--dev", "-d", help="生成开发相关词典数据.", action=argparse.BooleanOptionalAction
     )
     args = parser.parse_args()
     if args.dev and not os.path.exists(dict_data_dev):
