@@ -2,10 +2,15 @@
 # encoding: utf-8
 
 chole:
+  speller/layout: "chole"
   speller/algebra:
     - erase/^xx$/
-    - derive/^([aoe])(.*)$/$1$1$2/
+    - xform/^([aoe])$/$1$1/
     - xform/^j/E/
+    - xform/^ei$/ew/
+    - xform/^en$/es/
+    - xform/^eng$/ep/
+    - xform/^ang$/al/
     - derive/^ch/U/
     - derive/^sh/I/
     - derive/^zh/V/
@@ -15,18 +20,18 @@ chole:
     - xform/(\w+)ang/$1L/
     - xform/(\w+)eng/$1P/
     - xform/ong/M/
-    - xform/ian/T/
-    - xform/iao/K/
+    - xform/ian/N/
+    - xform/iao/J/
     - xform/ing/F/
     - xform/uai/F/
     - xform/uan/H/
     - xform/(\w+)ai/$1Z/
-    - xform/(\w+)an/$1N/
+    - xform/(\w+)an/$1T/
     - xform/(\w+)ao/$1D/
     - xform/(\w+)ei/$1W/
     - xform/(\w+)en/$1S/
     - xform/(\w)ia/$1X/
-    - xform/(\w)ie/$1J/
+    - xform/(\w)ie/$1K/
     - xform/(\w)in/$1C/
     - xform/(\w)iu/$1Q/
     - xform/(\w+)ou/$1R/
@@ -37,17 +42,20 @@ chole:
     - xform/(\w+)uo/$1O/
     - xform/(\w)ve/$1G/
     - xlit/QWERTYUIOPSDFGHJKLZXCVBNMA/qwertyuiopsdfghjklzxcvbnma/
+    - abbrev/^(.).+$/$1'/
+    # ??
+    - abbrev/^(.).+$/$1:/
 
   translator/preedit_format:
     - erase/^;.*/
-    - "xform/(^|[ '])e([^nrwep])/$1j$2/" # E -> J
+    - "xform/(^|[ '])e([^eprsw])/$1j$2/" # E -> J
     - xform/([bpmdtnlgkhzcsviuw])z/$1ai/
-    - xform/([bpmfdtnlgkhxviuzcsryw])n/$1an/
+    - xform/([bpmfdtnlgkhxviuzcsryw])t/$1an/
     - xform/([bpmdtnlgkhviurzcsy])d/$1ao/
     - xform/([bpmfnlghvizw])w/$1ei/
     - xform/([bpmfdtnlgkhxviuzcsrw])s/$1en/
     - xform/([dljqx])x/$1ia/
-    - xform/([bpmdtnljqx])j/$1ie/
+    - xform/([bpmdtnljqx])k/$1ie/
     - xform/([bpmnljqxy])c/$1in/
     - xform/([mdnljqx])q/$1iu/
     - xform/([gkhviurzcs])x/$1ua/
@@ -60,8 +68,8 @@ chole:
     - xform/([nl])g/$1ve/
     - xform/([bpmfdtnlgkhxviuzcsryw])l/$1ang/
     - xform/([bpmfdtnlgkhxviuzcsryw])p/$1eng/
-    - xform/([bpmdtnljqx])t/$1ian/
-    - xform/([bpmfdtnljqx])k/$1iao/
+    - xform/([bpmdtnljqx])n/$1ian/
+    - xform/([bpmfdtnljqx])j/$1iao/
     - xform/([bpmdtnljqxy])f/$1ing/
     - xform/([pdtnlgkhvuzscry])m/$1ong/
     - xform/([gkhviu])f/$1uai/
@@ -75,9 +83,12 @@ chole:
 
 
 flypy:
+  speller/layout: "flypy"
   speller/algebra:
     - erase/^xx$/
-    - derive/^([aoe])(.*)$/$1$1$2/
+    - xform/^([aoe])$/$1$1/
+    - xform/^eng$/eg/
+    - xform/^ang$/ah/
     - derive/^ch/I/
     - derive/^sh/U/
     - derive/^zh/V/
@@ -109,6 +120,7 @@ flypy:
     - xform/(\w+)uo/$1O/
     - xform/(\w)ve/$1T/
     - xlit/QWERTYUIOPSDFGHJKLZXCVBNMA/qwertyuiopsdfghjklzxcvbnma/
+    - abbrev/^(.).+$/$1'/
 
   translator/preedit_format:
     - erase/^;.*/
@@ -146,10 +158,13 @@ flypy:
 
 
 natural:
+  speller/layout: "natural"
   speller/algebra:
     - erase/^xx$/
     - derive/^([jqxy])u$/$1v/
-    - xform/^([aoe])(.*)$/$1$1$2/
+    - xform/^([aoe])$/$1$1/
+    - xform/^eng$/eg/
+    - xform/^ang$/ah/
     - derive/^ch/I/
     - derive/^sh/U/
     - derive/^zh/V/
@@ -182,6 +197,7 @@ natural:
     - xform/uo$/O/
     - xform/ve$/T/
     - xlit/ABCDEFGHIJKLMNOPQRSTUVWXYZ/abcdefghijklmnopqrstuvwxyz/
+    - abbrev/^(.).+$/$1'/
 
   translator/preedit_format:
     - erase/^;.*/
@@ -219,10 +235,13 @@ natural:
 
 
 ms:
+  speller/layout: "ms"
   speller/algebra:
     - erase/^xx$/
     - derive/^([jqxy])u$/$1v/
-    - xform/^([aoe].*)$/O$1/
+    - xform/^([aoe])$/$1$1/
+    - xform/^eng$/eg/
+    - xform/^ang$/ah/
     - derive/^ch/I/
     - derive/^sh/U/
     - derive/^zh/V/
@@ -256,6 +275,7 @@ ms:
     - xform/ve$/V/
     - xform/v$/Y/
     - xlit/ABCDEFGHIJKLMNOPQRSTUVWXYZ/abcdefghijklmnopqrstuvwxyz/
+    - abbrev/^(.).+$/$1'/
 
   translator/preedit_format:
     - erase/^;.*/
@@ -290,3 +310,25 @@ ms:
     - "xform/(^|[ '])v/$1zh/"
     - "xform/(^|[ '])i/$1ch/"
     - "xform/(^|[ '])u/$1sh/"
+
+
+full:
+  speller/layout: "full"
+  speller/algebra:
+    - abbrev/^([a-z]).+$/$1/
+    - abbrev/^([zcs]h).+$/$1/
+    - derive/^([nl])ue$/$1ve/
+    - derive/^([jqxy])u/$1v/
+    - derive/un$/uen/
+    - derive/ui$/uei/
+    - derive/iu$/iou/
+    - derive/([aeiou])ng$/$1gn/
+    - derive/([dtngkhrzcs])o(u|ng)$/$1o/
+    - derive/ong$/on/
+    - derive/ao$/oa/
+    - derive/([iu])a(o|ng?)$/a$1$2/
+
+  translator/preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
