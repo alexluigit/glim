@@ -36,8 +36,8 @@ engine:
   segmentors:
     - matcher
     - abc_segmentor
-    - punct_segmentor
     - affix_segmentor@emoji
+    - punct_segmentor
     - lua_segmentor@abbrev_segmentor
     - fallback_segmentor
   translators:
@@ -109,13 +109,13 @@ key_binder:
 recognizer:
   import_preset: default
   patterns:
+    emoji: "^/em[a-z]*'?$"
     punct: '^/[A-Za-z]+$'
-    emoji: "^;e[a-z]*'?$"
 
 emoji:
   tag: emoji
   dictionary: emoji
   enable_completion: true
-  prefix: ";e"
+  prefix: "/em"
   suffix: "'"
   tips: " Emoji"
