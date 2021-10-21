@@ -26,17 +26,46 @@ patch:
   translator/glyph_hint_level: 2
 
   ## 快捷键
+  ### toggle: zh_simp_s2t  切换 [简繁]
+  ### toggle: full_shape   切换 [全半]
+  ### toggle: full_charset 切换 [一𰻝] (8105字符集/超大字符集)
+  ### comma     = , (逗号)  |  apostrophe  = ' (单引号)
+  ### period    = . (句号)  |  bracketleft = [ (左方括号，右方括号为 bracketright)
+  ### slash     = / (斜杠)  |  plus        = + (加号，减号为 minus)
+  ### semicolon = ; (分号)  |  backslash   = \ (反斜杠)
+  ### 更多参见: https://github.com/LEOYoon-Tsaw/Rime_collections/blob/master/Rime_description.md
   key_binder/bindings/+:
-    ## 左右移动光标
-    - { when: composing, accept: Control+i, send: Shift+Right }
-    - { when: composing, accept: Control+o, send: Shift+Left }
-    ## 上屏 2, 3 候选
-    - { when: has_menu, accept: comma, send: 2 }
-    - { when: has_menu, accept: period, send: 3 }
-    ## 形码引导
-    - { when: composing, accept: apostrophe, send: ':' }
-    ## 强制分词
-    ### 适用于・不・以分号作韵母的双拼方案， 如小鹤
-    - { when: composing, accept: semicolon, send_sequence: ';;{BackSpace}' }
-    ### 适用于以分号作韵母的双拼方案， 如微软
-    # - { when: composing, accept: bracketleft, send_sequence: ';;{BackSpace}' }
+    ### emacs 风格文本编辑
+    - { when: composing, accept: Control+p, send: Up }
+    - { when: composing, accept: Control+n, send: Down }
+    - { when: composing, accept: Control+b, send: Left }
+    - { when: composing, accept: Control+f, send: Right }
+    - { when: composing, accept: Control+a, send: Home }
+    - { when: composing, accept: Control+e, send: End }
+    - { when: composing, accept: Control+d, send: Delete }
+    - { when: composing, accept: Control+k, send: Shift+Delete }
+    - { when: composing, accept: Control+h, send: BackSpace }
+    - { when: composing, accept: Control+g, send: Escape }
+    - { when: composing, accept: Control+bracketleft, send: Escape }
+    - { when: composing, accept: Control+y, send: Page_Up }
+    - { when: composing, accept: Alt+v, send: Page_Up }
+    - { when: composing, accept: Control+v, send: Page_Down }
+    ### Tab 在词间切换
+    - { when: composing, accept: ISO_Left_Tab, send: Shift+Left }
+    - { when: composing, accept: Shift+Tab, send: Shift+Left }
+    - { when: composing, accept: Tab, send: Shift+Right }
+    ### 减号等号翻页
+    - { when: has_menu, accept: minus, send: Page_Up }
+    - { when: has_menu, accept: equal, send: Page_Down }
+    ### 选项开关
+    - { when: always, accept: Control+Shift+1, toggle: zh_simp_s2t }
+    - { when: always, accept: Control+Shift+2, toggle: full_shape }
+    - { when: always, accept: Control+Shift+3, toggle: full_charset }
+    - { when: composing, accept: Control+t, toggle: zh_simp_s2t }
+    #### 二三选上屏
+    - { when: has_menu, accept: semicolon, send: 2 }
+    - { when: has_menu, accept: apostrophe, send: 3 }
+    #### 强制分词
+    - { when: composing, accept: slash, send_sequence: ';;{BackSpace}' }
+    #### 形码引导
+    - { when: composing, accept: bracketleft, send: ':' }
