@@ -17,10 +17,10 @@ local __filter_char = function (cand, env, ch, glyph_all, keep_phrase, matched)
   local gl2 = env.glyph_table[ch]["last_gl"]
   local lvl = env.glyph_table[ch]["level"]
   local glyph_filter_str = py1 .. py2
-  local cand_type = (keep_phrase > 1 and "advanced_glyph" or "glyph")
+  local pop_len = (keep_phrase > 1 and glyph_all:len() or glyph_all:len() + 1)
   if string.match(glyph_filter_str, '^' .. glyph_all) then
     cand.comment = __cand_hint(env.gl_hint_level, py1 .. py2, gl1 .. gl2)
-    cand.type = cand_type .. "_" .. tostring(string.len(glyph_all))
+    cand.type = "glyph_" .. tostring(pop_len)
     if keep_phrase == 1 or lvl < 3 then
       table.insert(matched, cand)
     end
@@ -41,17 +41,17 @@ local __filter_phrase = function
   local h_lvl = env.glyph_table[head_ch]["level"]
   local glyph_filter_str = h_py1 .. t_py1 .. t_py2 .. h_py2
   local glyph_gl_str = h_gl1 .. t_gl1 .. t_gl2 .. h_gl2
-  local cand_type = (keep_phrase > 1 and "advanced_glyph" or "glyph")
   local text = cand.text
   if ph_top == nil and utf8.len(text) == keep_phrase then ph_top = cand end
   if keep_phrase == 1 and string.match(glyph_filter_str, '^' .. glyph_all) then
     cand.comment = __cand_hint(env.gl_hint_level, glyph_filter_str, glyph_gl_str)
+    cand.type = "glyph_" .. tostring(glyph_all:len() + 1)
     yield(cand)
   elseif utf8.len(text) < keep_phrase
     and string.match(glyph_filter_str, '^' .. glyph_all)
     and t_lvl < 3 and h_lvl < 3 then
     cand.comment = __cand_hint(env.gl_hint_level, h_py1 .. t_py1, h_gl1 .. t_gl1)
-    cand.type = cand_type .. "_" .. tostring(string.len(glyph_all))
+    cand.type = "glyph_" .. tostring(glyph_all:len())
     table.insert(matched, cand)
   elseif cand.text ~= (ph_top and ph_top.text) then
     table.insert(rest, cand)

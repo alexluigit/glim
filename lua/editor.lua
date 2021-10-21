@@ -1,11 +1,8 @@
-local function _commit_and_santinize (input, ctx, saved_caret, cand, idx)
+local function _commit_and_santinize (input, ctx, cand, idx)
   -- todo if input include apostrophe
   if idx then ctx:select(idx) else ctx:confirm_current_selection() end
   TAB_CARET = TAB_CARET + 2 * utf8.len(cand.text)
-  if string.match(input, ':%a?') then
-    local g_len = saved_caret - string.find(input, ":") + 1
-    ctx:pop_input(g_len)
-  elseif string.match(cand.type, 'advanced_glyph') then
+  if string.match(cand.type, 'glyph') then
     local g_len = tonumber(cand.type:sub(-1))
     ctx:pop_input(g_len)
   end
@@ -23,19 +20,15 @@ local function editor(key, env)
   local key_repr = key:repr() -- key representation
   local ctx = env.engine.context
   local input = ctx.input
-  local saved_caret = ctx.caret_pos
   -- local tab_caret = ctx:get_property("TAB_CARET")
   if ctx:has_menu() and string.len(input) > 0 then
     if key_repr == 'space' then
       local cand = ctx:get_selected_candidate()
-      _commit_and_santinize(input, ctx, saved_caret, cand)
+      _commit_and_santinize(input, ctx, cand)
     elseif key_repr == 'BackSpace' then
       ctx:pop_input(1)
       if not ctx:has_menu() then TAB_CARET = 0 end
       -- todo: reopen commit
-    elseif key_repr == 'Shift+Right' then
-      -- todo: add ':' automaticallly?
-      return kNoop
     elseif key_repr == 'Return' then
       env.engine:commit_text(input)
       ctx:clear()
@@ -51,7 +44,7 @@ local function editor(key, env)
       local page_start_index = curr_index - curr_index % env.page_size
       local computed_index = page_start_index + tonumber(key_repr) - 1
       local cand = segment:get_candidate_at(computed_index)
-      _commit_and_santinize(input, ctx, saved_caret, cand, computed_index)
+      _commit_and_santinize(input, ctx, cand, computed_index)
     else
       return kNoop
     end
