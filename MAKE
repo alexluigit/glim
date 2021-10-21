@@ -54,6 +54,7 @@ update_dicts_basic() {
   _clone_or_pull phrase-pinyin-data 'https://hub.fastgit.org/mozillazg/phrase-pinyin-data'
   _clone_or_pull THUOCL 'https://hub.fastgit.org/thunlp/THUOCL'
   _clone_or_pull fcitx5-pinyin-zhwiki 'https://hub.fastgit.org/felixonmars/fcitx5-pinyin-zhwiki'
+  _clone_or_pull rime-settings 'https://github.com/iDvel/rime-settings'
   zhw_latest=$(grep 'github.com' ./fcitx5-pinyin-zhwiki/recipe.yaml \
                   | awk -F '::' '{print $2}' | sed 's/github.com/hub.fastgit.org/')
   local zhw_ver="./zhwiki_latest.txt"
@@ -68,9 +69,9 @@ update_dicts_basic() {
 gen_dicts_basic() {
   _fix_phrase_dict
   cp ../assets/glime_fix.dict.yaml .
-  cp ../assets/phrases_with_freq.txt .
   cp ./rime-essay/essay.txt .
   cp ./rime-pinyin-simp/pinyin_simp.dict.yaml .
+  cp ./rime-settings/dicts/sys.dict.yaml .
   cat ./THUOCL/data/*.txt > THUOCL.txt
   ../src/thuocl2rime.py THUOCL.txt ../cache/THUOCL.dict.yaml
   diff ./phrase-pinyin-data/large_pinyin.txt pdb.txt

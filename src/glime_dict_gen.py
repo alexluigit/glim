@@ -267,12 +267,18 @@ def main(args):
         def process(self, count, total):
             print(self.msg % (count, total))
 
-    # 合并 360万 的词库
-    text = open("phrases_with_freq.txt", "r", encoding="utf-8").read()
+    # 合并华宇系统词库
+    text = open("sys.dict.yaml", "r", encoding="utf-8").read()
     r = generator.mergeDict(
-        text, 1, args.minfreq, 100000, PrintProcess("正在合并360万中文词库 (%s/%s)").process
+        text,
+        # args.weight,
+        # args.minfreq,
+        1,
+        0,
+        100000,
+        PrintProcess("正在合并华宇系统词库 (%s/%s)").process,
     )
-    print("成功合并360万中文词库 %s 个汉字， %s 个词组。" % r)
+    print("成功合并华宇中文词库 %s 个汉字， %s 个词组。" % r)
 
     # 合并 rime 自带的八股文
     text = open("essay.txt", "r", encoding="utf-8").read()
