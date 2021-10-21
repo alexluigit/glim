@@ -26,8 +26,8 @@ _clone_or_pull () {
   fi
 }
 
-_fix_phrase_dict() {
-  fix_phrase=(sed '"' "s/ \?#.*//;" "s/失张失志.*//;" "s/失张失致.*//;")
+_fix_phrase_dict_pre() {
+  local fix_phrase=(sed '"' "s/ \?#.*//;" "s/失张失志.*//;" "s/失张失致.*//;")
   fix_phrase+=("s/hòu bù bā d/hòu bù bā diàn/;")
   fix_phrase+=("s/bié wú fēn d$/bié wú fēn diàn/;")
   fix_phrase+=("s/rì jī yuè zh/rì jū yuè zhū/;")
@@ -40,12 +40,14 @@ _fix_phrase_dict() {
   cat ./phrase-pinyin-data/large_pinyin.txt | eval ${fix_phrase[@]} > pdb.txt
 }
 
-_fix_word_dict() {
-  fix_word=(sed -i '"')
-  fix_word+=("s/帧.*zheng.*//;")
-  fix_word+=('"' ./glime_base.dict.yaml)
-  eval ${fix_word[@]}
-  echo "Fixed wrong words"
+_fix_phrase_dict_post() {
+  local fix_phrases=(sed -i '"')
+  fix_phrases+=("s/^尼国//;")
+  fix_phrases+=("s/^汤浅\\t.*//;")
+  fix_phrases+=("s/^堂前\\t.*/堂前\\ttang qian\\t1000/;")
+  fix_phrases+=('"' ./glime_phrase.dict.yaml)
+  eval ${fix_phrases[@]}
+  echo "Fixed wrong phrases"
 }
 
 update_dicts_basic() {
@@ -67,21 +69,23 @@ update_dicts_basic() {
 }
 
 gen_dicts_basic() {
-  _fix_phrase_dict
+  _fix_phrase_dict_pre
   cp ../assets/glime_fix.dict.yaml .
+  cp ../assets/singch.yaml ./glime_base.dict.yaml
   cp ./rime-essay/essay.txt .
   cp ./rime-pinyin-simp/pinyin_simp.dict.yaml .
   cp ./rime-settings/dicts/sys.dict.yaml .
   cat ./THUOCL/data/*.txt > THUOCL.txt
   ../src/thuocl2rime.py THUOCL.txt ../cache/THUOCL.dict.yaml
   diff ./phrase-pinyin-data/large_pinyin.txt pdb.txt
-  awk -F': ' '{print $1}' < pdb.txt > pdb_raw.txt
   ../src/glime_dict_gen.py --minfreq=$minfreq
-  ../src/glime_remove_trad_char.py
+  # ../src/glime_remove_trad_char.py
   cp ../src/{emoji.js,package.json} .
   yarn install; node emoji.js
   rm ./pinyin_simp.dict.yaml
-  _fix_word_dict
+  rm ./sys.dict.yaml
+  ../src/heteronyms.py
+  _fix_phrase_dict_post
   ../src/glime_encode.py
 }
 
