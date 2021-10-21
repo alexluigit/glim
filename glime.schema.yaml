@@ -66,6 +66,14 @@ translator:
   enable_sentence: true
   enable_completion: true
   sentence_over_completion: true
+  encode_commit_history: true
+  enable_user_dict: true
+  contextual_suggestions: true
+  max_homophones: 7
+  max_homographs: 7
+
+grammar:
+  language: zh-hans-t-essay-bgw
 
 simplifier:
   option_name: zh_simp_s2t
