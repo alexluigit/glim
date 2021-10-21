@@ -16,8 +16,12 @@ switches:
   - name: zh_simp_s2t
     reset: 0
     states: [ 简, 繁 ]
+  - name: full_charset
+    reset: 0
+    states: [ 一, 𰻝 ]
   - name: full_shape
-    states: ["half", "full"]
+    states: [ 半, 全 ]
+
 
 engine:
   processors:
@@ -48,6 +52,7 @@ engine:
     - lua_filter@charset_filter
     - simplifier
     - uniquifier
+    - lua_filter@onechar_filter
 
 speller:
   delimiter: " '"
