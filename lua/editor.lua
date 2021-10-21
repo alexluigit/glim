@@ -1,14 +1,19 @@
--- todo: tab key add ':' automaticallly
-
-local function _sanitize_input (input, ctx, saved_caret)
+local function _commit_and_santinize (input, ctx, saved_caret, cand, idx)
+  -- todo if input include apostrophe
+  if idx then ctx:select(idx) else ctx:confirm_current_selection() end
+  TAB_CARET = TAB_CARET + 2 * utf8.len(cand.text)
   if string.match(input, ':%a?') then
     local g_len = saved_caret - string.find(input, ":") + 1
     ctx:pop_input(g_len)
+  elseif string.match(cand.type, 'advanced_glyph') then
+    local g_len = tonumber(cand.type:sub(-1))
+    ctx:pop_input(g_len)
   end
-  -- only support double pinyin for now.
-  ctx.caret_pos = ctx.caret_pos + 2
+  ctx:refresh_non_confirmed_composition()
+  ctx.caret_pos = input:len()
   if not ctx:has_menu() then
     ctx:commit(ctx.get_commit_text(ctx))
+    TAB_CARET = 0
   end
 end
 
@@ -19,23 +24,34 @@ local function editor(key, env)
   local ctx = env.engine.context
   local input = ctx.input
   local saved_caret = ctx.caret_pos
-  if string.len(input) > 0 then
+  -- local tab_caret = ctx:get_property("TAB_CARET")
+  if ctx:has_menu() and string.len(input) > 0 then
     if key_repr == 'space' then
-      ctx:confirm_current_selection()
-      _sanitize_input(input, ctx, saved_caret)
+      local cand = ctx:get_selected_candidate()
+      _commit_and_santinize(input, ctx, saved_caret, cand)
     elseif key_repr == 'BackSpace' then
       ctx:pop_input(1)
+      if not ctx:has_menu() then TAB_CARET = 0 end
+      -- todo: reopen commit
+    elseif key_repr == 'Shift+Right' then
+      -- todo: add ':' automaticallly?
+      return kNoop
     elseif key_repr == 'Return' then
       env.engine:commit_text(input)
       ctx:clear()
+      TAB_CARET = 0
     elseif key_repr == 'Escape' then
       ctx:clear()
+      TAB_CARET = 0
+    -- elseif key_repr == 'Control+c' then
+    --   print(ctx.caret_pos, TAB_CARET)
     elseif string.match(key_repr, "^%d$") then
-      local curr_index = ctx.composition:back().selected_index
+      local segment = ctx.composition:back()
+      local curr_index = segment.selected_index
       local page_start_index = curr_index - curr_index % env.page_size
       local computed_index = page_start_index + tonumber(key_repr) - 1
-      ctx:select(computed_index)
-      _sanitize_input(input, ctx, saved_caret)
+      local cand = segment:get_candidate_at(computed_index)
+      _commit_and_santinize(input, ctx, saved_caret, cand, computed_index)
     else
       return kNoop
     end
@@ -47,6 +63,8 @@ end
 
 local init = function (env)
   env.page_size = env.engine.schema.config:get_int("menu/page_size")
+  -- env.notifier = env.engine.context.update_notifier:connect(function (ctx) end)
+  -- env.engine.context:set_property("tab_caret", 0)
 end
 
 return { init = init, func = editor }
