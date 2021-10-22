@@ -117,13 +117,19 @@ class DictGenerator:
         """
             self.phrase_r 所有词的频率信息字典，格式为
                 {
-                    词: 频,
-                    词: 频,
-                    词: 频,
+                    词: [音,频] ,
+                    词: [音,频],
+                    词: [音,频],
                     ...
                 }
         """
         self.phrase_r = {}
+        self.phrase_heteronyms = {}
+        self.phrase_fix = {
+            "落下": [["luo", "xia"],	100000 ],
+            "差事": [["cha", "shi"],	10000 ],
+            "差事儿": [["cha", "shi" "er"],	10000 ]
+        }
 
     def mergeDict(
         self, text, weight=1, min_freq=0, callbackCount=sys.maxsize, callbackFunc=None
@@ -204,9 +210,15 @@ class DictGenerator:
                         pinyin = correct_py
 
                 word = self.t2s.convert(word)  # 确保词组为简体
-                # TODO: 处理多音词 如: 一行 yi hang/xing
+                # 处理多音词 如: 一行 yi hang/xing
                 if word in self.phrase_r:
-                    self.phrase_r[word][1] += freq
+                    if pinyin == self.phrase_r[word][0]:
+                       self.phrase_r[word][1] += freq
+                    elif word in self.phrase_heteronyms:
+                       self.phrase_heteronyms[word][1] += freq
+                    elif pinyin:
+                       self.phrase_heteronyms[word] = [pinyin, freq]
+                    # self.phrase_r[word][1] += freq
                 else:
                     self.phrase_r[word] = [pinyin, freq]
                 parse_count += 1
@@ -243,10 +255,19 @@ class DictGenerator:
                 total_count 为总共数量
         """
         # 按频率倒序排序
-        phrase_list = [
+        phrase_main_list = [
             (phrase, self.phrase_r[phrase][0], self.phrase_r[phrase][1])
             for phrase in self.phrase_r
         ]
+        phrase_heteronyms_list = [
+            (phrase, self.phrase_heteronyms[phrase][0], self.phrase_heteronyms[phrase][1])
+            for phrase in self.phrase_heteronyms
+        ]
+        phrase_fix_list = [
+            (phrase, self.phrase_fix[phrase][0], self.phrase_fix[phrase][1])
+            for phrase in self.phrase_fix
+        ]
+        phrase_list = phrase_main_list + phrase_heteronyms_list + phrase_fix_list
         phrase_list.sort(key=lambda w: w[2], reverse=True)
 
         # 生成文本
@@ -295,11 +316,6 @@ def main(args):
     )
     print("成功合并华宇中文词库 %s 个汉字， %s 个词组。" % r)
 
-    # 合并 rime 自带的八股文
-    text = open("essay.txt", "r", encoding="utf-8").read()
-    r = generator.mergeDict(text, 1, 0, 100000, PrintProcess("正在合并八股文 (%s/%s)").process)
-    print("成功合并八股文 %s 个汉字， %s 个词组。" % r)
-
     # 合并袖珍简化字拼音的词库
     text = (
         open("pinyin_simp.dict.yaml", "r", encoding="utf-8").read().replace("罗嗦", "啰嗦")
@@ -309,8 +325,18 @@ def main(args):
     )
     print("成功合并袖珍简化字拼音 %s 个汉字， %s 个词组。" % r)
 
+    # 合并 THUOCL 词库
+    text = open("THUOCL.dict.yaml", "r", encoding="utf-8").read()
+    r = generator.mergeDict(text, 1, 0, 100000, PrintProcess("正在合并 THUOCL (%s/%s)").process)
+    print("成功合并 THUOCL %s 个汉字， %s 个词组。" % r)
+
+    # 合并 rime 自带的八股文
+    text = open("essay.txt", "r", encoding="utf-8").read()
+    r = generator.mergeDict(text, 1, 0, 100000, PrintProcess("正在合并八股文 (%s/%s)").process)
+    print("成功合并八股文 %s 个汉字， %s 个词组。" % r)
+
     # 合并 phrase-pinyin-data 的词库
-    text = open("pdb_raw.txt", "r", encoding="utf-8").read().replace(": ", "\t")
+    text = open("pdb.txt", "r", encoding="utf-8").read().replace(": ", "\t")
     r = generator.mergeDict(
         text,
         1,
