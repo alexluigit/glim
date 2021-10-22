@@ -4,9 +4,9 @@ glyph_filter: 候选项重排序, 匹配形码
 
 local __cand_hint = function (hint_lvl, py, gl)
   if hint_lvl == 1 then
-    return ":" .. py
+    return "↬ " .. py
   elseif hint_lvl == 2 then
-    return ":" .. py .. " " .. gl
+    return "↬ " .. py .. " " .. gl
   end
 end
 
