@@ -76,7 +76,7 @@ def convert_dict(raw_dict, dev=False):
     dict_raw = list(map(lambda x: x.split("\t"), f_strip))
     dict_processed = list(map(add_glyph_code, dict_raw)) if dev else f_strip
 
-    with open(dict_output, "w") as dict_out:
+    with open(dict_output, "w+") as dict_out:
         if not dev:
             dict_out.write(header)
         dict_out.writelines("%s\n" % line for line in dict_processed)
@@ -93,7 +93,7 @@ def main(args):
         table_out.write(dump_lua(alphabet_to_chars_lua))
 
     global output
-    output = dict_data_dev if args.dev else ".."
+    output = dict_data_dev if args.dev else "../dicts"
 
     for file in os.listdir("../cache"):
         if fnmatch.fnmatch(file, "*.yaml"):

@@ -70,7 +70,6 @@ update_dicts_basic() {
 
 gen_dicts_basic() {
   _fix_phrase_dict_pre
-  cp ../assets/glime_fix.dict.yaml .
   cp ../assets/singch.yaml ./glime_base.dict.yaml
   cp ./rime-essay/essay.txt .
   cp ./rime-pinyin-simp/pinyin_simp.dict.yaml .
@@ -84,6 +83,7 @@ gen_dicts_basic() {
   yarn install; node emoji.js
   rm ./pinyin_simp.dict.yaml
   rm ./sys.dict.yaml
+  rm ./THUOCL.dict.yaml
   ../src/heteronyms.py
   _fix_phrase_dict_post
   ../src/glime_encode.py

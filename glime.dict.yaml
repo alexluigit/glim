@@ -4,10 +4,8 @@ version: "2021.9.09"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
-  - glime_base
-  - glime_fix
-  - glime_phrase
-  - zhwiki
-  - THUOCL
+  - dicts/glime_base
+  - dicts/glime_phrase
+  - dicts/zhwiki
 ...
 
