@@ -2,4 +2,4 @@ build/
 cache/
 *.userdb/
 custom_phrase.txt
-/glime.custom.yaml
+/glim.custom.yaml

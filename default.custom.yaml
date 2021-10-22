@@ -1,6 +1,6 @@
 patch:
   schema_list:
-    - { schema: glime }
+    - { schema: glim }
 
   menu:
     page_size: 3

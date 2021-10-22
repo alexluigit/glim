@@ -1,0 +1,11 @@
+---
+name: glim
+version: "2021.9.09"
+sort: by_weight
+use_preset_vocabulary: true
+import_tables:
+  - dicts/glim_base
+  - dicts/glim_phrase
+  - dicts/zhwiki
+...
+
