@@ -44,12 +44,22 @@ _fix_phrase_dict_pre() {
 
 _fix_phrase_dict_post() {
   local fix_phrases=(sed -i '"')
-  fix_phrases+=("s/^尼国//;")
+  fix_phrases+=("s/^尼国\\t.*//;")
   fix_phrases+=("s/^汤浅\\t.*//;")
+  fix_phrases+=("s/^中就\\t.*//;")
+  fix_phrases+=("s/^荒诞\\t.*/荒诞\\thuang dan\\t50000/;")
   fix_phrases+=("s/^堂前\\t.*/堂前\\ttang qian\\t1000/;")
   fix_phrases+=('"' ./glim_phrase.dict.yaml)
   eval ${fix_phrases[@]}
   echo "Fixed wrong phrases"
+}
+
+_update_emoji() {
+  cp ../src/{emoji.js,package.json} .
+  yarn add gemoji --latest
+  local version=$(yarn info gemoji version --silent)
+  GEMOJI_VER=$version node emoji.js
+  cp ./emoji.dict.yaml ..
 }
 
 update_dicts_basic() {
@@ -78,16 +88,13 @@ gen_dicts_basic() {
   cat ./THUOCL/data/*.txt > THUOCL.txt
   ../src/thuocl2rime.py THUOCL.txt ../cache/THUOCL.dict.yaml
   diff ./phrase-pinyin-data/large_pinyin.txt pdb.txt
-  ../src/glim_dict_gen.py --minfreq=$minfreq
-  # ../src/glim_remove_trad_char.py
-  cp ../src/{emoji.js,package.json} .
-  yarn install; node emoji.js
-  rm ./pinyin_simp.dict.yaml
-  rm ./sys.dict.yaml
-  rm ./THUOCL.dict.yaml
+  $skip_gen || ../src/glim_dict_gen.py
+  $update_emoji && _update_emoji
   ../src/heteronyms.py
   _fix_phrase_dict_post
   cp ../assets/glim_base.dict.yaml ../dicts
+  cp ./glim_phrase.dict.yaml ../dicts
+  cp ./zhwiki.dict.yaml ../dicts
   ../src/glim_encode.py
 }
 
