@@ -123,6 +123,9 @@ def heteronyms(singch_dict):
         else:
             dict_8105[han]["heteronym"] = False
 
+    ## 得，嘚 同为 [ de, dei ], 会影响 ensure_different_onechar
+    dict_8105["得"]["heteronym"] = False
+
     with open(dict_output, "w") as dict_out:
         dict_out.write("local charset_table = ")
         dict_out.write(dump_lua(dict_8105))

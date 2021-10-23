@@ -62,7 +62,7 @@ local charset_table = {
     ["恩"] = {["rank"] = 60, ["heteronym"] = false},
     ["过"] = {["rank"] = 61, ["heteronym"] = false},
     ["点"] = {["rank"] = 62, ["heteronym"] = false},
-    ["得"] = {["rank"] = 63, ["heteronym"] = {["德"] = 63, ["嘚"] = 766}},
+    ["得"] = {["rank"] = 63, ["heteronym"] = false},
     ["再"] = {["rank"] = 64, ["heteronym"] = false},
     ["里"] = {["rank"] = 65, ["heteronym"] = false},
     ["于"] = {["rank"] = 66, ["heteronym"] = false},
