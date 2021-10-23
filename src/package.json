@@ -1,6 +1,7 @@
 {
   "main": "emoji.js",
   "type": "module",
+  "license": "MIT",
   "dependencies": {
     "gemoji": "*"
   }

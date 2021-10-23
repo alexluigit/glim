@@ -1,8 +1,10 @@
 ---
 name: emoji
-version: "2021-10-22"
+version: "7.0.0"
 sort: by_weight
+use_preset_vocabulary: true
 ...
+
 😀	grinning
 😃	smiley
 😄	smile
@@ -1494,6 +1496,7 @@ sort: by_weight
 ©️	copyright
 ®️	registered
 ™️	tm
+#️⃣	hash
 *️⃣	asterisk
 0️⃣	zero
 1️⃣	one
