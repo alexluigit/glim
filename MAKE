@@ -3,16 +3,18 @@
 INIT_DIR=$(dirname $(readlink -f "$0"))
 
 skip_update=false
+skip_gen=false
 reset_custom=false
 update_sogou=false
-minfreq=10000
+update_emoji=false
 
-while getopts "m:csn" opt; do
+while getopts "cesug" opt; do
   case $opt in
-    m) minfreq=$OPTARG;;
     c) reset_custom=true;;
+    e) update_emoji=true;;
     s) update_sogou=true;;
-    n) skip_update=true;;
+    u) skip_update=true;;
+    g) skip_gen=true;;
   esac
 done
 shift $((OPTIND -1))

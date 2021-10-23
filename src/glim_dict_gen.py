@@ -327,7 +327,7 @@ def main(args):
 
     # 合并 THUOCL 词库
     text = open("THUOCL.dict.yaml", "r", encoding="utf-8").read()
-    r = generator.mergeDict(text, 1, 0, 100000, PrintProcess("正在合并 THUOCL (%s/%s)").process)
+    r = generator.mergeDict(text, 0.01, 0, 100000, PrintProcess("正在合并 THUOCL (%s/%s)").process)
     print("成功合并 THUOCL %s 个汉字， %s 个词组。" % r)
 
     # 合并 rime 自带的八股文
@@ -355,8 +355,9 @@ def main(args):
         10000, PrintProcess("正在取得每个词组的拼音 (%s/%s)").process
     )
 
-    # open(word_dict_name + ".dict.yaml", "w").write(word_dict_text)
-    open(parse_dict_name + ".dict.yaml", "w").write(parse_dict_text)
+    with open(parse_dict_name + ".dict.yaml", "w") as phrase_out:
+        phrase_out.write("---\nname: glim_phrase\nversion: \"1.0.0\"\nsort: by_weight\n...\n")
+        phrase_out.write(parse_dict_text)
     return 0
 
 
