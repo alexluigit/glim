@@ -79,8 +79,8 @@ def heteronyms(singch_dict):
         if not re.match("[a-z]+", lazy_full_dict[k][0]):
             lazy_full_dict[k] = list(map(normalPinyin, full_py_dict[k][0]))
 
-    singch = open(singch_dict, "r").read().splitlines()
-    dict_raw = list(map(lambda x: x.split("\t"), singch))
+    chars = list(filter(lambda x: not re.match("[a-z-.# ]|^$", x), open(singch_dict, "r").read().splitlines()))
+    dict_raw = list(map(lambda x: x.split("\t"), chars))
 
     for item in dict_raw:
         han = item[0]
@@ -129,7 +129,7 @@ def heteronyms(singch_dict):
 
 if __name__ == "__main__":
     dict_data_dev = "../cache/dict_data"
-    singch_dict = "../assets/singch.yaml"
+    singch_dict = "../assets/glim_base.dict.yaml"
     lvl_all_ch_set = "../assets/8105.txt"
     if not os.path.exists(dict_data_dev):
         os.makedirs(dict_data_dev)

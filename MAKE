@@ -70,7 +70,6 @@ update_dicts_basic() {
 
 gen_dicts_basic() {
   _fix_phrase_dict_pre
-  cp ../assets/singch.yaml ./glim_base.dict.yaml
   cp ./rime-essay/essay.txt .
   cp ./rime-pinyin-simp/pinyin_simp.dict.yaml .
   cp ./rime-settings/dicts/sys.dict.yaml .
@@ -86,6 +85,7 @@ gen_dicts_basic() {
   rm ./THUOCL.dict.yaml
   ../src/heteronyms.py
   _fix_phrase_dict_post
+  cp ../assets/glim_base.dict.yaml ../dicts
   ../src/glim_encode.py
 }
 
