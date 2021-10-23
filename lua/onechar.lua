@@ -21,7 +21,7 @@ local function filter(cands, env)
     and caret - TAB_CARET == 2 then
     local selected_text = {}
     for cand in cands:iter() do
-      if env.charset_table[cand.text] then
+      if CHARSET_TABLE[cand.text] then
         table.insert(selected, cand)
         selected_text[cand.text] = 1
       else
@@ -29,11 +29,11 @@ local function filter(cands, env)
       end
     end
     for i, cand in ipairs(selected) do
-      local cand_prop = env.charset_table[cand.text]
-      if type(cand_prop) == "number" then
-        cand.quality = cand_prop
+      local cand_prop = CHARSET_TABLE[cand.text]
+      if not cand_prop["heteronym"] then
+        cand.quality = cand_prop["rank"]
       else
-        for k, v in pairs(cand_prop) do
+        for k, v in pairs(cand_prop["heteronym"]) do
           if selected_text[k] then cand.quality = v end
         end
       end
@@ -62,7 +62,6 @@ local init = function(env)
   }
   env.onechar = onechar
   env.fixed = fixed
-  env.charset_table = require("charset_table")
   env.alpha_table = (layout_types[layout] == 2 and alpha_table.table_II or alpha_table.table_I)
 end
 

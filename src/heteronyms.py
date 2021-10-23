@@ -113,13 +113,15 @@ def heteronyms(singch_dict):
 
     dict_8105 = {}
     for han in sorted_8105:
+        dict_8105[han] = {}
+        dict_8105[han]["rank"] = sorted_8105.index(han)
         if is_heteronyms(han):
-            dict_8105[han] = {}
+            dict_8105[han]["heteronym"] = {}
             for pair in heteronyms_dict[han]:
-                if not pair[0] in dict_8105[han].keys():
-                    dict_8105[han][pair[0]] = pair[1]
+                if not pair[0] in dict_8105[han]["heteronym"].keys():
+                    dict_8105[han]["heteronym"][pair[0]] = pair[1]
         else:
-            dict_8105[han] = han_py_list.index(han + " " + lazy_full_dict[han][0])
+            dict_8105[han]["heteronym"] = False
 
     with open(dict_output, "w") as dict_out:
         dict_out.write("local charset_table = ")
