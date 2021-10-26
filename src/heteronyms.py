@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# import json
 import os
 import re
 import unicodedata
@@ -60,6 +59,8 @@ def get_heteronyms_ch(pair):
         i += 1
         if len(py_han_dict[py]) > i:
             han_same = py_han_dict[py][i]
+    if han_same == han:
+        print(han_same)
     return [han_same, han_py_list.index(han + " " + py)]
 
 
@@ -123,7 +124,7 @@ def heteronyms(singch_dict):
         else:
             dict_8105[han]["heteronym"] = False
 
-    ## 得，嘚 同为 [ de, dei ], 会影响 ensure_different_onechar
+    ## 得，嘚 同为 [ de, dei ], 会影响 「得」字排序
     dict_8105["得"]["heteronym"] = False
 
     with open(dict_output, "w") as dict_out:

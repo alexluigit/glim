@@ -22,7 +22,6 @@ switches:
   - name: full_shape
     states: [ 半, 全 ]
 
-
 engine:
   processors:
     - recognizer
