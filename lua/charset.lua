@@ -1,12 +1,13 @@
 --[[
 charset_filter: 滤除 8105 外汉字
 --]]
+local charset_table = require("tables.charset_table")
 
-local function is_ext_ch(charset, text)
+local function is_ext_ch(text)
   if utf8.len(text) > 1 then
     return false
   else
-    if charset[text] then
+    if charset_table[text] then
       return false
     else
       return true
@@ -22,7 +23,7 @@ local function charset_filter(cands, env)
     return
   end
   for cand in cands:iter() do
-    if not is_ext_ch(env.charset_table, cand.text) then
+    if not is_ext_ch(cand.text) then
       yield(cand)
     else
       table.insert(rest, cand)
@@ -33,9 +34,4 @@ local function charset_filter(cands, env)
   end
 end
 
-local function init(env)
-  local charset_table = require("charset_table")
-  env.charset_table = charset_table
-end
-
-return { init = init, func = charset_filter }
+return charset_filter

@@ -4,9 +4,9 @@ oneword_filter: 单字固定顺序
 
 local input_helper = require("helpers.input")
 local cand_helper = require("helpers.candidate")
+local charset_table = require("tables.charset_table")
 
 local function filter(cands, env)
-  local charset_table = env.charset_table
   local ctx = env.engine.context
   local input = ctx.input
   local caret = ctx.caret_pos
@@ -36,8 +36,7 @@ local function filter(cands, env)
 end
 
 local init = function(env)
-  local alpha_table = require("alphabet_table")
-  local charset_table = require("charset_table")
+  local alpha_table = require("tables.alphabet_table")
   local fixed = env.engine.schema.config:get_bool("translator/fixed_single_ch")
   local layout = env.engine.schema.config:get_string("speller/layout")
   local layout_types = {
@@ -50,7 +49,6 @@ local init = function(env)
   }
   env.fixed = fixed
   env.alpha_table = (layout_types[layout] == 2 and alpha_table.table_II or alpha_table.table_I)
-  env.charset_table = charset_table
 end
 
 return {init = init, func = filter}

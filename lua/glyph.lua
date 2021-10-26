@@ -7,6 +7,7 @@ local AUTO_GLYPH_WORD = 2
 local AUTO_GLYPH_PHRASE = 3
 local input_helper = require("helpers.input")
 local cand_helper = require("helpers.candidate")
+local charset_table = require("tables.charset_table")
 
 local __filter_char = function (cand, env, ch, gl_input, glyph_lvl, matched)
   local py1 = env.glyph_table[ch]["first_py"]
@@ -54,7 +55,7 @@ local __filter_phrase = function
 end
 
 local __display_matches = function (env, ph_top, gl_input, matched, rest, glyph_lvl)
-  cand_helper.sort_by_rank(env.charset_table, matched, glyph_lvl)
+  cand_helper.sort_by_rank(charset_table, matched, glyph_lvl)
   if glyph_lvl == REVERSE_LOOKUP then
     for i, cand in ipairs(matched) do yield(cand) end
     return
@@ -137,7 +138,7 @@ local filter = function (cands, env)
 end
 
 local init = function (env)
-  local glyph = require("glyph_table")
+  local glyph = require("tables.glyph_table")
   local config = env.engine.schema.config
   local layout = config:get_string("speller/layout")
   local layout_types = {
@@ -153,7 +154,6 @@ local init = function (env)
   env.gl_ranking_rule = config:get_string("translator/glyph_ranking_rule")
   if layout == "full" then env.gl_auto_level = 0 end
   env.glyph_table = (layout_types[layout] == 2 and glyph.table_II or glyph.table_I)
-  env.charset_table = require("charset_table")
 end
 
 return { init = init, func = filter }
