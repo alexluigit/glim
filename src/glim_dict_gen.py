@@ -62,29 +62,6 @@ class DictGenerator:
         }
 
         """
-            从 jieba 库里的 FREQ 得到所有字音的频率，转换得到：
-                self.word_dict 所有字的字音频率字典，格式为
-                    {
-                        (字,音): 频,
-                        (字,音): 频,
-                        (字,音): 频,
-                        ...
-                    }
-        """
-        self.word_dict = {}
-        for i in self.word_pinyin_s:
-            word = chr(i)
-            freq = jieba.dt.FREQ[word] if word in jieba.dt.FREQ else 1
-
-            # 将多音字的第一个音设为 FREQ 里的频率
-            self.word_dict[(word, self.word_pinyin_s[i][0])] = freq
-
-            for pinyin in self.word_pinyin_s[i][1:]:
-                # 将其它音的频率设为 1
-                if (word, pinyin) not in self.word_dict:
-                    self.word_dict[(word, pinyin)] = 1
-
-        """
             self.phrase_r 所有词的频率信息字典，格式为
                 {
                     词: [音,频] ,
@@ -201,27 +178,8 @@ class DictGenerator:
             if word is None or len(word) == 0:
                 continue
 
-            # 当 word 为单字时，将第二列视为拼音，如果出错则设为该字的第一个拼音
-            pinyin = None
-            if len(word) == 1:
-                if len(v) > 1:
-                    if v[1].isalpha():
-                        pinyin = self.fixPinyin(v[1])
-                if pinyin is None:
-                    pinyin = self.word_pinyin_s[ord(word)][0]
-
-            # 如果是单字，则合并到 self.word_dict 里
-            if len(word) == 1:
-                word = self.t2s.convert(word)  # 确保字为简体
-                key = (word, pinyin)
-                if key in self.word_dict:
-                    self.word_dict[key] += freq
-                else:
-                    sys.stderr.write("新的字音： %s\t%s\n" % key)
-                word_count += 1
-
             # 如果是词组，则合并到 self.phrase_r 里
-            else:
+            if len(word) > 1:
                 pinyin = None
                 if len(v) > 1:
                     if re.match(r"^[a-z ]+$", v[1]):
@@ -250,20 +208,6 @@ class DictGenerator:
                     callbackFunc(count, len(text_s))
 
         return (word_count, parse_count)
-
-    def getWordDictText(self):
-        """
-        生成单字的 rime 字典文本
-        """
-        # 按频率倒序排序
-        word_list = [(key[0], key[1], self.word_dict[key]) for key in self.word_dict]
-        word_list.sort(key=lambda w: w[2], reverse=True)
-
-        # 生成文本
-        text_dict = ""
-        for word_st in word_list:
-            text_dict += word_st[0] + "\t" + word_st[1] + "\t" + str(word_st[2]) + "\n"
-        return text_dict
 
     def getParseDictText(self, callbackCount=sys.maxsize, callbackFunc=None):
         """
@@ -366,10 +310,7 @@ def main(args):
     )
     print("成功合并 phrase-pinyin-data %s 个汉字， %s 个词组。" % r)
 
-    # word_dict_name = "glim_base"
     parse_dict_name = "glim_phrase"
-
-    # word_dict_text = generator.getWordDictText()
 
     parse_dict_text = generator.getParseDictText(
         10000, PrintProcess("正在取得每个词组的拼音 (%s/%s)").process
