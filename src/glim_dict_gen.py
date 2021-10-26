@@ -16,17 +16,6 @@ replace_symbol_to_no_symbol = pypinyin.style._utils.replace_symbol_to_no_symbol
 initials_set = set(pypinyin.style._constants._INITIALS)  # 声母表
 initials_set.add("ng")
 
-# 修复一些多音字错误
-pypinyin.load_phrases_dict(
-    {
-        "还珠格格": [["huán"], ["zhū"], ["gé"], ["gé"]],
-        "睡不着": [["shuì"], ["bù"], ["zháo"]],
-        "睡不着觉": [["shuì"], ["bù"], ["zháo"], ["jiào"]],
-        "干这一行": [["gàn"], ["zhe"], ["yì"], ["háng"]],
-        "十目一行": [["shí"], ["mù"], ["yī"], ["háng"]],
-    }
-)
-
 with open("../cache/pdb.txt", "r") as pdb:
     f_strip = list(
         filter(lambda x: not re.match("[a-z-.# ]|^$", x), pdb.read().splitlines())
@@ -40,25 +29,6 @@ pypinyin.load_phrases_dict(phrase_fix_dict)
 
 
 class DictGenerator:
-    def fixPinyin(self, pinyin):
-        """
-        检查拼音，规范化拼音，失败则返回 None
-            因为输入法里不允许出现单声母的拼音，
-                否则会出现无法输入正常的词组的情况。
-            而汉字中比如 “嗯” 的拼音是 n 和 ng
-            通常输入法会让 “嗯” 的拼音为 en
-        """
-        if pinyin in initials_set:
-            if pinyin == "n":
-                pinyin = "en"
-            elif pinyin == "m":
-                pinyin = "mu"
-            elif pinyin == "ng":
-                pinyin = "en"
-            else:
-                return None  # 不允许出现单声母的拼音
-        return pinyin
-
     def __init__(self):
         """
         初始化函数，定义了字词频率所需的基本数据结构
@@ -131,6 +101,57 @@ class DictGenerator:
             "差事儿": [["cha", "shi" "er"],	10000 ]
         }
 
+    def fixPinyin(self, pinyin):
+        """
+        检查拼音，规范化拼音，失败则返回 None
+            因为输入法里不允许出现单声母的拼音，
+                否则会出现无法输入正常的词组的情况。
+            而汉字中比如 “嗯” 的拼音是 n 和 ng
+            通常输入法会让 “嗯” 的拼音为 en
+        """
+        if pinyin in initials_set:
+            if pinyin == "n":
+                pinyin = "en"
+            elif pinyin == "m":
+                pinyin = "mu"
+            elif pinyin == "ng":
+                pinyin = "en"
+            else:
+                return None  # 不允许出现单声母的拼音
+        return pinyin
+
+    def fixPhrases(self):
+        """
+        修复一些多音字错误
+        """
+        dict_replace = {
+            "尼国": None,
+            "汤浅": None,
+            "中就": None,
+            "罗唆": None,
+            "罗嗦": None,
+            "回亿": None,
+            "堂前": 1000,
+            "荒诞": 50000,
+            "还珠格格": ["huan", "zhu", "ge", "ge"],
+            "睡不着": ["shui", "bu", "zhao"],
+            "睡不着觉": ["shui", "bu", "zhao", "jiao"],
+            "干这一行": ["gan", "zhe", "yi", "hang"],
+            "十目一行": ["shi", "mu", "yi", "hang"],
+            "逞着劲儿": ["cheng", "zhe", "jin", "er"],
+            "看着火": ["kan", "zhe", "huo"],
+        }
+        for k, v in dict_replace.items():
+            if not v:
+                del self.phrase_r[k]
+            elif type(v) == str:
+                self.phrase_r[v] = self.phrase_r[k]
+                del self.phrase_r[k]
+            elif type(v) == int:
+                self.phrase_r[k][1] = v
+            else:
+                self.phrase_r[k][0] = v
+    
     def mergeDict(
         self, text, weight=1, min_freq=0, callbackCount=sys.maxsize, callbackFunc=None
     ):
@@ -254,7 +275,7 @@ class DictGenerator:
                 count 为当前已处理的个数
                 total_count 为总共数量
         """
-        # 按频率倒序排序
+        self.fixPhrases()
         phrase_main_list = [
             (phrase, self.phrase_r[phrase][0], self.phrase_r[phrase][1])
             for phrase in self.phrase_r
@@ -268,6 +289,7 @@ class DictGenerator:
             for phrase in self.phrase_fix
         ]
         phrase_list = phrase_main_list + phrase_heteronyms_list + phrase_fix_list
+        # 按频率倒序排序
         phrase_list.sort(key=lambda w: w[2], reverse=True)
 
         # 生成文本
@@ -317,9 +339,7 @@ def main(args):
     print("成功合并华宇中文词库 %s 个汉字， %s 个词组。" % r)
 
     # 合并袖珍简化字拼音的词库
-    text = (
-        open("pinyin_simp.dict.yaml", "r", encoding="utf-8").read().replace("罗嗦", "啰嗦")
-    )
+    text = open("pinyin_simp.dict.yaml", "r", encoding="utf-8").read()
     r = generator.mergeDict(
         text, 1, 0, 100000, PrintProcess("正在合并袖珍简化字拼音的词库 (%s/%s)").process
     )
