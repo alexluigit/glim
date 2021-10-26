@@ -47,11 +47,11 @@ engine:
     - table_translator@emoji
     - table_translator@custom_phrase
   filters:
-    - lua_filter@glyph_filter
     - lua_filter@charset_filter
+    - lua_filter@oneword_filter
+    - lua_filter@glyph_filter
     - simplifier
     - uniquifier
-    - lua_filter@onechar_filter
 
 speller:
   delimiter: " '"
