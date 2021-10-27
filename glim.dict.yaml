@@ -2,7 +2,7 @@
 name: glim
 version: "2021.9.09"
 sort: by_weight
-use_preset_vocabulary: true
+use_preset_vocabulary: false # bgw has been merged into glim_phrase
 import_tables:
   - dicts/glim_base
   - dicts/glim_phrase
