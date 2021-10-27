@@ -22,7 +22,7 @@ sort: by_weight
 上	shang	828545
 人	ren	814450
 到	dao	799677
-吧	ba	796285
+把	ba	796285
 去	qu	785632
 对	dui	745692
 中	zhong	730274
@@ -43,7 +43,7 @@ sort: by_weight
 吗	ma	462797
 年	nian	459999
 几	ji	454756
-把	ba	439772
+吧	ba	439772
 下	xia	436353
 又	you	417331
 能	neng	416683
@@ -116,7 +116,7 @@ sort: by_weight
 却	que	149592
 高	gao	148747
 走	zou	147588
-家	jia	147255
+加	jia	147255
 嘛	ma	145653
 玩	wan	139788
 开	kai	138896
@@ -143,7 +143,7 @@ sort: by_weight
 各	ge	103747
 带	dai	103707
 像	xiang	102127
-加	jia	100646
+家	jia	100646
 写	xie	99817
 拿	na	98015
 行	xing	97860
@@ -226,7 +226,7 @@ sort: by_weight
 子	zi	59538
 强	qiang	58237
 书	shu	58185
-省	sheng	58100
+声	sheng	58100
 唉	ai	57960
 怕	pa	57660
 受	shou	57473
@@ -280,7 +280,7 @@ sort: by_weight
 转	zhuan	45788
 级	ji	45596
 机	ji	45253
-位	wei	45243
+伟	wei	45243
 另	ling	45211
 越	yue	45092
 黄	huang	44366
@@ -402,7 +402,7 @@ sort: by_weight
 村	cun	31397
 关	guan	31297
 格	ge	31131
-声	sheng	31072
+省	sheng	31072
 座	zuo	30979
 累	lei	30882
 查	cha	30794
@@ -519,7 +519,7 @@ sort: by_weight
 房	fang	22141
 集	ji	22093
 洗	xi	22079
-亿	yi	22075
+依	yi	22075
 克	ke	22047
 眼	yan	22041
 情	qing	22035
@@ -637,7 +637,7 @@ sort: by_weight
 诗	shi	17421
 词	ci	17407
 江	jiang	17395
-欲	yu	17325
+宇	yu	17325
 民	min	17288
 玉	yu	17283
 调	diao	17282
@@ -668,7 +668,7 @@ sort: by_weight
 沈	shen	16526
 业	ye	16462
 谢	xie	16453
-室	shi	16446
+实	shi	16446
 抱	bao	16442
 田	tian	16434
 阳	yang	16324
@@ -740,7 +740,7 @@ sort: by_weight
 俩	lia	14423
 准	zhun	14410
 果	guo	14398
-实	shi	14359
+室	shi	14359
 念	nian	14355
 库	ku	14318
 输	shu	14317
@@ -795,7 +795,7 @@ sort: by_weight
 静	jing	13213
 恨	hen	13187
 灯	deng	13172
-喂	wei	13167
+味	wei	13167
 批	pi	13154
 然	ran	13154
 松	song	13153
@@ -843,7 +843,7 @@ sort: by_weight
 语	yu	12452
 持	chi	12441
 武	wu	12413
-依	yi	12410
+亿	yi	12410
 呗	bei	12376
 烂	lan	12366
 插	cha	12365
@@ -886,7 +886,7 @@ sort: by_weight
 野	ye	11786
 胖	pang	11782
 具	ju	11761
-灵	ling	11710
+岭	ling	11710
 举	ju	11672
 博	bo	11662
 微	wei	11654
@@ -911,7 +911,7 @@ sort: by_weight
 堂	tang	11429
 吓	xia	11428
 租	zu	11415
-味	wei	11403
+喂	wei	11403
 怎	zen	11370
 填	tian	11357
 缺	que	11296
@@ -1015,7 +1015,7 @@ sort: by_weight
 熊	xiong	9965
 登	deng	9923
 角	jiao	9907
-魔	mo	9907
+磨	mo	9907
 骑	qi	9892
 删	shan	9872
 奔	ben	9861
@@ -1083,7 +1083,7 @@ sort: by_weight
 泥	ni	9036
 塞	sai	9011
 寻	xun	9005
-施	shi	8996
+拾	shi	8996
 踩	cai	8990
 虚	xu	8984
 职	zhi	8971
@@ -1128,7 +1128,7 @@ sort: by_weight
 帐	zhang	8478
 吉	ji	8475
 屋	wu	8454
-景	jing	8453
+晶	jing	8453
 夹	jia	8442
 拟	ni	8414
 咧	lie	8399
@@ -1320,7 +1320,7 @@ sort: by_weight
 喽	lou	6743
 胸	xiong	6743
 箭	jian	6740
-磨	mo	6739
+魔	mo	6739
 敲	qiao	6737
 胃	wei	6701
 普	pu	6699
@@ -1351,13 +1351,13 @@ sort: by_weight
 冯	feng	6517
 速	su	6516
 拼	pin	6493
-岭	ling	6483
+灵	ling	6483
 芳	fang	6483
 抵	di	6468
 贾	jia	6433
 赖	lai	6417
 财	cai	6415
-伟	wei	6402
+位	wei	6402
 启	qi	6401
 捧	peng	6399
 潘	pan	6392
@@ -1367,7 +1367,7 @@ sort: by_weight
 郎	lang	6370
 备	bei	6368
 弟	di	6366
-宇	yu	6365
+欲	yu	6365
 扬	yang	6362
 瑞	rui	6359
 移	yi	6352
@@ -1387,7 +1387,7 @@ sort: by_weight
 斜	xie	6269
 尊	zun	6260
 仪	yi	6250
-毕	bi	6236
+毙	bi	6236
 液	ye	6232
 淡	dan	6232
 砖	zhuan	6229
@@ -1892,7 +1892,7 @@ sort: by_weight
 瞭	liao	3883
 舔	tian	3883
 饶	rao	3877
-晶	jing	3876
+景	jing	3876
 宅	zhai	3875
 薇	wei	3874
 卓	zhuo	3872
@@ -1994,7 +1994,7 @@ sort: by_weight
 轿	jiao	3571
 撮	cuo	3568
 淑	shu	3566
-拾	shi	3562
+施	shi	3562
 腔	qiang	3561
 萍	ping	3561
 序	xu	3559
@@ -2773,7 +2773,7 @@ sort: by_weight
 碘	dian	1916
 昔	xi	1915
 玫	mei	1915
-婴	ying	1913
+嘤	ying	1913
 陕	shan	1913
 赣	gan	1912
 拴	shuan	1910
@@ -3078,7 +3078,7 @@ sort: by_weight
 笋	sun	1580
 浼	mei	1579
 耙	ba	1579
-毙	bi	1577
+毕	bi	1577
 臻	zhen	1576
 弩	nu	1575
 裔	yi	1575
@@ -3646,7 +3646,7 @@ sort: by_weight
 枷	jia	1160
 啷	lang	1158
 岐	qi	1158
-曙	shu	1157
+暑	shu	1157
 氐	di	1157
 垬	hong	1156
 恳	ken	1154
@@ -3780,7 +3780,7 @@ sort: by_weight
 垛	duo	1092
 钯	ba	1092
 氦	hai	1091
-暑	shu	1090
+曙	shu	1090
 绥	sui	1090
 绩	ji	1090
 艮	gen	1090
@@ -4003,7 +4003,7 @@ sort: by_weight
 汲	ji	999
 础	chu	997
 舂	chong	996
-嬉	xi	995
+媳	xi	995
 耽	dan	995
 蟮	shan	995
 匈	xiong	994
@@ -4454,7 +4454,7 @@ sort: by_weight
 唾	tuo	856
 湜	shi	856
 嗙	pang	855
-嘤	ying	855
+婴	ying	855
 崚	leng	855
 萤	ying	855
 蔺	lin	855
@@ -4502,7 +4502,7 @@ sort: by_weight
 骐	qi	846
 扈	hu	845
 椾	jian	845
-媳	xi	844
+嬉	xi	844
 嘣	beng	842
 洄	hui	842
 愭	qi	841
