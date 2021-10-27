@@ -78,10 +78,10 @@ gen_dicts_basic() {
   diff ./phrase-pinyin-data/large_pinyin.txt pdb.txt
   $skip_gen || ../src/glim_dict_gen.py
   $update_emoji && _update_emoji
-  ../src/heteronyms.py
+  ../src/glim_charset_gen.py
+  ../src/glim_encode.py
   cp ./glim_phrase.dict.yaml ../dicts
   cp ./zhwiki.dict.yaml ../dicts
-  ../src/glim_encode.py
 }
 
 $skip_update || update_dicts_basic

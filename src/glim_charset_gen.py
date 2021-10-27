@@ -64,7 +64,7 @@ def get_heteronyms_ch(pair):
     return [han_same, han_py_list.index(han + " " + py)]
 
 
-def heteronyms(singch_dict):
+def charset_gen(singch_dict):
     full_py_dict = {}  # { ..., "也": [["yě"]], ... }
     charset_list = open(lvl_all_ch_set, "r").read().splitlines()
     for line in charset_list:
@@ -140,4 +140,4 @@ if __name__ == "__main__":
     if not os.path.exists(dict_data_dev):
         os.makedirs(dict_data_dev)
     dict_output = dict_data_dev + "/charset_table.lua"
-    exit(heteronyms(singch_dict))
+    exit(charset_gen(singch_dict))
