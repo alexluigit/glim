@@ -45,7 +45,6 @@ end
 
 function Candidate.place_phrase
   (phrase, glyph_match, rule, top_quality, input_len, weight)
-  -- local weight = 1 + math.log10(weight)
   local top = 1
   local bottom = 2
   if not phrase then
@@ -59,7 +58,6 @@ function Candidate.place_phrase
   elseif rule == "glyph" then
     return bottom
   else
-    print("ph: ", phrase.quality, "args: ", weight, top_quality, "gl: ", top_quality * weight)
     return phrase.quality >= top_quality * weight and top or bottom
   end
 end
