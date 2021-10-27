@@ -7,9 +7,8 @@ local AUTO_GLYPH_WORD = 2
 local AUTO_GLYPH_PHRASE = 3
 local input_helper = require("helpers.input")
 local cand_helper = require("helpers.candidate")
-local charset_table = require("tables.charset_table")
 
-local __filter_char = function (cand, env, ch, gl_input, glyph_lvl, matched)
+local __filter_char = function (cand, env, ch, gl_input, glyph_lvl, matched, rest)
   local py1 = env.glyph_table[ch]["first_py"]
   local py2 = env.glyph_table[ch]["last_py"]
   local gl1 = env.glyph_table[ch]["first_gl"]
@@ -23,6 +22,8 @@ local __filter_char = function (cand, env, ch, gl_input, glyph_lvl, matched)
     if glyph_lvl == REVERSE_LOOKUP or lvl < 3 then
       table.insert(matched, cand)
     end
+  else
+    table.insert(rest, cand)
   end
 end
 
@@ -55,7 +56,6 @@ local __filter_phrase = function
 end
 
 local __display_matches = function (env, ph_top, gl_input, matched, rest, glyph_lvl)
-  cand_helper.sort_by_rank(charset_table, matched, glyph_lvl)
   if glyph_lvl == REVERSE_LOOKUP then
     for i, cand in ipairs(matched) do yield(cand) end
     return
@@ -76,7 +76,7 @@ local __display_matches = function (env, ph_top, gl_input, matched, rest, glyph_
     end
   end
   local place_phrase = cand_helper.place_phrase(
-    ph_top, valid_match, rule, top_qual, caret)
+    ph_top, valid_match, rule, top_qual, caret, env.gl_weight)
   if place_phrase == TOP then
     yield(ph_top)
     recorded = input_helper.set_history(ctx, caret, ph_text)
@@ -95,19 +95,22 @@ local _filter_cands = function (cands, env, gl_input, glyph_lvl)
   local ph_top = nil
   local matched = {}
   local rest = {}
+  local words_text = {}
   for cand in cands:iter() do
-    local tail_ch, head_ch, valid_words = cand_helper.get_words(cand, env.glyph_table)
+    cand_helper.append_valid_word(cand, words_text)
+    local tail_ch, head_ch, valid_words = cand_helper.get_words(cand)
     if not valid_words then table.insert(rest, cand); goto skip_to_next end
     if head_ch then
       ph_top = __filter_phrase(
         cand, env, tail_ch, head_ch, gl_input, glyph_lvl, ph_top, matched, rest)
     elseif glyph_lvl <= 2 then
-      __filter_char(cand, env, tail_ch, gl_input, glyph_lvl, matched)
+      __filter_char(cand, env, tail_ch, gl_input, glyph_lvl, matched, rest)
     else
       table.insert(rest, cand)
     end
     ::skip_to_next::
   end
+  cand_helper.sort_by_heteronym(matched, words_text, glyph_lvl)
   __display_matches(env, ph_top, gl_input, matched, rest, glyph_lvl)
 end
 
@@ -152,6 +155,7 @@ local init = function (env)
   env.gl_hint_level = config:get_int("translator/glyph_hint_level")
   env.gl_auto_level = config:get_int("translator/glyph_auto_level")
   env.gl_ranking_rule = config:get_string("translator/glyph_ranking_rule")
+  env.gl_weight = config:get_int("translator/glyph_weight")
   if layout == "full" then env.gl_auto_level = 0 end
   env.glyph_table = (layout_types[layout] == 2 and glyph.table_II or glyph.table_I)
 end

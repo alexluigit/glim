@@ -4,7 +4,6 @@ oneword_filter: 单字固定顺序
 
 local input_helper = require("helpers.input")
 local cand_helper = require("helpers.candidate")
-local charset_table = require("tables.charset_table")
 
 local function filter(cands, env)
   local ctx = env.engine.context
@@ -20,10 +19,11 @@ local function filter(cands, env)
       yield(cand)
     end
   elseif env.fixed and input:match("%l+") and seg_len == 2 then
-    local matched, rest = cand_helper.sort_by_heteronym(cands, charset_table)
+    local words_text, filtered, rest = cand_helper.filter_charset(cands)
+    cand_helper.sort_by_heteronym(filtered, words_text)
     local rec = false
     local history = input_helper.get_history(ctx, 1)
-    for i, cand in ipairs(matched) do
+    for i, cand in ipairs(filtered) do
       local text = cand.text
       local valid = input_helper.validate(history, text) or input:len() > 2
       if not rec then rec = input_helper.set_history(ctx, seg_len, text) end

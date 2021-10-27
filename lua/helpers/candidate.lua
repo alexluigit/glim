@@ -1,15 +1,37 @@
 local Candidate = {}
 local AUTO_GLYPH_WORD = 2
+local charset_table = require("../tables.charset_table")
 
-function Candidate.get_words (cand, glyph_table)
+function Candidate.append_valid_word (cand, words_text)
+  if charset_table[cand.text] then
+    words_text[cand.text] = 1
+  end
+end
+
+function Candidate.filter_charset (cands)
+  local filtered = {}
+  local rest = {}
+  local words_text = {}
+  for cand in cands:iter() do
+    if charset_table[cand.text] then
+      table.insert(filtered, cand)
+      words_text[cand.text] = 1
+    else
+      table.insert(rest, cand)
+    end
+  end
+  return words_text, filtered, rest
+end
+
+function Candidate.get_words (cand)
   local text = cand.text
   local ch_idxs = {}
   for i in utf8.codes(text) do table.insert(ch_idxs, i) end
   local tail_ch = utf8.char(utf8.codepoint(text, ch_idxs[#ch_idxs]))
   local head_ch = nil
   if #ch_idxs > 1 then head_ch = utf8.char(utf8.codepoint(text, ch_idxs[#ch_idxs - 1])) end
-  local valid_tail_word = glyph_table[tail_ch]
-  local valid_head_word = (not head_ch) or glyph_table[head_ch]
+  local valid_tail_word = charset_table[tail_ch]
+  local valid_head_word = (not head_ch) or charset_table[head_ch]
   return tail_ch, head_ch, (valid_tail_word and valid_head_word)
 end
 
@@ -21,7 +43,9 @@ function Candidate.get_hint (hint_lvl, py, gl)
   end
 end
 
-function Candidate.place_phrase (phrase, glyph_match, rule, top_quality, input_len)
+function Candidate.place_phrase
+  (phrase, glyph_match, rule, top_quality, input_len, weight)
+  -- local weight = 1 + math.log10(weight)
   local top = 1
   local bottom = 2
   if not phrase then
@@ -35,42 +59,26 @@ function Candidate.place_phrase (phrase, glyph_match, rule, top_quality, input_l
   elseif rule == "glyph" then
     return bottom
   else
-    return phrase.quality > top_quality and top or bottom
+    print("ph: ", phrase.quality, "args: ", weight, top_quality, "gl: ", top_quality * weight)
+    return phrase.quality >= top_quality * weight and top or bottom
   end
 end
 
-function Candidate.sort_by_rank (ch_table, matched, glyph_lvl)
-  if glyph_lvl > AUTO_GLYPH_WORD then return end
-  local by_rank = function(a, b)
-    return ch_table[a.text]["rank"] < ch_table[b.text]["rank"]
-  end
-  table.sort(matched, by_rank)
-end
-
-function Candidate.sort_by_heteronym (cands, charset_table)
-  local matched = {}
-  local rest = {}
-  local matched_text = {}
-  for cand in cands:iter() do
-    if charset_table[cand.text] then
-      table.insert(matched, cand)
-      matched_text[cand.text] = 1
-    else
-      table.insert(rest, cand)
-    end
-  end
-  for i, cand in ipairs(matched) do
+function Candidate.sort_by_heteronym (tbl, words_text, glyph_lvl)
+  if (glyph_lvl or 0) > AUTO_GLYPH_WORD then return end
+  local get_rank = function (cand)
     local cand_prop = charset_table[cand.text]
+    local rank = 10000
     if not cand_prop["heteronym"] then
-      cand.quality = cand_prop["rank"]
+      rank = cand_prop["rank"]
     else
       for k, v in pairs(cand_prop["heteronym"]) do
-        if matched_text[k] then cand.quality = v end
+        if words_text[k] then rank = v end
       end
     end
+    return rank
   end
-  table.sort(matched, function(a, b) return a.quality < b.quality end)
-  return matched, rest
+  table.sort(tbl, function(a, b) return get_rank(a) < get_rank(b) end)
 end
 
 return Candidate
