@@ -8,6 +8,7 @@ patch:
   __include: glim.layout:/flypy   # 小鹤
   # __include: glim.layout:/natural # 自然码
   # __include: glim.layout:/ms      # 微软
+  # __include: glim.layout:/pyjj    # 拼音加加
   # __include: glim.layout:/full    # 全拼
   # __include: glim.layout:/chole   # chole (Colemak 首推)
 

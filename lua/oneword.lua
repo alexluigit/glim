@@ -44,7 +44,7 @@ local init = function(env)
     ["flypy"]=1,
     ["ms"]=1,
     ["natural"]=1,
-    ["double_plus"]=2,
+    ["pyjj"]=2,
     ["chole"]=2
   }
   env.fixed = fixed
