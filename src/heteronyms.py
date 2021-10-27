@@ -135,7 +135,7 @@ def heteronyms(singch_dict):
 
 if __name__ == "__main__":
     dict_data_dev = "../cache/dict_data"
-    singch_dict = "../assets/glim_base.dict.yaml"
+    singch_dict = "../dicts/glim_base.dict.yaml"
     lvl_all_ch_set = "../assets/8105.txt"
     if not os.path.exists(dict_data_dev):
         os.makedirs(dict_data_dev)

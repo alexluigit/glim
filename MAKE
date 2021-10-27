@@ -79,7 +79,6 @@ gen_dicts_basic() {
   $skip_gen || ../src/glim_dict_gen.py
   $update_emoji && _update_emoji
   ../src/heteronyms.py
-  cp ../assets/glim_base.dict.yaml ../dicts
   cp ./glim_phrase.dict.yaml ../dicts
   cp ./zhwiki.dict.yaml ../dicts
   ../src/glim_encode.py
