@@ -89,18 +89,6 @@ custom_phrase:
 punctuator:
   __include: symbols:/punctuator
   abbrev_suffix: ";;"
-  half_shape/=:
-    ## Prevent symbols.yaml from setting ';' key
-    ',' : { commit: ，}
-    '.' : { commit: 。}
-    '/' : [ ;, '/' ]
-    '?' : { commit: ？}
-    ':' : { commit: ：}
-    '''': { pair: [ 「, 」 ] }
-    '"': { pair: [ 「, 」 ] }
-    '\' : [ 、, '\' ]
-    '|' : [ ·, ・, '|', ｜, '§', '¦', '‖', ︴]
-    '!' : { commit: ！}
 
 recognizer:
   import_preset: default

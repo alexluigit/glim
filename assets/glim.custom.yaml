@@ -100,6 +100,22 @@ patch:
   #### 注意: 该值仅在 glyph_ranking_rule 为 dynamic 时生效。
   translator/glyph_weight: 20
 
+  ### 标点
+  ### 写法:
+  ### "'" : { pair: ["「", "」" ] }  第一次按是「，第二次是」
+  ### '/' : [ '/', ; ]                弹出菜单
+  ### '.' : { commit: 。}            无菜单直接上屏，优先级最高
+  punctuator/half_shape/=:
+    ',' : { commit: ，}
+    '.' : { commit: 。}
+    '/' : [ '/', ; ]
+    '?' : { commit: ？}
+    ':' : { commit: ：}
+    '''': { pair: [ 「, 」 ] }
+    '"' : { pair: [ 「, 」 ] }
+    '\' : [ 、, '\' ]
+    '|' : [ ·, ・, '|', ｜, '§', '¦', '‖', ︴]
+    '!' : { commit: ！}
 
   ## 快捷键
   ### toggle: zh_simp_s2t  切换 [简繁]
