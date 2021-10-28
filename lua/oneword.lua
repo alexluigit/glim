@@ -36,19 +36,10 @@ local function filter(cands, env)
 end
 
 local init = function(env)
-  local alpha_table = require("tables.alphabet_table")
   local fixed = env.engine.schema.config:get_bool("translator/fixed_single_ch")
   local layout = env.engine.schema.config:get_string("speller/layout")
-  local layout_types = {
-    ["full"]=1,
-    ["flypy"]=1,
-    ["ms"]=1,
-    ["natural"]=1,
-    ["pyjj"]=2,
-    ["chole"]=2
-  }
   env.fixed = fixed
-  env.alpha_table = (layout_types[layout] == 2 and alpha_table.table_II or alpha_table.table_I)
+  env.alpha_table = require("tables.alphabet_table")(layout)
 end
 
 return {init = init, func = filter}

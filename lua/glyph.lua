@@ -141,23 +141,14 @@ local filter = function (cands, env)
 end
 
 local init = function (env)
-  local glyph = require("tables.glyph_table")
   local config = env.engine.schema.config
   local layout = config:get_string("speller/layout")
-  local layout_types = {
-    ["full"]=1,
-    ["flypy"]=1,
-    ["ms"]=1,
-    ["natural"]=1,
-    ["pyjj"]=2,
-    ["chole"]=2
-  }
   env.gl_hint_level = config:get_int("translator/glyph_hint_level")
   env.gl_auto_level = config:get_int("translator/glyph_auto_level")
   env.gl_ranking_rule = config:get_string("translator/glyph_ranking_rule")
   env.gl_weight = config:get_int("translator/glyph_weight")
   if layout == "full" then env.gl_auto_level = 0 end
-  env.glyph_table = (layout_types[layout] == 2 and glyph.table_II or glyph.table_I)
+  env.glyph_table = require("tables.glyph_table")(layout)
 end
 
 return { init = init, func = filter }
