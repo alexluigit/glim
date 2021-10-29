@@ -26,7 +26,6 @@ def dump_lua(data):
         )
         return "{" + kv_pairs + "}\n"
 
-
 def fixPinyin(pinyin):
     if pinyin == "n":
         pinyin = "en"
@@ -64,7 +63,7 @@ def get_heteronyms_ch(pair):
     return [han_same, han_py_list.index(han + " " + py)]
 
 
-def charset_gen(singch_dict):
+def charset_gen(singch_dict="../dicts/glim_base.dict.yaml", lvl_all_ch_set="../assets/8105.txt"):
     full_py_dict = {}  # { ..., "也": [["yě"]], ... }
     charset_list = open(lvl_all_ch_set, "r").read().splitlines()
     for line in charset_list:
@@ -127,17 +126,18 @@ def charset_gen(singch_dict):
     ## 得，嘚 同为 [ de, dei ], 会影响 「得」字排序
     dict_8105["得"]["heteronym"] = False
 
+    return dict_8105, py_han_dict
+
+
+if __name__ == "__main__":
+    lua_out = "../cache/lua"
+    singch_dict = "../dicts/glim_base.dict.yaml"
+    lvl_all_ch_set = "../assets/8105.txt"
+    if not os.path.exists(lua_out):
+        os.makedirs(lua_out)
+    dict_output = lua_out + "/charset_table.lua"
+    dict_8105, _ = charset_gen(singch_dict, lvl_all_ch_set)
     with open(dict_output, "w") as dict_out:
         dict_out.write("local charset_table = ")
         dict_out.write(dump_lua(dict_8105))
         dict_out.write("\nreturn charset_table")
-
-
-if __name__ == "__main__":
-    dict_data_dev = "../cache/dict_data"
-    singch_dict = "../dicts/glim_base.dict.yaml"
-    lvl_all_ch_set = "../assets/8105.txt"
-    if not os.path.exists(dict_data_dev):
-        os.makedirs(dict_data_dev)
-    dict_output = dict_data_dev + "/charset_table.lua"
-    exit(charset_gen(singch_dict))

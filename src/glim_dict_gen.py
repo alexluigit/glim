@@ -109,6 +109,7 @@ class DictGenerator:
             "罗嗦": None,
             "回亿": None,
             "是是": None,
+            "视盘": 100,
             "堂前": 1000,
             "荒诞": 50000,
             "别价": ["bie", "jie"],

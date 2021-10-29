@@ -163,11 +163,11 @@ if __name__ == "__main__":
         "--dev", "-d", help="生成开发相关词典数据.", action=argparse.BooleanOptionalAction
     )
     args = parser.parse_args()
-    dict_data_dev = "../cache/dict_data"
+    lua_out = "../cache/lua/"
     xiaohe_glyph_dict = "../assets/xiaohe-8105.json"
-    glyph_lua_table = dict_data_dev + "/glyph_table.lua"
+    glyph_lua_table = lua_out + "/glyph_table.lua"
     if os.path.exists(glyph_lua_table):
         os.remove(glyph_lua_table)
-    if args.dev and not os.path.exists(dict_data_dev):
-        os.makedirs(dict_data_dev)
+    if args.dev and not os.path.exists(lua_out):
+        os.makedirs(lua_out)
     exit(main(args))
