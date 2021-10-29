@@ -1,7 +1,6 @@
 local input_helper = require("helpers.input")
 
 local function _commit_and_santinize (input, ctx, cand, idx)
-  -- todo if input include apostrophe
   if idx then ctx:select(idx) else ctx:confirm_current_selection() end
   TAB_CARET = TAB_CARET + 2 * utf8.len(cand.text)
   if string.match(cand.type, 'glyph') then
@@ -11,7 +10,8 @@ local function _commit_and_santinize (input, ctx, cand, idx)
   ctx:refresh_non_confirmed_composition()
   ctx.caret_pos = input:len()
   if not ctx:has_menu() then
-    ctx:commit(ctx.get_commit_text(ctx))
+    -- BUG? If last word is glyph match, user dict do not record this phrase
+    ctx:commit()
     TAB_CARET = 0
     input_helper.reset(ctx)
   end
@@ -32,7 +32,6 @@ local function editor(key, env)
       input_helper.clear(ctx, ctx.caret_pos - TAB_CARET)
       ctx:pop_input(1)
       if not ctx:has_menu() then TAB_CARET = 0 end
-      -- todo: reopen commit
     elseif key_repr == 'Return' then
       env.engine:commit_text(input)
       ctx:clear()

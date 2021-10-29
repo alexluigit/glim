@@ -44,21 +44,19 @@ function Candidate.get_hint (hint_lvl, py, gl)
 end
 
 function Candidate.place_phrase
-  (phrase, glyph_match, rule, top_quality, input_len, weight)
+  (phrase, glyph_match, fixed, top_quality, input, dup_table)
   local top = 1
   local bottom = 2
   if not phrase then
     return 0
   elseif #glyph_match == 0 then
     return top
-  elseif input_len % 2 == 1 then
+  elseif input:len() % 2 == 1 then
     return bottom
-  elseif rule == "phrase" then
-    return top
-  elseif rule == "glyph" then
-    return bottom
+  elseif fixed then
+    return dup_table[input:sub(-4)] and top or bottom
   else
-    return phrase.quality >= top_quality * weight and top or bottom
+    return phrase.quality >= top_quality and top or bottom
   end
 end
 

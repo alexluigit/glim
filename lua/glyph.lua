@@ -67,7 +67,6 @@ local __display_matches = function (env, ph_top, gl_input, matched, rest, glyph_
   local valid_match = {}
   local ph_text = ph_top and ph_top.text
   local top_qual = 0
-  local rule = env.gl_ranking_rule
   local TOP, BOTTOM = 1, 2
   for i, cand in ipairs(matched) do
     if input_helper.validate(history, cand.text) then
@@ -76,7 +75,7 @@ local __display_matches = function (env, ph_top, gl_input, matched, rest, glyph_
     end
   end
   local place_phrase = cand_helper.place_phrase(
-    ph_top, valid_match, rule, top_qual, caret, env.gl_weight)
+    ph_top, valid_match, env.gl_fixed, top_qual, ctx.input, env.dup_table)
   if place_phrase == TOP then
     yield(ph_top)
     recorded = input_helper.set_history(ctx, caret, ph_text)
@@ -144,10 +143,13 @@ local init = function (env)
   local config = env.engine.schema.config
   local layout = config:get_string("speller/layout")
   env.gl_hint_level = config:get_int("translator/glyph_hint_level")
-  env.gl_auto_level = config:get_int("translator/glyph_auto_level")
-  env.gl_ranking_rule = config:get_string("translator/glyph_ranking_rule")
-  env.gl_weight = config:get_int("translator/glyph_weight")
-  if layout == "full" then env.gl_auto_level = 0 end
+  env.gl_fixed = config:get_bool("translator/fixed_single_ch")
+  if layout == "full" then
+    env.gl_auto_level = 0
+  else
+    env.gl_auto_level = config:get_int("translator/glyph_auto_level")
+    env.dup_table = require("../tables.duplicate/" .. layout)
+  end
   env.glyph_table = require("tables.glyph_table")(layout)
 end
 
