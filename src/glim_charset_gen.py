@@ -3,28 +3,13 @@ import os
 import re
 import unicodedata
 from pypinyin import lazy_pinyin, pinyin, Style, load_phrases_dict
+from lua_helper import dump_lua
 
 han_py_list = []  # [ '的 de', '了 le', ... ]
 py_han_dict = {}  # { 'de': ['的', '得', ...], ... }
 han_py_dict = {}  # { '的': ['de', 'di'], ... }
 lazy_full_dict = {}
 
-
-def dump_lua(data):
-    if type(data) is str:
-        return f'"{re.escape(data)}"'
-    if type(data) in (int, float):
-        return f"{data}"
-    if type(data) is bool:
-        return data and "true" or "false"
-    if type(data) is list:
-        l = ", ".join([dump_lua(item) for item in data])
-        return "{" + l + "}\n"
-    if type(data) is dict:
-        kv_pairs = ", ".join(
-            [f'["{re.escape(k)}"]={dump_lua(v)}' for k, v in data.items()]
-        )
-        return "{" + kv_pairs + "}\n"
 
 def fixPinyin(pinyin):
     if pinyin == "n":
