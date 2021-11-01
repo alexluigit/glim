@@ -178,7 +178,7 @@ sort: by_weight
 学	xue	76178
 进	jin	75983
 全	quan	74835
-住	zhu	74360
+主	zhu	74360
 女	nv	74278
 长	zhang	73549
 按	an	73522
@@ -335,7 +335,7 @@ sort: by_weight
 谁	shei	37821
 气	qi	37700
 群	qun	37684
-主	zhu	37420
+住	zhu	37420
 热	re	37315
 俺	an	37185
 仍	reng	37002
@@ -1331,7 +1331,7 @@ sort: by_weight
 滑	hua	6678
 爷	ye	6677
 艾	ai	6677
-卫	wei	6675
+巍	wei	6675
 纵	zong	6673
 惹	re	6669
 怀	huai	6665
@@ -1657,7 +1657,7 @@ sort: by_weight
 锋	feng	4778
 柔	rou	4775
 框	kuang	4766
-医	yi	4764
+咦	yi	4764
 侬	nong	4762
 岸	an	4762
 轴	zhou	4760
@@ -2236,7 +2236,7 @@ sort: by_weight
 骚	sao	2964
 垮	kua	2962
 禅	chan	2962
-闸	zha	2961
+榨	zha	2961
 戈	ge	2959
 漂	piao	2957
 泼	po	2955
@@ -2354,7 +2354,7 @@ sort: by_weight
 蜡	la	2665
 袍	pao	2663
 弥	mi	2661
-咦	yi	2653
+医	yi	2653
 侍	shi	2652
 侵	qin	2652
 咏	yong	2647
@@ -3315,7 +3315,7 @@ sort: by_weight
 顷	qing	1372
 嵋	mei	1370
 犲	chai	1370
-榨	zha	1369
+闸	zha	1369
 蛟	jiao	1368
 骤	zhou	1368
 鸦	ya	1368
@@ -3383,7 +3383,7 @@ sort: by_weight
 脖	bo	1321
 苞	bao	1321
 钗	chai	1321
-巍	wei	1320
+卫	wei	1320
 馔	zhuan	1320
 坨	tuo	1319
 倭	wo	1318
