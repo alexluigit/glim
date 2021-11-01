@@ -9,17 +9,17 @@ local input_helper = require("helpers.input")
 local cand_helper = require("helpers.candidate")
 
 local __filter_char = function (cand, env, ch, gl_input, glyph_lvl, matched, rest)
-  local py1 = env.glyph_table[ch]["first_py"]
-  local py2 = env.glyph_table[ch]["last_py"]
-  local gl1 = env.glyph_table[ch]["first_gl"]
-  local gl2 = env.glyph_table[ch]["last_gl"]
-  local lvl = env.glyph_table[ch]["level"]
-  local glyph_filter_str = py1 .. py2
+  local ch1 = env.glyph_table[ch]["ch1"]
+  local ch2 = env.glyph_table[ch]["ch2"]
+  local gl1 = env.glyph_table[ch]["gl1"]
+  local gl2 = env.glyph_table[ch]["gl2"]
+  local auto = env.glyph_table[ch]["auto"]
+  local glyph_filter_str = ch1 .. ch2
   local pop_len = (glyph_lvl > REVERSE_LOOKUP and gl_input:len() or gl_input:len() + 1)
   if string.match(glyph_filter_str, '^' .. gl_input) then
-    cand.comment = cand_helper.get_hint(env.gl_hint_level, py1 .. py2, gl1 .. gl2)
+    cand.comment = cand_helper.get_hint(env.gl_hint_level, ch1 .. ch2, gl1 .. gl2)
     cand.type = "glyph_" .. tostring(pop_len)
-    if glyph_lvl == REVERSE_LOOKUP or lvl < 3 then
+    if glyph_lvl == REVERSE_LOOKUP or auto then
       table.insert(matched, cand)
     end
   else
@@ -29,13 +29,13 @@ end
 
 local __filter_phrase = function
     (cand, env, tail_ch, head_ch, gl_input, glyph_lvl, ph_top, matched, rest)
-  local t_py1 = env.glyph_table[tail_ch]["first_py"]
-  local t_gl1 = env.glyph_table[tail_ch]["first_gl"]
-  local t_lvl = env.glyph_table[head_ch]["level"]
-  local h_py1 = env.glyph_table[head_ch]["first_py"]
-  local h_gl1 = env.glyph_table[head_ch]["first_gl"]
-  local h_lvl = env.glyph_table[head_ch]["level"]
-  local glyph_filter_str = h_py1 .. t_py1
+  local t_ch1 = env.glyph_table[tail_ch]["ch1"]
+  local t_gl1 = env.glyph_table[tail_ch]["gl1"]
+  local t_auto = env.glyph_table[head_ch]["auto"]
+  local h_ch1 = env.glyph_table[head_ch]["ch1"]
+  local h_gl1 = env.glyph_table[head_ch]["gl1"]
+  local h_auto = env.glyph_table[head_ch]["auto"]
+  local glyph_filter_str = h_ch1 .. t_ch1
   local glyph_gl_str = h_gl1 .. t_gl1
   local text = cand.text
   if ph_top == nil and utf8.len(text) == glyph_lvl then ph_top = cand end
@@ -45,7 +45,7 @@ local __filter_phrase = function
     yield(cand)
   elseif utf8.len(text) < glyph_lvl
     and string.match(glyph_filter_str, '^' .. gl_input)
-    and t_lvl < 3 and h_lvl < 3 then
+    and t_auto and h_auto then
     cand.comment = cand_helper.get_hint(env.gl_hint_level, glyph_filter_str, glyph_gl_str)
     cand.type = "glyph_" .. tostring(gl_input:len())
     table.insert(matched, cand)
