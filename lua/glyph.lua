@@ -61,13 +61,15 @@ local __display_matches = function (env, ph_top, gl_input, matched, rest, glyph_
     return
   end
   local ctx = env.engine.context
-  local caret = gl_input:len() + 2 * (glyph_lvl - 1)
+  local gl_len = gl_input:len()
+  local caret = gl_len + 2 * (glyph_lvl - 1)
   local recorded = false
   local history = input_helper.get_history(ctx, caret - 1)
   local valid_match = {}
   local ph_text = ph_top and ph_top.text
   local top_qual = 0
   local TOP, BOTTOM = 1, 2
+  local dup_table = env.dup_table
   for i, cand in ipairs(matched) do
     if input_helper.validate(history, cand.text) then
       top_qual = math.max(top_qual, cand.quality)
@@ -75,17 +77,24 @@ local __display_matches = function (env, ph_top, gl_input, matched, rest, glyph_
     end
   end
   local place_phrase = cand_helper.place_phrase(
-    ph_top, valid_match, env.gl_fixed, top_qual, ctx.input, env.dup_table)
+    ph_top, valid_match, env.gl_fixed, top_qual, ctx.input, dup_table)
   if place_phrase == TOP then
     yield(ph_top)
     recorded = input_helper.set_history(ctx, caret, ph_text)
   end
-  for i, cand in ipairs(valid_match) do
-    if not recorded then
-      recorded = input_helper.set_history(ctx, caret, cand.text)
-    end
-    yield(cand)
+  if (#valid_match > 0) and (not recorded) then
+    recorded = input_helper.set_history(ctx, caret, valid_match[1].text)
   end
+  if glyph_lvl == AUTO_GLYPH_WORD and gl_len == 1 then
+    for i, cand in ipairs(valid_match) do
+      code = ctx.input:sub(-3) .. env.glyph_table[cand.text]["ch2"]
+      if i > 1 and (not dup_table[code]) then
+        table.remove(valid_match, i)
+        table.insert(rest, cand)
+      end
+    end
+  end
+  for i, cand in ipairs(valid_match) do yield(cand) end
   if place_phrase == BOTTOM then yield(ph_top) end
   for i, cand in ipairs(rest) do yield(cand) end
 end
