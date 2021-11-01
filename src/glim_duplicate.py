@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# import json
+import json
 import os
 import re
 import unicodedata
@@ -8,6 +8,7 @@ from lua_helper import dump_lua
 from glim_layouts import (
     Glyph_mappings,
     Sing_ch,
+    Extra_No_Auto,
     Algebras,
     Layouts,
     py_full_double_converter,

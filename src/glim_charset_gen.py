@@ -43,12 +43,12 @@ def get_heteronyms_ch(pair):
         i += 1
         if len(py_han_dict[py]) > i:
             han_same = py_han_dict[py][i]
-    if han_same == han:
-        print(han_same)
     return [han_same, han_py_list.index(han + " " + py)]
 
 
-def charset_gen(singch_dict="../dicts/glim_base.dict.yaml", lvl_all_ch_set="../assets/8105.txt"):
+def charset_gen(
+    singch_dict="../dicts/glim_base.dict.yaml", lvl_all_ch_set="../assets/8105.txt"
+):
     full_py_dict = {}  # { ..., "也": [["yě"]], ... }
     charset_list = open(lvl_all_ch_set, "r").read().splitlines()
     for line in charset_list:
@@ -64,7 +64,12 @@ def charset_gen(singch_dict="../dicts/glim_base.dict.yaml", lvl_all_ch_set="../a
         if not re.match("[a-z]+", lazy_full_dict[k][0]):
             lazy_full_dict[k] = list(map(normalPinyin, full_py_dict[k][0]))
 
-    chars = list(filter(lambda x: not re.match("[a-z-.# ]|^$", x), open(singch_dict, "r").read().splitlines()))
+    chars = list(
+        filter(
+            lambda x: not re.match("[a-z-.# ]|^$", x),
+            open(singch_dict, "r").read().splitlines(),
+        )
+    )
     dict_raw = list(map(lambda x: x.split("\t"), chars))
 
     for item in dict_raw:
