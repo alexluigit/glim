@@ -8,6 +8,7 @@ import re
 import argparse
 import os
 import sys
+import json
 
 # 从 pypinyin 库里得到所有文字及其若干个拼音
 pinyin_dict = pypinyin.pinyin_dict.pinyin_dict
@@ -70,13 +71,11 @@ class DictGenerator:
                     ...
                 }
         """
+        fix_dict = json.load(open("../assets/fix_phrases.json", "r"))
         self.phrase_r = {}
         self.phrase_heteronyms = {}
-        self.phrase_fix = {
-            "落下": [["luo", "xia"],	100000 ],
-            "差事": [["cha", "shi"],	10000 ],
-            "差事儿": [["cha", "shi" "er"],	10000 ]
-        }
+        self.dict_replace = fix_dict["phrases"]
+        self.triple_pronounce = fix_dict["triple_pronounce"]
 
     def fixPinyin(self, pinyin):
         """
@@ -99,36 +98,9 @@ class DictGenerator:
 
     def fixPhrases(self):
         """
-        修复一些多音字错误
+        修复一些词语拼写/发音错误，调整频率
         """
-        dict_replace = {
-            "尼国": None,
-            "汤浅": None,
-            "中就": None,
-            "罗唆": None,
-            "罗嗦": None,
-            "回亿": None,
-            "是是": None,
-            "视盘": 100,
-            "堂前": 1000,
-            "健在": 50000,
-            "荒诞": 50000,
-            "戏子": 15000,
-            "想和": 15000,
-            "助于": 5000,
-            "单就": 100,
-            "别价": ["bie", "jie"],
-            "气藏": ["qi", "zang"],
-            "油气藏": ["you", "qi", "zang"],
-            "还珠格格": ["huan", "zhu", "ge", "ge"],
-            "睡不着": ["shui", "bu", "zhao"],
-            "睡不着觉": ["shui", "bu", "zhao", "jiao"],
-            "干这一行": ["gan", "zhe", "yi", "hang"],
-            "十目一行": ["shi", "mu", "yi", "hang"],
-            "逞着劲儿": ["cheng", "zhe", "jin", "er"],
-            "看着火": ["kan", "zhe", "huo"],
-        }
-        for k, v in dict_replace.items():
+        for k, v in self.dict_replace.items():
             if not v:
                 del self.phrase_r[k]
             elif type(v) == str:
@@ -138,7 +110,7 @@ class DictGenerator:
                 self.phrase_r[k][1] = v
             else:
                 self.phrase_r[k][0] = v
-    
+
     def mergeDict(
         self, text, weight=1, min_freq=0, callbackCount=sys.maxsize, callbackFunc=None
     ):
@@ -207,7 +179,6 @@ class DictGenerator:
                        self.phrase_heteronyms[word][1] += freq
                     elif pinyin:
                        self.phrase_heteronyms[word] = [pinyin, freq]
-                    # self.phrase_r[word][1] += freq
                 else:
                     self.phrase_r[word] = [pinyin, freq]
                 parse_count += 1
@@ -238,11 +209,11 @@ class DictGenerator:
             (phrase, self.phrase_heteronyms[phrase][0], self.phrase_heteronyms[phrase][1])
             for phrase in self.phrase_heteronyms
         ]
-        phrase_fix_list = [
-            (phrase, self.phrase_fix[phrase][0], self.phrase_fix[phrase][1])
-            for phrase in self.phrase_fix
+        triple_pronounce_list = [
+            (phrase, self.triple_pronounce[phrase][0], self.triple_pronounce[phrase][1])
+            for phrase in self.triple_pronounce
         ]
-        phrase_list = phrase_main_list + phrase_heteronyms_list + phrase_fix_list
+        phrase_list = phrase_main_list + phrase_heteronyms_list + triple_pronounce_list
         # 按频率倒序排序
         phrase_list.sort(key=lambda w: w[2], reverse=True)
 
