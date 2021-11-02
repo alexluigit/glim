@@ -4,6 +4,9 @@ patch:
   ### 取消预览全拼
   # translator/preedit_format: {}
 
+  ### 关闭自动调频
+  # translator/enable_user_dict: false
+
   ### 选择双拼方案或全拼 (单选)
   __include: glim.layout:/flypy   # 小鹤
   # __include: glim.layout:/natural # 自然码
@@ -28,7 +31,7 @@ patch:
   #### 该选项的值将单字候选是否固定顺序。(默认固定)
   #### 二字及以上词语是否调频由 translator/enable_user_dict 选项决定。
   #### 形码候选单字排序也由此项决定 (见「关于重码」)。
-  translator/fixed_single_ch: true
+  glim/fixed_single_ch: true
 
   ## == 形码 ==
 
@@ -49,7 +52,7 @@ patch:
   #### 0: 不提示      | 它
   #### 1: 仅编码      | 它 :bb
   #### 2: 编码 + 部件 | 它 :bb 宀匕 (默认值)
-  translator/glyph_hint_level: 2
+  glim/glyph_hint_level: 2
 
   ### 自动形码 (glyph_auto_level)
   #### 0: 关闭自动形码
@@ -73,10 +76,10 @@ patch:
   #### - 该功能 *不支持* 全拼方案。
   #### - 该功能在造词过程中依旧有效。
   #### - 该功能仅匹配 I 级及 II 级字 (减少无谓干扰)，III 级字请用「:」引导筛选。
-  translator/glyph_auto_level: 2
+  glim/glyph_auto_level: 2
 
   ### 关于重码
-  ####  当二字词与单字全码重码时，其排序由 translator/fixed_single_ch 决定。
+  ####  当二字词与单字全码重码时，其排序由 glim/fixed_single_ch 决定。
   ####  例:
   ####    fixed_single_ch: false
   ####    didm -> 1.地点 2.涤 dm 3. ...
@@ -107,7 +110,6 @@ patch:
     ',' : { commit: ，}
     '.' : { commit: 。}
     '/' : [ '/', ; ]
-    '?' : { commit: ？}
     ':' : { commit: ：}
     '''': { pair: [ 「, 」 ] }
     '"' : { pair: [ 「, 」 ] }
@@ -159,4 +161,4 @@ patch:
     #### 强制分词
     - { when: composing, accept: slash, send_sequence: ';;{BackSpace}' }
     #### 形码引导
-    - { when: composing, accept: bracketleft, send: ':' }
+    - { when: composing, accept: Shift+question, send: ':' }

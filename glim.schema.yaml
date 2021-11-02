@@ -88,6 +88,11 @@ custom_phrase:
 
 punctuator:
   __include: symbols:/punctuator
+
+glim:
+  glyph_auto_level: 2
+  glyph_hint_level: 2
+  fixed_single_ch: true
   abbrev_suffix: ";;"
 
 recognizer:

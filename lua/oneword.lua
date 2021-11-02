@@ -36,7 +36,7 @@ local function filter(cands, env)
 end
 
 local init = function(env)
-  local fixed = env.engine.schema.config:get_bool("translator/fixed_single_ch")
+  local fixed = env.engine.schema.config:get_bool("glim/fixed_single_ch")
   local layout = env.engine.schema.config:get_string("speller/layout")
   env.fixed = fixed
   env.alpha_table = require("tables.alphabet_table")(layout)

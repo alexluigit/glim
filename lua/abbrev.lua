@@ -1,7 +1,7 @@
 local function segmentor(_, env)
   local context = env.engine.context
   local save_input = context.input
-  local abv_suffix = env.engine.schema.config:get_string("punctuator/abbrev_suffix")
+  local abv_suffix = env.engine.schema.config:get_string("glim/abbrev_suffix")
   local abv_first = string.sub(abv_suffix, 1, 1)
   local abv_len = string.len(abv_suffix)
   if string.sub(save_input, 0 - abv_len) == abv_suffix then
