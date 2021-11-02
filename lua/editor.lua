@@ -1,6 +1,7 @@
 local input_helper = require("helpers.input")
 
-local function _commit_and_santinize (input, ctx, cand, idx)
+local function _commit_and_santinize (env, cand, idx)
+  local ctx = env.engine.context
   if idx then ctx:select(idx) else ctx:confirm_current_selection() end
   TAB_CARET = TAB_CARET + 2 * utf8.len(cand.text)
   if string.match(cand.type, 'glyph') then
@@ -8,9 +9,10 @@ local function _commit_and_santinize (input, ctx, cand, idx)
     ctx:pop_input(g_len)
   end
   ctx:refresh_non_confirmed_composition()
-  ctx.caret_pos = input:len()
+  ctx.caret_pos = ctx.input:len()
   if not ctx:has_menu() then
-    -- BUG? If last word is glyph match, user dict do not record this phrase
+    -- BUG? If context is 'composing' here, user dict do not pick up new word.
+    -- print(ctx:is_composing())
     ctx:commit()
     TAB_CARET = 0
     input_helper.reset(ctx)
@@ -27,7 +29,7 @@ local function editor(key, env)
   if ctx:has_menu() and string.len(input) > 0 then
     if key_repr == 'space' then
       local cand = ctx:get_selected_candidate()
-      _commit_and_santinize(input, ctx, cand)
+      _commit_and_santinize(env, cand)
     elseif key_repr == 'BackSpace' then
       input_helper.clear(ctx, ctx.caret_pos - TAB_CARET)
       ctx:pop_input(1)
@@ -47,7 +49,7 @@ local function editor(key, env)
       local page_start_index = curr_index - curr_index % env.page_size
       local computed_index = page_start_index + tonumber(key_repr) - 1
       local cand = segment:get_candidate_at(computed_index)
-      _commit_and_santinize(input, ctx, cand, computed_index)
+      _commit_and_santinize(env, cand, computed_index)
     else
       return kNoop
     end
@@ -59,7 +61,6 @@ end
 
 local init = function (env)
   env.page_size = env.engine.schema.config:get_int("menu/page_size")
-  -- env.notifier = env.engine.context.update_notifier:connect(function (ctx) end)
 end
 
 return { init = init, func = editor }
