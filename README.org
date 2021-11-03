@@ -1,0 +1,462 @@
+# -*- eval: (auto-fill-mode -1) -*-
+#+AUTHOR: Alex Lu
+#+EMAIL: alexluigit@gmail.com
+#+OPTIONS: auto-id:t
+#+html: <img src="/assets/glim.svg" align="right">
+
+* Glim - 形码辅助拼音输入方案
+:PROPERTIES:
+:CUSTOM_ID: Glim_-_形码辅助拼音输入方案-f3161fe5
+:END:
+
+#+BEGIN_QUOTE
+音形输入应如是。
+#+END_QUOTE
+
+视频介绍: [[https://www.bilibili.com/video/BV1GJ411x7h7][Glim 输入方案使用说明]]
+
+** 简介 | Overview
+:PROPERTIES:
+:CUSTOM_ID: Glim_-_形码辅助拼音输入方案-简介_|_Overview-9a6f20fa
+:END:
+
+#+html: <img src="/assets/demo.png" align="center">
+
+=阅读提示=: 列位看官可以借助目录直接跳转至所需章节。
+
+*** 这是什么 - What is it?
+:PROPERTIES:
+:CUSTOM_ID: Glim_-_形码辅助拼音输入方案-简介_|_Overview-这是什么_-_What_is_it?-d16c0a6e
+:END:
+
+Glim 是一款挂接于 Rime 的拼音输入方案。其支持:
+
+- 全拼及多种双拼布局
+- 以小鹤形码辅助选字/词 (参见「功能 - 形码支持」)
+- 若干仅依靠 Rime 设置难以实现的功能 (如单字固序)
+
+与其他音形方案相比，glim 的最大不同在于其形码匹配在运行时实现，故:
+
+- 形码是一个辅助功能，可以被开启、关闭或者调节其行为
+- glim 的词库无须包含形码编码，其格式与其他拼音方案一样
+- 用户自行添加的词库/词条无须附加形码编码，可以直接被形码筛选
+
+*** 开发初衷 - Why does this exist?
+:PROPERTIES:
+:CUSTOM_ID: Glim_-_形码辅助拼音输入方案-简介_|_Overview-开发初衷_-_Why_does_this_exist?-58b705f3
+:END:
+
+我此前是小鹤双拼的使用者，在开始使用 colemak 键盘布局后，由于一直找不到针对 colemak
+设计的双拼布局，于是我最终自己造了一个，叫它 Chole (当然也是 glim 支持的双拼方案之一)。
+
+当我开始受到拼音重码的困扰时，我尝试去寻找一种解决方案。研究后发现，可供选择的解决重码的方案无外乎如下几种: 五笔，以词定字，音形输入。
+
+五笔首先被我排除，纯字形输入对拼音输入法使用者来说切换代价太大。
+
+以词定字第一眼看上去很不错，因为学习成本为0，设置成本也不高。可是实际使用时会发现这个方案有两个问题。一是用来定字的词，很可能不在候选首位，甚至有时都不在首页。如果为了定字，要先找词，那这个方案就失去了意义。二是同音词的筛选无法解决。
+
+而音形输入方案，市面上有不少，但我却陷入一个尴尬的境地，要么:
+1. 重新学习一套「全家桶」式的音形输入方案
+   - 放弃已经适应的双拼布局
+   - 词库变小 (变小是相对百万级的拼音词库而言，音形方案的词库量一般在几万至几十万不等)
+   - 需要适应新的方案极其不同的输入方式 (例如简码，一韵多键，声笔分区，顶功等等)
+2. 自己用正则/写脚本改词库
+   - 对普通用户操作难度太大
+   - 形码的一处改动会牵动全局，长期可维护性堪忧。
+   - 在长句输入时会有 *可感知* 的延迟，词库越大延迟越高。
+   - 挂载别的拼音词库变的比原先困难很多
+
+此间我逐渐明确了我自己的需求，并开始亦步亦趋的摸索一种独立外挂形码的拼音方案，这是 glim 的诞生背景。
+
+*** 指导原则 - Guiding principles
+:PROPERTIES:
+:CUSTOM_ID: Glim_-_形码辅助拼音输入方案-简介_|_Overview-指导原则_-_Guiding_principles-3d37f7cd
+:END:
+
+- 独立形码。
+- 同时支持整句及字词音形输入。
+- 默认不开启简拼。不破坏双拼两键一字节奏，以其他方式解决简拼问题。
+- 词库量 > 重码率/码长。优先保证词库质量和数量。
+
+此处有必要提一下「落格输入法」，glim 对于形码的思路与落格非常接近，但很可惜的是这款输入法是 macOS/iOS 独占的 (且以订阅制收费)。
+
+** 安装 | Installation
+:PROPERTIES:
+:CUSTOM_ID: Glim_-_形码辅助拼音输入方案-安装_|_Installation-5cceedb8
+:END:
+
+*注意*: glim 是挂载于 Rime 输入法引擎的输入方案，安装 glim 前请确保 Rime 已安装，详见 [[https://rime.im/download][Rime]]
+
+*** 基本安装
+:PROPERTIES:
+:CUSTOM_ID: Glim_-_形码辅助拼音输入方案-安装_|_Installation-基本安装-d47e608e
+:END:
+
+- 下载所需文件
+
+#+begin_src bash
+# 克隆本仓库
+git clone https://github.com/alexluigit/glim
+# 或从 Release 页面下载最新版
+#+end_src
+
+- 复制 =assets/glim.custom.yaml= 至上级目录
+
+#+begin_src bash
+cp glim/assets/glim.custom.yaml ..
+#+end_src
+
+- 复制文件夹至目标目录
+
+Windows: =%APPDATA%\Rime=
+
+macOS: =~/Library/Rime=
+
+Linux: =~/.config/ibus/rime= (for ibus) | =~/.local/share/fcitx5/rime= (for fcitx5)
+
+暂未测试同文 (Android), 有需要可自行尝试。
+
+完成下方设置后请记得部署 Rime。
+
+*** 方案选择
+:PROPERTIES:
+:CUSTOM_ID: Glim_-_形码辅助拼音输入方案-安装_|_Installation-方案选择-4351b39a
+:END:
+
+打开 glim.custom.yaml 文件，找到 '### 选择双拼方案或全拼 (单选)', 去掉所需方案之前的 '#'。
+
+#+begin_src yaml
+  ### 选择双拼方案或全拼 (单选)
+  ### 请确保注释掉其他方案
+  __include: glim.layout:/flypy   # 小鹤
+  # __include: glim.layout:/natural # 自然码
+  # __include: glim.layout:/ms      # 微软
+  # __include: glim.layout:/pyjj    # 拼音加加
+  # __include: glim.layout:/full    # 全拼
+  # __include: glim.layout:/chole   # chole
+#+end_src
+
+*** 按键设置
+:PROPERTIES:
+:CUSTOM_ID: Glim_-_形码辅助拼音输入方案-安装_|_Installation-按键设置-96eaba43
+:END:
+
+打开 =glim.custom.yaml= 文件，找到 '### 按键' 一节。
+
+选项开关名:
+
+- =toggle: zh_simp_s2t=  切换 简/繁体
+- =toggle: full_shape=   切换 全/半角
+- =toggle: full_charset= 切换 8105/超大字符集
+
+常用按键名:
+
+| key_repr  | equals_to | key_repr    | equals_to |
+|-----------+-----------+-------------+-----------|
+| comma     | ,         | apostrophe  | '         |
+| period    | .         | bracketleft | [         |
+| slash     | /         | plus        | +         |
+| semicolon | ;         | backslash   | \         |
+
+更多详情参见: https://github.com/LEOYoon-Tsaw/Rime_collections/blob/master/Rime_description.md
+
+默认按键设置为:
+
+#+begin_src yaml
+  ### 按键
+  key_binder/bindings/+:
+    ### emacs 风格文本编辑
+    - { when: composing, accept: Control+p, send: Up }
+    - { when: composing, accept: Control+n, send: Down }
+    - { when: composing, accept: Control+b, send: Left }
+    - { when: composing, accept: Control+f, send: Right }
+    - { when: composing, accept: Control+a, send: Home }
+    - { when: composing, accept: Control+e, send: End }
+    - { when: composing, accept: Control+d, send: Delete }
+    - { when: composing, accept: Control+k, send: Shift+Delete }
+    - { when: composing, accept: Control+h, send: BackSpace }
+    - { when: composing, accept: Control+g, send: Escape }
+    - { when: composing, accept: Control+bracketleft, send: Escape }
+    ### Tab, Control+i/o 字间移动光标
+    - { when: composing, accept: ISO_Left_Tab, send: Shift+Left }
+    - { when: composing, accept: Shift+Tab, send: Shift+Left }
+    - { when: composing, accept: Tab, send: Shift+Right }
+    - { when: composing, accept: Control+i, send: Shift+Right }
+    - { when: composing, accept: Control+o, send: Shift+Left }
+    ### 减号等号翻页
+    - { when: has_menu, accept: minus, send: Page_Up }
+    - { when: has_menu, accept: equal, send: Page_Down }
+    ### 选项开关
+    - { when: always, accept: Control+Shift+1, toggle: zh_simp_s2t }
+    - { when: always, accept: Control+Shift+2, toggle: full_shape }
+    - { when: always, accept: Control+Shift+3, toggle: full_charset }
+    - { when: composing, accept: Control+t, toggle: zh_simp_s2t }
+    #### 二三选上屏
+    - { when: has_menu, accept: semicolon, send: 2 }
+    - { when: has_menu, accept: apostrophe, send: 3 }
+    #### 强制分词
+    - { when: composing, accept: slash, send_sequence: ';;{BackSpace}' }
+    #### 形码引导
+    - { when: composing, accept: Shift+question, send: ':' }
+#+end_src
+
+*** 标点设置
+:PROPERTIES:
+:CUSTOM_ID: Glim_-_形码辅助拼音输入方案-安装_|_Installation-标点设置-80d343f7
+:END:
+
+打开 glim.custom.yaml 文件，找到 '### 标点' 部分，按提示更改。
+
+#+begin_src yaml
+  ### 标点
+  punctuator/half_shape/=:
+    ',' : { commit: ，}
+    '.' : { commit: 。}
+    '/' : [ '/', ; ]
+    ':' : { commit: ：}
+    '''': { pair: [ 「, 」 ] }
+    '"' : { pair: [ 「, 」 ] }
+    '\' : [ 、, '\' ]
+    '|' : [ ·, ・, '|', ｜, '§', '¦', '‖', ︴]
+    '!' : { commit: ！}
+#+end_src
+
+** 功能 | Features
+:PROPERTIES:
+:CUSTOM_ID: Glim_-_形码辅助拼音输入方案-功能_|_Features-dd3ba7da
+:END:
+
+如无特别说明，本文所使用的设置项均位于 glim.custom.yaml 文件。
+本文示例中所使用的双拼方案为小鹤，其余方案原理相同。
+
+*** 形码支持
+:PROPERTIES:
+:CUSTOM_ID: Glim_-_形码辅助拼音输入方案-功能_|_Features-形码支持-84c66f08
+:END:
+
+本方案所使用的形码方案来自小鹤，请确保你已阅读 [[https://help.flypy.com/#/ux][小鹤双形]]
+
+**** 形码反查
+:PROPERTIES:
+:CUSTOM_ID: Glim_-_形码辅助拼音输入方案-功能_|_Features-形码支持-形码反查-64b408a5
+:END:
+
+输入「:」(或设置「形码引导」快捷键) 开始筛选当前候选项。
+- 单字匹配首码 + 末码
+- 二字词语按 首字首码 + 末字首码 匹配
+- 三字以上词语取末二字，规则与二字词相同。
+
+| ui:a     | ui:ob    | uiui:l     | uiui:of    |
+|----------+----------+------------+------------|
+| 1.石 :al | 1.匙 :ob | 1.史诗 :ly | 1.时势 :of |
+| 2.世 :av |          | 2.史实 :lb |            |
+| 3. ...   |          | 3. ...     |            |
+
+**** 形码提示
+:PROPERTIES:
+:CUSTOM_ID: Glim_-_形码辅助拼音输入方案-功能_|_Features-形码支持-形码提示-6dcd4d46
+:END:
+
+=glim/glyph_hint_level=: 调整形码提示等级。默认值为2。
+
+#+begin_src yaml
+glim/glyph_hint_level: 2
+#+end_src
+
+| 等级 | 含义        | 示例        |
+|------+-------------+-------------|
+|    0 | 不提示      | 它          |
+|    1 | 仅编码      | 它 :bb      |
+|    2 | 编码 + 部件 | 它 :bb 宀匕 |
+
+**** 自动形码
+:PROPERTIES:
+:CUSTOM_ID: Glim_-_形码辅助拼音输入方案-功能_|_Features-形码支持-自动形码-79f79eb9
+:END:
+
+=glim/glyph_auto_level=: 调整自动形码等级。默认值为2。
+
+#+begin_src yaml
+glim/glyph_auto_level: 2
+#+end_src
+
+- =0=: 关闭自动形码
+- =1=: 当前候选为 [单字1,   单字2,    ...] 时
+  - 紧随其后的两码将按 首字首码 + 末字首码 匹配形码 (无需「:」)
+  - 形码码长为 1 时匹配结果插入首选
+  - 形码码长为 2 时匹配结果插入首选或次选 (参见「定制 - 关于重码」)
+- =2=: 当前候选为 [二字词1, 二字词2, ...] 时 (默认值)
+  - 紧随其后的两码将按 首字首码 + *末字首码* 匹配形码 (无需「:」)
+  - 匹配结果插入首选或次选 (参见「定制 - 关于重码」)
+  - 候选为 [单字1, 单字2, ...] 时与1相同。
+
+| wfh       | yiru      | uiyjr       | uiuiba      |
+|-----------+-----------+-------------+-------------|
+| 1. 稳 :hx | 1. 一如   | 1. 食盐 :rt | 1. 实事 :ba |
+| 2. 文化   | 2. 佚 :ru | 2. 食言 :rw | 2. 室事 :ba |
+| 3. 温和   | 3. ...    | 3. 食咽 :rk | 3. 试试吧   |
+
+=注意=:
+- 该功能 *不支持* 全拼方案。
+- 该功能在造词过程中依旧有效。
+- 该功能仅匹配 I 级及 II 级字 (减少无谓干扰)，III 级字请用「:」引导筛选。
+
+*** 字词固序
+:PROPERTIES:
+:CUSTOM_ID: Glim_-_形码辅助拼音输入方案-功能_|_Features-字词固序-673dd9ce
+:END:
+
+=glim/fixed_sing_ch=: 单字候选是否固定顺序。(默认开启)
+
+形码候选单字排序也由此项决定 (参见「定制 - 关于重码」)。
+二字及以上词语是否调频由 =translator/enable_user_dict= 选项决定。
+
+#+begin_src yaml
+glim/fixed_single_ch: true
+#+end_src
+
+TODO: 常用词固定顺序。
+
+*** 超级简拼
+:PROPERTIES:
+:CUSTOM_ID: Glim_-_形码辅助拼音输入方案-功能_|_Features-超级简拼-5a558a25
+:END:
+
+全局简拼与此方案的形码机制不兼容，所以双拼方案下仅开启了带分隔符的简拼。
+
+| qqww    | q'q'w'w     |
+|---------+-------------|
+| 1. 秋闱 | 1. 千千万万 |
+| 2. ...  | 2. ...      |
+
+为了免除人工给每个字母加单引号的麻烦，该方案引入了 ;; 后缀以强制分词。
+输入 qqww + ;; (或设置「强制分词」快捷键) 将直接得到 q'q'w'w
+
+*** 其他功能
+:PROPERTIES:
+:CUSTOM_ID: Glim_-_形码辅助拼音输入方案-功能_|_Features-其他功能-88a0ea56
+:END:
+
+**** 整句输入
+:PROPERTIES:
+:CUSTOM_ID: Glim_-_形码辅助拼音输入方案-功能_|_Features-其他功能-整句输入-c9304b1a
+:END:
+
+**** 简繁切换
+:PROPERTIES:
+:CUSTOM_ID: Glim_-_形码辅助拼音输入方案-功能_|_Features-其他功能-简繁切换-53931e8d
+:END:
+
+**** 字符过滤
+:PROPERTIES:
+:CUSTOM_ID: Glim_-_形码辅助拼音输入方案-功能_|_Features-其他功能-字符过滤-2ec2fd29
+:END:
+
+本方案设有 8105/超大字符集 选项开关。默认快捷键为:
+
+#+begin_src yaml
+- { when: always, accept: Control+Shift+3, toggle: full_charset }
+#+end_src
+
+8105字符集指的是 <<通用规范汉字表>> (2013) 收录所有汉字。
+- 总计8105个
+- 是可以被形码筛选的所有汉字
+- 在选项菜单中以「一」字代表 (笔画最少的汉字)。
+
+超大字符集指的是本方案收录的所有汉字
+- 总计 42000 余 (包括多音字)。
+- 在选项菜单中以「𰻝」字代表 (笔画最多的汉字)。
+
+**** 特殊符号
+:PROPERTIES:
+:CUSTOM_ID: Glim_-_形码辅助拼音输入方案-功能_|_Features-其他功能-特殊符号-4bcfcc08
+:END:
+
+**** Emoji 输入
+:PROPERTIES:
+:CUSTOM_ID: Glim_-_形码辅助拼音输入方案-功能_|_Features-其他功能-Emoji_输入-e891c583
+:END:
+
+**** 时间日期
+:PROPERTIES:
+:CUSTOM_ID: Glim_-_形码辅助拼音输入方案-功能_|_Features-其他功能-时间日期-be627815
+:END:
+
+** 定制 | Customization
+:PROPERTIES:
+:CUSTOM_ID: Glim_-_形码辅助拼音输入方案-定制_|_Customization-e015638c
+:END:
+
+**** 关于重码
+:PROPERTIES:
+:CUSTOM_ID: Glim_-_形码辅助拼音输入方案-定制_|_Customization-关于重码-cbe8e17e
+:END:
+
+当二字词与单字全码重码时，其排序由 =glim/fixed_single_ch= 决定。
+
+#+begin_src yaml
+glim/fixed_single_ch: false
+#+end_src
+
+| didm    |
+|---------|
+| 1.地点  |
+| 2.涤 dm |
+| 3. ...  |
+
+
+输入一次 (或多次) 「涤」 后, 排序可能变为:
+
+| didm    |
+|---------|
+| 1.涤 dm |
+| 2.地点  |
+| 3. ...  |
+
+#+begin_src yaml
+glim/fixed_single_ch: true
+#+end_src
+
+| didm    |
+|---------|
+| 1.地点  |
+| 2.涤 dm |
+| 3. ...  |
+
+「涤」 字将始终排在第二，不会受到其他词词频影响。
+
+当开启此选项时, 如果你对某些全码的排序不满意，可自行修改 =lua/tables/duplicate/[Your_schema].lua=,
+注释掉你不想要的词重新部署即可。(注释掉所有词表示单字优先)
+
+#+begin_src lua
+["didm"] = {["phrase"] = "地点", ["word"] = {"涤"}},
+    didm -> 1.地点 2.涤 dm 3. ...
+
+-- ["didm"] = {["phrase"] = "地点", ["word"] = {"涤"}},
+    didm -> 1.涤 dm 2.地点  dm 3. ...
+#+end_src
+
+** 注意 | Known issues
+:PROPERTIES:
+:CUSTOM_ID: Glim_-_形码辅助拼音输入方案-注意_|_Known_issues-1b4ca599
+:END:
+
+TODO
+
+** 感谢 | Special Thanks
+:PROPERTIES:
+:CUSTOM_ID: Glim_-_形码辅助拼音输入方案-感谢_|_Special_Thanks-94b38fa4
+:END:
+
+TODO
+
+** 许可 | Copying
+:PROPERTIES:
+:CUSTOM_ID: Glim_-_形码辅助拼音输入方案-许可_|_Copying-22428a2d
+:END:
+
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program. If not, see http://www.gnu.org/licenses/.
