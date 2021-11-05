@@ -19,7 +19,7 @@ while getopts "cesug" opt; do
 done
 shift $((OPTIND -1))
 
-cd $INIT_DIR; mkdir -p cache; cd cache
+cd $INIT_DIR; cd ..; mkdir -p cache; cd cache
 
 _clone_or_pull () {
   if [[ -d ./$1 ]]; then
