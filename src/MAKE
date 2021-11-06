@@ -66,9 +66,6 @@ update_dicts_basic() {
     echo $zhw_latest > $zhw_ver
     wget $zhw_latest -q -O zhwiki.dict.yaml
   }
-}
-
-gen_dicts_basic() {
   _fix_phrase_dict_pre
   cp ./rime-essay/essay.txt .
   cp ./rime-pinyin-simp/pinyin_simp.dict.yaml .
@@ -76,8 +73,11 @@ gen_dicts_basic() {
   cat ./THUOCL/data/*.txt > THUOCL.txt
   ../src/thuocl2rime.py THUOCL.txt ../cache/THUOCL.dict.yaml
   diff ./phrase-pinyin-data/large_pinyin.txt pdb.txt
-  $skip_gen || ../src/glim_dict_gen.py
   $update_emoji && _update_emoji
+}
+
+gen_dicts_basic() {
+  $skip_gen || ../src/glim_dict_gen.py
   ../src/glim_charset_gen.py
   ../src/glim_encode.py
   cp ./glim_phrase.dict.yaml ../dicts
