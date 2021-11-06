@@ -54,7 +54,7 @@ function Candidate.place_phrase
   elseif input:len() % 2 == 1 then
     return bottom
   elseif fixed then
-    return dup_table[input:sub(-4)] and top or bottom
+    return dup_table[input] and top or bottom
   else
     return phrase.quality >= top_quality and top or bottom
   end
