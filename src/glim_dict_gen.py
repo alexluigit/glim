@@ -1,81 +1,45 @@
 #!/usr/bin/env python
-# -*- encoding:utf-8 -*-
 
-import jieba
 import pypinyin
 import opencc
 import re
 import argparse
-import os
-import sys
 import json
 
-# 从 pypinyin 库里得到所有文字及其若干个拼音
-pinyin_dict = pypinyin.pinyin_dict.pinyin_dict
-phrase_fix_dict = {}
-replace_symbol_to_no_symbol = pypinyin.style._utils.replace_symbol_to_no_symbol
+pinyin_dict = pypinyin.pinyin_dict.pinyin_dict # 从 pypinyin 库里得到所有文字及其若干个拼音
 initials_set = set(pypinyin.style._constants._INITIALS)  # 声母表
 initials_set.add("ng")
-
-with open("../cache/pdb.txt", "r") as pdb:
-    f_strip = list(
-        filter(lambda x: not re.match("[a-z-.# ]|^$", x), pdb.read().splitlines())
-    )
-    for line in f_strip:
-        phrase = line.split(": ")[0]
-        phrase_pinyin = [[el] for el in line.split(": ")[1].split(" ")]
-        phrase_fix_dict[phrase] = phrase_pinyin
-
-pypinyin.load_phrases_dict(phrase_fix_dict)
 
 
 class DictGenerator:
     def __init__(self):
         """
-        初始化函数，定义了字词频率所需的基本数据结构
-        self.word_dict 和 self.phrase_r
-        """
-
-        """
-            从 jieba 库里的 pinyin_dict 经过 replace_symbol_to_no_symbol 转换得到：
-                self.word_pinyin_s 所有字的字音字典，格式为
-                    {
-                        unicode编码: [音1, 音2, ...],
-                        unicode编码: [音1, 音2, ...],
-                        unicode编码: [音1, 音2, ...],
-                        ...
-                    }
-        """
-        jieba.dt.initialize()
-        self.t2s = opencc.OpenCC("t2s.json")
-
-        def symbol2fixPinyin(pinyin):
-            pinyin = replace_symbol_to_no_symbol(pinyin)
-            fixed_pinyin = self.fixPinyin(pinyin)
-            if fixed_pinyin is None or fixed_pinyin in initials_set:
-                print(pinyin)
-                assert False  # 库的拼音不规范，需要手动规范化
-            return fixed_pinyin
-
-        self.word_pinyin_s = {
-            i: list(map(symbol2fixPinyin, pinyin_dict[i].split(",")))
-            for i in pinyin_dict
-        }
-
-        """
-            self.phrase_r 所有词的频率信息字典，格式为
-                {
-                    词: [音,频] ,
-                    词: [音,频],
-                    词: [音,频],
-                    ...
-                }
+        self.phrase_* 所有词的频率信息字典，格式为
+            {
+                词: [音,频] ,
+                词: [音,频],
+                词: [音,频],
+                ...
+            }
         """
         fix_dict = json.load(open("../assets/fix_phrases.json", "r"))
-        self.phrase_r = {}
+        self.t2s = opencc.OpenCC("t2s.json")
+        self.phrase_main = {}
         self.phrase_heteronyms = {}
-        self.dict_adjust = fix_dict["adjust"]
-        self.dict_add = fix_dict["add"]
+        self.phrase_adjust = fix_dict["adjust"]
+        self.phrase_add = fix_dict["add"]
+        phrase_fix_dict = {}
+        with open("pdb.txt", "r") as pdb:
+            f_strip = list(
+                filter(
+                    lambda x: not re.match("[a-z-.# ]|^$", x), pdb.read().splitlines()
+                )
+            )
+            for line in f_strip:
+                phrase = line.split("\t")[0]
+                phrase_pinyin = [[el] for el in line.split("\t")[1].split(" ")]
+                phrase_fix_dict[phrase] = phrase_pinyin
+        pypinyin.load_phrases_dict(phrase_fix_dict)
 
     def fixPinyin(self, pinyin):
         """
@@ -97,71 +61,57 @@ class DictGenerator:
         return pinyin
 
     def fixPhrases(self):
-        """
-        修复一些词语拼写/发音错误，调整频率
-        """
-        for k, v in self.dict_adjust.items():
+        """修复一些词语拼写/发音错误，调整频率"""
+        for k, v in self.phrase_adjust.items():
             if not v:
-                del self.phrase_r[k]
+                del self.phrase_main[k]
             elif type(v) == str:
-                self.phrase_r[v] = self.phrase_r[k]
-                del self.phrase_r[k]
+                self.phrase_main[v] = self.phrase_main[k]
+                del self.phrase_main[k]
             elif type(v) == int:
-                self.phrase_r[k][1] = v
+                self.phrase_main[k][1] = v
             else:
-                self.phrase_r[k][0] = v
+                self.phrase_main[k][0] = v
 
-    def mergeDict(
-        self, text, weight=1, min_freq=0, callbackCount=sys.maxsize, callbackFunc=None
-    ):
+    def supplementPinyin(self):
+        """若 pdb.txt 无此 phrase, 则通过 pypinyin 库获取到词组的拼音"""
+        for k, v in self.phrase_main.items():
+            if v[0] is None:
+                pinyin = list(map(self.fixPinyin, pypinyin.lazy_pinyin(k)))
+                self.phrase_main[k] = [pinyin, v[1]]
+
+    def mergeDict(self, dict_file, weight=1, min_freq=0, dict_name="dict"):
         """
-        将 text 里储存的词频、字频内容合并到数据结构中
-        text: 原始文本，会自动过滤掉拼音和其它字符
-            原始文本的每一行格式为：
-                字或词组\t其它信息\t频率
+        将 text [词组\t其它信息\t频率] 里储存的词频合并至 self.phrase_*
         weight: 权值，该词库的频率乘以此权值再合并
         min_freq: 最小频率，小于该频率的词会被过滤掉
-        返回值: 成功合并的数目元组，格式为 (word_count, parse_count)
         """
-
-        word_count = 0
-        parse_count = 0
-        skip_count = 0
-
-        text_s = text.split("\n")
-        for line in text_s:
+        text_raw = open(dict_file, "r", encoding="utf-8").read().splitlines()
+        text = list(filter(lambda x: not re.match("[a-z-.# ]|^$", x), text_raw))
+        phrase_count = 0
+        for line in text:
             v = tuple(map(lambda e: e.strip(), line.split("\t")))
-
             # 将最后一列视为频率，如果不是则默认为 1
             if not v[-1].isdigit():
-                # freq = weight  # 1 * weight
                 freq_ori = 1
                 freq = 1
             else:
-                # freq = int(v[-1]) * weight
                 freq_ori = int(v[-1])
                 freq = int(float(v[-1]) * weight)
-
             # 过滤掉词频过小的词
             if freq_ori < min_freq:
-                skip_count += 1
-                count = word_count + parse_count + skip_count
-                if count % callbackCount == 0:
-                    callbackFunc(count, len(text_s))
                 continue
-
             # 将第一列视为汉字或词组，如果不是则跳过这一行（break）
-            word = None
+            word_or_phrase = None
             for c in v[0]:
-                if ord(c) not in self.word_pinyin_s:
+                if ord(c) not in pinyin_dict:
                     break
             else:
-                word = v[0]
-            if word is None or len(word) == 0:
+                word_or_phrase = v[0]
+            if word_or_phrase is None or len(word_or_phrase) == 0:
                 continue
-
-            # 如果是词组，则合并到 self.phrase_r 里
-            if len(word) > 1:
+            # 如果是词组，则合并到 self.phrase_main 里
+            if len(word_or_phrase) > 1:
                 pinyin = None
                 if len(v) > 1:
                     if re.match(r"^[a-z ]+$", v[1]):
@@ -169,156 +119,67 @@ class DictGenerator:
                         for py in v[1].split(" "):
                             correct_py.append(self.fixPinyin(py))
                         pinyin = correct_py
-
-                word = self.t2s.convert(word)  # 确保词组为简体
+                phrase = self.t2s.convert(word_or_phrase)  # 确保词组为简体
                 # 处理多音词 如: 一行 yi hang/xing
-                if word in self.phrase_r:
-                    if pinyin == self.phrase_r[word][0]:
-                       self.phrase_r[word][1] += freq
-                    elif word in self.phrase_heteronyms:
-                       self.phrase_heteronyms[word][1] += freq
+                if phrase in self.phrase_main:
+                    if pinyin == self.phrase_main[phrase][0]:
+                        self.phrase_main[phrase][1] += freq
+                    elif phrase in self.phrase_heteronyms:
+                        self.phrase_heteronyms[phrase][1] += freq
                     elif pinyin:
-                       self.phrase_heteronyms[word] = [pinyin, freq]
+                        self.phrase_heteronyms[phrase] = [pinyin, freq]
                 else:
-                    self.phrase_r[word] = [pinyin, freq]
-                parse_count += 1
+                    self.phrase_main[phrase] = [pinyin, freq]
+                phrase_count += 1
+        print("成功合并 %s %s 个词组。" % (dict_name, phrase_count))
 
-            if callbackFunc is not None:
-                count = word_count + parse_count + skip_count
-                if count % callbackCount == 0:
-                    callbackFunc(count, len(text_s))
-
-        return (word_count, parse_count)
-
-    def getParseDictText(self, callbackCount=sys.maxsize, callbackFunc=None):
-        """
-        生成词组的 rime 字典文本
-        由于词典量较大，所以需要显示转换进度
-        callbackCount 为每过几个词调用一次 callbackFunc
-        callbackFunc 是回调函数，自定义如何处理进度
-            格式为 callbackFunc(count, total_count)
-                count 为当前已处理的个数
-                total_count 为总共数量
-        """
+    def getPhraseList(self, generate=True):
+        """生成词组的 rime 字典文本"""
+        if generate:
+            self.supplementPinyin()
+            self.dumpJson()
+        else:
+            dict_json = json.load(open("glim_dict.json", "r"))
+            self.phrase_main = dict_json["main"]
+            self.phrase_heteronyms = dict_json["heteronyms"]
         self.fixPhrases()
-        phrase_main_list = [
-            (phrase, self.phrase_r[phrase][0], self.phrase_r[phrase][1])
-            for phrase in self.phrase_r
-        ]
-        phrase_heteronyms_list = [
-            (phrase, self.phrase_heteronyms[phrase][0], self.phrase_heteronyms[phrase][1])
-            for phrase in self.phrase_heteronyms
-        ]
-        dict_add_list = [
-            (phrase, self.dict_add[phrase][0], self.dict_add[phrase][1])
-            for phrase in self.dict_add
-        ]
-        phrase_list = phrase_main_list + phrase_heteronyms_list + dict_add_list
+        phrase_main_list = [(k, v[0], v[1]) for k, v in self.phrase_main.items()]
+        phrase_sub_list = [(k, v[0], v[1]) for k, v in self.phrase_heteronyms.items()]
+        phrase_add_list = [(k, v[0], v[1]) for k, v in self.phrase_add.items()]
+        phrase_list = phrase_main_list + phrase_sub_list + phrase_add_list
         # 按频率倒序排序
         phrase_list.sort(key=lambda w: w[2], reverse=True)
+        return phrase_list
 
-        # 生成文本
-        count = 0
-        text_phrase = ""
-        for phrase_st in phrase_list:
-            # 若 large_pinyin.txt 无此 phrase, 则通过 pypinyin 库获取到词组的拼音
-            phrase_pinyin = phrase_st[1]
-            if phrase_pinyin is None:
-                phrase_pinyin = map(self.fixPinyin, pypinyin.lazy_pinyin(phrase_st[0]))
-            text_phrase += (
-                phrase_st[0]
-                + "\t"
-                + " ".join(phrase_pinyin)
-                + "\t"
-                + str(phrase_st[2])
-                + "\n"
-            )
-            count += 1
-            if callbackFunc is not None:
-                if count % callbackCount == 0:
-                    callbackFunc(count, len(phrase_list))
-        return text_phrase
+    def dumpJson(self):
+        with open("glim_dict.json", "w") as dict_json_out:
+            dict_json = {"main": self.phrase_main, "heteronyms": self.phrase_heteronyms}
+            json.dump(dict_json, dict_json_out)
 
 
 def main(args):
     generator = DictGenerator()
-
-    class PrintProcess:
-        def __init__(self, msg):
-            self.msg = msg
-
-        def process(self, count, total):
-            print(self.msg % (count, total))
-
-    # 合并华宇系统词库
-    text = open("sys.dict.yaml", "r", encoding="utf-8").read()
-    r = generator.mergeDict(
-        text,
-        # args.weight,
-        # args.minfreq,
-        1,
-        0,
-        100000,
-        PrintProcess("正在合并华宇系统词库 (%s/%s)").process,
-    )
-    print("成功合并华宇中文词库 %s 个汉字， %s 个词组。" % r)
-
-    # 合并袖珍简化字拼音的词库
-    text = open("pinyin_simp.dict.yaml", "r", encoding="utf-8").read()
-    r = generator.mergeDict(
-        text, 1, 0, 100000, PrintProcess("正在合并袖珍简化字拼音的词库 (%s/%s)").process
-    )
-    print("成功合并袖珍简化字拼音 %s 个汉字， %s 个词组。" % r)
-
-    # 合并 THUOCL 词库
-    text = open("THUOCL.dict.yaml", "r", encoding="utf-8").read()
-    r = generator.mergeDict(text, 0.01, 0, 100000, PrintProcess("正在合并 THUOCL (%s/%s)").process)
-    print("成功合并 THUOCL %s 个汉字， %s 个词组。" % r)
-
-    # 合并 rime 自带的八股文
-    text = open("essay.txt", "r", encoding="utf-8").read()
-    r = generator.mergeDict(text, 1, 0, 100000, PrintProcess("正在合并八股文 (%s/%s)").process)
-    print("成功合并八股文 %s 个汉字， %s 个词组。" % r)
-
-    # 合并 phrase-pinyin-data 的词库
-    text = open("pdb.txt", "r", encoding="utf-8").read().replace(": ", "\t")
-    r = generator.mergeDict(
-        text,
-        1,
-        0,
-        100000,
-        PrintProcess("正在合并 phrase-pinyin-data 的词库 (%s/%s)").process,
-    )
-    print("成功合并 phrase-pinyin-data %s 个汉字， %s 个词组。" % r)
-
-    parse_dict_name = "glim_phrase"
-
-    parse_dict_text = generator.getParseDictText(
-        10000, PrintProcess("正在取得每个词组的拼音 (%s/%s)").process
-    )
-
-    with open(parse_dict_name + ".dict.yaml", "w") as phrase_out:
-        phrase_out.write("---\nname: glim_phrase\nversion: \"1.0.0\"\nsort: by_weight\n...\n")
-        phrase_out.write(parse_dict_text)
+    if args.gen:
+        generator.mergeDict("sys.dict.yaml", args.weight, args.minfreq, "华宇系统词库")
+        generator.mergeDict("pinyin_simp.dict.yaml", 1, 0, "袖珍简化字拼音")
+        generator.mergeDict("THUOCL.dict.yaml", 0.01, 0, "THUOCL")
+        generator.mergeDict("essay.txt", 1, 0, "八股文")
+        generator.mergeDict("pdb.txt", 1, 0, " phrase-pinyin-data ")
+    phrase_list = generator.getPhraseList(args.gen)
+    with open("glim_phrase.dict.yaml", "w") as phrase_out:
+        header = '---\nname: glim_phrase\nversion: "1.0.0"\nsort: by_weight\n...\n'
+        phrase_out.write(header)
+        phrase_text = ""
+        for ph in phrase_list:
+            phrase_text += ph[0] + "\t" + " ".join(ph[1]) + "\t" + str(ph[2]) + "\n"
+        phrase_out.write(phrase_text)
     return 0
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Glim raw pinyin dict generator.")
-    parser.add_argument(
-        "--minfreq",
-        "-m",
-        help="Specify the minimum frequency, "
-        + "phrases that are less than this frequency will be filtered out",
-        type=int,
-        default=100,
-    )
-    parser.add_argument(
-        "--weight",
-        "-w",
-        help="Specify the weight for vanilla rime dict, will multiple this value with word freq",
-        type=int,
-        default=0.005,
-    )
+    parser.add_argument("--minfreq", type=int, default=0)
+    parser.add_argument("--weight", type=int, default=1)
+    parser.add_argument("--gen", default=True, action=argparse.BooleanOptionalAction)
     args = parser.parse_args()
     main(args)

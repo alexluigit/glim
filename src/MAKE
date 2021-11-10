@@ -38,6 +38,7 @@ _fix_phrase_dict_pre() {
   fix_phrase+=("s/别强: bié qiáng/别强: bié jiàng/;")
   fix_phrase+=("s/发强: fā qiáng/发强: fā jiàng/;")
   fix_phrase+=("s/度人之腹: dù rén zh fù/度人之腹: duó rén zhī fù/;")
+  fix_phrase+=("s/: /\\t/;")
   fix_phrase+=('"')
   cat ./phrase-pinyin-data/large_pinyin.txt | eval ${fix_phrase[@]} > pdb.txt
 }
@@ -72,12 +73,12 @@ update_dicts_basic() {
   cp ./rime-settings/dicts/sys.dict.yaml .
   cat ./THUOCL/data/*.txt > THUOCL.txt
   ../src/thuocl2rime.py THUOCL.txt ../cache/THUOCL.dict.yaml
-  diff ./phrase-pinyin-data/large_pinyin.txt pdb.txt
   $update_emoji && _update_emoji
 }
 
 gen_dicts_basic() {
-  $skip_gen || ../src/glim_dict_gen.py
+  $skip_gen && skip="--no-gen" || skip="--gen"
+  ../src/glim_dict_gen.py $skip
   ../src/glim_charset_gen.py
   ../src/glim_encode.py
   cp ./glim_phrase.dict.yaml ../dicts
