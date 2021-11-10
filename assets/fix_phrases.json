@@ -1,5 +1,5 @@
 {
-  "phrases": {
+  "adjust": {
     "尼国": null,
     "汤浅": null,
     "中就": null,
@@ -42,9 +42,12 @@
     "逞着劲儿": ["cheng", "zhe", "jin", "er"],
     "若有人兮山之阿": ["ruo", "you", "ren", "xi", "shan", "zhi", "e"]
   },
-  "triple_pronounce": {
+  "add": {
     "落下": [["luo", "xia"],	100000 ],
     "差事": [["cha", "shi"],	10000 ],
-    "差事儿": [["cha", "shi", "er"],	10000 ]
+    "差事儿": [["cha", "shi", "er"],	10000 ],
+    "小鹤": [["xiao", "he"], 10000 ],
+    "小鹤双拼": [["xiao", "he", "shuang", "pin"], 10000 ],
+    "懂我": [["dong", "wo"], 1000 ]
   }
 }

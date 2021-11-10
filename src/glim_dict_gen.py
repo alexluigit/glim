@@ -74,8 +74,8 @@ class DictGenerator:
         fix_dict = json.load(open("../assets/fix_phrases.json", "r"))
         self.phrase_r = {}
         self.phrase_heteronyms = {}
-        self.dict_replace = fix_dict["phrases"]
-        self.triple_pronounce = fix_dict["triple_pronounce"]
+        self.dict_adjust = fix_dict["adjust"]
+        self.dict_add = fix_dict["add"]
 
     def fixPinyin(self, pinyin):
         """
@@ -100,7 +100,7 @@ class DictGenerator:
         """
         修复一些词语拼写/发音错误，调整频率
         """
-        for k, v in self.dict_replace.items():
+        for k, v in self.dict_adjust.items():
             if not v:
                 del self.phrase_r[k]
             elif type(v) == str:
@@ -209,11 +209,11 @@ class DictGenerator:
             (phrase, self.phrase_heteronyms[phrase][0], self.phrase_heteronyms[phrase][1])
             for phrase in self.phrase_heteronyms
         ]
-        triple_pronounce_list = [
-            (phrase, self.triple_pronounce[phrase][0], self.triple_pronounce[phrase][1])
-            for phrase in self.triple_pronounce
+        dict_add_list = [
+            (phrase, self.dict_add[phrase][0], self.dict_add[phrase][1])
+            for phrase in self.dict_add
         ]
-        phrase_list = phrase_main_list + phrase_heteronyms_list + triple_pronounce_list
+        phrase_list = phrase_main_list + phrase_heteronyms_list + dict_add_list
         # 按频率倒序排序
         phrase_list.sort(key=lambda w: w[2], reverse=True)
 
