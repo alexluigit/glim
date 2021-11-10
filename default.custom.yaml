@@ -2,10 +2,6 @@ patch:
   schema_list:
     - { schema: glim }
 
-  menu:
-    page_size: 3
-    alternative_select_labels: [ 〡, 〢, 〣, 〤, 〥, 〦, 〧, 〨, 〩 ]
-
   switcher/hotkeys:
     - Control+grave
 

@@ -335,14 +335,55 @@ TODO: 常用词固定顺序。
 为了免除人工给每个字母加单引号的麻烦，该方案引入了 ;; 后缀以强制分词。
 输入 qqww + ;; (或设置「强制分词」快捷键) 将直接得到 q'q'w'w
 
+*** 整句定位
+:PROPERTIES:
+:CUSTOM_ID: Glim_-_形码辅助拼音输入方案-功能_|_Features-整句定位-06e3ec78
+:END:
+
+=glim/navigate_with=: 用于组句时快速定位到第 X 字。
+
+默认为 =asdfghjkl= (QWERTY 中排)
+
+#+begin_src yaml
+glim/navigate_with: "asdfghjkl"
+#+end_src
+
+即: A -> 第1个字, S -> 第二个字, D -> 第三个字, ... L -> 第9个字
+
+假设想输入的句子是: "直到他的苦衷变成我的"
+
+| zhi dao ta de ku zhong bian cheng wo de｜ |
+|-------------------------------------------|
+| 1. 知道他的苦衷变成我的                   |
+| 2. ...                                    |
+
+此时输入 =S (Shift+s)= 可快速移动光标至「知道」之后
+
+| zhi dao｜ta de ku zhong bian cheng wo de |
+|------------------------------------------|
+| 1. 知道                                  |
+| 2. 直到                                  |
+| 3. ...                                   |
+
+设置范例:
+
+#+begin_src yaml
+# Colemak
+glim/navigate_with: "arstdhneio"
+
+# Dvorak
+glim/navigate_with: "aoeuidhtns"
+
+# 禁用该功能
+glim/navigate_with: ""
+#+end_src
+
+=注意=:
+- 该功能 *不支持* 全拼方案。
+
 *** 其他功能
 :PROPERTIES:
 :CUSTOM_ID: Glim_-_形码辅助拼音输入方案-功能_|_Features-其他功能-88a0ea56
-:END:
-
-**** 整句输入
-:PROPERTIES:
-:CUSTOM_ID: Glim_-_形码辅助拼音输入方案-功能_|_Features-其他功能-整句输入-c9304b1a
 :END:
 
 **** 简繁切换

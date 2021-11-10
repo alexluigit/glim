@@ -24,11 +24,11 @@ switches:
 
 engine:
   processors:
+    - lua_processor@editor_processor
     - recognizer
     - key_binder
     - speller
     - punctuator
-    - lua_processor@editor_processor
     - selector
     - navigator
     - express_editor
@@ -94,6 +94,7 @@ glim:
   glyph_hint_level: 2
   fixed_single_ch: true
   abbrev_suffix: ";;"
+  navigate_with: "asdfghjkl"
 
 recognizer:
   import_preset: default
