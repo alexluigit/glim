@@ -22,12 +22,14 @@ local function filter(cands, env)
     local words_text, filtered, rest = cand_helper.filter_charset(cands)
     cand_helper.sort_by_heteronym(filtered, words_text)
     local rec = false
-    local history = input_helper.get_history(ctx, 1)
     for i, cand in ipairs(filtered) do
       local text = cand.text
-      local valid = input_helper.validate(history, text) or input:len() > 2
-      if not rec then rec = input_helper.set_history(ctx, seg_len, text) end
-      if valid then yield(cand) end
+      local head_ch_word = env.alpha_table[input:sub(caret - 1, caret - 1)][1]
+      if not rec then
+        ctx:set_property("input_C1", head_ch_word)
+        rec = input_helper.set_history(ctx, seg_len, text)
+      end
+      if text ~= head_ch_word then yield(cand) end
     end
     for i, cand in ipairs(rest) do yield(cand) end
   else
