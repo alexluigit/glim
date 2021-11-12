@@ -12,7 +12,6 @@ local function _commit_and_santinize (env, cand, idx)
   ctx:refresh_non_confirmed_composition()
   ctx.caret_pos = ctx.input:len()
   if not ctx:has_menu() then
-    -- BUG? If context is 'composing' here, user dict do not pick up new word.
     ctx:commit()
     TAB_CARET = 0
     input_helper.reset(ctx)
@@ -22,7 +21,8 @@ end
 local function editor(key_event, env)
   local kAccepted = 1
   local kNoop = 2
-  local ctx = env.engine.context
+  local engine = env.engine
+  local ctx = engine.context
   local key_press = key_helper:init{ kCode = key_event.keycode }
   -- local tab_caret = ctx:get_property("TAB_CARET")
   local should_forward_key = (not ctx:has_menu())
@@ -53,8 +53,20 @@ local function editor(key_event, env)
     local computed_index = page_start_index + tonumber(key_repr) - 1
     local cand = segment:get_candidate_at(computed_index)
     _commit_and_santinize(env, cand, computed_index)
+  elseif key_press:is_lower() then
+    -- to solve https://github.com/rime/librime/issues/500, so far so good
+    ctx:push_input(key_repr)
   elseif env.navi_index and key_press:is_upper() then
-    ctx.caret_pos = TAB_CARET + env.navi_index[key_repr]
+    local index = env.navi_index[key_repr]
+    if KeySequence then
+      local ks = KeySequence()
+      local ks_str = "{Home}"
+      for i = 1, index do ks_str = ks_str .. "{Shift+Right}" end
+      ks:parse(ks_str)
+      for _, ke in ipairs(ks:toKeyEvent()) do engine:process_key(ke) end
+    else
+      ctx.caret_pos = TAB_CARET + index * 2
+    end
   else
     return kNoop
   end

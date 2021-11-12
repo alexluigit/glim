@@ -379,7 +379,7 @@ glim/navigate_with: ""
 #+end_src
 
 =注意=:
-- 该功能 *不支持* 全拼方案。
+- 该功能默认情况下 *不支持* 全拼方案，全拼方案需自行编译最新 librime-lua 以支持该功能。
 
 *** 其他功能
 :PROPERTIES:

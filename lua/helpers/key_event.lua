@@ -12,7 +12,7 @@ function Key.to_navi_index(str)
   local t = {}
   for i = 1, #str do
     local c = str:sub(i,i):upper()
-    t["Shift+" .. c] = i * 2
+    t["Shift+" .. c] = i + 1
   end
   return t
 end
