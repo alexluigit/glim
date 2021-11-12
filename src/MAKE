@@ -28,19 +28,19 @@ _clone_or_pull () {
   fi
 }
 
-_fix_phrase_dict_pre() {
-  local fix_phrase=(sed '"' "s/ \?#.*//;" "s/失张失志.*//;" "s/失张失致.*//;")
-  fix_phrase+=("s/hòu bù bā d/hòu bù bā diàn/;")
-  fix_phrase+=("s/bié wú fēn d$/bié wú fēn diàn/;")
-  fix_phrase+=("s/rì jī yuè zh/rì jū yuè zhū/;")
-  fix_phrase+=("s/léi tíng wàn j$/léi tíng zhī nù/;")
-  fix_phrase+=("s/不强: bù jiāng/不强: bù qiáng/;")
-  fix_phrase+=("s/别强: bié qiáng/别强: bié jiàng/;")
-  fix_phrase+=("s/发强: fā qiáng/发强: fā jiàng/;")
-  fix_phrase+=("s/度人之腹: dù rén zh fù/度人之腹: duó rén zhī fù/;")
-  fix_phrase+=("s/: /\\t/;")
-  fix_phrase+=('"')
-  cat ./phrase-pinyin-data/large_pinyin.txt | eval ${fix_phrase[@]} > pdb.txt
+_phrase_wrangling() {
+  local wrangle_phrases=(sed '"' "s/ \?#.*//;" "s/失张失志.*//;" "s/失张失致.*//;")
+  wrangle_phrases+=("s/hòu bù bā d/hòu bù bā diàn/;")
+  wrangle_phrases+=("s/bié wú fēn d$/bié wú fēn diàn/;")
+  wrangle_phrases+=("s/rì jī yuè zh/rì jū yuè zhū/;")
+  wrangle_phrases+=("s/léi tíng wàn j$/léi tíng zhī nù/;")
+  wrangle_phrases+=("s/不强: bù jiāng/不强: bù qiáng/;")
+  wrangle_phrases+=("s/别强: bié qiáng/别强: bié jiàng/;")
+  wrangle_phrases+=("s/发强: fā qiáng/发强: fā jiàng/;")
+  wrangle_phrases+=("s/度人之腹: dù rén zh fù/度人之腹: duó rén zhī fù/;")
+  wrangle_phrases+=("s/: /\\t/;")
+  wrangle_phrases+=('"')
+  cat ./phrase-pinyin-data/large_pinyin.txt | eval ${wrangle_phrases[@]} > pdb.txt
 }
 
 _update_emoji() {
@@ -67,7 +67,7 @@ update_dicts_basic() {
     echo $zhw_latest > $zhw_ver
     wget $zhw_latest -q -O zhwiki.dict.yaml
   }
-  _fix_phrase_dict_pre
+  _phrase_wrangling
   cp ./rime-essay/essay.txt .
   cp ./rime-pinyin-simp/pinyin_simp.dict.yaml .
   cp ./rime-settings/dicts/sys.dict.yaml .
