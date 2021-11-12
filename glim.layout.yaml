@@ -14,32 +14,32 @@ chole:
     - derive/^ch/U/
     - derive/^sh/I/
     - derive/^zh/V/
-    - xform/iang/Y/
-    - xform/uang/Y/
-    - xform/iong/M/
-    - xform/(\w+)ang/$1L/
-    - xform/(\w+)eng/$1P/
-    - xform/ong/M/
-    - xform/ian/N/
-    - xform/iao/J/
-    - xform/ing/F/
-    - xform/uai/F/
-    - xform/uan/H/
-    - xform/(\w+)ai/$1Z/
-    - xform/(\w+)an/$1T/
-    - xform/(\w+)ao/$1D/
-    - xform/(\w+)ei/$1W/
-    - xform/(\w+)en/$1S/
+    - xform/(\w)iang/$1Y/
+    - xform/(\w)uang/$1Y/
+    - xform/(\w)iong/$1M/
+    - xform/(\w)ang/$1L/
+    - xform/(\w)eng/$1P/
+    - xform/(\w)ong/$1M/
+    - xform/(\w)ian/$1N/
+    - xform/(\w)iao/$1J/
+    - xform/(\w)ing/$1F/
+    - xform/(\w)uai/$1F/
+    - xform/(\w)uan/$1H/
+    - xform/(\w)ai/$1Z/
+    - xform/(\w)an/$1T/
+    - xform/(\w)ao/$1D/
+    - xform/(\w)ei/$1W/
+    - xform/(\w)en/$1S/
     - xform/(\w)ia/$1X/
     - xform/(\w)ie/$1K/
     - xform/(\w)in/$1C/
     - xform/(\w)iu/$1Q/
-    - xform/(\w+)ou/$1R/
-    - xform/(\w+)ua/$1X/
+    - xform/(\w)ou/$1R/
+    - xform/(\w)ua/$1X/
     - xform/(\w)ue/$1G/
-    - xform/(\w+)ui/$1V/
-    - xform/(\w+)un/$1B/
-    - xform/(\w+)uo/$1O/
+    - xform/(\w)ui/$1V/
+    - xform/(\w)un/$1B/
+    - xform/(\w)uo/$1O/
     - xform/(\w)ve/$1G/
     - xlit/QWERTYUIOPSDFGHJKLZXCVBNMA/qwertyuiopsdfghjklzxcvbnma/
     - abbrev/^(.).+$/$1'/
@@ -62,7 +62,7 @@ chole:
     - xform/([jqxy])g/$1ue/
     - xform/([nl])v/$1ü/
     - xform/([dtgkhviurzcs])v/$1ui/
-    - xform/([dtlgkhjqxviuzcsy])b/$1un/
+    - xform/([dtlgkhjqxviuzcsry])b/$1un/
     - xform/([dtnlgkhviuzcsr])o/$1uo/
     - xform/([pmfdtlgkhviuzcsry])r/$1ou/
     - xform/([nl])g/$1ve/
@@ -92,32 +92,32 @@ flypy:
     - derive/^ch/I/
     - derive/^sh/U/
     - derive/^zh/V/
-    - xform/iang/L/
-    - xform/uang/L/
-    - xform/iong/S/
-    - xform/(\w+)ang/$1H/
-    - xform/(\w+)eng/$1G/
-    - xform/(\w+)ong/$1S/
-    - xform/ian/M/
-    - xform/iao/N/
-    - xform/ing/K/
-    - xform/uai/K/
-    - xform/uan/R/
-    - xform/(\w+)ai/$1D/
-    - xform/(\w+)an/$1J/
-    - xform/(\w+)ao/$1C/
-    - xform/(\w+)ei/$1W/
-    - xform/(\w+)en/$1F/
+    - xform/(\w)iang/$1L/
+    - xform/(\w)uang/$1L/
+    - xform/(\w)iong/$1S/
+    - xform/(\w)ang/$1H/
+    - xform/(\w)eng/$1G/
+    - xform/(\w)ong/$1S/
+    - xform/(\w)ian/$1M/
+    - xform/(\w)iao/$1N/
+    - xform/(\w)ing/$1K/
+    - xform/(\w)uai/$1K/
+    - xform/(\w)uan/$1R/
+    - xform/(\w)ai/$1D/
+    - xform/(\w)an/$1J/
+    - xform/(\w)ao/$1C/
+    - xform/(\w)ei/$1W/
+    - xform/(\w)en/$1F/
     - xform/(\w)ia/$1X/
     - xform/(\w)ie/$1P/
     - xform/(\w)in/$1B/
     - xform/(\w)iu/$1Q/
-    - xform/(\w+)ou/$1Z/
-    - xform/(\w+)ua/$1X/
+    - xform/(\w)ou/$1Z/
+    - xform/(\w)ua/$1X/
     - xform/(\w)ue/$1T/
-    - xform/(\w+)ui/$1V/
-    - xform/(\w+)un/$1Y/
-    - xform/(\w+)uo/$1O/
+    - xform/(\w)ui/$1V/
+    - xform/(\w)un/$1Y/
+    - xform/(\w)uo/$1O/
     - xform/(\w)ve/$1T/
     - xlit/QWERTYUIOPSDFGHJKLZXCVBNMA/qwertyuiopsdfghjklzxcvbnma/
     - abbrev/^(.).+$/$1'/
@@ -138,7 +138,7 @@ flypy:
     - xform/([nl])v/$1ü/
     - xform/([dtgkhviurzcs])v/$1ui/
     - xform/([dtnlgkhviuzcsr])o/$1uo/
-    - xform/([dtlgkhviuzcsy])y/$1un/
+    - xform/([dtlgkhviuzcsry])y/$1un/
     - xform/([nl])t/$1ve/
     - xform/([pmfdtlgkhviuzcsry])z/$1ou/
     - xform/([bpmfdtnlgkhxviuzcsryw])g/$1eng/
@@ -168,34 +168,33 @@ natural:
     - derive/^ch/I/
     - derive/^sh/U/
     - derive/^zh/V/
-    - xform/iang$/D/
-    - xform/iong$/S/
-    - xform/uang$/D/
-    - xform/ang$/H/
-    - xform/ong$/S/
-    - xform/eng$/G/
-    - xform/ian$/M/
-    - xform/iao$/C/
-    - xform/ing$/Y/
-    - xform/uai$/Y/
-    - xform/uan$/R/
-    - xform/ai$/L/
-    - xform/an$/J/
-    - xform/ao$/K/
-    - xform/ou$/B/
-    - xform/ei$/Z/
-    - xform/en$/F/
-    - xform/er$/R/
-    - xform/ia$/W/
-    - xform/ie$/X/
-    - xform/in$/N/
-    - xform/iu$/Q/
-    - xform/ua$/W/
-    - xform/ue$/T/
-    - xform/ui$/V/
-    - xform/un$/P/
-    - xform/uo$/O/
-    - xform/ve$/T/
+    - xform/(\w)iang/$1D/
+    - xform/(\w)uang/$1D/
+    - xform/(\w)iong/$1S/
+    - xform/(\w)ang/$1H/
+    - xform/(\w)eng/$1G/
+    - xform/(\w)ong/$1S/
+    - xform/(\w)ian/$1M/
+    - xform/(\w)iao/$1C/
+    - xform/(\w)ing/$1Y/
+    - xform/(\w)uai/$1Y/
+    - xform/(\w)uan/$1R/
+    - xform/(\w)ai/$1L/
+    - xform/(\w)an/$1J/
+    - xform/(\w)ao/$1K/
+    - xform/(\w)ei/$1Z/
+    - xform/(\w)en/$1F/
+    - xform/(\w)ia/$1W/
+    - xform/(\w)ie/$1X/
+    - xform/(\w)in/$1N/
+    - xform/(\w)iu/$1Q/
+    - xform/(\w)ou/$1B/
+    - xform/(\w)ua/$1W/
+    - xform/(\w)ue/$1T/
+    - xform/(\w)ui/$1V/
+    - xform/(\w)un/$1P/
+    - xform/(\w)uo/$1O/
+    - xform/(\w)ve/$1T/
     - xlit/ABCDEFGHIJKLMNOPQRSTUVWXYZ/abcdefghijklmnopqrstuvwxyz/
     - abbrev/^(.).+$/$1'/
 
@@ -215,7 +214,7 @@ natural:
     - xform/([nl])v/$1ü/
     - xform/([dtgkhviurzcs])v/$1ui/
     - xform/([dtnlgkhviuzcsr])o/$1uo/
-    - xform/([dtlgkhviuzcsy])p/$1un/
+    - xform/([dtlgkhviuzcsry])p/$1un/
     - xform/([nl])t/$1ve/
     - xform/([pmfdtlgkhviuzcsry])b/$1ou/
     - xform/([bpmfdtnlgkhxviuzcsryw])g/$1eng/
@@ -245,35 +244,34 @@ ms:
     - derive/^ch/I/
     - derive/^sh/U/
     - derive/^zh/V/
-    - xform/iang$/D/
-    - xform/iong$/S/
-    - xform/uang$/D/
-    - xform/ang$/H/
-    - xform/ong$/S/
-    - xform/eng$/G/
-    - xform/ian$/M/
-    - xform/iao$/C/
-    - xform/ing$/;/
-    - xform/uai$/Y/
-    - xform/uan$/R/
-    - xform/ai$/L/
-    - xform/an$/J/
-    - xform/ao$/K/
-    - xform/ou$/B/
-    - xform/ei$/Z/
-    - xform/en$/F/
-    - xform/er$/R/
-    - xform/ia$/W/
-    - xform/ie$/X/
-    - xform/in$/N/
-    - xform/iu$/Q/
-    - xform/ua$/W/
-    - xform/ue$/T/
-    - xform/ui$/V/
-    - xform/un$/P/
-    - xform/uo$/O/
-    - xform/ve$/V/
-    - xform/v$/Y/
+    - xform/(\w)iang/$1D/
+    - xform/(\w)uang/$1D/
+    - xform/(\w)iong/$1S/
+    - xform/(\w)ang/$1H/
+    - xform/(\w)eng/$1G/
+    - xform/(\w)ong/$1S/
+    - xform/(\w)ian/$1M/
+    - xform/(\w)iao/$1C/
+    - xform/(\w)ing/$1;/
+    - xform/(\w)uai/$1Y/
+    - xform/(\w)uan/$1R/
+    - xform/(\w)ai/$1L/
+    - xform/(\w)an/$1J/
+    - xform/(\w)ao/$1K/
+    - xform/(\w)ei/$1Z/
+    - xform/(\w)en/$1F/
+    - xform/(\w)ia/$1W/
+    - xform/(\w)ie/$1X/
+    - xform/(\w)in/$1N/
+    - xform/(\w)iu/$1Q/
+    - xform/(\w)ou/$1B/
+    - xform/(\w)ua/$1W/
+    - xform/(\w)ue/$1T/
+    - xform/(\w)ui/$1V/
+    - xform/(\w)un/$1P/
+    - xform/(\w)uo/$1O/
+    - xform/(\w)ve/$1V/
+    - xform/(\w)v/$1Y/
     - xlit/ABCDEFGHIJKLMNOPQRSTUVWXYZ/abcdefghijklmnopqrstuvwxyz/
     - abbrev/^(.).+$/$1'/
 
@@ -293,7 +291,7 @@ ms:
     - xform/([nl])y/$1ü/
     - xform/([dtgkhviurzcs])v/$1ui/
     - xform/([dtnlgkhviuzcsr])o/$1uo/
-    - xform/([dtlgkhviuzcsy])p/$1un/
+    - xform/([dtlgkhviuzcsry])p/$1un/
     - xform/([nl])v/$1ve/
     - xform/([pmfdtlgkhviuzcsry])b/$1ou/
     - xform/([bpmfdtnlgkhxviuzcsryw])g/$1eng/
@@ -324,32 +322,32 @@ pyjj:
     - xform/^ch/U/
     - xform/^sh/I/
     - xform/^zh/V/
-    - xform/iang/H/
-    - xform/uang/H/
-    - xform/iong/Y/
-    - xform/(\w+)ang$/$1G/
-    - xform/(\w+)eng$/$1T/
-    - xform/(\w+)ong$/$1Y/
-    - xform/ian/J/
-    - xform/iao/K/
-    - xform/ing/Q/
-    - xform/uai/X/
-    - xform/uan/C/
-    - xform/(\w+)ai/$1S/
-    - xform/(\w+)an/$1F/
-    - xform/(\w+)ao/$1D/
-    - xform/(\w+)ei/$1W/
-    - xform/(\w+)en/$1R/
+    - xform/(\w)iang/$1H/
+    - xform/(\w)uang/$1H/
+    - xform/(\w)iong/$1Y/
+    - xform/(\w)ang/$1G/
+    - xform/(\w)eng/$1T/
+    - xform/(\w)ong/$1Y/
+    - xform/(\w)ian/$1J/
+    - xform/(\w)iao/$1K/
+    - xform/(\w)ing/$1Q/
+    - xform/(\w)uai/$1X/
+    - xform/(\w)uan/$1C/
+    - xform/(\w)ai/$1S/
+    - xform/(\w)an/$1F/
+    - xform/(\w)ao/$1D/
+    - xform/(\w)ei/$1W/
+    - xform/(\w)en/$1R/
     - xform/(\w)ia/$1B/
     - xform/(\w)ie/$1M/
     - xform/(\w)in/$1L/
     - xform/(\w)iu/$1N/
-    - xform/(\w+)ou/$1P/
-    - xform/(\w+)ua/$1B/
-    - xform/(\w)ue/$1X/
-    - xform/(\w+)ui/$1V/
-    - xform/(\w+)un/$1Z/
-    - xform/(\w+)uo/$1O/
+    - xform/(\w)ou/$1P/
+    - xform/(\w)ua/$1B/
+    - xform/(\w)ue/$1/X/
+    - xform/(\w)ui/$1V/
+    - xform/(\w)un/$1Z/
+    - xform/(\w)uo/$1O/
     - xform/(\w)ve/$1X/
     - xlit/ABCDEFGHIJKLMNOPQRSTUVWXYZ/abcdefghijklmnopqrstuvwxyz/
     - abbrev/^(.).+$/$1'/
@@ -370,7 +368,7 @@ pyjj:
     - xform/([nl])v/$1ü/
     - xform/([dtgkhviurzcs])v/$1ui/
     - xform/([dtnlgkhviuzcsr])o/$1uo/
-    - xform/([dtlgkhviuzcsy])z/$1un/
+    - xform/([dtlgkhviuzcsry])z/$1un/
     - xform/([nl])x/$1ve/
     - xform/([pmfdtlgkhviuzcsry])p/$1ou/
     - xform/([bpmfdtnlgkhxviuzcsryw])g/$1ang/
