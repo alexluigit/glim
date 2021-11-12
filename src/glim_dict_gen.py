@@ -114,7 +114,7 @@ class DictGenerator:
             if len(word_or_phrase) > 1:
                 pinyin = None
                 if len(v) > 1:
-                    if re.match(r"^[a-z ]+$", v[1]):
+                    if re.match(r"^[a-z]+ [a-z ]+$", v[1]):
                         correct_py = []
                         for py in v[1].split(" "):
                             correct_py.append(self.fixPinyin(py))
@@ -134,7 +134,7 @@ class DictGenerator:
         print("成功合并 %s %s 个词组。" % (dict_name, phrase_count))
 
     def getPhraseList(self, generate=True):
-        """生成词组的 rime 字典文本"""
+        """生成词组的 rime 字典 list"""
         if generate:
             self.supplementPinyin()
             self.dumpJson()
@@ -164,7 +164,7 @@ def main(args):
         generator.mergeDict("pinyin_simp.dict.yaml", 1, 0, "袖珍简化字拼音")
         generator.mergeDict("THUOCL.dict.yaml", 0.01, 0, "THUOCL")
         generator.mergeDict("essay.txt", 1, 0, "八股文")
-        generator.mergeDict("pdb.txt", 1, 0, " phrase-pinyin-data ")
+        generator.mergeDict("pdb.txt", 1, 0, "phrase-pinyin-data")
     phrase_list = generator.getPhraseList(args.gen)
     with open("glim_phrase.dict.yaml", "w") as phrase_out:
         header = '---\nname: glim_phrase\nversion: "1.0.0"\nsort: by_weight\n...\n'
