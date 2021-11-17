@@ -23,14 +23,16 @@ patch:
   ### 用于组句时快速定位到第 X 字。
   ### 默认为 "asdfghjkl" (QWERTY 中排)
   ### 以默认设置为例: A -> 1 (第1个字), S -> 2, D -> 3, ... L -> 9 (第9个字)
-  ###  假设想输入的句子是: "直到他的苦衷变成我的"
-  ###  zhi dao ta de ku zhong bian cheng wo de|
-  ###  1. 知道他的苦衷变成我的
-  ###  2. ...
-  ### 此时输入 S (Shift+s) 可快速移动光标至「知道」之后
-  ###  zhi dao | ta de ku zhong bian cheng wo de
-  ###  1. 知道
-  ###  2. 直到
+  ###  假设想输入的句子是: "总有一条蜿蜒在童话镇里梦幻的河"
+  ###  zong you yi tiao ... meng huan de he |
+  ###  1. 总有一条蜿蜒在童话真理梦幻的河
+  ###  2. 总有
+  ###  3. ...
+  ### 此时输入 J (Shift+J) 可快速移动光标至「在」之后
+  ###  zong you yi tiao wan yan zai | tong ...
+  ###  1. 总有一条蜿蜒在
+  ###  2. 总有
+  ###  3. ...
   glim/navigate_with: "asdfghjkl"
 
   ### 注意: 以下说明所使用的双拼方案为小鹤，其余方案原理相同。
