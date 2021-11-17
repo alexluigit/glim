@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 
-import pypinyin
-import opencc
+import json
 import re
 import argparse
-import json
+import pypinyin
+import opencc
 
-pinyin_dict = pypinyin.pinyin_dict.pinyin_dict # 从 pypinyin 库里得到所有文字及其若干个拼音
+pinyin_dict = pypinyin.pinyin_dict.pinyin_dict  # 从 pypinyin 库里得到所有文字及其若干个拼音
 initials_set = set(pypinyin.style._constants._INITIALS)  # 声母表
 initials_set.add("ng")
 
@@ -22,10 +22,10 @@ class DictGenerator:
                 ...
             }
         """
-        fix_dict = json.load(open("../assets/fix_phrases.json", "r"))
         self.t2s = opencc.OpenCC("t2s.json")
         self.phrase_main = {}
         self.phrase_heteronyms = {}
+        fix_dict = json.load(open("../assets/fix_phrases.json", "r"))
         self.phrase_adjust = fix_dict["adjust"]
         self.phrase_add = fix_dict["add"]
         phrase_fix_dict = {}

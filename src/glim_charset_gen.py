@@ -2,7 +2,7 @@
 import os
 import re
 import unicodedata
-from pypinyin import lazy_pinyin, pinyin, Style, load_phrases_dict
+from pypinyin import pinyin, Style, load_phrases_dict
 from lua_helper import dump_lua
 
 han_py_list = []  # [ '的 de', '了 le', ... ]
@@ -113,7 +113,7 @@ def charset_gen(
         else:
             dict_8105[han]["heteronym"] = False
 
-    ## 得，嘚 同为 [ de, dei ], 会影响 「得」字排序
+    # 得，嘚 同为 [ de, dei ], 会影响 「得」字排序
     dict_8105["得"]["heteronym"] = False
 
     return dict_8105, py_han_dict

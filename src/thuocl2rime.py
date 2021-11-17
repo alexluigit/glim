@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# -*- encoding:utf-8 -*-
 import pypinyin
 
 import argparse

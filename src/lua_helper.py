@@ -1,5 +1,6 @@
 import re
 
+
 def dump_lua(data):
     if type(data) is str:
         return f'"{re.escape(data)}"'
@@ -15,4 +16,3 @@ def dump_lua(data):
             [f'["{re.escape(k)}"]={dump_lua(v)}' for k, v in data.items()]
         )
         return "{" + kv_pairs + "}\n"
-
