@@ -9,7 +9,8 @@ local function filter(cands, env)
   local ctx = env.engine.context
   local input = ctx.input
   local caret = ctx.caret_pos
-  local seg_len = caret - TAB_CARET
+  local tab_caret = tonumber(ctx:get_property("tab_caret"))
+  local seg_len = caret - tab_caret
   if input:match("%l+") and seg_len == 1 then
     local tail = input:sub(caret, caret)
     local words = env.alpha_table[tail]

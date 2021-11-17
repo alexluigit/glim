@@ -124,8 +124,8 @@ local _filter_cands = function (cands, env, gl_input, glyph_lvl)
   __display_matches(env, ph_top, gl_input, matched, rest, glyph_lvl)
 end
 
-local _match_input = function (caret, input, auto_lvl, lvl)
-  local seg_len = caret - TAB_CARET
+local _match_input = function (caret, tab_caret, input, auto_lvl, lvl)
+  local seg_len = caret - tab_caret
   if auto_lvl > lvl - 1 and input:match('^[a-z ;]+$')
     and seg_len > 2 * lvl and seg_len <= 2 * (1 + lvl) then
     return true
@@ -136,14 +136,15 @@ local filter = function (cands, env)
   local ctx = env.engine.context
   local input = ctx.input
   local caret = ctx.caret_pos
+  local tab_caret = tonumber(ctx:get_property("tab_caret"))
   local auto_lvl = env.gl_auto_level
   local gl_input = input:sub(caret - (caret % 2 == 1 and 0 or 1), caret)
   if string.match(input, ':%a?') then
     gl_input = string.gsub(input, ".*:", "")
     _filter_cands(cands, env, gl_input, REVERSE_LOOKUP)
-  elseif _match_input(caret, input, auto_lvl, 1) then
+  elseif _match_input(caret, tab_caret, input, auto_lvl, 1) then
     _filter_cands(cands, env, gl_input, AUTO_GLYPH_WORD)
-  elseif _match_input(caret, input, auto_lvl, 2) then
+  elseif _match_input(caret, tab_caret, input, auto_lvl, 2) then
     _filter_cands(cands, env, gl_input, AUTO_GLYPH_PHRASE)
   else
     for cand in cands:iter() do yield(cand) end

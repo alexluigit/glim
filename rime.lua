@@ -1,4 +1,3 @@
-TAB_CARET = 0
 editor_processor = require("editor")
 abbrev_segmentor = require("abbrev")
 glyph_filter = require("glyph")

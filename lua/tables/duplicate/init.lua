@@ -7,5 +7,5 @@ local duplicate_tables = {
 }
 
 return function(layout)
-    return duplicate_tables[layout]
+  return duplicate_tables[layout]
 end
