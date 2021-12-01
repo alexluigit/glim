@@ -191,7 +191,7 @@ class DupFinder:
 
     def analysis_dup_with_phrase(self, layout="chole"):
         phrase_dup = self.try_get_dup_dict(layout)
-        glyph_dict, full_code_dict, double_han_dict, _ = self.convert_phrases(
+        glyph_dict, _, double_han_dict, _ = self.convert_phrases(
             Layouts[layout]
         )
         reversed_double_han_dict = {}
