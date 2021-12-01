@@ -9,6 +9,7 @@ import opencc
 pinyin_dict = pypinyin.pinyin_dict.pinyin_dict  # 从 pypinyin 库里得到所有文字及其若干个拼音
 initials_set = set(pypinyin.style._constants._INITIALS)  # 声母表
 initials_set.add("ng")
+fix_dict = json.load(open("../assets/fix_phrases.json", "r"))
 
 
 class DictGenerator:
@@ -25,9 +26,6 @@ class DictGenerator:
         self.t2s = opencc.OpenCC("t2s.json")
         self.phrase_main = {}
         self.phrase_heteronyms = {}
-        fix_dict = json.load(open("../assets/fix_phrases.json", "r"))
-        self.phrase_adjust = fix_dict["adjust"]
-        self.phrase_add = fix_dict["add"]
         phrase_fix_dict = {}
         with open("pdb.txt", "r") as pdb:
             f_strip = list(
@@ -62,7 +60,7 @@ class DictGenerator:
 
     def fixPhrases(self):
         """修复一些词语拼写/发音错误，调整频率"""
-        for k, v in self.phrase_adjust.items():
+        for k, v in fix_dict["adjust"].items():
             if not v:
                 del self.phrase_main[k]
             elif type(v) == str:
@@ -73,12 +71,9 @@ class DictGenerator:
             else:
                 self.phrase_main[k][0] = v
 
-    def supplementPinyin(self):
-        """若 pdb.txt 无此 phrase, 则通过 pypinyin 库获取到词组的拼音"""
-        for k, v in self.phrase_main.items():
-            if v[0] is None:
-                pinyin = list(map(self.fixPinyin, pypinyin.lazy_pinyin(k)))
-                self.phrase_main[k] = [pinyin, v[1]]
+    def supplementPinyin(self, phrase):
+        """通过 pypinyin 库获取词组拼音"""
+        return list(map(self.fixPinyin, pypinyin.lazy_pinyin(phrase)))
 
     def mergeDict(self, dict_file, weight=1, min_freq=0, dict_name="dict"):
         """
@@ -88,6 +83,11 @@ class DictGenerator:
         """
         text_raw = open(dict_file, "r", encoding="utf-8").read().splitlines()
         text = list(filter(lambda x: not re.match("[a-z-.# ]|^$", x), text_raw))
+
+        fix_dict = json.load(open("../assets/fix_phrases.json", "r"))
+        lit_col_dict = fix_dict["lit_col_reading"]
+        lit_col_regex = re.compile('|'.join(lit_col_dict.keys()))
+
         phrase_count = 0
         for line in text:
             v = tuple(map(lambda e: e.strip(), line.split("\t")))
@@ -120,7 +120,8 @@ class DictGenerator:
                             correct_py.append(self.fixPinyin(py))
                         pinyin = correct_py
                 phrase = self.t2s.convert(word_or_phrase)  # 确保词组为简体
-                # 处理多音词 如: 一行 yi hang/xing
+                # 处理多音词 | 文白异读 (literary and colloquial readings)
+                # 如: 一行 yi hang/xing (多音词) | 流血 liu xue/xie (文白异读)
                 if phrase in self.phrase_main:
                     if pinyin == self.phrase_main[phrase][0]:
                         self.phrase_main[phrase][1] += freq
@@ -129,14 +130,28 @@ class DictGenerator:
                     elif pinyin:
                         self.phrase_heteronyms[phrase] = [pinyin, freq]
                 else:
-                    self.phrase_main[phrase] = [pinyin, freq]
+                    if re.search(lit_col_regex, phrase):
+                        pinyin = pinyin or self.supplementPinyin(phrase)
+                        phrase_literary = pinyin.copy()
+                        phrase_colloquial = pinyin.copy()
+                        for match in re.finditer(lit_col_regex, phrase):
+                            word_literary = lit_col_dict[match.group()][0]
+                            word_colloquial = lit_col_dict[match.group()][1]
+                            phrase_literary[match.start()] = word_literary
+                            phrase_colloquial[match.start()] = word_colloquial
+                        self.phrase_main[phrase] = [phrase_literary, freq]
+                        self.phrase_heteronyms[phrase] = [phrase_colloquial, freq]
+                    else:
+                        self.phrase_main[phrase] = [pinyin, freq]
                 phrase_count += 1
         print("成功合并 %s %s 个词组。" % (dict_name, phrase_count))
 
     def getPhraseList(self, generate=True):
         """生成词组的 rime 字典 list"""
         if generate:
-            self.supplementPinyin()
+            for k, v in self.phrase_main.items():
+                # 若 pdb.txt 无此 phrase, 则通过 pypinyin 库获取到词组的拼音
+                self.phrase_main[k] = [ v[0] or self.supplementPinyin(k), v[1]]
             self.dumpJson()
         else:
             dict_json = json.load(open("glim_dict.json", "r"))
@@ -145,7 +160,7 @@ class DictGenerator:
         self.fixPhrases()
         phrase_main_list = [(k, v[0], v[1]) for k, v in self.phrase_main.items()]
         phrase_sub_list = [(k, v[0], v[1]) for k, v in self.phrase_heteronyms.items()]
-        phrase_add_list = [(k, v[0], v[1]) for k, v in self.phrase_add.items()]
+        phrase_add_list = [(k, v[0], v[1]) for k, v in fix_dict["add"].items()]
         phrase_list = phrase_main_list + phrase_sub_list + phrase_add_list
         # 按频率倒序排序
         phrase_list.sort(key=lambda w: w[2], reverse=True)
