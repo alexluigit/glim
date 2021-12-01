@@ -16,7 +16,7 @@ local function filter(cands, env)
     local words = env.alpha_table[tail]
     ctx:set_property("input_C1", words[1])
     for i, word in ipairs(words) do
-      cand = Candidate("one", 0, 1, word, "")
+      cand = Candidate("one", caret, caret + 1, word, "")
       yield(cand)
     end
   elseif env.fixed and input:match("%l+") and seg_len == 2 then
