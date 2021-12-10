@@ -2,6 +2,7 @@
 #+AUTHOR: Alex Lu
 #+EMAIL: alexluigit@gmail.com
 #+OPTIONS: auto-id:t
+#+startup: inlineimages content
 #+html: <img src="/assets/glim.svg" align="right">
 
 * Glim - 形码辅助拼音输入方案
@@ -20,7 +21,7 @@
 :CUSTOM_ID: Glim_-_形码辅助拼音输入方案-简介_|_Overview-9a6f20fa
 :END:
 
-#+html: <img src="/assets/demo.png" align="center">
+[[./assets/demo.png]]
 
 =阅读提示=: 列位看官可以借助目录直接跳转至所需章节。
 
