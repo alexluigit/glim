@@ -28,22 +28,6 @@ _clone_or_pull () {
   fi
 }
 
-_phrase_wrangling() {
-  local wrangle_phrases=(sed '"')
-  wrangle_phrases+=("s/ \?#.*//;")
-  wrangle_phrases+=("s/失张失志.*//;")
-  wrangle_phrases+=("s/失张失致.*//;")
-  wrangle_phrases+=("s/hòu bù bā d/hòu bù bā diàn/;")
-  wrangle_phrases+=("s/bié wú fēn d$/bié wú fēn diàn/;")
-  wrangle_phrases+=("s/rì jī yuè zh/rì jū yuè zhū/;")
-  wrangle_phrases+=("s/léi tíng wàn j$/léi tíng zhī nù/;")
-  wrangle_phrases+=("s/度人之腹: dù rén zh fù/度人之腹: duó rén zhī fù/;")
-  wrangle_phrases+=("s/不强: bù jiāng/不强: bù qiáng/;")
-  wrangle_phrases+=("s/: /\\t/;")
-  wrangle_phrases+=('"')
-  cat ./phrase-pinyin-data/large_pinyin.txt | eval ${wrangle_phrases[@]} > pdb.txt
-}
-
 _update_emoji() {
   cp ../src/{emoji.js,package.json} .
   yarn add gemoji --latest
@@ -53,14 +37,12 @@ _update_emoji() {
 }
 
 update_dicts_basic() {
-  _clone_or_pull rime-pinyin-simp 'https://hub.fastgit.org/rime/rime-pinyin-simp'
-  _clone_or_pull rime-essay 'https://hub.fastgit.org/rime/rime-essay'
-  _clone_or_pull phrase-pinyin-data 'https://hub.fastgit.org/mozillazg/phrase-pinyin-data'
-  _clone_or_pull THUOCL 'https://hub.fastgit.org/thunlp/THUOCL'
-  _clone_or_pull fcitx5-pinyin-zhwiki 'https://hub.fastgit.org/felixonmars/fcitx5-pinyin-zhwiki'
-  _clone_or_pull rime-settings 'https://github.com/iDvel/rime-settings'
-  zhw_latest=$(grep 'github.com' ./fcitx5-pinyin-zhwiki/recipe.yaml \
-                  | awk -F '::' '{print $2}' | sed 's/github.com/hub.fastgit.org/')
+  _clone_or_pull rime-pinyin-simp 'https://github.com/rime/rime-pinyin-simp'
+  _clone_or_pull rime-essay 'https://github.com/rime/rime-essay'
+  _clone_or_pull phrase-pinyin-data 'https://github.com/mozillazg/phrase-pinyin-data'
+  _clone_or_pull fcitx5-pinyin-zhwiki 'https://github.com/felixonmars/fcitx5-pinyin-zhwiki'
+  _clone_or_pull rime-ice 'https://github.com/iDvel/rime-ice'
+  zhw_latest=$(grep 'github.com' ./fcitx5-pinyin-zhwiki/recipe.yaml | awk -F '::' '{print $2}')
   local zhw_ver="./zhwiki_latest.txt"
   [[ -f $zhw_ver ]] && zhw_last=$(cat $zhw_ver) || touch $zhw_ver
   [[ $zhw_last == $zhw_latest ]] && echo "zhwiki is up to date" || {
@@ -68,12 +50,10 @@ update_dicts_basic() {
     echo $zhw_latest > $zhw_ver
     wget $zhw_latest -q -O zhwiki.dict.yaml
   }
-  _phrase_wrangling
+  cat ./phrase-pinyin-data/large_pinyin.txt | sed "s/ \?#.*//;s/: /\\t/" > pdb.txt
   cp ./rime-essay/essay.txt .
   cp ./rime-pinyin-simp/pinyin_simp.dict.yaml .
-  cp ./rime-settings/dicts/sys.dict.yaml .
-  cat ./THUOCL/data/*.txt > THUOCL.txt
-  ../src/thuocl2rime.py THUOCL.txt ../cache/THUOCL.dict.yaml
+  cp ./rime-ice/cn_dicts/main.dict.yaml .
   $update_emoji && _update_emoji
 }
 

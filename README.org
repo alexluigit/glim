@@ -153,12 +153,14 @@ Linux: =~/.config/ibus/rime= (for ibus) | =~/.local/share/fcitx5/rime= (for fcit
 
 常用按键名:
 
+|-----------+-----------+-------------+-----------|
 | key_repr  | equals_to | key_repr    | equals_to |
 |-----------+-----------+-------------+-----------|
 | comma     | ,         | apostrophe  | '         |
 | period    | .         | bracketleft | [         |
 | slash     | /         | plus        | +         |
 | semicolon | ;         | backslash   | \         |
+|-----------+-----------+-------------+-----------|
 
 更多详情参见: https://github.com/LEOYoon-Tsaw/Rime_collections/blob/master/Rime_description.md
 

@@ -11,7 +11,6 @@ initials_set = set(pypinyin.style._constants._INITIALS)  # 声母表
 initials_set.add("ng")
 fix_dict = json.load(open("../assets/fix_phrases.json", "r"))
 
-
 class DictGenerator:
     def __init__(self):
         """
@@ -175,9 +174,8 @@ class DictGenerator:
 def main(args):
     generator = DictGenerator()
     if args.gen:
-        generator.mergeDict("sys.dict.yaml", args.weight, args.minfreq, "华宇系统词库")
+        generator.mergeDict("main.dict.yaml", args.weight, args.minfreq, "华宇系统词库")
         generator.mergeDict("pinyin_simp.dict.yaml", 1, 0, "袖珍简化字拼音")
-        generator.mergeDict("THUOCL.dict.yaml", 0.01, 0, "THUOCL")
         generator.mergeDict("essay.txt", 1, 0, "八股文")
         generator.mergeDict("pdb.txt", 1, 0, "phrase-pinyin-data")
     phrase_list = generator.getPhraseList(args.gen)
