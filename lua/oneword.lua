@@ -11,6 +11,7 @@ local function filter(cands, env)
   local caret = ctx.caret_pos
   local tab_caret = tonumber(ctx:get_property("tab_caret"))
   local seg_len = caret - tab_caret
+  local fixed_26 = env.fixed_26
   if input:match("%l+") and seg_len == 1 then
     local tail = input:sub(caret, caret)
     local words = env.alpha_table[tail]
@@ -19,7 +20,7 @@ local function filter(cands, env)
       cand = Candidate("one", caret, caret + 1, word, "")
       yield(cand)
     end
-  elseif env.fixed and input:match("%l+") and seg_len == 2 then
+  elseif env.fixed_ch and input:match("%l+") and seg_len == 2 then
     local words_text, filtered, rest = cand_helper.filter_charset(cands)
     cand_helper.sort_by_heteronym(filtered, words_text)
     local rec = false
@@ -30,7 +31,11 @@ local function filter(cands, env)
         ctx:set_property("input_C1", head_ch_word)
         rec = input_helper.set_history(ctx, seg_len, text)
       end
-      if text ~= head_ch_word then yield(cand) end
+      if fixed_26 then
+        if text ~= head_ch_word then yield(cand) end
+      else
+        yield(cand)
+      end
     end
     for i, cand in ipairs(rest) do yield(cand) end
   else
@@ -39,9 +44,10 @@ local function filter(cands, env)
 end
 
 local init = function(env)
-  local fixed = env.engine.schema.config:get_bool("glim/fixed_single_ch")
+  local fixed_ch = env.engine.schema.config:get_bool("glim/fixed_single_ch")
   local layout = env.engine.schema.config:get_string("speller/layout")
-  env.fixed = fixed
+  env.fixed_26 = env.engine.schema.config:get_bool("glim/fixed_26")
+  env.fixed_ch = fixed_ch
   env.alpha_table = require("tables.alphabet_table")(layout)
 end
 

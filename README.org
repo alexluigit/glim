@@ -306,21 +306,26 @@ glim/glyph_auto_level: 2
 - 该功能在造词过程中依旧有效。
 - 该功能仅匹配 I 级及 II 级字 (减少无谓干扰)，III 级字请用「:」引导筛选。
 
-*** 字词固序
+*** 单字固序
 :PROPERTIES:
 :CUSTOM_ID: Glim_-_形码辅助拼音输入方案-功能_|_Features-字词固序-673dd9ce
 :END:
 
-=glim/fixed_sing_ch=: 单字候选是否固定顺序。(默认开启)
-
-形码候选单字排序也由此项决定 (参见「定制 - 关于重码」)。
-二字及以上词语是否调频由 =translator/enable_user_dict= 选项决定。
+- =glim/fixed_sing_ch=: 单字候选是否固定顺序。
+  该选项默认开启。
+  形码候选单字排序也由此项决定 (参见「定制 - 关于重码」)。
+  二字及以上词语是否调频由 =translator/enable_user_dict= 选项决定。
 
 #+begin_src yaml
 glim/fixed_single_ch: true
 #+end_src
 
-TODO: 常用词固定顺序。
+
+- =glim/fixed_26=: 输入单字母时对应某个固定预设汉字 , 且该字将不会出现在后续候选中。
+  该选项默认开启。
+  例如:
+  t  --> 1. 他  2. 她  3. 它 ...
+  ta --> 1. 她  2. 它  3. 塔 ... (「他」字不再出现)
 
 *** 超级简拼
 :PROPERTIES:
@@ -343,7 +348,6 @@ TODO: 常用词固定顺序。
 :END:
 
 =glim/navigate_with=: 用于组句时快速定位到第 X 字。
-
 默认为 =asdfghjkl= (QWERTY 中排)
 
 #+begin_src yaml
