@@ -43,12 +43,13 @@ update_dicts_basic() {
   _clone_or_pull fcitx5-pinyin-zhwiki 'https://github.com/felixonmars/fcitx5-pinyin-zhwiki'
   _clone_or_pull rime-ice 'https://github.com/iDvel/rime-ice'
   zhw_latest=$(grep 'github.com' ./fcitx5-pinyin-zhwiki/recipe.yaml | awk -F '::' '{print $2}')
+  echo $zhw_latest
   local zhw_ver="./zhwiki_latest.txt"
   [[ -f $zhw_ver ]] && zhw_last=$(cat $zhw_ver) || touch $zhw_ver
   [[ $zhw_last == $zhw_latest ]] && echo "zhwiki is up to date" || {
     echo "Downloading latest zhwiki..."
     echo $zhw_latest > $zhw_ver
-    wget $zhw_latest -q -O zhwiki.dict.yaml
+    curl -o zhwiki.dict.yaml -OL $zhw_latest 
   }
   cat ./phrase-pinyin-data/large_pinyin.txt | sed "s/ \?#.*//;s/: /\\t/" > pdb.txt
   cp ./rime-essay/essay.txt .
