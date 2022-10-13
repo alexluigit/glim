@@ -7,10 +7,12 @@ skip_gen=false
 reset_custom=false
 update_sogou=false
 update_emoji=false
+update_duplicate=false
 
-while getopts "cesug" opt; do
+while getopts "cdesug" opt; do
   case $opt in
     c) reset_custom=true;;
+    d) update_duplicate=true;;
     e) update_emoji=true;;
     s) update_sogou=true;;
     u) skip_update=true;;
@@ -70,4 +72,9 @@ gen_dicts_basic() {
 $skip_update || update_dicts_basic
 gen_dicts_basic
 
+$update_duplicate && {
+  ../src/glim_duplicate.py
+  stylua ./lua/duplicate/
+  mv ./lua/duplicate/*.lua ../lua/tables/duplicate/
+}
 $reset_custom && cp ../assets/glim.custom.yaml .. || exit 0

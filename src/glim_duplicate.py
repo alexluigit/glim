@@ -34,6 +34,7 @@ class DupFinder:
         )
         self.dup_table_folder = "../cache/lua/duplicate"
         self.dup_json_folder = "../cache/json/duplicate"
+        self.char_first = json.load(open("../assets/char_first.json", "r"))
         if not os.path.exists(self.dup_table_folder):
             os.makedirs(self.dup_table_folder)
         if not os.path.exists(self.dup_json_folder):
@@ -136,6 +137,7 @@ class DupFinder:
                     "hans": full_code_dict[v],
                 }
         duplicate = {}
+        char_first_list = self.char_first[meta["algebra"]]
         for phrase, info in duplicate_in_code.items():
             really_duplicate = True
             double, l3, full, hans = itemgetter("double", "l3", "full", "hans")(info)
@@ -151,9 +153,11 @@ class DupFinder:
                     really_duplicate = False
                 elif han_in_3:
                     really_duplicate = False
+            if full in char_first_list:
+                really_duplicate = False
             if really_duplicate:
                 duplicate[full] = {"phrase": phrase, "word": hans}
-        return duplicate
+        return dict(list(duplicate.items())[0: 300])
 
     def analysis_dup_without_phrase(self):
         glyph_dict, _, double_han_dict, _ = self.convert_phrases(Layouts["chole"])
