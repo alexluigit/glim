@@ -5,3 +5,5 @@ __pycache__
 *.userdb/
 custom_phrase.txt
 /glim.custom.yaml
+/user.yaml
+/installation.yaml
