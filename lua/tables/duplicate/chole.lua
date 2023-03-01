@@ -149,7 +149,6 @@ local dup_table = {
 	["ejdh"] = { ["phrase"] = "较短", ["word"] = { "湫" } },
 	["wumw"] = { ["phrase"] = "妩媚", ["word"] = { "杌" } },
 	["eiej"] = { ["phrase"] = "计较", ["word"] = { "岌" } },
-	["iiir"] = { ["phrase"] = "是受", ["word"] = { "贳" } },
 	["qiri"] = { ["phrase"] = "七日", ["word"] = { "俟" } },
 	["ythh"] = { ["phrase"] = "延缓", ["word"] = { "炎", "焱" } },
 	["xjmw"] = { ["phrase"] = "小妹", ["word"] = { "骁" } },
@@ -246,7 +245,6 @@ local dup_table = {
 	["eidz"] = { ["phrase"] = "几代", ["word"] = { "洎" } },
 	["dugu"] = { ["phrase"] = "独孤", ["word"] = { "髑" } },
 	["ecso"] = { ["phrase"] = "紧缩", ["word"] = { "缙" } },
-	["lial"] = { ["phrase"] = "里昂", ["word"] = { "鲤", "鬲", "鲡" } },
 	["eisv"] = { ["phrase"] = "脊髓", ["word"] = { "继" } },
 	["pjxg"] = { ["phrase"] = "飘雪", ["word"] = { "瓢" } },
 	["yihx"] = { ["phrase"] = "异化", ["word"] = { "移", "黟" } },
@@ -293,12 +291,14 @@ local dup_table = {
 	["wweg"] = { ["phrase"] = "味觉", ["word"] = { "巍", "隗", "嵬" } },
 	["eibi"] = { ["phrase"] = "击毙", ["word"] = { "疾" } },
 	["qise"] = { ["phrase"] = "起色", ["word"] = { "缉" } },
+	["iiir"] = { ["phrase"] = "失手", ["word"] = { "贳" } },
 	["ejkh"] = { ["phrase"] = "交款", ["word"] = { "噍" } },
 	["yuqh"] = { ["phrase"] = "玉泉", ["word"] = { "狳" } },
 	["ytie"] = { ["phrase"] = "颜射", ["word"] = { "砚" } },
 	["viif"] = { ["phrase"] = "直率", ["word"] = { "雉" } },
 	["keui"] = { ["phrase"] = "可耻", ["word"] = { "蝌" } },
 	["yidk"] = { ["phrase"] = "一叠", ["word"] = { "漪" } },
+	["qndo"] = { ["phrase"] = "千多", ["word"] = { "潜" } },
 }
 
 return dup_table

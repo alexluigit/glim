@@ -113,7 +113,6 @@ local dup_table = {
 	["jmro"] = { ["phrase"] = "减弱", ["word"] = { "僭" } },
 	["liwl"] = { ["phrase"] = "例外", ["word"] = { "理" } },
 	["ubbc"] = { ["phrase"] = "手表", ["word"] = { "守" } },
-	["liqd"] = { ["phrase"] = "李强", ["word"] = { "猁" } },
 	["hdjw"] = { ["phrase"] = "皇家", ["word"] = { "凰", "幌" } },
 	["iumo"] = { ["phrase"] = "触摸", ["word"] = { "楮" } },
 	["vjdk"] = { ["phrase"] = "占到", ["word"] = { "沾", "詹" } },
@@ -132,6 +131,7 @@ local dup_table = {
 	["yrde"] = { ["phrase"] = "远的", ["word"] = { "沅" } },
 	["fucl"] = { ["phrase"] = "福彩", ["word"] = { "芾" } },
 	["mksi"] = { ["phrase"] = "貌似", ["word"] = { "蝥", "蟊" } },
+	["liqd"] = { ["phrase"] = "力强", ["word"] = { "猁" } },
 	["viuo"] = { ["phrase"] = "之说", ["word"] = { "智" } },
 	["ckmz"] = { ["phrase"] = "草莓", ["word"] = { "糙" } },
 	["iaua"] = { ["phrase"] = "查杀", ["word"] = { "馇", "碴" } },
@@ -221,7 +221,6 @@ local dup_table = {
 	["wzdo"] = { ["phrase"] = "为多", ["word"] = { "洧", "渭" } },
 	["yjif"] = { ["phrase"] = "烟尘", ["word"] = { "雁" } },
 	["mibi"] = { ["phrase"] = "密闭", ["word"] = { "蜜" } },
-	["jiyt"] = { ["phrase"] = "集约", ["word"] = { "畿" } },
 	["ynjd"] = { ["phrase"] = "银奖", ["word"] = { "铟" } },
 	["ybyj"] = { ["phrase"] = "油烟", ["word"] = { "羑" } },
 	["jcuh"] = { ["phrase"] = "脚上", ["word"] = { "礁" } },
@@ -259,7 +258,6 @@ local dup_table = {
 	["gkyh"] = { ["phrase"] = "羔羊", ["word"] = { "羔" } },
 	["hwru"] = { ["phrase"] = "划入", ["word"] = { "华" } },
 	["yjig"] = { ["phrase"] = "严惩", ["word"] = { "魇" } },
-	["jicl"] = { ["phrase"] = "基材", ["word"] = { "荠" } },
 	["xnju"] = { ["phrase"] = "新居", ["word"] = { "锌" } },
 	["yure"] = { ["phrase"] = "预热", ["word"] = { "觎" } },
 	["viky"] = { ["phrase"] = "之快", ["word"] = { "吱" } },
@@ -299,6 +297,8 @@ local dup_table = {
 	["yjue"] = { ["phrase"] = "颜射", ["word"] = { "砚" } },
 	["viuy"] = { ["phrase"] = "直率", ["word"] = { "支" } },
 	["jisj"] = { ["phrase"] = "集散", ["word"] = { "级", "纪" } },
+	["siks"] = { ["phrase"] = "司空", ["word"] = { "咝" } },
+	["vrub"] = { ["phrase"] = "转手", ["word"] = { "馔" } },
 }
 
 return dup_table
