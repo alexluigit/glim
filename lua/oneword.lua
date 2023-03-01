@@ -8,6 +8,7 @@ local cand_helper = require("helpers.candidate")
 local function filter(cands, env)
   local ctx = env.engine.context
   local input = ctx.input
+  local input_len = input:len()
   local caret = ctx.caret_pos
   local tab_caret = tonumber(ctx:get_property("tab_caret"))
   local seg_len = caret - tab_caret
@@ -31,7 +32,8 @@ local function filter(cands, env)
         ctx:set_property("input_C1", head_ch_word)
         rec = input_helper.set_history(ctx, seg_len, text)
       end
-      if fixed_26 then
+      -- do not enable fixed_26 feature when composing sentence with TAB key
+      if fixed_26 and input_len <= 2 then
         if text ~= head_ch_word then yield(cand) end
       else
         yield(cand)
