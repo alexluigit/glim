@@ -5,6 +5,7 @@ dependencies:
   - python=3.9
   - pip
   - pip:
-      - opencc
+      # - opencc # It doesn't support arm64 yet
+      - opencc-python-reimplemented
       - pypinyin
       - jupyter

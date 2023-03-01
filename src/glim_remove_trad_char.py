@@ -15,7 +15,7 @@ dict_char = list(map(lambda x: x[0], dict_entries))
 def convert_dict():
     date = datetime.datetime.now().strftime("%Y-%m-%d")
     header = f'---\nname: glim_base\nversion: "{date}"\nsort: by_weight\n...\n'
-    converter = opencc.OpenCC("t2s.json")
+    converter = opencc.OpenCC("t2s")
 
     for i in range(len(dict_char)):
         char_orig = dict_char[i]

@@ -56,7 +56,7 @@ update_dicts_basic() {
   cat ./phrase-pinyin-data/large_pinyin.txt | sed "s/ \?#.*//;s/: /\\t/" > pdb.txt
   cp ./rime-essay/essay.txt .
   cp ./rime-pinyin-simp/pinyin_simp.dict.yaml .
-  cp ./rime-ice/cn_dicts/main.dict.yaml .
+  cp ./rime-ice/cn_dicts/base.dict.yaml main.dict.yaml
   $update_emoji && _update_emoji
 }
 

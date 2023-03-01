@@ -22,14 +22,14 @@ class DictGenerator:
                 ...
             }
         """
-        self.t2s = opencc.OpenCC("t2s.json")
+        self.t2s = opencc.OpenCC("t2s")
         self.phrase_main = {}
         self.phrase_heteronyms = {}
         phrase_fix_dict = {}
         with open("pdb.txt", "r") as pdb:
             f_strip = list(
                 filter(
-                    lambda x: not re.match("[a-z-.# ]|^$", x), pdb.read().splitlines()
+                    lambda x: not re.match(".*#|^$", x), pdb.read().splitlines()
                 )
             )
             for line in f_strip:
