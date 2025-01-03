@@ -1,6 +1,6 @@
 ---
 name: emoji
-version: "7.0.0"
+version: "8.1.0"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -16,6 +16,7 @@ use_preset_vocabulary: true
 😂	joy
 🙂	slightlysmilingface
 🙃	upsidedownface
+🫠	meltingface
 😉	wink
 😊	blush
 😇	innocent
@@ -36,18 +37,25 @@ use_preset_vocabulary: true
 🤑	moneymouthface
 🤗	hugs
 🤭	handovermouth
+🫢	facewithopeneyesandhandovermouth
+🫣	facewithpeekingeye
 🤫	shushingface
 🤔	thinking
+🫡	salutingface
 🤐	zippermouthface
 🤨	raisedeyebrow
 😐	neutralface
 😑	expressionless
 😶	nomouth
+🫥	dottedlineface
+😶‍🌫️	faceinclouds
 😏	smirk
 😒	unamused
 🙄	rolleyes
 😬	grimacing
+😮‍💨	faceexhaling
 🤥	lyingface
+🫨	shakingface
 😌	relieved
 😔	pensive
 😪	sleepy
@@ -63,6 +71,7 @@ use_preset_vocabulary: true
 🥶	coldface
 🥴	woozyface
 😵	dizzyface
+😵‍💫	facewithspiraleyes
 🤯	explodinghead
 🤠	cowboyhatface
 🥳	partyingface
@@ -71,6 +80,7 @@ use_preset_vocabulary: true
 🤓	nerdface
 🧐	monocleface
 😕	confused
+🫤	facewithdiagonalmouth
 😟	worried
 🙁	slightlyfrowningface
 ☹️	frowningface
@@ -79,6 +89,7 @@ use_preset_vocabulary: true
 😲	astonished
 😳	flushed
 🥺	pleadingface
+🥹	faceholdingbacktears
 😦	frowning
 😧	anguished
 😨	fearful
@@ -125,7 +136,6 @@ use_preset_vocabulary: true
 🙈	seenoevil
 🙉	hearnoevil
 🙊	speaknoevil
-💋	kiss
 💌	loveletter
 💘	cupid
 💝	giftheart
@@ -137,15 +147,21 @@ use_preset_vocabulary: true
 💟	heartdecoration
 ❣️	heavyheartexclamation
 💔	brokenheart
+❤️‍🔥	heartonfire
+❤️‍🩹	mendingheart
 ❤️	heart
+🩷	pinkheart
 🧡	orangeheart
 💛	yellowheart
 💚	greenheart
 💙	blueheart
+🩵	lightblueheart
 💜	purpleheart
 🤎	brownheart
 🖤	blackheart
+🩶	greyheart
 🤍	whiteheart
+💋	kiss
 💯	100
 💢	anger
 💥	boom
@@ -154,7 +170,6 @@ use_preset_vocabulary: true
 💦	sweatdrops
 💨	dash
 🕳️	hole
-💣	bomb
 💬	speechballoon
 👁️‍🗨️	eyespeechbubble
 🗨️	leftspeechbubble
@@ -167,11 +182,18 @@ use_preset_vocabulary: true
 ✋	hand
 ✋	raisedhand
 🖖	vulcansalute
+🫱	rightwardshand
+🫲	leftwardshand
+🫳	palmdownhand
+🫴	palmuphand
+🫷	leftwardspushinghand
+🫸	rightwardspushinghand
 👌	okhand
 🤌	pinchedfingers
 🤏	pinchinghand
 ✌️	v
 🤞	crossedfingers
+🫰	handwithindexfingerandthumbcrossed
 🤟	loveyougesture
 🤘	metal
 🤙	callmehand
@@ -182,6 +204,7 @@ use_preset_vocabulary: true
 🖕	fu
 👇	pointdown
 ☝️	pointup
+🫵	indexpointingattheviewer
 👍	+1
 👍	thumbsup
 👎	-1
@@ -195,6 +218,7 @@ use_preset_vocabulary: true
 🤜	fistright
 👏	clap
 🙌	raisedhands
+🫶	hearthands
 👐	openhands
 🤲	palmsuptogether
 🤝	handshake
@@ -219,6 +243,7 @@ use_preset_vocabulary: true
 👁️	eye
 👅	tongue
 👄	lips
+🫦	bitinglip
 👶	baby
 🧒	child
 👦	boy
@@ -227,6 +252,8 @@ use_preset_vocabulary: true
 👱	blondhairedperson
 👨	man
 🧔	beardedperson
+🧔‍♂️	manbeard
+🧔‍♀️	womanbeard
 👨‍🦰	redhairedman
 👨‍🦱	curlyhairedman
 👨‍🦳	whitehairedman
@@ -343,6 +370,7 @@ use_preset_vocabulary: true
 👷	constructionworker
 👷‍♂️	constructionworkerman
 👷‍♀️	constructionworkerwoman
+🫅	personwithcrown
 🤴	prince
 👸	princess
 👳	personwithturban
@@ -358,6 +386,8 @@ use_preset_vocabulary: true
 👰‍♀️	womanwithveil
 👰‍♀️	bridewithveil
 🤰	pregnantwoman
+🫃	pregnantman
+🫄	pregnantperson
 🤱	breastfeeding
 👩‍🍼	womanfeedingbaby
 👨‍🍼	manfeedingbaby
@@ -393,6 +423,7 @@ use_preset_vocabulary: true
 🧟	zombie
 🧟‍♂️	zombieman
 🧟‍♀️	zombiewoman
+🧌	troll
 💆	massage
 💆‍♂️	massageman
 💆‍♀️	massagewoman
@@ -547,6 +578,8 @@ use_preset_vocabulary: true
 🐅	tiger2
 🐆	leopard
 🐴	horse
+🫎	moose
+🫏	donkey
 🐎	racehorse
 🦄	unicorn
 🦓	zebra
@@ -610,6 +643,9 @@ use_preset_vocabulary: true
 🦩	flamingo
 🦚	peacock
 🦜	parrot
+🪽	wing
+🐦‍⬛	blackbird
+🪿	goose
 🐸	frog
 🐊	crocodile
 🐢	turtle
@@ -630,6 +666,8 @@ use_preset_vocabulary: true
 🦈	shark
 🐙	octopus
 🐚	shell
+🪸	coral
+🪼	jellyfish
 🐌	snail
 🦋	butterfly
 🐛	bug
@@ -650,6 +688,7 @@ use_preset_vocabulary: true
 💐	bouquet
 🌸	cherryblossom
 💮	whiteflower
+🪷	lotus
 🏵️	rosette
 🌹	rose
 🥀	wiltedflower
@@ -657,6 +696,7 @@ use_preset_vocabulary: true
 🌻	sunflower
 🌼	blossom
 🌷	tulip
+🪻	hyacinth
 🌱	seedling
 🪴	pottedplant
 🌲	evergreentree
@@ -670,6 +710,9 @@ use_preset_vocabulary: true
 🍁	mapleleaf
 🍂	fallenleaf
 🍃	leaves
+🪹	emptynest
+🪺	nestwitheggs
+🍄	mushroom
 🍇	grapes
 🍈	melon
 🍉	watermelon
@@ -703,9 +746,11 @@ use_preset_vocabulary: true
 🥦	broccoli
 🧄	garlic
 🧅	onion
-🍄	mushroom
 🥜	peanuts
+🫘	beans
 🌰	chestnut
+🫚	gingerroot
+🫛	peapod
 🍞	bread
 🥐	croissant
 🥖	baguettebread
@@ -790,6 +835,7 @@ use_preset_vocabulary: true
 🍻	beers
 🥂	clinkingglasses
 🥃	tumblerglass
+🫗	pouringliquid
 🥤	cupwithstraw
 🧋	bubbletea
 🧃	beveragebox
@@ -801,6 +847,7 @@ use_preset_vocabulary: true
 🥄	spoon
 🔪	hocho
 🔪	knife
+🫙	jar
 🏺	amphora
 🌍	earthafrica
 🌎	earthamericas
@@ -863,6 +910,7 @@ use_preset_vocabulary: true
 🌉	bridgeatnight
 ♨️	hotsprings
 🎠	carouselhorse
+🛝	playgroundslide
 🎡	ferriswheel
 🎢	rollercoaster
 💈	barber
@@ -912,12 +960,14 @@ use_preset_vocabulary: true
 🛤️	railwaytrack
 🛢️	oildrum
 ⛽	fuelpump
+🛞	wheel
 🚨	rotatinglight
 🚥	trafficlight
 🚦	verticaltrafficlight
 🛑	stopsign
 🚧	construction
 ⚓	anchor
+🛟	ringbuoy
 ⛵	boat
 ⛵	sailboat
 🛶	canoe
@@ -1077,10 +1127,10 @@ use_preset_vocabulary: true
 🎯	dart
 🪀	yoyo
 🪁	kite
+🔫	gun
 🎱	8ball
 🔮	crystalball
 🪄	magicwand
-🧿	nazaramulet
 🎮	videogame
 🕹️	joystick
 🎰	slotmachine
@@ -1088,6 +1138,7 @@ use_preset_vocabulary: true
 🧩	jigsaw
 🧸	teddybear
 🪅	pinata
+🪩	mirrorball
 🪆	nestingdolls
 ♠️	spades
 ♥️	hearts
@@ -1125,6 +1176,7 @@ use_preset_vocabulary: true
 🩳	shorts
 👙	bikini
 👚	womansclothes
+🪭	foldinghandfan
 👛	purse
 👜	handbag
 👝	pouch
@@ -1140,6 +1192,7 @@ use_preset_vocabulary: true
 👡	sandal
 🩰	balletshoes
 👢	boot
+🪮	hairpick
 👑	crown
 👒	womanshat
 🎩	tophat
@@ -1178,6 +1231,8 @@ use_preset_vocabulary: true
 🪕	banjo
 🥁	drum
 🪘	longdrum
+🪇	maracas
+🪈	flute
 📱	iphone
 📲	calling
 ☎️	phone
@@ -1186,6 +1241,7 @@ use_preset_vocabulary: true
 📟	pager
 📠	fax
 🔋	battery
+🪫	lowbattery
 🔌	electricplug
 💻	computer
 🖥️	desktopcomputer
@@ -1301,7 +1357,7 @@ use_preset_vocabulary: true
 🛠️	hammerandwrench
 🗡️	dagger
 ⚔️	crossedswords
-🔫	gun
+💣	bomb
 🪃	boomerang
 🏹	bowandarrow
 🛡️	shield
@@ -1330,7 +1386,9 @@ use_preset_vocabulary: true
 🩸	dropofblood
 💊	pill
 🩹	adhesivebandage
+🩼	crutch
 🩺	stethoscope
+🩻	xray
 🚪	door
 🛗	elevator
 🪞	mirror
@@ -1351,6 +1409,7 @@ use_preset_vocabulary: true
 🧻	rollofpaper
 🪣	bucket
 🧼	soap
+🫧	bubbles
 🪥	toothbrush
 🧽	sponge
 🧯	fireextinguisher
@@ -1359,8 +1418,11 @@ use_preset_vocabulary: true
 ⚰️	coffin
 🪦	headstone
 ⚱️	funeralurn
+🧿	nazaramulet
+🪬	hamsa
 🗿	moyai
 🪧	placard
+🪪	identificationcard
 🏧	atm
 🚮	putlitterinitsplace
 🚰	potablewater
@@ -1420,6 +1482,7 @@ use_preset_vocabulary: true
 ☮️	peacesymbol
 🕎	menorah
 🔯	sixpointedstar
+🪯	khanda
 ♈	aries
 ♉	taurus
 ♊	gemini
@@ -1455,6 +1518,7 @@ use_preset_vocabulary: true
 🔅	lowbrightness
 🔆	highbrightness
 📶	signalstrength
+🛜	wireless
 📳	vibrationmode
 📴	mobilephoneoff
 ♀️	femalesign
@@ -1464,6 +1528,7 @@ use_preset_vocabulary: true
 ➕	heavyplussign
 ➖	heavyminussign
 ➗	heavydivisionsign
+🟰	heavyequalssign
 ♾️	infinity
 ‼️	bangbang
 ⁉️	interrobang
